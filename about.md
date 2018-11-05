@@ -5,64 +5,55 @@ permalink: /about/
 sidebar_link: true
 ---
 
-While I doubt that any of you want to read something about me I'll
-continue writing anyway.
-
-My name is Bozhidar Ivanov Batsov. I'm originally from Veliko Tarnovo,
-Bulgaria, but I've been residing in Sofia (Bulgaria's current capital)
-for quite some time now.
-
-I'm currently the CTO of [Tradeo Inc.](http://tradeo.com), where I
-develop and supervise various Ruby on Rails and Node.js applications. Before that
-I've worked as Java developer (Swing, JavaEE, etc). Before that I used
-to be a C++ developer and before that I developed Linux kernel drivers
-for some embedded devices. As you can see I've gradually transferred
-from low-level to very high level programming - hopefully this will
-preserve my sanity for a while.
-
-For more professional details - check my [linkedin profile](http://www.linkedin.com/in/bozhidarbatsov).
-
-Apart from programming I've always been fond of Unix operating systems
-(and operating systems in general (especially those with the source
-code lying around)). My favorite editor is Emacs, my shell of choice
-is zsh and my preferred VCS is git. I'm quite proficient in Linux and
-I happen to be an LPIC-2 certified system administrator.
-
-I maintain a couple of smallish open-source projects here and there
-(mostly on [GitHub](https://github.com/bbatsov/ruby-style-guide)) and I've contributed to many more. I'm also the
-principle author of the [community-driven Ruby coding style guide](https://github.com/bbatsov/ruby-style-guide)
-and the
-[community-driven Ruby on Rails style guide](https://github.com/bbatsov/rails-style-guide).
-
-Some of my other projects in no particular order:
-
-* [RuboCop](https://github.com/bbatsov/rubocop) - A static code analyzer for Ruby
-* [Powerpack](https://github.com/bbatsov/powerpack) - A few useful extensions to core Ruby classes
-* [Prelude](https://github.com/bbatsov/prelude) - An Emacs distribution built on top of GNU Emacs 24
-* [Projectile](https://github.com/bbatsov/projectile) - Project Interaction Library for Emacs, that stays out of your way
-* [clojure-mode](https://github.com/clojure-emacs/clojure-mode) - A major mode for programming in Clojure
-* [cider](https://github.com/clojure-emacs/cider) - A Clojure programming environment for Emacs
-* [guru-mode](https://github.com/bbatsov/guru-mode) - An annoying companion on your journey to Emacs mastery
-* [rubocop-emacs](https://github.com/bbatsov/rubocop-emacs) - Emacs integration for [RuboCop](https://github.com/bbatsov/rubocop)
-* [zenburn-emacs](https://github.com/bbatsov/zenburn-emacs) - The Zenburn color theme, ported to Emacs
-* [solarized-emacs](https://github.com/bbatsov/solarized-emacs) - The Solarized color theme, ported to Emacs
-* [puppet-mode](https://github.com/lunaryorn/puppet-mode) - A mode for editing Puppet 3 manifests
-* [swift-mode](https://github.com/chrisbarrett/swift-mode) - A mode for editing Swift code
-
-If you like my projects you can support their development via [gratipay](https://www.gratipay.com/bbatsov) or PayPal.
-
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.1.3/dist/gratipay.png)](https://gratipay.com/bbatsov)
-
-[![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3J4QE5QBJU84Q)
-
-I teach some free programming courses from time to time, covering
-topics like Perl, Java and Ruby. I've also taught a few Linux
-courses. From time to time I happen to speak at various technical
-conferences.
+## About Me
 
 ![Bozhidar](/images/articles/bozhidar.jpg)
 
-I've created this blog so that I could share some of my thoughts
-(mostly technical) with other people that might be interested in
-them. I don't blog very often and I'm no master writer, but I do hope
-you'll enjoy some of the articles here.
+I'm Bozhidar[^1] and I love computers in general and programming in
+particular[^2]. My fanatic devotion to Emacs is known
+world-wide. I spend a lot of my (free) time on GitHub, contributing
+to various open-source Ruby, Clojure and Emacs Lisp [projects](/projects/).
+
+The above paragraph is actually what I typically use as my bio for
+[conference talks](/presentations/). I love speaking at conferences
+and I'm really bad at it![^3]
+
+I'm living in Sofia, Bulgaria and you should totally ping me if you're
+ever in my part of the world!
+
+## About (think)
+
+This site was my first attempt to write. I failed miserably and I produced some pretty
+crappy content, but I also learned a lot in the process.
+
+These days most of my writing happens at [Meta Redux](https://metaredux.com), but
+I still plan to post here things that are worth sharing, but don't fit the overall
+idea of Meta Redux.
+
+I guess I'll mostly be writing on programming-related topics, but who knows...
+Knowing me there's a high chance I won't actually write anything at all!
+
+## Emacs Redux
+
+I run a separate blog focused on Emacs, that you might want to check
+out as well - [Emacs Redux](http://emacsredux.com).
+
+## Colophon
+
+This website is powered by [Jekyll](https://jekyllrb.com/) and uses
+the [Hydeout theme](https://github.com/fongandrew/hydeout).
+
+I write all of the articles in Emacs and publish them to GitHub
+pages. These days I'm a macOS user most of the time.  When I'm at home
+I do all my writing on my beloved [Leopold
+FC660C](https://deskthority.net/wiki/Leopold_FC660C)[^4].  When I'm on
+the road I do (or don't do) my writing on a Apple Magic Keyboard or
+the built-in MacBook keyboard[^5].
+
+The source code of the site is freely available at [GitHub](//github.com/bbatsov/think.batsov.com).
+
+[^1]: Божидар in Bulgarian. I know, I know - that's both pretty hard to read and to pronounce. My friends call me Bug and so can you.
+[^2]: Especially Lisps! And Unix-like operating systems! And Emacs! And video games!
+[^3]: But at least I'm honest with myself.
+[^4]: Also known as the "best keyboard ever". Seriously!
+[^5]: Also known as the "worst keyboard ever". No shit!
