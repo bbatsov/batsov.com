@@ -5,9 +5,9 @@ date: 2015-06-16 15:59
 comments: true
 categories: articles
 tags:
-- emacs
-- clojure
-- cider
+- Emacs
+- Clojure
+- CIDER
 ---
 
 [CIDER](https://github.com/clojure-emacs/cider) 0.9 is finally out and

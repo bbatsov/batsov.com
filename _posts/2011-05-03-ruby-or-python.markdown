@@ -5,7 +5,6 @@ categories: articles
 tags:
 - Ruby
 - Python
-- Programming
 ---
 
 **Disclaimer**

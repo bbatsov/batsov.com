@@ -3,7 +3,6 @@ layout: post
 title: "Parsing numbers from string in Common Lisp"
 categories: articles
 tags:
-- Programming
 - Common Lisp
 ---
 

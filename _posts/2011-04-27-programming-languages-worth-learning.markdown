@@ -175,7 +175,7 @@ darling and is widely used by the IT giant.
 
 A nice free on-line book about Python is ["Dive into Python 3"](http://diveintopython3.org/).
 
-## C#
+## C\#
 
 The flagman language of the .NET platform. Similar in many aspects to
 Java C# is never-the-less ahead then Java in the innovations

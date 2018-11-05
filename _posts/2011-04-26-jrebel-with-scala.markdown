@@ -5,7 +5,6 @@ categories: articles
 tags:
 - Java
 - Scala
-- Programming
 ---
 
 One of the things I love most about Lisp development is the ability to

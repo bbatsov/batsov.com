@@ -5,7 +5,7 @@ date: 2011-11-20 09:24
 comments: true
 tags:
 - Ruby
-- Ruby on Rails
+- Rails
 - ActiveAdmin
 - RailsAdmin
 ---

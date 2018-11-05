@@ -5,14 +5,14 @@ date: 2012-10-14 22:03
 comments: true
 categories: articles
 tags:
-- emacs
-- osx
+- Emacs
+- OSX
 ---
 
 ## Prelude
 
 In this article I'll share with you a few tips and tricks about
-running Emacs under the Max OSX operating system.
+running Emacs under the Mac OSX operating system.
 
 ## Installation
 

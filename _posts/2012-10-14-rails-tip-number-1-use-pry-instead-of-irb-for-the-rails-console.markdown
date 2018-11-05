@@ -5,9 +5,9 @@ date: 2012-10-14 18:06
 comments: true
 categories: articles
 tags:
-- ruby
-- rails
-- tip
+- Ruby
+- Rails
+- Tip
 ---
 
 This tip is going to be a really short one. Hopefully by now you've

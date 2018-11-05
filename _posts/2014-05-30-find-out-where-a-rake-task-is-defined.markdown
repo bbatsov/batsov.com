@@ -5,7 +5,7 @@ date: 2014-05-30 17:23
 comments: true
 tags:
 - Ruby
-- rake
+- Rake
 ---
 
 Have you ever wondered where a particular rake task is defined? Enter `rake -W` (introduced in `rake` 0.9):

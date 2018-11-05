@@ -5,9 +5,9 @@ date: 2014-11-15 20:17
 comments: true
 categories: articles
 tags:
-- cider
-- clojure
-- emacs
+- CIDER
+- Clojure
+- Emacs
 ---
 
 I'll be talking about the evolution of CIDER at the

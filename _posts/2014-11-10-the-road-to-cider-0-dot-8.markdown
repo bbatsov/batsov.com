@@ -5,8 +5,8 @@ date: 2014-11-10 15:27
 comments: true
 categories: articles
 tags:
-- emacs
-- clojure
+- Emacs
+- Clojure
 ---
 
 I'm planning to release the long overdue [CIDER](https://github.com/clojure-emacs/cider) 0.8 at [clojure/conj](http://clojure-conj.org/) 2014.

@@ -5,8 +5,8 @@ date: 2012-10-14 15:23
 comments: true
 categories: articles
 tags:
-- ruby
-- programming
+- Ruby
+- Tip
 ---
 
 From time to time you might want to take different actions depending

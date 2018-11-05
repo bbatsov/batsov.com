@@ -5,7 +5,7 @@ date: 2012-12-06 16:06
 comments: true
 categories: articles
 tags:
-- tip
+- Tip
 - Emacs
 ---
 

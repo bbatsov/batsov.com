@@ -6,7 +6,7 @@ comments: true
 categories: articles
 tags:
 - Ruby
-- Ruby on Rails
+- Rails
 - Heroku
 ---
 

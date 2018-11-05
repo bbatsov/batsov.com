@@ -5,7 +5,7 @@ date: 2012-12-16 10:10
 comments: true
 categories: articles
 tags:
-- git
+- Git
 ---
 
 This post is mostly a note to myself, since I constantly forget how to

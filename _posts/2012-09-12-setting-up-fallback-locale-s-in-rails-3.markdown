@@ -5,9 +5,8 @@ date: 2012-09-12 14:56
 comments: true
 categories: articles
 tags:
-- programming
-- ruby
-- rails
+- Ruby
+- Rails
 ---
 
 I18n(internationalization) and l10n(localization) are topics that are

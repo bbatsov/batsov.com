@@ -6,7 +6,7 @@ comments: true
 categories: articles
 tags:
 - Ruby
-- Tips
+- Tip
 ---
 
 Newcomers to Ruby are often confused by the fact the `Object` class

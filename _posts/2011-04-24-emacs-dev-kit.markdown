@@ -2,7 +2,6 @@
 layout: post
 title: "Emacs Dev Kit"
 tags:
-- Programming
 - Emacs
 ---
 
