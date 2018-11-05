@@ -40,6 +40,9 @@ paginate: 5
 plugins:
   - jekyll-feed
 
+# Hydeout config
+sidebar_home_link:  true
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
