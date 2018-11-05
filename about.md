@@ -60,7 +60,7 @@ topics like Perl, Java and Ruby. I've also taught a few Linux
 courses. From time to time I happen to speak at various technical
 conferences.
 
-{% img /images/articles/bozhidar.jpg %}
+![Bozhidar](/images/articles/bozhidar.jpg)
 
 I've created this blog so that I could share some of my thoughts
 (mostly technical) with other people that might be interested in
