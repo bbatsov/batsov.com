@@ -34,13 +34,6 @@ number down.  Many of the requests are relatively easy to implement,
 some don't make sense and should be simply closed (or might have been
 fixed accidentally). Same goes for the open PRs.
 
-Alternatively, you can support Projectile's continued development via
-[gratipay](https://www.gratipay.com/bbatsov) or PayPal.
-
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.1.3/dist/gratipay.png)](https://gratipay.com/bbatsov)
-
-[![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3J4QE5QBJU84Q)
-
 That's all for me now, folks! I'll try to deliver stable releases
 faster in the future, but I won't make any promises. Thanks for all
 your help and support! I really appreciate them!

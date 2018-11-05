@@ -32,12 +32,7 @@ far, but the truth is that Clojure is not Common Lisp (or Emacs Lisp
 for that matter) and would benefit from a more refined syntax table,
 indentation rules, etc.
 
-When (if) this will happen?
-Sadly, I have no idea... Help is definitely welcome! If you
-don't have the time to help out with code or docs you can still support my
-work on `clojure-mode` (and all my other projects) via
-[gratipay](https://www.gratipay.com/bbatsov).
-
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.1.3/dist/gratipay.png)](https://gratipay.com/bbatsov)
+When will this happen?
+Sadly, I have no idea... Help is definitely welcome!
 
 That's all for now, folks! Enjoy the new `clojure-mode`!
