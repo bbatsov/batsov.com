@@ -11,7 +11,7 @@ tags:
 
 Meet [RuboCop](https://github.com/bbatsov/rubocop)'s brand new official logo!
 
-![RuboCop Logo](/images/articles/rubocop-logo.png)
+![RuboCop Logo](/assets/images/rubocop-logo.png)
 
 RuboCop's logo was created by
 [Dimiter Petrov](https://www.chadomoto.com/) (the best designer I've

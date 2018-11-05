@@ -124,7 +124,7 @@ introduced to Octopress...
 
 Emacs users are typically portrayed like this:
 
-![Emacs User](/images/articles/emacs_user.jpg)
+![Emacs User](/assets/images/emacs_user.jpg)
 
 I was naturally amused by the Octopress name.
 

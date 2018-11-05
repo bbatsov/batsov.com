@@ -11,4 +11,4 @@ tags:
 Here's one true Emacs Knight (courtesy of my friend Gergana
 Stancheva). Feel free to use it wherever you see fit.
 
-![Emacs Knight](/images/articles/emacs_knight.jpg)
+![Emacs Knight](/assets/images/emacs_knight.jpg)

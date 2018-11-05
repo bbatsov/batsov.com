@@ -18,7 +18,7 @@ the development of Solarized and
 So without further ado here's a screenshot of the theme (or the dark
 variant to be precise):
 
-![Solarized for Emacs](/images/articles/solarized-emacs.png)
+![Solarized for Emacs](/assets/images/solarized-emacs.png)
 
 Note that this is a very early version and I haven't fine tuned all
 the colors yet. The source code and installation instructions can be

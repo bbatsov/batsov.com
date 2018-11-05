@@ -7,7 +7,7 @@ sidebar_link: true
 
 ## About Me
 
-![Bozhidar](/images/articles/bozhidar.jpg)
+![Bozhidar](/assets/images/bozhidar.jpg)
 
 I'm Bozhidar[^1] and I love computers in general and programming in
 particular[^2]. My fanatic devotion to Emacs is known

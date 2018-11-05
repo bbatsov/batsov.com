@@ -29,7 +29,7 @@ installed info and man pages are now compressed by default.
 
 All in all - nothing major has changed with the installation process.
 
-![Emacs 24](/images/articles/emacs24.png)
+![Emacs 24](/assets/images/emacs24.png)
 
 ## General changes
 
