@@ -42,7 +42,7 @@ small but super helpful tool!
 Completion candidates are now annotated with information about the
 namespace and the type of the thing being completed. It's pretty neat.
 
-![Completion Annotations](https://raw.githubusercontent.com/clojure-emacs/cider/master/screenshots/completion-annotations.png)
+![Completion Annotations](https://raw.githubusercontent.com/clojure-emacs/cider/master/doc/images/completion-annotations.png)
 
 The screenshot above features
 [company-mode](http://company-mode.github.io/). The annotations are
