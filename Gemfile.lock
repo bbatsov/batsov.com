@@ -29,6 +29,8 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+    jekyll-compose (0.8.0)
+      jekyll (~> 3.0)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
     jekyll-gist (1.5.0)
@@ -80,6 +82,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.8.4)
+  jekyll-compose
   jekyll-feed (~> 0.6)
   jekyll-remote-theme
   jekyll-theme-hydeout
