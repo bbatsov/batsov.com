@@ -81,7 +81,7 @@ map Command to Super and Option to Meta (on Windows keyboard the
 Command and Option keys are swapped). Add this to your `init.el` (or
 `.emacs`) file:
 
-``` cl
+``` elisp
 (setq mac-command-modifier 'super)
 (setq mac-option-modifier 'meta)
 ```
@@ -90,7 +90,7 @@ If you often switch between your laptop keyboard and an external
 Windows keyboard (like me) you might want to define this helper
 command and bind it to some key combo (`C-c w` in the example):
 
-``` cl
+``` elisp
 (defun swap-meta-and-super ()
   "Swap the mapping of meta and super. Very useful for people using their Mac
 with a Windows external keyboard from time to time."

@@ -50,7 +50,7 @@ this point you can give the command a try with the `tango` theme. If you
 like a theme so much that you'd want to use it all the time you can
 put in your Emacs configuration (`.emacs` or `init.el` for instance) like this:
 
-``` cl
+``` elisp
 (load-theme 'theme-name t)
 ```
 
@@ -62,7 +62,7 @@ prompting you for a theme name, description and faces. After you save
 the theme a file called `name-theme.el` will be written on your
 filesystem. Here's its skeleton:
 
-``` cl
+``` elisp
 (deftheme demo
   "Demo theme")
 
@@ -85,7 +85,7 @@ the built-in tango theme and used it as a reference.
 Once you've created the new theme you'll have to drop it in a folder
 that's on the `custom-theme-load-path`. I'd suggest the following:
 
-``` cl
+``` elisp
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 ```
 
@@ -114,7 +114,7 @@ otherwise it won't be of much use. Add the following snippet (or
 something similar) before the `provide-theme` line if your custom
 theme:
 
-``` cl
+``` elisp
 ;;;###autoload
 (when load-file-name
   (add-to-list 'custom-theme-load-path

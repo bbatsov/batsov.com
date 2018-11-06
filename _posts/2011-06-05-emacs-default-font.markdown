@@ -13,7 +13,7 @@ worry.
 The simplest way to set the Emacs font is just to add the following
 in your .emacs (or init.el):
 
-``` cl
+``` elisp
 (set-default-font "Inconsolata-12")
 ```
 

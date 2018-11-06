@@ -68,6 +68,6 @@ The problems cleaned up are (borrowed from the official documentation):
 It might be a good idea to add `whitespace-cleanup` to your
 `before-save-hook` so that every buffer would be cleaned up before it's saved:
 
-``` cl
+``` elisp
 (add-hook 'before-save-hook 'whitespace-cleanup)
 ```

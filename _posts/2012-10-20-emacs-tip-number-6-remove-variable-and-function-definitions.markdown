@@ -13,7 +13,7 @@ function definition in Emacs. Most often you'll probably be dealing
 with variables created with `defvar` whose values you'll want to
 update.  The magic functions you need are the following:
 
-``` cl
+``` elisp
 ;; this will make the symbol my-nasty-variable's value void
 (makunbound 'my-nasty-variable)
 ;; this will make the symbol my-nasty-function's

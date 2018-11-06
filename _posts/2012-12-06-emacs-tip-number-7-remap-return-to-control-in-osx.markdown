@@ -21,7 +21,7 @@ The traditional solution to the problem is to use a tool like
 the right `Option` key to right `Control` and to use a snippet like
 this to make `Command` behave like `Meta` in Emacs:
 
-``` cl
+``` elisp
 (setq mac-command-modifier 'meta)
 ```
 

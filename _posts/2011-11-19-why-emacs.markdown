@@ -170,7 +170,7 @@ compilations steps or huge interfaces that have to be
 implemented. There is virtually no ceremony. For
 instance:
 
-``` cl
+``` elisp
 (defun prelude-google ()
   "Googles a query or region if any."
   (interactive)

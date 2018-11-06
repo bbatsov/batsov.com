@@ -12,7 +12,7 @@ Emacs in an external program. For instance - you might be editing
 some HTML file and you might want to see how is it looking in a
 browser. I use the following handy command to do so:
 
-``` cl
+``` elisp
 (defun prelude-open-with ()
   "Simple function that allows us to open the underlying
 file of a buffer in an external program."
@@ -32,7 +32,7 @@ program in the minibuffer.
 
 I find it convenient to bind the command to `C-c o`:
 
-``` cl
+``` elisp
 (global-set-key (kbd "C-c o") 'prelude-open-with)
 ```
 

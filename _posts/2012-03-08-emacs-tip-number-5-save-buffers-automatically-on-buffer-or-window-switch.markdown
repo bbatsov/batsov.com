@@ -20,7 +20,7 @@ auto-save buffers when we switch the Emacs window or the current
 buffer (which are more or less the most popular ways to change editing
 focus in Emacs). This is easy to achieve in Emacs Lisp:
 
-```cl
+``` elisp
 ;; use shift + arrow keys to switch between visible buffers
 (require 'windmove)
 (windmove-default-keybindings 'super)

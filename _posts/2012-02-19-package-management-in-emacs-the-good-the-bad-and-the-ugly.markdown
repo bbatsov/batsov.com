@@ -43,7 +43,7 @@ the latest version of `package.el` from
 [here](http://repo.or.cz/w/emacs.git/blob_plain/1a0a666f941c99882093d7bd08ced15033bc3f0c:/lisp/emacs-lisp/package.el)
 and enjoy it. At this point you'll have to do something like:
 
-``` cl
+``` elisp
 (require 'package)
 (package-initialize)
 ```
@@ -88,7 +88,7 @@ requirements. Probably the most popular of them is
 [Nathan Weizenbaum](http://nex-3.com/) of Sass and Haml fame. You can
 include it in your `package-archives` list like this:
 
-``` cl
+``` elisp
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
 ```
@@ -108,7 +108,7 @@ interface. In
 following code to install a list of required packages automatically on Emacs
 startup (if necessary):
 
-``` cl
+``` elisp
 (defvar prelude-packages
   '(ack-and-a-half auctex clojure-mode coffee-mode deft expand-region
                    gist groovy-mode haml-mode haskell-mode inf-ruby
@@ -144,7 +144,7 @@ repo) and installs them.
 To be able to publish a package to Marmalade (or another repo) it
 should comform a standardized structure. A single-file package might look like this:
 
-``` cl
+``` elisp
 ;;; sass-mode.el --- Sass major mode
 
 ;; Copyright 2007-2010 Nathan Weizenbaum
@@ -162,7 +162,7 @@ should comform a standardized structure. A single-file package might look like t
 A multi-file package should have an additional file named
 `<name>-pkg.el` that should look like this:
 
-``` cl
+``` elisp
 (define-package "sass-mode" "3.0.20"
                 "Sass major mode"
                 '((haml-mode "3.0.20")))

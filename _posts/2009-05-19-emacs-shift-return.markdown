@@ -15,7 +15,7 @@ create one, combining several well known functions in the process and
 bind that new function to the desired key combination. Here’s the
 snippet one might have in his .emacs(or other) “configuration” file:
 
-``` cl
+``` elisp
 ;; insert an empty line after the current line and position the cursor on its beginning
 (defun insert-empty-line ()
  (interactive)

@@ -7,12 +7,13 @@ tags:
 - Emacs
 ---
 
-A few weeks ago I wrote an
-[article about the state of package management in Emacs](http://batsov.com/articles/2012/02/19/package-management-in-emacs-the-good-the-bad-and-the-ugly/). In
-that article I pointed out that on the side of [package.el](http://wikemacs.org/wiki/Package.el) too much
-was riding on the poorly maintained Marmalade repo. Today
-Marmalade went dark (again) and many people are wondering what to do
-now. The answer is simple - start using [MELPA](http://melpa.milkbox.net/) instead.
+A few weeks ago I wrote an [article about the state of package
+management in Emacs]({% post_url 2012-02-19-package-management-in-emacs-the-good-the-bad-and-the-ugly %}).
+In that article I pointed out that on the side of
+[package.el](http://wikemacs.org/wiki/Package.el) too much was riding
+on the poorly maintained Marmalade repo. Today Marmalade went dark
+(again) and many people are wondering what to do now. The answer is
+simple - start using [MELPA](http://melpa.milkbox.net/) instead.
 
 I was thinking of starting a project similar to Marmalade to alleviate
 its problems, but then the MELPA project was brought to my
@@ -38,10 +39,10 @@ packages, using upstream version tags.
 Adding a new package to MELPA is as simple as adding a few lines of
 code to the `pkglist` file in MELPA's source code repo:
 
-```cl
+``` elisp
 (name :url "<repo url>"
- :fetcher [git|svn|darcs|wiki]
- [:files ("<file1>", ...)])
+      :fetcher [git|svn|darcs|wiki]
+      [:files ("<file1>", ...)])
 ```
 
 You simply have to fork the [official repo](https://github.com/milkypostman/melpa), modify `pkglist`, send a pull
@@ -56,9 +57,9 @@ package. Often the original uploaders are very hard to find...
 To use MELPA with Emacs 24 (or a recent version of `package.el`) just
 add this to your `.emacs` (or equivalent):
 
-```cl
+``` elisp
 (add-to-list 'package-archives
-'("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "http://melpa.milkbox.net/packages/") t)
 ```
 
 There's a lot more info regarding MELPA on its official website and
@@ -66,8 +67,8 @@ I'd rather not duplicate it here.
 
 I would encourage package authors and users to investigate and
 contribute to MELPA. I've already submitted a bunch of packages
-there and rebased [Emacs Prelude](http://batsov.com/prelude) to
-use MELPA instead of Marmalade.
+there and rebased [Emacs Prelude](https://github.com/bbatsov/prelude) on top
+of MELPA instead of Marmalade.
 
 Together we can turn MELPA into the most extensive and robust community-supported
-`package.el` repo! Emacs users deserve one of those :-)
+`package.el` repo! Emacs users deserve one of those! :-)
