@@ -32,7 +32,7 @@ sequences” and they have special significance to zsh. The rest of the
 characters in the prompt definition are represented literally in the
 resulting prompt. It looks like this (on my machine):
 
-``` shell
+```
 [bozhidar@locahost ~/store] $
 ```
 
