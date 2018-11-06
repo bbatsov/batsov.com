@@ -52,7 +52,7 @@ links were like
 
 To preserve the old links I had to add this to `_config.yml`:
 
-```
+``` yaml
 permalink: ":categories/:year/:month/:day/:title/"
 ```
 
@@ -83,6 +83,7 @@ became this:
 ---
 layout: post
 title: Migrating from Octopress to Jekyll
+categories: articles
 tags:
 - Jekyll
 - Octopress
@@ -91,6 +92,12 @@ tags:
 ```
 
 Not sure how good my approach was, but it got the job done.
+
+As an alternative `articles` can simply be made part of the default `permalink`:
+
+``` yaml
+permalink: "articles/:year/:month/:day/:title/"
+```
 
 ## Add jekyll-compose
 
