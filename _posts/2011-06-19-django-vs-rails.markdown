@@ -44,7 +44,7 @@ boat as was - picking between Rails and Django.
 
 ### Rails
 
-#### Linux & OSX
+#### Linux & OS X
 
 The recommended (by me) way to install Ruby and Ruby on Rails 3.x is via
 [RVM](https://rvm.beginrescueend.com/). RVM allows you to have several
@@ -213,7 +213,7 @@ And on a Debian system:
 $ sudo apt-get install python-django
 ```
 
-A popular alternative (that would work for OSX and Windows users as
+A popular alternative (that would work for OS X and Windows users as
 well) to this distro-specific approach is to use a
 python package manager like [easy_install](http://packages.python.org/distribute/easy_install.html) or [pip](http://pypi.python.org/pypi/pip).
 

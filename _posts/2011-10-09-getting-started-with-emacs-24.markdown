@@ -20,7 +20,7 @@ that the way to obtain Emacs 24 is not particularly straightfoward/clear,
 hence this post.
 
 I'll discuss here the installation and initial configuration of Emacs
-24 on OSX, GNU/Linux and Windows.
+24 on OS X, GNU/Linux and Windows.
 
 <!--more-->
 
@@ -30,7 +30,7 @@ I'll discuss here the installation and initial configuration of Emacs
 
 Obtaining Emacs 24 on OS X is really simple. There are two popular
 ways to do it. The first is to simply download a pretest (or a nightly
-build) from [Emacs for OSX](http://emacsformacosx.com). My personal
+build) from [Emacs for OS X](http://emacsformacosx.com). My personal
 recommendation would be to get the latest pretest (which is ironically
 the first pretest as well) from
 [here](http://emacsformacosx.com/emacs-builds/Emacs-pretest-24.0.90-universal-10.6.7.dmg).
@@ -104,7 +104,7 @@ Installing Emacs has always been the easy part, configuring it
 properly - not that much. That's why I've created the
 [Emacs Prelude](https://github.com/bbatsov/prelude) - an
 advanced Emacs setup specifically for Emacs 24 that has been tested to
-properly work on OSX, Linux and Windows.
+properly work on OS X, Linux and Windows.
 
 Its installation is dead simple:
 

@@ -1,24 +1,24 @@
 ---
 layout: post
-title: "From Linux to OSX: Meet Your New Apps"
+title: "From Linux to OS X: Meet Your New Apps"
 date: 2012-12-09 11:41
 comments: true
 tags:
 - Linux
-- OSX
+- OS X
 ---
 
 ## Prelude
 
 It's time I resume what I started in
-[my previous article documenting my first year as an OSX user](http://batsov.com/articles/2012/09/09/from-linux-to-osx-1-year-later/)
+[my previous article documenting my first year as an OS X user](http://batsov.com/articles/2012/09/09/from-linux-to-osx-1-year-later/)
 a few months ago.
 
 In this article I'll focus primarily on the applications I've adopted
-during my short time being a Mac OSX user, after being a GNU/Linux
+during my short time being a Mac OS X user, after being a GNU/Linux
 user for quite some time before that. The focus of the article will be
 mostly desktop applications, since the command-line tools are more or
-less the same in both operating system. I will mention a couple of OSX
+less the same in both operating system. I will mention a couple of OS X
 specific command-line tools near the end of the article though.
 
 <!--more-->
@@ -32,10 +32,10 @@ module) and while it did get the job done I wasn't particularly
 fond of it. At some point I was so frustrated with LibreOffice, that I
 started running Microsoft Office with
 [CodeWeavers CrossOver for Linux](http://www.codeweavers.com/products/). If
-you like LibreOffice - it's available on OSX as well. If you don't
+you like LibreOffice - it's available on OS X as well. If you don't
 like it - you have some solid alternative available.
 
-First, there is a native port of Microsoft Office for OSX. It's a far
+First, there is a native port of Microsoft Office for OS X. It's a far
 cry from the Windows version of the app, but it does have a few
 advantages over LibreOffice. If you're doing a lot of document
 authoring and editing it might be a good option for you.
@@ -53,13 +53,13 @@ presentations and for the first I actually enjoy the process.
 
 #### Skype
 
-Skype has a native client for OSX, that's much more stable and
+Skype has a native client for OS X, that's much more stable and
 featureful than the Linux one.
 
 #### Pidgin/Kopete
 
-OSX Mountain Lion ships with an app similar to Pidgin and Kopete
-called **Messages** (and iMessage in older OSX versions). It supports
+OS X Mountain Lion ships with an app similar to Pidgin and Kopete
+called **Messages** (and iMessage in older OS X versions). It supports
 a plethora of chat protocols, but it kept constantly disconnecting and
 crashing for me, so I started looking for an
 alternative. [Adium](http://adium.im/) is a great free IM app that
@@ -70,11 +70,11 @@ recommend it to everyone.
 
 If you're in the market for an XChat replacement look no further than
 [Colloquy](http://colloquy.info/). Personally I used Emacs's ERC under
-Linux and continue to use it under OSX as well.
+Linux and continue to use it under OS X as well.
 
 #### Twitter
 
-Twitter has an official desktop app for OSX, that's available for free
+Twitter has an official desktop app for OS X, that's available for free
 in the Mac App store. It has one notable shortcoming - no retina
 support. Rumour has it Twitter will kill the app in the future, but it
 gets the job done for the time being and there are plenty of
@@ -82,18 +82,18 @@ alternatives lying around.
 
 ### Browser
 
-The default OSX browser Safari is great and has some fairly unique
+The default OS X browser Safari is great and has some fairly unique
 features like pinch to zoom gesture support (smartphone users will
 appreciate those). Unfortunately it has a pretty small selection of
 plugins and might not be well suited for power users. I recommend the
-use of Google Chrome on OSX, since Firefox really seems to lag in terms
+use of Google Chrome on OS X, since Firefox really seems to lag in terms
 of features there (the upcoming Firefox 18 will be the first with
 Retina support).
 
 ### Email
 
-OSX's default application **Mail** is decent, but nothing
-more. Thunderbird is available for OSX, but I personally think it's no
+OS X's default application **Mail** is decent, but nothing
+more. Thunderbird is available for OS X, but I personally think it's no
 better than Mail. My desktop email client of choice is the delightful
 [Sparrow](http://www.sparrowmailapp.com/mac.php). It's the first
 desktop email client I ever liked (I used to check my email with
@@ -105,7 +105,7 @@ continue using it in the foreseeable future.
 
 ### Keyboard remapping
 
-By default you cannot remap that many things in OSX. The small utility
+By default you cannot remap that many things in OS X. The small utility
 [KeyRemap4MacBook](http://pqrs.org/macosx/keyremap4macbook/) allows
 you to do much crazier remappings and despite its name the tool works
 on all recent Macs.
@@ -113,34 +113,34 @@ on all recent Macs.
 ### Virtualization Software
 
 The go-to desktop virtualization solution favoured by most Linux users
-is VirtualBox and it's available for OSX as well. VirtualBox gets the
+is VirtualBox and it's available for OS X as well. VirtualBox gets the
 job done, but doesn't even come close to
 [Parallels](http://www.parallels.com/) in terms of performance,
-stability and integration with OSX. Parallels support for Windows
+stability and integration with OS X. Parallels support for Windows
 guests is particularly good.
 
 ## Software Development
 
 ### Text Editing
 
-Every major text editor has a port for OSX, so things are pretty
-much the same here. On OSX you'll also get access to
+Every major text editor has a port for OS X, so things are pretty
+much the same here. On OS X you'll also get access to
 [TextMate](http://macromates.com/). My affection for Emacs is widely
 known though. Excellent Emacs builds are available
 [here](http://emacsformacosx.com/) and the upcoming Emacs 24.3 will
-finally feature OSX Lion style full-screen support. If the mention of
+finally feature OS X Lion style full-screen support. If the mention of
 Emacs and vim scares you I'd recommend trying out
 [Sublime Text 2](http://www.sublimetext.com/2).
 
 ### IDEs
 
 Eclipse, NetBeans and IntelliJ are available (no suprise since they
-are all Java apps) and look and perform great on OSX. There's also
+are all Java apps) and look and perform great on OS X. There's also
 Apple's own XCode, which I found unwieldy.
 
 ### Terminal Emulator
 
-OSX comes with a pretty barebone terminal emulator called
+OS X comes with a pretty barebone terminal emulator called
 **Terminal**. I wouldn't advice anyone to spent much time with it.
 
 Install [iTerm2](http://www.iterm2.com/#/section/home). It redefines
@@ -148,7 +148,7 @@ the meaning of insanely great.
 
 ### Shells
 
-OSX comes with Bash enabled by default, but Zsh is also preinstalled
+OS X comes with Bash enabled by default, but Zsh is also preinstalled
 and you can easily enable it by typing:
 
 ``` bash
@@ -164,12 +164,12 @@ As in Linux [VLC](http://www.videolan.org/vlc/index.html) is the king.
 ### Audio player
 
 iTunes fits the bill for a basic music player. I still haven't found an
-OSX app which I like as much as Linux's Amarok and Exaile.
+OS X app which I like as much as Linux's Amarok and Exaile.
 
 ### UPnP server
 
 Under Linux I used to use MediaTomb and it performed great. It's
-available for OSX as well, but was causing a lot of problems for me,
+available for OS X as well, but was causing a lot of problems for me,
 so I finally decided to go with a commercial solution. I heartily
 recommend [Playback](http://www.yazsoft.com/products/playback/). Of
 course if your media player supports NFS you should go with it instead
@@ -180,19 +180,19 @@ of UPnP.
 ### FTP
 
 [Filezilla](http://filezilla-project.org/download.php?type=client) is
-extremely popular under Linux and has a native OSX version as
+extremely popular under Linux and has a native OS X version as
 well. [Cyberduck](http://cyberduck.ch/) seems to be the top choice of
-OSX users.
+OS X users.
 
 ### Bittorrent
 
 There are plenty of great Bittorrent clients on Linux - Deluge,
-KTorrent, Transmission, etc. Transmission is the only with an OSX port
-and it seems that it's also the only popular OSX torrent client.
+KTorrent, Transmission, etc. Transmission is the only with an OS X port
+and it seems that it's also the only popular OS X torrent client.
 
 ## Package Management
 
-OSX has no official package managent tool but it has plenty of
+OS X has no official package managent tool but it has plenty of
 unofficial ones. Currently
 [homebrew](http://mxcl.github.com/homebrew/) seems to be the most
 popular option. Its package selection is quite vast and I've rarely
@@ -203,9 +203,9 @@ should definitely check homebrew out.
 ## Command Line
 
 Most of the command line applications that you know and love from
-Linux are available in OSX (by default or installable via homebrew) as
+Linux are available in OS X (by default or installable via homebrew) as
 well (but might be slightly different since Linux ships with GNU's
-version of many tools and OSX with BSD's). Here's a few notable OSX
+version of many tools and OS X with BSD's). Here's a few notable OS X
 specific commands:
 
 * `open` - opens a file or directory in the appropriate desktop application
@@ -214,7 +214,7 @@ specific commands:
 $ open doc.pdf
 ```
 
-* `pbcopy` and `pbpaste` allow you to interact with OSX's clipboard
+* `pbcopy` and `pbpaste` allow you to interact with OS X's clipboard
 
 * `launchctl` is a rough equivalent to the `service` and `chkconfig` commands on some Linux distros
 
@@ -226,6 +226,6 @@ $ open doc.pdf
 
 This was a whirlwind tour of so many apps. I hope that my superficial
 treatment of many of them won't stop you from trying them out. It
-seems to me that the app selection catalogue on OSX is not as vast as
-the one on Linux, but there's also a tendency that established OSX
+seems to me that the app selection catalogue on OS X is not as vast as
+the one on Linux, but there's also a tendency that established OS X
 apps are much more polished and reliable.

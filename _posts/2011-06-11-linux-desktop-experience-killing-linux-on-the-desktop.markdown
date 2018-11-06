@@ -107,7 +107,7 @@ unfortunately manifest on all kind of hardware no matter how old._
   doesn't wake up. Wireless dies after wake up. Suspend/resume used to
   be something mythical to most Linux users. Recently the situation
   has improved a bit it's still light years away from what you get
-  with Windows/OSX.
+  with Windows/OS X.
 
 **Poor power management** - my older laptop's battery lasted several
   weeks while sleeping when I was using Windows on it. When I replaced

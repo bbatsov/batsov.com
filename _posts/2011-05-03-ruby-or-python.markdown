@@ -97,10 +97,10 @@ commonly used.
 
 **OS X installation**
 
-Ruby is generally preinstalled on OSX, but OSX users can also install
+Ruby is generally preinstalled on OS X, but OS X users can also install
 it via [homebrew](http://mxcl.github.com/homebrew/) or RVM(as mentioned in the Linux section).
 
-The is an official [Python package for OSX](http://python.org/ftp/python/3.2/python-3.2-macosx10.6.dmg) available. Most users
+The is an official [Python package for OS X](http://python.org/ftp/python/3.2/python-3.2-macosx10.6.dmg) available. Most users
 will probably prefer using homebrew, however.
 
 ## Syntax & code structure

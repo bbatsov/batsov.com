@@ -1,36 +1,36 @@
 ---
 layout: post
-title: "Emacs on OSX"
+title: "Emacs on OS X"
 date: 2012-10-14 22:03
 comments: true
 tags:
 - Emacs
-- OSX
+- OS X
 ---
 
 ## Prelude
 
 In this article I'll share with you a few tips and tricks about
-running Emacs under the Mac OSX operating system.
+running Emacs under the Mac OS X operating system.
 
 ## Installation
 
 While Emacs is available for installation from
 [various sources](http://wikemacs.org/wiki/Installing_Emacs_on_OS_X)
 I personally recommend you to use the
-[Emacs for Mac OSX binary distribution](http://wikemacs.org/wiki/Installing_Emacs_on_OS_X).
+[Emacs for Mac OS X binary distribution](http://wikemacs.org/wiki/Installing_Emacs_on_OS_X).
 
 Installation via Homebrew is also a decent option, although it more time consuming.
 
 After the installation you might want to wipe out the ancient Emacs 22
-that ships with OSX by default(its presence will only cause headaches, trust me):
+that ships with OS X by default(its presence will only cause headaches, trust me):
 
 ``` bash
 $ sudo rm /usr/bin/emacs
 $ sudo rm -rf /usr/share/emacs
 ```
 
-Keep in mind that the OSX updates will (unfortunately) bring Emacs 22 back from the dead, so
+Keep in mind that the OS X updates will (unfortunately) bring Emacs 22 back from the dead, so
 you might consider altering your `PATH` instead.
 
 Alternatively you can just create an alias in your shell and when you
@@ -56,7 +56,7 @@ ns-toggle-fullscreen` command for switching between normal and
 full-screen modes. It works well, but does not provide the typical OS
 X Lion full-screen app experience. In particular, it remains on the
 desktop, obscuring non-full-screen applications, rather than moving to
-its own space. For OSX Lion style fullscreen support have a look at
+its own space. For OS X Lion style fullscreen support have a look at
 this
 [article](http://sourcematters.org/2012/04/10/full-screen-emacs-24-for-os-x-lion.html).
 
@@ -129,7 +129,7 @@ $ brew install aspell --lang=en
 ## More goodies
 
 If you want to spare yourself part of the headache of configuring
-Emacs on OSX and get a lot of extra firepower you might want to install
+Emacs on OS X and get a lot of extra firepower you might want to install
 [Emacs Prelude](https://github.com/bbatsov/prelude) - an enhanced
 Emacs 24.x configuration (developed by yours truly) that should make
 your experience with Emacs both more pleasant and more powerful.

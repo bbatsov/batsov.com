@@ -16,7 +16,7 @@ now. The answer is simple - start using [MELPA](http://melpa.milkbox.net/) inste
 
 I was thinking of starting a project similar to Marmalade to alleviate
 its problems, but then the MELPA project was brought to my
-attention. This project follows the Homebrew (unofficial OSX package
+attention. This project follows the Homebrew (unofficial OS X package
 manager) model of using simple GitHub collaboration to maintain and
 grow a bunch of build recipes. In the case of MELPA, those recipes
 show how to bundle upstream source packages into package.el-compliant

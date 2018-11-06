@@ -269,7 +269,7 @@ to imagine what exciting changes are about to come...
 Most shells (`bash`, `zsh`, etc) use Emacs keybindings by default. Most of
 the Emacs keybindings are the same as those found in the readline
 library. Apple's Cocoa toolkit uses Emacs keybindings as well - I
-guess this is one of the reasons why so many Emacs users love OSX.
+guess this is one of the reasons why so many Emacs users love OS X.
 
 ## Emacs vs the World
 
@@ -346,13 +346,13 @@ use a bit more powerful and a bit more modern extension language.
 While the GUIs in recent Emacs version were much improved there is
 still much to be desired.
 
-For instance - on OSX it would be nice if Emacs used Lion style
-scrollbars and had support for the full-screen app mode. On OSX there
+For instance - on OS X it would be nice if Emacs used Lion style
+scrollbars and had support for the full-screen app mode. On OS X there
 are some strange Cocoa bugs as well - like linum-mode looking
 corrupted, etc.
 
 I guess that currently Emacs's GTK version has the nicest GUI of them
-all, but it would good of the Windows and OSX port got some more love.
+all, but it would good of the Windows and OS X port got some more love.
 
 #### Multi-threading
 

@@ -26,7 +26,7 @@ file of a buffer in an external program."
                     buffer-file-name))))
 ```
 
-On OSX it would use the `open` program to decide which program to open
+On OS X it would use the `open` program to decide which program to open
 the file with, otherwise you'd be prompted to enter the name of the
 program in the minibuffer.
 

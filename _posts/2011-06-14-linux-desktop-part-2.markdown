@@ -125,7 +125,7 @@ little doubt in that. The problem is that these same developers spent
 their days working other jobs and you cannot seriously expect them to
 have the time or the energy (not to mention the specs required) to
 produce drivers that are on par with commercial counterparts developed
-for OSX and Windows by big team with vast resources at their disposal.
+for OS X and Windows by big team with vast resources at their disposal.
 
 This is the actual problem as I see it - we're expecting individuals
 to create good drivers for us out the kindness of their hearts in
@@ -263,13 +263,13 @@ rest. I feel that Firefox's days as the dominant browser on the Linux
 desktop are numbered - most of my friends that use Linux have already
 switched to Chrome (or the open source Chromium). Firefox on Linux is
 like a bad joke - slow, memory hungry and unstable. I keep hearing
-that it runs a lot better on OSX and Windows, probably because it got
+that it runs a lot better on OS X and Windows, probably because it got
 a lot more testing on those platforms. I understand their reasoning -
 most of their clients use those two OSes so it makes sense to make them
 important in the dev/testing phases. But they should remember
 something - Firefox is (for now) the default
 browser only in most Linux distros and it's never going to be the
-default in Windows or OSX...
+default in Windows or OS X...
 
 Same goes for OpenOffice to the letter.
 
@@ -280,7 +280,7 @@ site my CPU load generally spikes up to the sky (thank God for AdBlock
 & FlashBlock).
 
 Skype was not even mentioned here (until now obviously) since the Linux version is so far behind
-the one for OSX and Windows that I wouldn't even consider it a
+the one for OS X and Windows that I wouldn't even consider it a
 port. It's just some pile of crap compiled to be able to list Linux as
 a supported OS on their website... They promised improvements, they
 promised an open-source Linux client - two years later we're still
@@ -356,7 +356,7 @@ Few good options are worth more than a million half-baked options!
 ## Epilogue
 
 This article (and the one before it) was never about jumping the
-ship, claiming that Windows or OSX are better than Linux or spreading
+ship, claiming that Windows or OS X are better than Linux or spreading
 "FUD" (if I totally hate a term this is the one). It was always about
 raising the awareness of existing issues in the land of desktop
 Linux. After all just a few days before [I had written a post

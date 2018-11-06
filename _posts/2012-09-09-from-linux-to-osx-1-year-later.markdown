@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "From Linux to OSX - 1 Year Later"
+title: "From Linux to OS X - 1 Year Later"
 date: 2012-09-09 22:11
 comments: true
 tags:
 - misc
 - Linux
-- OSX
+- OS X
 ---
 
 ## Prelude
@@ -20,12 +20,12 @@ me (and it's ill suited for most programmers, except maybe Java & .Net I
 guess).
 
 Anyways, it was never my intention to stick with Windows - I was just
-doing my Mac due diligence. Now with 1+ year of OSX usage I'd
+doing my Mac due diligence. Now with 1+ year of OS X usage I'd
 like to share a few things about my experience thus far with you.
 
 <!--more-->
 
-## From Linux to OSX
+## From Linux to OS X
 
 The transition was initially painful - I felt very odd dragging app
 icons to the `Applications` folder to install them. To be honest I was
@@ -34,11 +34,11 @@ install an app this way (it didn't have those helpful hints with the arrows most
 do). The Linux distro package management is definitely infinitely
 better, or at least it seems so from where I'm standing. Luckily for me most of the
 tools I use are available from the third-party [homebrew](http://mxcl.github.com/homebrew/) package
-manager for OSX. It's like an extremely basic version of the mighty
+manager for OS X. It's like an extremely basic version of the mighty
 Gentoo `portage`, but it generally gets the job done.
 
 On a more positive note - I was impressed with the quality and
-responsiveness of the OSX desktop and the fact that Emacs keybindings
+responsiveness of the OS X desktop and the fact that Emacs keybindings
 are used by default in its editor toolkit (and strangely puzzled by
 the lack of right control key - how is one supposed to hit `Control +
 a` I dare ask?). One app in particular - `spotlight`, blew me off the
@@ -50,9 +50,9 @@ I quickly found a good terminal emulator (that would be
 [iterm2](http://www.iterm2.com/#/section/home) - it's actually the
 best terminal emulator in the world IMHO) and
 most of the command-line apps I used from day to day were already lying around
-(after all OSX **is** Unix) - to my great surprise even stuff like PostgreSQL
-(only on OSX Server) and `zsh` came preinstalled. Most of the other
-apps I really needed had native OSX ports; the others - worthy
+(after all OS X **is** Unix) - to my great surprise even stuff like PostgreSQL
+(only on OS X Server) and `zsh` came preinstalled. Most of the other
+apps I really needed had native OS X ports; the others - worthy
 alternatives.
 
 Having hated OpenOffice.org for many years I was very pleasantly
@@ -69,15 +69,15 @@ bumpy ride.
 
 Here's a bit more details...
 
-## The things I love about OSX
+## The things I love about OS X
 
 ### The Desktop
 
 It's pretty, it's quick, it's stable. It makes KDE4 and GNOME3 look
 like school projects in comparison. And did I mention that the fonts
-on OSX are even prettier than the ones in Windows?
+on OS X are even prettier than the ones in Windows?
 
-### The OSX flavored apps
+### The OS X flavored apps
 
 [Sparrow](http://sparrowapp.com/) is the first desktop mail client I ever liked (shame on
 you Google for killing it).
@@ -97,7 +97,7 @@ refined software.
 
 ### Hardware compatibility
 
-If something is supposed to work with OSX - it works superbly
+If something is supposed to work with OS X - it works superbly
 out-of-the-box. I've almost forgotten now the days of constant battle
 with crappy hardware. Sleep & Wake just work. Battery life is
 exceptional (due to very advanced power management capabilities).
@@ -120,7 +120,7 @@ new) laptop? Well, that's a whole different story...
 
 ### The default apps
 
-The apps bundled with OSX are not bad at all, but they aren't
+The apps bundled with OS X are not bad at all, but they aren't
 particularly great. Still - Safari is a very good browser, Mail is a
 much better desktop client than Evolution/Thunderbird, Calendar is a
 good organizer (but a bit buggy when it comes down to Google Calendar
@@ -135,7 +135,7 @@ open-source and proprietary).
 Decent way to distribute proprietary apps, but with all the
 restrictions on the app sandboxing there aren't many interesting apps
 out there. Hopefully it'll get better in time. The ability to upgrade
-your OSX by purchasing the new version from the App Store is very cool
+your OS X by purchasing the new version from the App Store is very cool
 (for a proprietary OS of course).
 
 ### Emacs
@@ -155,17 +155,17 @@ will a full sized keyboard :-)
 
 ### Software Development
 
-OSX doesn't nurture software development as much as Linux does, but it
+OS X doesn't nurture software development as much as Linux does, but it
 comes pretty close in second place. All the tools you know and love
 are available, but their installation & setup is a little bit more
-involved on OSX. There is a reason why the screenshots in most
-programming books show OSX.
+involved on OS X. There is a reason why the screenshots in most
+programming books show OS X.
 
 ### System administration
 
 Definitely a step back from Linux. Programs like `launchctl` (for instance) are not
 exactly fun to work with, but they do get the job done. I'd never use
-an OSX box for anything more than a desktop workstation. Setting up a
+an OS X box for anything more than a desktop workstation. Setting up a
 sensible `$PATH` is not as trivial as it was on Linux either
 (`/etc/paths` and some plist I forgotten come to mind).
 
@@ -173,7 +173,7 @@ sensible `$PATH` is not as trivial as it was on Linux either
 
 ### The special keys
 
-Not exactly an OSX feature, but still...
+Not exactly an OS X feature, but still...
 
 One year and I still hate `Command` and `Option` - option is basically `Alt`
 on a strange location and Command is totally useless IMHO. I'd
@@ -190,13 +190,13 @@ control (which I guess only Emacs users are missing anyways).
 ### No standard all mighty package manager
 
 On Linux I had `aptitude`, `yum`, `portage` and `pacman` - all amazing at what
-they do. On OSX - `homebrew` is a decent option, but it's a far cry from
+they do. On OS X - `homebrew` is a decent option, but it's a far cry from
 the might and magic of the Linux package managers. Still, `homebrew`
 is better than it's alternative, so beware!
 
 ### Ugly XML config files
 
-Here and there in OSX you have to write some appalling [XML config
+Here and there in OS X you have to write some appalling [XML config
 files](http://en.wikipedia.org/wiki/Property_list). I thought I'd never see the likes of those again after I put
 Java development behind me :-)
 
@@ -204,7 +204,7 @@ Java development behind me :-)
 
 You need to install a giant lame IDE just to get a bunch of command
 line development tools? That's one of the most annoying things I've
-encountered up-to-date in OSX.
+encountered up-to-date in OS X.
 
 Yep, I know about the tools being available
 [separately](http://kennethreitz.com/xcode-gcc-and-homebrew.html) for
@@ -213,7 +213,7 @@ just to get them seems a bit to much to me.
 
 ## Epilogue
 
-Am I happier now without Linux? Definitely! Is OSX a better OS than
+Am I happier now without Linux? Definitely! Is OS X a better OS than
 Linux? Absolutely not! It does have a **much** better desktop
 experience and since I spend most of the time on a computer
 interacting with the desktop - that's a big win for me. Of course I
@@ -227,11 +227,11 @@ there weren't that many alternatives lying around.
 
 Not having to deal with hardware problems and immature desktop apps is
 like a breath of fresh air and it more than compensates for the few
-shortcomings of OSX. Nothing compensates the lack of that right
+shortcomings of OS X. Nothing compensates the lack of that right
 control key on most keyboards, but after all that's not an OS problem
 ;-)
 
-There is great vibrant hacker community gathered around OSX and it's
+There is great vibrant hacker community gathered around OS X and it's
 one of the main driving forces of the OS. There is unfortunately a lot
 of corporate pressure from Apple as well, but as you already know by
 now - there are never perfect things, there are always
