@@ -14,6 +14,8 @@ actually very straight-forward and took me just a couple of hours
 (most of which I spent trying to find new a theme for the site and
 tweaking it afterwards).
 
+<!--more-->
+
 ## Create a new Jekyll Blog
 
 I think it's best to just create a blank Jekyll blog and move there

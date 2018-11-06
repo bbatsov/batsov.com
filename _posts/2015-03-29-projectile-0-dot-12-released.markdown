@@ -10,6 +10,8 @@ tags:
 
 [Projectile](https://github.com/bbatsov/projectile) 0.12 is finally out!
 
+<!--more-->
+
 A lot of time has passed since the previous stable release, for which
 I'm truly sorry.  I kept delaying and delaying the release for various
 reasons, but it's finally here and it's pretty **big**.  Please,

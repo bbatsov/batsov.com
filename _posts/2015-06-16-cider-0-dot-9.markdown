@@ -17,6 +17,8 @@ ship in time for [EuroClojure](http://euroclojure.org)!
 There are a ton of important changes and new features in 0.9 and now I'll go
 quickly through some of them.
 
+<!--more-->
+
 ### Debugger
 
 Believe it or not CIDER now has a debugger! This was like
