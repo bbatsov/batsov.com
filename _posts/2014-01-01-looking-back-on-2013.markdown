@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Looking back at 2013"
+title: "Looking Back on 2013"
 date: 2014-01-01 12:30
 comments: true
 tags:
-- misc
+- Meta
 ---
 
 2013 was a good year for me in many aspects. I'll share here some of
