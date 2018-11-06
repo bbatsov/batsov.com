@@ -16,8 +16,8 @@ post.[^3] I've started my humble writing "career" with Wordpress, then
 switched to Octopress, and now here we are. One thing never really
 changed, though - the quality of my writing. It was always abysmally
 bad, as were many of the topics I wrote on. It's really fun to look
-back on all of this - I was reading some of my old articles in the
-process of migrating to blog to Jekyll and I couldn't believe some of
+back on all of this - I was reading some of my old articles, in the
+process of migrating the blog to Jekyll, and I couldn't believe some of
 the things I wrote. I hope this means I'm getting wiser with age...
 
 In the mean time I've started another blog, called [Meta
