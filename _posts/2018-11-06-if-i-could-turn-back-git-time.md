@@ -2,6 +2,9 @@
 layout: post
 title: If I Could Turn Back (Git) Time
 date: 2018-11-06 18:54 +0100
+tags:
+- Git
+- Tip
 ---
 
 If only there was an easy way to find the first commit in a Git repository...
