@@ -2,7 +2,6 @@
 layout: post
 title: "A peek at Emacs 24"
 comments: true
-categories: articles
 tags:
 - Emacs
 ---

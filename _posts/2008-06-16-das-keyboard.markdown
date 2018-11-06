@@ -2,7 +2,6 @@
 layout: post
 title: "Das Keyboard"
 comments: true
-categories: articles
 tags:
 - Hardware
 ---

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Ruby or Python? Well, it depends..."
-categories: articles
 tags:
 - Ruby
 - Python

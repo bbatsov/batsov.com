@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Mofidy JVM parameters for JBoss AS
-categories: articles
 tags:
 - Java
 - JBoss

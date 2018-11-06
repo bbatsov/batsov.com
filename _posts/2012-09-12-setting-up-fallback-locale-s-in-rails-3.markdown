@@ -3,7 +3,6 @@ layout: post
 title: "Setting up fallback locale(s) in Rails 3"
 date: 2012-09-12 14:56
 comments: true
-categories: articles
 tags:
 - Ruby
 - Rails

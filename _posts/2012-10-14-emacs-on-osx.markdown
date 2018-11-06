@@ -3,7 +3,6 @@ layout: post
 title: "Emacs on OSX"
 date: 2012-10-14 22:03
 comments: true
-categories: articles
 tags:
 - Emacs
 - OSX

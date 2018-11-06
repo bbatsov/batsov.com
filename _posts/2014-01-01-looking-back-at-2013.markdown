@@ -3,7 +3,6 @@ layout: post
 title: "Looking back at 2013"
 date: 2014-01-01 12:30
 comments: true
-categories: articles
 tags:
 - misc
 ---

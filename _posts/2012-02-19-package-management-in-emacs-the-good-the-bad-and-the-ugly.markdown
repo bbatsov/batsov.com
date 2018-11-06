@@ -3,7 +3,6 @@ layout: post
 title: "Package Management in Emacs: The Good, the Bad and the Ugly"
 date: 2012-02-19 12:18
 comments: true
-categories: articles
 tags:
 - Emacs
 ---

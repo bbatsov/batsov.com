@@ -3,7 +3,6 @@ layout: post
 title: "Emacs Support for the Slim Template Language"
 date: 2012-09-09 20:16
 comments: true
-categories: articles
 tags:
 - Emacs
 - Rails

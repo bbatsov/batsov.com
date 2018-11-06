@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Java type indicators in Eclipse
-categories: articles
 tags:
 - Java
 - Eclipse

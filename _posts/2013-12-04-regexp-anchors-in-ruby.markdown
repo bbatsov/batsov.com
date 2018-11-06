@@ -3,7 +3,6 @@ layout: post
 title: "Regexp anchors in Ruby"
 date: 2013-12-04 15:46
 comments: true
-categories: articles
 tags:
 - Ruby
 ---

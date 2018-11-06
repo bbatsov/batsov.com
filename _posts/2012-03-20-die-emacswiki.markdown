@@ -3,7 +3,6 @@ layout: post
 title: "Die EmacsWiki, Die!"
 date: 2012-03-20 14:49
 comments: true
-categories: articles
 tags:
 - Emacs
 - Rant

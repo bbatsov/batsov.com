@@ -3,7 +3,6 @@ layout: post
 title: "A CIDER Unsession at Clojure/conj"
 date: 2014-11-15 20:17
 comments: true
-categories: articles
 tags:
 - CIDER
 - Clojure

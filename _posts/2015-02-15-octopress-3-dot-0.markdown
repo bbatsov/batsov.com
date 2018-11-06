@@ -3,7 +3,6 @@ layout: post
 title: "Octopress 3.0"
 date: 2015-02-15 13:24
 comments: true
-categories: articles
 tags:
 ---
 

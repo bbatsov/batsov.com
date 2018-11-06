@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Thoughts on the Amazon Kindle"
-categories: articles
 tags:
 - Misc
 ---

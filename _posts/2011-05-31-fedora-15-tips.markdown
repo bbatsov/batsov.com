@@ -2,7 +2,6 @@
 layout: post
 title: "Fedora 15 post installation setup & tips"
 comments: true
-categories: articles
 tags:
 - Linux
 - Fedora

@@ -3,7 +3,6 @@ layout: post
 title: "clojure-mode 3.0"
 date: 2014-09-05 15:15
 comments: true
-categories: articles
 tags:
 - Clojure
 - Emacs

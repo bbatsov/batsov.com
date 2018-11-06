@@ -2,7 +2,6 @@
 layout: post
 title: "Debian post installation setup & tips"
 comments: true
-categories: articles
 tags:
 - Linux
 - Debian

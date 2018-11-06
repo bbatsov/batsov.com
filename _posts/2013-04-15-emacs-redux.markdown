@@ -3,7 +3,6 @@ layout: post
 title: "Emacs Redux"
 date: 2013-04-15 17:10
 comments: true
-categories: articles
 tags:
 - Emacs
 ---

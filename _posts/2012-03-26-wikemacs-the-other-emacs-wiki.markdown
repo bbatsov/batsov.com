@@ -3,7 +3,6 @@ layout: post
 title: "WikEmacs - The Other Emacs Wiki"
 date: 2012-03-26 11:23
 comments: true
-categories: articles
 tags:
 - Emacs
 ---

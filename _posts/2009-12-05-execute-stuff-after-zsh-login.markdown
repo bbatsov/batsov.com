@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Automatically execute programs after zsh login
-categories: articles
 tags:
 - Z Shell
 - Linux

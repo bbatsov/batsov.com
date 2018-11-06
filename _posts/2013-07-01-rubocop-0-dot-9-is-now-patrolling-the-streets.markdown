@@ -3,7 +3,6 @@ layout: post
 title: "RuboCop 0.9 is now patrolling the streets!"
 date: 2013-07-01 17:06
 comments: true
-categories: articles
 tags:
 - Ruby
 - RuboCop

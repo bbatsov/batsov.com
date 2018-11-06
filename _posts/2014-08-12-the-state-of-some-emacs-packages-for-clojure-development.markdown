@@ -3,7 +3,6 @@ layout: post
 title: "The State of Some Emacs Packages for Clojure Development"
 date: 2014-08-12 11:29
 comments: true
-categories: articles
 tags:
 - Emacs
 - Clojure

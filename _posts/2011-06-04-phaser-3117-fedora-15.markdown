@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Running Xerox Phaser 3117 under Fedora 15"
-categories: articles
 tags:
 - Linux
 - Hardware

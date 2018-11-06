@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Java.next() - Clojure: The Return of the Lispers"
-categories: articles
 tags:
 - Clojure
 - Java

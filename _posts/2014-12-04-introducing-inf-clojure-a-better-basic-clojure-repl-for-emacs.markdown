@@ -3,7 +3,6 @@ layout: post
 title: "Introducing Inf-clojure - a Better Basic Clojure REPL for Emacs"
 date: 2014-12-04 12:45
 comments: true
-categories: articles
 tags:
 - Clojure
 - Emacs

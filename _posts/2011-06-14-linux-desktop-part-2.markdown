@@ -2,7 +2,6 @@
 layout: post
 title: "The Linux desktop experience is killing Linux on the desktop,
 Part II"
-categories: articles
 tags:
 - Linux
 - Windows

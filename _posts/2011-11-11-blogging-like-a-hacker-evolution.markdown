@@ -3,7 +3,6 @@ layout: post
 title: "Blogging Like a Hacker: Evolution"
 date: 2011-11-11 08:52
 comments: true
-categories: articles
 tags:
 - Octopress
 - Jekyll

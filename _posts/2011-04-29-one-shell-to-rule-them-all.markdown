@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "One shell to rule them all..."
-categories: articles
 tags:
 - Z Shell
 ---

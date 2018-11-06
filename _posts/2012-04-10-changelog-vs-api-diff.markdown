@@ -4,7 +4,6 @@ title: "Changelog vs API diff"
 date: 2012-04-07 12:22
 comments: true
 author: Alexander Todorov
-categories: articles
 tags:
 - Linux
 - Software

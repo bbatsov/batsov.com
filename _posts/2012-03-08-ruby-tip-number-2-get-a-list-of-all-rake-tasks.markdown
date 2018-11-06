@@ -3,7 +3,6 @@ layout: post
 title: "Ruby Tip #2: Get a List of All Rake Tasks"
 date: 2012-03-08 15:28
 comments: true
-categories: articles
 tags:
 - Ruby
 - Tip

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Recommended Ruby books"
-categories: articles
 tags:
 - Ruby
 - Books

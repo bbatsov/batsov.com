@@ -3,7 +3,6 @@ layout: post
 title: "From Linux to OSX - 1 Year Later"
 date: 2012-09-09 22:11
 comments: true
-categories: articles
 tags:
 - misc
 - Linux

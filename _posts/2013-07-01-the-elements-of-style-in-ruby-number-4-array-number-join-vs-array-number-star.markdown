@@ -3,7 +3,6 @@ layout: post
 title: "The Elements of Style in Ruby #4: Array#join vs Array#*"
 date: 2013-07-01 16:28
 comments: true
-categories: articles
 tags:
 - Ruby
 - Style

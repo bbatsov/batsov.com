@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Emacs configuration in github
-categories: articles
 tags:
 - Emacs
 - Git

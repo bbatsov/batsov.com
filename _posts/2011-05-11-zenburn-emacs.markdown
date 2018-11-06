@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "A new Zenburn theme for Emacs"
-categories: articles
 tags:
 - Emacs
 ---

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Incremental development with Scala and JRebel"
-categories: articles
 tags:
 - Java
 - Scala

@@ -2,7 +2,6 @@
 layout: post
 title: Migrating from Octopress to Jekyll
 date: 2018-11-05 22:46 +0100
-categories: articles
 tags:
 - Jekyll
 - Octopress
@@ -84,7 +83,6 @@ became this:
 ---
 layout: post
 title: Migrating from Octopress to Jekyll
-categories: articles
 tags:
 - Jekyll
 - Octopress

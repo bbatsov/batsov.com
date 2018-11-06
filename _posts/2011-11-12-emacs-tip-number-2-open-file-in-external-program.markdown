@@ -3,7 +3,6 @@ layout: post
 title: "Emacs Tip #2: Open File in External Program"
 date: 2011-11-12 11:16
 comments: true
-categories: articles
 tags:
 - Emacs
 ---

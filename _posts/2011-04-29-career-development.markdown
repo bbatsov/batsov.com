@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Career development - Should I stay or should I go?"
-categories: articles
 tags:
 - Misc
 ---

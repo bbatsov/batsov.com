@@ -3,7 +3,6 @@ layout: post
 title: "The WikEmacs Experiment is over! Long Live EmacsWiki!"
 date: 2013-01-27 09:23
 comments: true
-categories: articles
 tags:
 - Emacs
 ---

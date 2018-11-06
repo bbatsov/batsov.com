@@ -3,7 +3,6 @@ layout: post
 title: "The Elements of Style in Ruby: An Essay in N parts"
 date: 2013-06-26 16:30
 comments: true
-categories: articles
 tags:
 - Ruby
 ---

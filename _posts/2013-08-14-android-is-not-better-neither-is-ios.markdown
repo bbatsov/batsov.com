@@ -3,7 +3,6 @@ layout: post
 title: "Android is not better. Neither is iOS."
 date: 2013-08-14 14:20
 comments: true
-categories: articles
 tags:
 - iOS
 - Android

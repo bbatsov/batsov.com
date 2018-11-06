@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Java.next() - Scala: The Revenge of the Static Typing"
-categories: articles
 tags:
 - Java
 - Scala

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Using Emacs for Rails development: The perfect setup"
-categories: articles
 tags:
 - Ruby
 - Emacs

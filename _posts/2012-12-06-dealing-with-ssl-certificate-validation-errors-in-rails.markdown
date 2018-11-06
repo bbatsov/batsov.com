@@ -3,7 +3,6 @@ layout: post
 title: "Dealing with SSL certificate validation errors in Rails"
 date: 2012-12-06 17:07
 comments: true
-categories: articles
 tags:
 - Rails
 - Ruby

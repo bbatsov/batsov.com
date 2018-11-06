@@ -3,7 +3,6 @@ layout: post
 title: "The Elements of Style in Ruby #11: Invoking Lambdas/Procs"
 date: 2013-09-26 17:43
 comments: true
-categories: articles
 tags:
 - Ruby
 - Style

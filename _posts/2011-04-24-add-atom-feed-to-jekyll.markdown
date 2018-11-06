@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Add Atom feed to Jekyll powered blog"
-categories: articles
 tags:
 - Jekyll
 ---

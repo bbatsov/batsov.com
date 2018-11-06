@@ -3,7 +3,6 @@ layout: post
 title: "The Elements of Style in Ruby #8: Know Thy Predicates"
 date: 2013-08-14 17:28
 comments: true
-categories: articles
 tags:
 - Ruby
 - Style

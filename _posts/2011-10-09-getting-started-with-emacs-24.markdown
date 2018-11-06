@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Getting started with Emacs 24"
-categories: articles
 tags:
 - Emacs
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: "Find out quickly which package provides a certain library with
 YUM"
-categories: articles
 tags:
 - Fedora
 - Linux

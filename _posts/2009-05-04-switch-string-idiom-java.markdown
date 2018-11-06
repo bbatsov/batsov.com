@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "A switch on String idiom for Java"
-categories: articles
 tags:
 - Java
 ---

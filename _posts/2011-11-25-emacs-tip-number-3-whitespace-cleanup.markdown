@@ -3,7 +3,6 @@ layout: post
 title: "Emacs Tip #3: Whitespace Cleanup"
 date: 2011-11-25 14:26
 comments: true
-categories: articles
 tags:
 - Emacs
 ---

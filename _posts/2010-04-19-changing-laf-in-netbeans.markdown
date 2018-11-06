@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Changing the look & feel in NetBeans 6.8"
-categories: articles
 tags:
 - Java
 - NetBeans

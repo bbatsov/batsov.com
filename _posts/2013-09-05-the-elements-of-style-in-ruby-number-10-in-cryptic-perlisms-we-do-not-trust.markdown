@@ -3,7 +3,6 @@ layout: post
 title: "The Elements of Style in Ruby #10: In cryptic Perlisms we do not trust"
 date: 2013-09-05 11:41
 comments: true
-categories: articles
 tags:
 - Ruby
 - Style

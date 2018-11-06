@@ -2,7 +2,6 @@
 layout: post
 title: "The best way to implement the Singleton pattern in Java and
 Ruby"
-categories: articles
 tags:
 - Java
 - Ruby

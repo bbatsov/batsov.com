@@ -3,7 +3,6 @@ layout: post
 title: "Emacs Tip #7: Remap Return to Control in OSX"
 date: 2012-12-06 16:06
 comments: true
-categories: articles
 tags:
 - Tip
 - Emacs

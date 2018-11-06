@@ -3,7 +3,6 @@ layout: post
 title: "RuboCop Logo"
 date: 2014-09-05 14:16
 comments: true
-categories: articles
 tags:
 - Ruby
 - RuboCop

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Emulate the behaviour of Return+Shift(insert new line) from popular IDEs(IDEA, Eclipse) in Emacs
-categories: articles
 tags:
 - Emacs
 - IntelliJ

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Emacs Tip #1: Set the default font in Emacs 23"
-categories: articles
 tags:
 - Emacs
 - Linux

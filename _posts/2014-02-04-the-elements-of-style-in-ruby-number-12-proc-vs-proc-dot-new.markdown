@@ -3,7 +3,6 @@ layout: post
 title: "The Elements of Style in Ruby #12: proc vs Proc.new"
 date: 2014-02-04 16:20
 comments: true
-categories: articles
 tags:
 - Ruby
 - Style

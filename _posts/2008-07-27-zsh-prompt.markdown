@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "A nice zsh prompt"
-categories: articles
 tags:
 - Z Shell
 - Linux

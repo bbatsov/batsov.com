@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Programming languages worth learning"
-categories: articles
 tags:
 - Programming
 ---
