@@ -45,8 +45,8 @@ Feel free to take a look at the
 
 <ul>
 {% for post in site.posts reversed %}
-{% if post.categories contains 'Style' and post.categories contains 'Ruby' %}
-<li><a href="{{ posts.url }}">{{ post.title }}</a></li>
-{% endif %}  <!-- categories if -->
+  {% if post.tags contains 'Style' and post.tags contains 'Ruby' %}
+    <li><a href="{{ posts.url }}">{{ post.title }}</a></li>
+  {% endif %}  <!-- tags if -->
 {% endfor %} <!-- posts for -->
 </ul>
