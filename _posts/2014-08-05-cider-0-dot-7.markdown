@@ -16,7 +16,9 @@ biggest one in terms of features and code changes.
 The release is special for a number of reasons. Allow me to quickly
 enumerate though them.
 
-### Middleware-based
+<!--more-->
+
+## Middleware-based
 
 One of the huge problems we've had so far was that a lot of
 functionality that was present in SLIME + swank-clojure was missing in
@@ -35,7 +37,7 @@ to maintain non-trivial inlined code; not to mention it's not very
 practical). This meant that pretty much all third party libs were out
 of the equation and pretty much every advanced feature.
 
-This problem was initially address by
+This problem was initially addressed by
 [ritz](https://github.com/pallet/ritz), which provided some extra
 functionality built on top of extra nREPL middleware. As it was a
 separate project it was hard to be kept in sync with the flurry of
@@ -105,7 +107,7 @@ that's not using CIDER's middleware. In this case you'll get a
 warning and a pretty limited feature-set - source file loading, code
 evaluation, pretty-printing and error highlighting.
 
-### cider-test
+## cider-test
 
 `clojure-test-mode` (which was more or less abandoned in terms of
 maintenance) finally has a successor in CIDER itself. `cider-test`
@@ -121,7 +123,7 @@ ahead. Use it, love it, hate it and send us your feedback! We'd love to hear it.
 `midje` and `expectations`, although that's not high on our priority
 list.
 
-### Grimoire support
+## Grimoire support
 
 In addition to built-in Clojure & Javadoc you can now peruse the
 extended documentation provided by
@@ -131,7 +133,7 @@ examples of some function! `C-c C-d g` for the win!
 
 Adding some extended Grimoire integration is definitely on the roadmap.
 
-### Increased bus factor
+## Increased bus factor
 
 One of the biggest problems of the project so far was that fairly few people
 were involved with it.  At one point it was mostly Tim, Hugo and
@@ -189,12 +191,7 @@ of CIDER exactly one year ago I might not have done it. Maintaining a
 project that's pivotal to an entire community (I recall some article
 mentioning about half the Clojure devs were using it) is both a lot of
 work and a lot of stress and pressure. That said, it's probably my
-favourite OSS project and I enjoy working on it immensely. If you
-don't have the time to help out with code or docs you can still support my
-work on CIDER (and all my other projects) via
-[gittip](https://www.gittip.com/bbatsov).
-
-[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://www.gittip.com/bbatsov)
+favourite OSS project and I enjoy working on it immensely.
 
 For all the gory details regarding new features and changes in CIDER 0.7 - take a look at the
 [changelog](https://github.com/clojure-emacs/cider/blob/master/CHANGELOG.md).
