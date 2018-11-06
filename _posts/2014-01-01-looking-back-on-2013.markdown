@@ -8,8 +8,10 @@ tags:
 ---
 
 2013 was a good year for me in many aspects. I'll share here some of
-the programming related achievements of mine over the year that made
+the programming-related achievements of mine over the year that made
 me somewhat proud of myself.
+
+<!--more-->
 
 ## Achievements
 
@@ -35,7 +37,7 @@ programmer and not a writer I guess!
 
 I spent a lot of time working on Emacs-related stuff over the year:
 
-* I started a new Emacs blog called [EmacsRedux](http://emacsredux.com)
+* I started a new Emacs blog called [Emacs Redux](http://emacsredux.com)
 * I improved a lot [Prelude](https://github.com/bbatsov/prelude)
 and [Projectile](https://github.com/bbatsov/projectile)
 * I contributed code to Emacs for the first time
