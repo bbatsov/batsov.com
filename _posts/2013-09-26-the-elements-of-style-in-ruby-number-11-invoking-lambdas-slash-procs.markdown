@@ -22,7 +22,7 @@ lambda === arg
 ```
 
 The last option `Proc#===` is a special case, that's quite useful
-in [case expressions](http://batsov.com/articles/2013/09/24/lambdas-slash-procs-in-case-expressions/),
+in [case expressions]({% post_url 2013-09-24-lambdas-slash-procs-in-case-expressions %}),
 but should never the used directly.
 
 Of the three general purpose `Proc` methods that are available (it's

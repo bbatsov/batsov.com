@@ -11,7 +11,7 @@ tags:
 ## Prelude
 
 It's time I resume what I started in
-[my previous article documenting my first year as an OS X user](http://batsov.com/articles/2012/09/09/from-linux-to-osx-1-year-later/)
+[my previous article documenting my first year as an OS X user]({% post_url 2012-09-09-from-linux-to-osx-1-year-later %})
 a few months ago.
 
 In this article I'll focus primarily on the applications I've adopted

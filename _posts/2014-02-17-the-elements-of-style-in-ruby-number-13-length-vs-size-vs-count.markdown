@@ -79,8 +79,7 @@ avoid using the `count` method if you can use `length` or `size`.
 
 A note to Rails developers - `ActiveRecord::Relation`'s `length`,
 `size` and `count` methods have a totally different meaning, but that's
-irrelevant to our current discussion. (`Sean Griffin` has written
-[a comment regarding it](http://batsov.com/articles/2014/02/17/the-elements-of-style-in-ruby-number-13-length-vs-size-vs-count/#comment-1248998887)).
+irrelevant to our current discussion.
 
 That's all for now, folks! As usual I'm looking forward to hearing your thoughts here and on
 [Twitter](http://twitter.com/bbatsov)!

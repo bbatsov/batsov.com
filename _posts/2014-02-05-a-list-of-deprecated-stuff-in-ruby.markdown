@@ -40,7 +40,7 @@ producing all sorts of warnings, as opposed to something created specifically to
 deprecations.
 
 * Some APIs are deprecated only informally (like
-  [`Hash#has_key?` and `Hash#has_value?`](http://batsov.com/articles/2013/08/21/the-elements-of-style-in-ruby-number-9-hash-number-has-key-and-hash-number-has-value-are-deprecated/)).
+  [`Hash#has_key?` and `Hash#has_value?`]({% post_url 2013-08-21-the-elements-of-style-in-ruby-number-9-hash-number-has-key-and-hash-number-has-value-are-deprecated %})).
 
 * Some APIs are deprecated with `Kernel#warn` (like `Digest::Digest`).
 

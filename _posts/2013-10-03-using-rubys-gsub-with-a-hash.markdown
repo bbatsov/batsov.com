@@ -7,7 +7,7 @@ tags:
 - Ruby
 ---
 
-Recently we discussed [how you can use `String#gsub` with a block](http://batsov.com/articles/2013/08/30/using-gsub-with-a-block/).
+Recently we discussed [how you can use `String#gsub` with a block]({% post_url 2013-08-30-using-gsub-with-a-block %}).
 Today we'll examine another somewhat unknown feature of the `gsub` method - the ability to supply a replacement hash as the second argument (which is normally a string).
 
 If the replacement argument is a hash, and the matched text is one of its keys, the corresponding value is the replacement string. Here's a simple example:

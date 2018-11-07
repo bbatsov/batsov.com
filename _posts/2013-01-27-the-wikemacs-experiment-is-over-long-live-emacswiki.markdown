@@ -8,9 +8,9 @@ tags:
 ---
 
 Less than an year ago
-[amid a lot of turmoil](http://batsov.com/articles/2012/03/20/die-emacswiki/)
+[amid a lot of turmoil]({% post_url 2012-03-20-die-emacswiki %})
 I've started
-[an alternative to EmacsWiki](http://batsov.com/articles/2012/03/26/wikemacs-the-other-emacs-wiki/). The
+[an alternative to EmacsWiki]({% post_url 2012-03-26-wikemacs-the-other-emacs-wiki %}). The
 project took off to a great start, but quickly lost traction and now
 it's time to face the truth - I had an assumption, it turned out it(I)
 was wrong and I should come to terms with that.

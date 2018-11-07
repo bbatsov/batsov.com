@@ -10,7 +10,7 @@ tags:
 ## Prelude
 
 Yesterday I wrote a highly
-[controversial article about the state of the EmacsWiki](http://batsov.com/articles/2012/03/20/die-emacswiki/)
+[controversial article about the state of the EmacsWiki]({% post_url 2012-03-20-die-emacswiki %})
 and suggested a few things we can do to make things better. I got the
 usual batch of hate mail and some remarks on the poor quality of my
 English and writing style (which generally amuse me a lot). But I

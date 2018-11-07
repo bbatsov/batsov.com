@@ -34,7 +34,7 @@ it usually got the job done it had some problems that I won't be
 discussing here and more importantly - it's a third-party package,
 that's not part of Emacs proper.
 
-[Emacs 24](http://batsov.com/articles/2011/08/19/a-peek-at-emacs24/)
+[Emacs 24]({% post_url 2011-08-19-a-peek-at-emacs24 %})
 finally introduced a new standard way of dealing with color themes
 (based on Emacs's built-in customize facility). While it doesn't have
 a proper name (as far as I know) it's commonly referred to as the

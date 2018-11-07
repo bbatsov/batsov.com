@@ -11,7 +11,7 @@ tags:
 ## Prelude
 
 Emacs is slowly, but firmly moving in the right direction with
-[Emacs 24](http://batsov.com/articles/2011/08/19/a-peek-at-emacs24/). A
+[Emacs 24]({% post_url 2011-08-19-a-peek-at-emacs24 %}). A
 lot of new important features are coming, the release date is nearing,
 but there is something worrisome on the otherwise bright Emacs
 horizon. It's a remnant from the **Dark Emacs Days** and it's called
@@ -94,7 +94,7 @@ have added support for the installation of stuff from the wiki. As
 long as such practices are tolerated they will not stop.
 
 Need I remind you that we're now living in the era of
-[package.el](http://batsov.com/articles/2012/02/19/package-management-in-emacs-the-good-the-bad-and-the-ugly/)
+[package.el]({% post_url 2012-02-19-package-management-in-emacs-the-good-the-bad-and-the-ugly %})
 and distributed version control (Git, Mercurial, Bazaar)? Act accordingly!
 
 ### Jack of All Trades

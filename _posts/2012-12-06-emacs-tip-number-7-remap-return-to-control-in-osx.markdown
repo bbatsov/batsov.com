@@ -9,7 +9,7 @@ tags:
 ---
 
 One of the major problems when using
-[Emacs on OS X](http://batsov.com/articles/2012/10/14/emacs-on-osx/) is
+[Emacs on OS X]({% post_url 2012-10-14-emacs-on-osx %}) is
 not related to OS X itself - the problem has to do with the Mac's
 hardware. Recent Mac keyboards(both laptop and desktop, with the
 exception of the wired full size Mac keyboard) lack a right `Control`
@@ -49,4 +49,4 @@ All in all - remapping `Return` to `Control` is a huge win if you're
 using heavily one of Apple's smaller keyboards. Of course, if you have
 the option to use an external keyboard you'd do yourself a solid if you
 obtained a good full size keyboard like the
-[Das Keyboard](http://batsov.com/articles/2008/06/16/das-keyboard/).
+[Das Keyboard]({% post_url 2008-06-16-das-keyboard %}).

@@ -12,7 +12,7 @@ tags:
 ## Prelude
 
 A little more than an year ago I wrote my rant post
-[The Linux Desktop Experience is Killing Linux on the Desktop](http://batsov.com/articles/2011/06/11/linux-desktop-experience-killing-linux-on-the-desktop/)
+[The Linux Desktop Experience is Killing Linux on the Desktop]({% post_url 2011-06-11-linux-desktop-experience-killing-linux-on-the-desktop %})
 and for the first time in 8 years I wasn't a desktop Linux user
 anymore. I spent about a month wrestling with Windows 7, but let's
 face it - Windows is ill suited for professional Ruby programmers like
@@ -180,7 +180,7 @@ on a strange location and Command is totally useless IMHO. I'd
 probably wouldn't have hated them as much if there were room left on
 the Apple keyboards (expect of course the old wired Apple keyboard) for an addition control key. Luckily for me I use an
 external
-[Das Keyboard Ultimate](http://batsov.com/articles/2008/06/16/das-keyboard/)
+[Das Keyboard Ultimate]({% post_url 2008-06-16-das-keyboard %})
 most of the time...
 
 Command and Option do have some value, I'd probably would have

@@ -26,7 +26,7 @@ version and dependency tracking department. There has to be a better
 way, right? Wouldn't it be nice if Emacs had its own package manager
 similar to the likes of `homebrew`, `apt` or `yum`?
 
-[Emacs 24](http://batsov.com/articles/2011/08/19/a-peek-at-emacs24/)
+[Emacs 24]({% post_url 2011-08-19-a-peek-at-emacs24 %})
 finally introduces such a tool - its name is `package.el` (very
 original, right?) and it's promise is to make you're lives a bit
 easier. Does it manage to deliver on that promise? We'll see that in a bit...
