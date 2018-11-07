@@ -453,7 +453,7 @@ The dog walks
 ```
 
 This is point in the article when Ruby and Python are starting to get
-impressed. :-) (I should know - I've learnt about this feature after
+impressed. :smile: (I should know - I've learnt about this feature after
 I've written the first draft and got some negative feedback due to my
 oversight).
 
@@ -568,7 +568,7 @@ evaluation is assigned to automatically generated variables named resX
     * They can contain state as well as behaviour
     * Think of them more as Ruby's mixins than Java's interfaces
     * They can be implemented on the fly by objects
-    * They are too complex to be properly explained in one short blog post :-)
+    * They are too complex to be properly explained in one short blog post :smile:
 
 ## Functional programming
 

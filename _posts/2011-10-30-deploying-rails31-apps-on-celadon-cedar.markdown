@@ -200,7 +200,7 @@ command.
 
 If you're lucky your deployment will go without a hitch and you
 won't have to ever read this section of the manual. Most people won't
-be so lucky. :-)
+be so lucky. :smile:
 
 #### Errors during deployment
 
@@ -212,7 +212,7 @@ the most common problems:
 * Gemfile.lock that doesn't match the project's Gemfile (this happens if you have OS specific gems in your Gemfile)
 * db access on `assets:precompile`
 * you forgot the run all specs and cucumber scenarios before
-  deployment ;-)
+  deployment :wink:
 
 #### Other errors
 

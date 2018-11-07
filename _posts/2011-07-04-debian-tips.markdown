@@ -132,7 +132,7 @@ $ sudo aptitude install hunspell-bg
 ```
 
 This command will install the Bulgarian hunspell dictionary. You
-likely don't need it so install some more helpful dictionary instead. :-)
+likely don't need it so install some more helpful dictionary instead. :smile:
 
 #### Install OpenJDK
 

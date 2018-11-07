@@ -837,7 +837,7 @@ for so very long that it felt quite natural to me. After I've started
 hacking with Lisp, however, my old work flow started to feel very
 unproductive to me (especially with statically typed languages). Here
 are some key aspects of the interactive (and iterative) development
-that is so common in Lisp (not only in Common Lisp ;-) ):
+that is so common in Lisp (not only in Common Lisp :wink: ):
 
 * The REPL is an integral process of the coding process. Ruby and
   Python developers generally tend to use it only for exploratory

@@ -420,4 +420,4 @@ shot at becoming the reigning Ruby implementation.
 
 So what are you waiting for? Go grab a copy of the JRuby Bible
 ["Using JRuby"](http://pragprog.com/titles/jruby/using-jruby) and
-start coding. :-)
+start coding. :smile:

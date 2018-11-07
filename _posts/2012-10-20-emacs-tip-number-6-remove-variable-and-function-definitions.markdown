@@ -23,4 +23,4 @@ update.  The magic functions you need are the following:
 
 The names aren't exactly intuitive and even I happen to forget them from time to
 time. Now at least I'll now where to look for them if that happens
-again. :-)
+again. :smile:

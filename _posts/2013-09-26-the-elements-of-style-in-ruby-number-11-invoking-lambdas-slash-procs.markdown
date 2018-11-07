@@ -31,7 +31,7 @@ to stick with`Proc#call`. The reasons are quite simple:
 
 * `lambda[arg]` looks like an index access on some data structure and you'd certainly
 have to analyze the code context to understand what's going on (especially since the `lambda` is unlikely to actually be named
-`lambda` in actual code :-)).
+`lambda` in actual code :smile:).
 
 * `lambda.(arg)` is a cute syntactic trick, but it's really easy to overlook the `.` and assume that this is a normal
 method call (which probably was the point when this syntax was introduced). `lambda`s in Ruby are not real lambdas (they are instances of the `Proc` class) and we should simply embrace this fact instead of trying to hide it behind awkward syntax.

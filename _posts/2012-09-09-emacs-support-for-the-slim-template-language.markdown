@@ -25,8 +25,8 @@ it as much as I can (currently I'm mostly working on precise
 font-locking). Any help from interested parties is, naturally, most
 welcome. I very much doubt that me and
 [Daniel Mendler](https://github.com/minad) are the only two people
-dreaming of great Slim experience in Emacs. :-)
+dreaming of great Slim experience in Emacs. :smile:
 
 ![slim-mode](/assets/images/slim-mode.png)
 
-Let us together eliminate that big Haml advantage. :-)
+Let us together eliminate that big Haml advantage. :smile:

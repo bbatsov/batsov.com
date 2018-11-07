@@ -71,4 +71,4 @@ there and rebased [Emacs Prelude](https://github.com/bbatsov/prelude) on top
 of MELPA instead of Marmalade.
 
 Together we can turn MELPA into the most extensive and robust community-supported
-`package.el` repo! Emacs users deserve one of those! :-)
+`package.el` repo! Emacs users deserve one of those! :smile:

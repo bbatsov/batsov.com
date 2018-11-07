@@ -177,7 +177,7 @@ everything is OK you'll see a Rails welcome page.
 
 At this point you should probably either start playing with
 scaffolding or read the rest of this article and start playing with
-scaffolding afterwards :-) For instance you can try:
+scaffolding afterwards :smile: For instance you can try:
 
 ``` bash
 $ rails g scaffold User first_name:string last_name:string email:string password:string

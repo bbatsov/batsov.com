@@ -13,7 +13,7 @@ community [Ruby](https://github.com/bbatsov/ruby-style-guide) and [Rails](https:
 Here's an
 [example](https://github.com/bbatsov/ruby-style-guide#indent-when-to-case).
 Now you can easily refer to rules in heated style debates with your
-friends and co-workers. :-)
+friends and co-workers. :smile:
 
 This is an addition that was way overdue (for which I take all the
 blame). I'd like to say a big `THANKS!!!` to [Tod Beardsley](https://github.com/todb) who
