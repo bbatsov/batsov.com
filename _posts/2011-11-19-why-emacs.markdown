@@ -3,6 +3,7 @@ layout: post
 title: "Why Emacs?"
 date: 2011-11-19 09:22
 comments: true
+category: Emacs
 tags:
 - Emacs
 ---
