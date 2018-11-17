@@ -2,6 +2,10 @@
 layout: post
 title: Going Rogue
 date: 2018-11-17 11:45 +0100
+tags:
+- Meta
+- Ruby
+- Podcasts
 ---
 
 For many years I've enjoyed listening to programming podcasts - it's
