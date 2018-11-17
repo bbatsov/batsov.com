@@ -47,7 +47,7 @@ spec/models/authentication_spec.rb:12:44: W: `-' interpreted as argument prefix
                                            ^
 ```
 
-Pretty sure most of you will love this :smile:
+Pretty sure most of you will love this
 
 ## Auto-correction Support
 

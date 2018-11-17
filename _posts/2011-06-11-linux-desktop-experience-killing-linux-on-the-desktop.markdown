@@ -234,7 +234,7 @@ like to clarify something for them:
 - Having some hardware support and having great hardware support are
   two different things.
 
-- I do know how to research hardware compatibility ( :smile: surprising,
+- I do know how to research hardware compatibility (  surprising,
   eh?), but I do like
   cutting edge technologies as well (problematic...). Does it seems
   normal to you to avoid commodity hardware just on the ground that

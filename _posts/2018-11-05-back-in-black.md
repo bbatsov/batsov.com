@@ -32,5 +32,5 @@ and that really got me excited about writing. Let's see if I'll do
 better this time around, or I'll simply fail one more time...
 
 [^1]: <{{ site.url }}{% post_url 2015-02-15-octopress-3-dot-0 %}>
-[^2]: Well, there are always plenty of excuses. :smile:
+[^2]: Well, there are always plenty of excuses.
 [^3]: <{{ site.url }}{% post_url 2008-05-05-first-post %}>

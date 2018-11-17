@@ -308,4 +308,4 @@ both projects evolve in their current directions (and stabilize along
 the way).
 
 So what are you waiting for? Give them both a shot and share your
-experience in the comments section! :smile:
+experience in the comments section!

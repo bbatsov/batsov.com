@@ -108,7 +108,7 @@ the answer for you - I've been super busy since the beginning of the
 year and haven't had much time for open-source projects. I'm hoping
 this will change, but only time will tell.  I'm very happy that a lot
 of people contributed to the development of CIDER 0.9. The project
-definitely doesn't have a bus factor of one. :smile:
+definitely doesn't have a bus factor of one.
 
 Special thanks to [Michael Griffiths](https://github.com/cichli) who
 did a ton of great work on this release. You rock!

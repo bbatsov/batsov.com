@@ -223,4 +223,4 @@ you've found my musing on the subject of attributes useful.
 As usual I'm looking forward to hearing your thoughts here and on
 [Twitter](http://twitter.com/bbatsov)!
 
-**P.S.** Happy 4th of July to all my American readers! :smile:
+**P.S.** Happy 4th of July to all my American readers!

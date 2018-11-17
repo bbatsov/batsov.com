@@ -11,7 +11,7 @@ I've been using zsh for about three years now and continue to be
 impressed the its immense power and flexibility. Switching from bash
 to zsh was a decision as good as switching from Windows to GNU/Linux,
 from vim to Emacs, from Eclipse to IntelliJ IDEA. In other words - it
-was an extremely good decision. :smile:
+was an extremely good decision.
 
 So I want to finally get the word out, showcase some nice zsh features
 and probably persuade a couple of bash users to try it. Be warned,

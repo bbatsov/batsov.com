@@ -298,7 +298,7 @@ On the other side vim excels in a few areas for me:
 * nicer navigation
 * much smaller core and much faster to load
 * very simple initial config
-* it has a more stylish icon than Emacs :wink:
+* it has a more stylish icon than Emacs
 
 #### Emacs vs IDEs
 

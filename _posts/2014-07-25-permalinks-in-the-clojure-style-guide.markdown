@@ -13,7 +13,7 @@ community [Clojure style guide](https://github.com/bbatsov/clojure-style-guide) 
 Here's an
 [example](https://github.com/bbatsov/clojure-style-guide#when-instead-of-single-branch-if).
 Now you can easily refer to rules in heated style debates with your
-friends and co-workers. :smile:
+friends and co-workers.
 
 This is an addition that was way overdue (for which I take all the
 blame). I'd like to say a big `THANKS!!!` to [rbf](https://github.com/rbf) who

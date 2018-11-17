@@ -145,13 +145,13 @@ glitches here and there (try out `M-x linum-mode` for instance), but
 they are forgivable. I'm also missing the deep integration Emacs had with Linux.
 And who the fuck designed all the official Mac keyboards without a
 right control key? I finally understood why so many Mac users where on
-vim :smile:
+vim
 
 Btw, remapping the `Caps` to `Control` is not the answer. I do it now,
 I did it on Linux as well. You simply not supposed to hit Control +
 any other key with the same hand. It's disruptive to your
 typing... But then again - you should probably do most of your typing
-will a full sized keyboard :smile:
+will a full sized keyboard
 
 ### Software Development
 
@@ -198,7 +198,7 @@ is better than it's alternative, so beware!
 
 Here and there in OS X you have to write some appalling [XML config
 files](http://en.wikipedia.org/wiki/Property_list). I thought I'd never see the likes of those again after I put
-Java development behind me :smile:
+Java development behind me.
 
 ### XCode
 
@@ -221,15 +221,14 @@ wouldn't mind seeing Linux achieve this level of desktop maturity and
 stability.
 
 Should you dump Linux and join me in **darkness**? How the hell should
-I know? :smile: I'm just sharing my two cents - if you're happy using
+I know?  I'm just sharing my two cents - if you're happy using
 Linux you should **definitely** stick with it. Obviously I wasn't and
 there weren't that many alternatives lying around.
 
 Not having to deal with hardware problems and immature desktop apps is
 like a breath of fresh air and it more than compensates for the few
 shortcomings of OS X. Nothing compensates the lack of that right
-control key on most keyboards, but after all that's not an OS problem
-:wink:
+control key on most keyboards, but after all that's not an OS problem.
 
 There is great vibrant hacker community gathered around OS X and it's
 one of the main driving forces of the OS. There is unfortunately a lot

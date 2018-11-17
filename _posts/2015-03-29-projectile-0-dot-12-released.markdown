@@ -28,7 +28,7 @@ would have any users except me, but today it's one of the most popular
 other projects and have a pretty demanding day job, so issues and feature
 requests have been piling up
 lately. [80 open issues](https://github.com/bbatsov/projectile/issues) -
-that's depressing! I guess I'm a pretty lame maintainer! :smile:
+that's depressing! I guess I'm a pretty lame maintainer!
 
 If you like the project, I'd appreciate your assistance to bring their
 number down.  Many of the requests are relatively easy to implement,

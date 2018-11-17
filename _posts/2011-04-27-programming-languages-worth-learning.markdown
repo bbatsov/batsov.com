@@ -90,7 +90,7 @@ I've taught a couple of introductory Java programming courses (in
 Bulgarian), but I'd recommend the
 ["Core Java"](http://www.amazon.com/Core-Java-TM-I--Fundamentals-8th/dp/0132354764/ref=sr_1_1?s=books&ie=UTF8&qid=1303901341&sr=1-1)
 book over my lectures any day of
-the week. :smile:
+the week.
 
 ## Haskell
 
@@ -229,4 +229,4 @@ _P.S. If you're wondering why a certain "great" language X is not on
 the list keep in mind that this is my personal(and highly subjective)
 point of view on the subject. Who knows, in some dark and twisted
 place there may very well be people who consider BASIC a programming
-language masterpiece... :smile:_
+language masterpiece... _

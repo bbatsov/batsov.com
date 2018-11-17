@@ -111,7 +111,7 @@ The Android OS has a lot of merits, of course:
 
 * proper multitasking
 * powerful notification system
-* the ability to change your default apps :smile:
+* the ability to change your default apps
 * the ability to change the keyboard application
 * great integration with Google's apps
 * the extendable sharing infrastructure - you install an app that is a possible share destination and you can use it for sharing from everywhere sharing is supported
@@ -123,7 +123,7 @@ All of the bad stuff I can think of is not actually in the Android OS itself, bu
 
 * few tablet optimized apps
 * most apps still debut first on iOS and arrive on Android a few months later (although not nearly as much as 5 years ago)
-* you're trusting an advertising company with all your personal data :smile:
+* you're trusting an advertising company with all your personal data
 
 ## On iOS
 
@@ -202,7 +202,7 @@ All things considered it's pretty hard to make judgement calls like
 **one is better than the other**. I like them both to some extend for
 various reasons - for now I use an iPhone, but who knows what the
 future holds for me. I don't suffer from brand loyalty to tech
-companies, the only brands I'm truly loyal to are New Balance and BMW. :smile:
+companies, the only brands I'm truly loyal to are New Balance and BMW.
 
 The important takeaway for you, dear reader, is not to take fanboy
 fiction at face value, but to think for yourself, to be skeptical and
