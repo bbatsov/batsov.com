@@ -41,16 +41,16 @@ hackers these days.
 For all the good things IDEs have brought us (smart auto-completion,
 nice visual debuggers, semantic analysis of the source code, etc) they
 have totally forgot about the most crucial part of software
-development - it's mostly about editing text. And
-all the IDEs I've used have extremely poor text editing capabilities
-compared to likes of Emacs and vim. A very trivial example is the fact
-that most IDEs don't even have keybindings optimized for touch typing
-- they require you to move your hands often from the home row (such a waste)
-and have mouse-centric UIs.
+development - it's mostly about editing text. And all the IDEs I've
+used have extremely poor text editing capabilities compared to likes
+of Emacs and vim. A very trivial example is the fact that most IDEs
+don't even have keybindings optimized for touch typing - they require
+you to move your hands often from the home row (such a waste) and have
+mouse-centric UIs.
 
-A programmer's editor might not have all the fancy bells and whistles
-- but it has the thing that matters (should matter) the most - a
-decent editing experience.
+A programmer's editor might not have all the fancy bells and
+whistles - but it has the thing that matters (should matter) the
+most - a decent editing experience.
 
 ## The Road to Emacs
 
@@ -83,17 +83,17 @@ improvements in the area) and vimscript (the extension language for
 vim) simply sucked.
 
 I had often heard rumors of a mythical editor so powerful and some
-infinite in its capabilities that people were afraid to approach it. That
-editor's name was Emacs. When I first started Emacs I had absolutely
-no knowledge of Lisp what-so-ever, so dealing with it's configuration
-in the beginning was a bit hard - I often copied some bits and piece
-of code that I didn't fully understand and when there was an error
-within some of those snippets, I was having a really hard time figuring
-it out. Luckily for me I found a copy of
-[Learning Emacs](http://www.amazon.com/Learning-Emacs-Third-Debra-Cameron/dp/0596006489/ref=sr_1_1?ie=UTF8&qid=1321689125&sr=8-1)
-- a nice (but not great) book that gently guided me through the
-  maelstrom of Emacs features. At first I was hardly efficient in
-  Emacs, but my proficiency in it quickly grew.
+infinite in its capabilities that people were afraid to approach
+it. That editor's name was Emacs. When I first started Emacs I had
+absolutely no knowledge of Lisp what-so-ever, so dealing with it's
+configuration in the beginning was a bit hard - I often copied some
+bits and piece of code that I didn't fully understand and when there
+was an error within some of those snippets, I was having a really hard
+time figuring it out. Luckily for me I found a copy of [Learning
+Emacs](http://www.amazon.com/Learning-Emacs-Third-Debra-Cameron/dp/0596006489/ref=sr_1_1?ie=UTF8&qid=1321689125&sr=8-1) -
+a nice (but not great) book that gently guided me through the
+maelstrom of Emacs features. At first I was hardly efficient in Emacs,
+but my proficiency in it quickly grew.
 
 I had a bit of luck that I switched jobs and went to work in a company
 where Emacs had God-like status. All the cool devs there were using it
@@ -202,8 +202,8 @@ You need a file browser for Emacs - we have plenty! `Dired` is the
 tried and try option, but there are "more modern" solutions such as
 emacs-nav.
 
-Version Control integration? You bet! CVS, SVN, bazaar, git, mercurial
-- everything is supported out of the box!
+Version Control integration? You bet! CVS, SVN, bazaar, git,
+mercurial - everything is supported out of the box!
 
 You want to invoke a shell commands on the side? Nothing is easier.
 
@@ -412,7 +412,7 @@ give you a bit of an insight into Emacs Lisp programming
 > section on Emacs Lisp, Emacs has an entire programming language inside
 > it that can be used to write arbitrarily powerful editor functions.
 >
-> --Eric S. Raymond, The Art of UNIX Programming %}
+> --Eric S. Raymond, The Art of UNIX Programming
 
 Should you give Emacs a shot? I have absolutely no idea... If you
 found something in my post intriguing - I guess you should. If it was
