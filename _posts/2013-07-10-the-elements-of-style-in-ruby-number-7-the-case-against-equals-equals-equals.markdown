@@ -8,7 +8,7 @@ tags:
 - Style
 ---
 
-Today we'll discuss the following section from the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide):
+Today we'll discuss the following section from the [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide):
 
 > Avoid explicit use of the case equality operator `===`. As it name<br/>
 > implies it's meant to be used implicitly by `case` expressions and<br/>

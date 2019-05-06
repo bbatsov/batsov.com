@@ -9,15 +9,15 @@ tags:
 ---
 
 After I launched the
-[Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) I
+[Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide) I
 often received requests to create a tool enforcing the rules in the guide
 automatically.
 
 Today this tool is a reality - meet
-[RuboCop](https://github.com/bbatsov/rubocop). RuboCop already covers
+[RuboCop](https://github.com/rubocop-hq/rubocop). RuboCop already covers
 a significant portion of the Guide, supports both MRI 1.9 and MRI 2.0
 and has pretty neat Emacs integration(via
-[rubocop.el](https://github.com/bbatsov/rubocop-emacs) and
+[rubocop.el](https://github.com/rubocop-hq/rubocop-emacs) and
 [flycheck](https://github.com/lunaryorn/flycheck)).
 
 I'd love to see more Ruby hackers check out RuboCop!

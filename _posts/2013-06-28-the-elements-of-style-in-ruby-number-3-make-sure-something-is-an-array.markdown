@@ -9,7 +9,7 @@ tags:
 ---
 
 The subject of today's post is the following rule from the
-[Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide):
+[Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide):
 
 > Use `[*var]` or `Array()` instead of an explicit `Array` check, when dealing with a </br>
 > variable you want to treat as an Array, but you're not certain it's </br>

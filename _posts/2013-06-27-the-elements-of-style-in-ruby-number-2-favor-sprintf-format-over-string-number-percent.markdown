@@ -8,7 +8,7 @@ tags:
 - Style
 ---
 
-Today's topic is the following rule from the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide):
+Today's topic is the following rule from the [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide):
 
 > Favor the use of `sprintf` and its alias `format` over the fairly </br>
 > cryptic `String#%` method.
