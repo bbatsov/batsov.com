@@ -27,7 +27,7 @@ from the movies. I feel that this is the time for one such quote.
 
 I’m no hacker wizard by any means, but I hope that I can
 help someone learn something useful and maybe I'll manage to learn something
-from the readers of my blog(if I have any, that is). In this sense
+from the readers of my blog (if I have any, that is). In this sense
 one can say that in life we're always the master and the apprentice at
 the same time...
 
