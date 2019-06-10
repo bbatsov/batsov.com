@@ -26,8 +26,8 @@ bulk of the reasoning behind the rule. There was also fact that Ruby's
 main competitor Python upholds the same line length limit.
 
 Many would argue that such a restriction does not make sense with the
-advances in computer displays in recent years - after all a full hd
-computer display would give you much more columns to play with. Why
+advances in computer displays in recent years - after all a Full HD
+computer display would give you many more columns to play with. Why
 not go with no limit what-so-ever? That would be simple, right?
 
 Wrong! We should definitely have a limit - that's beyond any
