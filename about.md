@@ -18,9 +18,6 @@ The above paragraph is actually what I typically use as my bio for
 [conference talks](/presentations/). I love speaking at conferences
 and I'm really bad at it![^3]
 
-I'm living in Sofia, Bulgaria and you should totally ping me if you're
-ever in my part of the world!
-
 ## About (think)
 
 This site was my first attempt to write. I failed miserably and I produced some pretty
