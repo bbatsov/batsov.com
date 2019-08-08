@@ -44,7 +44,8 @@ experience:
 
 * [nREPL](https://nrepl.xyz)
 * [Piggieback](https://github.com/nrepl/piggieback)
-* [Drawbridge](https://github.com/nrepl/nrepl/drawbridge)
+* [Drawbridge](https://github.com/nrepl/drawbridge)
+* [Fastlane](https://github.com/nrepl/fastlane)
 * [cljs-tooling](https://github.com/clojure-emacs/cljs-tooling)
 * [clj-refactor](https://github.com/clojure-emacs/clj-refactor)
 * [refactor-nrepl](https://github.com/clojure-emacs/refactor-nrepl)
