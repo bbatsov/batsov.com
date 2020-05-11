@@ -58,9 +58,9 @@ Obviously we should not overdo `_`:
 ```
 
 Personally, when dealing with decimal literals, I tend to use `_` for
-numbers with at 5 least digits(e.g. `11_948`). The number of digits to separate with
+numbers with at 5 least digits (e.g. `11_948`). The number of digits to separate with
 `_` depends on the numeric base - in decimal it makes sense to group
-digits by 3(`1_000_000`), in binary by 4(`0b1111_1010_1110`), etc.
+digits by 3 (e.g. `1_000_000`), in binary by 4 (e.g. `0b1111_1010_1110`), etc.
 
 That's all for today folks! Hope I managed to convince at least a few
 of you of the benefits of using underscores in your long numeric literals.
