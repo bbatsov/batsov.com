@@ -16,7 +16,7 @@ A lot of time has passed since the previous stable release, for which
 I'm truly sorry.  I kept delaying and delaying the release for various
 reasons, but it's finally here and it's pretty **big**.  Please,
 consult the
-[CHANGELOG](https://github.com/bbatsov/projectile/blob/master/CHANGELOG.md)
+[changelog](https://github.com/bbatsov/projectile/blob/master/CHANGELOG.md)
 for some of the more interesting changes. Note that some changes and
 new features are totally undocumented, as I haven't been as demanding
 to contributors as I'm usually on my other projects (meaning I didn't
