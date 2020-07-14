@@ -18,6 +18,7 @@ There are a ton of important changes and new features in 0.9 and now I'll go
 quickly through some of them.
 
 <!--more-->
+## New Features
 
 ### Debugger
 
