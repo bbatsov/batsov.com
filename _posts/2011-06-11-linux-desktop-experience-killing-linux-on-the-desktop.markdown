@@ -32,17 +32,16 @@ with Linux, hoping that the day would come when it will become a
 first-class citizen of the desktop operating systems town. Alas, this
 day never came and probably never will.
 
-My patience ended this week and I'll be gradually moving all my
-desktop machines back to Windows. What caused me to take such drastic
-course of action? I've bought myself a new ThinkPad T520 laptop,
-powered by Nvidia's Optimus GPU switching technology - when the GPU
-load is low it uses the built-in Sandy Bridge GPU, when it gets higher
-- it switches to the discrete NVS 4200M GPU. Needless to say - this
-  technology is not supported under Linux, but I was prepared to live
-  without it. After all both Intel and Nvidia are known to have decent
-  Linux drivers so I was about to try both GPU and select the one with
-  the better performance. All I had to do was pick a shiny new
-  distribution to power my mobile powerhouse...
+My patience ended this week and I'll be gradually moving all my desktop machines
+back to Windows. What caused me to take such drastic course of action? I've
+bought myself a new ThinkPad T520 laptop, powered by Nvidia's Optimus GPU
+switching technology - when the GPU load is low it uses the built-in Sandy
+Bridge GPU, when it gets higher - it switches to the discrete NVS 4200M
+GPU. Needless to say, this technology is not supported under Linux, but I was
+prepared to live without it. After all both Intel and Nvidia are known to have
+decent Linux drivers so I was about to try both GPU and select the one with the
+better performance. All I had to do was pick a shiny new distribution to power
+my mobile powerhouse...
 
 ## The Distribution
 
@@ -57,7 +56,7 @@ normal video drivers.
 
 The Intel driver sucked so bad that I got constant screen corruption
 and hang-ups. Too bad, because I preferred to use the Intel GPU since
-I mostly work on the laptop. The open source Nvidia driver nouveau
+I mostly work on the laptop. The open source Nvidia driver `nouveau`
 doesn't support the NVS 4200, so I was forced to install the
 proprietary driver. It ran OK initially, but after some time my system
 just started to freeze while waiting for Plymouth (probably after some
@@ -79,7 +78,7 @@ hardware (released in the past 6-12 months). Many of the problems,
 unfortunately manifest on all kind of hardware no matter how old._
 
 **Non-existing ethernet/wireless drivers** - not so common today, but
-  try remembering the time circa 2005
+  try remembering the time circa 2005.
 
 **Non-existing/crappy audio drivers** - got an X-Fi 5 years ago, ALSA
   driver was released 3-4 years later and was total piece of garbage,
@@ -155,7 +154,7 @@ Memory", Optimus, etc.
 I can keep listing things here forever. When I come to think about it
 for the entire time I've been using Linux only one major problem got
 resolved - USB devices support. I still remember the days when I had
-to write auto mounting policies myself or to use _mount_ manually all
+to write auto-mounting policies myself or to use `mount` manually all
 the time. I won't even mention the quality of most proprietary apps on
 Linux, the huge amount of missing essential application and the
 unavailability of mainstream video games.
@@ -166,13 +165,13 @@ heart and a VMWare instance on my Windows boxes.
 
 ## What I'll miss
 
-- shell
+- (proper) shell
 - transparency, control
 - package management
 - lack of viruses, malware
 
 Although most common desktop users probably don't use the shell very
-often, I practically live(d) in it. OS X has zsh and bash, so it's a
+often, I practically live(d) in it. OS X has `zsh` and `bash`, so it's a
 long term option for me, but due to the need for new hardware I'll be
 using Windows 7 on the desktop front for now. Hopefully the rumors
 that PowerShell is great will turned out to be true.
@@ -228,13 +227,13 @@ like to clarify something for them:
   OS. They won't ever get this post, but hopefully YOU will.
 
 - Hardware support is a big part of the Linux desktop problem, but
-  it's not the only problem. Half-baked DE like KDE 4.0, Ubuntu's
+  it's not the only problem. Half-baked desktop environments like KDE 4.0, Ubuntu's
   Unity and GNOME 3.0 are just as dangerous.
 
 - Having some hardware support and having great hardware support are
   two different things.
 
-- I do know how to research hardware compatibility (  surprising,
+- I do know how to research hardware compatibility (surprising,
   eh?), but I do like
   cutting edge technologies as well (problematic...). Does it seems
   normal to you to avoid commodity hardware just on the ground that
@@ -246,16 +245,16 @@ like to clarify something for them:
 
 I'll include here a great comment from Jan de Vos:
 
-_While I'm still using Linux (usually Ubuntu, sometimes Fedora)
-everywhere (at work and at home), I do agree with a lot of points in
-this article; there are a lot of things that could be improved, and
-there are a lot of frustrations that Windows users don't have. Saying so
-is not FUD, it is a simple truth. If someone who clearly likes a lot of
-things in Linux decides to switch to something else, that really is a
-bad thing, and an indication that there are real problems.
-
-In my opinion, ignoring these problems, or even denying they exist, may
-be a lot more harmful than talking about them._
+> While I'm still using Linux (usually Ubuntu, sometimes Fedora)
+> everywhere (at work and at home), I do agree with a lot of points in
+> this article; there are a lot of things that could be improved, and
+> there are a lot of frustrations that Windows users don't have. Saying so
+> is not FUD, it is a simple truth. If someone who clearly likes a lot of
+> things in Linux decides to switch to something else, that really is a
+> bad thing, and an indication that there are real problems.
+>
+> In my opinion, ignoring these problems, or even denying they exist, may
+> be a lot more harmful than talking about them.
 
 I couldn't agree more!
 
@@ -284,15 +283,16 @@ vendors every OS is ultimately doomed to fail.
 It's no secret that a lot of money are made by Linux server businesses
 and this naturally drives a lot of the development in the area of
 improving server performance. Nobody put it better than
-[Con Colivas](http://apcmag.com/why_i_quit_kernel_developer_con_kolivas.htm)
-- "_Linux is burdened with enterprise crap that makes it run poorly on
-  desktop PCs._". Linux will remain the king of the
-  server world, but on the desktop front it will always be an OS for
-  enthusiast and hackers only.
+[Con Colivas](http://apcmag.com/why_i_quit_kernel_developer_con_kolivas.htm):
+
+> Linux is burdened with enterprise crap that makes it run poorly on desktop PCs.
+
+Linux will remain the king of the server world, but on the desktop front it will
+always be an OS for enthusiast and hackers only.
 
 Goodbye, my dear old friend. You'll be missed... but not that much.
 
-P.S. Btw I'm as pro a Linux user as they get - a professional sys
+**P.S.** Btw I'm as pro a Linux user as they get - a professional sys
 admin, a former kernel developer so don't bother me with moronic
 comments from the type "you're not doing something right/you should
 try another distro".
