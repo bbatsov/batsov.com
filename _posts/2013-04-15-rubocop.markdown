@@ -15,7 +15,7 @@ automatically.
 
 Today this tool is a reality - meet
 [RuboCop](https://github.com/rubocop-hq/rubocop). RuboCop already covers
-a significant portion of the Guide, supports both MRI 1.9 and MRI 2.0
+a significant portion of the style guide, supports both MRI 1.9 and MRI 2.0
 and has pretty neat Emacs integration (via
 [rubocop.el](https://github.com/rubocop-hq/rubocop-emacs) and
 [flycheck](https://github.com/lunaryorn/flycheck)).[^1]
