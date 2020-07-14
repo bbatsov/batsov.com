@@ -46,8 +46,7 @@ talking about so we shouldn't be cheap. So what are
 waiting for - research the market yourselves and make your pick! Your
 hands deserve a quality keyboard (the Das Keyboard)!
 
-[^1]: The clicky versions have Cherry MX Blue keyswitches and the "silent" version
-has Cherry MX Brown.
+[^1]: The clicky versions have Cherry MX Blue keyswitches and the "silent" version has Cherry MX Brown.
 
 **Update:** Down the road I've switched to Das Keyboard 4, KUL ES-87 and
 eventually to the [Leopold
