@@ -296,3 +296,5 @@ Goodbye, my dear old friend. You'll be missed... but not that much.
 admin, a former kernel developer so don't bother me with moronic
 comments from the type "you're not doing something right/you should
 try another distro".
+
+**Update:** I wrote a [follow-up article]({% post_url 2011-06-14-linux-desktop-part-2 %}) that expands on some of the points I've made in this one.

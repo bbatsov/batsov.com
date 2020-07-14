@@ -13,7 +13,7 @@ _Read this with an open mind._
 ## Prelude
 
 A few days back I wrote a somewhat controversial article called,
-["The Linux desktop experience is killing Linux on the desktop"](/Linux/Windows/Rant/2011/06/11/linux-desktop-experience-killing-linux-on-the-desktop.html). While
+["The Linux desktop experience is killing Linux on the desktop"]({% post_url 2011-06-11-linux-desktop-experience-killing-linux-on-the-desktop %}). While
 many readers seem to have grasped the true purpose of the article, a
 lot of people claimed that it was nothing but FUD (a favorite term
 of many people in the Linux community, who would rather ignore
@@ -29,11 +29,11 @@ it's usability, strengths and weaknesses.
 ## Let's get some facts straight
 
 I'm writing this post from my Emacs 23.2 client (in Markdown, to
-publish it via git to my jekyll powered blog) connected to my Emacs
+publish it via git to my jekyll-powered blog) connected to my Emacs
 daemon, running on my Fedora 15 GNOME 3.0 desktop at home. This
 machine has its every part carefully selected for maximum Linux
 compatibility (the machine is a bit old, but that wasn't always the case) -
-a GeForce 9600GT known to work "great" with the open-source nouveau
+a GeForce 9600GT known to work "great" with the open-source `nouveau`
 driver, an Asus Xonar DX sound card, supported by the great Oxygen HD
 audio driver, etc. I do know how to buy hardware (contrary to popular
 belief). Actually I've been a hardware
@@ -54,26 +54,26 @@ doesn't extend to the ability to pick any piece of fairly generic
 hardware and properly enjoy it. Often you just have to hope
 and pray - and sometimes you might get lucky.
 
-A reader pointed me to
-[this piece](http://blog.eracc.com/2011/06/14/the-century-of-the-linux-desktop/)
-- a rebuttal of my article. Here's an excerpt:
+A reader pointed me to [this
+piece](http://blog.eracc.com/2011/06/14/the-century-of-the-linux-desktop/), a
+rebuttal of my article. Here's an excerpt:
 
-_Here we go again. Some fellow has gotten all whiny about being such a
-big Linux fan, "… hardcore Linux user …", but he just had to go back
-to Microsoft to get things done. Why? Because he is tired of having to
-tinker with Fedora Linux to make things work, or fail to work, with
-cutting edge hardware … and 64-bit Flash on 64-bit Linux is sucky …
-and Skype on Linux is sucky … and … and … and. It was all just so
-painful and time consuming he could not take it any longer and went
-back to the safe arms of Microsoft to escape the horror that is
-Linux. Good grief.
-Okay, first and foremost, a true "hardcore Linux user", in my mind a
-fan of Linux, is unlikely to switch from Linux to anything else. Oh
-yes, he or she will switch Linux distributions in a heartbeat, or
-maybe three heartbeats, if a distribution fails to work as needed. But
-switching to Microsoft and leaving the Linux desktop behind? Not
-likely, my friends. I consider myself a true "hardcore Linux user" and
-I see no voluntary switch from Linux in my future … ever._
+> Here we go again. Some fellow has gotten all whiny about being such a
+> big Linux fan, "… hardcore Linux user …", but he just had to go back
+> to Microsoft to get things done. Why? Because he is tired of having to
+> tinker with Fedora Linux to make things work, or fail to work, with
+> cutting edge hardware … and 64-bit Flash on 64-bit Linux is sucky …
+> and Skype on Linux is sucky … and … and … and. It was all just so
+> painful and time consuming he could not take it any longer and went
+> back to the safe arms of Microsoft to escape the horror that is
+> Linux. Good grief.
+> Okay, first and foremost, a true "hardcore Linux user", in my mind a
+> fan of Linux, is unlikely to switch from Linux to anything else. Oh
+> yes, he or she will switch Linux distributions in a heartbeat, or
+> maybe three heartbeats, if a distribution fails to work as needed. But
+> switching to Microsoft and leaving the Linux desktop behind? Not
+> likely, my friends. I consider myself a true "hardcore Linux user" and
+> I see no voluntary switch from Linux in my future … ever.
 
 This bit produced a sad smile on my face. Had to go back to Microsoft?
 Absolutely not! Chose to use Windows 7 (for the time
@@ -88,8 +88,8 @@ perspective - mostly the same environment, the same applications. The
 only thing that really makes the difference is the hardware support
 and Linux is clearly far ahead of its competition.
 
-Hardcore user? You bet! But hardcore doesn't mean an 'unreasonable
-idiot, blinded by zealously'. It's not always that someone's favorite
+Hardcore user? You bet! But hardcore doesn't mean a "deluded
+idiot, blinded by zealously". It's not always that someone's favorite
 technologies are the best solution to a problem. The section "the shit
 I've endured" had a dual purpose - list a "few" problems and show how
 resilient I am.
@@ -110,8 +110,8 @@ My former post placed a heavy emphasis on existing driver
 issues. While I abhor some Linux drivers I've never ever blamed the
 authors of open source drivers. Here's why:
 
-The year and a half I've spent writing Linux drivers for a proprietary
-Austrian company was some of the hardest time in my professional
+The year and a half I've spent writing Linux drivers for proprietary devices
+created by an Austrian company, was some of the hardest time in my professional
 career. Writing drivers is fairly hard task for two reasons - you have
 to have very intimate knowledge of the hardware at hand and you have
 to write very safe code (and carefully test it), because otherwise you might bring the whole
@@ -132,13 +132,13 @@ to create good drivers for us out the kindness of their hearts in
 their little spare time with little or no hardware specs on which to
 rely for absolutely no money.
 
-I've read the source code of many network layer drivers in the Linux
-kernel and I've noticed a common trend - a lot of the drivers were
-actually written by hardware engineers (instead of software engineers)
-- they are filled with copy/paste segments from other drivers, lots of
-  useless/dubious/dangerous code. This doesn't surprise me - few
-  software engineers have solid grasp of hardware and/or the will to
-  take part in driver development. This is a big problem with no easy solution.
+I've read the source code of many network layer drivers in the Linux kernel and
+I've noticed a common trend - a lot of the drivers were actually written by
+hardware engineers (instead of software engineers).  The drivers are filled with
+copy/paste segments from other drivers, lots of useless/dubious/dangerous
+code. This doesn't surprise me - few software engineers have solid grasp of
+hardware and/or the will to take part in driver development. This is a big
+problem with no easy solution.
 
 The hardware vendors are the only party that deserves blame for the
 sorry state of many drivers. I cannot believe how hard it is for a
@@ -231,31 +231,24 @@ into the development of the project.
 
 A few examples from recent years:
 
-KDE 4.0
-
-GNOME 3.0
-
-Empathy
-
-PulseAudio
-
-NetworkManager
-
-Beagle
+* KDE 4.0
+* GNOME 3.0
+* Empathy
+* PulseAudio
+* NetworkManager
+* Beagle
 
 The list could go on and on... Microsoft and Apple have certainly had
-their fair share of mistakes (Win ME, Win Vista, OS X Leopard), but
+their fair share of mistakes (Windows ME, Windows Vista, OS X Leopard), but
 nothing on a scale as epic as KDE 4.0 or GNOME 3.0...
 
 **Some users are more important then others it seems...**
 
 All those programs run on all major OS, but they perform worst on Linux:
 
-Firefox
-
-OpenOffice
-
-Flash Player
+* Firefox
+* OpenOffice
+* Flash Player
 
 Obviously writing great multi-platform apps is possible as illustrated
 by software such as VLC and Google Chrome. But what about all the
@@ -273,11 +266,10 @@ default in Windows or OS X...
 
 Same goes for OpenOffice to the letter.
 
-And flash is well -
-flash. It's not the greatest piece of software on any platform, but
-it's absolutely horrible in Linux. When I open a flash intensive web
-site my CPU load generally spikes up to the sky (thank God for AdBlock
-& FlashBlock).
+And flash is well - flash... It's not the greatest piece of software on any
+platform, but it's absolutely horrible in Linux. When I open a flash intensive
+web site my CPU load generally spikes up to the sky (thank God for AdBlock &
+FlashBlock).
 
 Skype was not even mentioned here (until now obviously) since the Linux version is so far behind
 the one for OS X and Windows that I wouldn't even consider it a
@@ -300,8 +292,8 @@ Something similar is happening on the Linux desktop ship - everybody
 says he's on board, but very few people are actually rowing and
 bringing the Linux desktop to it's designated port.
 
-I've written only two desktop project for Linux from scratch (an
-English-Bulgarian dictionary utility and a GUI front-end for pacman on
+I've written only two desktop projects for Linux from scratch (a
+simple English-Bulgarian dictionary utility and a GUI front-end for pacman on
 Arch Linux), but I've contributed bug reports and patches to lots of
 projects. No matter what your opinion about me is - I've done
 something for the Linux desktop and I'm doing something for the desktop now
