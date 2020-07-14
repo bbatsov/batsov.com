@@ -6,6 +6,7 @@ comments: true
 category: Emacs
 tags:
 - Emacs
+- Meta
 ---
 
 ## Prelude
@@ -49,8 +50,8 @@ you to move your hands often from the home row (such a waste) and have
 mouse-centric UIs.
 
 A programmer's editor might not have all the fancy bells and
-whistles - but it has the thing that matters (should matter) the
-most - a decent editing experience.
+whistles, but it has the one thing that matters (should matter?) the
+most - a good editing experience.
 
 ## The Road to Emacs
 
@@ -101,8 +102,8 @@ and they were also hardcore Lisp hackers. There I learned the true
 power of Emacs, there I got hooked to Lisp and there I truly
 understand what Emacs is about.
 
-_Emacs is what you want it be. Emacs is power. But with great power,
-comes great responsibility - the responsibility to think._
+> Emacs is what you want it be. Emacs is power. But with great power,
+> comes great responsibility - the responsibility to think.
 
 ## Why Emacs?
 
@@ -134,19 +135,20 @@ Emacs modes I've ever seen). Most not-so-popular programming
 languages are well supported as well.
 
 The quality and the features vary wildly though - some modes like
-SLIME, cc-mode, js2-mode and cperl-mode are nothing short of magical
-and others provide only basic highlighting and indentation support.
+[SLIME](https://common-lisp.net/project/slime/), `cc-mode`, `js2-mode` and
+`cperl-mode` are nothing short of magical and others provide only basic
+highlighting and indentation support.
 
 But this is only the tip of the iceberg - in Emacs you can easily
 create beautifully typeset documents and books in LaTeX (with the help
-of AUCTeX mode), charts with graphviz-mode, you can check your e-mail
-with gnus (wanderlust and mew are other nice options), chat in IRC
+of AUCTeX mode), charts with `graphviz-mode`, you can check your e-mail
+with `gnus` (`wanderlust` and `mew` are other nice options), chat in IRC
 with ERC, run a terminal session or write your next great blog
-entry. And so many other things - there is even a coffee-mode that
+entry. And so many other things - there is even a `coffee-mode` that
 allows you to control certain kinds of coffee machines from Emacs.
 
 I happen to write all the articles on my site in Emacs and I publish
-them to github pages using the excellent magit (git integration for
+them to github pages using the excellent [magit](https://magit.vc/) (git integration for
 Emacs).
 
 No matter what the task at hand is - you can rely on Emacs's superb
@@ -207,7 +209,7 @@ mercurial - everything is supported out of the box!
 
 You want to invoke a shell commands on the side? Nothing is easier.
 
-You want to invoke make/rake/whatever from Emacs? Done and done.
+You want to invoke `make`/`rake`/whatever from Emacs? Done and done.
 
 You can even use Emacs as a process manager (`M-x proced`).
 
@@ -400,9 +402,11 @@ give you a bit of an insight into Emacs Lisp programming
 
 * first step - run the built-in Emacs tutorial - `C-h t`
 * second step - watch the excellent screencast [Meet Emacs](https://peepcode.com/products/meet-emacs)
-* third step - visit [Mastering Emacs](http://www.masteringemacs.org)
+* third step - visit [Emacs Redux](https://emacsredux.com) and [Mastering Emacs](http://www.masteringemacs.org)
 * forth step - read the official Emacs Manual - `C-h r`
 * fifth step - use Emacs day and night for all your work
+
+Check out this [article]({% post_url 2011-11-30-the-ultimate-collection-of-emacs-resources %}) for way more Emacs resources.
 
 ## Epilogue
 
@@ -421,4 +425,4 @@ world - probably not.
 
 I truly believe that anyone could gain something positive by spending
 some time with Emacs and exploring its vision and culture. I guess
-that in the it all boils down to whether you believe me...
+that in the end it all boils down to whether you're ready to take the red pill...
