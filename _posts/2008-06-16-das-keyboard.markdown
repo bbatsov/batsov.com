@@ -12,7 +12,7 @@ some quality piece of hardware. After a long research in the area of
 good keyboards I decided to upgrade my current rig to the recently
 released [Das Keyboard 3](http://www.daskeyboard.com/).
 
-![Das Keyboard](http://www.daskeyboard.com/images/products/mechanical_keyboard.jpg)
+![Das Keyboard](https://deskthority.net/wiki/images/0/0e/Das_keyboard_3_model_s_ultimate_iso_topview.jpg)
 
 Das Keyboard comes in three flavours - Professional(mechanical
 keyboard with labelled keys), Ultimate(the original mechanical
@@ -23,7 +23,7 @@ original Das Keyboard).
 I bought the Ultimate model, of course. I've been a touch typist for
 several years now and I didn't really cared about the labelled
 keys(though I did miss them in games). Two words describe this
-keyboard perfectly - **Bad Ass**. It's without a doubt the single
+keyboard perfectly - **bad ass**. It's without a doubt the single
 finest piece of keyboard hardware that I've touched, it's very
 comfortable, very solid and I feel that I've actually improved my
 typing speed with it. My colleagues don't like the noisy work of the
@@ -43,4 +43,4 @@ admittedly a bit steep(I bought two keyboards for home and for work
 each costing 130$), but this is our hands and productivity we're
 talking about so we shouldn't be cheap. So what are
 waiting for - research the market yourselves and make your pick, your
-hands deserve a quality keyboard(the Das Keyboard)!
+hands deserve a quality keyboard (the Das Keyboard)!
