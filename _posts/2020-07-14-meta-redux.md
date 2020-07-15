@@ -14,8 +14,15 @@ For a few years it was named `DevCraft`[^1] and it was hosted on wordpress.com. 
 I adopted the `(think)` title and switched to Jekyll, Octopress and then again to Jekyll.
 Originally I was writing mostly tutorials on topics like Linux, Java, Emacs and Ruby, but eventually I started writing some essays
 as well (my favorite type of posts). As my OSS portfolio grew it started to gain
-significant coverage in my blog as well. `(think)` was a big messy and without a clear
+significant coverage in my blog as well. `(think)` was a bit messy and without a clear
 direction, but I guess it was a somewhat accurate reflection of myself as well.
+
+I've thought at times about deleting some of my lame articles and heavily copy-editing
+the rest to make them fit my current beliefs and standards of quality, but this approach
+felt like cheating to me. I was who I was and I wrote what I wrote. To me that certainly
+has a lot of value. I've been thinking lately that being (very) critical of your old work
+is a good indicator that you're moving in the right direction. We can always do better,
+but we need to reach a certain level of experience to see that.
 
 For various reasons (mostly a combination of frustration with Octopress and my (immense) laziness), I didn't write
 anything between 2015 and 2018 and when I finally mustered the will to return to writing
@@ -23,7 +30,7 @@ I decided to go with a clean slate and a new blog.[^2]
 
 These days most of my writing happens at [Meta Redux](https://metaredux.com), but
 I still plan to post here things that are worth sharing, but don't fit the overall
-idea of Meta Redux (where my primary focus is my OSS work and essay-like articles).
+idea of Meta Redux (where my primary focus is my OSS work and essay-like articles).[^3]
 
 I guess I'll still be writing here on programming-related topics, but who knows...
 Knowing me there's a high chance I won't actually write anything at all! There's
@@ -36,3 +43,4 @@ a written account of our evolution as human beings.
 
 [^1]: I used to be a huge StarCraft fan.
 [^2]: I also wanted a blog with a cool (for some definition of cool) name this time around.
+[^3]: I still write the occasional short Emacs article at <https://emacsredux.com>.
