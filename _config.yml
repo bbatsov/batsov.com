@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   the real life and everything in between...
 permalink: "articles/:year/:month/:day/:title/"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://batsov.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://batsov.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bbatsov
 github_username:  bbatsov
 
