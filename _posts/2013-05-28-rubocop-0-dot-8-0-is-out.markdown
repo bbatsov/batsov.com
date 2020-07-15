@@ -5,6 +5,7 @@ date: 2013-05-28 12:11
 comments: true
 tags:
 - Ruby
+- RuboCop
 ---
 
 [RuboCop](http://github.com/bbatsov/rubocop) 0.8.0 is out!
@@ -25,10 +26,10 @@ comprehend RuboCop's source code, lowering the bar for contributions
 immensely.
 
 What's coming down the road for 0.9.0? We have two big changes
-planned - providing an auto-fix functionality(meaning RuboCop will be
+planned - providing an auto-fix functionality (meaning RuboCop will be
 able to fix on its own some of the problems detected) and providing
-more precise diagnostic messages(a-la `clang`).
+more precise diagnostic messages (a-la `clang`).
 
-The changelog for 0.8.0 is available [here](https://github.com/bbatsov/rubocop/blob/master/CHANGELOG.md).
+The changelog for 0.8.0 is available [here](https://github.com/rubocop-hq/rubocop/blob/master/CHANGELOG.md#080-2013-05-28).
 
 Stay tuned for more!
