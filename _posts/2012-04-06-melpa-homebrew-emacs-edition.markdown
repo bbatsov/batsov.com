@@ -25,7 +25,7 @@ packages. The recipes can be tested locally by package authors, and
 they are run hourly on the MELPA server to create an HTTP package
 archive that Emacs users can simply add to their `'package-archives`
 list. As [Phil Hagelberg](http://technomancy.us) said - there's no reason to drag in
-complicated dependencies like Node for something that's essentially a
+complicated dependencies like Node.js for something that's essentially a
 pile of static files. MELPA on the other hand is written mostly in
 Emacs Lisp and is thus much more comprehensible to casual Emacs hackers.
 
@@ -48,10 +48,10 @@ code to the `pkglist` file in MELPA's source code repo:
 You simply have to fork the [official repo](https://github.com/milkypostman/melpa), modify `pkglist`, send a pull
 request and `package.el` compatible packages will be built
 automatically for you on MELPA's server (you can also build the
-packages locally to test if everything is OK with your recipes). Sure it's not as easy as
+packages locally to test if everything is OK with your recipes). Sure, it's not as easy as
 submitting a package via a web UI, but it's a much more robust
 approach. It also eliminates a common problem in Marmalade - there
-only the original uploader (+ people selected by him) can update a
+only the original uploader (+ people selected by them) can update a
 package. Often the original uploaders are very hard to find...
 
 To use MELPA with Emacs 24 (or a recent version of `package.el`) just
