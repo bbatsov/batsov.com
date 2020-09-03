@@ -28,7 +28,7 @@ similar to the likes of `homebrew`, `apt` or `yum`?
 
 [Emacs 24]({% post_url 2011-08-19-a-peek-at-emacs24 %})
 finally introduces such a tool - its name is `package.el` (very
-original, right?) and it's promise is to make you're lives a bit
+original, right?) and its promise is to make your lives a bit
 easier. Does it manage to deliver on that promise? We'll see that in a bit...
 
 <!--more-->
