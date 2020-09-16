@@ -7,7 +7,7 @@ tags:
 
 During the past few months I've been working on a project to convert
 my vast Emacs configuration into something generally useful and
-self-contained that could help the general software engineer. Thus the
+self-contained that could help the typical software engineer. Thus the
 [Emacs Dev Kit](https://github.com/bbatsov/emacs-dev-kit) was
 born. Conceptually it's similar to the older
 [Emacs Starter Kit](https://github.com/technomancy/emacs-starter-kit)
