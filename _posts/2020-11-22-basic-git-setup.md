@@ -20,12 +20,25 @@ $ git config --global user.email bozhidar@example.com
 $ git config --global core.editor emacs
 # auto-rebase when pulling
 $ git config --global pull.rebase true
+# auto-convert CRLF to LF
+# useful if you're working on Windows and there are people on your team who are working on Unix
+$ git config --global core.autocrlf true
 # the name of the primary branch (formerly known as master)
 # that's a pretty recent setting, but it's useful for new projects
 $ git config --global init.defaultBranch main
 ```
 
-Those global user settings are simply stored under `~/.gitconfig`, so
+I guess for many people it'd also be useful to select their preferred merge tool as well:
+
+``` shellsession
+$ git config --global merge.tool some-tool
+```
+
+To me, however, that's irrelevant as almost all of the time I'm interacting with Git via
+[Magit](https://magit.vc/). If you're looking for an excuse to try out Emacs, you'll be hard
+pressed to find a better excuse than Magit.
+
+The global Git user settings are simply stored under `~/.gitconfig`, so
 you can easily review and update them there as well. You check your
 current configuration running this command:
 
@@ -45,7 +58,7 @@ $ git config user.email bozhidar@company.com
 ```
 
 And that's it. Turns out my basic Git setup is pretty basic. Check out [this section of the official docs](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
-for an expanded coverage of the topic.
+for an expanded coverage of the topic. You can find way more configuration options [here](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration).
 
 That's all I have for you today. I'd appreciate it if you shared in the comments some snippets of Git configuration that
 you consider essential.
