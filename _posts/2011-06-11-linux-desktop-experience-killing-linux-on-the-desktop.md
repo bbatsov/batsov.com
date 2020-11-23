@@ -90,7 +90,7 @@ unfortunately manifest on all kind of hardware no matter how old._
   decent video driver, but it's far from perfect either - no KMS, poor
   2D acceleration. AMD's drivers are a punishment from the Lord and
   Intel's constantly "evolving" drivers are barely usable most of the
-  time. The video card drivers made me buy and HD media player and an
+  time. The video card drivers made me buy a dedicated HD media player and an
   PS3 (for which I'm thankful), but I have to ask myself - why suffer
   all this shit instead of getting a normal desktop OS like OS X or
   Windows? Did I love Linux that much? Did I believe that much it's
