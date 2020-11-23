@@ -28,7 +28,7 @@ $ git config --global core.autocrlf true
 $ git config --global init.defaultBranch main
 ```
 
-I guess for many people it'd also be useful to select their preferred merge tool as well:
+I guess for many people it'd also be useful to specify their preferred merge tool:
 
 ``` shellsession
 $ git config --global merge.tool some-tool
