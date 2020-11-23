@@ -57,6 +57,33 @@ $ cd company-project
 $ git config user.email bozhidar@company.com
 ```
 
+If you're working on multiple company repositories the above solution will quickly become annoying. In such
+cases you may want to use [Git conditional includes](https://git-scm.com/docs/git-config#_conditional_includes),
+which basically allow you to include a different configuration file in your main Git config, based so on some
+rules.[^2] In our case we can have a different configuration for the e-mail based on the repository directory path. Here's an example
+`.gitconfig` to illustrate this:
+
+    [includeIf "gitdir:personal/"]
+      path = .gitconfig-personal
+    [includeIf "gitdir:work/"]
+      path = .gitconfig-work
+
+Now, any Git repository under a folder called `personal` (anywhere on your file
+system) will use the personal email address, and any repository under a
+folder called `work` will use your work email address.
+This matches my preference to keep my personal projects under
+`~/projects/personal` and the work under `~/projects/work`.
+
+The contents of `.gitconfig-personal` can be something like:
+
+    [user]
+      email = bozhidar@home.com
+
+And the contents of `.gitconfig-work` can be something like:
+
+    [user]
+      email = bozhidar@work.com
+
 And that's it. Turns out my basic Git setup is pretty basic. Check out [this section of the official docs](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 for an expanded coverage of the topic. You can find way more configuration options [here](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration).
 
@@ -64,3 +91,4 @@ That's all I have for you today. I'd appreciate it if you shared in the comments
 you consider essential.
 
 [^1]: This has been happening quite often recently and I'll cover it in a separate article or two.
+[^2]: Special thanks to my readers who suggested this setup to me.
