@@ -39,8 +39,8 @@ To me, however, that's irrelevant as almost all of the time I'm interacting with
 pressed to find a better excuse than Magit.
 
 The global Git user settings are simply stored under `~/.gitconfig`, so
-you can easily review and update them there as well. You check your
-current configuration running this command:
+you can easily review and update them there as well. You can check your
+current configuration by running this command:
 
 ``` shellsession
 $ git config --list
