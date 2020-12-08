@@ -9,7 +9,7 @@ tags:
 ---
 
 Just wanted to let you know that for [various reasons](https://fatfrogmedia.com/delete-disqus-comments-wordpress/) I've migrated the comments of `(think)` from
-Disqus to Hyvor Talk. I've described the process in a [dedicated article](https://metaredux.com/posts/2020/12/07/migrating-from-disqus-to-hyvor-talk.html).
+Disqus to [Hyvor Talk](https://talk.hyvor.com/). I've described the process in a [dedicated article](https://metaredux.com/posts/2020/12/07/migrating-from-disqus-to-hyvor-talk.html).
 
 One small difference in the migration procedure for `(think)` in particular is that because it uses the [Hydeout Jekyll theme](https://github.com/fongandrew/hydeout),
 I've opted to change `_includes/comments.html` instead of `_layouts/posts.html`. Here's how it looks now:
