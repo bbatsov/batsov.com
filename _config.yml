@@ -25,8 +25,8 @@ url: "https://batsov.com" # the base hostname & protocol for your site, e.g. htt
 twitter_username: bbatsov
 github_username:  bbatsov
 
-disqus:
-  shortname: batsov
+# disqus:
+#   shortname: batsov
 google_analytics: UA-22917580-1
 
 show_excerpts: true
