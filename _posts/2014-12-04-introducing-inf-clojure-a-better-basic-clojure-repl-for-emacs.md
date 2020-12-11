@@ -12,11 +12,13 @@ At [Clojure/conj](http://clojure-conj.org/) I had the chance to shake
 Rich Hickey’s hand and exchange a few words with him. When I asked him
 whether he currently uses CIDER or Cursive for Clojure development he
 replied that he preferred a simpler solution – `clojure-mode` &
-`inferior-lisp-mode`. I was a bit surprised because `clojure-mode`’s
+`inferior-lisp-mode`.
+
+I was a bit surprised because `clojure-mode`’s
 integration with `inferior-lisp-mode` sucks (big time). It has always
 been extremely limited and was never really improved/extended. It has
 no Clojure specific features and no code completion. I felt that Rich
-and all the people using inferior-lisp-mode deserved something better,
+and all the people using `inferior-lisp-mode` deserved something better,
 so I quickly put together [inf-clojure](https://github.com/clojure-emacs/inf-clojure).
 
 `inf-clojure` provides some Clojure specific features like showing a
