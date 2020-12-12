@@ -5,7 +5,7 @@ date: 2020-11-21 19:16 +0200
 tags:
 - Linux
 - Utils
-- Zsh
+- Z Shell
 ---
 
 From time to time we need to rename a bunch of files according to some
