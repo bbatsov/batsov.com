@@ -5,7 +5,7 @@ date: 2012-12-16 17:57
 comments: true
 tags:
 - Emacs
-- Tip
+- Tips
 ---
 
 One operation that we have to do fairly often when editing text is

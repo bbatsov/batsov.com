@@ -5,7 +5,7 @@ date: 2012-03-08 15:28
 comments: true
 tags:
 - Ruby
-- Tip
+- Tips
 ---
 
 Many people are having trouble remembering all the rake tasks defined

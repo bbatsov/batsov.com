@@ -5,7 +5,7 @@ date: 2012-10-14 15:23
 comments: true
 tags:
 - Ruby
-- Tip
+- Tips
 ---
 
 From time to time you might want to take different actions depending

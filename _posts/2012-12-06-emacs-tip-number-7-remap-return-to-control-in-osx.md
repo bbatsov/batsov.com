@@ -4,7 +4,7 @@ title: "Emacs Tip #7: Remap Return to Control in OS X"
 date: 2012-12-06 16:06
 comments: true
 tags:
-- Tip
+- Tips
 - Emacs
 ---
 

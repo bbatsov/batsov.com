@@ -5,7 +5,7 @@ date: 2012-10-20 20:29
 comments: true
 tags:
 - Emacs
-- Tip
+- Tips
 ---
 
 From time to time you might want to void (unbind) a variable or a

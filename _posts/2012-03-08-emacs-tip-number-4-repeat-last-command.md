@@ -5,7 +5,7 @@ date: 2012-03-08 15:09
 comments: true
 tags:
 - Emacs
-- Tip
+- Tips
 ---
 
 Some times you'd want to quickly repeat an Emacs command several times and

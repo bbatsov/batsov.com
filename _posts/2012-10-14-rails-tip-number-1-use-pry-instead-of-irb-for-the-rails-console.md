@@ -6,7 +6,7 @@ comments: true
 tags:
 - Ruby
 - Rails
-- Tip
+- Tips
 ---
 
 This tip is going to be a really short one. Hopefully by now you've

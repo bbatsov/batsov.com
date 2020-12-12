@@ -5,7 +5,7 @@ date: 2012-03-08 15:58
 comments: true
 tags:
 - Emacs
-- Tip
+- Tips
 ---
 
 When I program in Java I usually leave the comfort of Emacs and use

@@ -5,7 +5,7 @@ date: 2011-11-28 16:54
 comments: true
 tags:
 - Ruby
-- Tip
+- Tips
 ---
 
 Newcomers to Ruby are often confused by the fact the `Object` class
