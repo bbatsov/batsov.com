@@ -3,7 +3,7 @@ layout: post
 title: "Every blog has its first post..."
 comments: true
 tags:
-- Misc
+- Meta
 ---
 
 > Every Generation Has A Legend. Every Journey Has A First Step. Every

@@ -2,7 +2,7 @@
 layout: post
 title: "My professional CV in LaTeX"
 tags:
-- Misc
+- Career
 - LaTeX
 ---
 

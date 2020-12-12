@@ -2,7 +2,6 @@
 layout: post
 title: "Moving from WordPress to Jekyll"
 tags:
-- Misc
 - Jekyll
 ---
 

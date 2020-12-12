@@ -4,7 +4,8 @@ title: "Long Time, No See"
 date: 2012-09-09 19:50
 comments: true
 tags:
-- misc
+- Meta
+- Career
 ---
 
 It's been quite a while since my last blog post. And there hasn't been that

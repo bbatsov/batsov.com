@@ -2,7 +2,8 @@
 layout: post
 title: "Thoughts on the Amazon Kindle"
 tags:
-- Misc
+- Gadgets
+- Hardware
 ---
 
 ## Prelude
