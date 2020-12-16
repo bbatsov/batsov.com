@@ -49,6 +49,20 @@ $ cd gem-dir
 $ ls -l
 ```
 
+You don't really have to visit the folder in which the installed gem
+resides to play with its contents. With `gem unpack` you can dump the
+contents of any gem in the current folder:
+
+``` shellsession
+$ gem unpack minima
+Unpacked gem: '/home/bozhidar/minima-2.5.1'
+# You can also specify the folder in which to unpack the gem like this
+$ gem unpack minima --target ~/unpacked-gems
+```
+
+The main benefit of using `gem unpack` is that you can't modify some gem by accident, with the added bonus that you'll
+get an easier to remember directory path.
+
 An alternative option is to use `bundler` to procure the gem installation directory information (assuming you're using it):
 
 ``` shellsession
