@@ -59,8 +59,10 @@ $ bundle info minima
         Homepage: https://github.com/jekyll/minima
         Path: /home/bozhidar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/minima-2.5.1
 
+# This is a variant of the previous command that returns only the gem path
 $ bundle info --path minima
 /home/bozhidar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/minima-2.5.1
+# Alternatively you can use Bundler's show command
 $ bundle show minima
 /home/bozhidar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/minima-2.5.1
 ```
