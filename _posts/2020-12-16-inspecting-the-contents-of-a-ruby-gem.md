@@ -41,7 +41,15 @@ $ gem contents minima
 ...
 ```
 
-An alternative option is to use `bundler` to procure this information (assuming you're using it):
+The final command is extra useful as it effectively combines something like this in a single step:
+
+``` shellsession
+$ gem info gem-name
+$ cd gem-dir
+$ ls -l
+```
+
+An alternative option is to use `bundler` to procure the gem installation directory information (assuming you're using it):
 
 ``` shellsession
 $ bundle info minima
@@ -58,11 +66,15 @@ $ bundle show minima
 ```
 
 One can even argue that `bundler` slightly overdid it, given the
-multiple ways to obtain the gem's installation path. It actually has one more
+multiple ways to obtain the gem's installation path.
+
+Bundler and `gem` actually have one more
 extremely useful command that will directly open the gem's folder in
 your default editor:
 
 ``` shellsession
+$ gem open minima
+# or alternatively
 $ bundle open minima
 ```
 
@@ -73,9 +85,11 @@ edit some of its contents. That's an useful debugging technique, but it opens up
 a gem to its original pristine state? Well, turns out there's a command for this as well:
 
 ``` shellsession
+$ gem pristine gem-name
+# or alternatively
 $ bundle pristine
 ```
 
-This command will restore all installed gems to their original state.
+The `bundler` command will restore all installed gems for a particular bundle to their original state.
 
 That's all I have for you today. I hope you learned something useful! Keep hacking!
