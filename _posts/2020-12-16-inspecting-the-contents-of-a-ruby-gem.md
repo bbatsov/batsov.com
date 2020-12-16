@@ -41,7 +41,7 @@ $ gem contents minima
 ...
 ```
 
-The final command is extra useful as it effectively combines something like this in a single step:
+The `gem contents` command is extra useful as it effectively combines something like this in a single step:
 
 ``` shellsession
 $ gem info gem-name
@@ -65,8 +65,8 @@ $ bundle show minima
 /home/bozhidar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/minima-2.5.1
 ```
 
-One can even argue that `bundler` slightly overdid it, given the
-multiple ways to obtain the gem's installation path.
+Unfortunately, there's no `bundler` equivalent of the `gem contents` command, but that's not
+that big of deal.
 
 Bundler and `gem` actually have one more
 extremely useful command that will directly open the gem's folder in
