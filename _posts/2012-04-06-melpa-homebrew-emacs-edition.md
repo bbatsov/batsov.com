@@ -13,7 +13,7 @@ In that article I pointed out that on the side of
 [package.el](http://wikemacs.org/wiki/Package.el) too much was riding
 on the poorly maintained Marmalade repo. Today Marmalade went dark
 (again) and many people are wondering what to do now. The answer is
-simple - start using [MELPA](http://melpa.milkbox.net/) instead.
+simple - start using [MELPA](http://melpa.org/) instead.
 
 I was thinking of starting a project similar to Marmalade to alleviate
 its problems, but then the MELPA project was brought to my
@@ -59,7 +59,7 @@ add this to your `.emacs` (or equivalent):
 
 ``` elisp
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t)
 ```
 
 There's a lot more info regarding MELPA on its official website and
