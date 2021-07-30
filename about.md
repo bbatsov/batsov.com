@@ -37,7 +37,7 @@ out as well - [Emacs Redux](http://emacsredux.com).
 
 ## Contacts
 
-* Email - first name at `batsov.com` or `hey.com`.
+* Email - first name at `batsov.net` (`.com` works as well) or `hey.com`.
 * [Twitter](https://twitter.com/bbatsov)
 * [LinkedIn](https://www.linkedin.com/in/bbatsov/)
 
