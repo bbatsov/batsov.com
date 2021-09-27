@@ -21,8 +21,8 @@ Emacs, Lisp, Life, the Universe and everything in between.
 
 I have a couple of e-mail addresses for you to choose from:
 
-* bozhidar/bug at batsov dot net (this is my primary e-mail address these days; note that I also have the same e-mails at `batsov.com` and `batsov.dev`)
-* bozhidar at hey dot com (great for fans of HEY I guess)
+* `bozhidar`/`bug` at `batsov.net` (this is my primary e-mail address these days; note that I also have the same e-mails at `batsov.com` and `batsov.dev`)
+* `bozhidar@hey.com` (great for fans of HEY I guess)
 
 Historically I was a heavy Gmail user, but recently I migrated my e-mail [from Gmail to Fastmail](https://metaredux.com/posts/2021/07/31/hasta-la-vista-gmail.html).
 With Fastmail and HEY I enjoy using e-mail communication more than ever.
