@@ -8,6 +8,8 @@ sidebar_link: true
 I'm not some ninja pro rock-star conference speaker, but I do the occasional
 tech talk here and there, and from time to time they don't even suck!
 
+![Bozhidar](/assets/images/bozhidar_presenting2.jpg)
+
 ## The Greatest Hits
 
 Here's a list of talks where I feel a did a bit better than average:
