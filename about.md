@@ -43,7 +43,7 @@ will host short musings on random non-technical topics.
 
 ## Contacts
 
-* Email - first name at `batsov.net` (`.com` works as well) or `hey.com`.
+* Email - first name at `batsov.net` or `hey.com`.
 * [Twitter](https://twitter.com/bbatsov)
 * [LinkedIn](https://www.linkedin.com/in/bbatsov/)
 
