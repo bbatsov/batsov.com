@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 sidebar_link: true
+back_page: /
 ---
 
 ## About Me
