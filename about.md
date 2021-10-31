@@ -31,12 +31,16 @@ idea of Meta Redux.
 I guess I'll mostly be writing on programming-related topics, but who knows...
 Knowing me there's a high chance I won't actually write anything at all!
 
-## Emacs Redux
+## About My Other Blogs
+
+I have a small problem with blogs - I've created way too many of them!
+
+### Emacs Redux
 
 I run a separate blog focused on Emacs, that you might want to check
 out as well - [Emacs Redux](http://emacsredux.com).
 
-## HEY World
+### HEY World
 
 I also have a blog at [HEY World](https://world.hey.com/bozhidar).
 I'm still not sure what I'll use it for (if anything), but likely it
