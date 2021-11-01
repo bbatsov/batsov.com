@@ -2,11 +2,11 @@
 main:
   - title: "About"
     url: /about
+  - title: "Archive"
+    url: /archive
   - title: "Tags"
     url: /tags
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Projects"
+    url: /projects
+  - title: "Presentations"
+    url: /presentations
