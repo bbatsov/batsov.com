@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Lambdas/Procs in Case Expressions"
 date: 2013-09-24 12:07
 comments: true

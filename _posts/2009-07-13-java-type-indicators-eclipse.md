@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Java type indicators in Eclipse
 tags:
 - Java

@@ -1,0 +1,28 @@
+I"P<p><a href="https://github.com/clojure-emacs/clojure-mode">clojure-mode</a> 3.0 is out!</p>
+
+<p>It’s one of the most ambitious releases in recent times and brings
+much improved font-locking across the board.  Other notable changes
+include dropping support for Emacs 23 (CIDER doesn’t support it
+either) and removing some deprecated features (most notably the
+functionality for switching between code and its test; see
+<a href="https://github.com/bbatsov/projectile">Projectile</a> for an awesome
+replacement of the old feature).</p>
+
+<p>An extensive list of the changes is available <a href="https://github.com/clojure-emacs/clojure-mode/blob/master/CHANGELOG.md">here</a>.</p>
+
+<p>This version also marks the introduction of an automated test suite
+(currently it consists mostly of font-lock tests), which should make
+it easier to do changes in the future.</p>
+
+<p>Next step - indentation improvements and decoupling <code class="language-plaintext highlighter-rouge">clojure-mode</code>
+from <code class="language-plaintext highlighter-rouge">lisp-mode</code>.  Both tasks are related. We’ve been deriving much
+from <code class="language-plaintext highlighter-rouge">lisp-mode</code> since day 1 and this has worked reasonably well so
+far, but the truth is that Clojure is not Common Lisp (or Emacs Lisp
+for that matter) and would benefit from a more refined syntax table,
+indentation rules, etc.</p>
+
+<p>When will this happen?
+Sadly, I have no idea… Help is definitely welcome!</p>
+
+<p>That’s all for now, folks! Enjoy the new <code class="language-plaintext highlighter-rouge">clojure-mode</code>!</p>
+:ET

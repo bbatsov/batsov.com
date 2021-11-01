@@ -1,0 +1,29 @@
+I"�<p>Just wanted to let you know that for <a href="https://fatfrogmedia.com/delete-disqus-comments-wordpress/">various reasons</a> I’ve migrated the comments of <code class="language-plaintext highlighter-rouge">(think)</code> from
+Disqus to <a href="https://talk.hyvor.com/">Hyvor Talk</a>. I’ve described the process in a <a href="https://metaredux.com/posts/2020/12/07/migrating-from-disqus-to-hyvor-talk.html">dedicated article</a>.</p>
+
+<p>One small difference in the migration procedure for <code class="language-plaintext highlighter-rouge">(think)</code> in particular is that because it uses the <a href="https://github.com/fongandrew/hydeout">Hydeout Jekyll theme</a>,
+I’ve opted to change <code class="language-plaintext highlighter-rouge">_includes/comments.html</code> instead of <code class="language-plaintext highlighter-rouge">_layouts/posts.html</code>. Here’s how it looks now:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+{% if page.comments != false %}
+<span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">"comments"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"hyvor-talk-view"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
+     <span class="kd">var</span> <span class="nx">HYVOR_TALK_WEBSITE</span> <span class="o">=</span> <span class="nx">YOUR_SITE_ID</span><span class="p">;</span> <span class="c1">// DO NOT CHANGE THIS</span>
+     <span class="kd">var</span> <span class="nx">HYVOR_TALK_CONFIG</span> <span class="o">=</span> <span class="p">{</span>
+         <span class="na">url</span><span class="p">:</span> <span class="dl">'</span><span class="s1">{{ page.url | absolute_url }}</span><span class="dl">'</span><span class="p">,</span>
+         <span class="na">id</span><span class="p">:</span> <span class="dl">'</span><span class="s1">{{ page.url | absolute_url }}</span><span class="dl">'</span>
+     <span class="p">};</span>
+    <span class="nt">&lt;/script&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">async</span> <span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"//talk.hyvor.com/web-api/embed"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;/section&gt;</span>
+{% endif %}
+
+</code></pre></div></div>
+
+<p>There are numerous ways to approach this, but that one seemed like the optimal one to me.</p>
+
+<p>The migration process converted all Disqus comments to guest comments in Hyvor, which is a bit unfortunate, but unavoidable.
+Still, I think that’s a small price to pay for a privacy-focused solution with better usability. I hope that this transition
+will result in more interesting discussions taking place here!</p>
+:ET

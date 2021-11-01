@@ -1,0 +1,9 @@
+I"w<p>Newcomers to Ruby are often confused by the fact the <code class="language-plaintext highlighter-rouge">Object</code> class
+defines three methods related to equality - <code class="language-plaintext highlighter-rouge">==</code>, <code class="language-plaintext highlighter-rouge">eql?</code> and
+<code class="language-plaintext highlighter-rouge">equal?</code>. Of the three the one that it’s easiest to describe is
+<code class="language-plaintext highlighter-rouge">equal?</code> - it implements what’s commonly known as reference equality
+check. The method returns <code class="language-plaintext highlighter-rouge">true</code> only if its receiver (the object upon
+the method was invoked) and parameter (the object we’re comparing to) are
+the same object (Java developers should think of the <code class="language-plaintext highlighter-rouge">==</code> operator
+there).</p>
+:ET

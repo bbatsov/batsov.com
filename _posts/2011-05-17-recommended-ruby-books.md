@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Recommended Ruby books"
 tags:
 - Ruby

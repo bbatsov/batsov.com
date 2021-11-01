@@ -1,0 +1,73 @@
+I"�<p>Good developers are very careful about the proper use of
+whitespace in their files - there should be no empty lines at the
+beginning of a file, no empty lines at the end of a file, no trailing
+whitespace, no mixture of tabs and spaces, etc.</p>
+
+<p>Emacs, naturally, wants to help with every problem possible and
+provides a very nice solution in the form of the <code class="language-plaintext highlighter-rouge">whitespace-cleanup</code>
+command. It’s a much more powerful alternative to the older
+<code class="language-plaintext highlighter-rouge">delete-trailing-whitespace</code> command, that simply deletes trailing
+whitespace, and it’s aware of the <code class="language-plaintext highlighter-rouge">whitespace-style</code> variable, used by <code class="language-plaintext highlighter-rouge">whitespace-mode</code>.</p>
+
+<p>It usually applies to the whole buffer, but in transient mark
+mode when the mark is active, it applies to the region.  It also
+applies to the region when it is not in transient mark mode, the
+mark is active and <code class="language-plaintext highlighter-rouge">C-u</code> was pressed just before
+calling <code class="language-plaintext highlighter-rouge">whitespace-cleanup</code> interactively. There is also a similar
+command called <code class="language-plaintext highlighter-rouge">whitespace-cleanup-region</code>.</p>
+
+<p>The problems cleaned up are (borrowed from the official documentation):</p>
+
+<ol>
+  <li>
+    <p>Empty lines at beginning of buffer.</p>
+  </li>
+  <li>
+    <p>Empty lines at end of buffer.
+If <code class="language-plaintext highlighter-rouge">whitespace-style</code> includes the value <code class="language-plaintext highlighter-rouge">empty</code>, remove all
+empty lines at beginning and/or end of buffer.</p>
+  </li>
+  <li>
+    <p>8 or more SPACEs at beginning of line.
+If <code class="language-plaintext highlighter-rouge">whitespace-style</code> includes the value <code class="language-plaintext highlighter-rouge">indentation</code>:
+replace 8 or more SPACEs at beginning of line by TABs, if
+<code class="language-plaintext highlighter-rouge">indent-tabs-mode</code> is non-nil; otherwise, replace TABs by
+SPACEs.
+If <code class="language-plaintext highlighter-rouge">whitespace-style</code> includes the value <code class="language-plaintext highlighter-rouge">indentation::tab</code>,
+replace 8 or more SPACEs at beginning of line by TABs.
+If <code class="language-plaintext highlighter-rouge">whitespace-style</code> includes the value <code class="language-plaintext highlighter-rouge">indentation::space</code>,
+replace TABs by SPACEs.</p>
+  </li>
+  <li>
+    <p>SPACEs before TAB.
+If <code class="language-plaintext highlighter-rouge">whitespace-style</code> includes the value <code class="language-plaintext highlighter-rouge">space-before-tab</code>:
+replace SPACEs by TABs, if <code class="language-plaintext highlighter-rouge">indent-tabs-mode</code> is non-nil;
+otherwise, replace TABs by SPACEs.
+If <code class="language-plaintext highlighter-rouge">whitespace-style</code> includes the value
+<code class="language-plaintext highlighter-rouge">space-before-tab::tab</code>, replace SPACEs by TABs.
+If <code class="language-plaintext highlighter-rouge">whitespace-style</code> includes the value
+<code class="language-plaintext highlighter-rouge">space-before-tab::space</code>, replace TABs by SPACEs.</p>
+  </li>
+  <li>
+    <p>SPACEs or TABs at end of line.
+If <code class="language-plaintext highlighter-rouge">whitespace-style</code> includes the value <code class="language-plaintext highlighter-rouge">trailing</code>, remove
+all SPACEs or TABs at end of line.</p>
+  </li>
+  <li>
+    <p>8 or more SPACEs after TAB.
+If <code class="language-plaintext highlighter-rouge">whitespace-style</code> includes the value <code class="language-plaintext highlighter-rouge">space-after-tab</code>:
+replace SPACEs by TABs, if <code class="language-plaintext highlighter-rouge">indent-tabs-mode</code> is non-nil;
+otherwise, replace TABs by SPACEs.
+If <code class="language-plaintext highlighter-rouge">whitespace-style</code> includes the value
+<code class="language-plaintext highlighter-rouge">space-after-tab::tab</code>, replace SPACEs by TABs.
+If <code class="language-plaintext highlighter-rouge">whitespace-style</code> includes the value
+<code class="language-plaintext highlighter-rouge">space-after-tab::space</code>, replace TABs by SPACEs.</p>
+  </li>
+</ol>
+
+<p>It might be a good idea to add <code class="language-plaintext highlighter-rouge">whitespace-cleanup</code> to your
+<code class="language-plaintext highlighter-rouge">before-save-hook</code> so that every buffer would be cleaned up before it’s saved:</p>
+
+<div class="language-elisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nv">add-hook</span> <span class="ss">'before-save-hook</span> <span class="ss">'whitespace-cleanup</span><span class="p">)</span>
+</code></pre></div></div>
+:ET

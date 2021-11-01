@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Java.next() - Clojure: The Return of the Lispers"
 tags:
 - Clojure

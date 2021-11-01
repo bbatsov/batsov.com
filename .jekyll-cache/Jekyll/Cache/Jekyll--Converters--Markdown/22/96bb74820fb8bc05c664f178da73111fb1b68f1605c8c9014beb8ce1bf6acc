@@ -1,0 +1,25 @@
+I"�<p>Recently we discussed <a href="/articles/2013/08/30/using-gsub-with-a-block/">how you can use <code class="language-plaintext highlighter-rouge">String#gsub</code> with a block</a>.
+Today we’ll examine another somewhat unknown feature of the <code class="language-plaintext highlighter-rouge">gsub</code> method - the ability to supply a replacement hash as the second argument (which is normally a string).</p>
+
+<p>If the replacement argument is a hash, and the matched text is one of its keys, the corresponding value is the replacement string. Here’s a simple example:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">geekify</span><span class="p">(</span><span class="n">string</span><span class="p">)</span>
+  <span class="n">string</span><span class="p">.</span><span class="nf">gsub</span><span class="p">(</span><span class="sr">/[leto]/</span><span class="p">,</span> <span class="s1">'l'</span> <span class="o">=&gt;</span> <span class="s1">'1'</span><span class="p">,</span> <span class="s1">'e'</span> <span class="o">=&gt;</span> <span class="s1">'3'</span><span class="p">,</span> <span class="s1">'t'</span> <span class="o">=&gt;</span> <span class="s1">'7'</span><span class="p">,</span> <span class="s1">'o'</span> <span class="o">=&gt;</span> <span class="s1">'0'</span><span class="p">)</span>
+<span class="k">end</span>
+
+<span class="n">geekify</span><span class="p">(</span><span class="s1">'leet'</span><span class="p">)</span> <span class="c1"># =&gt; '1337'</span>
+<span class="n">geekify</span><span class="p">(</span><span class="s1">'noob'</span><span class="p">)</span> <span class="c1"># =&gt; 'n00b'</span>
+</code></pre></div></div>
+
+<p>Keep in mind you’re not restricted to single character replacements:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">doctorize</span><span class="p">(</span><span class="n">string</span><span class="p">)</span>
+  <span class="n">string</span><span class="p">.</span><span class="nf">gsub</span><span class="p">(</span><span class="sr">/M(iste)?r/</span><span class="p">,</span> <span class="s1">'Mister'</span> <span class="o">=&gt;</span> <span class="s1">'Doctor'</span><span class="p">,</span> <span class="s1">'Mr'</span> <span class="o">=&gt;</span> <span class="s1">'Dr'</span><span class="p">)</span>
+<span class="k">end</span>
+
+<span class="n">doctorize</span><span class="p">(</span><span class="s1">'Mister Freeze'</span><span class="p">)</span> <span class="c1"># =&gt; 'Doctor Freeze'</span>
+<span class="n">doctorize</span><span class="p">(</span><span class="s1">'Mr Smith'</span><span class="p">)</span>   <span class="c1"># =&gt; 'Dr Smith'</span>
+</code></pre></div></div>
+
+<p>That’s all for today folks! I hope you’ll find this short article useful!</p>
+:ET

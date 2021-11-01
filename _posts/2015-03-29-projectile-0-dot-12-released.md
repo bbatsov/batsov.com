@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Projectile 0.12 released"
 date: 2015-03-29 10:11
 comments: true

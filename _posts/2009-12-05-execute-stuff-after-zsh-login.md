@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Automatically execute programs after zsh login
 tags:
 - Z Shell

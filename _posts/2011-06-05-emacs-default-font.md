@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Emacs Tip #1: Set the default font in Emacs 23"
 tags:
 - Emacs

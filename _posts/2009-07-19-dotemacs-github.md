@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Emacs Configuration On GitHub
 tags:
 - Emacs

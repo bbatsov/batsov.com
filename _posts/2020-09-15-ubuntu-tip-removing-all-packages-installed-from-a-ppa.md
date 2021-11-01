@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 'Ubuntu Tip: Removing All Packages Installed from a PPA'
 date: 2020-09-15 16:14 +0300
 tags:
@@ -24,7 +24,7 @@ packages from one PPA. A good example would be
 Once you no longer need the newest drivers (e.g. after a distro upgrade) you can
 remove all of them like this:
 
-``` shellsession
+``` shell
 $ sudo apt install ppa-purge
 $ sudo ppa-purge ppa:oibaf/graphics-drivers
 ```

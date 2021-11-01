@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "RuboCop 0.14: Beyond the Ruby Style Guide"
 date: 2013-10-07 14:56
 comments: true

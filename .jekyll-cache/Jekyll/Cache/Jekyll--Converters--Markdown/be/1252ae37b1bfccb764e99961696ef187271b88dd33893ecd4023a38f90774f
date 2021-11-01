@@ -1,0 +1,5 @@
+I"A<p>One operation that we have to do fairly often when editing text is
+manipulating the case of words. The most popular case manipulations
+are probably <strong>capitalize</strong>, <strong>convert to lowercase</strong> and <strong>convert to
+uppercase</strong>. Emacs naturally has built-in commands for all of those.</p>
+:ET

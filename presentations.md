@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Presentations"
 permalink: /presentations/
 sidebar_link: true

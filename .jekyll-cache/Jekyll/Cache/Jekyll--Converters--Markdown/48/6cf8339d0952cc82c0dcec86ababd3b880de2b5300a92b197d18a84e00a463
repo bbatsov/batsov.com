@@ -1,0 +1,38 @@
+I"�<p>People are often confused about the fact that there are two ways to created <code class="language-plaintext highlighter-rouge">proc</code>s in Ruby -
+via <code class="language-plaintext highlighter-rouge">Kernel#proc</code> and <code class="language-plaintext highlighter-rouge">Proc.new</code>. Let’s see them in action:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">Proc</span><span class="p">.</span><span class="nf">new</span> <span class="p">{</span> <span class="kp">true</span> <span class="p">}</span>
+<span class="c1"># =&gt; #&lt;Proc:0x007fe35440a058&gt;</span>
+
+<span class="nb">proc</span> <span class="p">{</span> <span class="kp">true</span> <span class="p">}</span>
+<span class="c1"># =&gt; #&lt;Proc:0x007fe35440a059&gt;</span>
+</code></pre></div></div>
+
+<p>Hmmm, it seems we get exactly the same results… While this is true
+on Ruby 1.9+, this was not always the case.</p>
+
+<p>In Ruby 1.8, <code class="language-plaintext highlighter-rouge">Kernel#proc</code> is actually a synonym for <code class="language-plaintext highlighter-rouge">Kernel#lambda</code>
+which was extremely confusing, since as we all know <code class="language-plaintext highlighter-rouge">lambda</code>s an
+<code class="language-plaintext highlighter-rouge">proc</code>s differ in
+<a href="http://stackoverflow.com/questions/626/when-to-use-lambda-when-to-use-proc-new">subtle ways</a>. Luckily
+sanity prevailed and Ruby 1.9 made <code class="language-plaintext highlighter-rouge">Kernel#proc</code> a synonym for
+<code class="language-plaintext highlighter-rouge">Proc.new</code> instead.</p>
+
+<p>At this point, however, people couldn’t use <code class="language-plaintext highlighter-rouge">Kernel#proc</code> anymore if they
+wanted to write code that’s behaving in the same way on both Ruby 1.8
+and Ruby 1.9 and the use of <code class="language-plaintext highlighter-rouge">Kernel#proc</code> was generally discouraged.
+Thankfully Ruby 1.8 is now dead and buried and there’s no reason to prefer
+<code class="language-plaintext highlighter-rouge">Proc.new</code> over <code class="language-plaintext highlighter-rouge">Kernel#proc</code> anymore.  As a matter of fact - you
+should probably be using only <code class="language-plaintext highlighter-rouge">Kernel#proc</code> as it’s more concise and
+it’s symmetrical to <code class="language-plaintext highlighter-rouge">Kernel#lambda</code>.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">lambda</span> <span class="p">{</span> <span class="kp">true</span> <span class="p">}</span>
+<span class="c1"># =&gt; #&lt;Proc:0x007fe35440a058 (lambda)&gt;</span>
+
+<span class="nb">proc</span> <span class="p">{</span> <span class="kp">true</span> <span class="p">}</span>
+<span class="c1"># =&gt; #&lt;Proc:0x007fe35440a059&gt;</span>
+</code></pre></div></div>
+
+<p>By the way, given <code class="language-plaintext highlighter-rouge">proc</code>’s fairly counter-intuitive behavior regarding <code class="language-plaintext highlighter-rouge">return</code>, you should probably
+use <code class="language-plaintext highlighter-rouge">lambda</code>s most of the time.</p>
+:ET

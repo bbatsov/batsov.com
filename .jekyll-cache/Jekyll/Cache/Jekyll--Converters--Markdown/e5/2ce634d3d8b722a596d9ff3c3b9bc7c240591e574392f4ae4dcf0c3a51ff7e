@@ -1,0 +1,64 @@
+I"]<p>A few weeks ago I wrote an <a href="/articles/2012/02/19/package-management-in-emacs-the-good-the-bad-and-the-ugly/">article about the state of package
+management in Emacs</a>.
+In that article I pointed out that on the side of
+<a href="http://wikemacs.org/wiki/Package.el">package.el</a> too much was riding
+on the poorly maintained Marmalade repo. Today Marmalade went dark
+(again) and many people are wondering what to do now. The answer is
+simple - start using <a href="http://melpa.org/">MELPA</a> instead.</p>
+
+<p>I was thinking of starting a project similar to Marmalade to alleviate
+its problems, but then the MELPA project was brought to my
+attention. This project follows the Homebrew (unofficial OS X package
+manager) model of using simple GitHub collaboration to maintain and
+grow a bunch of build recipes. In the case of MELPA, those recipes
+show how to bundle upstream source packages into package.el-compliant
+packages. The recipes can be tested locally by package authors, and
+they are run hourly on the MELPA server to create an HTTP package
+archive that Emacs users can simply add to their <code class="language-plaintext highlighter-rouge">'package-archives</code>
+list. As <a href="http://technomancy.us">Phil Hagelberg</a> said - there’s no reason to drag in
+complicated dependencies like Node.js for something that’s essentially a
+pile of static files. MELPA on the other hand is written mostly in
+Emacs Lisp and is thus much more comprehensible to casual Emacs hackers.</p>
+
+<p>Most packages currently contained in MELPA are development snapshots,
+but the project maintainer
+<a href="https://github.com/milkypostman">Donald Curtis</a> and
+<a href="http://www.sanityinc.com/">Steve Purcell</a> (aka <code class="language-plaintext highlighter-rouge">sanityinc</code>) are
+working on extending the MELPA build scripts to support stable
+packages, using upstream version tags.</p>
+
+<p>Adding a new package to MELPA is as simple as adding a few lines of
+code to the <code class="language-plaintext highlighter-rouge">pkglist</code> file in MELPA’s source code repo:</p>
+
+<div class="language-elisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nv">name</span> <span class="ss">:url</span> <span class="s">"&lt;repo url&gt;"</span>
+      <span class="ss">:fetcher</span> <span class="nv">[git|svn|darcs</span><span class="err">|</span><span class="nv">wiki]</span>
+      <span class="nv">[:files</span> <span class="p">(</span><span class="s">"&lt;file1&gt;"</span><span class="o">,</span> <span class="o">...</span><span class="p">)</span><span class="nv">]</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>You simply have to fork the <a href="https://github.com/milkypostman/melpa">official repo</a>, modify <code class="language-plaintext highlighter-rouge">pkglist</code>, send a pull
+request and <code class="language-plaintext highlighter-rouge">package.el</code> compatible packages will be built
+automatically for you on MELPA’s server (you can also build the
+packages locally to test if everything is OK with your recipes). Sure, it’s not as easy as
+submitting a package via a web UI, but it’s a much more robust
+approach. It also eliminates a common problem in Marmalade - there
+only the original uploader (+ people selected by them) can update a
+package. Often the original uploaders are very hard to find…</p>
+
+<p>To use MELPA with Emacs 24 (or a recent version of <code class="language-plaintext highlighter-rouge">package.el</code>) just
+add this to your <code class="language-plaintext highlighter-rouge">.emacs</code> (or equivalent):</p>
+
+<div class="language-elisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nv">add-to-list</span> <span class="ss">'package-archives</span>
+             <span class="o">'</span><span class="p">(</span><span class="s">"melpa"</span> <span class="o">.</span> <span class="s">"http://melpa.org/packages/"</span><span class="p">)</span> <span class="no">t</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>There’s a lot more info regarding MELPA on its official website and
+I’d rather not duplicate it here.</p>
+
+<p>I would encourage package authors and users to investigate and
+contribute to MELPA. I’ve already submitted a bunch of packages
+there and rebased <a href="https://github.com/bbatsov/prelude">Emacs Prelude</a> on top
+of MELPA instead of Marmalade.</p>
+
+<p>Together we can turn MELPA into the most extensive and robust community-supported
+<code class="language-plaintext highlighter-rouge">package.el</code> repo! Emacs users deserve one of those!</p>
+:ET

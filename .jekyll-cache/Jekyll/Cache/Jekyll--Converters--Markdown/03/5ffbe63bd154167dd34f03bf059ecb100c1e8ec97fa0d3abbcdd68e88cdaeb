@@ -1,0 +1,10 @@
+I"6<p>During the past few months I’ve been working on a project to convert
+my vast Emacs configuration into something generally useful and
+self-contained that could help the typical software engineer. Thus the
+<a href="https://github.com/bbatsov/emacs-dev-kit">Emacs Dev Kit</a> was
+born. Conceptually it’s similar to the older
+<a href="https://github.com/technomancy/emacs-starter-kit">Emacs Starter Kit</a>
+and it even shares a bit of code with it. The Emacs Dev Kit, however,
+targets more programming languages and features more
+customizations/enhancements.</p>
+:ET

@@ -1,0 +1,8 @@
+I"�<p>I’ve created a new port of the
+<a href="http://ethanschoonover.com/solarized">Solarized color theme</a> for
+Emacs 24. While there is
+<a href="https://github.com/sellout/emacs-color-theme-solarized">another existing port of the theme</a>
+I’ve decided to into a separate direction since I’ve wanted to keep
+the development of Solarized and
+<a href="https://github.com/bbatsov/zenburn-emacs">Zenburn</a> for Emacs in sync.</p>
+:ET

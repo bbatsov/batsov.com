@@ -1,0 +1,5 @@
+I"C<p>From time to time you might want to void (unbind) a variable or a
+function definition in Emacs. Most often you’ll probably be dealing
+with variables created with <code class="language-plaintext highlighter-rouge">defvar</code> whose values you’ll want to
+update.  The magic functions you need are the following:</p>
+:ET

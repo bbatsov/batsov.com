@@ -1,0 +1,8 @@
+I"�<p>Many people are having trouble remembering all the rake tasks defined
+in a particular project’s <code class="language-plaintext highlighter-rouge">Rakefile</code> (especially if they hadn’t
+authored it). This is quite normal given the fact that Rails’s
+Rakefile, for instance, defines 39 tasks (as of version
+3.2.2). Personally I never memorize anything, but the most basic rake
+tasks - for everything else there is the <code class="language-plaintext highlighter-rouge">rake -T</code> (or <code class="language-plaintext highlighter-rouge">rake --tasks</code>)
+command. Here’s the command in action for Octopress’s Rakefile:</p>
+:ET

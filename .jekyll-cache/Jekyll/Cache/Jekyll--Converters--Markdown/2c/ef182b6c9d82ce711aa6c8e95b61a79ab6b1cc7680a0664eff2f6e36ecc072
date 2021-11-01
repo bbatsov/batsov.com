@@ -1,0 +1,73 @@
+I"<p>Most Rubyists know they can use literals, classes, ranges and regular expressions in the <code class="language-plaintext highlighter-rouge">when</code> branches of a <code class="language-plaintext highlighter-rouge">case</code> expression:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">case</span> <span class="n">something</span>
+<span class="k">when</span> <span class="no">Array</span> <span class="k">then</span> <span class="o">...</span>
+<span class="k">when</span> <span class="mi">1</span><span class="o">..</span><span class="mi">100</span> <span class="k">then</span> <span class="o">...</span>
+<span class="k">when</span> <span class="sr">/some_regexp/</span> <span class="k">then</span> <span class="o">...</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>As you probably know <code class="language-plaintext highlighter-rouge">case</code> relies on the <code class="language-plaintext highlighter-rouge">===</code> (a.k.a. the case equality operator) being defined for
+the supplied conditions. Ruby will convert the above code to something
+like:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">case</span> <span class="n">something</span>
+<span class="k">when</span> <span class="no">Array</span> <span class="o">===</span> <span class="n">something</span> <span class="k">then</span> <span class="o">...</span>
+<span class="k">when</span> <span class="mi">1</span><span class="o">..</span><span class="mi">100</span> <span class="o">===</span> <span class="n">something</span> <span class="k">then</span> <span class="o">...</span>
+<span class="k">when</span> <span class="sr">/some_regexp/</span> <span class="o">===</span> <span class="n">something</span> <span class="k">then</span><span class="o">...</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>Perhaps somewhat surprisingly <code class="language-plaintext highlighter-rouge">===</code> is also defined in the <code class="language-plaintext highlighter-rouge">Proc</code> class, used to create <code class="language-plaintext highlighter-rouge">procs</code> and <code class="language-plaintext highlighter-rouge">lambdas</code>. It’s defined to simply issue a <code class="language-plaintext highlighter-rouge">Proc#call</code> with the right-hand side argument of <code class="language-plaintext highlighter-rouge">===</code> as an argument:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">is_even</span> <span class="o">=</span> <span class="o">-&gt;</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="p">{</span> <span class="n">n</span><span class="p">.</span><span class="nf">even?</span> <span class="p">}</span>
+
+<span class="n">is_even</span> <span class="o">===</span> <span class="mi">5</span> <span class="c1"># =&gt; false</span>
+
+<span class="c1"># same as</span>
+<span class="n">is_even</span><span class="p">.</span><span class="nf">call</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>This gives us the possibility to leverage <code class="language-plaintext highlighter-rouge">procs</code> and <code class="language-plaintext highlighter-rouge">lambdas</code> as the conditions for <code class="language-plaintext highlighter-rouge">when</code> branches. Here’s a trivial example:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">even?</span>
+  <span class="o">-&gt;</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="p">{</span> <span class="n">n</span><span class="p">.</span><span class="nf">even?</span> <span class="p">}</span>
+<span class="k">end</span>
+
+<span class="k">def</span> <span class="nf">odd?</span>
+  <span class="o">-&gt;</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="p">{</span> <span class="n">n</span><span class="p">.</span><span class="nf">odd?</span> <span class="p">}</span>
+<span class="k">end</span>
+
+<span class="k">case</span> <span class="n">x</span>
+<span class="k">when</span> <span class="n">even?</span> <span class="k">then</span> <span class="nb">puts</span> <span class="s1">'even'</span>
+<span class="k">when</span> <span class="n">odd?</span> <span class="k">then</span> <span class="nb">puts</span> <span class="s1">'odd'</span>
+<span class="k">else</span> <span class="nb">puts</span> <span class="s1">'Impossible!'</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>You can also save a few lines by defining the lambdas inline:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">case</span> <span class="n">x</span>
+<span class="k">when</span> <span class="o">-&gt;</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="p">{</span> <span class="n">n</span><span class="p">.</span><span class="nf">even?</span> <span class="p">}</span> <span class="k">then</span> <span class="nb">puts</span> <span class="s1">'even'</span>
+<span class="k">when</span> <span class="o">-&gt;</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="p">{</span> <span class="n">n</span><span class="p">.</span><span class="nf">odd?</span> <span class="p">}</span> <span class="k">then</span> <span class="nb">puts</span> <span class="s1">'odd'</span>
+<span class="k">else</span> <span class="nb">puts</span> <span class="s1">'Impossible!'</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>Things get even better if your lambdas capture some additional arguments. Consider this example checking HTTP response codes:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">response_code?</span><span class="p">(</span><span class="n">code</span><span class="p">)</span>
+  <span class="o">-&gt;</span><span class="p">(</span><span class="n">response</span><span class="p">)</span> <span class="p">{</span> <span class="n">response</span><span class="p">.</span><span class="nf">code</span> <span class="o">==</span> <span class="n">code</span> <span class="p">}</span>
+<span class="k">end</span>
+
+<span class="k">case</span> <span class="n">response</span>
+<span class="k">when</span> <span class="n">response_code?</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span> <span class="k">then</span> <span class="s1">'OK'</span>
+<span class="k">when</span> <span class="n">response_code?</span><span class="p">(</span><span class="mi">404</span><span class="p">)</span> <span class="k">then</span> <span class="s1">'Not found'</span>
+<span class="k">else</span> <span class="s1">'Unknown code'</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>Pretty neat, right?</p>
+
+<p>That’s all for today folks! Code long and prosper!</p>
+:ET

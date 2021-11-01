@@ -1,0 +1,71 @@
+I"l<p>Today’s topic is the following rule from the <a href="https://github.com/rubocop-hq/ruby-style-guide">Ruby Style Guide</a>:</p>
+
+<blockquote>
+  <p>Favor the use of <code class="language-plaintext highlighter-rouge">Array#join</code> over the fairly cryptic <code class="language-plaintext highlighter-rouge">Array#*</code> with
+a string argument.</p>
+</blockquote>
+
+<p><code class="language-plaintext highlighter-rouge">Array#join</code> and <code class="language-plaintext highlighter-rouge">Array#*</code> (with a string argument) behave exactly the same:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="sx">%w(Bruce Wayne)</span><span class="p">.</span><span class="nf">join</span><span class="p">(</span><span class="s1">' '</span><span class="p">)</span>
+<span class="c1"># =&gt; "Bruce Wayne"</span>
+
+<span class="sx">%w(Bruce Wayne)</span> <span class="o">*</span> <span class="s1">' '</span>
+<span class="c1"># =&gt; "Bruce Wayne"</span>
+</code></pre></div></div>
+
+<p>So, considering they both do the same thing why should you opt to use
+<code class="language-plaintext highlighter-rouge">join</code> instead of <code class="language-plaintext highlighter-rouge">*</code>? Here’s a few reasons:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">*</code> behaves totally differently when passed an integer argument:</li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="mi">1</span> <span class="mi">2</span><span class="p">]</span> <span class="o">*</span> <span class="mi">3</span>
+<span class="c1"># =&gt; [1 2 1 2 1 2]</span>
+</code></pre></div></div>
+
+<p>Personally, I’d expect this to be only behavior of such an operator
+method and find the alternative one (with a string argument) to be
+pretty much counter-intuitive.</p>
+
+<ul>
+  <li>It’s not always clear what <code class="language-plaintext highlighter-rouge">*</code> means without additional
+context. Take a look at this short snippet:</li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># a and b are variables</span>
+<span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
+</code></pre></div></div>
+
+<p>Without some knowledge of <code class="language-plaintext highlighter-rouge">a</code> and <code class="language-plaintext highlighter-rouge">b</code> we cannot be certain what this
+code is going to do. It’s hard even to speculate what the code is
+going to do. Obviously better variable names would certainly help, but
+the point still stands.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a.join(b)
+</code></pre></div></div>
+
+<p>While we still cannot be absolutely certain, it’s highly likely that <code class="language-plaintext highlighter-rouge">a</code> is
+an <code class="language-plaintext highlighter-rouge">Array</code> and <code class="language-plaintext highlighter-rouge">b</code> is a <code class="language-plaintext highlighter-rouge">String</code>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">*</code> does not carry much of a semantic value in it.</li>
+</ul>
+
+<p>Unlike <code class="language-plaintext highlighter-rouge">String#%</code>, <code class="language-plaintext highlighter-rouge">Array#*</code> with a string argument carries pretty
+much no meaning. It’s absolutely beyond me how this came into
+existence. On the other hand the behavior of <code class="language-plaintext highlighter-rouge">Array#*</code> with an integer
+argument is pretty reasonable. Here we see a classic example of the
+notion that too much operator overloading can be a bad thing, leading
+to some pretty unreadable code. An operator should be employed only
+when it’s use would add clarity to the code, not take clarity away.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Array#*</code> has one thing going for it, however - the fact that few
+people know about its use as a substitute for <code class="language-plaintext highlighter-rouge">Array#join</code>. I hope
+they realize that some unknown features are unknown for a reason -
+because it’s bad idea to make use of them.</p>
+
+<p>As usual I’m looking forward to hearing your thoughts here and on
+<a href="http://twitter.com/bbatsov">Twitter</a>!</p>
+:ET

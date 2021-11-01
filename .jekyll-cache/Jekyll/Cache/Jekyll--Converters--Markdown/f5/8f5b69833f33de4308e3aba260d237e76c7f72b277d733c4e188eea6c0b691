@@ -1,0 +1,17 @@
+I"�<p>Recently I’ve been trying to switch my work environment theme to
+something with lower contrast (namely the excellent <a href="https://github.com/jnurmine/Zenburn">Zenburn
+theme</a>). Swing applications,
+however,have difficulties with GTK themes when they are using the GTK+
+look &amp; feel, so I’ve decided to go to Nimbus – the new default look &amp;
+feel for Java apps since Java 6 Update 10.</p>
+
+<p>The only problem with the plan was that there is no way to change the
+look and feel inside NetBeans – it had to be done by changing its
+configuration. This is done fairly easy. Just find the file
+<code class="language-plaintext highlighter-rouge">/etc/netbeans.conf</code> in NetBeans’s installation folder and append this to
+the <code class="language-plaintext highlighter-rouge">netbeans_default_options</code> section:</p>
+
+<p><code class="language-plaintext highlighter-rouge">--laf Nimbus</code></p>
+
+<p>Now you just have to (re)start NetBeans and you can enjoy Nimbus.</p>
+:ET

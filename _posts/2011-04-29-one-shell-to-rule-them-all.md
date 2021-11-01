@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "One shell to rule them all..."
 tags:
 - Z Shell

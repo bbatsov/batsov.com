@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Thoughts on the Amazon Kindle"
 tags:
 - Gadgets

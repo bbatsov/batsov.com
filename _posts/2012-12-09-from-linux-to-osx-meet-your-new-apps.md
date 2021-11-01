@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "From Linux to OS X: Meet Your New Apps"
 date: 2012-12-09 11:41
 comments: true

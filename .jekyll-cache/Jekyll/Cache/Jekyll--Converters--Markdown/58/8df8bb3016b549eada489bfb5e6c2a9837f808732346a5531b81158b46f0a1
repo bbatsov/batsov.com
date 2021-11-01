@@ -1,0 +1,7 @@
+I"�<p>There are quite a few packages in the “official”
+<a href="https://github.com/clojure-emacs">clojure-emacs GitHub organization</a>,
+but many of them have been deprecated recently with the release of
+CIDER 0.7. Unfortunately not everyone is aware of this yet and I often see
+tickets related to those deprecated projects. In this short post I’ll
+outline the deprecations and provide a bit of background for them.</p>
+:ET

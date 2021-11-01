@@ -1,0 +1,6 @@
+I"e<p>Ruby’s <a href="http://ruby-doc.org/core-2.0.0/Enumerable.html">Enumerable</a>
+module is pretty extensive, but from time to time I wish it had some
+extra methods, that are available in
+the standard libraries of other languages like Scala, Groovy, Haskell
+and Clojure. I’m pretty sure I’m not the only one, that’s why I’m writing this post.</p>
+:ET

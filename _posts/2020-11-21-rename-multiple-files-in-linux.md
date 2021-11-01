@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Rename Multiple Files in Linux
 date: 2020-11-21 19:16 +0200
 tags:
@@ -20,7 +20,7 @@ globbing (e.g. `**/*.markdown`). So, here we go.
 
 One simple option is to use the `rename` utility from the `util-linux` package:
 
-``` shellsession
+``` shell
 $ rename markdown md *.markdown
 ```
 
@@ -30,7 +30,7 @@ in cases like `markdown.markdown`. Fortunately, Debian and Debian-derived
 distributions (e.g. Ubuntu) ship a more powerful version of this command, that's
 written in Perl, and supports regular expressions.
 
-``` shellsession
+``` shell
 $ sudo apt install rename
 $ rename 's/\.markdown$/.md/' *.markdown
 ```
@@ -38,7 +38,7 @@ $ rename 's/\.markdown$/.md/' *.markdown
 The regular expression allows us to be specific about the match and prevents the problem listed above.
 By the way, generally it's a good idea to first preview any changes that the command might perform with the `-n` option:
 
-``` shellsession
+``` shell
 $ rename -n 's/\.markdown$/.md/' *.markdown
 rename(2008-05-05-first-post.markdown, 2008-05-05-first-post.md)
 rename(2008-06-16-das-keyboard.markdown, 2008-06-16-das-keyboard.md)
@@ -52,7 +52,7 @@ Super handy!
 
 If you don't want to use an external command you can leverage some shell features instead:
 
-``` shellsession
+``` shell
 $ for f in *.markdown; do
     mv -- "$f" "${f%.markdown}.md"
 done
@@ -63,7 +63,7 @@ and Zsh, that are beyond the scope of today's article, but it gets the
 job done. Interestingly enough, Zsh provides a much simpler and way more powerful way to tackle mass rename, via
 the `zmv` utility it bundles:
 
-``` shellsession
+``` shell
 $ zmv '(*).markdown' '$1.md'
 ```
 
@@ -71,14 +71,14 @@ While `zmv` doesn't use regular expressions, it's matching and substitution func
 everything you decide to throw at it.
 Note that `zmv` is usually not enabled by default and you might have to load it manually before using it:
 
-``` shellsession
+``` shell
 $ autoload -Uz zmv
 ```
 
 Notice also that in the first argument of `zmv` you've specifying both the search pattern for files and substitution groups
 you can use in the second argument. You can do way more complex renamings with `zmv`:
 
-``` shellsession
+``` shell
 # rename dir1/file.txt, dir2/file.txt, etc to file-1.txt, file-2.txt, etc
 $ zmv zmv 'dir(*)/file.txt' 'file-${1}.txt'
 ```
@@ -86,7 +86,7 @@ $ zmv zmv 'dir(*)/file.txt' 'file-${1}.txt'
 Obviously sky is the limit here, although this applies to the Perl version of the `rename` command as well.
 One cool thing about `zmv` is that you just like with `rename` you can preview the changes it's going to do with the `-n` option.
 
-``` shellsession
+``` shell
 $ zmv -n '(*).markdown' '$1.md'
 ```
 

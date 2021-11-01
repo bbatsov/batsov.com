@@ -1,0 +1,29 @@
+I"�<p>This post is mostly a note to myself, since I constantly forget how to
+delete remote Git branches.</p>
+
+<p>The classic way to do so (introduced in Git 1.5) would be:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git push origin :branch-to-delete
+</code></pre></div></div>
+
+<p>So, if I were migrating an application from MySQL to PostgreSQL I might want to delete
+the <code class="language-plaintext highlighter-rouge">postgres</code> branch when I’m done:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git push origin :postgres
+</code></pre></div></div>
+
+<p>You have to agree this syntax is hardly something one can easily
+remember(and I’m extra certain nobody would have guessed it on their
+own). Fortunately in Git 1.7 a nicer alternative to the above command
+was introduced:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git push origin <span class="nt">--delete</span> branch-to-delete
+</code></pre></div></div>
+
+<p>That’s all from me for today. Now go ahead and delete those unneeded Git branches.</p>
+
+<p>P.S. GitHub users might also want to take a look at this
+<a href="https://github.com/blog/1335-tidying-up-after-pull-requests">article</a>
+describing recently added functionality to clean up after pull
+requests.</p>
+:ET

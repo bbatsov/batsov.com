@@ -1,0 +1,124 @@
+I"�<h2 id="prelude">Prelude</h2>
+
+<p>Last month I’ve blogged about the
+<a href="/articles/2011/08/19/a-peek-at-emacs24/">exciting things are coming up in Emacs 24</a>. What
+I failed to mention originally is that altough Emacs 24 is slated for
+a Spring 2012 (tentatively) release there is no real reason not to start using it
+now. You should also keep in mind that it’s feature complete since it
+officially entered the feature freeze of its development cycle in July 2011.</p>
+
+<p>I’ve been using Emacs 24 for several months now and it has been
+nothing but rock solid. I guess the only real obstacle currently is
+that the way to obtain Emacs 24 is not particularly straightfoward/clear,
+hence this post.</p>
+
+<p>I’ll discuss here the installation and initial configuration of Emacs
+24 on OS X, GNU/Linux and Windows.</p>
+
+<!--more-->
+
+<h2 id="installing-emacs-24">Installing Emacs 24</h2>
+
+<h4 id="os-x">OS X</h4>
+
+<p>Obtaining Emacs 24 on OS X is really simple. There are two popular
+ways to do it. The first is to simply download a pretest (or a nightly
+build) from <a href="http://emacsformacosx.com">Emacs for OS X</a>. My personal
+recommendation would be to get the latest pretest (which is ironically
+the first pretest as well) from
+<a href="http://emacsformacosx.com/emacs-builds/Emacs-pretest-24.0.90-universal-10.6.7.dmg">here</a>.</p>
+
+<p>That was really easy, right?</p>
+
+<p>The second easy way to obtain Emacs 24 is via
+<a href="http://mxcl.github.com/homebrew/">homebrew</a>. Just type the following
+incantation in your shell and you’re done:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>brew <span class="nb">install </span>emacs <span class="nt">--cocoa</span> <span class="nt">--use-git-head</span> <span class="nt">--HEAD</span>
+<span class="nv">$ </span><span class="nb">cp</span> <span class="nt">-r</span> /usr/local/Cellar/emacs/HEAD/Emacs.app /Applications/
+</code></pre></div></div>
+
+<p>The second step is optional, but it’s recommended if you like to start
+Emacs from the launchpad or from Spotlight. Personally I prefer to
+start Emacs in daemon mode (<code class="language-plaintext highlighter-rouge">emacs --daemon</code>), so that I could share a
+single Emacs instance between several Emacs clients (<code class="language-plaintext highlighter-rouge">emacsclient
+-c/t</code>).</p>
+
+<p>That’s all folk! You may now proceed to the configuration section.</p>
+
+<h4 id="linux">Linux</h4>
+
+<p>Given that Linux is more or less the home os of Emacs it presents us
+with the most installation options. Of course, we can build Emacs from
+<a href="https://github.com/emacsmirror/emacs">source</a> on every distribution
+out there, but I rarely bother to do so. Using the distribution’s
+package manager is a better idea for many reasons - you don’t need to
+install a build chain and lots of dev libraries, you get updated
+versions when they are released and you get automated dependency
+manager, just to name a few.</p>
+
+<p>That said, few distributions include in their primary repositories
+builds of Emacs 24. Luckily there are some unofficial repos that come
+to the rescue.</p>
+
+<p>Debian/Ubuntu users should look no further than the amazing
+<a href="http://emacs.naquadah.org/">emacs-snapshot APT repo</a>. You’ll find
+installation instructions there for all the relevant Debian and Ubuntu
+versions out there. High quality, highly recommended builds!</p>
+
+<p>Gentoo users have even less to do, since Emacs 24 can be obtained via
+the <code class="language-plaintext highlighter-rouge">emacs-vcs</code> package in portage, as noted in the official
+<a href="http://www.gentoo.org/proj/en/lisp/emacs/emacs.xml">Emacs on Gentoo page</a>.</p>
+
+<p>Unfortunately I wasn’t able to find prebuilt Emacs 24 packages for any
+of the RPM distros (Fedora, SUSE, Mandriva, etc). Since, I’m Debian
+user I have to admit that I didn’t look that far, but the source
+installation is not particularly hard and is always an option.</p>
+
+<h4 id="windows">Windows</h4>
+
+<p>There are several ways to obtain precompiled Emacs 24 binaries if
+you’re a Windows users. The most popular are
+<a href="http://ourcomments.org/cgi-bin/emacsw32-dl-latest.pl">EmacsW32</a>,
+<a href="http://code.google.com/p/emacs-for-windows/">Emacs for Windows</a> and
+of course the official
+<a href="http://alpha.gnu.org/gnu/emacs/windows/">Emacs Windows builds</a>. I’ve
+,personally, never used any builds other than the official ones. The
+unofficial builds usually include installers and various patches that
+might be of use to some users.</p>
+
+<p>Since I rarely use Windows I cannot give you any more advice on the
+choice of a binary vendor.</p>
+
+<h2 id="initial-configuration">Initial configuration</h2>
+
+<p>Installing Emacs has always been the easy part, configuring it
+properly - not that much. That’s why I’ve created the
+<a href="https://github.com/bbatsov/prelude">Emacs Prelude</a> - an
+advanced Emacs setup specifically for Emacs 24 that has been tested to
+properly work on OS X, Linux and Windows.</p>
+
+<p>Its installation is dead simple:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone git://github.com/bbatsov/prelude.git path/to/local/repo
+<span class="nv">$ </span><span class="nb">ln</span> <span class="nt">-s</span> path/to/local/repo ~/.emacs.d
+</code></pre></div></div>
+
+<p>For Windows Vista/7 the ~(home) folder is
+<code class="language-plaintext highlighter-rouge">C:\Users\&lt;USER&gt;\AppData\Roaming\</code>.</p>
+
+<p>The configuration in the Prelude is commented extensively and will be
+improved more along the way. Reading it will be an enlightening
+experience for all new Emacs users.</p>
+
+<p>The Prelude itself is a moving target. I’ve created it recently and I
+plan to add a lot more cool things very soon, so stay tuned. If you
+have any problems with it or have feature suggestions - do not
+hesitate to open tickets and send pull requests.</p>
+
+<h2 id="epilogue">Epilogue</h2>
+
+<p>Now that I’ve shown you how easy it is to get a hold of Emacs 24 and
+I’ve provided you with a starting configuration there is really no
+excuse not to switch to Emacs 24. Install it, use it, love it!</p>
+:ET

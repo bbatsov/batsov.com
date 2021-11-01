@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Java.next() - JRuby: The Rubyists Strike Back"
 tags:
 - Ruby

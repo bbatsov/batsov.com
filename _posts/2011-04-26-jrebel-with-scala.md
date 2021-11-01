@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Incremental development with Scala and JRebel"
 tags:
 - Java

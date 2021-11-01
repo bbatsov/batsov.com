@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Accessing the menu bar in Emacs
 tags:
 - Emacs

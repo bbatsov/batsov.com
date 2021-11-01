@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Changing the look & feel in NetBeans 6.8"
 tags:
 - Java

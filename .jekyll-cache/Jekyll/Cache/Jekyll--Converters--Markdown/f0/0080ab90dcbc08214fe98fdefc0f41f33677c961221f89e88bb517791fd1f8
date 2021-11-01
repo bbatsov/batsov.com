@@ -1,0 +1,19 @@
+I"4<p>Most people have been in a situation requiring them to change one or
+more of the parameters passed to the JVM on top of which JBoss AS is
+running. For instance - you may need a bigger heap, bigger perm gen
+size or something else. The best place to put these parameters is
+probably the following file:</p>
+
+<p><strong>$JBOSS_HOME/bin/run.conf</strong></p>
+
+<p>where <strong>$JBOSS_HOME</strong> refers to the directory in which you’ve unpacked the JBoss AS distribution.</p>
+
+<p>Look for this section:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="o">[</span> <span class="s2">"x</span><span class="nv">$JAVA_OPTS</span><span class="s2">"</span> <span class="o">=</span> <span class="s2">"x"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nv">JAVA_OPTS</span><span class="o">=</span><span class="s2">"..."</span>
+<span class="k">fi</span>
+</code></pre></div></div>
+
+<p>All you have to do now is adapt it to your needs.</p>
+:ET

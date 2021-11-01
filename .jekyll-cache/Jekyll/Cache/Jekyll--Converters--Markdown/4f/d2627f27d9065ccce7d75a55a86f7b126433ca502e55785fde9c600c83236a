@@ -1,0 +1,5 @@
+I"<p>Sometimes it’s useful to be able to open the file you’re editing in
+Emacs in an external program. For instance - you might be editing
+some HTML file and you might want to see how is it looking in a
+browser. I use the following handy command to do so:</p>
+:ET

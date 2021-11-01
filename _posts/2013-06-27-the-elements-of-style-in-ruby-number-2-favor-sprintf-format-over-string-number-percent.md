@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "The Elements of Style in Ruby #2: Favor sprintf(format) over String#%"
 date: 2013-06-27 13:15
 comments: true

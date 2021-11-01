@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Enabling 3D support for Nouveau in Fedora 13"
 tags:
 - Fedora

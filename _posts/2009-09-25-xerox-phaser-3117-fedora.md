@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Using Xerox Phaser 3117 on Fedora
 tags:
 - Hardware

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Using Emacs for Rails development: The perfect setup"
 tags:
 - Ruby

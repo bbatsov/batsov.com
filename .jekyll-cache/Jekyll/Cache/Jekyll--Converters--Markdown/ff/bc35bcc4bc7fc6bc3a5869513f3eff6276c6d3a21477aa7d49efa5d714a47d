@@ -1,0 +1,274 @@
+I"f2<h2 id="prelude">Prelude</h2>
+
+<p>Anyone who’s ever dabbled in the dark art that is Emacs knows that
+chances are you’ll be overwhelmed before you start making sense of
+Emacs’ unique view of the world. There is just too much information
+out there…</p>
+
+<p>There are many great Emacs resources targeting different
+groups of Emacs users. The problems is that often the people that would
+benefit the most from some of those resources don’t even know about
+their existence. That’s why I’m putting together this article - to collect the
+best resources in a single location and categorize them
+accordingly. Surely I’ll miss a lot of stuff - I’m just one man and I
+certainly don’t know about many great repositories of Emacs wisdom. I
+hope you’ll help me by pointing out such repositories in the comments
+section. So here we go…</p>
+
+<!--more-->
+
+<h2 id="emacs-squires-beginners">Emacs Squires (Beginners)</h2>
+
+<h4 id="the-emacs-tutorial">The Emacs Tutorial</h4>
+
+<p>Built into Emacs itself this should be the first thing you ever read
+about Emacs. The tutorial is interactive (you get to play with
+concepts after you read about them) and you can start it at any point
+(provided you’ve started Emacs first) by
+pressing <code class="language-plaintext highlighter-rouge">C-h t</code>.</p>
+
+<h4 id="the-emacs-refcard">The Emacs Refcard</h4>
+
+<p><a href="http://www.damtp.cam.ac.uk/user/sje30/ess11/resources/emacs-refcard.pdf">The Emacs Refcard</a>
+is a very useful resource to keep tugged under your keyboard (in
+printed form). It’s generally bundled with your Emacs installation in
+both pdf and tex formats, but I’ve included a hyperlink to spare you
+the search for it.</p>
+
+<h4 id="the-emacs-reference-mug">The Emacs Reference Mug</h4>
+
+<p><a href="http://www.cafepress.com/geekcheat.13042487">The Emacs Reference Mug</a>
+is basically a refcard printed on a tea mug. Let’s you memorize
+keybindings while enjoying a delightful cup of English Breakfast…</p>
+
+<h4 id="mastering-emacs">Mastering Emacs</h4>
+
+<p><a href="http://www.masteringemacs.org">Mastering Emacs</a> is a relatively new
+web site (it just celebrated it’s first birthday), dedicated to
+teaching Emacs to beginners. It has some really nice articles to get
+you started and a nice
+<a href="http://www.masteringemacs.org/reading-guide/">reading guide</a> to go
+alongside them. Mastering Emacs features a few articles, covering more
+advanced topics as well.</p>
+
+<h4 id="emacs-fu">Emacs Fu</h4>
+
+<p><a href="http://emacs-fu.blogspot.com/">Emacs Fu</a> is a blog discussing little
+(and not so little) tweaks to make working with Emacs even nicer. Its
+author has been an Emacs user for the last decade or so and certainly
+has a lot of interesting tips and tricks to share from you. Even I
+happen to learn something new from Emacs Fu from time to time.</p>
+
+<h4 id="meet-emacs">Meet Emacs</h4>
+
+<p><a href="http://peepcode.com/products/meet-emacs">Meet Emacs</a> is a great
+introductory Emacs screencast by <a href="http://peepcode.com">PeepCode</a>. It’s
+not free, but if you prefer screencasts over reading manuals you
+should definitely have a look at it.</p>
+
+<h4 id="programothesis">Programothesis</h4>
+
+<p><a href="http://www.youtube.com/user/emailataskcom">Programothesis</a> is an
+YouTube channel dedicated to Emacs. It features over 30 short Emacs
+screencasts covering various topics.</p>
+
+<h4 id="learning-emacs">Learning Emacs</h4>
+
+<p><a href="http://shop.oreilly.com/product/9780596006488.do">Learning GNU Emacs</a>
+is the last book that was ever published about Emacs. It’s a bit dated
+now (the last edition is from 2004), but Emacs doesn’t change that fast
+and you’ll still find a lot of relevant info into the book. This was
+the second resource I’ve read about Emacs (after the built-in
+tutorial) and while I didn’t find the book outstanding I did find it
+very helpful.</p>
+
+<h4 id="emacs-rookie">Emacs Rookie</h4>
+
+<p><a href="http://emacsrookie.com/">Emacs Rookie</a> is a web site dedicated to
+Emacs tips (mostly about beginners). There are only a few articles
+there right now, but hopefully their number will grow substantially
+over time.</p>
+
+<h4 id="emacs-rocks">Emacs Rocks</h4>
+
+<p><a href="http://emacsrocks.com/">Emacs Rocks</a> is a series of short Emacs
+screencasts. While some of the things suggested there make me grind my
+teeth, there are also quite a bit valuable suggestions that you’ll find
+in the short videos.</p>
+
+<h4 id="emacs-prelude">Emacs Prelude</h4>
+
+<p><a href="https://github.com/bbatsov/prelude">Emacs Prelude</a> is a custom
+Emacs 24 configuration developed by me and optimized for your joy and
+productivity. It’s a good starting point for anyone looking to get
+started with Emacs without too much initial research and ceremony. I’m
+always looking for ideas on extending and improving Prelude.</p>
+
+<h4 id="emacs-starter-kit">Emacs Starter Kit</h4>
+
+<p><a href="https://github.com/technomancy/emacs-starter-kit">Emacs Starter Kit</a>
+is a custom Emacs configuration similar to Prelude. The stable version
+targets Emacs 23 and ESK 2.0 targets Emacs 24 and makes heavy use of the
+new Emacs Lisp Package Manager (ELPA) introduced there. I’m obviously
+much more fond of Prelude, but it’s only fair that I mention the
+competition as well (ESK has been around much longer and is a more
+stable project by all means).</p>
+
+<h4 id="an-introduction-to-programming-in-emacs-lisp">An Introduction to Programming in Emacs Lisp</h4>
+
+<p>Although Emacs Lisp is usually thought of in association only with
+Emacs, it is a full computer programming language.  You can use Emacs
+Lisp as you would any other programming language.</p>
+
+<p>Perhaps you want to understand programming; perhaps you want to
+extend Emacs; or perhaps you want to become a programmer.  This
+introduction to Emacs Lisp is designed to get you started: to guide you
+in learning the fundamentals of programming, and more importantly, to
+show you how you can teach yourself to go further.</p>
+
+<p>It’s also built into Emacs - you can access it by typing <code class="language-plaintext highlighter-rouge">C-h i m
+Emacs Lisp Intro</code>. The book is very light reading and doesn’t assume
+any programming experience. If you’re an experienced software engineer
+the <em>Emacs Lisp Manual</em> might be a better place to start you Emacs
+Lisp adventure.</p>
+
+<h4 id="on-twitter">On Twitter</h4>
+
+<p>There are a few Twitter accounts dedicated on Emacs. I recommend you
+to follow <a href="http://twitter.com/#!/emacs_knight">@emacs_knight</a>(operated
+by yours truly), <a href="http://twitter.com/#!/learnemacs">@learnemacs</a>,
+<a href="http://twitter.com/#!/EmacsRocks">@EmacsRocks</a>,
+<a href="http://twitter.com/#!/dotemacs">@dotemacs</a> and
+<a href="http://twitter.com/#!/dotemax">@dotemax</a>. My personal account is
+listed in the sidebar - while I do tweet about Emacs there from time
+to time, I mostly tweet about programming so follow me at your own
+discretion.</p>
+
+<h4 id="on-irc">On IRC</h4>
+
+<p>There is a irc.freenode.org channel named #emacs. I highly recommend
+you to hang around there - a lot of great Emacs hackers are permanent
+residents of the channel and will kindly answer most questions you
+might have about Emacs.</p>
+
+<p>Given that Emacs has a great IRC mode built-in (that would ERC) you
+have little excuse not be in #emacs. My handle there is <em>bozhidar</em> (I
+know - total surprise, right?).</p>
+
+<h2 id="emacs-knights">Emacs Knights</h2>
+
+<h4 id="effective-emacs">Effective Emacs</h4>
+
+<p><a href="https://sites.google.com/site/steveyegge2/effective-emacs">Effective Emacs</a>
+is a popular post by Steve Yegge in which he discusses a few
+techniques to make more effective use of Emacs. I don’t fully endorse
+them, but still there a few great tips in there.</p>
+
+<h4 id="a-gentle-introduction-to-cedet">A Gentle Introduction to CEDET</h4>
+
+<p>If you’re doing any C/C++ programming you owe it to yourself to read
+Alex Ott’s excellent article
+<a href="http://alexott.net/en/writings/emacs-devenv/EmacsCedet.html">A Gentle Introduction to CEDET</a>.</p>
+
+<h4 id="emacs-wiki">Emacs Wiki</h4>
+
+<p><a href="http://emacswiki.org">The Emacs Wiki</a> is the one stop to find answers
+about all topics related to Emacs. The Wiki, however, is poorly
+moderated and in a state of total chaos and disarray. This makes it a
+bit hard to sift through all the crap there and extract only the
+really valuable bits of information. The amount of wisdom collected on
+the wiki is impressive never-the-less and every experienced Emacs
+user should browse it numerous categories for tips and tricks.</p>
+
+<p>Perhaps surprising for some - the Emacs Wiki is housing a huge
+collection of Emacs Lisp source files as well. I have a personal
+appeal to all the people using the wiki to house their Emacs Lisp
+projects - “For the love of God - use <a href="http://github.com">GitHub</a>!”.</p>
+
+<h4 id="the-emacs-manual">The Emacs Manual</h4>
+
+<p>The official Emacs Manual is one of the greatest Emacs resources ever
+written, but only a handful of Emacs users seems to have read it. It’s
+built into Emacs itself and you can start perusing it simply by typing
+<code class="language-plaintext highlighter-rouge">C-h r</code>. While it’s a hefty volume, the Emacs Manual has one serious
+advantage over the competition - it’s always up-to-date.</p>
+
+<h4 id="the-emacs-lisp-reference-manual">The Emacs Lisp Reference Manual</h4>
+
+<p>If you’re serious about extending Emacs - this is the book to
+read. It’s targeting experience developers, it’s always up-to-date and
+it’s the ultimate Emacs Lisp resource in the world. It’s also
+available for reading directly from Emacs itself - <code class="language-plaintext highlighter-rouge">C-h i m Emacs Lisp</code>.</p>
+
+<h4 id="planet-emacsen">Planet Emacsen</h4>
+
+<p><a href="http://planet.emacsen.org/">Planet Emacsen</a> is a RSS feed aggregating most well-known Emacs blogs out there
+(including this one). If
+you’re serious about Emacs you have to subscribe to it.</p>
+
+<p>Mentioning it also spares me the need to list all those great blogs in
+here.</p>
+
+<h2 id="emacs-masters">Emacs Masters</h2>
+
+<h4 id="understanding-slime">Understanding SLIME</h4>
+
+<p><a href="http://bc.tech.coop/blog/081209.html">Understanding SLIME</a> is an
+excellent overview of SLIME, featuring a myriad of links to great
+SLIME resources. You should see the SLIME video tutorial even if you
+don’t read anything else from the article.</p>
+
+<h4 id="slime-tips">SLIME Tips</h4>
+
+<p><a href="http://slime-tips.tumblr.com/">SLIME Tips</a> is a blog dedicated to
+sharing little know features of SLIME with the rest of us. Seems to be
+dormant, but started off pretty nice…</p>
+
+<h4 id="practical-common-lisp">Practical Common Lisp</h4>
+
+<p>Common Lisp? We’re talking about Emacs, right? Strange or not I found
+more about Emacs Lisp, while studying <a href="http://www.gigamonkeys.com/book/">Practical Common Lisp</a>, than
+the bundled Emacs Lisp manuals. For me the explanation is simply -
+Practical Common Lisp helped me get the Lisp way of thinking. There is
+also the <code class="language-plaintext highlighter-rouge">cl</code> module is Emacs that implements a good deal of Common
+Lisp in Emacs Lisp and I use it all the time. I, personally, dream of
+an Emacs using Common Lisp (or at least Scheme) instead of Emacs Lisp,
+but doubt I’ll live to see such beast.</p>
+
+<h2 id="how-to-tackle-all-that-stuff">How to Tackle all that stuff?</h2>
+
+<p>Well, there is no universal formula. What follows is just my personal
+suggestion.</p>
+
+<h4 id="squires">Squires</h4>
+
+<p>If you’re an Emacs beginner start from the Emacs Tutorial and proceed
+with the articles on Mastering
+Emacs. <a href="/articles/2011/10/09/getting-started-with-emacs-24/">Get a copy of Emacs 24</a>
+and <a href="https://github.com/bbatsov/prelude">Emacs Prelude</a> to start
+off with a solid initial configuration.</p>
+
+<p>Study the rest of the resources at your own discretion. Following
+Twitter accounts has very low overhead for you and could be very beneficial.</p>
+
+<h4 id="knights">Knights</h4>
+
+<p>Read the Emacs Manual. Read the Emacs Lisp Manual. Subscribe to Planet
+Emacsen. Read the source code of Prelude or the ESK. The rest is totally up to you.</p>
+
+<h4 id="masters">Masters</h4>
+
+<p>Read the Emacs source code. Contribute bug fixes and new modes. Share
+your knowledge. Sharpen your Lisp skills.</p>
+
+<h2 id="epilogue">Epilogue</h2>
+
+<p>The road to Emacs mastery is a long and tiresome one. But it’s also
+one of the most enjoyable roads one may choose to travel. Hopefully
+you’ll enjoy it even more armed with the many resources I’ve listed
+here.</p>
+
+<p>In the beginning of the article I said I’m certainly going to miss
+many great bits of Emacs wisdom. I’d like to ask you to mention them
+in the comments section so that I could add them to the article.</p>
+:ET

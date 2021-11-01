@@ -1,0 +1,29 @@
+I"�<p>Getting started with Emacs is hard. That’s a fact of life and you
+shouldn’t believe anyone telling you otherwise.</p>
+
+<p>One of the harder parts of the journey to Emacs mastery is remembering
+all those keybindings at the beginning (<code class="language-plaintext highlighter-rouge">C-h t</code>), which can be really
+overwhelming. To make matters worse for many common commands there are
+two sets of keybindings - the Emacs ones (that are touch typing
+friendly) and the popular ones (that typically involve the use of the
+arrow keys). Most people never get to use the <em>proper</em> keybindings and
+forever make use of the arrow keys.</p>
+
+<p>To help Emacs newcomers get used to the proper Emacs keybindings I’ve
+created <a href="http://github.com/bbatsov/guru-mode">guru-mode</a> - a simple
+minor mode that will show you a (helpful) message in the minibuffer
+every time you try to use a <em>non Emacs way</em> keybinding.</p>
+
+<p><img src="/assets/images/guru-mode.png" alt="guru-mode" /></p>
+
+<p>It will probably annoy you <strong>a lot</strong> in the beginning, but trust me -
+it’ll be worth it in the long run.</p>
+
+<p><code class="language-plaintext highlighter-rouge">guru-mode</code> comes bundled with
+<a href="http://github.com/bbatsov/prelude">Emacs Prelude</a> and is available
+for installation from <a href="http://marmalade-repo.org">Marmalade</a> and <a href="http://melpa.org">MELPA</a>.</p>
+
+<p>P.S. True Emacs mastery cannot be achieved if you do not practice
+touch typing; if you’re doing hunt-and-peck typing you’d better fire up the
+venerable <code class="language-plaintext highlighter-rouge">gtypist</code> before looking at <code class="language-plaintext highlighter-rouge">guru-mode</code>.</p>
+:ET

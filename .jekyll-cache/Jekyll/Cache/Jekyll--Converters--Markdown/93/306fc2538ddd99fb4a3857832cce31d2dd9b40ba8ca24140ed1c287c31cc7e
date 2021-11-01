@@ -1,0 +1,34 @@
+I"�<p>Many people are having trouble remembering all the rake tasks defined
+in a particular project’s <code class="language-plaintext highlighter-rouge">Rakefile</code> (especially if they hadn’t
+authored it). This is quite normal given the fact that Rails’s
+Rakefile, for instance, defines 39 tasks (as of version
+3.2.2). Personally I never memorize anything, but the most basic rake
+tasks - for everything else there is the <code class="language-plaintext highlighter-rouge">rake -T</code> (or <code class="language-plaintext highlighter-rouge">rake --tasks</code>)
+command. Here’s the command in action for Octopress’s Rakefile:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>rake <span class="nt">-T</span>
+rake clean                 <span class="c"># Clean out caches: .pygments-cache, .gist-cache, .sass-cache</span>
+rake copydot[source,dest]  <span class="c"># copy dot files for deployment</span>
+rake deploy                <span class="c"># Default deploy task</span>
+rake gen_deploy            <span class="c"># Generate website and deploy</span>
+rake generate              <span class="c"># Generate jekyll site</span>
+rake <span class="nb">install</span><span class="o">[</span>theme]        <span class="c"># Initial setup for Octopress: copies the default theme into the path of Jekyll's generator.</span>
+rake integrate             <span class="c"># Move all stashed posts back into the posts directory, ready for site generation.</span>
+rake isolate[filename]     <span class="c"># Move all other posts than the one currently being worked on to a temporary stash location (stash) so regenerating the site happens much quicker.</span>
+rake list                  <span class="c"># list tasks</span>
+rake new_page[filename]    <span class="c"># Create a new page in source/(filename)/index.markdown</span>
+rake new_post[title]       <span class="c"># Begin a new post in source/_posts</span>
+rake preview               <span class="c"># preview the site in a web browser</span>
+rake push                  <span class="c"># deploy public directory to github pages</span>
+rake rsync                 <span class="c"># Deploy website via rsync</span>
+rake set_root_dir[dir]     <span class="c"># Update configurations to support publishing to root or sub directory</span>
+rake setup_github_pages    <span class="c"># Set up _deploy folder and deploy branch for Github Pages deployment</span>
+rake update_source[theme]  <span class="c"># Move source to source.old, install source theme updates, replace source/_includes/navigation.html with source.old's navigation</span>
+rake update_style[theme]   <span class="c"># Move sass to sass.old, install sass theme updates, replace sass/custom with sass.old/custom</span>
+rake watch                 <span class="c"># Watch the site and regenerate when it</span>
+changes
+</code></pre></div></div>
+
+<p>Not only did you get a list of all the tasks, but nice descriptions of
+the tasks as well.</p>
+:ET

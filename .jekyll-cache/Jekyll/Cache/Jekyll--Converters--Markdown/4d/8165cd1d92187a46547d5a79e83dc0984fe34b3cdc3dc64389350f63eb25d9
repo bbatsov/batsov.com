@@ -1,0 +1,14 @@
+I"c<p>If you have access to the source, you can do this in the main method:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// enable anti-aliasing</span>
+<span class="nc">System</span><span class="o">.</span><span class="na">setProperty</span><span class="o">(</span><span class="s">"awt.useSystemAAFontSettings"</span><span class="o">,</span><span class="s">"on"</span><span class="o">);</span>
+<span class="nc">System</span><span class="o">.</span><span class="na">setProperty</span><span class="o">(</span><span class="s">"swing.aatext"</span><span class="o">,</span> <span class="s">"true"</span><span class="o">);</span>
+</code></pre></div></div>
+
+<p>Alternatively (and if you do not have access to the source, or if you find this
+easier) you can simply pass the system properties above to the JVM by
+adding these options to the command line:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">-</span><span class="nc">Dawt</span><span class="o">.</span><span class="na">useSystemAAFontSettings</span><span class="o">=</span><span class="n">on</span> <span class="o">-</span><span class="nc">Dswing</span><span class="o">.</span><span class="na">aatext</span><span class="o">=</span><span class="kc">true</span>
+</code></pre></div></div>
+:ET

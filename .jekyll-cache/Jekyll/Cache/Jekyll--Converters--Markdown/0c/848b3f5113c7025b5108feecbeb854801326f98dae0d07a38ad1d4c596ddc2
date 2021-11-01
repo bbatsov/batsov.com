@@ -1,0 +1,4 @@
+I"¼<p>I always thought that the fact that JDialogs accepted a parent frame
+as a constructor argument was the thing, that would make the dialogâ€™s
+position relative to that of the frame:</p>
+:ET

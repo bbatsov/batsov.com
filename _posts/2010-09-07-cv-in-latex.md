@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "My professional CV in LaTeX"
 tags:
 - Career

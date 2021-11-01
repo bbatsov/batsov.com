@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Emacs Dev Kit"
 tags:
 - Emacs

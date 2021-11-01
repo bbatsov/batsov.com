@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Admin Interfaces for Rails Apps: RailsAdmin vs ActiveAdmin"
 date: 2011-11-20 09:24
 comments: true

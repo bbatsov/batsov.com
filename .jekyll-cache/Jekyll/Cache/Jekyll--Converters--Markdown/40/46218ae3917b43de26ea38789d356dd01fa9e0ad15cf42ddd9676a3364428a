@@ -1,0 +1,8 @@
+I"x<p>I18n(internationalization) and l10n(localization) are topics that are
+covered superbly by the
+<a href="http://guides.rubyonrails.org/i18n.html">Rails Guides</a>. The one thing
+that’s left out is the setup of fallback locales in case something is
+missing in the currently selected locale (and mark my words -
+something probably is). Therefore I’m writing this
+post.</p>
+:ET

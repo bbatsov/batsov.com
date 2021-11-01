@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Debian post installation setup & tips"
 comments: true
 tags:

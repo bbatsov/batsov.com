@@ -1,0 +1,350 @@
+I"<p><a href="https://github.com/rubocop-hq/ruby-style-guide">The Ruby Style Guide</a> is
+nearing its second birthday. The project has gained more attention and
+more traction than I could have imagined. For the millionth time I was
+amazed by the fantastic Ruby developers around the world.</p>
+
+<p>The project has also steadily evolved:</p>
+
+<ul>
+  <li>it covers more and more aspects of programming in Ruby</li>
+  <li>it features many more code examples</li>
+  <li>it is now translated in several languages</li>
+  <li>it gave birth to the automated static code analyzer <a href="https://github.com/rubocop-hq/rubocop">RuboCop</a></li>
+  <li>it has become the basis for hundreds of slightly modified internal project or company style guides</li>
+</ul>
+
+<p>One common criticism for the Ruby style guide is that it doesn’t
+feature extensive rationale about most of the rules in it. That’s
+deliberate - even now the document is pretty intimidating. If we were
+to delve into the reasoning behind each and every rule, the guide’s
+size might come close to that of a small book.</p>
+
+<p>I do, however, feel that the rationale behind some of the rules is
+important. That’s why I’ll be starting a series of <em>N</em> posts devoted
+to the topic. I’ll try to cover as many of the rules as I can - from
+the more straightforward ones like <em>maximum line length</em>, to the most
+controversial ones like <em>the use of single-quoted strings when
+possible</em>. The articles will be published in no particular order and
+on no particular schedule.</p>
+
+<p>Keep an eye out for the installments in the series here and on
+<a href="http://twitter.com/bbatsov">Twitter</a>. I’m looking forward to many
+interesting discussions with you!</p>
+
+<p>Feel free to take a look at the
+<a href="/articles/2013/06/26/the-elements-of-style-in-ruby-number-1-maximum-line-length/">first article in the series, dedicated to the maximum line length we should aim for</a>.</p>
+
+<h2 id="articles-in-the-series">Articles in the Series</h2>
+
+<ul>
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+  
+    <li><a href="/articles/2013/06/26/the-elements-of-style-in-ruby-number-1-maximum-line-length/">The Elements of Style in Ruby #1: Maximum line length</a></li>
+    <!-- tags if -->
+
+  
+    <li><a href="/articles/2013/06/27/the-elements-of-style-in-ruby-number-2-favor-sprintf-format-over-string-number-percent/">The Elements of Style in Ruby #2: Favor sprintf(format) over String#%</a></li>
+    <!-- tags if -->
+
+  
+    <li><a href="/articles/2013/06/28/the-elements-of-style-in-ruby-number-3-make-sure-something-is-an-array/">The Elements of Style in Ruby #3: Make sure something is an array</a></li>
+    <!-- tags if -->
+
+  
+    <li><a href="/articles/2013/07/01/the-elements-of-style-in-ruby-number-4-array-number-join-vs-array-number-star/">The Elements of Style in Ruby #4: Array#join vs Array#*</a></li>
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+  
+    <li><a href="/articles/2013/07/02/the-elements-of-style-in-ruby-number-5-readability-of-long-numeric-literals/">The Elements of Style in Ruby #5: Readability of long numeric literals</a></li>
+    <!-- tags if -->
+
+  
+    <li><a href="/articles/2013/07/04/the-elements-of-style-in-ruby-number-6-attributes-redux/">The Elements of Style in Ruby #6: Attributes Redux</a></li>
+    <!-- tags if -->
+
+  
+    <li><a href="/articles/2013/07/10/the-elements-of-style-in-ruby-number-7-the-case-against-equals-equals-equals/">The Elements of Style in Ruby #7: The case against ===</a></li>
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+  
+    <li><a href="/articles/2013/08/14/the-elements-of-style-in-ruby-number-8-know-thy-predicates/">The Elements of Style in Ruby #8: Know Thy Predicates</a></li>
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+  
+    <li><a href="/articles/2013/08/21/the-elements-of-style-in-ruby-number-9-hash-number-has-key-and-hash-number-has-value-are-deprecated/">The Elements of Style in Ruby #9: Hash#has_key? and Hash#has_value? are deprecated</a></li>
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+  
+    <li><a href="/articles/2013/09/05/the-elements-of-style-in-ruby-number-10-in-cryptic-perlisms-we-do-not-trust/">The Elements of Style in Ruby #10: In cryptic Perlisms we do not trust</a></li>
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+  
+    <li><a href="/articles/2013/09/26/the-elements-of-style-in-ruby-number-11-invoking-lambdas-slash-procs/">The Elements of Style in Ruby #11: Invoking Lambdas/Procs</a></li>
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+  
+    <li><a href="/articles/2014/02/04/the-elements-of-style-in-ruby-number-12-proc-vs-proc-dot-new/">The Elements of Style in Ruby #12: proc vs Proc.new</a></li>
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+  
+    <li><a href="/articles/2014/02/17/the-elements-of-style-in-ruby-number-13-length-vs-size-vs-count/">The Elements of Style in Ruby #13: length vs size vs count</a></li>
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+  
+    <li><a href="/articles/2014/08/13/the-elements-of-style-in-ruby-number-14-variable-interpolation/">The Elements of Style in Ruby #14: Variable Interpolation</a></li>
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+
+    <!-- tags if -->
+ <!-- posts for -->
+</ul>
+:ET

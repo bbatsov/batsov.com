@@ -1,0 +1,15 @@
+I"�<p>I’ll be talking about the evolution of CIDER at the
+<a href="http://clojure-conj.org/">conj</a>, but I won’t be able to show much (in
+terms of features) during my talk. Luckily, however, beside the talks
+we also have the option for <a href="https://github.com/cognitect/clojure-conj/wiki/Clojure-conj-2014-Unsessions">unsessions</a>. Here’s my proposal for one such unsession…</p>
+
+<p>I’d like to do a more extensive demonstration of the general
+workflow with CIDER and all the cool things we’ve done recently and
+I’d also like discuss with our users (and potential users) existing
+problems, ideas for improvements and the future direction of the
+project. If you like my idea you can show your support for it
+<a href="https://github.com/cognitect/clojure-conj/wiki/Clojure-conj-2014-Unsessions#cider-demoqa">here</a>.</p>
+
+<p>Feedback is important and I’d like to get as much as possible
+to make CIDER better!</p>
+:ET

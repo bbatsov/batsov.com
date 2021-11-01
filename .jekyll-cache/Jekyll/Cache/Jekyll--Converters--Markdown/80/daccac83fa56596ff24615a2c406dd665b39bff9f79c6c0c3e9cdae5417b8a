@@ -1,0 +1,8 @@
+I"Á<p>Have you ever been wondering how to access the Emacs menu bar, when
+using Emacs in console mode? The answer is easy - press <strong>F10</strong> or type
+<strong>M-x menu-bar-open</strong>(both methods work in X as well, of course).</p>
+
+<p>Although the menu bar is rarely used by seasoned Emacs veterans,
+exploring it is a great way to get started with the capabilities of
+the new modes, so being able to access it is generally a good thing.</p>
+:ET

@@ -1,0 +1,29 @@
+I"	<p>Sometimes it’s useful to be able to open the file you’re editing in
+Emacs in an external program. For instance - you might be editing
+some HTML file and you might want to see how is it looking in a
+browser. I use the following handy command to do so:</p>
+
+<div class="language-elisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nb">defun</span> <span class="nv">prelude-open-with</span> <span class="p">()</span>
+  <span class="s">"Simple function that allows us to open the underlying
+file of a buffer in an external program."</span>
+  <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">when</span> <span class="nv">buffer-file-name</span>
+    <span class="p">(</span><span class="nv">shell-command</span> <span class="p">(</span><span class="nv">concat</span>
+                    <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">eq</span> <span class="nv">system-type</span> <span class="ss">'darwin</span><span class="p">)</span>
+                        <span class="s">"open"</span>
+                      <span class="p">(</span><span class="nv">read-shell-command</span> <span class="s">"Open current file with: "</span><span class="p">))</span>
+                    <span class="s">" "</span>
+                    <span class="nv">buffer-file-name</span><span class="p">))))</span>
+</code></pre></div></div>
+
+<p>On OS X it would use the <code class="language-plaintext highlighter-rouge">open</code> program to decide which program to open
+the file with, otherwise you’d be prompted to enter the name of the
+program in the minibuffer.</p>
+
+<p>I find it convenient to bind the command to <code class="language-plaintext highlighter-rouge">C-c o</code>:</p>
+
+<div class="language-elisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nv">global-set-key</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">"C-c o"</span><span class="p">)</span> <span class="ss">'prelude-open-with</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>This command is naturally part of <a href="https://github.com/bbatsov/prelude">Emacs Prelude</a>.</p>
+:ET

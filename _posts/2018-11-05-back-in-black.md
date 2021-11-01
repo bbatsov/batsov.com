@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Back in Black
 date: 2018-11-05 22:14 +0100
 tags:

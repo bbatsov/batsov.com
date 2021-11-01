@@ -1,0 +1,173 @@
+I"�<h2 id="prelude">Prelude</h2>
+
+<p>I’ve started my personal blog some three years ago. Back then in was
+hosted on <a href="http://wordpress.com">wordpress.com</a> and was called
+devcraft.wordpress.com. I had a lot of interesting (at least to me)
+topics to write about on my mind, but I was immediately faced with a
+serious problem - I felt very uncomfortable writing posts in a small
+text area, using the primitive editing capabilities of a web
+browser. Ordinary decent hackers love and value two tools above all
+else - their text editor and their shell. And we love solving problems
+automatically with clever programs and scripts, instead of manually.</p>
+
+<p>I knew the only way to ever start writing, like I intended, to was to
+actively involve them in the process. So here my story begins…</p>
+
+<!--more-->
+
+<h2 id="in-emacs-we-trust">In Emacs We Trust</h2>
+
+<p>My editor happens to be Emacs and I’ve started to look for ways to
+blog without leaving its beloved frame. They were several options:</p>
+
+<ul>
+  <li>
+    <p>Use some browser extension that fires up Emacs when editing text
+areas. For instance in Google Chrome there is the extension
+<a href="https://chrome.google.com/webstore/detail/ljobjlafonikaiipfkggjbhkghgicgoh">Edit with Emacs</a>.</p>
+  </li>
+  <li>
+    <p>Use <a href="http://orgmode.org/worg/org-blog-wiki.html">org-mode</a> to write my posts.</p>
+  </li>
+  <li>
+    <p><a href="http://mwolson.org/projects/EmacsMuse.html">Emacs Muse</a> was another
+option. Emacs Muse is an authoring and publishing environment for
+Emacs. It simplifies the process of writings documents and
+publishing them to various output formats. Muse uses a very simple
+Wiki-like format as input. Muse consists of two main parts: an
+enhanced text-mode for authoring documents and navigating within
+Muse projects, and a set of publishing styles for generating
+different kinds of output.</p>
+  </li>
+  <li>
+    <p>Use some Emacs mode, like
+<a href="http://www.emacswiki.org/emacs/WebloggerMode">weblogger-mode</a>, that
+allows to write and publish WordPress (amongst others) entries directly from Emacs.</p>
+  </li>
+</ul>
+
+<p>All these options had their merits, but they also had their
+shortcomings. For one - there is only one writer’s markup that I
+really enjoy and this is <a href="http://daringfireball.net/projects/markdown/">Markdown</a>. This probably has something to do
+with the fact that I’ve written quite a lot of stuff in GitHub and
+Assembla using it. I also wanted the ability to easily include syntax
+highlighted code snippets (since I generally write about programming)
+and handy way to manage blog updates - preferably via git. I push
+something to my repo and voila.</p>
+
+<p>At the time I couldn’t make up my mind and my blog was left with a few
+quite short posts, due to my inability to withstand being in wordpress
+for any prolonged period of time.</p>
+
+<p>Then something extraordinary happened in the beginning of this
+year. I’ve stumbled upon the post
+<a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html">“Blogging Like a Hacker”</a>
+by GitHub’s co-founder Tom Preston-Werner (aka mojombo). It seemed
+that other people had exactly the same problem as me. It also seemed
+they were more determined to do something about it.</p>
+
+<h2 id="along-comes-jekyll">Along Comes Jekyll</h2>
+
+<p>Long story short, Tom had written a blog aware static site generator,
+called <a href="https://github.com/mojombo/jekyll">Jekyll</a> in Ruby. Jekyll
+posts are simply Markdown or Textile files and the
+<a href="http://liquidmarkup.org/">Liquid templating language</a> is used to
+enhance the posts in their post-processing phase. Code highlighting?
+Jekyll (and pygments) has got your back. Nice, ah? There is
+support for various layouts and here’s be best part - you could put
+your blog in a GitHub repo and deploy automatically to GitHub Pages.</p>
+
+<p>I instantly fell in love with Jekyll and as you can see from my
+archive I’ve finally wrote some nice (arguably) &amp; long articles - like I’ve
+originally intended.</p>
+
+<p>While I was mostly happy with Jekyll there were a few things that
+bothered me with it:</p>
+
+<ul>
+  <li>
+    <p>You have to design your layouts yourself. While this is generally
+fine if you have a sense for design, when you’re someone like me
+that could yield some pretty ugly designs. I was so out of ideas
+that I designed my Jekyll layout to look like my Emacs (down to the
+Zenburn color theme) for which I got a lot of flak.</p>
+  </li>
+  <li>
+    <p>Maruku is a really crappy Markdown processor. I wished something
+like RedCarpet was the default and that fenced code blocks (ala
+GitHub) were the default option for code highlighting. Not that you
+can’t replace Maruku with Kramdown or RedCarpet, but still. You’d
+also have to patch Jekyll to run albino on the markdown files to get
+the highlighting to work with the fenced blocks.</p>
+  </li>
+  <li>
+    <p>You have to do some really boring stuff like Disqus integration,
+twitter integration, etc manually (or at least you have to manually
+install some plugins).</p>
+  </li>
+  <li>
+    <p>You have to unroll your own deployment scripts, since Jekyll doesn’t
+bundle any. Trivial task, but annoying non-the-less.</p>
+  </li>
+</ul>
+
+<p>So there you have it - Jekyll is very nice, but it’s also very
+barebone. My single biggest gripe with Jekyll, however, is that being
+engineered by a GitHub guy it doesn’t support out of the box the
+GitHub flavored Markdown. At some point as I was seriously
+contemplating starting a new static site generator, similar to Jekyll,
+that supported only RedCarpet as the Markdown processor and by
+extension - the GitHub flavoured Markdown. It would have some nice
+default theme and very reasonable default settings for use in a
+blog. Google Analytics, Twitter, Disqus would be supported out of the
+box. But I never got to writing it since just before I started I was
+introduced to Octopress…</p>
+
+<h2 id="octopress-is-jekyll-with-batteries-included">Octopress is Jekyll with Batteries Included</h2>
+
+<p>Emacs users are typically portrayed like this:</p>
+
+<p><img src="/assets/images/emacs_user.jpg" alt="Emacs User" /></p>
+
+<p>I was naturally amused by the Octopress name.</p>
+
+<p>First and foremost Octopress is Jekyll with batteries included. Some
+of the nicer things include:</p>
+
+<ul>
+  <li>A semantic HTML5 template</li>
+  <li>A Mobile friendly responsive (320 and up) layout (rotate, or resize your browser and see)</li>
+  <li>Built in 3rd party support for Twitter, Google Plus One, Disqus Comments, Pinboard, Delicious, and Google Analytics</li>
+  <li>An easy deployment strategy using Github pages or Rsync</li>
+  <li>Built in support for POW and Rack servers</li>
+  <li>Easy theming with Compass and Sass</li>
+  <li>A Beautiful Solarized syntax highlighting (though not as beautiful
+as the Zenburn-one I’m about to release soon)</li>
+</ul>
+
+<p>And did I mention that there are a lot of nice plugins included?</p>
+
+<p>The default theme is quite nice, but you’d probably want to tweak it a
+bit (I still haven’t - but my sense of design is nonexistent). It’s
+very easy to modify the theme.</p>
+
+<p>I could go on and write a lot about Octopress, but there is no need to
+do so. Go visit the official <a href="http://octopress.org">web site</a> - it has fantastic
+documentation.</p>
+
+<h2 id="moving-from-jekyll-to-octopress">Moving from Jekyll to Octopress</h2>
+
+<p>Mostly trivial. I’ve just copied my old Markdown posts, adjusted the
+headings and the code blocks. And in the end all I had to do was:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>rake generate
+<span class="nv">$ </span>rake deploy
+</code></pre></div></div>
+
+<h2 id="epilogue">Epilogue</h2>
+
+<p>I love Octopress! I used to be a sad blogger and now I’m a happy
+blogger. If you’re feeling like I felt - you should definitely give it
+a shot. I’ll probably do a few follow up articles with some tips &amp;
+tricks I’ve picked along the way with Octopress.</p>
+:ET

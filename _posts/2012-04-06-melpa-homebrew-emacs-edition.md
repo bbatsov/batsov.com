@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "MELPA - homebrew (Emacs Edition)"
 date: 2012-04-06 18:04
 comments: true

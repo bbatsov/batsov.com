@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "WikEmacs lives on under new stewardship"
 date: 2013-04-24 11:36
 comments: true

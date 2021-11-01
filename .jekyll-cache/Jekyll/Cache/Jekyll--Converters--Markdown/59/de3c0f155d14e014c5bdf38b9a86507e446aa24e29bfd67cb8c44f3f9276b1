@@ -1,0 +1,33 @@
+I"<p>After I launched the
+<a href="https://github.com/rubocop-hq/ruby-style-guide">Ruby Style Guide</a> I
+often received requests to create a tool enforcing the rules in the guide
+automatically.</p>
+
+<p>Today this tool is a reality - meet
+<a href="https://github.com/rubocop-hq/rubocop">RuboCop</a>. RuboCop already covers
+a significant portion of the style guide, supports both MRI 1.9 and MRI 2.0
+and has pretty neat Emacs integration (via
+<a href="https://github.com/rubocop-hq/rubocop-emacs">rubocop.el</a> and
+<a href="https://github.com/lunaryorn/flycheck">flycheck</a>).<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<p>Getting started with RuboCop is as easy as we:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem <span class="nb">install </span>rubocop
+<span class="nv">$ </span><span class="nb">cd </span>some-project
+<span class="nv">$ </span>rubocop
+</code></pre></div></div>
+
+<p>I’d love to see more Ruby hackers check out RuboCop!</p>
+
+<p>I’d also like to thank all the great people who contributed code, issue
+reports and ideas to RuboCop’s development and I sincerely hope many
+Ruby hackers will find it useful!</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>No tool is truly useful until it has proper Emacs integration. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

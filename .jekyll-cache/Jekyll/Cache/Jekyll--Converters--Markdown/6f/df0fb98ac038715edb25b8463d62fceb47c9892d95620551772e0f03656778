@@ -1,0 +1,26 @@
+I"b<p><a href="http://github.com/bbatsov/rubocop">RuboCop</a> 0.8.0 is out!</p>
+
+<p>While the version bump is minor, this release represents an almost
+total rewrite of the code. We’ve moved away from MRI’s <code class="language-plaintext highlighter-rouge">Ripper</code> parser
+and ported RuboCop to <a href="https://github.com/whitequark">Peter Zotov</a>’s
+fantastic <a href="https://github.com/whitequark/parser">Parser</a>.</p>
+
+<p>What does this mean for users of RuboCop? It means that now both
+Rubinius and JRuby are supported (in 1.9 and 2.0 modes). I’d say this
+is kind of a big deal! The support for the them should be considered
+beta at this point, since they have not yet received extensive field
+testing.</p>
+
+<p>And what does the change mean for developers? It’s now a lot easier to
+comprehend RuboCop’s source code, lowering the bar for contributions
+immensely.</p>
+
+<p>What’s coming down the road for 0.9.0? We have two big changes
+planned - providing an auto-fix functionality (meaning RuboCop will be
+able to fix on its own some of the problems detected) and providing
+more precise diagnostic messages (a-la <code class="language-plaintext highlighter-rouge">clang</code>).</p>
+
+<p>The changelog for 0.8.0 is available <a href="https://github.com/rubocop-hq/rubocop/blob/master/CHANGELOG.md#080-2013-05-28">here</a>.</p>
+
+<p>Stay tuned for more!</p>
+:ET

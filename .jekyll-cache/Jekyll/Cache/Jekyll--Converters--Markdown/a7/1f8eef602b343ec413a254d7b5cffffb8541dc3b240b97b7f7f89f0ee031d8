@@ -1,0 +1,85 @@
+I"C<p>Today we’ll discuss the following section from the <a href="https://github.com/rubocop-hq/ruby-style-guide">Ruby Style Guide</a>:</p>
+
+<blockquote>
+  <p>Avoid explicit use of the case equality operator <code class="language-plaintext highlighter-rouge">===</code>. As it name<br />
+implies it’s meant to be used implicitly by <code class="language-plaintext highlighter-rouge">case</code> expressions and<br />
+outside of them it yields some pretty confusing code.</p>
+</blockquote>
+
+<p>For those of you who don’t know of the case equality operator <code class="language-plaintext highlighter-rouge">===</code> -
+it’s the magic behind <code class="language-plaintext highlighter-rouge">case</code> that allows us to write code like this:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">case</span> <span class="n">something</span>
+<span class="k">when</span> <span class="no">Array</span> <span class="k">then</span> <span class="o">...</span>
+<span class="k">when</span> <span class="mi">1</span><span class="o">..</span><span class="mi">100</span> <span class="k">then</span> <span class="o">...</span>
+<span class="k">when</span> <span class="sr">/some_regexp/</span> <span class="k">then</span> <span class="o">...</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>Ruby will convert the above code to something like:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">case</span> <span class="n">something</span>
+<span class="k">when</span> <span class="no">Array</span> <span class="o">===</span> <span class="n">something</span> <span class="k">then</span> <span class="o">...</span>
+<span class="k">when</span> <span class="mi">1</span><span class="o">..</span><span class="mi">100</span> <span class="o">===</span> <span class="n">something</span> <span class="k">then</span> <span class="o">...</span>
+<span class="k">when</span> <span class="sr">/some_regexp/</span> <span class="o">===</span> <span class="n">something</span> <span class="k">then</span><span class="o">...</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>For many classes (like <code class="language-plaintext highlighter-rouge">Fixnum</code> and <code class="language-plaintext highlighter-rouge">String</code>) <code class="language-plaintext highlighter-rouge">===</code> will behave the
+same way as <code class="language-plaintext highlighter-rouge">==</code>.  On the other hand - <code class="language-plaintext highlighter-rouge">Module</code>, <code class="language-plaintext highlighter-rouge">Range</code> and <code class="language-plaintext highlighter-rouge">Regexp</code>
+define customized versions of the operator method <code class="language-plaintext highlighter-rouge">===</code>.  Knowing how
+these 3 classes have defined <code class="language-plaintext highlighter-rouge">===</code>, the case expression is also
+equivalent to this one:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">case</span> <span class="n">something</span>
+<span class="k">when</span> <span class="n">something</span><span class="p">.</span><span class="nf">is_a?</span> <span class="no">Array</span> <span class="k">then</span> <span class="o">...</span>
+<span class="k">when</span> <span class="mi">1</span><span class="o">..</span><span class="mi">100</span><span class="p">.</span><span class="nf">include?</span> <span class="n">something</span> <span class="k">then</span> <span class="o">...</span>
+<span class="k">when</span> <span class="n">something</span> <span class="o">=~</span> <span class="sr">/some_regexp/</span> <span class="k">then</span> <span class="o">...</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>So far everything is peachy, right?</p>
+
+<p>The problem with the <code class="language-plaintext highlighter-rouge">===</code> is that when some people see it they decide
+it’s very <em>cool</em> and start using it all over their code instead of
+its much clearer alternatives. I’ve seen <code class="language-plaintext highlighter-rouge">===</code> (ab)used quite often for <strong>instance of</strong> checks.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># wtf, why doesn't this work???</span>
+<span class="c1"># extremely common mistake I've seen numerous times</span>
+<span class="k">return</span> <span class="k">unless</span> <span class="n">a</span> <span class="o">===</span> <span class="no">Array</span>
+
+<span class="c1"># === is defined in Module</span>
+<span class="k">return</span> <span class="k">unless</span> <span class="no">Array</span> <span class="o">===</span> <span class="n">a</span> <span class="c1"># same as Array.===(a)</span>
+</code></pre></div></div>
+
+<p>I’ve also seen it used many times for range inclusion
+tests. Fortunately nobody has decided so far that <code class="language-plaintext highlighter-rouge">===</code> is preferable
+to <code class="language-plaintext highlighter-rouge">=~</code> for regular expressions.</p>
+
+<p>It should be our utmost goal as programmers to produce clear and
+easily digestible code. This means we should abstain ourselves from
+doing clever tricks like:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">Array</span> <span class="o">===</span> <span class="n">something</span>
+<span class="p">(</span><span class="mi">1</span><span class="o">..</span><span class="mi">100</span><span class="p">)</span> <span class="o">===</span> <span class="mi">7</span>
+<span class="sr">/something/</span> <span class="o">===</span> <span class="n">some_string</span>
+</code></pre></div></div>
+
+<p>And bet on clarity instead:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">something</span><span class="p">.</span><span class="nf">is_a?</span><span class="p">(</span><span class="no">Array</span><span class="p">)</span>
+<span class="p">(</span><span class="mi">1</span><span class="o">..</span><span class="mi">100</span><span class="p">).</span><span class="nf">include?</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
+<span class="n">some_string</span> <span class="o">=~</span> <span class="sr">/something/</span>
+</code></pre></div></div>
+
+<p>They don’t call it the <strong>case equality operator</strong> for no reason - it’s
+meant to be used internally by <code class="language-plaintext highlighter-rouge">case</code> expressions. I guess if it were
+a regular method (instead of an operator method) we’d never have had
+to deal with its abuse.</p>
+
+<p>As usual I’m looking forward
+to hearing your thoughts here and on
+<a href="http://twitter.com/bbatsov">Twitter</a>!</p>
+
+<p>Code long and prosper!</p>
+:ET

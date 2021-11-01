@@ -1,0 +1,23 @@
+I"�<p>For some reason the standard Clojure library doesn’t have a <code class="language-plaintext highlighter-rouge">drop-nth</code>
+function (although it has <code class="language-plaintext highlighter-rouge">take-nth</code>). Luckily implementing it is trivial:</p>
+
+<div class="language-clojure highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="k">defn</span><span class="w"> </span><span class="n">drop-nth</span><span class="w">
+  </span><span class="p">[</span><span class="n">n</span><span class="w"> </span><span class="n">coll</span><span class="p">]</span><span class="w">
+  </span><span class="p">(</span><span class="nf">-&gt;&gt;</span><span class="w"> </span><span class="n">coll</span><span class="w">
+       </span><span class="p">(</span><span class="nb">map</span><span class="w"> </span><span class="nb">vector</span><span class="w"> </span><span class="p">(</span><span class="nb">iterate</span><span class="w"> </span><span class="nb">inc</span><span class="w"> </span><span class="mi">1</span><span class="p">))</span><span class="w">
+       </span><span class="p">(</span><span class="nb">remove</span><span class="w"> </span><span class="o">#</span><span class="p">(</span><span class="nb">zero?</span><span class="w"> </span><span class="p">(</span><span class="nf">mod</span><span class="w"> </span><span class="p">(</span><span class="nb">first</span><span class="w"> </span><span class="n">%</span><span class="p">)</span><span class="w"> </span><span class="n">n</span><span class="p">)))</span><span class="w">
+       </span><span class="p">(</span><span class="nb">map</span><span class="w"> </span><span class="nb">second</span><span class="p">)))</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Let’s try it out:</p>
+
+<div class="language-clojure highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nf">drop-nth</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="p">(</span><span class="nb">range</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">10</span><span class="p">))</span><span class="w">
+</span><span class="c1">;; =&gt; (1 2 4 5 7 8)</span><span class="w">
+</span><span class="p">(</span><span class="nf">drop-nth</span><span class="w"> </span><span class="mi">5</span><span class="w"> </span><span class="p">(</span><span class="nb">range</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">10</span><span class="p">))</span><span class="w">
+</span><span class="c1">;; =&gt; (1 2 3 4 6 7 8 9)</span><span class="w">
+</span><span class="p">(</span><span class="nf">drop-nth</span><span class="w"> </span><span class="mi">5</span><span class="w"> </span><span class="p">(</span><span class="nb">range</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">20</span><span class="p">))</span><span class="w">
+</span><span class="c1">;; =&gt; (1 2 3 4 6 7 8 9 11 12 13 14 16 17 18 19)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Looks good to me. Hopefully it will be of some use to someone.</p>
+:ET

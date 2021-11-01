@@ -1,0 +1,73 @@
+I"�<p>One of the problems newcomers to Ruby experience is that there are
+often quite a few ways to do same thing. For instance - you can obtain
+the number of items in <code class="language-plaintext highlighter-rouge">Enumerable</code> objects (instances of classes
+using the <code class="language-plaintext highlighter-rouge">Enumerable</code> mixin, which would often be collections like
+<code class="language-plaintext highlighter-rouge">Array</code>, <code class="language-plaintext highlighter-rouge">Hash</code>, <code class="language-plaintext highlighter-rouge">Set</code>, etc) by either using <code class="language-plaintext highlighter-rouge">Enumerable#count</code> or the
+methods <code class="language-plaintext highlighter-rouge">length</code> and its alias <code class="language-plaintext highlighter-rouge">size</code> that such classes often
+provide.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+
+<span class="n">arr</span><span class="p">.</span><span class="nf">length</span> <span class="c1"># =&gt; 3</span>
+<span class="n">arr</span><span class="p">.</span><span class="nf">size</span> <span class="c1"># =&gt; 3</span>
+<span class="n">arr</span><span class="p">.</span><span class="nf">count</span> <span class="c1"># =&gt; 3</span>
+
+<span class="n">h</span> <span class="o">=</span> <span class="p">{</span> <span class="ss">a: </span><span class="mi">1</span><span class="p">,</span> <span class="ss">b: </span><span class="mi">2</span> <span class="p">}</span>
+
+<span class="n">h</span><span class="p">.</span><span class="nf">length</span> <span class="c1"># =&gt; 2</span>
+<span class="n">h</span><span class="p">.</span><span class="nf">size</span> <span class="c1"># =&gt; 2</span>
+<span class="n">h</span><span class="p">.</span><span class="nf">count</span> <span class="c1"># =&gt; 2</span>
+
+<span class="n">str</span> <span class="o">=</span> <span class="s1">'name'</span>
+<span class="n">str</span><span class="p">.</span><span class="nf">length</span> <span class="c1"># =&gt; 4</span>
+<span class="n">str</span><span class="p">.</span><span class="nf">size</span> <span class="c1"># =&gt; 4</span>
+<span class="c1"># str.count won't work as String does not include Enumerable</span>
+</code></pre></div></div>
+
+<p>Which one should you use? Let me help with this choice.</p>
+
+<p><code class="language-plaintext highlighter-rouge">length</code> is a method that’s not part of <code class="language-plaintext highlighter-rouge">Enumerable</code> - it’s part of a
+concrete class (like <code class="language-plaintext highlighter-rouge">String</code> or <code class="language-plaintext highlighter-rouge">Array</code>) and it’s usually running in
+<code class="language-plaintext highlighter-rouge">O(1)</code> (constant) time. That’s as fast as it gets, which means that
+using it is probably a good idea.</p>
+
+<p>Whether you should use <code class="language-plaintext highlighter-rouge">length</code> or <code class="language-plaintext highlighter-rouge">size</code> is mostly a matter of
+personal preference.  Personally I use <code class="language-plaintext highlighter-rouge">size</code> for collections (hashes,
+arrays, etc) and <code class="language-plaintext highlighter-rouge">length</code> for strings, since for me objects like
+hashes and stacks don’t have a length, but a size (defined in terms of
+the elements they contain). Conversely, it’s perfectly normal to
+assume that some text has some length. Anyways, in the end you’re
+invoking the same method, so the semantic distinction is not
+important.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Enumerable#count</code>, on the other hand, is a totally different
+beast. It’s usually meant to be used with a block or an argument and
+will return the number of matches in an <code class="language-plaintext highlighter-rouge">Enumerable</code>:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">]</span>
+
+<span class="n">arr</span><span class="p">.</span><span class="nf">count</span><span class="p">(</span><span class="o">&amp;</span><span class="ss">:even?</span><span class="p">)</span> <span class="c1"># =&gt; 3</span>
+<span class="n">arr</span><span class="p">.</span><span class="nf">count</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># =&gt; 2</span>
+</code></pre></div></div>
+
+<p>You can, however, invoke it without any arguments and it will return the size of the enumerable on which it was invoked:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">arr</span><span class="p">.</span><span class="nf">count</span> <span class="c1"># =&gt; 7</span>
+</code></pre></div></div>
+
+<p>There’s a performance implication with this, though - to calculate the
+size of the enumerable the <code class="language-plaintext highlighter-rouge">count</code> method will traverse it, which is
+not particularly fast (especially for huge collections). Some classes
+(like <code class="language-plaintext highlighter-rouge">Array</code>) implement an optimized version of <code class="language-plaintext highlighter-rouge">count</code> in terms of
+<code class="language-plaintext highlighter-rouge">length</code>, but many don’t.</p>
+
+<p>The takeaway for you is that you should
+avoid using the <code class="language-plaintext highlighter-rouge">count</code> method if you can use <code class="language-plaintext highlighter-rouge">length</code> or <code class="language-plaintext highlighter-rouge">size</code>.</p>
+
+<p>A note to Rails developers - <code class="language-plaintext highlighter-rouge">ActiveRecord::Relation</code>’s <code class="language-plaintext highlighter-rouge">length</code>,
+<code class="language-plaintext highlighter-rouge">size</code> and <code class="language-plaintext highlighter-rouge">count</code> methods have a totally different meaning, but that’s
+irrelevant to our current discussion.</p>
+
+<p>That’s all for now, folks! As usual I’m looking forward to hearing your thoughts here and on
+<a href="http://twitter.com/bbatsov">Twitter</a>!</p>
+:ET

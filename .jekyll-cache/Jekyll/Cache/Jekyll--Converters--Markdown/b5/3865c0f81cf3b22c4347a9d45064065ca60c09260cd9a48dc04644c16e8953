@@ -1,0 +1,7 @@
+I"�<p>When you have applications, whose configuration is as complex as that
+of Emacs it’s always a good idea to store that configuration under
+version control so you can easily share it between multiple
+computers. You can always set up some version control system yourself,
+but it’s a lot more convenient (and much more reliable) to use an
+already existing code hosting solution such a GitHub.</p>
+:ET

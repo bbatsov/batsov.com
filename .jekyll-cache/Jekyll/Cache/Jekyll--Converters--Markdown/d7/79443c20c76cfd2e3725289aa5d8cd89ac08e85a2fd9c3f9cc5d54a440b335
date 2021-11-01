@@ -1,0 +1,12 @@
+I"<p>Have you ever wondered where a particular rake task is defined? Enter <code class="language-plaintext highlighter-rouge">rake -W</code> (introduced in <code class="language-plaintext highlighter-rouge">rake</code> 0.9):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ rake -W db:schema:load
+
+rake db:schema:load                 /Users/bozhidar/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/activerecord-4.1.1/lib/active_record/railties/databases.rake:236:in `block (2 levels) in &lt;top (required)&gt;'
+rake db:schema:load_if_ruby         /Users/bozhidar/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/activerecord-4.1.1/lib/active_record/railties/databases.rake:240:in `block (2 levels) in &lt;top (required)&gt;'
+</code></pre></div></div>
+
+<p>You can also invoke <code class="language-plaintext highlighter-rouge">rake -W</code> without an argument and you’ll get a listing of all available rake tasks and their source locations.</p>
+
+<p>Pretty neat, right?</p>
+:ET

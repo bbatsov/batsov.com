@@ -1,0 +1,23 @@
+I".<p>I’m mostly a Ruby on Rails developer these days and as such I’m pretty
+fond of the <a href="http://slim-lang.com">Slim template language</a>. I’ve
+always hated HTML + ERB, since that evil duo encourages all sorts of
+ever practices and recently I’ve adopted Slim as a replacement for
+my long time favourite ERB alternative - <a href="http://haml-lang.com">Haml</a>.</p>
+
+<p>I won’t discuss here the shortcomings of Haml vs Slim, but I’ll share
+with you the big advantage Haml has over Slim (for Emacs users at
+least) - it has a pretty nice major editing mode for Emacs. Slim’s
+Emacs support on the other hand is rather iffy and is presently mostly
+based on <code class="language-plaintext highlighter-rouge">haml-mode</code>. That will hopefully change soon, since recently
+I’ve become a co-maintainer of
+<a href="http://github.com/minad/emacs-slim">slim-mode</a> and I plan to improve
+it as much as I can (currently I’m mostly working on precise
+font-locking). Any help from interested parties is, naturally, most
+welcome. I very much doubt that me and
+<a href="https://github.com/minad">Daniel Mendler</a> are the only two people
+dreaming of great Slim experience in Emacs.</p>
+
+<p><img src="/assets/images/slim-mode.png" alt="slim-mode" /></p>
+
+<p>Let us together eliminate that big Haml advantage.</p>
+:ET

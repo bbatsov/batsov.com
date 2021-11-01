@@ -1,0 +1,12 @@
+I"<p>When I program in Java I usually leave the comfort of Emacs and use
+IntelliJ IDEA instead (for various reasons that are irrelevant to this
+post). IDEA has one particularly nice feature - “auto-save on focus
+lost”. Basically you never have to hit <code class="language-plaintext highlighter-rouge">C-s</code> there explicitly, because
+any time your current editor window loses focus its contents get
+flushed to the disk automatically. Implementing something exactly the
+same in Emacs is impossible (at least in Emacs Lisp), but we can
+create a solution that is similar in spirit at least - we can
+auto-save buffers when we switch the Emacs window or the current
+buffer (which are more or less the most popular ways to change editing
+focus in Emacs). This is easy to achieve in Emacs Lisp:</p>
+:ET

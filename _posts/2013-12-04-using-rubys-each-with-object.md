@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Using Ruby's each_with_object"
 date: 2013-12-04 16:29
 comments: true

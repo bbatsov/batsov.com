@@ -1,0 +1,5 @@
+I"+<p>From time to time you’ll need to inspect the contents of a locally
+installed Ruby gem. For instance - I needed to check the contents
+of my Jekyll theme (<code class="language-plaintext highlighter-rouge">minima</code>) earlier today, so I could override something
+that was hardcoded there.</p>
+:ET

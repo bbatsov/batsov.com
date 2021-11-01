@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "A switch on String idiom for Java"
 tags:
 - Java

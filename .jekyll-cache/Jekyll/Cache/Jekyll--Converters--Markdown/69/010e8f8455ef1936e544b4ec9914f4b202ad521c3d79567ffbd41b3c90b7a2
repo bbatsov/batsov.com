@@ -1,0 +1,3 @@
+I"<p>For some reason the standard Clojure library doesn’t have a <code class="language-plaintext highlighter-rouge">drop-nth</code>
+function (although it has <code class="language-plaintext highlighter-rouge">take-nth</code>). Luckily implementing it is trivial:</p>
+:ET

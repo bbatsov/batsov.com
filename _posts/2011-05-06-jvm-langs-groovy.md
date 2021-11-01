@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Java.next() - The Groovy Programming Language"
 tags:
 - Java

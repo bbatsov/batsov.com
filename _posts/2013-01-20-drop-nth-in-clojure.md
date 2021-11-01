@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "drop-nth in Clojure"
 date: 2013-01-20 15:31
 comments: true

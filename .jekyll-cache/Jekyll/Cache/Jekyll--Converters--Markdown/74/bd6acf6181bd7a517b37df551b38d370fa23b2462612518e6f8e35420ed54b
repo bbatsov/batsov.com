@@ -1,0 +1,39 @@
+I"�	<p>After 3 years of “waiting” for Octopress 3<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>, I’ve decided I waited
+long enough.  Today I (spontaneously) migrated my blog to a vanilla
+Jekyll setup and I tweaked a bit its appearance. I’m reasonably pleased
+with the result and I finally don’t have any excuses not to write.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+
+<p>I realized recently that it has been over 10 years since my first blog
+post.<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> I’ve started my humble writing “career” with Wordpress, then
+switched to Octopress, and now here we are. One thing never really
+changed, though - the quality of my writing. It was always abysmally
+bad, as were many of the topics I wrote on. It’s really fun to look
+back on all of this - I was reading some of my old articles, in the
+process of migrating the blog to Jekyll, and I couldn’t believe some of
+the things I wrote. I hope this means I’m getting wiser with age…</p>
+
+<p>In the mean time I’ve started another blog, called <a href="https://metaredux.com">Meta
+Redux</a>. I plan to do most of my (serious)
+writing there, but I might write an occasional short article or two
+here as well. My rough idea is to use Meta Redux as a platform for my
+more creative writing, and to use <code class="language-plaintext highlighter-rouge">(think)</code> for random stuff, small
+tips, etc.</p>
+
+<p>Anyways, lately I’ve had this burning desire to share so many thoughts
+and that really got me excited about writing. Let’s see if I’ll do
+better this time around, or I’ll simply fail one more time…</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="http://0.0.0.0:4000/articles/2015/02/15/octopress-3-dot-0/">http://0.0.0.0:4000/articles/2015/02/15/octopress-3-dot-0/</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Well, there are always plenty of excuses. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p><a href="http://0.0.0.0:4000/articles/2008/05/05/first-post/">http://0.0.0.0:4000/articles/2008/05/05/first-post/</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

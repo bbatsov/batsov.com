@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Django 1.3 vs Rails 3: A not so final showdown"
 comments: true
 tags:

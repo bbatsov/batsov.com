@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Career development - Should I stay or should I go?"
 tags:
 - Career

@@ -1,0 +1,58 @@
+I"�<p>Today’s topic is the following rule from the <a href="https://github.com/rubocop-hq/ruby-style-guide">Ruby Style Guide</a>:</p>
+
+<blockquote>
+  <p>Add underscores to large numeric literals to improve their readability.</p>
+</blockquote>
+
+<p>Most of the programs we write feature a substantial number of numeric
+literals(e.g. <code class="language-plaintext highlighter-rouge">10</code>, <code class="language-plaintext highlighter-rouge">0.34</code>, <code class="language-plaintext highlighter-rouge">0b1010</code>, <code class="language-plaintext highlighter-rouge">0123</code>, <code class="language-plaintext highlighter-rouge">0xCAFE</code>). There is nothing
+strange or unusual about that. From time to time, however, those literals are pretty long:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>MAX_SIZE = 10000000000
+DEVIATION = 0.2343434343
+BIT_MASK = 0b100101010101
+</code></pre></div></div>
+
+<p>I’m pretty sure most of you would have pretty hard time to quickly
+digest a number written in this way - lots of digits and no separators
+between them to help us discern the number’s <code class="language-plaintext highlighter-rouge">structure</code>. At this
+point <code class="language-plaintext highlighter-rouge">_</code> makes a dramatic appearance and comes to the rescue:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>MAX_SIZE = 10_000_000_000
+DEVIATION = 0.2_343_434_343
+BIT_MASK = 0b1001_0101_0101
+</code></pre></div></div>
+
+<p>The addition of a few <code class="language-plaintext highlighter-rouge">_</code> improves the readability of those huge literals a ton!</p>
+
+<p>The underscores we add to numeric literals are ignored by <code class="language-plaintext highlighter-rouge">Ruby</code>:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">100_000</span>
+<span class="c1"># =&gt; 100000</span>
+</code></pre></div></div>
+
+<p>As you can see from the preceding example nothing’s lost or changed -
+we’ve only gained readability and eased the parsing burden on our
+brains.</p>
+
+<p>Obviously we should not overdo <code class="language-plaintext highlighter-rouge">_</code>:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># short literals are pretty readable on their own</span>
+<span class="c1"># bad</span>
+<span class="mi">1_00</span>
+
+<span class="c1"># good</span>
+<span class="mi">100</span>
+</code></pre></div></div>
+
+<p>Personally, when dealing with decimal literals, I tend to use <code class="language-plaintext highlighter-rouge">_</code> for
+numbers with at 5 least digits (e.g. <code class="language-plaintext highlighter-rouge">11_948</code>). The number of digits to separate with
+<code class="language-plaintext highlighter-rouge">_</code> depends on the numeric base - in decimal it makes sense to group
+digits by 3 (e.g. <code class="language-plaintext highlighter-rouge">1_000_000</code>), in binary by 4 (e.g. <code class="language-plaintext highlighter-rouge">0b1111_1010_1110</code>), etc.</p>
+
+<p>That’s all for today folks! Hope I managed to convince at least a few
+of you of the benefits of using underscores in your long numeric literals.</p>
+
+<p>As usual I’m looking forward to hearing your thoughts here and on
+<a href="http://twitter.com/bbatsov">Twitter</a>!</p>
+:ET

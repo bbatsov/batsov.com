@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "The Elements of Style in Ruby #14: Variable Interpolation"
 date: 2014-08-13 16:27
 comments: true

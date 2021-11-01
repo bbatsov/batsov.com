@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Mofidy JVM parameters for JBoss AS
 tags:
 - Java

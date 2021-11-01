@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Java.next() - Scala: The Revenge of the Static Typing"
 tags:
 - Java

@@ -1,0 +1,8 @@
+I"�<p>Some times you’d want to quickly repeat an Emacs command several times and
+most of the time it won’t have a convenient keybinding you can use to
+do this. Enter <code class="language-plaintext highlighter-rouge">C-x z</code> (<code class="language-plaintext highlighter-rouge">repeat</code>) - it simply repeats the most
+recently executed command. And the best part? After you’ve pressed
+<code class="language-plaintext highlighter-rouge">C-x z</code> once you can continue repeating the last command simply by
+pressing <code class="language-plaintext highlighter-rouge">z</code>. Vi(m) users will probably note that this is quite similar
+to the <code class="language-plaintext highlighter-rouge">.</code> command there.</p>
+:ET

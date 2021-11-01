@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Programming languages worth learning"
 tags:
 - Programming

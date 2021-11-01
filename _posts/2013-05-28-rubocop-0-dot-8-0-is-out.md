@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "RuboCop 0.8.0 is out, support for JRuby and Rubinius is in!"
 date: 2013-05-28 12:11
 comments: true

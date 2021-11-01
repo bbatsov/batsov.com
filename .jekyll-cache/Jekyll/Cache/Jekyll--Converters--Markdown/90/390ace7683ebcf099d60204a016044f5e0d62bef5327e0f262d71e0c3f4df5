@@ -1,0 +1,30 @@
+I"�<p>That’s going to be one really short post.  I just wanted to share with
+you that I’ve been using <a href="https://hey.com/">HEY</a> (a new e-mail service
+from Basecamp) for the past few months and overall I’m quite happy
+with it. This article is not a review of HEY, it’s more an
+announcement that now you can reach me at <code class="language-plaintext highlighter-rouge">myfirstname@hey.com</code> if you’re into
+e-mail.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<p>I’ll keep my <code class="language-plaintext highlighter-rouge">@batsov.com</code> e-mail backed by GMail for the time being,
+as I didn’t really have any fundamental issues with GMail, other than
+my dislike for Google’s (mis)handling of private data. That being
+said, I want to expand my usage of HEY going forward. I’ve already
+moved there all my newsletter subscriptions, as HEY has great support
+for newsletter, and I’ve also been trying to have most of my conversations
+with people over HEY as well. To help with this I’ve updated most public
+mentions of my e-mail (e.g. on GitHub) to point to the new HEY-powered address.</p>
+
+<p>HEY is definitely not perfect (e.g. the message editor feels inferior to what you get in GMail, and the same goes for
+search functionality), but I love the philosophy of the service and I’m always open to trying new ideas and workflows.
+I hope that down the road I’ll manage to break free from the grip of Google and leave GMail for good,
+but that mostly depends on how HEY will evolve and how well will I adapt to using it.
+In the mean time - I’m looking forward to chatting with more of you over HEY!</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>I hope it’s clear that you have to replace <code class="language-plaintext highlighter-rouge">myfirstname</code> with my real first name. :D <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

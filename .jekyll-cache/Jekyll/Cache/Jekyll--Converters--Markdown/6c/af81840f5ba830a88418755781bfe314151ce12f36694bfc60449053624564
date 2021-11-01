@@ -1,0 +1,19 @@
+I"g<p>I’m very fond of the ability to insert a new line below the line I’m
+currently at, and to position the cursor at the beginning of that new
+line, offered by most IDEs, such as IntelliJ IDEA, Eclipse. It’s
+usually bound to Return(Enter)+Shift. Emacs(as far as I know) doesn’t
+have a function that does this thing by default, but one can easily
+create one, combining several well known functions in the process and
+bind that new function to the desired key combination. Here’s the
+snippet one might have in his .emacs(or other) “configuration” file:</p>
+
+<div class="language-elisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">;; insert an empty line after the current line and position the cursor on its beginning</span>
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">insert-empty-line</span> <span class="p">()</span>
+ <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span>
+ <span class="p">(</span><span class="nv">move-end-of-line</span> <span class="no">nil</span><span class="p">)</span>
+ <span class="p">(</span><span class="nv">open-line</span> <span class="mi">1</span><span class="p">)</span>
+ <span class="p">(</span><span class="nv">next-line</span> <span class="mi">1</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nv">global-set-key</span> <span class="nv">[</span><span class="p">(</span><span class="nv">shift</span> <span class="nb">return</span><span class="p">)</span><span class="nv">]</span> <span class="ss">'insert-empty-line</span><span class="p">)</span>
+</code></pre></div></div>
+:ET

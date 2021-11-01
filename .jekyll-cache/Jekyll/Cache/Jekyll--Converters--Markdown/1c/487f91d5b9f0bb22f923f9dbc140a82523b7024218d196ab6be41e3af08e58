@@ -1,0 +1,258 @@
+I"�6<h2 id="prelude">Prelude</h2>
+
+<p>I’ve recently been using Debian a lot (mostly Debian Wheezy (aka
+testing)), So I’ve decided to adapt my
+<a href="/Linux/Fedora/2011/05/31/fedora-15-tips.html">Fedora 15 post installation setup &amp; tips</a>
+article for Debian. Here are some of the common things I add to a
+typical “graphical desktop” Debian installation as well as some tips
+and tricks that you’ll hopefully find useful. Btw, I highly recommend
+you to use the <a href="http://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/amd64/iso-cd/debian-testing-amd64-netinst.iso">netinstall Debian distribution</a> - that way you’ll get an
+up-to-date installation immediately and you won’t have to download
+huge installation images.</p>
+
+<p>This article will be of use mostly to people using Debian as a desktop
+OS (with GNOME as their desktop environment) - it doesn’t discuss any
+server configurations.</p>
+
+<!--more-->
+
+<h2 id="tweak-defaults">Tweak defaults</h2>
+
+<h4 id="configure-sudo">Configure sudo</h4>
+
+<p><code class="language-plaintext highlighter-rouge">sudo</code> gives you a way to execute single commands as the superuser. You
+can also do this with <code class="language-plaintext highlighter-rouge">su -c</code>, but you have to quote the commands there,
+which I don’t like very much. To enable sudo for some account first
+run the command:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>su <span class="nt">-c</span> <span class="s2">"visudo"</span>
+</code></pre></div></div>
+
+<p>The file <code class="language-plaintext highlighter-rouge">/etc/sudoers</code> will open up in a customized vi editor. Append
+somewhere to the end of the file the following line:</p>
+
+<p><code class="language-plaintext highlighter-rouge">username ALL=(ALL) ALL</code></p>
+
+<p>You should replace <em>username</em> with your username.</p>
+
+<h2 id="apt-get--apt-cache-or-aptitude">apt-get + apt-cache or aptitude</h2>
+
+<p>There are two common ways (and many others less popular or obsolete)
+to manage packages on a Debian system these days - the simpler <code class="language-plaintext highlighter-rouge">apt-get</code></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">apt-cache</code> combo or the more advanced <code class="language-plaintext highlighter-rouge">aptitude</code> tool. I tend to prefer
+using aptitude since it’s a all-in-one solution - you could use it to both
+query and install packages and has both a CLI and a curses interface.</li>
+</ul>
+
+<p>It doesn’t really matter whether you decided to use apt-get/apt-cache
+or aptitude, but you shouldn’t mix their usage - pick one and stay
+with it.</p>
+
+<h2 id="install-additional-software">Install additional software</h2>
+
+<p>I generally install Debian from the netinstall images and don’t
+customize very much the default package set since it’s so easy to
+install everything you need afterwards.</p>
+
+<h4 id="install-real-text-editors">Install REAL text editors</h4>
+
+<p>gedit is ok for causal text editing, but professionals like software
+engineers and system administrators will definitely need something more:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>emacs vim
+</code></pre></div></div>
+
+<p>Personally I use Emacs most of the time and use vim only to edit
+config files that require root access. If you need an advanced Emacs
+setup my suggestion is the <a href="https://github.com/bbatsov/emacs-dev-kit">Emacs Dev Kit</a>.</p>
+
+<h4 id="install-z-shell">Install Z Shell</h4>
+
+<p>It’s no secret that I love the Z Shell - after all I
+<a href="/Z%20Shell/2011/04/29/one-shell-to-rule-them-all.html">rave about it</a>
+quite often. It should come as no surprise that I happen to use it and
+probably you should start using it as well:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>zsh
+<span class="nv">$ </span><span class="nb">sudo </span>vim /etc/passwd
+</code></pre></div></div>
+
+<p>Find the line about your account and change there <code class="language-plaintext highlighter-rouge">/bin/bash</code> to
+<code class="language-plaintext highlighter-rouge">/usr/bin/zsh</code>. Alternatively you can use the chsh program to
+achieve the same result:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>chsh
+</code></pre></div></div>
+
+<p>Afterwards start a new login shell and a simple wizard will
+fire up asking you some questions to create a default .zshrc file for
+you. Alternatively you can use the excellent <a href="https://github.com/robbyrussell/oh-my-zsh">O My Zsh</a> config - I’m
+very fond of it.</p>
+
+<h4 id="install-guakea-drop-down-terminal">Install guake(a drop down terminal)</h4>
+
+<p>I spend a lot of time at the terminal and like to have one at my
+fingertips always. Since I’m a GNOME user guake is the best option for
+me:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>guake
+</code></pre></div></div>
+
+<h4 id="install-libreoffice">Install LibreOffice</h4>
+
+<p>LibreOffice is currently the best Linux option for word processing,
+spreadsheet handling and presentation creation. It’s generally
+installed by default if you select the “Graphical Desktop” option in
+the installation wizard, but you can install the
+most common components at any time with the following command:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>libreoffice-calc libreoffice-impress libreoffice-draw libreoffice-writer
+</code></pre></div></div>
+
+<p>LibreOffice uses hunspell to do spellchecking. An English dictionary
+will be installed by default, but you’ll need to install additional
+dictionaries manually:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>hunspell-bg
+</code></pre></div></div>
+
+<p>This command will install the Bulgarian hunspell dictionary. You
+likely don’t need it so install some more helpful dictionary instead.</p>
+
+<h4 id="install-openjdk">Install OpenJDK</h4>
+
+<p>If you need to run Java programs/applets:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>openjdk-6-jre
+</code></pre></div></div>
+
+<p>If you’re planning to do some Java development:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>openjdk-6-jdk openjdk-6-doc openjdk-6-demo openjdk-6-source
+</code></pre></div></div>
+
+<h4 id="install-deluge-torrent-client">Install Deluge torrent client</h4>
+
+<p>The default Transmission torrent client is pretty basic. I recommend
+you to replace it with the much more feature-rich deluge:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>deluge
+</code></pre></div></div>
+
+<h4 id="install-inconsolata-font">Install Inconsolata font</h4>
+
+<p>I’m a software engineer and I obviously spend a lot of time reading
+and writing source code. I’m very picking about the monospace font
+that I use and currently Inconsolata happens to be my favorite:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>ttf-inconsolata
+</code></pre></div></div>
+
+<h4 id="install-gimp">Install GIMP</h4>
+<p>A lot of you might need an image editor. GIMP is generally
+considered the best option so you might want to install it:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>gimp
+</code></pre></div></div>
+
+<h2 id="install-additional-patent-encumberedproprietary-software">Install additional patent encumbered/proprietary software</h2>
+
+<h4 id="enable-non-free-repo">Enable non-free repo</h4>
+
+<p>Just add contrib and non-free to the list of your enabled repos. Your
+first line in /etc/apt/sources.list should look like this:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>deb http://ftp.bg.debian.org/debian/ wheezy main contrib non-free
+</code></pre></div></div>
+
+<p>Then do a:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude update
+</code></pre></div></div>
+
+<h4 id="install-proprietary-codecs">Install proprietary codecs</h4>
+
+<p>No MP3 support in Debian by default? And almost no video codecs?
+Non-free to the rescue! Type this:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>gstreamer-plugins-ugly gstreamer-plugins-bad gstreamer-ffmpeg
+</code></pre></div></div>
+
+<h4 id="install-vlc">Install VLC</h4>
+
+<p>With MPlayer’s development in stagnation VLC has established itself as
+the best video player for Linux recently. Installing it is as easy as typing the following command:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>vlc
+</code></pre></div></div>
+
+<h4 id="install-adobe-flash-player">Install Adobe Flash Player</h4>
+
+<p>Love it or hate it - you probably need it.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>flashplugin-nonfree
+</code></pre></div></div>
+
+<p>You can omit this if you’re planning to use Google Chrome (on a 32bit system), since it
+comes with Flash Player built-in.</p>
+
+<h4 id="install-skype">Install Skype</h4>
+
+<p>In a perfect world everyone would be using Google Talk… In the real one:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>skype
+</code></pre></div></div>
+
+<h4 id="install-oracle-jdk">Install Oracle JDK</h4>
+
+<p>OpenJDK is great, but due to licensing problems it’s not quite the
+same as the Oracle JDK. If you start experiencing strange problems
+(mostly in Swing programs) you’d probably do well to try the Oracle
+JDK instead. The magic incantation goes like this:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>sun-java6-jdk sun-java6-demo sun-java6-source sun-java6-plugin
+</code></pre></div></div>
+
+<p>Debian uses OpenJDK by default, so you’ll have to do some more work to
+tell it to start using Oracle JDK. The <code class="language-plaintext highlighter-rouge">alternatives</code> program allows
+you to select between multiple installed versions of a program:</p>
+
+<p>These commands will make alternative aware of the java binaries and
+set high priorities to them which will make them the default Java
+binaries. You can use “alternatives –config binaryname” to select
+active binaries manually.</p>
+
+<h4 id="install-google-chrome">Install Google Chrome</h4>
+
+<p>Firefox is dying, Google Chrome is the new king of the
+browsers. Download it from the <a href="http://www.google.com/chrome">official site</a> and install it:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>dpk <span class="nt">-i</span> ~/Downloads/google-chrome-stable_current_i386.deb
+</code></pre></div></div>
+
+<p>Google Chrome will install a apt repository as well, so you’ll receive
+updates as soon as they arrive.</p>
+
+<p>Alternatively you can use Chromium - Chrome’s open source sibling:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>chromium-browser
+</code></pre></div></div>
+
+<h4 id="install-dropbox">Install DropBox</h4>
+
+<p><a href="http://www.dropbox.com">DropBox</a> is a great file sharing service
+which allows you to sync files between all of your computers and
+mobile devices(Android, iPhone, iPad, etc). It has a great Linux
+client which I use all the time. It’s available in the non-free repo
+so you can install it like this:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aptitude <span class="nb">install </span>nautilus-dropbox
+</code></pre></div></div>
+
+<h2 id="epilogue">Epilogue</h2>
+
+<p>Hopefully some of my setup has made your setup more enjoyable and more
+productive. I’ll update this article along the way if I stumble upon
+other things that I consider to be generally helpful.</p>
+:ET

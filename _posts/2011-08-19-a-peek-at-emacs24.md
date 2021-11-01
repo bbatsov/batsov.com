@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "A peek at Emacs 24"
 comments: true
 tags:

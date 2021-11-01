@@ -1,0 +1,6 @@
+I"�<p>At <a href="http://clojure-conj.org/">Clojure/conj</a> I had the chance to shake
+Rich Hickey’s hand and exchange a few words with him. When I asked him
+whether he currently uses CIDER or Cursive for Clojure development he
+replied that he preferred a simpler solution – <code class="language-plaintext highlighter-rouge">clojure-mode</code> &amp;
+<code class="language-plaintext highlighter-rouge">inferior-lisp-mode</code>.</p>
+:ET

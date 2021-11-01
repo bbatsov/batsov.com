@@ -1,0 +1,42 @@
+I"�<p>One of the major problems when using
+<a href="/articles/2012/10/14/emacs-on-osx/">Emacs on OS X</a> is
+not related to OS X itself - the problem has to do with the Mac’s
+hardware. Recent Mac keyboards(both laptop and desktop, with the
+exception of the wired full size Mac keyboard) lack a right <code class="language-plaintext highlighter-rouge">Control</code>
+key and it happens to be extremely important if you’re looking to
+fully leverage the power of Emacs.</p>
+
+<p>The traditional solution to the problem is to use a tool like
+<a href="http://pqrs.org/macosx/keyremap4macbook/">KeyRemap4MacBook</a> to remap
+the right <code class="language-plaintext highlighter-rouge">Option</code> key to right <code class="language-plaintext highlighter-rouge">Control</code> and to use a snippet like
+this to make <code class="language-plaintext highlighter-rouge">Command</code> behave like <code class="language-plaintext highlighter-rouge">Meta</code> in Emacs:</p>
+
+<div class="language-elisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="k">setq</span> <span class="nv">mac-command-modifier</span> <span class="ss">'meta</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>This works, but it’s hardly ideal since you’re remapping <code class="language-plaintext highlighter-rouge">Option</code> at
+fairly low level and you won’t be able to use it anywhere as <code class="language-plaintext highlighter-rouge">Option</code>.</p>
+
+<p>A much better idea would be to leverage a little know capability of
+KeyRemap4MacBook (a great program which despite its name works with
+desktop Macs as well) and map the <code class="language-plaintext highlighter-rouge">Return</code> key to <code class="language-plaintext highlighter-rouge">Control</code> only
+when it’s held down (it will behave like a normal Return key in all
+other situations). The option you’ll have to find in KeyRemap4MacBook
+is in the <code class="language-plaintext highlighter-rouge">Change Return</code> section and it labeled <code class="language-plaintext highlighter-rouge">Return to Control_R
+(+ When you type Return only, send Return)</code>.</p>
+
+<p>This approach has several advantages.  First and foremost you’re not
+sacrificing a valuable key like <code class="language-plaintext highlighter-rouge">Option</code>. Second - it’s much easier to
+hit <code class="language-plaintext highlighter-rouge">Return</code> with your right pinky than it is to hit <code class="language-plaintext highlighter-rouge">Option</code>
+(especially if you’re using a US layout keyboard - these have long
+single row <code class="language-plaintext highlighter-rouge">Return</code> keys, compared to the short 2 row Returns found on
+European keyboards). Lastly, if you’ve already remapped <code class="language-plaintext highlighter-rouge">CapsLock</code> to
+<code class="language-plaintext highlighter-rouge">Control</code> (like so many people do) you’re getting a pretty symmetrical
+mapping on the opposite side of your keyboard.</p>
+
+<p>All in all - remapping <code class="language-plaintext highlighter-rouge">Return</code> to <code class="language-plaintext highlighter-rouge">Control</code> is a huge win if you’re
+using heavily one of Apple’s smaller keyboards. Of course, if you have
+the option to use an external keyboard you’d do yourself a solid if you
+obtained a good full size keyboard like the
+<a href="/articles/2008/06/16/das-keyboard/">Das Keyboard</a>.</p>
+:ET
