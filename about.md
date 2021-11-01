@@ -2,8 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-sidebar_link: true
-back_page: /
+author_profile: true
 ---
 
 ## About Me

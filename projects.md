@@ -2,7 +2,7 @@
 layout: single
 title: Projects
 permalink: /projects/
-sidebar_link: true
+author_profile: true
 ---
 
 I love free software and I do a fair share of work on free software projects.

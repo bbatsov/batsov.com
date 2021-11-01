@@ -2,7 +2,7 @@
 layout: single
 title: "Presentations"
 permalink: /presentations/
-sidebar_link: true
+author_profile: true
 ---
 
 I'm not some ninja pro rock-star conference speaker, but I do the occasional
