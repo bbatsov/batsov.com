@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Blog Comments are Dead
 date: 2021-11-02 12:25 +0200
 tags:
