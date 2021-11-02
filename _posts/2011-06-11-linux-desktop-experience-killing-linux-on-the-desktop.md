@@ -130,8 +130,8 @@ Memory", Optimus, etc.
   everything sound related in Linux sucks - OSS, ALSA, PulseAudio (the
   sucker king). From a technical standpoint OSS never actually sucked,
   but since it wasn't picked up by the community the project fell
-  into oblivion. How many of you have enjoy Dolby Digital or DTS sound
-  from their Linux boxes?
+  into oblivion. How many of you have enjoyed Dolby Digital or DTS sound
+  from your Linux boxes?
 
 **Poor flash support** - should I explain? Have you tried it on a 64
   bit distro? Do I hate it? Sure. Do I hope HTML5 will kill it?
