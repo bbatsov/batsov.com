@@ -298,3 +298,5 @@ comments from the type "you're not doing something right/you should
 try another distro".
 
 **Update:** I wrote a [follow-up article]({% post_url 2011-06-14-linux-desktop-part-2 %}) that expands on some of the points I've made in this one.
+
+**Update (2021):** 10 years after this article was written it generated an [interesting discussion on Reddit](https://www.reddit.com/r/linux/comments/qii5hn/this_blog_post_about_switching_to_windows_from/). It seems that many of the problems of the Linux desktop remain unresolved. I've also made an attempt to go [back to Linux](https://metaredux.com/posts/2021/07/31/back-to-linux.html), but I failed miserably. They year of the Linux desktop is yet to come.
