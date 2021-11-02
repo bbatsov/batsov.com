@@ -239,5 +239,5 @@ than a free OS into which I bump at every turn.
 Soon I'll blog a little bit more about the practical aspects and
 implication of the migration. Cheers, mates!
 
-**P.S. I've updated the original post a bit to reflect some of the
-initial feedback I received.**
+**Note:** I've updated the original post a bit to reflect some of the
+initial feedback I received.

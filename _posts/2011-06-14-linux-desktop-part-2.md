@@ -29,7 +29,7 @@ it's usability, strengths and weaknesses.
 ## Let's get some facts straight
 
 I'm writing this post from my Emacs 23.2 client (in Markdown, to
-publish it via git to my jekyll-powered blog) connected to my Emacs
+publish it via git to my Jekyll-powered blog) connected to my Emacs
 daemon, running on my Fedora 15 GNOME 3.0 desktop at home. This
 machine has its every part carefully selected for maximum Linux
 compatibility (the machine is a bit old, but that wasn't always the case) -
@@ -89,7 +89,7 @@ only thing that really makes the difference is the hardware support
 and Linux is clearly far ahead of its competition.
 
 Hardcore user? You bet! But hardcore doesn't mean a "deluded
-idiot, blinded by zealously". It's not always that someone's favorite
+idiot, blinded by zealotry". It's not always that someone's favorite
 technologies are the best solution to a problem. The section "the shit
 I've endured" had a dual purpose - list a "few" problems and show how
 resilient I am.
@@ -108,7 +108,7 @@ the kernel.
 
 My former post placed a heavy emphasis on existing driver
 issues. While I abhor some Linux drivers I've never ever blamed the
-authors of open source drivers. Here's why:
+authors of open-source drivers. Here's why:
 
 The year and a half I've spent writing Linux drivers for proprietary devices
 created by an Austrian company, was some of the hardest time in my professional
