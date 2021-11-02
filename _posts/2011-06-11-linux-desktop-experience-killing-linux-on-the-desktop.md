@@ -265,15 +265,15 @@ prevented me from booting to Windows. My ethernet card wasn't
 supported so I was left without Internet. I asked my friend can I at
 least watch a few movies, while he brought me a patched version of the
 buggy GRUB. He told me - you need to compile MPlayer from sources with
-several optimization, you need windows video codecs, etc. At the time this
+several optimization, you need to install Windows video codecs, etc. At the time this
 excited me a lot - adventure, excitement. I learned A LOT by using
-Linux non-stop for so long time. But at some point you stop learning
+Linux non-stop for such a long period. But at some point you stop learning
 exciting things and are just stuck with tedious things you have to
 keep doing over and over again. And as I already mentioned - I don't
 want my time wasted, I want to get the job done with minimum hassle.
 
 I've been hearing each and every year that "year 20xx" will be the
-year of the Linux desktop. It never came and it's my firm believe that
+year of the Linux desktop. It never came and it's my firm belief that
 it never will (unless something radically changes in the mindset of
 Linux desktop users). Constantly plagued by hardware and software woes Linux
 is doomed to fail. Without major support from hardware and software
@@ -292,8 +292,8 @@ always be an OS for enthusiast and hackers only.
 Goodbye, my dear old friend. You'll be missed... but not that much.
 
 **P.S.** Btw I'm as pro a Linux user as they get - a professional sys
-admin, a former kernel developer so don't bother me with moronic
-comments from the type "you're not doing something right/you should
+admin and former kernel developer, so don't bother me with moronic
+comments of the type "you're not doing something right/you should
 try another distro".
 
 **Update:** I wrote a [follow-up article]({% post_url 2011-06-14-linux-desktop-part-2 %}) that expands on some of the points I've made in this one.
