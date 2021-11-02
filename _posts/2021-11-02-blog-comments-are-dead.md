@@ -23,4 +23,4 @@ Disqus too much to take the easy way out and go back to using it.
 
 Another observation - some blogging platforms (e.g. HEY World) don't even support comments, and many people using platforms like Wordpress, turn off commenting for their blogs. My guess - the comments that many people get on their blogs are not of the constructive variety, so they are better off without them.
 
-Blog comments are dead. And that's fine.
+Blog comments are dead. And that's fine. Less is more.
