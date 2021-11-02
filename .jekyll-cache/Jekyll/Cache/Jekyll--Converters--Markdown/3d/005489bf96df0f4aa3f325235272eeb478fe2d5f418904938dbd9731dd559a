@@ -1,7 +1,0 @@
-I"v<p>One of the things that I don’t like about the default Eclipse settings
-for Java development is that in the package explorer all Java files
-appear in the same manner(with the same icon). There is no visual
-distinction between abstract and concrete classes, enums, interfaces…
-Luckily for us Eclipse supports such a distinction and all you have to
-do is enable it.</p>
-:ET

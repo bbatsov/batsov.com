@@ -1,8 +1,0 @@
-I"�<p>One of the major problems when using
-<a href="/articles/2012/10/14/emacs-on-osx/">Emacs on OS X</a> is
-not related to OS X itself - the problem has to do with the Mac’s
-hardware. Recent Mac keyboards(both laptop and desktop, with the
-exception of the wired full size Mac keyboard) lack a right <code class="language-plaintext highlighter-rouge">Control</code>
-key and it happens to be extremely important if you’re looking to
-fully leverage the power of Emacs.</p>
-:ET

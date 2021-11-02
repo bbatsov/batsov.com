@@ -1,5 +1,0 @@
-I"à<p>Sometimes weâ€™d like to build a new collection object from the elements
-of another collection.  One trivial example would be element
-occurrence counting, which basically means you need to build a hash
-from an array.</p>
-:ET

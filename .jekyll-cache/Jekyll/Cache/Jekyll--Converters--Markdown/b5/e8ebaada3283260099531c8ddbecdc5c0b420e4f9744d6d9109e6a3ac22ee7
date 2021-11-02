@@ -1,8 +1,0 @@
-I"e<p>One of the problems newcomers to Ruby experience is that there are
-often quite a few ways to do same thing. For instance - you can obtain
-the number of items in <code class="language-plaintext highlighter-rouge">Enumerable</code> objects (instances of classes
-using the <code class="language-plaintext highlighter-rouge">Enumerable</code> mixin, which would often be collections like
-<code class="language-plaintext highlighter-rouge">Array</code>, <code class="language-plaintext highlighter-rouge">Hash</code>, <code class="language-plaintext highlighter-rouge">Set</code>, etc) by either using <code class="language-plaintext highlighter-rouge">Enumerable#count</code> or the
-methods <code class="language-plaintext highlighter-rouge">length</code> and its alias <code class="language-plaintext highlighter-rouge">size</code> that such classes often
-provide.</p>
-:ET

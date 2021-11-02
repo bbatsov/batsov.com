@@ -1,8 +1,0 @@
-I"<p>A few weeks ago I wrote an <a href="/articles/2012/02/19/package-management-in-emacs-the-good-the-bad-and-the-ugly/">article about the state of package
-management in Emacs</a>.
-In that article I pointed out that on the side of
-<a href="http://wikemacs.org/wiki/Package.el">package.el</a> too much was riding
-on the poorly maintained Marmalade repo. Today Marmalade went dark
-(again) and many people are wondering what to do now. The answer is
-simple - start using <a href="http://melpa.org/">MELPA</a> instead.</p>
-:ET

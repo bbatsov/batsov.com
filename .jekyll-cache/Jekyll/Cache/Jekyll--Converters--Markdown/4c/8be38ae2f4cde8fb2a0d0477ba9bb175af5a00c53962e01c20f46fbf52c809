@@ -1,8 +1,0 @@
-I"ì<p>One of the things I love most about Lisp development is the ability to
-develop applications in an incremental interactive manner - you write
-one function, compile it, load into your current REPL session, make
-some adjustments and repeat this process until you get satisfactory
-results. You never stop to compile your project, you never have to
-restart your application server. Without those distractions itâ€™s
-easier to maintain your concentration and to remain in the <em>flow</em>.</p>
-:ET

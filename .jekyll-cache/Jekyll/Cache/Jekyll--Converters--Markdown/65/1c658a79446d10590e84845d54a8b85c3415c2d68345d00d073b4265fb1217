@@ -1,6 +1,0 @@
-I"4<p>As you know I’ve recently migrated my blog from WordPress to
-Jekyll. One of the things I had to do was add an Atom feed(RSS
-sucks). It was quite the easy task. I just had to create an
-<a href="https://github.com/bbatsov/blog/blob/master/atom.xml">atom.xml</a> file
-and place in the root of my blog.</p>
-:ET

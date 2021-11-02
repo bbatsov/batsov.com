@@ -1,7 +1,0 @@
-I"�<p>Some Rubyists, when faced with the task of matching against the
-beginning or the end of a string, are prone to using <code class="language-plaintext highlighter-rouge">^</code> and <code class="language-plaintext highlighter-rouge">$</code> in
-their regular expressions. Most of the time the code will seem to work properly,
-but… these anchors don’t actually match a string’s beginning and
-end - they match a <strong>line</strong>’s beginning and end. Consider the
-following example:</p>
-:ET

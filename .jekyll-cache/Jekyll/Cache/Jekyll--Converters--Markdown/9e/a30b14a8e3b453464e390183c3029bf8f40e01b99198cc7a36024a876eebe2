@@ -1,5 +1,0 @@
-I"'<p>One task that often recurs in programming is the need to parse a
-string representation a number(or several numbers) and convert it to
-its numeric value. Parsing integer value in Common Lisp is fairly
-straightforward process - we have the built-in function <strong>PARSE-INTEGER</strong>:</p>
-:ET

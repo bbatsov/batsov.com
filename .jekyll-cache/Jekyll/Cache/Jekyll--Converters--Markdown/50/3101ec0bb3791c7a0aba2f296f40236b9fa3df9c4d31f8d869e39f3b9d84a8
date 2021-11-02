@@ -1,5 +1,0 @@
-I"<p>I’ve always been frustrated with the inability to write a switch on
-String in Java.  However the enum type introduced in Java 5.0 somewhat
-diminishes the issue. Read this excellent
-<a href="http://www.xefer.com/2006/12/switchonstring">article</a> on the subject.</p>
-:ET

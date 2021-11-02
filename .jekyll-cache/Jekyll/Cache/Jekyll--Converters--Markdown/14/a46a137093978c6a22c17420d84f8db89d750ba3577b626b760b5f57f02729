@@ -1,3 +1,0 @@
-I"¡<p>Recently we discussed <a href="/articles/2013/08/30/using-gsub-with-a-block/">how you can use <code class="language-plaintext highlighter-rouge">String#gsub</code> with a block</a>.
-Today weâ€™ll examine another somewhat unknown feature of the <code class="language-plaintext highlighter-rouge">gsub</code> method - the ability to supply a replacement hash as the second argument (which is normally a string).</p>
-:ET

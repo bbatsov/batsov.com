@@ -1,7 +1,0 @@
-I"�<p>Recently I’ve been trying to switch my work environment theme to
-something with lower contrast (namely the excellent <a href="https://github.com/jnurmine/Zenburn">Zenburn
-theme</a>). Swing applications,
-however,have difficulties with GTK themes when they are using the GTK+
-look &amp; feel, so I’ve decided to go to Nimbus – the new default look &amp;
-feel for Java apps since Java 6 Update 10.</p>
-:ET
