@@ -16,11 +16,10 @@ I frankly don't care._
 
 ## Prelude
 
-I'm generally known as one of the biggest supporters of GNU/Linux,
-I've taught courses on Linux administration, I've spoken at Linux
-conferences and I naturally use Linux as my primary desktop on all my
-machines. Well, that last part is not so true anymore. Here the story
-begins...
+I'm generally known as one of the biggest supporters of GNU/Linux.
+I've taught courses on Linux administration, I've spoken at Linux conferences
+and I naturally use Linux as my primary desktop operating system on all my
+machines. Well, that last part is not so true anymore. Here the story begins...
 
 ## The background
 
@@ -33,7 +32,7 @@ first-class citizen of the desktop operating systems town. Alas, this
 day never came and probably never will.
 
 My patience ended this week and I'll be gradually moving all my desktop machines
-back to Windows. What caused me to take such drastic course of action? I've
+to Windows. What caused me to take such drastic course of action? I've
 bought myself a new ThinkPad T520 laptop, powered by Nvidia's Optimus GPU
 switching technology - when the GPU load is low it uses the built-in Sandy
 Bridge GPU, when it gets higher - it switches to the discrete NVS 4200M
@@ -56,14 +55,14 @@ normal video drivers.
 
 The Intel driver sucked so bad that I got constant screen corruption
 and hang-ups. Too bad, because I preferred to use the Intel GPU since
-I mostly work on the laptop. The open source Nvidia driver `nouveau`
+I mostly work on the laptop. The open-source Nvidia driver `nouveau`
 doesn't support the NVS 4200, so I was forced to install the
 proprietary driver. It ran OK initially, but after some time my system
 just started to freeze while waiting for Plymouth (probably after some
 kernel update, which I didn't notice). I could have tried the usual
 tricks and fixed the problem, but at this point I finally realized how
-idiotic it was of me to keep using Linux for a desktop OS after all
-the shit I've endured and the time I've wasted dealing with stuff that
+idiotic it was of me to keep using Linux as a desktop OS after all
+the shit I've endured and all the time I've wasted dealing with stuff that
 should have been "just working". I just want to get some work done, I
 don't want to waste my time debugging all kind of crap.
 
@@ -80,10 +79,10 @@ unfortunately manifest on all kind of hardware no matter how old._
 **Non-existing ethernet/wireless drivers** - not so common today, but
   try remembering the time circa 2005.
 
-**Non-existing/crappy audio drivers** - got an X-Fi 5 years ago, ALSA
-  driver was released 3-4 years later and was total piece of garbage,
-  OSS driver was barely usable. I don't even get me started on USB
-  audio support - what a joke...
+**Non-existing/crappy audio drivers** - I got an X-Fi sound card 5 years ago,
+  ALSA driver was released 3-4 years later and was total piece of garbage, OSS
+  driver was barely usable. I don't even get me started on USB audio support -
+  what a joke...
 
 **Lamest video card drivers ever** - most video card drivers for Linux
   are so bad I cannot even watch tear-free video. Nvidia have the only
@@ -91,15 +90,15 @@ unfortunately manifest on all kind of hardware no matter how old._
   2D acceleration. AMD's drivers are a punishment from the Lord and
   Intel's constantly "evolving" drivers are barely usable most of the
   time. The video card drivers made me buy a dedicated HD media player and an
-  PS3 (for which I'm thankful), but I have to ask myself - why suffer
+  PlayStation 3 (for which I'm thankful), but I have to ask myself - why suffer
   all this shit instead of getting a normal desktop OS like OS X or
   Windows? Did I love Linux that much? Did I believe that much it's
   desktop day would come? What an idiot I was.
 
 **Lack of printer drivers** - that's a funny one. Often printers
   listed as having Linux drivers are mostly unusable. The printer that
-  own is listed as having a "perfect" Linux compatability in
-  openprinting.org. If this is perfect I cannot begin to imagine what
+  own (Xerox Phaser 3117) is listed as having a "perfect" Linux compatibility on
+  https://openprinting.org. If this is perfect I cannot begin to imagine what
   is "poor" compatibility.
 
 **Crappiest suspend/resume support** - laptop goes to sleep, but
@@ -108,7 +107,7 @@ unfortunately manifest on all kind of hardware no matter how old._
   has improved a bit it's still light years away from what you get
   with Windows/OS X.
 
-**Poor power management** - my older laptop's battery lasted several
+**Poor power management** - my old laptop's battery lasted several
   weeks while sleeping when I was using Windows on it. When I replaced
   it with Linux the battery was being drained in 2 days while the
   laptop was sleeping (and I had to wait about half a year for a set
