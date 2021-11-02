@@ -9,9 +9,7 @@ tags:
 
 **Disclaimer**
 
-_This post is a bona fide rant. It tells how a hardcore Linux user
-(me) decided to abandon Linux as a desktop platform and the reasons
-behind this decision. It might provoke some controversy, but
+_This post is a bona fide rant. It might provoke some controversy, but
 I frankly don't care._
 
 ## Prelude
