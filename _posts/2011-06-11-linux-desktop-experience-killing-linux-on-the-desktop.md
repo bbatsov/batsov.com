@@ -119,7 +119,7 @@ unfortunately manifest on all kind of hardware no matter how old._
   heat (dynamic fan control is another weakness of Linux).
 
 I'll stop writing about the driver problems now, because they affect
-so many thing. Even my fairly advanced mouse is missing some functions
+so many things. Even my fairly advanced mouse is missing some functions
 in Linux. I'm not even mentioning the things like support for "Turbo
 Memory", Optimus, etc.
 
