@@ -335,15 +335,15 @@ long as the primarily development is carried out with little (or no
 funding), mostly by volunteers the hour of the desktop Linux will
 never come.
 
-There is one more serious problem - diversity. There are two many
-distributions bring too little value to the table. The time spent
+There is one more serious problem - diversity. There are too many
+distributions that bring too little value to the table. The time spent
 repacking the same software for a hundred distros could be better
 utilized developing new applications/drivers and improving existing
-ones. We need to have at least a couple rock solid desktop
+ones. We need to have at least a couple rock-solid desktop
 distros/environments, otherwise the whole diversity thing means
 basically nothing.
 
-Few good options are worth more than a million half-baked options!
+A few good options are worth more than a million half-baked options!
 
 ## Epilogue
 
@@ -352,10 +352,10 @@ ship, claiming that Windows or OS X are better than Linux or spreading
 "FUD" (if I totally hate a term this is the one). It was always about
 raising the awareness of existing issues in the land of desktop
 Linux. After all just a few days before [I had written a post
-installation guide for Fedora 15](/Linux/Fedora/2011/05/31/fedora-15-tips.html).
+installation guide for Fedora 15]({% post_url 2011-05-31-fedora-15-tips %}).
 
 While I was writing the last paragraph I got another GNOME 3 shell corruption (time
-for killall gnome-shell to take the stage) on my totally supported
+for `killall gnome-shell` to take the stage) on my totally supported
 hardware... A skype sound notification interrupted the song I was
 listening to (thanks a lot, PulseAudio)... And yet I'm still here. I
 did switch to Windows 7 on my laptop and I do intend to use Window 7
