@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 'The MacBook: Redux'
 date: 2021-11-02 10:19 +0200
 tags:
