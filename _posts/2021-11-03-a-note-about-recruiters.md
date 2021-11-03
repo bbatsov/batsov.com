@@ -16,7 +16,7 @@ technical recruiter:
 You're wrong and your "research" sucks big time!
 
 I'm sick and tired of these poorly written canned messages. Clearly this person
-didn't bother to check neither my resume nor my GitHub profile, as otherwise they would have known that that I **never** did any React programming!
+didn't bother to check neither my resume nor my GitHub profile, as otherwise they would have known that I **never** did any React programming!
 
 This article has been a long time coming, but yesterday's message was the tipping point that actually made me write it. It's a simple guide for technical recruiters by programmers, and will help them actually do something meaningful with their time.[^1]
 
