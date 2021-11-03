@@ -13,12 +13,14 @@ about:
 * content on the site (e.g. share some feedback about an article I wrote)
 * any of my OSS projects
 * presentations I gave
+* career development
 * any topic that is of interest to me (if you know/follow me, you definitely know what they are)
 
 I'll likely ignore messages:
 
 * from random recruiters who are interested in my (non-existing) React.js and PHP skills
 * that are hostile and non-constructive
+* that are sales pitches for random services (I've never bought into a service after a cold email from a sales rep, so don't waste your time with me)
 
 ## Getting in Touch
 
@@ -27,8 +29,10 @@ messages on LinkedIn (and social media in general). More details below.
 
 ### Email
 
-Feel free to contact me first name at `batsov.net` or `hey.com` about anything.
-It's a great place for private constructive conversations.
+Feel free to contact me at `first name` at `batsov.net` or `hey.com` about anything.
+Email is a great place for private constructive conversations. It's also a great
+option to discuss my open-source projects, if you're the type of person who avoids
+using GitHub.
 
 I can heartily recommend Fastmail to everyone looking for a great email service
 that respects your privacy. Using my [affiliate link to sign up](https://ref.fm/u26676944) will give you a 10% discount for the first year.
@@ -36,7 +40,8 @@ that respects your privacy. Using my [affiliate link to sign up](https://ref.fm/
 ### GitHub
 
 The best place to collaborate on any of my OSS projects is GitHub. I welcome all
-contributions, no matter how small they are.
+contributions, no matter how small they are. I also try to help all contributors
+with feedback and guidance.
 
 My projects are spread over several GitHub accounts:
 
@@ -45,11 +50,13 @@ My projects are spread over several GitHub accounts:
 * [Clojure Emacs](https://github.com/clojure-emacs)
 * [nREPL](https://github.com/nrepl)
 
-Feel free to also send PRs addressing the many typos and bad English grammar in [this blog](https://github.com/bbatsov/think.batsov.com).
+Feel free to also send PRs addressing the many typos and the bad English grammar in [this blog](https://github.com/bbatsov/think.batsov.com). I guess it's obvious I don't really proofread my articles.
 
 ### Twitter
 
 Twitter is the only social media that I like and use frequently. It's a great place for sharing quick feedback, shout-outs, etc.
+
+While my DMs there are open, I generally prefer emails over Twitter DMs. For me Twitter is all about public conversations.
 
 ### Blog Comments
 
