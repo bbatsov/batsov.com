@@ -1,11 +1,13 @@
 ---
 layout: single
 title: "Programming languages worth learning"
+toc: true
 tags:
 - Programming
 ---
 
 ## Prelude
+
 Programming languages have always been a passion of mine and through
 the years I've learnt quite a few of them. The first one was Pascal,
 some 13 years ago, and the last was Scala, just a couple of months ago.
@@ -225,7 +227,7 @@ however, believe that all the ideas and techniques that we discover in
 different programming languages will generally enrich our thinking and
 make us better software engineers in principle.
 
-_P.S. If you're wondering why a certain "great" language X is not on
+**P.S.** If you're wondering why a certain "great" language X is not on
 the list keep in mind that this is my personal(and highly subjective)
 point of view on the subject. Who knows, in some dark and twisted
 place there may very well be people who consider BASIC a programming
