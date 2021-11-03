@@ -82,13 +82,25 @@ If you really want to get in touch with someone, take the time to find their ema
 
 And never call people on their personal phones out of the blue! That's super weird and creepy!
 
-## Don't be Pushy
+### Don't be Pushy
 
 Sending me a new message to check if I got your old message sucks. People are busy and your "amazing opportunity" might not be on top of their todo list. You either get a response or you don't. No need to be annoying about this.
 
 Checking in with people, after you've had some communication with them, is fine, provided you do it in a non-pushy manner.
 
 That also extends to scheduling - when scheduling interviews you'll get better results if you try to accommodate the preferences of your candidate instead of the preferences of your team. I was rarely excited about interviews taking place at 6 am or 10 pm.
+
+### Share Prompt & Meaningful Feedback
+
+Everyone hates the following situation:
+
+* You go to an interview.
+* You don't hear from the recruiter for a couple of weeks after the interview. They seem to be ghosting your messages.
+* In the end you get rejected and receive some vague feedback about insufficient technical expertise and not being a good fit.
+
+I recall that once I was told I was "too technical" for one managerial role. I asked what the hell does this mean and as expected got some bullshit answer.
+
+Such interactions leave a pretty bitter aftertaste and tend to be carried around by word of mouth. Proper timely feedback is essential in recruitment. Never forget this!
 
 ## Epilogue
 
