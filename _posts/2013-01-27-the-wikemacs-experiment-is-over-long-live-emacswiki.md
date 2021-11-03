@@ -2,7 +2,6 @@
 layout: single
 title: "The WikEmacs Experiment is over! Long Live EmacsWiki!"
 date: 2013-01-27 09:23
-comments: true
 tags:
 - Emacs
 ---

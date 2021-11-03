@@ -2,7 +2,6 @@
 layout: single
 title: "Using Ruby's gsub with a block"
 date: 2013-08-30 15:29
-comments: true
 tags:
 - Ruby
 ---

@@ -2,7 +2,6 @@
 layout: single
 title: "Die EmacsWiki, Die!"
 date: 2012-03-20 14:49
-comments: true
 tags:
 - Emacs
 - Rant

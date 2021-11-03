@@ -2,7 +2,6 @@
 layout: single
 title: "Emacs Tip #6: Remove variable &amp; function definitions"
 date: 2012-10-20 20:29
-comments: true
 tags:
 - Emacs
 - Tips

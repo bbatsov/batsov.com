@@ -2,7 +2,6 @@
 layout: single
 title: "Long Time, No See"
 date: 2012-09-09 19:50
-comments: true
 tags:
 - Meta
 - Career

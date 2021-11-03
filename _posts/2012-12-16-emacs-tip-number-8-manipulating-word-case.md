@@ -2,7 +2,6 @@
 layout: single
 title: "Emacs Tip #8: Manipulating Word Case"
 date: 2012-12-16 17:57
-comments: true
 tags:
 - Emacs
 - Tips

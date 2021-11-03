@@ -2,7 +2,6 @@
 layout: single
 title: "The Elements of Style in Ruby #11: Invoking Lambdas/Procs"
 date: 2013-09-26 17:43
-comments: true
 tags:
 - Ruby
 - Style

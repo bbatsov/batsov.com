@@ -1,7 +1,6 @@
 ---
 layout: single
 title: "Every blog has its first post..."
-comments: true
 tags:
 - Meta
 ---

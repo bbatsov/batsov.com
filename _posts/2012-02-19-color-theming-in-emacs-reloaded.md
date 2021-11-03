@@ -2,7 +2,6 @@
 layout: single
 title: "Color Theming in Emacs: Reloaded"
 date: 2012-02-19 12:17
-comments: true
 tags:
 - Emacs
 ---

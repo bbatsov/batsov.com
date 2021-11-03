@@ -2,7 +2,6 @@
 layout: single
 title: "The State of Some Emacs Packages for Clojure Development"
 date: 2014-08-12 11:29
-comments: true
 tags:
 - Emacs
 - Clojure

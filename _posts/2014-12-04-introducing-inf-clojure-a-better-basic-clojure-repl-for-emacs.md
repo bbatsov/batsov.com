@@ -2,7 +2,6 @@
 layout: single
 title: "Introducing Inf-clojure - a Better Basic Clojure REPL for Emacs"
 date: 2014-12-04 12:45
-comments: true
 tags:
 - Clojure
 - Emacs

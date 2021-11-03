@@ -2,7 +2,6 @@
 layout: single
 title: "Emacs Tip #4: Repeat Last Command"
 date: 2012-03-08 15:09
-comments: true
 tags:
 - Emacs
 - Tips

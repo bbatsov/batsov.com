@@ -2,7 +2,6 @@
 layout: single
 title: "Just juxt it!"
 date: 2013-01-20 18:16
-comments: true
 tags:
 - Clojure
 ---

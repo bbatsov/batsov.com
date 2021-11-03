@@ -2,7 +2,6 @@
 layout: single
 title: "A True Emacs Knight"
 date: 2012-05-28 15:39
-comments: true
 tags:
 - Emacs
 ---

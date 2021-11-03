@@ -2,7 +2,6 @@
 layout: single
 title: "The Elements of Style in Ruby #6: Attributes Redux"
 date: 2013-07-04 15:36
-comments: true
 tags:
 - Ruby
 - Style

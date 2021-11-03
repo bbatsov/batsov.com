@@ -2,7 +2,6 @@
 layout: single
 title: "The Elements of Style in Ruby #1: Maximum line length"
 date: 2013-06-26 16:57
-comments: true
 tags:
 - Ruby
 - Style

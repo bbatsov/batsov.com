@@ -2,7 +2,6 @@
 layout: single
 title: "SICP Distilled"
 date: 2014-08-29 18:15
-comments: true
 tags:
 - Clojure
 - Emacs

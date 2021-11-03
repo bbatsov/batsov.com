@@ -2,7 +2,6 @@
 layout: single
 title: "Permalinks in the Ruby and Rails style guides"
 date: 2014-07-25 16:34
-comments: true
 tags:
 - Ruby
 ---

@@ -2,7 +2,6 @@
 layout: single
 title: "RuboCop Logo"
 date: 2014-09-05 14:16
-comments: true
 tags:
 - Ruby
 - RuboCop

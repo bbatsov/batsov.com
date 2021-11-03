@@ -2,7 +2,6 @@
 layout: single
 title: "Looking Back on 2013"
 date: 2014-01-01 12:30
-comments: true
 tags:
 - Meta
 ---

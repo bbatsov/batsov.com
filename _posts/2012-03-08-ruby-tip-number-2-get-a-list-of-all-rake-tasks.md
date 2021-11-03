@@ -2,7 +2,6 @@
 layout: single
 title: "Ruby Tip #2: Get a List of All Rake Tasks"
 date: 2012-03-08 15:28
-comments: true
 tags:
 - Ruby
 - Tips

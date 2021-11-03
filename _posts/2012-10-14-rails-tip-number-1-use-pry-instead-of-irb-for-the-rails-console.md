@@ -2,7 +2,6 @@
 layout: single
 title: "Rails Tip #1: Use Pry Instead of irb for the Rails Console"
 date: 2012-10-14 18:06
-comments: true
 tags:
 - Ruby
 - Rails

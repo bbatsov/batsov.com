@@ -2,7 +2,6 @@
 layout: single
 title: "The Road to CIDER 0.8"
 date: 2014-11-10 15:27
-comments: true
 tags:
 - Emacs
 - Clojure

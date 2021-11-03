@@ -2,7 +2,6 @@
 layout: single
 title: "Ruby Tip #3: Matching on an Object's Class in a Case Expression"
 date: 2012-10-14 15:23
-comments: true
 tags:
 - Ruby
 - Tips

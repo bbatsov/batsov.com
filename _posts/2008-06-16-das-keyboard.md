@@ -1,7 +1,6 @@
 ---
 layout: single
 title: "Das Keyboard"
-comments: true
 tags:
 - Hardware
 - Keyboards

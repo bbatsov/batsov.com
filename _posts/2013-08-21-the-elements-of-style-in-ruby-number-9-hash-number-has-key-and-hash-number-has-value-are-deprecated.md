@@ -2,7 +2,6 @@
 layout: single
 title: "The Elements of Style in Ruby #9: Hash#has_key? and Hash#has_value? are deprecated"
 date: 2013-08-21 17:04
-comments: true
 tags:
 - Ruby
 - Style

@@ -2,7 +2,6 @@
 layout: single
 title: "Ruby Tip #1: Demystifying the Difference Between == and eql?"
 date: 2011-11-28 16:54
-comments: true
 tags:
 - Ruby
 - Tips

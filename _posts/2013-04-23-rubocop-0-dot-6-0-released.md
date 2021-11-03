@@ -2,7 +2,6 @@
 layout: single
 title: "RuboCop 0.6.0 released"
 date: 2013-04-23 14:46
-comments: true
 tags:
 - Ruby
 - RuboCop

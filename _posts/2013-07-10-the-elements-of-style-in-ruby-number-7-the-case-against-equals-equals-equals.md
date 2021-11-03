@@ -2,7 +2,6 @@
 layout: single
 title: "The Elements of Style in Ruby #7: The case against ==="
 date: 2013-07-10 15:44
-comments: true
 tags:
 - Ruby
 - Style

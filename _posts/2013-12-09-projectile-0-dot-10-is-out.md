@@ -2,7 +2,6 @@
 layout: single
 title: "Projectile 0.10 is out!"
 date: 2013-12-09 15:26
-comments: true
 tags:
 - Emacs
 ---

@@ -2,7 +2,6 @@
 layout: single
 title: "The Elements of Style in Ruby #8: Know Thy Predicates"
 date: 2013-08-14 17:28
-comments: true
 tags:
 - Ruby
 - Style

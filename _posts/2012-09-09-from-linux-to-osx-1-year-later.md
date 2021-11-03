@@ -2,7 +2,6 @@
 layout: single
 title: "From Linux to OS X - 1 Year Later"
 date: 2012-09-09 22:11
-comments: true
 tags:
 - Linux
 - OS X
