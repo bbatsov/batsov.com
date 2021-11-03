@@ -41,6 +41,19 @@ going back to programming only for a great cause (involving a lot of REPLs and p
 
 That rule is basic and intuitive, and yet almost no one seems to follow it.
 
+### Respect the Experience of People
+
+If someone has 20 years of experience as a programmer, and is currently in
+an architect role, it probably doesn't make much sense to offer them an
+entry-level role on your team. If they have been building front-end frameworks for the past 5 years, probably they won't be super excited about an opportunity
+to work on static landing pages for the marketing department of your blockchain-powered startup.
+
+Similarly - I've been offered numerous engineer roles (I see you know Ruby and Rails), while serving as a technical
+executive. Everything's possible (you might have an amazing team, product, etc), but some things are not very likely. More often than not recruiters were just looking
+for some specific keywords and spammed every candidate that their search returned.
+
+I'll repeat rule number 2 - take the time to actually research someone. Quantity is no replacement for quality.
+
 ### Don't Assume Too Much
 
 Half the recruiters approach me with vague messages about "very competitive salaries" and
