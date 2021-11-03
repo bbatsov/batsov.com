@@ -37,9 +37,9 @@ You really have to read their resume, peruse their public projects (if any), go 
 You also have to understand that the fact that someone did something in the past, doesn't mean that they are a good fit for your present role. Last time I did any systems programming was 15 years ago. Last time I did any Java programming was 10 years ago. I still constantly get approached by clueless recruiters offering me programming roles in both areas.
 
 Funny enough, my resume clearly states that these days I'm only interested in management roles (as this is what I've been doing for the past 10 years), and I'd consider
-going back to programming only for a great cause (involving a lot of REPLS and parentheses). Sadly, the vast majority of recruiters never bothered to read it.
+going back to programming only for a great cause (involving a lot of REPLs and parentheses). Sadly, the vast majority of recruiters never bothered to read it.
 
-That rules is basic and intuitive, and yet almost no one seems to follow it.
+That rule is basic and intuitive, and yet almost no one seems to follow it.
 
 ### Don't Assume Too Much
 
