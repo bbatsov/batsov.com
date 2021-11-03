@@ -32,7 +32,7 @@ phenomenal technical recruiters.
 
 ### Take the Time to Actually Research Someone
 
-You really have to read their resume, peruse their public projects (if any), go over their blog, etc. You can't just sent random bullshit and expect meaningful results.
+You really have to read their resume, peruse their public projects (if any), go over their blog, etc. You can't just send random bullshit and expect meaningful results.
 
 You also have to understand that the fact that someone did something in the past, doesn't mean that they are a good fit for your present role. Last time I did any systems programming was 15 years ago. Last time I did any Java programming was 10 years ago. I still constantly get approached by clueless recruiters offering me programming roles in both areas.
 
