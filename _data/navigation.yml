@@ -1,11 +1,13 @@
 # main links
 main:
-  - title: "About"
-    url: /about
   - title: "Archive"
     url: /archive
   - title: "Tags"
     url: /tags
+  - title: "About"
+    url: /about
+  - title: "Contact"
+    url: /contact
   - title: "Projects"
     url: /projects
   - title: "Presentations"
