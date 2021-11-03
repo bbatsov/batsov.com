@@ -1,0 +1,99 @@
+---
+title: A Note About Recruiters
+date: 2021-11-03 11:57 +0200
+tags:
+- Meta
+- Recruitment
+---
+
+Yesterday I got yet another completely absurd cold email from an incompetent
+technical recruiter:
+
+>  I'm looking for a Front-end React (Next.js) developer to join our international team. It's a Full-time remote job.
+>
+> From my research (not that I'm spying) on GitHub, you have an experience with React.js which is our priority for this new role. But please correct me if I'm wrong.
+
+You're wrong and your "research" sucks big time!
+
+I'm sick and tired of these poorly written canned messages. Clearly this person
+didn't bother to check neither my resume nor my GitHub profile, as otherwise they would have known that that I **never** did any React programming!
+
+This article has been a long time coming, but yesterday's message was the tipping point that actually made me write it. It's a simple guide for technical recruiters by programmers, and will help them actually do something meaningful with their time.[^1]
+
+## The Golden Rules of Technical Recruitment
+
+### Learn the Basics
+
+Some knowledge of the environment (domain) in which you operate will be extremely useful for you. Ideally you should learn the basics of programming, but at the very least you should understand what different technology stacks are used for. It's time to stop running after Java developers to pitch them JavaScript opportunities. Reactive programming and React are different things. Having experience with C doesn't make you an expert in C++. I hope you get the idea.
+
+The more you know about programming, the more successful you'll be in the role.
+Often I've been thinking that programmers with good communication skills would make
+phenomenal technical recruiters.
+
+### Take the Time to Actually Research Someone
+
+You really have to read their resume, peruse the public projects (if any), go over their blog, etc. You can't just sent random bullshit and expect meaningful results.
+
+You also have to understand that the fact that someone did something in the past, doesn't mean that they are a good fit for your present role. Last time I did any systems programming was 15 years ago. Last time I did any Java programming was 10 years ago. I still constantly get approached by clueless recruiters offering me programming roles in both areas.
+
+Funny enough, my resume clearly states that these days I'm only interested in management roles (as this is what I've been doing for the past 10 years), and I'd consider
+going back to programming only for a great cause (involving a lot of REPLS and parentheses). Sadly, the vast majority of recruiters never bothered to read it.
+
+That rules is basic and intuitive, and yet almost no one seems to follow it.
+
+### Don't Assume Too Much
+
+Half the recruiters approach me with vague messages about "very competitive salaries" and
+"great relocation" opportunities. The fact that I live in Bulgaria doesn't mean
+that I'm working for pennies and that I'm dying to relocate to your US/Western European corporate HQ.
+
+Unless you know that you can offer a candidate a better paycheck or that they are interested in relocation, I'd avoid making this the highlight of a sales pitch.
+
+Messages that target the wrong thing can be extremely off-putting.
+
+### Create a Great Pitch
+
+How many companies did you get a super generic message like the following:
+
+> Greeting from X. I work for Y, a well-funded startup that's using blockchain
+> technology to revolutionize Z. Our team is growing rapidly and we are now looking for
+> skilled Whatever engineers to fuel our growth.
+>
+> Would you like to connect so we can discuss this further?
+
+I don't know about you, but I never respond to such messages as they have absolutely no substance. At least they are a bit better than the messages from the recruitment agencies that only talk about their mysterious unnamed client looking to hire more programmers for some unclear purpose.
+
+As Charlie Chaplin once said, you never get a second chance to make a first impression. If you don't manage to engage with your "lead" right away, you can forget about them.
+
+Crafting a good sales pitch involves the following:
+
+* Researching the candidate carefully and personalizing the message for them
+* Highlighting what's so special about your opportunity (e.g. you can expand on the nature of the business, the great team you've built, career growth opportunities, etc)
+* Adding a bit of flavor to the message. I always had a fondness for witty recruiters with some sense of humor. Not an universal rule for success, but the message here is that impersonal communication yields subpar results.
+
+### Emails are Better than Linkedin
+
+I never started a new job after learning about a job opportunity via LinkedIn. I see two reasons for this:
+
+* Most people, including me, hate LinkedIn and are there just out of necessity. You're simply expected to have a LinkedIn profile these days. What's also true is that most people have turned off any form of emails and notifications from LinkedIn and are visit it very rarely (unless actively looking for a job).
+* I'm overwhelmed with connection requests and messages there, so I rarely have the time to go through all them.
+
+If you really want to get in touch with someone, take the time to find their email (pretty easy thing to do these days) and go old school.
+
+And never call people on their personal phones out of the blue! That's super weird and creepy!
+
+## Don't be Pushy
+
+Sending me a new message to check if I got your old message sucks. People are busy and your "amazing opportunity" might not be on top of their todo list. You either get a response or you don't. No need to be annoying about this.
+
+Checking in with people, after you've had some communication with them, is fine, provided you do it in a non-pushy manner.
+
+That also extends to scheduling - when scheduling interviews you'll get better results if you try to accommodate the preferences of your candidate instead of the preferences of your team. I was rarely excited about interviews taking place at 6 am or 10 pm.
+
+## Epilogue
+
+That's it. Short and simple.
+
+I know that technical recruiters are universally despised and frequently derived in the IT circles, but sadly the quality of their work is not helping the situation. Obviously not all technical recruiters are bad, I've had the good fortune to work with some truly amazing people in the field. But I've also experienced so many unpleasant interactions with crappy recruiters, that I totally understand the current sentiment towards people in this role. If I helped a single technical recruiter to do a better job, writing this guide was a fantastic investment on my part.
+
+[^1]: I built the technical recruitment operations in the last 3 start-ups I worked for, so I feel I'm somewhat qualified in the subject matter.
