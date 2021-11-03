@@ -24,15 +24,17 @@ This site was my first attempt to write. I failed miserably and I produced some 
 crappy content, but I also learned a lot in the process.
 
 These days most of my writing happens at [Meta Redux](https://metaredux.com), but
-I still plan to post here things that are worth sharing, but don't fit the overall
-idea of Meta Redux.
+I still post here things that are worth sharing, but don't fit the overall
+vision of Meta Redux. Not to mention that my vision for (think) and Meta Redux
+changes quite often.
 
-I guess I'll mostly be writing on programming-related topics, but who knows...
+I guess I'll mostly be writing here on programming-related topics, but who knows...
 Knowing me there's a high chance I won't actually write anything at all!
 
 ## About My Other Blogs
 
 I have a small problem with blogs - I've created way too many of them!
+I already mentioned above Meta Redux, but there are actually more!
 
 ### Emacs Redux
 
@@ -42,20 +44,8 @@ out as well - [Emacs Redux](http://emacsredux.com).
 ### HEY World
 
 I also have a blog at [HEY World](https://world.hey.com/bozhidar).
-I'm still not sure what I'll use it for (if anything), but likely it
+I'm still not sure what I'll use it for (if anything), but most likely it
 will host short musings on random non-technical topics.
-
-## Contacts
-
-* Email - first name at `batsov.net` or `hey.com`.
-* [Twitter](https://twitter.com/bbatsov)
-* [LinkedIn](https://www.linkedin.com/in/bbatsov/)
-
-The best way to reach me is via email. I love email and rarely bother to check
-messages on LinkedIn (and social media in general).
-
-I can heartily recommend Fastmail to everyone looking for a great email service
-that respects your privacy. Using my [affiliate link to sign up](https://ref.fm/u26676944) will give you a 10% discount for the first year.
 
 ## Colophon
 
