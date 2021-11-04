@@ -1,6 +1,7 @@
 ---
 title: A Note About Recruiters
 date: 2021-11-03 11:57 +0200
+toc: true
 tags:
 - Meta
 - Recruitment
@@ -150,6 +151,18 @@ Everyone hates the following situation:
 I recall that once I was told I was "too technical" for one managerial role. I asked what the hell does this mean and as expected got some bullshit answer.
 
 Such interactions leave a pretty bitter aftertaste and tend to be carried around by word of mouth. Proper timely feedback is essential in recruitment. Never forget this!
+
+## Using the Guide
+
+### Programmers
+
+I'd encourage you to respond with a link to the guide to every tech recruiter that engages with you in a frustrating manner. I know that's what I'll be doing going forward. My favorite response goes like this:
+
+> No, I'm not interested in your opportunity, but you might be interested in reading https://batsov.com/articles/2021/11/03/a-note-about-recruiters/
+
+### Recruiters
+
+I guess it's quite obvious, but still - master the guide and level-up your game.
 
 ## Epilogue
 
