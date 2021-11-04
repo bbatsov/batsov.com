@@ -109,7 +109,7 @@ Crafting a good sales pitch involves the following:
 
 I never started a new job after learning about a job opportunity via LinkedIn. I see two reasons for this:
 
-* Most people, including me, hate LinkedIn and are there just out of necessity. You're simply expected to have a LinkedIn profile these days. What's also true is that most people have turned off any form of emails and notifications from LinkedIn and are visit it very rarely (unless actively looking for a job).
+* Most people, including me, hate LinkedIn and are there just out of necessity. You're simply expected to have a LinkedIn profile these days. What's also true is that most people have turned off any form of emails and notifications from LinkedIn and visit it very rarely (unless actively looking for a job).
 * I'm overwhelmed with connection requests and messages there, so I rarely have the time to go through all them.
 
 If you really want to get in touch with someone, take the time to find their email (pretty easy thing to do these days) and go old school.
