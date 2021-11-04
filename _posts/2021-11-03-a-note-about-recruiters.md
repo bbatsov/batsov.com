@@ -76,6 +76,25 @@ How many companies did you get a super generic message like the following:
 
 I don't know about you, but I never respond to such messages as they have absolutely no substance. At least they are a bit better than the messages from the recruitment agencies that only talk about their mysterious unnamed client looking to hire more programmers for some unclear purpose.
 
+Here's another bad pitch (and it's real):
+
+> We're looking for someone full-time. Rails dev. will be working on the product.
+>
+> Some benefits / what it's like working with us:
+>     -  This position includes learning a lot (product & tech-wise),
+>     -  1 month paid vacation,
+>     -  100% flex hours, 100% remote,
+>     -  0 Scrum, 0 standups, we only do 1 meeting per week,
+>     -  You'll get a lot of feedback about your creations (that's what programming really is -- it's not just writing black and white code!) from customers.
+
+What's do we see here?
+
+- Bad grammar.
+- 100% flex hours, 100% remote - hmm, I thought almost every company offered this right now.
+- The sales pitch takes a lame swipe at Scrum/Agile and the fact most companies are doing it well.
+- Generic mumbo-jumbo, and nothing specific about the role. Who would even think that a month of paid vacation is something special worth highlighting? Which job doesn't
+involve learning and getting feedback for your work?
+
 As Charlie Chaplin once said, you never get a second chance to make a first impression. If you don't manage to engage with your "lead" right away, you can forget about them.
 
 Crafting a good sales pitch involves the following:
