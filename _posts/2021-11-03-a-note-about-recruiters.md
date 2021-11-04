@@ -53,6 +53,13 @@ Similarly - I've been offered numerous engineer roles (I see you know Ruby and R
 executive. Everything's possible (you might have an amazing team, product, etc), but some things are not very likely. More often than not recruiters were just looking
 for some specific keywords and spammed every candidate that their search returned.
 
+Finally, it's just as bad if you reach out to a person with a couple of years of experience on the job, and offer them to interview for a role that supposedly requires
+5 years of programming experience + 3 years of managerial experience. From their
+perspective this can mean only one of two things:
+
+- your job descriptions are bullshit and you don't really care about the requirements listed there
+- you have no idea who you've contacted
+
 I'll repeat rule number 2 - take the time to actually research someone. Quantity is no replacement for quality.
 
 ### Don't Assume Too Much
