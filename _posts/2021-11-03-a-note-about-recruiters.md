@@ -82,6 +82,7 @@ Here's another bad pitch (and it's real):
 > We're looking for someone full-time. Rails dev. will be working on the product.
 >
 > Some benefits / what it's like working with us:
+>
 >     -  This position includes learning a lot (product & tech-wise),
 >     -  1 month paid vacation,
 >     -  100% flex hours, 100% remote,
