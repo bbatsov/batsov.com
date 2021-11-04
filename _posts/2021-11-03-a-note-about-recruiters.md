@@ -120,7 +120,7 @@ I recently got the following email from a recruiter:
 
 > I found your contacts via Github & went through your website (railsgirls.com), so I decided to contact you all in one email.
 
-The email was addressed to me and 2 other people who I happen to know from the local Rails community. [^2] That's a big no-no! Contacting multiple people with the same pitch
+The email was addressed to me and 3 other people who I happen to know from the local Rails community. [^2] That's a big no-no! Contacting multiple people with the same pitch
 is bad on multiple levels:
 
 - it's impersonal - you fail to acknowledge the different circumstances of everyone in the group
