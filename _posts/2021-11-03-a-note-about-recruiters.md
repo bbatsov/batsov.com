@@ -74,7 +74,7 @@ Messages that target the wrong thing can be extremely off-putting.
 
 ### Create a Great Pitch
 
-How many companies did you get a super generic message like the following:
+How many times did you get a super generic message like the following:
 
 > Greeting from X. I work for Y, a well-funded startup that's using blockchain
 > technology to revolutionize Z. Our team is growing rapidly and we are now looking for
