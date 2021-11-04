@@ -4,7 +4,6 @@ title: "SICP Distilled"
 date: 2014-08-29 18:15
 tags:
 - Clojure
-- Emacs
 ---
 
 [SICP Distilled](https://www.kickstarter.com/projects/1751759988/sicp-distilled)
