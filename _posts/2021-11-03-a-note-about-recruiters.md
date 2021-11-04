@@ -95,6 +95,23 @@ If you really want to get in touch with someone, take the time to find their ema
 
 And never call people on their personal phones out of the blue! That's super weird and creepy!
 
+### Don't Contact Multiple People Together
+
+I recently got the following email from a recruiter:
+
+> I found your contacts via Github & went through your website (railsgirls.com), so I decided to contact you all in one email.
+
+The email was addressed to me and 2 other people who I happen to know from the local Rails community. [^2] That's a big no-no! Contacting multiple people with the same pitch
+is bad on multiple levels:
+
+- it's impersonal - you fail to acknowledge the different circumstances of everyone in the group
+- it makes you look lazy
+- it's sloppy
+- if you've reached out to multiple people in the same company in this manner, it might create some tension and friction, as people may start to wonder will the others
+engage with the recruiter, is someone in the group actively looking for a job, etc.
+
+Don't ever do this!
+
 ### Don't be Pushy
 
 Sending me a new message to check if I got your old message sucks. People are busy and your "amazing opportunity" might not be on top of their todo list. You either get a response or you don't. No need to be annoying about this.
@@ -122,3 +139,4 @@ That's it. Short and simple.
 I know that technical recruiters are universally despised and frequently derived in the IT circles, but sadly the quality of their work is not helping the situation. Obviously not all technical recruiters are bad, I've had the good fortune to work with some truly amazing people in the field. But I've also experienced so many unpleasant interactions with crappy recruiters, that I totally understand the current sentiment towards people in this role. If I helped a single technical recruiter to do a better job, writing this guide was a fantastic investment on my part.
 
 [^1]: I built the technical recruitment operations in the last 3 start-ups I worked for, so I feel I'm somewhat qualified in the subject matter.
+[^2]: We were all involved in http://railsgirls.com/sofia, which I guess for the recruiter is pretty much the same as http://railsgirls.com/ being our website.
