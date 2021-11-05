@@ -20,6 +20,17 @@ and I'm really bad at it![^3]
 
 ## About (think)
 
+(think) is my personal blog. It started with a focus on programming and Linux,
+but its scope got broader with time. The name (think) is a reference to several things:
+
+- My love for IBM's ThinkPad laptops. THINK has been one of the company's slogan for over 100 years (ever since 1911).
+- My love for Apple and their slogan "Think Different" (which takes a stab at IBM, of course).
+- My love for IMAX movies and IMAX's slogan "Think Big".
+- My love for Lisps and parentheses.
+- My love for thinking about all sorts of random things.
+
+Thinking outside the box might be cool, but nothing beats thinking inside parentheses.
+
 This site was my first attempt to write. I failed miserably and I produced some pretty
 crappy content, but I also learned a lot in the process.
 
