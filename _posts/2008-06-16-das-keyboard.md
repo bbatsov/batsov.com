@@ -10,7 +10,7 @@ Every professional developer knows how important to the development
 process the keyboard is, so it is only natural to be on the look for
 some quality piece of hardware. After a long research in the area of
 good keyboards I decided to upgrade my current rig to the recently
-released [Das Keyboard 3](https://deskthority.net/wiki/Das_Keyboard_III#:~:text=The%20Das%20Keyboard%20III%20was,are%20plate%2Dmounted%20Cherry%20MX.).
+released [Das Keyboard 3](https://deskthority.net/wiki/Das_Keyboard_III).
 
 ![Das Keyboard 3](https://deskthority.net/wiki/images/0/0e/Das_keyboard_3_model_s_ultimate_iso_topview.jpg)
 
@@ -21,7 +21,7 @@ keys that doesn't produce the trademarked clicking sound of the
 original Das Keyboard).[^1]
 
 I bought the Ultimate model, of course. I've been a touch typist for
-several years now and I didn't really cared about the labelled
+several years now and I didn't really care about the labelled
 keys (though I did miss them in games). Two words describe this
 keyboard perfectly - **bad ass**. It's without a doubt the single
 finest piece of keyboard hardware that I've touched, it's very
@@ -38,11 +38,11 @@ and charge devices. When your computer is sitting beneath a desk you
 learn to appreciate USB hubs very quickly.
 
 I have long heard stories about Das Keyboard's quality
-and comfort and I it has totally lived up to its hype. They price is
+and comfort and it has totally lived up to its hype. The price is
 admittedly a bit steep (I bought two keyboards (for home and for work),
 each costing $130), but this is our hands and productivity we're
 talking about so we shouldn't be cheap. So what are
-waiting for - research the market yourselves and make your pick! Your
+you waiting for - research the market yourselves and make your pick! Your
 hands deserve a quality keyboard (the Das Keyboard)!
 
 [^1]: The clicky versions have Cherry MX Blue keyswitches and the "silent" version has Cherry MX Brown.
