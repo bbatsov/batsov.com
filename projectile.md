@@ -2,7 +2,5 @@
 layout: single
 title: Projectile
 permalink: /projectile/
+redirect_to: https://docs.projectile.mx
 ---
-
-The documentation for Projectile is no longer available here. Visit
-<https://docs.projectile.mx> instead.
