@@ -18,6 +18,12 @@ The above paragraph is actually what I typically use as my bio for
 [conference talks](/presentations/). I love speaking at conferences
 and I'm really bad at it![^3]
 
+You can learn way more about me from:
+
+- the articles I wrote here.
+- [the books I read](https://www.goodreads.com/bozhidar). Supposedly you can learn a lot about a person by their choice of books.
+- [my professional resume](https://github.com/bbatsov/cv). Hmm, seems I haven't updated it in 11 years. Better visit my [LinkedIn profile](https://linkedin.com/in/bbatsov) instead.
+
 ## About (think)
 
 (think) is my personal blog. It started with a focus on programming and Linux,
