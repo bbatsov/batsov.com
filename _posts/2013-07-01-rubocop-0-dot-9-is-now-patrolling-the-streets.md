@@ -7,7 +7,7 @@ tags:
 - RuboCop
 ---
 
-[RuboCop](https://github.com/rubocop-hq/rubocop) 0.9 is finally out! This
+[RuboCop](https://github.com/rubocop/rubocop) 0.9 is finally out! This
 was one of our most ambitious releases - over a month of work, ~250
 commits, lots of new cops and features and a lot less bugs.[^1] Here's the
 highlights.
@@ -74,6 +74,6 @@ work and polish anyways. If all goes well expect 1.0 by summer's end with:
 
 I hope you'll enjoy RuboCop 0.9. For the gory details, please take a
 look at the epic
-[Changelog](https://github.com/rubocop-hq/rubocop/blob/master/CHANGELOG.md#090-2013-07-01).
+[Changelog](https://github.com/rubocop/rubocop/blob/master/CHANGELOG.md#090-2013-07-01).
 
 [^1]: OK, I'm not sure about this, but I sincerely hope it's true.

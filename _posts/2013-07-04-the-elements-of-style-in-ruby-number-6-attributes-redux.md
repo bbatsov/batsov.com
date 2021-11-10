@@ -10,7 +10,7 @@ tags:
 Today we'll talk about attributes in Ruby.
 
 Let's start with the following rule from the
-[Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide):
+[Ruby Style Guide](https://github.com/rubocop/ruby-style-guide):
 
 > Use the `attr` family of functions to define trivial accessors or mutators.
 

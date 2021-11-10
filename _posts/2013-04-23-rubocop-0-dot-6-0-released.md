@@ -46,6 +46,6 @@ for x in (0..19) # rubocop:disable AvoidFor
 ```
 
 You can see all the gory details in the
-[changelog](https://github.com/rubocop-hq/rubocop/blob/master/CHANGELOG.md#060-2013-04-23). I hope you'll enjoy RuboCop 0.6.0!
+[changelog](https://github.com/rubocop/rubocop/blob/master/CHANGELOG.md#060-2013-04-23). I hope you'll enjoy RuboCop 0.6.0!
 
 [^1]: Fun fact - the entire release took only 6 days to develop.

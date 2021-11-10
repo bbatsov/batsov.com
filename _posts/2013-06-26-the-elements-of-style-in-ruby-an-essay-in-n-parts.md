@@ -6,7 +6,7 @@ tags:
 - Ruby
 ---
 
-[The Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide) is
+[The Ruby Style Guide](https://github.com/rubocop/ruby-style-guide) is
 nearing its second birthday. The project has gained more attention and
 more traction than I could have imagined. For the millionth time I was
 amazed by the fantastic Ruby developers around the world.
@@ -16,7 +16,7 @@ The project has also steadily evolved:
 - it covers more and more aspects of programming in Ruby
 - it features many more code examples
 - it is now translated in several languages
-- it gave birth to the automated static code analyzer [RuboCop](https://github.com/rubocop-hq/rubocop)
+- it gave birth to the automated static code analyzer [RuboCop](https://github.com/rubocop/rubocop)
 - it has become the basis for hundreds of slightly modified internal project or company style guides
 
 One common criticism for the Ruby style guide is that it doesn't

@@ -18,7 +18,7 @@ double-quoted strings, hashes that only use hash rockets, no spaces
 inside block parentheses and more of that sort.
 
 I've started the project with the simple goal of creating a tool to help you follow the
-[Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide) to the
+[Ruby Style Guide](https://github.com/rubocop/ruby-style-guide) to the
 letter - originally it didn't even have configuration options for that very reason
 The project, however, quickly outgrew its humble origin and became much more popular than I could have envisioned.
 Today we have a core team of RuboCop hackers, dozens of contributors and thousands of users.

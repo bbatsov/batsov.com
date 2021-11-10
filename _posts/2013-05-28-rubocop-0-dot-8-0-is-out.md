@@ -29,6 +29,6 @@ planned - providing an auto-fix functionality (meaning RuboCop will be
 able to fix on its own some of the problems detected) and providing
 more precise diagnostic messages (a-la `clang`).
 
-The changelog for 0.8.0 is available [here](https://github.com/rubocop-hq/rubocop/blob/master/CHANGELOG.md#080-2013-05-28).
+The changelog for 0.8.0 is available [here](https://github.com/rubocop/rubocop/blob/master/CHANGELOG.md#080-2013-05-28).
 
 Stay tuned for more!

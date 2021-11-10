@@ -46,7 +46,7 @@ with feedback and guidance.
 My projects are spread over several GitHub accounts:
 
 * [Personal Projects](https://github.com/bbatsov)
-* [RuboCop HQ](https://github.com/rubocop-hq)
+* [RuboCop HQ](https://github.com/rubocop)
 * [Clojure Emacs](https://github.com/clojure-emacs)
 * [nREPL](https://github.com/nrepl)
 

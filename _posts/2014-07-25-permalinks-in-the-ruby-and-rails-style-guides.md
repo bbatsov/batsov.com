@@ -7,10 +7,10 @@ tags:
 ---
 
 I'm happy to report that now you can use permalinks to the rules listed in the
-community [Ruby](https://github.com/rubocop-hq/ruby-style-guide) and [Rails](https://github.com/rubocop-hq/rails-style-guide) style guides.
+community [Ruby](https://github.com/rubocop/ruby-style-guide) and [Rails](https://github.com/rubocop/rails-style-guide) style guides.
 
 Here's an
-[example](https://github.com/rubocop-hq/ruby-style-guide#indent-when-to-case).
+[example](https://github.com/rubocop/ruby-style-guide#indent-when-to-case).
 Now you can easily refer to rules in heated style debates with your
 friends and co-workers.
 

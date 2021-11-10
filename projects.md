@@ -12,7 +12,7 @@ help software engineers be more productive.
 My projects are spread over several GitHub accounts:
 
 * [Personal Projects](https://github.com/bbatsov)
-* [RuboCop HQ](https://github.com/rubocop-hq)
+* [RuboCop HQ](https://github.com/rubocop)
 * [Clojure Emacs](https://github.com/clojure-emacs)
 * [nREPL](https://github.com/nrepl)
 
@@ -23,10 +23,10 @@ Here's a brief run-down of my (somewhat) popular projects.[^1]
 ### Ruby
 
 * [RuboCop](http://rubocop.org)
-* [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide)
-* [Rails Style Guide](https://github.com/rubocop-hq/rails-style-guide)
-* [RSpec Style Guide](https://github.com/rubocop-hq/rspec-style-guide)
-* [Minitest Style Guide](https://github.com/rubocop-hq/minitest-style-guide)
+* [Ruby Style Guide](https://github.com/rubocop/ruby-style-guide)
+* [Rails Style Guide](https://github.com/rubocop/rails-style-guide)
+* [RSpec Style Guide](https://github.com/rubocop/rspec-style-guide)
+* [Minitest Style Guide](https://github.com/rubocop/minitest-style-guide)
 
 ### Clojure
 
