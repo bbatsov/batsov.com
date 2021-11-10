@@ -1,11 +1,17 @@
 ---
 layout: single
-title: "Career development - Should I stay or should I go?"
+title: "Should I stay or should I go?"
+redirect_from:
+- /articles/2011/04/29/career-development/
 tags:
 - Career
 ---
 
 ## Prelude
+
+> Should I stay or should I go now, should I stay or should I go now
+> If I go there will be trouble, if I stay it will be double
+> So come on and let me know
 
 I guess nothing describes more appropriately the essence of career
 development than the famous song by [The Clash](http://www.youtube.com/watch?v=V1Gn0e7kvTA).
