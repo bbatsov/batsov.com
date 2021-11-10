@@ -9,8 +9,8 @@ tags:
 
 ## Prelude
 
-> Should I stay or should I go now, should I stay or should I go now
-> If I go there will be trouble, if I stay it will be double
+> Should I stay or should I go now, should I stay or should I go now <br>
+> If I go there will be trouble, if I stay it will be double <br>
 > So come on and let me know
 
 I guess nothing describes more appropriately the essence of career
