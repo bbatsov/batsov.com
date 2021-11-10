@@ -2,7 +2,5 @@
 layout: single
 title: RuboCop
 permalink: /rubocop/
+redirect_to: https://rubocop.org
 ---
-
-The documentation for RuboCop is no longer available here. Visit
-<https://www.rubocop.org> instead.
