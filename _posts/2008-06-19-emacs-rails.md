@@ -8,8 +8,6 @@ tags:
 - Rails
 ---
 
-**Updated 29/04/2011**
-
 Lately, I’ve started digging more and more into Rails, preparing for
 the start of a Rails powered project. Although there are some IDEs
 offering decent Rails support (namely RubyMine, NetBeans, Komodo and
@@ -81,4 +79,4 @@ few `ruby-mode` customizations, `yari` (`ri` integration for Emacs), haml and
 sass modes, `autopair`, `yaml-mode`, `yasnippet`, `css-mode`, `ecb` and a lot of
 other goodies ([Projectile](https://github.com/bbatsov/projectile) being one of my favourites).
 
-I hope you enjoy this setup and it helps boost your Rails productivity in Emacs.
+I hope you'll enjoy this setup and that it will help boost your Rails productivity in Emacs.
