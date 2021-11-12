@@ -21,7 +21,7 @@ and I'm really bad at it![^3]
 I've always struggled to write about myself, so I'll just list here some
 random trivia that might give you some idea about the type of person I am:
 
-- I got my first computer in 1998. It cost $1011 and it had a Pentium II Klamath @ 300 Mhz CPU, 32 GB of RAM, 5.1 GB HDD and a Diamond Viper V330 GPU (with 4MB of memory). I didn't plan to do any programming on it.
+- I got my first computer in 1998. It cost $1011 and it had a Pentium II Klamath @ 300 Mhz CPU, 32 MB of RAM, a Quantum Fireball 5.1 GB HDD and a Diamond Viper V330 GPU (with 4MB of memory and 3D acceleration). I didn't plan to do much (any) programming on it.
 - I studied CS in high-school, but I didn't really think I'd end up as a programmer. Programming felt like something quite boring when I was a kid.
 - Cinema's one of my biggest obsessions. I've been a devoted movie-goer since 1995, when I went to see "Toy Story".
 - When I was little I thought that all you need in life in an unlimited supply of chocolate and bananas. Turned out I was wrong.
