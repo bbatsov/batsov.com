@@ -26,7 +26,7 @@ random trivia that might give you some idea about the type of person I am:
 - Cinema's one of my biggest obsessions. I've been a devoted movie-goer since 1995, when I went to see "Toy Story".
 - When I was little I thought that all you need in life in an unlimited supply of chocolate and bananas. Turned out I was wrong.
 - My first trip abroad was to Budapest, Hungary. I did it for my 24th birthday. Since then I've become quite passionate about exploring the world and I visited 60 countries.
-- I'm a bit comic book fan. Batman is my favorite superhero. I went to see "The Dark Knight" 7 times.
+- I'm a big comic book fan. Batman is my favorite superhero. I went to see "The Dark Knight" 7 times.
 - I once watched "Gladiator" around 20 times in one week. I used to know every line in the movie.
 - When renting video tapes was a thing, I'd typically watch every movie that I rented 3 times. No matter how bad it was.
 - I love music and it has always been a big part of my life. I mostly listen to hard rock and indie rock. My first audio tapes were bootleg recordings of some Nirvana and Offspring albums. I'm not ashamed to admit that around 1995 I liked Spice Girls and Backstreet Boys more than rock.
