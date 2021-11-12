@@ -282,6 +282,12 @@ compress_html:
   ignore:
     envs: development
 
+# jekyll-feed config
+feed:
+  path: atom.xml
+  categories:
+    - Emacs
+
 # Defaults
 defaults:
   # _posts
