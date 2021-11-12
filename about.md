@@ -39,7 +39,7 @@ random trivia that might give you some idea about the type of person I am:
 
 You can learn way more about me from:
 
-- the articles I wrote here.
+- the articles I wrote here and elsewhere.
 - [the books I read](https://www.goodreads.com/bozhidar). Supposedly you can learn a lot about a person by their choice of books.
 - [my professional resume](https://github.com/bbatsov/cv). Hmm, seems I haven't updated it in 11 years. Better visit my [LinkedIn profile](https://linkedin.com/in/bbatsov) instead.
 
