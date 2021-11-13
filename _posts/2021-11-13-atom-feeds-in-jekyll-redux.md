@@ -42,7 +42,9 @@ feed:
   tags: true
 ```
 
-Now you'll end up with a bunch of feeds like `/feed/by_tag/emacs.xml`, `/feed/by_tag/clojure.xml`, etc. Generating feeds for all tags is probably an overkill for most people, so you can narrow this down to the tags you care about:
+Now you'll end up with a bunch of feeds like `/feed/by_tag/emacs.xml`, `/feed/by_tag/clojure.xml`, etc. Note that as with categories `jekyll-feed` won't lowercase tag names, so "ruby" and "Ruby" will be considered different and will result in the creation of two separate tag feeds.
+
+Generating feeds for all tags is probably an overkill for most people, so you can narrow this down to the tags you care about:
 
 ``` yaml
 feed:
