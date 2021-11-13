@@ -100,6 +100,11 @@ the built-in MacBook keyboard[^5].
 
 The source code of the site is freely available at [GitHub](https://github.com/bbatsov/think.batsov.com).
 
+## Disclaimer
+
+This is my personal site and it expresses my own personal opinions and nothing else.
+Shocker, right?
+
 [^1]: Божидар in Bulgarian. I know, I know - that's both pretty hard to read and to pronounce. My friends call me Bug and so can you.
 [^2]: Especially Lisps! And Unix-like operating systems! And Emacs! And video games!
 [^3]: But at least I'm honest with myself.
