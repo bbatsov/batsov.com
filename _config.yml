@@ -285,8 +285,13 @@ compress_html:
 # jekyll-feed config
 feed:
   path: atom.xml
-  categories:
-    - Emacs
+  tags:
+    path: "/feeds/"
+    only:
+      - Emacs
+      - Ruby
+      - Clojure
+      - Meta
 
 # Defaults
 defaults:
