@@ -58,7 +58,7 @@ After migrating to Minimal Mistakes I managed to mess up the following:
 
 - I forgot to include the `jekyll-feed` settings in my `_config.yml`, as I started with a fresh config for the new theme.
 - I couldn't remember how the category feeds were named. As I couldn't find the info in the project's README I had to consult the specs to sort this out. I'll propose some small documentation update to the project maintainers.
-- I kept wondering why https://batsov.com/feed/emacs.xml results in a 404 error. Eventually I figured out the names were case-sensitive.
+- I kept wondering why <https://batsov.com/feed/emacs.xml> results in a 404 error. Eventually I figured out the names were case-sensitive.
 
 At least I didn't forget to update the `atom_feed` setting for Minimal Mistakes. It's good that this is a theme where the feed's path is not hardcoded in the theme's layouts.[^2]
 
