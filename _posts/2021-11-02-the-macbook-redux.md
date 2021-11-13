@@ -46,8 +46,10 @@ lasts even an hour and when it dies it often screws the laptop clock.
 - the keyboard got stuck more times than I could count. In end I figured out that simply slamming the side of the laptop on a desk/table is the best way to fix it.
 And I certainly wasn't very gentle when doing this. I will remember this keyboard as the worst laptop keyboard I've ever used.
 
-I guess I wasn't the only person unhappy with the MacBook, as it was discontinued by Apple after only 3 iterations (mine was the final one), and replaced by the MacBook Airwith Retina display.
-The irony of this is epic - to be replaced by the tool you had supposedly rendered obsolete...
+I guess I wasn't the only person unhappy with the MacBook, as it was
+discontinued by Apple after only 3 iterations (mine was the final one), and
+replaced by the MacBook Air with Retina display.  The irony of this is epic - to
+be replaced by the tool you had supposedly rendered obsolete...
 
 This leads me to the reason for writing this article. Now that my MacBook is dying and the transition to Apple's M1 silicon is in full swing, I cannot help but wonder
 if the MacBook wasn't just ahead of its time. I still believe there are plenty of people who value portability more than performance, and something like the MacBook with
