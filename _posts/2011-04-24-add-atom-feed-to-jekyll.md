@@ -13,6 +13,7 @@ sucks). It was quite the easy task. I just had to create an
 and place it in the root of my blog. Here's source code for the feed:
 
 ``` xml
+{% raw %}
 ---
 layout: nil
 ---
@@ -44,6 +45,7 @@ layout: nil
   {% endfor %}
 
 </feed>
+{% endraw %}
 ```
 
 Basically, we're using Liquid to generate the necessary Atom XML structure. You can easily tweak this code for your own purposes (e.g. you might want to filter out certain posts, etc).
