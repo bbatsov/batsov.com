@@ -52,6 +52,16 @@ feed:
       - clojure
 ```
 
+You can also adjust the path for tag feeds, if you don't like the default:
+
+``` yaml
+feed:
+  tags:
+    path: "feed/topics/"
+```
+
+You can even shorten it to `feed/` if won't be using category feeds.
+
 `jekyll-feed` has plenty of additional settings, but those are the only ones that I ever needed. Still, as mentioned earlier, I keep forgetting some details about them, which results in silly mistakes from time to time.
 
 After migrating to Minimal Mistakes I managed to mess up the following:
