@@ -59,12 +59,12 @@ Thinking outside the box might be cool, but nothing beats thinking inside parent
 This site was my first attempt to write. I failed miserably and I produced some pretty
 crappy content, but I also learned a lot in the process.
 
-These days most of my writing happens at [Meta Redux](https://metaredux.com), but
+These days (circa 2021) most of my writing on topics related to programming and my OSS projects happens at [Meta Redux](https://metaredux.com), but
 I still post here things that are worth sharing, but don't fit the overall
 vision of Meta Redux. Not to mention that my vision for (think) and Meta Redux
 changes quite often.
 
-I guess I'll mostly be writing here on programming-related topics, but who knows...
+I guess I'll be writing here occasionally on programming-related topics, but who knows...
 Knowing me there's a high chance I won't actually write anything at all!
 
 ## About My Other Blogs
