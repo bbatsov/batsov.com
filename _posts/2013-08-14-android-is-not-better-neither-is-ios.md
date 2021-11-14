@@ -9,8 +9,8 @@ tags:
 
 ## Prelude
 
-The following few days Paul Stamatiou’s article
-[Android Is Better](http://paulstamatiou.com/android-is-better) and
+In the last few days Paul Stamatiou’s article
+[Android is Better](http://paulstamatiou.com/android-is-better) and
 Marco Arment's excellent response
 [Google Blindness](http://www.marco.org/2013/08/13/google-blindness)
 have been generating a lot of heated debates. This article is pretty
@@ -195,10 +195,10 @@ the love of God, buy it from the Play Store!
 iOS as an OS is pretty underwhelming (but iOS 7 might change
 that). The iOS ecosystem on the other hand is pretty awesome! A
 complete fusion of software and hardware - much the same as a Mac +
-Mac OS.
+macOS.
 
 All things considered it's pretty hard to make judgement calls like
-**one is better than the other**. I like them both to some extend for
+**one is better than the other**. I like them both to some extent for
 various reasons - for now I use an iPhone, but who knows what the
 future holds for me. I don't suffer from brand loyalty to tech
 companies, the only brands I'm truly loyal to are New Balance and BMW.
@@ -206,5 +206,5 @@ companies, the only brands I'm truly loyal to are New Balance and BMW.
 The important takeaway for you, dear reader, is not to take fanboy
 fiction at face value, but to think for yourself, to be skeptical and
 analytical and to make your own conclusions. Your personality,
-preferences and needs alone determine what is the OS/device/etc for
+preferences and needs alone determine what is the better (best?) OS/device/etc for
 you!
