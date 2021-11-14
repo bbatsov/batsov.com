@@ -13,7 +13,7 @@ for you online the results they'll see first are the results you want them to
 see - e.g. a nice personal site, a solid LinkedIn profile, some videos of you
 presenting at various conferences, etc.
 
-I think everyone will agree that's preferable to finding first some embarrassing/sloppy content about you instead. I guess all of us have some of this, and that's okay, as long as it's not dominating our online "brand". Online anonymity is another option you can explore, but this will likely cost you all sorts of lost opportunities, so I wouldn't recommend going in this direction.
+I think everyone will agree that's preferable to finding first some goofy/embarrassing/sloppy content about you instead.[^1] I guess all of us have some of this, and that's okay, as long as it's not dominating our online "brand". Online anonymity is another option you can explore, but this will likely cost you all sorts of lost opportunities, so I wouldn't recommend going in this direction.
 
 You might be wondering where am I going with all of this. I recently Googled my name
 and I noticed that the first matches people get about me are:
@@ -54,3 +54,5 @@ I consider ignoring it a mistake. It's not about getting more job offers, it's a
 When it comes to writing I strongly prefer to publish my articles on my own sites, instead of 3rd party services like Medium, dev.to, platforms that pay external authors for content and so on. Anything (meaningful) I wrote is a reflection of myself, so I'd rather it be closely associated with my name and my brand. That's another argument in favor of picking domains with your name in it, instead of cool domains like ninjahacker.guru. Still, the content matters much more than the domain under which it's published. There's no substitute for good content.
 
 That's all I have for you today. A personal brand has many aspects, and the Internet is just one of them. There's also the brand you have built in your community/family, on your job, etc. Those, however, are outside the scope of today's short post on the subject. My thoughts were a bit messier than usual, but I hope I managed to get the message across. Now go create a great personal brand for yourselves.
+
+[^1]: E.g. a video of me practicing for karaoke some 15 years ago! You'll have to look very hard to find this one, though.
