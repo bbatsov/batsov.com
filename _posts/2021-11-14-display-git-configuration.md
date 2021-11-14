@@ -60,9 +60,24 @@ local   core.ignorecase=true
 
 It can be combined with `--show-origin` or the following:
 
-* `--local` for project (repo) config
+* `--local` for repository config
 * `--global` for user config
 * `--system` for all users' config
+
+Pretty much everything related to `git config` can be combined with those flags.
+Here's how to list only the settings defined within the current repository:
+
+``` shell
+$ git config --list --show-origin --local
+file:.git/config        core.repositoryformatversion=0
+file:.git/config        core.filemode=true
+file:.git/config        core.bare=false
+file:.git/config        core.logallrefupdates=true
+file:.git/config        remote.origin.url=git@github.com:bbatsov/batsov.com.git
+file:.git/config        remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config        branch.master.remote=origin
+file:.git/config        branch.master.merge=refs/heads/master
+```
 
 Of course, you can also consult specific settings if you remember their names:
 
