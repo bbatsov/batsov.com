@@ -58,7 +58,7 @@ local   core.symlinks=false
 local   core.ignorecase=true
 ```
 
-It can be combined with `--show-origin` or the following:
+It can be combined with `--show-origin` or the following flags:
 
 * `--local` for repository config
 * `--global` for user config
