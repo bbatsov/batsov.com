@@ -5,7 +5,7 @@ date: 2018-11-05 22:46 +0100
 tags:
 - Jekyll
 - Octopress
-- Tutorial
+- Tutorials
 ---
 
 After dreading the migration of this site from Octopress 2 to Jekyll
