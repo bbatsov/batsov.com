@@ -38,7 +38,7 @@ You can obviously have a lot more online presence if you wish to - e.g. I like w
 
 Here are a few guidelines for a good personal site:
 
-- focus on the content, not the visuals
+- focus on the content, not the visuals[^2]
 - less (good) content is better than lots of (any) crappy content
 - use a custom domain for your site, ideally something with your name in it (e.g. `batsov.com` or `bbatsov.net` in my case)
 - highlight there everything you think reflects the brand you're aiming for (background, work, causes you're passionate about, hobbies, life goals, etc)
@@ -56,3 +56,4 @@ When it comes to writing I strongly prefer to publish my articles on my own site
 That's all I have for you today. A personal brand has many aspects, and the Internet is just one of them. There's also the brand you have built in your community/family, on your job, etc. Those, however, are outside the scope of today's short post on the subject. My thoughts were a bit messier than usual, but I hope I managed to get the message across. Now go create a great personal brand for yourselves.
 
 [^1]: E.g. a video of me practicing for karaoke some 15 years ago! You'll have to look very hard to find this one, though.
+[^2]: Unless the visuals are the content (e.g. you're an artist or a designer). In general good visuals never hurt, but the content is king.
