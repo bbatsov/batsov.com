@@ -4,8 +4,8 @@ title: Rename Multiple Files in Linux
 date: 2020-11-21 19:16 +0200
 tags:
 - Linux
-- Utils
 - Z Shell
+- Tutorials
 ---
 
 From time to time we need to rename a bunch of files according to some
@@ -67,7 +67,7 @@ the `zmv` utility it bundles:
 $ zmv '(*).markdown' '$1.md'
 ```
 
-While `zmv` doesn't use regular expressions, it's matching and substitution functionality should cover pretty much
+While `zmv` doesn't use regular expressions, its matching and substitution functionality should cover pretty much
 everything you decide to throw at it.
 Note that `zmv` is usually not enabled by default and you might have to load it manually before using it:
 
