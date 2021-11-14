@@ -51,4 +51,6 @@ are so bad, that I'd happily delete them, but I keep them around to remind mysel
 I don't like LinkedIn much, so for many years my profile there was almost empty, but knowing that's the first result many people get about me,
 I consider ignoring it a mistake. It's not about getting more job offers, it's about people finding something meaningful attached to my name.
 
+When it comes to writing I strongly prefer to publish my articles on my own sites, instead of 3rd party services like Medium, dev.to, platforms that pay external authors for content and so on. Anything (meaningful) I wrote is a reflection of myself, so I'd rather it be closely associated with my name and my brand. That's another argument in favor of picking domains with your name in it, instead of cool domains like ninjahacker.guru. Still, the content matters much more than the domain under which it's published. There's no substitute for good content.
+
 That's all I have for you today. A personal brand has many aspects, and the Internet is just one of them. There's also the brand you have built in your community/family, on your job, etc. Those, however, are outside the scope of today's short post on the subject. My thoughts were a bit messier than usual, but I hope I managed to get the message across. Now go create a great personal brand for yourselves.
