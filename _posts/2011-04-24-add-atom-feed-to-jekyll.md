@@ -4,6 +4,7 @@ title: "Add an Atom feed to a Jekyll blog"
 tags:
 - Jekyll
 - Atom
+- Tutorials
 ---
 
 As you know I've recently migrated my blog from WordPress to

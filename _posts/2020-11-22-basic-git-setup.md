@@ -4,6 +4,7 @@ title: Basic Git Setup
 date: 2020-11-22 11:32 +0200
 tags:
 - Git
+- Tutorials
 ---
 
 Every time I change my computer or my operating system[^1], one of the first
