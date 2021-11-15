@@ -11,7 +11,7 @@ internet domains. Given how popular `.com`
 has become, I find it really strange that `.net` failed to
 reach such prominence. Even `.org` is more popular than `.net`!
 
-<a href="https://www.statista.com/statistics/265677/number-of-internet-top-level-domains-worldwide/" rel="nofollow"><img src="https://www.statista.com/graphic/1/265677/number-of-internet-top-level-domains-worldwide.jpg" alt="Statistic: Most popular top-level domains worldwide as of April 2021 | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a><br />Find more statistics at  <a href="https://www.statista.com" rel="nofollow">Statista</a>
+<a href="https://www.statista.com/statistics/265677/number-of-internet-top-level-domains-worldwide/" rel="nofollow"><img src="https://www.statista.com/graphic/1/265677/number-of-internet-top-level-domains-worldwide.jpg" alt="Statistic: Most popular top-level domains worldwide as of April 2021 | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a>
 
 That's quite disappointing, as I think that historically `.net` was the best
 domain for personal sites, for various reasons:
