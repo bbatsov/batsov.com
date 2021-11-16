@@ -58,11 +58,11 @@ Spacemacs, one of the most popular Emacs distributions, has famously proven that
 
 On a more practical note I'll also mention that Emacs has improved a lot since the time of my original article. Here are a few highlights:
 
-- Today we have more great Emacs packages than ever. I blame the rise of GitHub and MELPA for that. The old maxim "Emacs has a mode for it!" is truer than ever.
+- Today we have more great Emacs packages than ever. I blame the rise of GitHub and [MELPA](https://melpa.org) for that. The old maxim "Emacs has a mode for it!" is truer than ever.
 - Emacs's internal APIs are much more powerful than before. One can see that Clojure certainly influenced a few of them (e.g. `if-let`, `thread-first`, `seq.el`, `map.el`, etc).
 - Emacs now supports a limited form of concurrency (introduced in Emacs 26).
 - Emacs 27 started shipping a built-in JSON parser.
-- Emacs has good support for LSP, which allows us to harvest the efforts of a lot of people for free. The gap between Emacs and VS Code and IDEs is a lot narrower than it used to be.
+- Emacs has [good support for LSP](https://github.com/emacs-lsp/lsp-mode), which allows us to harvest the efforts of a lot of people for free. The gap between Emacs and VS Code and IDEs is a lot narrower than it used to be.
 - Emacs 28 will bring massive performance gains with [native compilation](https://akrl.sdf.org/gccemacs.html).
 - Emacs has fantastic support for programming in Clojure.[^3] I think the popularity of Clojure and the fact that Emacs was the only editor to support it well early on gave Emacs a massive boost around the time of my original article.
 - Emacs 29 will bring us [proper support for emojis](https://lars.ingebrigtsen.no/2021/10/28/emacs-emojis-a-%e2%9d%a4%ef%b8%8f-story/)!
