@@ -43,11 +43,18 @@ possible editor for _you_ and you alone. That's the reason why you should consid
 
 Of course, one can make pretty much the same argument for our arch rival vim, and perhaps even for the modern king of editors VS Code. I've always liked `vim`
 and can't say anything bad about it, other than I still don't like Vimscript. For me, personally, the ability to extend Emacs easily with Emacs Lisp remains
-its number one advantage over vim.[^2] For all the good things that VS Code has brought to the table (e.g. LSP), I'm still somewhat skeptical about it in the long run.
+its number one advantage over vim.[^2] There's also the fact that you can re-create much of the vim experience with Emacs, but you'll be hard pressed to re-create the
+Emacs experience in vim.
+
+For all the good things that VS Code has brought to the table (e.g. LSP), I'm still somewhat skeptical about it in the long run.
 I don't like open-source projects that are de-facto owned by one company. There's always the conflict of interest between the company's agenda and the needs of its
 users, and we know that the interests of the company usually come first.
 
 I've also seen plenty of new editors rise and fall in the past 20 years - Komodo, TextMate, Sublime Text, Atom, etc. Emacs and vim are the only editors that stood the test of time, and I have a feeling they will be with us for decades to come. This means that an investment in them will be likely paying you dividends much longer than an investment in a newer editor or IDE.
+
+I'll not go into details about the level of customization one can achieve in Emacs, as there are endless possibilities at every conceivable level.
+Besides thousands of third-party packages and the numerous configuration options (`defcustom`s) for anything and everything, every long-time Emacs user would have a bunch of custom Emacs commands that are unique to their use-cases and their way of working. The various Emacs distributions that exist today give you a different starting point on which to build upon. I like to think of them as different flavors of building materials, or foundations if you will.
+Spacemacs, one of the most popular Emacs distributions, has famously proven that you can build a rather faithful version of vim with Emacs.
 
 On a more practical note I'll also mention that Emacs has improved a lot since the time of my original article. Here are a few highlights:
 
