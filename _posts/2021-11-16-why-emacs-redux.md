@@ -64,7 +64,7 @@ And that's only the tip of the iceberg. Emacs is definitely not standing still a
 evolving and getting better. It's safe to say that Emacs is no sinking ship, regardless of its modest usage compared to the likes
 of vim and VS Code.
 
-So, why should you use Emacs in 2021?
+So, why should you try Emacs in 2021?
 
 - You're a curious person and a constant tinkerer who likes playing with vintage software. You happen to have a lot of extra time at home on your hands because of the pandemic and you want to make the best of it.
 - You want to experience life outside the mainstream.
