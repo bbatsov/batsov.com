@@ -1,13 +1,15 @@
 ---
 layout: single
 title: "One shell to rule them all..."
+toc: true
 tags:
 - Z Shell
+- Tutorials
 ---
 
 ## Prelude
 
-I've been using zsh for about three years now and continue to be
+I've been using [Z Shell](https://zsh.sourceforge.io/) (a.k.a. `zsh`) for about three years now and continue to be
 impressed the its immense power and flexibility. Switching from bash
 to zsh was a decision as good as switching from Windows to GNU/Linux,
 from vim to Emacs, from Eclipse to IntelliJ IDEA. In other words - it
@@ -34,7 +36,7 @@ you to enable them all except the beep option. In the end the wizard
 will save the new configuration to the file .zshrc in your user's home
 folder.
 
-Alternatively you may just use a preconfigured .zshrc, like this one:
+Alternatively you may just use a preconfigured `.zshrc`, like this one:
 
 ``` bash
 # Lines configured by zsh-newuser-install
@@ -55,17 +57,17 @@ compinit
 
 I don't like very much the default zsh prompt and I generally change
 it right away. Have a look at my other
-[short article](/Z%20Shell/Linux/2008/07/27/zsh-prompt.html) on the topic.
+[short article]({% post_url 2008-07-27-zsh-prompt %}) on the topic.
 
 There a couple of configuration files related to zsh that you should
 know about:
 
-* .zshrc - runs for each new shell(roughly equivalent to .bashrc)
-* .zprofile - runs only for login shells(like .bash_profile)
-* .zlogout - runs on logout
-* .zshenv - holds environmental variables
+* `.zshrc` - runs for each new shell (roughly equivalent to `.bashrc`)
+* `.zprofile` - runs only for login shells (like `.bash_profile`)
+* `.zlogout` - runs on logout
+* `.zshenv` - holds environmental variables
 
-Here's an example .zshenv file:
+Here's an example `.zshenv` file:
 
 ``` bash
 export JAVA_HOME=/usr/java/latest
@@ -148,8 +150,8 @@ zsh: correct 'cta' to 'cat' [nyae]?
 ## Keybindings
 
 By default zsh uses Emacs keybindings which is perfect for a long time
-Emacs user like me. zsh doesn't use readline, instead it has its own
-line editing library called zle, which is much more powerful. vi users
+Emacs user like me. zsh doesn't use `readline`, instead it has its own
+line editing library called `zle`, which is much more powerful. vi users
 are not forgotten and can switch zsh to vi keybindings with the
 command:
 
@@ -206,9 +208,9 @@ cd ...
 
 ## Some tips and tricks
 
-* press Alt+q in the middle of a command you're typing. This will clear
+* press `Alt+q` in the middle of a command you're typing. This will clear
 the console prompt and allow you execute another command(like a man lookup). Afterwards
-the things you've typed before the Alt+q will magically reappear.
+the things you've typed before the `Alt+q` will magically reappear.
 
 * Imagine you're in the folder **project/4.0/module**. Typing:
 
@@ -216,11 +218,10 @@ the things you've typed before the Alt+q will magically reappear.
 cd 4.0 5.0
 ```
 
-Will take you to a folder named project/5.0/module(assuming that it exists of course). In general
+Will take you to a folder named project/5.0/module (assuming that it exists of course). In general
 the command has the format `cd old new`.
 
-* zsh comes with a built-in pager(similar to less). To try it just type <somefilename. This is
-  more or less equivalent to typing `less somefilename`.
+* zsh comes with a built-in pager (similar to `less`). To try it just type <somefilename. This is more or less equivalent to typing `less somefilename`.
 
 ## Useful resources
 
@@ -234,6 +235,7 @@ the command has the format `cd old new`.
 
 ## Epilogue
 
-There is no easy way to sum up everything that makes zsh great in a single blog post. I'll try to
-expand and improve it in time. I hope I've whetted your appetite to try out zsh. If you like it
-well enough(of which I'm most certain you should have a look at the resources in the end as well).
+There is no easy way to sum up everything that makes zsh great in a single blog
+post. I'll try to expand and improve it in time. I hope I've whetted your
+appetite to try out zsh. If you like it well enough (of which I'm most certain)
+you should have a look at the resources in the end as well.
