@@ -3,6 +3,7 @@ layout: single
 title: Contact
 permalink: /contact/
 author_profile: true
+toc: true
 ---
 
 ## General Notes

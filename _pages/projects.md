@@ -3,6 +3,7 @@ layout: single
 title: Projects
 permalink: /projects/
 author_profile: true
+toc: true
 ---
 
 I love free software and I do a fair share of work on free software projects.
