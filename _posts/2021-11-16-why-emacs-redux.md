@@ -6,7 +6,7 @@ tags:
 ---
 
 > redux <br>
-> adjective <br>
+> adjective
 >   1. brought back; resurgent: <br>
 >   the Victorian era redux.
 
