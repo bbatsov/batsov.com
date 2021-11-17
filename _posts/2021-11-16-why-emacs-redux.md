@@ -79,11 +79,15 @@ So, why should you try Emacs in 2021?
 - You want to build an editor that's uniquely tailored to your needs and preferences.
 
 Beware - Emacs is highly addictive and it might easily consume years of your life! I guess I've spent just as much time on
-Emacs projects as I did on refining my Emacs configuration. Now, it's time to repeat after me the following chant 3 times:
+Emacs projects as I did on refining my Emacs configuration.
+
+So, we're almost at the end. There's just one more thing to do at this point - repeat after me the following chant[^4] 3 times:
 
 > Emacs is power!
 >
 > Emacs is magic!
+>
+> Emacs is fun!
 >
 > Emacs is forever!
 
@@ -92,3 +96,4 @@ You're now ready to begin your life-long journey to Emacs mastery. Meta-x foreve
 [^1]: Or an individual contributor (IC), as this is known in some companies.
 [^2]: You know me - I love Lisps!
 [^3]: Just google for CIDER. :-)
+[^4]: If you need some inspiration just watch the first 30 seconds of [this video](https://www.youtube.com/watch?v=8wLwbpCxRf0).
