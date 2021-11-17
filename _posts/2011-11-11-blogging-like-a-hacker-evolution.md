@@ -11,7 +11,7 @@ tags:
 
 I've started my personal blog some three years ago. Back then in was
 hosted on [wordpress.com](http://wordpress.com) and was called
-devcraft.wordpress.com. I had a lot of interesting (at least to me)
+Devcraft (<https://devcraft.wordpress.com>). I had a lot of interesting (at least to me)
 topics to write about on my mind, but I was immediately faced with a
 serious problem - I felt very uncomfortable writing posts in a small
 text area, using the primitive editing capabilities of a web
@@ -90,7 +90,7 @@ bothered me with it:
   fine if you have a sense for design, when you're someone like me
   that could yield some pretty ugly designs. I was so out of ideas
   that I designed my Jekyll layout to look like my Emacs (down to the
-  Zenburn color theme) for which I got a lot of flak.
+  Zenburn color theme) for which I got a lot of flak.[^1]
 
 * Maruku is a really crappy Markdown processor. I wished something
   like RedCarpet was the default and that fenced code blocks (ala
@@ -164,3 +164,5 @@ I love Octopress! I used to be a sad blogger and now I'm a happy
 blogger. If you're feeling like I felt - you should definitely give it
 a shot. I'll probably do a few follow up articles with some tips &
 tricks I've picked along the way with Octopress.
+
+[^1]: A lot of readers complained that Zenburn made it hard to read the text.
