@@ -93,6 +93,12 @@ So, we're almost at the end. There's just one more thing to do at this point - r
 
 You're now ready to begin your life-long journey to Emacs mastery. Meta-x forever! In parentheses we trust!
 
+**P.S.** I'm including here the discussion threads for the article on:
+
+* [Reddit](https://www.reddit.com/r/emacs/comments/qv52wn/why_emacs_redux/)
+* [Lobsters](https://lobste.rs/s/vugqbi/why_emacs_redux)
+* [HackerNews](https://news.ycombinator.com/item?id=29239452)
+
 [^1]: Or an individual contributor (IC), as this is known in some companies.
 [^2]: You know me - I love Lisps!
 [^3]: Just google for CIDER. :-)
