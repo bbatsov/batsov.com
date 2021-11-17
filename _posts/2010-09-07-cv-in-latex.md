@@ -12,4 +12,10 @@ used the [europecv](https://ctan.org/pkg/europecv?lang=en) LaTeX class.
 
 I’ve uploaded the LaTeX code to [GitHub](http://github.com/bbatsov/cv). Feel free to borrow it for
 your CVs if you like it. You’ll have to compile the `master.tex` file
-with `pdflatex` to get a nicely formatted pdf version of the CV.
+with `pdflatex` to get a nicely formatted pdf version of the CV:
+
+``` shell
+$ pdflatex master.tex
+```
+
+`pdflatex` is part of [TexLive](https://www.tug.org/texlive/).
