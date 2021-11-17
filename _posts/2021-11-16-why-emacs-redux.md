@@ -50,7 +50,7 @@ For all the good things that VS Code has brought to the table (e.g. LSP), I'm st
 I don't like open-source projects that are de-facto owned by one company. There's always the conflict of interest between the company's agenda and the needs of its
 users, and we know that the interests of the company usually come first.
 
-I've also seen plenty of new editors rise and fall in the past 20 years - Komodo, TextMate, Sublime Text, Atom, etc. Emacs and vim are the only editors that stood the test of time, and I have a feeling they will be with us for decades to come. This means that an investment in them will be likely paying you dividends much longer than an investment in a newer editor or IDE.
+I've also seen plenty of new editors and IDEs rise and fall in the past 20 years - Komodo, TextMate, Sublime Text, Atom, Eclipse, etc. Emacs and vim are the only editors that stood the test of time, and I have a feeling they will be with us for decades to come. This means that an investment in them will be likely paying you dividends much longer than an investment in a newer editor or IDE.
 
 I'll not go into details about the level of customization one can achieve in Emacs, as there are endless possibilities at every conceivable level.
 Besides thousands of third-party packages and the numerous configuration options (`defcustom`s) for anything and everything, every long-time Emacs user would have a bunch of custom Emacs commands that are unique to their use-cases and their way of working. The various Emacs distributions that exist today give you a different starting point on which to build upon. I like to think of them as different flavors of building materials, or foundations if you will.
