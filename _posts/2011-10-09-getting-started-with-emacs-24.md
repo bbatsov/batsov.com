@@ -111,7 +111,7 @@ $ git clone git://github.com/bbatsov/prelude.git path/to/local/repo
 $ ln -s path/to/local/repo ~/.emacs.d
 ```
 
-For Windows Vista/7 the ~(home) folder is
+For Windows Vista/7 the `~` (home) folder is
 `C:\Users\<USER>\AppData\Roaming\`.
 
 The configuration in the Prelude is commented extensively and will be
