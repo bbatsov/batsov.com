@@ -85,15 +85,13 @@ installation is not particularly hard and is always an option.
 
 #### Windows
 
-There are several ways to obtain precompiled Emacs 24 binaries if
-you're a Windows users. The most popular are
-[EmacsW32](http://ourcomments.org/cgi-bin/emacsw32-dl-latest.pl),
-[Emacs for Windows](http://code.google.com/p/emacs-for-windows/) and
-of course the official
-[Emacs Windows builds](http://alpha.gnu.org/gnu/emacs/windows/). I've
-,personally, never used any builds other than the official ones. The
-unofficial builds usually include installers and various patches that
-might be of use to some users.
+There are several ways to obtain precompiled Emacs 24 binaries if you're a
+Windows users. The most popular are
+[EmacsW32](http://ourcomments.org/cgi-bin/emacsw32-dl-latest.pl), [Emacs for
+Windows](http://code.google.com/p/emacs-for-windows/) and of course the official
+[Emacs Windows builds](http://alpha.gnu.org/gnu/emacs/windows/). I've never used
+any builds other than the official ones. The unofficial builds usually include
+installers and various patches that might be of use to some users.
 
 Since I rarely use Windows I cannot give you any more advice on the
 choice of a binary vendor.
