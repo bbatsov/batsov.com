@@ -90,4 +90,4 @@ If you like my work, consider supporting it via one of following funding platfor
 
 Thanks!
 
-[^1]: Popular meaning that probably at least a couple of people use them and find them useful.
+[^1]: Popular meaning that they have other users besides me.
