@@ -99,7 +99,7 @@ FC660C](https://deskthority.net/wiki/Leopold_FC660C)[^4].  When I'm on
 the road I do (or don't do) my writing on a Apple Magic Keyboard or
 the built-in MacBook keyboard[^5].
 
-The source code of the site is freely available at [GitHub](https://github.com/bbatsov/think.batsov.com).
+The source code of the site is freely available at [GitHub](https://github.com/bbatsov/batsov.com).
 
 ## License
 
