@@ -13,7 +13,7 @@ for you online the results they'll see first are the results you want them to
 see - e.g. a nice personal site, a solid LinkedIn profile, some videos of you
 presenting at various conferences, etc.
 
-I think everyone will agree that's preferable to finding instead some goofy/embarrassing/sloppy content about you.[^1] I guess all of us have some of this, and that's okay, as long as it's not dominating our online "brand". Online anonymity is another option you can explore, but this will likely cost you all sorts of lost opportunities, so I wouldn't recommend going in this direction. After all this effectively means that you don't have an online "brand".
+I think everyone will agree that's preferable to finding instead some goofy/embarrassing/sloppy content about you.[^1] I guess all of us have some of it, and that's okay, as long as it's not dominating our online "brand". Online anonymity is another option you can explore, but this will likely cost you all sorts of lost opportunities, so I wouldn't recommend going in this direction. After all this effectively means that you don't have an online "brand".
 
 You might be wondering where am I going with all of this. As usual - there's a story behind the article. I recently Googled my name
 and I noticed that the first matches people get about me are:
