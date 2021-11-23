@@ -18,6 +18,7 @@ It's not as fancy as Algolia-powered search, but it mostly gets the job done.
   * [Clojure](/feeds/Clojure.xml)
   * [Emacs](/feeds/Emacs.xml)
   * [Meta](/feeds/Meta.xml) (I use this a replacement for "Misc", so expect all sorts of disconnected articles here)
+* I've added a table of contents to many of my longer articles (here's an [example]({% post_url 2011-05-03-ruby-or-python %})
 * I've been going over some of my old articles and I've fixed tags, broken links, typos, grammar and markup here and there.
 
 I have to say that this has been a very fun process and Minimal Mistakes has been an absolute joy to use so far!
