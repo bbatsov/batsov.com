@@ -5,6 +5,7 @@ toc: true
 tags:
 - Ruby
 - Python
+- Tutorials
 ---
 
 **Disclaimer**
