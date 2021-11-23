@@ -75,7 +75,7 @@ Seibel's
 fancy Scheme more take a look at the classic text
 ["Structure and Interpretation of Computer Programs"](http://mitpress.mit.edu/sicp/full-text/book/book.html). A
 good source of exercises for aspiring Lisp programmers are the
-["Lisp Problems"](/Misc/Common%20Lisp/2011/05/04/lisp-problems.html)(a work in progress based on the original "Prolog Problems").
+["99 Lisp Problems"](https://www.ic.unicamp.br/~meidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html).
 
 ## Java
 
@@ -90,7 +90,7 @@ popular programming language in the world](http://www.tiobe.com/index.php/conten
 
 I've taught a couple of introductory Java programming courses (in
 Bulgarian), but I'd recommend the
-["Core Java"](http://www.amazon.com/Core-Java-TM-I--Fundamentals-8th/dp/0132354764/ref=sr_1_1?s=books&ie=UTF8&qid=1303901341&sr=1-1)
+["Core Java"](http://www.amazon.com/Core-Java-TM-I--Fundamentals-8th/dp/0132354764)
 book over my lectures any day of
 the week.
 
@@ -139,7 +139,7 @@ identity. Clojure also cleans up a bit the traditional Lisp
 syntax (read this as Clojure has fewer parentheses than say Common Lisp).
 
 To get started I recommend you to watch the free Clojure screencasts
-on [blip.tv](http://clojure.blip.tv/).
+on [YouTube](https://www.youtube.com/user/clojuretv).
 
 ## Prolog
 
@@ -162,7 +162,7 @@ for those popular platforms. The language became popular with the rise of the Ru
 on Rails web framework, but it has many potential applications that don't
 involve RoR or web development.
 
-["Programming Ruby"](http://www.amazon.com/Programming-Ruby-1-9-Pragmatic-Programmers/dp/1934356085/ref=sr_1_1?s=books&ie=UTF8&qid=1303901367&sr=1-1) and ["The Ruby Programming Language"](http://www.amazon.com/Ruby-Programming-Language-David-Flanagan/dp/0596516177/ref=sr_1_3?s=books&ie=UTF8&qid=1303901367&sr=1-3) are two of the
+["Programming Ruby"](http://www.amazon.com/Programming-Ruby-1-9-Pragmatic-Programmers/dp/1934356085) and ["The Ruby Programming Language"](http://www.amazon.com/Ruby-Programming-Language-David-Flanagan/dp/0596516177) are two of the
 best introductory Ruby books around.
 
 ## Python
@@ -178,7 +178,7 @@ A nice free on-line book about Python is ["Dive into Python 3"](http://diveintop
 
 ## C\#
 
-The flagman language of the .NET platform. Similar in many aspects to
+The flagship language of the .NET platform. Similar in many aspects to
 Java C# is never-the-less ahead then Java in the innovations
 department - first to introduce concepts like Generics and Attributes
 to the mainstream programmers. It features some nice improvements over
@@ -190,7 +190,7 @@ country (Bulgaria) about a third of all programming positions are C##
 related.
 
 My favourite C# book happens to be
-["C# in Depth"](http://www.amazon.com/C-Depth-Second-Jon-Skeet/dp/1935182471/ref=sr_1_3?ie=UTF8&qid=1304516334&sr=8-3). You
+["C# in Depth"](http://www.amazon.com/C-Depth-Second-Jon-Skeet/dp/1935182471). You
 might happen to enjoy it as well.
 
 ## Scala
@@ -227,8 +227,8 @@ however, believe that all the ideas and techniques that we discover in
 different programming languages will generally enrich our thinking and
 make us better software engineers in principle.
 
-**P.S.** If you're wondering why a certain "great" language X is not on
-the list keep in mind that this is my personal(and highly subjective)
+**P.S.** _If you're wondering why a certain "great" language X is not on
+the list keep in mind that this is my personal (and highly subjective)
 point of view on the subject. Who knows, in some dark and twisted
 place there may very well be people who consider BASIC a programming
-language masterpiece... _
+language masterpiece..._
