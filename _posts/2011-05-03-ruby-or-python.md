@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "Ruby or Python? Well, it depends..."
+title: "Ruby or Python?"
+toc: true
 tags:
 - Ruby
 - Python
@@ -17,7 +18,7 @@ possible uses._
 Ruby or Python? This is the Question! Well it might not be the
 Question, but it's a common question for many developers looking to
 break free from the statically typed language they know and learn a
-dynamic language. I personally know them both(though I know a bit more
+dynamic language. I personally know them both (though I know a bit more
 Ruby, than Python) and in this article I'll share my personal opinion
 on their strengths and weaknesses. You'd probably do good to learn
 them both, but my arguments here may lead you to pick only one of the
@@ -25,21 +26,21 @@ languages depending on you preferences.
 
 ## Installation
 
-**Linux/Unix installation**
+### Linux/Unix
 
 If you're using a Linux distribution or some other Unix derivative
 such as *BSD or Solaris you'll probably be able to install Ruby and
 Python through the operating system's software management system. For
-instance on Debian Linux systems(Ubuntu is a popular Debian
-derivative) you can use apt to install them. Run the following
-commands as root or with sudo:
+instance on Debian Linux systems (Ubuntu is a popular Debian
+derivative) you can use `apt` to install them. Run the following
+commands as `root` or with `sudo`:
 
 ``` bash
 $ apt-get install ruby
 $ apt-get install python
 ```
 
-On Red Hat based distros like Fedora, CentOS, etc you can use yum
+On Red Hat based distros like Fedora, CentOS, etc you can use `yum`
 instead:
 
 ``` bash
@@ -49,12 +50,12 @@ $ yum install python
 
 You should keep in mind the fact that both Ruby and Python have two
 version that are commonly used at the moment. Ruby's current version
-is *1.9.2* and Python's is *3.2*. For various reasons(like backward
+is *1.9.2* and Python's is *3.2*. For various reasons (like backward
 compatibility for instance), however, the current versions are not
-widely deployed yet(especially Python 3). In most Linux distributions
-the package ruby will actually be Ruby 1.8.x and the package python
+widely deployed yet (especially Python 3). In most Linux distributions
+the package `ruby` will actually be Ruby 1.8.x and the package `python`
 will be Python 2.7.x. If your distribution is one of those - look for
-packages named ruby19(or similar) and python3:
+packages named `ruby19` (or similar) and `python3`:
 
 ``` bash
 $ apt-get install ruby19
@@ -70,13 +71,13 @@ $ yum install python3
 
 Using the distribution package management system is a simple solution,
 but in the case of Ruby it might not be best one. Most Ruby hackers
-favour a powerful bash script called RVM(Ruby Version Manager) that
-allows you to install several different version(or flavours of Ruby)
+favour a powerful bash script called RVM (Ruby Version Manager) that
+allows you to install several different version (or flavours of Ruby)
 and switch easily between them. Please refer to the official
 [RVM documentation](https://rvm.beginrescueend.com/) for installation
 and usage instructions.
 
-**Windows installation**
+### Windows
 
 Installing Ruby on Windows used to be a pretty hard task, but this is
 no longer the case now thanks to
@@ -95,17 +96,17 @@ is not an open-source project. Personally I prefer ActivePython. Other
 prebuilt Python binaries for Windows are also available, but are not
 commonly used.
 
-**OS X installation**
+### OS X
 
 Ruby is generally preinstalled on OS X, but OS X users can also install
-it via [homebrew](http://mxcl.github.com/homebrew/) or RVM(as mentioned in the Linux section).
+it via [homebrew](http://mxcl.github.com/homebrew/) or RVM (as mentioned in the Linux section).
 
 The is an official [Python package for OS X](http://python.org/ftp/python/3.2/python-3.2-macosx10.6.dmg) available. Most users
 will probably prefer using homebrew, however.
 
 ## Syntax & code structure
 
-Ruby makes heavy use of braces and keywords(like do/then/end) to
+Ruby makes heavy use of braces and keywords (like `do/then/end`) to
 delimit blocks of code. Python relies simply on indentation.
 
 ``` python
@@ -134,27 +135,27 @@ and C# developers will probably find it a bit confusing. There is a
 
 Both languages have support for nested function definitions.
 
-Both languages have support for "top-level" functions - that live(or
-seem to live) outside classes and modules(something not possible in
+Both languages have support for "top-level" functions - that live (or
+seem to live) outside classes and modules (something not possible in
 Java for instance). This makes them good for general purpose
 scripting. While I would still prefer to do my system administration
 with shell and Perl scripts - Ruby and Python offer a solid
 alternative. Python has a richer system administration library so I'd
 prefer it over Ruby for such tasks.
 
-Ruby has a lot of crust("heritage") from Perl - like a myriad of
+Ruby has a lot of crust ("heritage") from Perl - like a myriad of
 special variables that are now more or less deprecated. It also has
 much syntactic sugar - for instance do/end is commonly replaced by {}
 for blocks that are only one line long, there is special syntax for
 hashtables, whose keys are symbols, etc.
 
-Since special symbols(non alphanumeric) are allowed in Ruby
+Since special symbols (non alphanumeric) are allowed in Ruby
 identifiers Ruby uses them to impose some naming conventions to make
 the source code a bit more readable in certain scenarios - for
-instance predicate methods(those that return true or false) have names
-that end with ?(usually) like even?, odd?, prime?, etc. Methods that
-mutate the object on which they were invoked generally have the !
-suffix - sort!, map!, etc. I find this a nice decision. In Ruby you
+instance predicate methods (those that return true or false) have names
+that end with `?` (usually) like `even?`, `odd?`, `prime?`, etc. Methods that
+mutate the object on which they were invoked generally have the `!`
+suffix - `sort!`, `map!`, etc. I find this a nice decision. In Ruby you
 generally have many ways to achieve the same result:
 
 ``` irb
@@ -188,8 +189,8 @@ libraries. I would not go into any details on the subject here, but
 I'll share with you the fact that I like Python's more.
 
 Both languages come with a REPL in which you can do some exploratory
-programming. Ruby's REPL(irb)  allows you
-to do TAB smart completion(amongst other things) by default. To get
+programming. Ruby's REPL (`irb`)  allows you
+to do TAB smart completion (amongst other things) by default. To get
 TAB completion in the Python REPL you'd have to execute this bit of
 code first:
 
@@ -199,16 +200,16 @@ code first:
 ```
 
 Alternative you can just stick this code snippet in the
-**~/.pythonrc.py** file(create it if it doesn't exist). If you are using
-Windows adjust accordingly(you will have to figure out where
-pythonrc.py is located there).
+`~/.pythonrc.py` file (create it if it doesn't exist). If you are using
+Windows adjust accordingly (you will have to figure out where
+`pythonrc.py` is located there).
 
 Ruby does not have statements - only expressions. This
-basically means that everything(objects, method calls) evaluate to
-some value(though the value might not be helpful always).
+basically means that everything (objects, method calls) evaluates to
+some value (though the value might not be helpful always).
 
 In Python there are some statements such as assignment and _if_. One
-thing I dislike about the Python REPL is that it doesn't print None
+thing I dislike about the Python REPL is that it doesn't print `None`
 values. Compare this bit of Python code:
 
 ``` pycon
@@ -224,7 +225,7 @@ this is a test
  => nil
 ```
 
-In the Python version we see only the side-effect(the printing), but
+In the Python version we see only the side-effect (the printing), but
 not the return value.
 
 Python also ships with a minimalistic IDE called IDLE. If you don't
@@ -242,15 +243,15 @@ for confusion.
 
 * variable and method names consisting of more then one word are
   written in lowercase with underscores separating the individual
-  words like_this.
+  words `like_this`.
 * Class names start with capital letter and follow the camel case
-  naming convention LikeThis. Some of Python's core classes, however,
+  naming convention `LikeThis`. Some of Python's core classes, however,
   violate this convention.
 * Constants are generally written in all caps with underscores
-  separating the individual words LIKE_THIS.
+  separating the individual words `LIKE_THIS`.
 
-As I mentioned earlier it's customary to add ? as a suffix to
-predicate methods and ! to mutator methods in Ruby. This convention is
+As I mentioned earlier it's customary to add `?` as a suffix to
+predicate methods and `!` to mutator methods in Ruby. This convention is
 not always followed unfortunately, even in Ruby's standard library.
 
 ## OOP support
@@ -290,23 +291,23 @@ As you can see core Ruby classes tend to have a bit more standard and
 descriptive names than their Python counterparts. You can also notice
 that in Python for some task we use built-in functions like type,
 instead of method calls. The built-in function will eventually result
-in a method invocation(like "string".__class__ in the case of
-type("string")), but I find this irregularity in the syntax a bit
+in a method invocation (like `"string".__class__` in the case of
+`type("string")`), but I find this irregularity in the syntax a bit
 irritating.
 
 Method invocation is more flexible in Ruby - you can omit braces in
 some scenarios. This is handy when you're designing a DSL or you're
-trying to implement the uniform access patterns(data should be
+trying to implement the uniform access patterns (data should be
 accessed through fields and methods in the same manner(read this as
 with no braces in method invocations)). On the other hand Python's
 uniform syntax makes it easier to spot method invocations.
 
 Both languages don't have operators - just methods. Ruby's OO support
-seems to be a bit more mature and polished(at least to me), but
+seems to be a bit more mature and polished (at least to me), but
 Python's has some touches as well. I particularly like the explicit
-self references that are required when you try to access class
-members. I'm not too found of the use of special sigils in Ruby to
-mark instance(@) and class members(@@). Though they make them visually
+`self` references that are required when you try to access class
+members. I'm not too fond of the use of special sigils in Ruby to
+mark instance (`@`) and class members (`@@`). Though they make them visually
 distinctive I think we could have lived without them - I'm generally
 not a fan of non-uniform syntax rules(and you guessed it - my
 favourite language is Lisp).
@@ -320,8 +321,8 @@ since they are quite lengthy.
 Functional programming has been on the rise lately and it's useful to
 examine what kind of support both languages provide for it. Both have
 support for lambda functions and respectively - higher-order
-functions(functions that accept functions as parameters). Ruby has
-code blocks, Python has list comprehensions(generally favoured over
+functions (functions that accept functions as parameters). Ruby has
+code blocks, Python has list comprehensions (generally favoured over
 higher-order functions). Both languages lack in their standard libs
 the immutable data structures that generally are the code of most
 functional programming languages. Here's a few example related to
@@ -348,7 +349,7 @@ this is of course subjective.
 
 ## GUI programming
 
-Python has tkinker by default - a wrapper around the Tk library(which
+Python has tkinker by default - a wrapper around the Tk library (which
 sucks in my humble opinion). Ruby doesn't have even this much. Both
 have binding for the popular GUI toolkits such wxwidgets, GTK,
 QT. From my experimentation with them I can tell you that you'll be
@@ -358,7 +359,7 @@ bindings projects seem to be in a state of disarray, abandonment - I
 guess we have to thank Rails for that. Most people think of Rails as
 the only use of Ruby which is sad...
 
-Ruby devs shouldn't despair however. JRuby(Ruby's port to the JVM) has
+Ruby devs shouldn't despair however. JRuby (Ruby's port to the JVM) has
 an excellent support for the superb Swing GUI framework and MacRuby
 has great support for building Cocoa Apps for OS X. I personally think
 that JRuby is the best Ruby distribution out there, but that's the
@@ -367,7 +368,7 @@ point of another post entirely.
 ## 3rd party library availability and installation
 
 It's not secret that part of Python's philosophy is that it comes with
-batteries included - meaning that it's standard library is vast and
+batteries included - meaning that its standard library is vast and
 covers a lot of common tasks. In case you can't find what you're
 looking for in it you're left with an number of third party libraries
 for Python whose number can only be described by the word epic and
@@ -388,7 +389,7 @@ jars). EasyInstall has splendid documentation so I won't go into any
 details here.
 
 [pip](http://www.pip-installer.org/en/latest/index.html) is a
-replacement for easy_install. It uses mostly the same techniques for
+replacement for `easy_install`. It uses mostly the same techniques for
 finding packages, so packages that were made easy_installable should
 be pip-installable as well.
 
@@ -414,7 +415,7 @@ Linux users will also find a great selection of Python libraries
 prepackaged for use with the distribution's package manager.
 
 Ruby has an application that is more or less equivalent to EasyInstall
-called [RubyGems](http://rubygems.org/)(gems are the standard way to distribute Ruby
+called [RubyGems](http://rubygems.org/) (gems are the standard way to distribute Ruby
 libraries). Linux users can of course install Ruby libraries with the
 distribution's package manager as well.
 
@@ -452,18 +453,18 @@ for whom such applications are of great value given the lack of
 unified package management on Windows.
 
 One thing to keep in mind about installing eggs and gems is that some
-of them are implemented in C(usually for performance reasons) and are
+of them are implemented in C (usually for performance reasons) and are
 locally built prior to their installation - an operation bound to fail
 if you don't have a C compiler installed.
 
 ## Misc
 
 In terms of performance of the default interpreters CPython and MRI
-Ruby Python is the clear winner. One should note, however, is that there
+Ruby, Python is the clear winner. One should note, however, that there
 are many how quality implementation of Ruby and Python for different
 platforms where the performance situation differs wildly. For instance
-Jython is much slower that JRuby. With the addition of invoke_dynamic
-in JDK7(basically bytecode level support for dynamic method dispatch)
+Jython is much slower that JRuby. With the addition of `invoke_dynamic`
+in JDK7 (basically bytecode level support for dynamic method dispatch)
 the performance of JRuby and Jython could potentially be improved
 greatly.
 
@@ -475,9 +476,9 @@ living in the shadow of a single application written in Ruby - Ruby on
 Rails, that is arguably more popular than the language itself.
 
 Tooling for dynamic languages is currently not as advance as the one
-for static languages. People often joke that Python(Ruby) > Java(C#),
+for static languages. People often joke that Python (Ruby) > Java (C#),
 but Python + any python IDE < Java + IntelliJ
-IDEA(Eclipse/NetBeans). Python and Ruby IDEs seem to be mostly on par
+IDEA (Eclipse/NetBeans). Python and Ruby IDEs seem to be mostly on par
 currently. I do all of my Ruby and Python coding in Emacs, but I do
 like RubyMine and PyCharm.
 
@@ -488,9 +489,9 @@ cheap Python hosting, but very few companies provide Ruby hosting.
 ## The Python 3 problem
 
 Python 3 was a great undertaking that improved on a lot of aspects of
-the language(for example Unicode support) and the standard library. To
-do this it dropped backward compatibility, an act that slowed it's
-adoption immensely. Three years have passed since it's release and
+the language (for example Unicode support) and the standard library. To
+do this it dropped backward compatibility, an act that slowed its
+adoption immensely. Three years have passed since its release and
 still most hosting providers, Linux distros and Python projects hold
 on to the older 2.7.x Python branch.
 
@@ -506,7 +507,7 @@ just about everything. If you don't know any of them you'll do well to
 learn at least one. If you know only one it might not be a terrible
 idea to learn the other.
 
-I haven't touched on many language features(like Python generators and
+I haven't touched on many language features (like Python generators and
 Ruby mixins), but to be honest I'm just tired of typing. One good
 place to start your journey to Python is
 ["Dive into Python 3"](http://diveintopython3.org/). For Ruby
@@ -516,5 +517,5 @@ beginners I'd recommend a copy of
 _P.S. If you like exploring different programming languages and you're
 currently shopping for ideas on the subject of which language to learn
 next you might find my recent article
-["Programming languages worth learning"](/blog/2011/04/27/programming-languages-worth-learning/)
+["Programming languages worth learning"]({% post_url 2011-04-27-programming-languages-worth-learning %})
 interesting as well._
