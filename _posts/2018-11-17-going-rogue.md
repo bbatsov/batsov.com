@@ -22,4 +22,4 @@ episode](https://devchat.tv/ruby-rogues/rr-388-rubocop-and-emacs-i-guess-with-bo
 
 Until next time!
 
-[^1]: Since I started working remotely I practically stopped listening to any podcasts. One of the few donwsides of remote work.
+[^1]: Since I started working remotely I practically stopped listening to any podcasts. One of the few downsides of remote work.

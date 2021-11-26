@@ -29,7 +29,7 @@ smartphone/tablet user.
 Many people are saying **Android is better!** or **iOS is
 better!**. Most of them try to make their personal view sound like
 some universal truth - of course they're making subjective statements
-and their view on Andriod/iOS reflects mostly their personal
+and their view on Android/iOS reflects mostly their personal
 preferences. Through years spent developing software I've understood
 that it is impossible to cater to everyone's needs - some people love
 the direction you're taking with a project; the rest - totally hate
