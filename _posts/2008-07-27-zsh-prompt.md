@@ -33,7 +33,7 @@ characters in the prompt definition are represented literally in the
 resulting prompt. It looks like this (on my machine):
 
 ```
-[bozhidar@locahost ~/store] $
+[bozhidar@localhost ~/store] $
 ```
 
 If you like it simply put the prompt definition like in your `.zshrc`

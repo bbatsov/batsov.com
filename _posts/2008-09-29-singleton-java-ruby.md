@@ -10,7 +10,7 @@ tags:
 
 I haven’t posted anything lately, but I just received my brand new
 [Das Keyboard]({% post_url 2008-06-16-das-keyboard %}) and now I simply can’t stop typing. Recently I’ve been
-going through some effective technics to implement popular design
+going through some effective techniques to implement popular design
 patterns and I was surprised to see how few people were aware of
 them. For example since Java 5 the best way to implement the Singleton
 pattern is simply to use an enum like this:

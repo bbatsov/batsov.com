@@ -42,7 +42,7 @@ authoring and editing it might be a good option for you.
 The other office suite you might want to explore is Apple's own
 **iWorks**. It has a few distinct advantages over Microsoft Office -
 you can buy only the apps you need (as opposed to the whole suite), it
-integrates great with the OS (but that's hardly a suprise) and it's
+integrates great with the OS (but that's hardly a surprise) and it's
 much cheaper. I only bought **Pages** (Apple's **Word** alternative)
 and **Keynote** (**PowerPoint** alternative). Pages is a so-so
 application, but Keynote is simply fantastic. I write a lot of
@@ -133,7 +133,7 @@ Emacs and vim scares you I'd recommend trying out
 
 ### IDEs
 
-Eclipse, NetBeans and IntelliJ are available (no suprise since they
+Eclipse, NetBeans and IntelliJ are available (no surprise since they
 are all Java apps) and look and perform great on OS X. There's also
 Apple's own XCode, which I found unwieldy.
 

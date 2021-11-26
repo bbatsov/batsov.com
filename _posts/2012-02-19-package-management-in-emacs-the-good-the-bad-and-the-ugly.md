@@ -49,7 +49,7 @@ and enjoy it. At this point you'll have to do something like:
 
 Put this snippet of code near the beginning of your Emacs config,
 since you'll definitely want packages installed via `package.el` to be
-initalized *before* you start tweaking them.
+initialized *before* you start tweaking them.
 
 What `package.el` basically does is that it connects to a list of
 package repositories, retrieves the list of the packages there,
@@ -225,7 +225,7 @@ know of such shortcomings in their packages and so should you.
 add-ons management solution that has recently become popular.
 
 el-get allows you to install and manage elisp code for Emacs. It
-supports lots of differents types of sources (git, svn, apt, elpa,
+supports lots of different types of sources (git, svn, apt, elpa,
 etc) and is able to install them, update them and remove them, but
 more importantly it will init them for you.
 

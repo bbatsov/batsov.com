@@ -617,7 +617,7 @@ user> (take 10 (filter even? (iterate inc 1)))
 sequence as well. With **take** we can take only the elements we need
 without have to process the entire infinite collection.
 
-## Functional programing with Clojure
+## Functional programming with Clojure
 
 Clojure is a functional programming language and as such it offers quite
 the selection of features that make it easy to leverage the functional

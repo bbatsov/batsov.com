@@ -385,7 +385,7 @@ platforms for ActivePython distributions.
 [EasyInstall](http://peak.telecommunity.com/DevCenter/EasyInstall) is another popular solution that works with the standard
 Python distribution. Like PyPM it allows you easily search for and
 install Python packages from the PyPI that are bundled in Python's
-standard egg format(Jave developers might think of eggs as
+standard egg format(Java developers might think of eggs as
 jars). EasyInstall has splendid documentation so I won't go into any
 details here.
 

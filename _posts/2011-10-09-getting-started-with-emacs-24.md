@@ -9,14 +9,14 @@ tags:
 
 Last month I've blogged about the
 [exciting things are coming up in Emacs 24](/articles/2011/08/19/a-peek-at-emacs24/). What
-I failed to mention originally is that altough Emacs 24 is slated for
+I failed to mention originally is that although Emacs 24 is slated for
 a Spring 2012 (tentatively) release there is no real reason not to start using it
 now. You should also keep in mind that it's feature complete since it
 officially entered the feature freeze of its development cycle in July 2011.
 
 I've been using Emacs 24 for several months now and it has been
 nothing but rock solid. I guess the only real obstacle currently is
-that the way to obtain Emacs 24 is not particularly straightfoward/clear,
+that the way to obtain Emacs 24 is not particularly straightforward/clear,
 hence this post.
 
 I'll discuss here the installation and initial configuration of Emacs
