@@ -59,6 +59,16 @@ some theme. When it comes to writing the thing that truly matters is the content
 tool, the less time you have for the actual process of writing.[^1] Jekyll gets the job done for me and I simply don't want to invest a lot of time to learn properly
 another SSG (e.g. Hugo) when I can be writing new articles instead. Time is our most precious resource and the older I get the more I value it.
 
+Don't get me wrong, though - Jekyll is not standing still and it's certainly a more
+capable tool that it used to be in 2011:
+
+- Jekyll plugins simplified a lot of common tasks (e.g. Atom feeds, pagination)
+- Working with themes is much easier than it used to be. I think distributing themes
+as gems (Ruby libraries) was a wonderful idea.
+- [kramdown](https://kramdown.gettalong.org/) has been the default Markdown parser for a while now and it's great.
+
+I think those advancements essentially made it pointless to copy someone else's Jekyll setup to jump-start yours. And tools like Octopress were pretty much this - a solid Jekyll setup, that was conveniently packaged for easy reuse. Now that Jekyll is more mature they are just a remnant of the past.
+
 I've had a productive decade with Jekyll, sans the end of the Octopress era, and I think I won't be moving away from Jekyll any time soon.
 Yeah, there's always some room for improvement and probably many of the newer tools do the job better in our area or another, but Jekyll covers well my
 use-cases and that's what matters the most to me. I recall back in my Linux days I spent countless hours doing distro-hopping, with the misguided notion that
