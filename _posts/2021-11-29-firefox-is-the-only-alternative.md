@@ -83,14 +83,14 @@ struggles of the Mozilla
 Corporation and the layoffs there. [Quantum](https://blog.mozilla.org/en/mozilla/introducing-firefox-quantum/)
 was a massive step forward in terms of performance, and recently Firefox also
 got a significant (although somewhat controversial) facelift. Today the browser
-is sleek, fast and resource-efficient. Problems like the ones I outline above are
+is sleek, fast and resource-efficient. Problems like the ones I outlined above are
 relatively rare. In fact I even had one case where a web application (Fastmail) would get
 stuck on every Chromium browser after a few hours, but would work flawlessly on
 Firefox.
 
 Sadly, despite all of its improvements Firefox's share of the desktop browser
-market has been slowly going down from 32% in 2009-2010 to only 8% today. Clearly, that
-market share was lost solely to Chrome & co. [^2] I can attribute this decline to
+market has been slowly going down from 32% in 2009-2010 to only 8% today.[^2] Clearly, that
+market share was lost solely to Chrome & co.[^3] I can attribute this decline to
 various factors:
 
 - Google's massive development resources and marketing machine.
@@ -105,4 +105,5 @@ The problem is having real competition and real alternatives. As it stands today
 of Apple's walled garden. Firefox remains our only real alternative. Remember that next time you decide you don't care about Chrome slowly eating the web.
 
 [^1]: Chrome's Blink engine was forked from WebKit after Google has some falling out with Apple. Seems companies are really struggling to work together on such supposedly open-source projects.
-[^2]: See [this video](https://www.youtube.com/watch?v=s9pvB4N99sQ) that shows nicely the shift in the browser market sentiment.
+[^2]: Its usage on mobile devices is insignificant today.
+[^3]: See [this video](https://www.youtube.com/watch?v=s9pvB4N99sQ) that shows nicely the shift in the browser market sentiment.
