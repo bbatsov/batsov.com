@@ -69,6 +69,9 @@ For me Firefox is the only alternative to a complete Chrome hegemony in the sens
   battle with Internet Explorer, but it has almost become the tyrant it sought
   to displace. I wonder if every revolution is doomed to finish like this.
 - it's home to the last major rendering engine, that's not derived from WebKit (namely Gecko/Quantum)[^1]
+- it's the only major browser that lobbies on behalf of regular users (people like you and me) when it comes
+to implementing new web standards. Everyone should take a moment to visit [this page](https://mozilla.github.io/standards-positions/), detailing the position of Firefox's
+developers on numerous specifications submitted to standards bodies like the IETF, W3C, and Ecma TC39. You'll notice that many of them are considered "harmful".
 
 If you're using Chrome and you don't realize how gradually the hero has become the villain I don't blame you. I was one of those people myself. I've started using
 Firefox in 2004 a bit before version 1.0 was released. I've switched to Chrome in 2009, right after the beta version for Linux was announced. Back then Firefox
@@ -99,11 +102,30 @@ various factors:
 - Firefox losing its status of a shiny new thing over the years.
 - Mozilla's inability to capitalize on the popularity of Firefox in the past. I think almost all of their revenue came from a search deal with Google.
 
-Notice that I haven't even mentioned privacy today. Obviously for a proprietary browser it's pretty hard to assess how it (mis)handles your browsing data.
-I'm fairly certain that you can have a privacy-respecting browsing experience based on Chromium (we have Brave), but for me that has never been the problem.
-The problem is having real competition and real alternatives. As it stands today we have a browser duopoly (Chrome and Safari) and pretty much a monopoly outside
-of Apple's walled garden. Firefox remains our only real alternative. Remember that next time you decide you don't care about Chrome slowly eating the web.
+On top of this we have the rise of mobile computing where Google and Apple both
+have their browsers firmly entrenched and competition is virtually
+non-existing. Technically speaking alternatives do exist, but most people don't
+care about them and simply use whatever default browser came with their
+phone/tablet. I sometimes wonder whether the rise of smartphones contributed to
+Firefox losing traction.  Given how convenient it is to sync data automatically
+between all your browsers probably it did.[^4] In the past Microsoft was
+eventually forced to ask people if they want to use a browser other than
+Internet Explorer during Windows's setup.[^5] I'm not sure if this helped
+Firefox and Chrome grow their market share, but I doubt it hurt. It'd be nice to
+see something similar on the mobile front at some point, but I doubt that will
+happen.
+
+Notice that I haven't even mentioned privacy today. Obviously for a proprietary
+browser it's pretty hard to assess how it (mis)handles your browsing data.  I'm
+fairly certain that you can have a privacy-respecting browsing experience based
+on Chromium (we have Brave), but for me that has never been the problem.  The
+problem is having real competition and real alternatives. As it stands today we
+have a browser duopoly (Chrome and Safari) and pretty much a monopoly outside of
+Apple's walled garden. Firefox remains our only real alternative. Remember that
+next time you decide you don't care about Chrome slowly eating the web.
 
 [^1]: Chrome's Blink engine was forked from WebKit after Google has some falling out with Apple. Seems companies are really struggling to work together on such supposedly open-source projects.
 [^2]: Its usage on mobile devices is insignificant today.
 [^3]: See [this video](https://www.youtube.com/watch?v=s9pvB4N99sQ) that shows nicely the shift in the browser market sentiment.
+[^4]: These days I'm using Firefox on my iOS devices and it works pretty well. Granted, it's not the real Gecko-based Firefox, but it works just as well as Safari and I find it more convenient to use.
+[^5]: At least in the European Union. See <https://www.theguardian.com/technology/2010/mar/02/microsoft> for more details.
