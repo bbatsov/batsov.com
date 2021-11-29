@@ -101,7 +101,7 @@ various factors:
 
 Notice that I haven't even mentioned privacy today. Obviously for a proprietary browser it's pretty hard to assess how it (mis)handles your browsing data.
 I'm fairly certain that you can have a privacy-respecting browsing experience based on Chromium (we have Brave), but for me that has never been the problem.
-The problem is having real competition and real alternatives. As it stands today we almost a duopoly (Chrome and Safari) and pretty much a monopoly outside
+The problem is having real competition and real alternatives. As it stands today we have a browser duopoly (Chrome and Safari) and pretty much a monopoly outside
 of Apple's walled garden. Firefox remains our only real alternative. Remember that next time you decide you don't care about Chrome slowly eating the web.
 
 [^1]: Chrome's Blink engine was forked from WebKit after Google has some falling out with Apple. Seems companies are really struggling to work together on such supposedly open-source projects.
