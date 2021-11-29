@@ -78,5 +78,7 @@ of them.
 
 And that's a wrap. This happens to be the 132th article I publish here since adopting Jekyll. I've also published exactly 280 articles on "Emacs Redux" and "Meta Redux". Here's to the next 10 years of blogging with Jekyll and Emacs! I hope I'll do better this time around.[^2]
 
+**P.S.** The article has spawned an interesting discussion on [HackerNews](https://news.ycombinator.com/item?id=29378307).
+
 [^1]: I guess that's why I always opted to use relatively simple Jekyll themes. Often I think that `minima` is the greatest theme ever invented.
 [^2]: In terms of quality, not quantity.
