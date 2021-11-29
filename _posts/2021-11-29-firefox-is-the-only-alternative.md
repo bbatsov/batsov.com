@@ -30,16 +30,16 @@ its power (2002-2004) Internet Explorer held about 95% of the browser market. Wh
 
 Here's where we are today:
 
-| Browser       | Based on Chromium | Open-source |
-| ------------- | ----------------- | ----------- |
-| Chrome  | Yes      | No |
-| Chromium | Yes | Yes |
-| Edge  | Yes      | No |
-| Brave | Yes | Yes |
-| Vivaldi | Yes | No |
-| Opera | Yes | No |
-| Safari | No | No |
-| Firefox | No | Yes |
+| Browser       | Based on Chromium | Open-source | Market Share (desktop + mobile) |
+| ------------- | ----------------- | ----------- | -------------|
+| Chrome  | Yes      | No | 64.7% |
+| Chromium | Yes | Yes | - |
+| Edge  | Yes      | No | 4.0% |
+| Brave | Yes | Yes | - |
+| Vivaldi | Yes | No | - |
+| Opera | Yes | No | 2.4% |
+| Safari | No | No | 19.0% |
+| Firefox | No | Yes | 3.7% |
 
 I don't know about you, but I find the list above quite depressing. We're
 essentially left with only two major open-source browsers (Chromium and
