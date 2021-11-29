@@ -21,6 +21,13 @@ the browser overall, I was often frustrated that some sites were broken with it,
 Now when Opera is based on Chromium that's a problem that solves itself and Opera's team can focus solely on their browser's UI/UX. Let Google do all the
 heavy lifting for them...
 
+In the mean time every competitor that Google converts to Chromium strengthens
+their position and increases the influence they have over the future of web
+standards. Even today they can do pretty much everything they want to, but things
+can get even worse if they get to 95%+ of Chromium market share. At the height of
+its power (2002-2004) Internet Explorer held about 95% of the browser market. What a
+"wonderful" time that was!
+
 Here's where we are today:
 
 | Browser       | Based on Chromium | Open-source |
@@ -81,9 +88,21 @@ relatively rare. In fact I even had one case where a web application (Fastmail) 
 stuck on every Chromium browser after a few hours, but would work flawlessly on
 Firefox.
 
+Sadly, despite all of its improvements Firefox's share of the desktop browser
+market has been slowly going down from 32% in 2009-2010 to only 8% today. Clearly, that
+market share was lost solely to Chrome & co. [^2] I can attribute this decline to
+various factors:
+
+- Google's massive development resources and marketing machine.
+- Most people not thinking about the long-term ramifications of ending up in a
+  market with a single vendor in it.
+- Firefox losing its status of a shiny new thing over the years.
+- Mozilla's inability to capitalize on the popularity of Firefox in the past. I think almost all of their revenue came from a search deal with Google.
+
 Notice that I haven't even mentioned privacy today. Obviously for a proprietary browser it's pretty hard to assess how it (mis)handles your browsing data.
 I'm fairly certain that you can have a privacy-respecting browsing experience based on Chromium (we have Brave), but for me that has never been the problem.
 The problem is having real competition and real alternatives. As it stands today we almost a duopoly (Chrome and Safari) and pretty much a monopoly outside
 of Apple's walled garden. Firefox remains our only real alternative. Remember that next time you decide you don't care about Chrome slowly eating the web.
 
 [^1]: Chrome's Blink engine was forked from WebKit after Google has some falling out with Apple. Seems companies are really struggling to work together on such supposedly open-source projects.
+[^2]: See [this video](https://www.youtube.com/watch?v=s9pvB4N99sQ) that shows nicely the shift in the browser market sentiment.
