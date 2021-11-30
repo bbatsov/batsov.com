@@ -60,7 +60,7 @@ tool, the less time you have for the actual process of writing.[^1] Jekyll gets 
 another SSG (e.g. Hugo) when I can be writing new articles instead. Time is our most precious resource and the older I get the more I value it.
 
 Don't get me wrong, though - Jekyll is not standing still and it's certainly a more
-capable tool that it used to be in 2011:
+capable tool than it used to be in 2011:
 
 - Jekyll plugins simplified a lot of common tasks (e.g. Atom feeds, pagination)
 - Working with themes is much easier than it used to be. I think distributing themes
