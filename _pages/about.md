@@ -10,6 +10,8 @@ toc: true
 
 ![Bozhidar](/assets/images/bozhidar_presenting1.jpg)
 
+Hello, world!
+
 I'm Bozhidar[^1] and I love computers in general and programming in
 particular[^2]. My fanatic devotion to Emacs is known
 world-wide. I spend a lot of my (free) time on GitHub, contributing
