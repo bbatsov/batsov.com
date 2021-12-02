@@ -1,9 +1,11 @@
 ---
 layout: single
 title: "Thoughts on the Amazon Kindle"
+toc: true
 tags:
 - Gadgets
 - Hardware
+- Kindle
 ---
 
 ## Prelude
@@ -14,7 +16,7 @@ feel and smell of paper, I love the ability to feel the pages. So it
 took me quite some time to convince myself to buy one of the fabled
 Amazon Kindle e-book reading devices. People often ask me what I think
 about it and would I recommend them to buy one so I decided to write
-down my thoughts here.
+down my thoughts on subject here.
 
 ## The things I love about the Kindle
 
@@ -29,32 +31,33 @@ terrible typography that they simply appal me.
 ### Quality of images
 
 This one really surprised me - the images and photos look very good on
-the Kindle(unless they are very big and have to be scaled down).
+the Kindle (unless they are very big and have to be scaled down).
 
 ### Navigation
 
-The navigation is outstanding - I think the idea to double the buttons
-for forward/backward page was a brilliant one. The ability to skip
-chapters and to easily navigate the table of contents is fairly handy
-as well. Unfortunately not all mobi books are created with an useful
-table of contents, but this is not a problem of the Kindle itself.
+The navigation is outstanding - I think the idea to place the buttons for
+forward/backward page on both sides of the display was a brilliant one. The
+ability to skip chapters and to easily navigate the table of contents is fairly
+handy as well. Unfortunately not all mobi books are created with an useful table
+of contents, but this is not a problem of the Kindle itself.
 
 ### Built-in dictionary
 
-Although my knowledge of English is considered quite considerable I'm
+Although my knowledge of English is quite good I'm
 no native speaker and when I read fancy books from time to time I
 encounter words I do not know. Having the built-in dictionary I can
 just move the cursor to the word in question and I see its meaning
 inline. This is so very cool!
 
-### Weight & size
+### Size & weight
 
 The Kindle is smaller and lighter than most paperbacks. And you can
-carry literary hundreds of books on your kindle.
+carry literary hundreds of books on your Kindle.
 
 ### Battery life
 
-Without the wireless the battery lasts for about a month...
+Without the wireless the battery lasts for about a month... Can't
+imagine anyone being unhappy with the battery life.
 
 ### Amazon Kindle store
 
@@ -65,7 +68,8 @@ you're connected to the Internet.
 
 ### Free 3G
 
-The Amazon Kindle store is always at hand.
+The Amazon Kindle store is always at hand. Admitted I rarely
+use it, but it's nice to have it.
 
 ### The official lighted leather cover
 
@@ -87,8 +91,8 @@ You can organise your books into collections on various criteria.
 
 ### Ebooks are generally cheaper
 
-This is not true for all books(at least not yet). At least you save
-the shipping expenses(if you have any).
+This is not true for all books (at least not yet). At least you save
+the shipping expenses (if you have any).
 
 ### Highlights and sharing
 
@@ -108,14 +112,14 @@ normal Kindle.
 ### Formatting is terrible in technical books
 
 If you read a lot of books with diagrams, tables, source code, etc the
-Kindle is not for you(or at least not for that task). Everything is
+Kindle is not for you (or at least not for that task). Everything is
 scrambled and confusing. Basically this and the previous item made me
 buy an iPad 2 for reading PDFs and technical books.
 
 ### The web browser is mostly useless
 
 The Kindle has an experimental web browser, which is mostly useless
-mainly due to the inherent limitation of the e-ink screen(such a
+mainly due to the inherent limitation of the e-ink screen (such a
 enormous refresh rate).
 
 ### Real page numbers
@@ -137,7 +141,7 @@ of those can make the Kindle even smaller.
 
 ### Magazines and newspapers are crippled
 
-Because the publishers have to pay some fee to amazon based on the
+Because the publishers have to pay some fee to Amazon based on the
 traffic they generate with their magazines/newspapers the Kindle
 version are generally stripped down from a lot of images and other
 content.
@@ -151,5 +155,5 @@ and this will improve the situation immensely.
 ## Epilogue
 
 Basically the Kindle is the greatest thing after hot water for people
-that read a lot of fiction books. Everyone else should consider buying
+that read a lot of non-technical books. Everyone else should consider buying
 a tablet.
