@@ -16,8 +16,18 @@ This page is simply a collection of random quotes that I find inspirational.
 
 ## Movies
 
+> What we do in life, echoes in eternity.
+>
+> -- Maximus, Gladiator
+
+> Death smiles at us all; all a man can do is smile back.
+>
+> -- Marcus Aurelius, Gladiator
+
 ## Books
 
 > The things you own end up owning you. It's only after you lose everything that you're free to do anything.
 >
 >  ― Tyler Durden (Chuck Palahniuk), Fight Club
+
+## Meta
