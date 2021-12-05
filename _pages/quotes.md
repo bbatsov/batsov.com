@@ -30,4 +30,10 @@ This page is simply a collection of random quotes that I find inspirational.
 >
 >  ― Tyler Durden (Chuck Palahniuk), Fight Club
 
+## Finance & Business
+
+> I can’t tell you how to get rich quickly. I can only tell you how to get poor quickly: by trying to get rich quickly.
+>
+> -- André Kostolany
+
 ## Meta
