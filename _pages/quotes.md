@@ -37,3 +37,7 @@ This page is simply a collection of random quotes that I find inspirational.
 > -- André Kostolany
 
 ## Meta
+
+> A work of art is never finished. It is merely abandoned.
+>
+> -- E. M. Forster
