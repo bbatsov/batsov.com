@@ -79,3 +79,9 @@ This page is simply a collection of random quotes that I find inspirational.
 > A work of art is never finished. It is merely abandoned.
 >
 > -- E. M. Forster
+
+> If you are depressed, you are living in the past. <br>
+> If you are anxious, you are living in the future.  <br>
+> If you are at peace, you are living in the present. <br>
+>
+> – Lao Tzu
