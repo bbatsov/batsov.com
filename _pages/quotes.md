@@ -74,6 +74,14 @@ This page is simply a collection of random quotes that I find inspirational.
 >
 > -- André Kostolany
 
+> It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price.
+>
+> -- Warren Buffett, Letter to shareholders for the year 1989
+
+> Price is what you pay. Value is what you get.
+>
+> -- Warren Buffett, Letter to shareholders for the year 2008
+
 ## Meta
 
 > A work of art is never finished. It is merely abandoned.
