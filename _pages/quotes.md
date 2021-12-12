@@ -8,6 +8,18 @@ toc: true
 
 This page is simply a collection of random quotes that I find inspirational.
 
+## Meta
+
+> A work of art is never finished. It is merely abandoned.
+>
+> -- E. M. Forster
+
+> If you are depressed, you are living in the past. <br>
+> If you are anxious, you are living in the future.  <br>
+> If you are at peace, you are living in the present. <br>
+>
+> – Lao Tzu
+
 ## Programming
 
 > The tools we use have a profound (and devious) influence on our thinking habits, and, therefore, on our thinking abilities.
@@ -81,15 +93,3 @@ This page is simply a collection of random quotes that I find inspirational.
 > Price is what you pay. Value is what you get.
 >
 > -- Warren Buffett, Letter to shareholders for the year 2008
-
-## Meta
-
-> A work of art is never finished. It is merely abandoned.
->
-> -- E. M. Forster
-
-> If you are depressed, you are living in the past. <br>
-> If you are anxious, you are living in the future.  <br>
-> If you are at peace, you are living in the present. <br>
->
-> – Lao Tzu
