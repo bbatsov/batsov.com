@@ -11,6 +11,8 @@ Today I've learned about [edamagit](https://github.com/kahole/edamagit), a super
 faithful port of Magit for VS Code. It looks pretty similar to Magit and even has
 the same keybindings as Magit (e.g. you display it with `M-x g`).
 
+![edamagit_demo.gif](https://github.com/kahole/edamagit/raw/5ebf38107c6130cc16a23f18d84aeecc21f09fe8/magit_commit_demo.gif)
+
 I've played with it a bit and it definitely makes using Git in VS Code a lot more fun. If for some reason you have to use VS Code this will make you feel right at home.
 
 Here are a couple of useful resources to get you started with `edamagit`:
