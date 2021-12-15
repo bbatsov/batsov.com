@@ -10,6 +10,10 @@ This page is simply a collection of random quotes that I find inspirational.
 
 ## Meta
 
+> Your time is limited, so don’t waste it living someone else’s life.
+>
+> -- Steve Jobs
+
 > A work of art is never finished. It is merely abandoned.
 >
 > -- E. M. Forster
