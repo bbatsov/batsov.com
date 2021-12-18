@@ -20,6 +20,7 @@ about:
 I'll likely ignore messages:
 
 * from random recruiters who are interested in my (non-existing) React.js and PHP skills
+* about "guest" articles from marketing agencies
 * that are hostile and non-constructive
 * that are sales pitches for random services (I've never bought into a service after a cold email from a sales rep, so don't waste your time with me)
 
