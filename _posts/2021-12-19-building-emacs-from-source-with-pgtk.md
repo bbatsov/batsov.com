@@ -36,7 +36,7 @@ I guess those commands are self-explanatory, but let's go over them in some deta
   * I guess it's clear why we need `libgtk-3-dev`.
   * Perhaps some other packages were also needed, but I just had them installed beforehand. You'll get pretty informative error messages from `configure`, so it'd be easy to install whatever else is needed.
 * We switch to the Emacs's repo folder, so we can start the build process there.
-* We configure, compile and install Emacs. I have an 8-core CPU, there for the `make -j8`.
+* We configure, compile and install Emacs. I have an 8-core CPU, therefore the `make -j8`.
 
 As you can see I went with the minimal feature-set needed by me (only `-with-pgtk`). Feel free to add whatever `--with-x` flags you might need, but keep in mind that most
 compilation flags will require you got install additional packages.
