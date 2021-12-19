@@ -16,7 +16,7 @@ When I learned we have to wait for Emacs 29, instead of Emacs 28, I immediately 
 Ubuntu 20.04 (running on Windows 11) and the build process was super simple:
 
 ``` shellsession
-$ git clone git://git.savannah.gnu.org/git/emacs.git
+$ git clone git://git.sv.gnu.org/emacs.git
 $ sudo apt install build-essential libgtk-3-dev libgnutls28-dev libtiff5-dev libgif-dev libjpeg-dev libpng-dev libxpm-dev libncurses-dev texinfo
 $ cd emacs
 $ ./autogen.sh
