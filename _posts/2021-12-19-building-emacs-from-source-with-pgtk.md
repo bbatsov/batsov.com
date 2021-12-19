@@ -1,6 +1,9 @@
 ---
 title: Building Emacs from Source with pgtk
 date: 2021-12-19 10:32 +0200
+tags:
+- Emacs
+- WSL
 ---
 
 Yesterday the pure GTK (a.k.a. `pgtk`) feature branch was [finally merged](https://www.reddit.com/r/emacs/comments/rj8k32/the_pgtk_pure_gtk_branch_was_merged/) in Emacs's master.
