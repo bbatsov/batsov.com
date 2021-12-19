@@ -11,7 +11,7 @@ In a [recent article]({% post_url 2021-12-06-emacs-is-not-a-proper-gtk-applicati
 I was super excited about it, because this meant proper Wayland support for Emacs and by association - native support
 for running Emacs's GUI version on Windows 11 with WSL.
 
-Truth be told, I was under the impression the branch was already merged months ago and was going to be shipped with Emacs 28.1, but it turns out I was mistaken.[^1]
+Truth be told, I was under the impression the `pgtk` branch was already merged months ago and was going to be shipped with Emacs 28.1, but it turns out I was mistaken.[^1]
 When I learned we have to wait for Emacs 29, instead of Emacs 28, I immediately decided to build Emacs from the `master` branch. I'm using
 Ubuntu 20.04 (running on Windows 11) and the build process was super simple:
 
@@ -41,10 +41,39 @@ I guess those commands are self-explanatory, but let's go over them in some deta
 As you can see I went with the minimal feature-set needed by me (only `-with-pgtk`). Feel free to add whatever `--with-x` flags you might need, but keep in mind that most
 compilation flags will require you got install additional packages.
 
-In the end Emacs will get installed in `/usr/local/` and you'll have the `emacs-29.0.50` binary under `/usr/local/bin`. Just run it and that's it. I'm writing this article from my brand new
+In the end Emacs will get installed in `/usr/local/` and you'll have the `emacs` (and `emacs-29.0.50`) binary under `/usr/local/bin`. Just run it and that's it. I'm writing this article from my brand new
 Emacs 29 running on WSL and it's gorgeous - gone are the blurry fonts and the need to use a 3rd party X server as a stop-gap measure. It also seems that Emacs is a bit snappier, but this might
 be just my wishful thinking.
+
+![emacs_with_pgtk.png](/assets/images/emacs_with_pgtk.png)
+
+You'll notice that now Emacs has proper GTK "chrome" (e.g. the frame
+title/header and the menubar). While the screenshot above is from Windows,
+everyone using Wayland on Linux will experience the same benefits as well.
+
+One thing to note is that when you're installing Emacs from source you won't get a menu entry for Emacs in your Windows start menu or distribution application launcher.
+This you can easily fix by creating the necessary `.desktop` file (e.g. `/usr/share/applications/emacs29.desktop` on Ubuntu):
+
+```
+[Desktop Entry]
+Name=Emacs 29
+GenericName=Text Editor
+Comment=Edit text
+MimeType=text/english;text/plain;text/x-makefile;text/x-c++hdr;text/x-c++src;text/x-chdr;text/x-csrc;text/x-java;text/x-moc;text/x-pascal;text/x-tcl;text/x-tex;application/x-shellscript;text/x-c;text/x-c++;
+Exec=emacs %F
+Icon=emacs
+Type=Application
+Terminal=false
+Categories=Development;TextEditor;
+StartupWMClass=Emacs
+Keywords=Text;Editor;
+```
+
+It took me a while to get everything working, but it was also a lot of fun. In recent years I rarely build applications from source,
+so I've forgotten how easy and educational this was.[^2] I was even a bit afraid of the whole process! I hope this article will encourage
+more of you to play with new features or customize their Emacs installation.
 
 The rumors about the my transition to the Dark Side (VS Code) were premature! Emacs forever!
 
 [^1]: I've updated my other pgtk article to reflect this.
+[^2]: When I was a Gentoo user I had spent countless hours tweaking the build flags for all the packages I used frequently. Good times!
