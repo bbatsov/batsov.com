@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Changes to GitHub Pages
 date: 2021-12-19 18:44 +0200
 tags:
