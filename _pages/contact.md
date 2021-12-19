@@ -12,6 +12,7 @@ I'd be really glad to hear from you, if you want to talk
 about:
 
 * content on the site (e.g. share some feedback about an article I wrote)
+* Emacs
 * any of my OSS projects
 * presentations I gave
 * career development
