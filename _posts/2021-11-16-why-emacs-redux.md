@@ -63,8 +63,9 @@ On a more practical note I'll also mention that Emacs has improved a lot since t
 - Emacs now supports a limited form of concurrency (introduced in Emacs 26).
 - Emacs 27 started shipping a built-in JSON parser.
 - Emacs has [good support for LSP](https://github.com/emacs-lsp/lsp-mode), which allows us to harvest the efforts of a lot of people for free. The gap between Emacs and VS Code and IDEs is a lot narrower than it used to be.
-- Emacs 28 will bring massive performance gains with [native compilation](https://akrl.sdf.org/gccemacs.html).
 - Emacs has fantastic support for programming in Clojure.[^3] I think the popularity of Clojure and the fact that Emacs was the only editor to support it well early on gave Emacs a massive boost around the time of my original article.
+- Emacs 28 will bring massive performance gains with [native compilation](https://akrl.sdf.org/gccemacs.html).
+- Emacs 29 will feature a pure GTK front-end (a.k.a `pgtk`). This means that Emacs 29 work natively on Wayland (and Windows 11 + WSL by association).
 - Emacs 29 will bring us [proper support for emojis](https://lars.ingebrigtsen.no/2021/10/28/emacs-emojis-a-%e2%9d%a4%ef%b8%8f-story/)!
 
 And that's only the tip of the iceberg. Emacs is definitely not standing still and both the core and the third-party package ecosystem are constantly
