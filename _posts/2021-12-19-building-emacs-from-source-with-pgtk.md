@@ -27,10 +27,10 @@ $ sudo make install
 
 I guess those commands are self-explanatory, but let's go over them in some details:
 
-* We clone Emacs's Git repo locally
+* We clone Emacs's Git repo locally (this will take a while!)
 * We install the packages needed to build Emacs with `pgtk` support.
-  * `build-essential` is GCC and other related libraries.
-  * `texinfo` is needed for the Info documentation and `libgnutls28` is a generic dependency (you can disable `tls` support, though).
+  * `build-essential` is GCC and other related libraries (e.g. Make and `libc`).
+  * `texinfo` is needed for the Info documentation and `libgnutls28` is a generic dependency (you can disable `gnutls` support with `--with-gnutls=no`).
   * There are bunch of deps for dealing with images (e.g. `tiff`, `png`, `jpeg`)
   * `libncurses` is a library for console UIs
   * I guess it's clear why we need `libgtk-3-dev`.
@@ -39,11 +39,11 @@ I guess those commands are self-explanatory, but let's go over them in some deta
 * We configure, compile and install Emacs. I have an 8-core CPU, therefore the `make -j8`.
 
 As you can see I went with the minimal feature-set needed by me (only `-with-pgtk`). Feel free to add whatever `--with-x` flags you might need, but keep in mind that most
-compilation flags will require you got install additional packages.
+compilation flags will require you to install additional packages.
 
 In the end Emacs will get installed in `/usr/local/` and you'll have the `emacs` (and `emacs-29.0.50`) binary under `/usr/local/bin`. Just run it and that's it. I'm writing this article from my brand new
 Emacs 29 running on WSL and it's gorgeous - gone are the blurry fonts and the need to use a 3rd party X server as a stop-gap measure. It also seems that Emacs is a bit snappier, but this might
-be just my wishful thinking.
+be just my wishful thinking. My favorite improvement - Emacs doesn't die when my computer goes to sleep (this was a nasty limitation of the X server I was using with Windows 10).
 
 ![emacs_with_pgtk.png](/assets/images/emacs_with_pgtk.png)
 
@@ -51,7 +51,7 @@ You'll notice that now Emacs has proper GTK "chrome" (e.g. the frame
 title/header and the menubar). While the screenshot above is from Windows,
 everyone using Wayland on Linux will experience the same benefits as well.
 
-One thing to note is that when you're installing Emacs from source you won't get a menu entry for Emacs in your Windows start menu or distribution application launcher.
+One thing to note is that when you're installing Emacs from source you won't get a menu entry for Emacs in your Windows start menu or Linux distribution application launcher.
 This you can easily fix by creating the necessary `.desktop` file (e.g. `/usr/share/applications/emacs29.desktop` on Ubuntu):
 
 ```
