@@ -16,8 +16,8 @@ When I learned we have to wait for Emacs 29, instead of Emacs 28, I immediately 
 Ubuntu 20.04 (running on Windows 11) and the build process was super simple:
 
 ``` shellsession
-$ git clone https://git.savannah.gnu.org/git/emacs.git
-$ sudo apt install build-essentials libgtk-3-dev libgnutls28-dev texinfo
+$ git clone git://git.savannah.gnu.org/git/emacs.git
+$ sudo apt install build-essential libgtk-3-dev libgnutls28-dev libtiff5-dev libgif-dev libjpeg-dev libpng-dev libxpm-dev libncurses-dev texinfo
 $ cd emacs
 $ ./autogen.sh
 $ ./configure --with-pgtk
@@ -29,8 +29,10 @@ I guess those commands are self-explanatory, but let's go over them in some deta
 
 * We clone Emacs's Git repo locally
 * We install the packages needed to build Emacs with `pgtk` support.
-  * `build-essentials` is GCC and other related libraries.
+  * `build-essential` is GCC and other related libraries.
   * `texinfo` is needed for the Info documentation and `libgnutls28` is a generic dependency (you can disable `tls` support, though).
+  * There are bunch of deps for dealing with images (e.g. `tiff`, `png`, `jpeg`)
+  * `libncurses` is a library for console UIs
   * I guess it's clear why we need `libgtk-3-dev`.
   * Perhaps some other packages were also needed, but I just had them installed beforehand. You'll get pretty informative error messages from `configure`, so it'd be easy to install whatever else is needed.
 * We switch to the Emacs's repo folder, so we can start the build process there.
