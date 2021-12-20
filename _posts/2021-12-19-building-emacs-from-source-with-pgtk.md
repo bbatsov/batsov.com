@@ -42,7 +42,9 @@ As you can see I went with the minimal feature-set needed by me (only
 `-with-pgtk`). Feel free to add whatever `--with-x` (optional feature) flags you
 might need, but keep in mind that most optional features will require you to
 install additional packages. You can see a list of all compilation flags with
-`./configure --help`. Out of the available optional features I think that the two most
+`./configure --help`.
+
+Out of the available optional features I think that the two most
 useful for the majority of people are probably native JSON support (`--with-json`) and
 native compilation support (`--with-native-compilation`). If you decide to go for them you'll need to install a few extra packages and tweak the `configure` command:
 
