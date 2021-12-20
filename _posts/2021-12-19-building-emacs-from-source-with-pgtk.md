@@ -38,8 +38,13 @@ I guess those commands are self-explanatory, but let's go over them in some deta
 * We switch to the Emacs's repo folder, so we can start the build process there.
 * We configure, compile and install Emacs. I have an 8-core CPU, therefore the `make -j8`.
 
-As you can see I went with the minimal feature-set needed by me (only `-with-pgtk`). Feel free to add whatever `--with-x` flags you might need, but keep in mind that most
-compilation flags will require you to install additional packages.
+As you can see I went with the minimal feature-set needed by me (only
+`-with-pgtk`). Feel free to add whatever `--with-x` (optional feature) flags you
+might need, but keep in mind that most optional features will require you to
+install additional packages. You can see a list of all compilation flags with
+`./configure --help`. Out of the available optional features I think that the two most
+useful for the majority of people are probably native JSON support (`--with-json`) and
+native compilation support (`--with-native-compilation`).
 
 In the end Emacs will get installed in `/usr/local/` and you'll have the `emacs` (and `emacs-29.0.50`) binary under `/usr/local/bin`. Just run it and that's it. I'm writing this article from my brand new
 Emacs 29 running on WSL and it's gorgeous - gone are the blurry fonts and the need to use a 3rd party X server as a stop-gap measure. It also seems that Emacs is a bit snappier, but this might
