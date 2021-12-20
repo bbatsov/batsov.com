@@ -92,9 +92,6 @@ will host short musings on random non-technical topics.
 This website is powered by [Jekyll](https://jekyllrb.com/) and uses
 the [Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes).
 
-The comments are powered by the privacy-focused service [Hyvor Talk](https://talk.hyvor.com).
-One way to support my work is to sign up for Hyvor via my [affiliate link](https://talk.hyvor.com?aff=14023).
-
 I write all of the articles in Emacs and publish them to GitHub
 pages. These days (circa 2021) I'm a Windows 10 (with WSL2) user most of the time.  When I'm at home
 I do all my writing on my beloved [Leopold
