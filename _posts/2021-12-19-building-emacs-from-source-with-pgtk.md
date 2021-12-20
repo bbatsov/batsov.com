@@ -42,7 +42,7 @@ As you can see I went with the minimal feature-set needed by me (only
 `-with-pgtk`). Feel free to add whatever `--with-x` (optional feature) flags you
 might need, but keep in mind that most optional features will require you to
 install additional packages. You can see a list of all compilation flags with
-`./configure --help`.
+`./configure --help`. It's also a good idea to check out the [official Emacs installation guide](https://git.savannah.gnu.org/cgit/emacs.git/tree/INSTALL).
 
 Out of the available optional features I think that the two most
 useful for the majority of people are probably native JSON support (`--with-json`) and
