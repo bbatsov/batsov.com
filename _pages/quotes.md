@@ -78,6 +78,10 @@ This page is simply a collection of random quotes that I find inspirational.
 >
 > -- Marcus Aurelius, Gladiator
 
+> Sometimes I do what I want to do. The rest of the time, I do what I have to.
+>
+> -- Cicero, Gladiator
+
 ## Books
 
 > The things you own end up owning you. It's only after you lose everything that you're free to do anything.
