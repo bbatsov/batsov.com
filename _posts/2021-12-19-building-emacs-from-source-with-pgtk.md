@@ -44,7 +44,16 @@ might need, but keep in mind that most optional features will require you to
 install additional packages. You can see a list of all compilation flags with
 `./configure --help`. Out of the available optional features I think that the two most
 useful for the majority of people are probably native JSON support (`--with-json`) and
-native compilation support (`--with-native-compilation`).
+native compilation support (`--with-native-compilation`). If you decide to go for them you'll need to install a few extra packages and tweak the `configure` command:
+
+``` shellsession
+# Native JSON
+$ sudo apt install libjansson4 libjansson-dev
+# Native Complilation
+$ sudo apt install libgccjit0 libgccjit-10-dev gcc-10 g++-10
+$ export CC=/usr/bin/gcc-10 CXX=/usr/bin/gcc-10
+$ ./configure --with-native-compilation --with-json --with-pgtk
+```
 
 In the end Emacs will get installed in `/usr/local/` and you'll have the `emacs` (and `emacs-29.0.50`) binary under `/usr/local/bin`. Just run it and that's it. I'm writing this article from my brand new
 Emacs 29 running on WSL and it's gorgeous - gone are the blurry fonts and the need to use a 3rd party X server as a stop-gap measure. It also seems that Emacs is a bit snappier, but this might
@@ -73,6 +82,8 @@ Categories=Development;TextEditor;
 StartupWMClass=Emacs
 Keywords=Text;Editor;
 ```
+
+If you decide to uninstall the version of Emacs you've installed from source you can just run `sudo make uninstall` from the Emacs source folder.
 
 It took me a while to get everything working, but it was also a lot of fun. In recent years I rarely build applications from source,
 so I've forgotten how easy and educational this was.[^2] I was even a bit afraid of the whole process! I hope this article will encourage
