@@ -67,23 +67,19 @@ You'll notice that now Emacs has proper GTK "chrome" (e.g. the frame
 title/header and the menubar). While the screenshot above is from Windows,
 everyone using Wayland on Linux will experience the same benefits as well.
 
-One thing to note is that when you're installing Emacs from source you won't get a menu entry for Emacs in your Windows start menu or Linux distribution application launcher.
-This you can easily fix by creating the necessary `.desktop` file (e.g. `/usr/share/applications/emacs29.desktop` on Ubuntu):
+Emacs 29 also ships with an improved global minor mode for scrolling with a
+mouse or a touchpad, that you might want to enable as well:
 
+``` elisp
+(pixel-scroll-precision-mode)
 ```
-[Desktop Entry]
-Name=Emacs 29
-GenericName=Text Editor
-Comment=Edit text
-MimeType=text/english;text/plain;text/x-makefile;text/x-c++hdr;text/x-c++src;text/x-chdr;text/x-csrc;text/x-java;text/x-moc;text/x-pascal;text/x-tcl;text/x-tex;application/x-shellscript;text/x-c;text/x-c++;
-Exec=emacs %F
-Icon=emacs
-Type=Application
-Terminal=false
-Categories=Development;TextEditor;
-StartupWMClass=Emacs
-Keywords=Text;Editor;
-```
+
+In my experience this resulted in much smoother scrolling. It's not very clear to me what's the difference with the older `pixel-scroll-mode`, but the new one definitely worked better.
+
+`make install` will also create an `emacs.desktop` file under `/usr/local/share/applications/emacs.desktop`, so you'd get a menu entry for Emacs (and `Emacs Client`) in your Windows start menu or Linux distribution application launcher. For some reason with this launcher Emacs's icon got replaced with a generic Linux icon in Windows,
+but I have been unable to figure out what exactly went wrong. I'll update the article when I figure this out.
+
+![emacs_windows_launcher.png](/assets/images/emacs_windows_launcher.png)
 
 If you decide to uninstall the version of Emacs you've installed from source you can just run `sudo make uninstall` from the Emacs source folder.
 
