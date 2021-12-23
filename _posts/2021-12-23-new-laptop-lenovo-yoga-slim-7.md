@@ -126,6 +126,7 @@ Here are some of the other (Windows) machines that I considered before getting t
 * Dell XPS 13 - ditto
 * HP Spectre 14 x360 - amazing 3:2 screen and great build quality, good value for the money, but very noisy and it had a fingerprint scanner where the right Control key should be
 * Microsoft Surface - great 3:2 screen, lovely keyboard (but without right Control), very limited availability in Bulgaria and MacBook-level pricing
+* Lenovo Yoga Slim 7 Pro - a more powerful version of my laptop, but the AMD models are extremely hard to find in Bulgaria
 * [Schenker Vision 14](https://www.schenker-tech.de/en/schenker-vision-14) - custom "German" (Chinese?) laptop, that's very extensible and comes with a great 3:2 display. Sadly, they don't have any AMD models.
 * [Tuxedo InfinityBook Pro 14](https://www.tuxedocomputers.com/en/Linux-Hardware/Linux-Notebooks/10-14-inch/TUXEDO-InfinityBook-Pro-14-Gen6.tuxedo) - same as above, but targeting Linux
 
