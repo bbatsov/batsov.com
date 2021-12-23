@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'New Laptop: Lenovo Yoga Slim 7'
 date: 2021-12-23 10:48 +0200
 tags:
