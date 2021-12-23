@@ -102,6 +102,7 @@ Obviously they are more premium/faster computers (especially the MBP), but I don
 * The charger is super light.
 * I got a free USB-C to HDMI converter with the laptop.
 * The webcam has support for Windows Hello (something like Face ID).
+* The display hinge goes all the way to 180 degrees.
 
 ### Bad Stuff
 
@@ -114,6 +115,8 @@ Obviously they are more premium/faster computers (especially the MBP), but I don
 * The laptop has only 3 USB-C ports and a headphone jack. No Thunderbolt support, but I don't really care about this.
 * No privacy shutter for the webcam.
 * The built-in speakers are so-so.
+* The name. It's quite a mouthful and it's also different in different markets (e.g. Lenovo IdeaPad Slim 7). Not to mention some people
+think that the Yoga brand stands for 2-in-1 convertibles with touch screens.
 
 ## Honorable Mentions
 
@@ -127,6 +130,10 @@ Here are some of the other (Windows) machines that I considered before getting t
 * [Tuxedo InfinityBook Pro 14](https://www.tuxedocomputers.com/en/Linux-Hardware/Linux-Notebooks/10-14-inch/TUXEDO-InfinityBook-Pro-14-Gen6.tuxedo) - same as above, but targeting Linux
 
 ## Epilogue
+
+> There is no exquisite beauty without some strangeness in the proportion.
+>
+> -- Edgar Allan Poe
 
 I'm well aware that any M1-powered laptop will blow away my modest Lenovo Yoga, but I don't really care about this either. I still plan to get
 some MacBook down the road, but I'm not in a rush and I'll likely wait for M2 to come out. My experience with first-gen Apple devices has never
