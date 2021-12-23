@@ -128,10 +128,6 @@ Here are some of the other (Windows) machines that I considered before getting t
 
 ## Epilogue
 
-> Choose your love. Love your choice.
->
-> -- Thomas S. Monson
-
 I'm well aware that any M1-powered laptop will blow away my modest Lenovo Yoga, but I don't really care about this either. I still plan to get
 some MacBook down the road, but I'm not in a rush and I'll likely wait for M2 to come out. My experience with first-gen Apple devices has never
 been very good.
@@ -154,7 +150,7 @@ on macOS and it's pretty much the same as I what I had on Linux itself. I never 
 
 I also realized my dream of owning an AMD-powered laptop! As irrational as it gets, but that's the kind of person who am I. I'm definitely
 pleased the with performance and thermal profile of the Ryzen 5800U and I cannot wait to see what AMD have in store for us with the upcoming
-Zen 4 and the new 5nm fabrication process. Perhaps they'll be able to give Apple a run for their money?
+Zen 4 and the new 5nm fabrication process. Perhaps they'll be able to give Apple a run for their money? I missed a good old CPU war! They are so much fun!
 
 My last non-Apple laptop was a ThinkPad T520 in 2011. Some issues with it prompted me to write my [infamous Linux rant]({% post_url 2011-06-11-linux-desktop-experience-killing-linux-on-the-desktop %}) and to switch to Macs. 10 years later I once again have a Lenovo laptop. Coincidence or providence? Time will tell!
 
