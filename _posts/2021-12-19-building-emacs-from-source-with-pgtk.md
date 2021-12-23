@@ -74,6 +74,14 @@ mouse or a touchpad, that you might want to enable as well:
 (pixel-scroll-precision-mode)
 ```
 
+Here's the description of `pixel-scroll-precision-mode` from Emacs's NEWS:
+
+> When enabled, and if your mouse supports it, you can scroll the
+> display up or down at pixel resolution, according to what your mouse
+> wheel reports.  Unlike 'pixel-scroll-mode', this mode scrolls the
+> display pixel-by-pixel, as opposed to only animating line-by-line
+> scrolls.
+
 In my experience this resulted in much smoother scrolling. It's not very clear to me what's the difference with the older `pixel-scroll-mode`, but the new one definitely worked better.
 
 `make install` will also create an `emacs.desktop` file under `/usr/local/share/applications/emacs.desktop`, so you'd get a menu entry for Emacs (and `Emacs Client`) in your Windows start menu or Linux distribution application launcher. For some reason with this launcher Emacs's icon got replaced with a generic Linux icon in Windows,
