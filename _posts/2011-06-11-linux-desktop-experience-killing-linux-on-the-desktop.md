@@ -35,8 +35,8 @@ bought myself a new ThinkPad T520 laptop, powered by Nvidia's Optimus GPU
 switching technology - when the GPU load is low it uses the built-in Sandy
 Bridge GPU, when it gets higher - it switches to the discrete NVS 4200M
 GPU. Needless to say, this technology is not supported under Linux, but I was
-prepared to live without it. After all both Intel and Nvidia are known to have
-decent Linux drivers so I was about to try both GPU and select the one with the
+prepared to live without it. After all, both Intel and Nvidia are known to have
+decent Linux drivers so I was about to try both GPUs and select the one with the
 better performance. All I had to do was pick a shiny new distribution to power
 my mobile powerhouse...
 
@@ -53,7 +53,7 @@ normal video drivers.
 
 The Intel driver sucked so bad that I got constant screen corruption
 and hang-ups. Too bad, because I preferred to use the Intel GPU since
-I mostly work on the laptop. The open-source Nvidia driver `nouveau`
+I mostly work (program) on the laptop. The open-source Nvidia driver `nouveau`
 doesn't support the NVS 4200, so I was forced to install the
 proprietary driver. It ran OK initially, but after some time my system
 just started to freeze while waiting for Plymouth (probably after some
