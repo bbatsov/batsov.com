@@ -55,13 +55,20 @@ Here are the tech specs of the laptop:
 | GPU | AMD Radeon Vega 8 |
 | Storage | 1TB SSD |
 | RAM | 16GB LPDDR4x-4266 (soldered) |
-| Display | 13.3 inch, QHD (2560x1600), IPS, Glossy, 300 nits |
+| Display | 13.3 inch, QHD (2560x1600), 16:10 , IPS, Glossy, 300 nits |
 | PSU | 65W USB-C |
 | Weight | 1.2 kg |
 | OS | Windows 11 Home |
 
 You can find the detailed tech specs [here](https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_Slim_7_13ACN5/Yoga_Slim_7_13ACN5_Spec.pdf).
 The price I paid for the machine was 1100 EUR.
+
+Some of you might have noticed that the Yoga Slim 7 is pretty similar to a MacBook
+Air - it has an aluminum body, the same screen size and aspect ratio, and even
+exactly the same resolution as the MBA. It has a lot smaller screen bezels, though, which
+has allowed Lenovo to make a slightly lighter computer (1.2kg vs 1.3kg for the
+MBA). All of those similarities were quite appealing to me, given my fondness for the MBA's
+form factor and build quality.
 
 I don't want to write a detailed review of the Lenovo Yoga, but having used it extensively for 2 weeks I'll share a few thoughts on it.
 TLDR - it's a really great laptop, especially given its low price.
