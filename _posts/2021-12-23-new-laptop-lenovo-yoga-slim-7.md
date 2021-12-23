@@ -1,6 +1,7 @@
 ---
 title: 'New Laptop: Lenovo Yoga Slim 7'
 date: 2021-12-23 10:48 +0200
+toc: true
 tags:
 - Hardware
 - Windows
@@ -49,6 +50,8 @@ most of them on either high price (e.g. most ThinkPads), 1080p-only display
 (e.g. Asus Zenbook 13/14) or no AMD CPU option. In the end the Lenovo Yoga Slim
 7 was as close as I could get to my dream machine (within my budget), so I went with it.
 
+## Tech Specs
+
 Here are the tech specs of the laptop:
 
 | CPU | AMD Ryzen 7 5800U |
@@ -70,8 +73,23 @@ has allowed Lenovo to make a slightly lighter computer (1.2kg vs 1.3kg for the
 MBA). All of those similarities were quite appealing to me, given my fondness for the MBA's
 form factor and build quality.
 
+I should also mention that there's a similar laptop named [Lenovo Yoga Slim 7 Pro](https://www.lenovo.com/gb/en/laptops/yoga/yoga-slim-series/Yoga-Slim-7-Pro-14ARH5/p/LEN101Y0001), that might be an even better choice for some of you, because:
+
+* It has an USB-A port
+* It has a 14-inch screen with even higher resolution (2880x1800), higher brightness (400 nits) and 90Hz refresh rate
+* It has a bigger battery and longer battery life
+* It weight 1.3kg (just 100 grams more)
+
+Actually, this was the Lenovo laptop that caught my attention originally, but unfortunately in Bulgaria they were selling only the Intel version of it.
+
+## Mini Review
+
 I don't want to write a detailed review of the Lenovo Yoga, but having used it extensively for 2 weeks I'll share a few thoughts on it.
-TLDR - it's a really great laptop, especially given its low price.
+TLDR - it's a really great laptop, especially given its low price. Just a month ago I wouldn't have believed that you could get such a
+nice machine for so little money.
+
+For reference - a similarly spec-ed MBA costs around 2000 EUR in Bulgaria and a baseline MBP 14 costs 2300 EUR.
+Obviously they are more premium/faster computers (especially the MBP), but I don't think they are so much better to justify their price for most people.
 
 ### Good Stuff
 
@@ -97,7 +115,22 @@ TLDR - it's a really great laptop, especially given its low price.
 * No privacy shutter for the webcam.
 * The built-in speakers are so-so.
 
-### Epilogue
+## Honorable Mentions
+
+Here are some of the other (Windows) machines that I considered before getting the Yoga Slim 7:
+
+* ThinkPad X1 Carbon - probably the best Windows machine for me, but as expensive as an MBP in Bulgaria
+* Dell XPS 13 - ditto
+* HP Spectre 14 x360 - amazing 3:2 screen and great build quality, good value for the money, but very noisy and it had a fingerprint scanner where the right Control key should be
+* Microsoft Surface - great 3:2 screen, lovely keyboard (but without right Control), very limited availability in Bulgaria and MacBook-level pricing
+* [Schenker Vision 14](https://www.schenker-tech.de/en/schenker-vision-14) - custom "German" (Chinese?) laptop, that's very extensible and comes with a great 3:2 display. Sadly, they don't have any AMD models.
+* [Tuxedo InfinityBook Pro 14](https://www.tuxedocomputers.com/en/Linux-Hardware/Linux-Notebooks/10-14-inch/TUXEDO-InfinityBook-Pro-14-Gen6.tuxedo) - same as above, but targeting Linux
+
+## Epilogue
+
+> Choose your love. Love your choice.
+>
+> -- Thomas S. Monson
 
 I'm well aware that any M1-powered laptop will blow away my modest Lenovo Yoga, but I don't really care about this either. I still plan to get
 some MacBook down the road, but I'm not in a rush and I'll likely wait for M2 to come out. My experience with first-gen Apple devices has never
@@ -111,7 +144,7 @@ I've learned that today developers definitely have some decent options if they
 are looking for alternatives of Apple's walled garden (or running Linux on the
 bare metal). Yeah, it'd be even better if we had good options for native Linux,
 but I've pretty much lost all hope on that front and at this point I don't
-really care. In many ways Windows + WSL is exactly the type of Linux desktop
+really care.[^2] In many ways Windows + WSL is exactly the type of Linux desktop
 experience that I always dreamed of. I no longer have to worry about driver and hardware compatibility, and I
 have access to all the Linux tools that I need. The level of integration between Windows 11 and WSL is insane!
 
@@ -126,3 +159,4 @@ Zen 4 and the new 5nm fabrication process. Perhaps they'll be able to give Apple
 My last non-Apple laptop was a ThinkPad T520 in 2011. Some issues with it prompted me to write my [infamous Linux rant]({% post_url 2011-06-11-linux-desktop-experience-killing-linux-on-the-desktop %}) and to switch to Macs. 10 years later I once again have a Lenovo laptop. Coincidence or providence? Time will tell!
 
 [^1]: Admittedly, I briefly owned a HP Spectre x360 5 years ago. I love it as hardware, but back then WSL was way too immature for my needs and Linux didn't support well the Spectre's touch-screen.
+[^2]: Supposedly my laptop should work great with Linux. I'll have to check that at some point.
