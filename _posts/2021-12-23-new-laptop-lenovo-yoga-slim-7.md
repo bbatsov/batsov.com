@@ -70,7 +70,7 @@ TLDR - it's a really great laptop, especially given its low price.
 
 * Super fast (compared my old laptop at least) - that 8-core Ryzen CPU is a beast!
 * Gorgeous display, although I would have preferred a non-glossy (matte) version of it.
-* Relatively cool and quiet under normal workloads.
+* Relatively cool and quiet under normal workloads. It's no M1, but it's definitely coolest laptop I've ever owned. The laptop has a couple of power profiles you can choose from and in "battery saver" mode it's totally quiet and pretty cool.
 * Excellent build quality - it feels almost as premium as a MacBook!
 * Best laptop keyboard I've had in at least 10 years! Obviously it's still a laptop keyboard, but it has much better travel and feedback than Apple's new/old keyboards. I also love how the keycaps are shaped.
 * Great trackpad - almost as good as Apple's trackpads.
@@ -111,6 +111,10 @@ have access to all the Linux tools that I need. The level of integration between
 As usual, I'm writing this article from my
 Emacs 29 running on WSL + Wayland and it's gorgeous! My Emacs experience today is much better than what I used to have
 on macOS and it's pretty much the same as I what I had on Linux itself. I never saw this coming! (I doubt anyone saw this coming)
+
+I also realized my dream of owning an AMD-powered laptop! As irrational as it gets, but that's the kind of person who am I. I'm definitely
+pleased the with performance and thermal profile of the Ryzen 5800U and I cannot wait to see what AMD have in store for us with the upcoming
+Zen 4 and the new 5nm fabrication process. Perhaps they'll be able to give Apple a run for their money?
 
 My last non-Apple laptop was a ThinkPad T520 in 2011. Some issues with it prompted me to write my [infamous Linux rant]({% post_url 2011-06-11-linux-desktop-experience-killing-linux-on-the-desktop %}) and to switch to Macs. 10 years later I once again have a Lenovo laptop. Coincidence or providence? Time will tell!
 
