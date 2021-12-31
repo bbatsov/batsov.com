@@ -67,6 +67,7 @@ Here's mine:
 | Case | Fractal Design Define 7 |
 | PSU | Fractal Design Ion+ 660W Platinum |
 
+It's cheap, powerful, quiet, never overheats, never runs out of juice and it has all the ports in the world. You can even swap parts yourself! As a bonus - it glows in the dark and it looks bad-ass!
 I got it in July 2020 and it has been my primary computer ever since. Get this desktop had a few interesting
 ramifications:
 
