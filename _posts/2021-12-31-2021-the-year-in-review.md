@@ -67,7 +67,16 @@ Here's mine:
 | Case | Fractal Design Define 7 |
 | PSU | Fractal Design Ion+ 660W Platinum |
 
-I got it in July 2020 and it has been my primary computer ever since.
+I got it in July 2020 and it has been my primary computer ever since. Get this desktop had a few interesting
+ramifications:
+
+- It showed me that drivers are still a major problem with Linux
+- It led me to rediscover Windows and gaming
+- I'm finally using the ethernet at home
+- Now that I have more ports to spare I got inspired to buy more peripherals
+
+All in all - this was one of the best things to come out of the pandemic. I can recommend
+to everyone to assemble their perfect desktop. It's a lot of fun!
 
 ### The Year of Windows
 
@@ -75,10 +84,11 @@ This was also the first year since 2003 that I've spent almost exclusively
 on Windows! I've been mostly a Linux (2004-2011) and macOS (2011-2020) user
 in recent years.
 
-I'm really impressed by the new direction of Microsoft as a company and the
-work they've done to make Windows 10/11 a viable option for software development.
-I think it's safe to say that at this point Windows is a better Linux than many
-standalone Linux distros. The native Wayland support in Windows 11 is just epic!
+I'm really impressed by the new direction of Microsoft as a company and the work
+they've done to make Windows 10/11 a viable option for software development
+(think WSL, Windows Terminal, PowerToys, etc).  I think it's safe to say that at
+this point Windows is a better Linux than many standalone Linux distros. The
+native Wayland support in Windows 11 is just epic![^3]
 
 Admittedly, I ended up on Windows [quite unexpectedly](https://metaredux.com/posts/2021/07/31/back-to-linux.html), but I've enjoyed the experience so much that
 I recently bought a [Windows laptop]({% post_url 2021-12-23-new-laptop-lenovo-yoga-slim-7 %}) as well.
@@ -196,3 +206,4 @@ No objectives, no key results. 2022, here I come!
 
 [^1]: Probably because I spent a good chunk of it enjoying my long overdue sabbatical from work.
 [^2]: Around that time I sold my last custom built desktop and I started to use docked laptops as a replacement for desktops. I was also using a mac mini at home for a while, but it's a desktop in name only.
+[^3]: See [this article]({% post_url 2021-12-19-building-emacs-from-source-with-pgtk %}).
