@@ -195,3 +195,4 @@ Pretty tall order, right?
 No objectives, no key results. 2022, here I come!
 
 [^1]: Probably because I spent a good chunk of it enjoying my long overdue sabbatical from work.
+[^2]: Around that time I sold my last custom built desktop and I started to use docked laptops as a replacement for desktops. I was also using a mac mini at home for a while, but it's a desktop in name only.
