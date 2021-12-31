@@ -6,6 +6,10 @@ tags:
 - Meta
 ---
 
+> Celebrate endings -- for they precede new beginnings.
+>
+> -- Jonathan Lockwood Huie
+
 It's the final day of 2021 and tradition dictates that we should reflect on the
 year behind us. I like writing such "year in review" articles, because it's so
 much fun to read them myself a few years down the road. I guess most of us will
@@ -144,6 +148,9 @@ This year I was mostly interested in business books and the stories of famous co
 
 This was another year that I spent mostly away from my beloved cinemas.
 I think I saw only 3-4 movies on the big screen, most notably "Dune".
+I'm pretty sure it was the movie of the year for me, but I'm probably
+biased as I'm a huge fan of the books and I've been waiting for a very long
+time for a decent "Dune" movie.
 
 I watched several TV shows throughout the year, but nothing really stood out.
 Perhaps "Better Call Saul" was the one I enjoyed the most. "The Wheel of Time"
@@ -157,7 +164,7 @@ that it will turn out to be the great show I've been longing for.
 I've joined Toptal in Jan 2015. Before this my longest tenure in any company
 was around 2.5 years.
 
-As it stands today I'm employee #12 in a team of 1000+ people. I definitely didn't expect any of this in 2015. I'm very proud of everything we've achieved at Toptal and I still enjoy working there very much.
+As it stands today I'm employee #12 in a team of 1000+ people. I definitely didn't expect any of this in 2015! I'm very proud of everything we've achieved at Toptal and I still enjoy working there very much.
 
 ### Personal Finance
 
@@ -213,8 +220,9 @@ So, what's next? I don't have any ambitious plans for 2022. All I wish for is th
 
 Pretty tall order, right?
 
-No objectives, no key results. 2022, here I come!
+No objectives, no key results.[^4] 2022, here I come!
 
 [^1]: Probably because I spent a good chunk of it enjoying my long overdue sabbatical from work.
 [^2]: Around that time I sold my last custom built desktop and I started to use docked laptops as a replacement for desktops. I was also using a mac mini at home for a while, but it's a desktop in name only.
 [^3]: See [this article]({% post_url 2021-12-19-building-emacs-from-source-with-pgtk %}).
+[^4]: Seems I was a lot more goal-driven [a couple of years ago](https://metaredux.com/posts/2019/12/31/reduce-summarize-year-2019.html).
