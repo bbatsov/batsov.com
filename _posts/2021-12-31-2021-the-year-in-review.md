@@ -98,7 +98,7 @@ I recently bought a [Windows laptop]({% post_url 2021-12-23-new-laptop-lenovo-yo
 
 This year I've wasted a lot of my free time playing StarCraft II multiplayer.
 I never got particularly good (I guess I'm too old for this), but I still managed
-to get the Golden League with Protoss and I had a lot of fun (and frustration)
+to get to the Golden League with Protoss and I had a lot of fun (and frustration)
 in the process.
 
 There are so many strategies and potential counters to them, that
@@ -107,7 +107,7 @@ even compare it to chess.
 
 ### Revival of (think)
 
-This year I've decided to revive my personal site:
+This year I've decided to revive my (original) personal site/blog:
 
 * I updated [its visuals]({% post_url 2021-11-01-switching-to-minimal-mistakes %})
 * I restructured heavily the auxiliary pages (e.g. [About](/about))
@@ -171,6 +171,16 @@ Finance is also a fun hobby for me. If I didn't like to analyze companies and in
 ## Lowlights
 
 No year is complete without its lowlights.
+
+### Conferences
+
+Another year with no conferences in the real world. I participated in a few
+online events, but without the interactions with the people around the talks
+conferences just don't feel the same to me. It's also kind of hard to organize
+proper conference parties online. :-)
+
+I've always said that my favorite track is the "hallway" track.
+I miss the vibe of real (classic?) conferences and all the great people I've met at them.
 
 ### Sports
 
