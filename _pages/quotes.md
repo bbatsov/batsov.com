@@ -22,13 +22,17 @@ This page is simply a collection of random quotes that I find inspirational.
 > If you are anxious, you are living in the future.  <br>
 > If you are at peace, you are living in the present. <br>
 >
-> – Lao Tzu
+> –- Lao Tzu
+
+> Plans are worthless, but planning is everything.
+>
+> -- Dwight D. Eisenhower
 
 ## Programming
 
 > The tools we use have a profound (and devious) influence on our thinking habits, and, therefore, on our thinking abilities.
 >
-> — Edsger W. Dijkstra
+> —- Edsger W. Dijkstra
 
 > Lisp isn't a language, it's a building material.
 >
@@ -49,7 +53,7 @@ This page is simply a collection of random quotes that I find inspirational.
 > section on Emacs Lisp, Emacs has an entire programming language inside
 > it that can be used to write arbitrarily powerful editor functions.
 >
-> --Eric S. Raymond, The Art of UNIX Programming
+> -- Eric S. Raymond, The Art of UNIX Programming
 
 > If you are a professional writer – i.e., if someone else is getting
 > paid to worry about how your words are formatted and printed – Emacs
@@ -86,7 +90,7 @@ This page is simply a collection of random quotes that I find inspirational.
 
 > The things you own end up owning you. It's only after you lose everything that you're free to do anything.
 >
->  ― Tyler Durden (Chuck Palahniuk), Fight Club
+> -― Tyler Durden (Chuck Palahniuk), Fight Club
 
 ## Finance & Business
 
