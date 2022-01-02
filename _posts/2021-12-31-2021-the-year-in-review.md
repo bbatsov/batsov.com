@@ -17,7 +17,7 @@ remember this year as the second year of the global COVID-19 pandemic, but it
 was a fairly good year for me regardless.[^1]
 
 I won't touch upon my OSS work in this article, as I plan to write a separate one
-over at <https://metaredux.com>.
+about it over at <https://metaredux.com>.
 
 So, let's start with the highlights of 2021.
 
