@@ -208,12 +208,14 @@ As it stands today I'm employee #12 in a team of 1000+ people. I definitely didn
 
 ### Personal Finance
 
+2021 was the 3rd year since I've started to invest my savings actively (mostly in individual stocks). I've had a good year overall and I've reached my primary objectives on that front.
+
 As I get older I definitely think a lot more
 about savings, investments and generating some passive income.
 I ignored all the crypto hype for yet another year and I stuck to my guns and
 my simple value investing strategy.
 
-Finance is also a fun hobby for me. If I didn't like to analyze companies and industries, I'd certainly go for investment in some passive ETFs. That's the way to go for most people.
+Finance is also a fun hobby for me and I dedicate a lot of my free time to it. I'm following a lot of news feeds, blogs, and YouTube channels dedicated to investing. I even subscribed to the Wall Street Journal last year! If I didn't like to analyze companies and industries so much, I'd certainly go for investment in some passive ETFs. That's the way to go for most people.
 
 ## Lowlights
 
