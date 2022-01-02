@@ -33,7 +33,11 @@ Just a couple of days ago I got my booster shot as well. 5G signal operating at 
 
 ### Travel
 
-This year I finally managed to travel outside Bulgaria. I didn't travel much and I didn't visit any exotic places, but I was extremely happy to be able to visit different countries again. Most of this travel happened during my sabbatical from work in the summer/autumn. Certainly this was my favorite part of the year.
+This year I finally managed to travel outside Bulgaria, after spending a record
+14 consecutive months at home (Feb 2020 - June 2021). I didn't travel much and I
+didn't visit any exotic places, but I was extremely happy to be able to visit
+different countries again. Most of this travel happened during my sabbatical
+from work in the summer/autumn. Certainly this was my favorite part of the year.
 
 Here's a list of all the places I visited this year:
 
@@ -54,6 +58,10 @@ Here's a list of all the places I visited this year:
 - Florence, Italy
 
 I guess I was mostly looking for good beaches and good food this year.
+Southern Europe has always been one of my favorite travel destinations, so
+my trips this year were something like revisiting my greatest hits.
+Somehow I didn't manage to get to my beloved Spain, but I hope this will change
+next year.
 
 ### The Year of the Desktop
 
