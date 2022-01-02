@@ -116,26 +116,66 @@ This year I've decided to revive my (original) personal site/blog:
 * I updated [its visuals]({% post_url 2021-11-01-switching-to-minimal-mistakes %})
 * I restructured heavily the auxiliary pages (e.g. [About](/about))
 * I wrote 25 articles (my most productive year since 2013)
+* I've started doing [link posts]({% post_url 2021-12-09-experimenting-with-link-posts %}).
+* I've [killed the comments]({% post_url 2021-11-02-blog-comments-are-dead %}) on the blog.
 
 I've also decided to use "Meta Redux" mostly for my OSS work and use (think)
 for pretty much everything else. I played a bit with [HEY World](https://world.hey.com/bozhidar/), but it seems I like Markdown and Emacs way too much.
 
-### Fastmail
+### Writing
+
+I did a lot of writing on all my blogs last year.
+Here are the highlights:
+
+* [A Note about Recruiters]({% post_url 2021-11-03-a-note-about-recruiters %})
+* [Your Name is Your Brand]({% post_url 2021-11-14-your-name-is-your-brand %})
+* [Why Emacs: Redux]({% post_url 2021-11-16-why-emacs-redux %})
+* [Firefox is the Only Alternative]({% post_url 2021-11-29-firefox-is-the-only-alternative %})
+* [Back to Linux](https://metaredux.com/posts/2021/07/31/back-to-linux.html)
+
+I wrote only a handful of essays this year, but I wrote a lot of tutorials and
+"commentaries". I've become a big fan of the "link post" concept (think "Daring Fireball").
+
+### The Year in Software
+
+This year I made a lot of changes to my basic toolbox - some of them for practical reasons, others for ideological, or some combination of both.
+
+#### Firefox
+
+Firefox is once again my primary web browser. If you value the idea of open standards and online privacy you should consider [making the switch]({% post_url 2021-11-29-firefox-is-the-only-alternative %}) as well.
+
+#### Fastmail
 
 After using Gmail since day 1, this year I decided to [switch to Fastmail](https://metaredux.com/posts/2021/07/31/hasta-la-vista-gmail.html).
 6 months later I'm extremely happy with this decision and I only wish I made
 it earlier.
 
-### 1Password
+#### 1Password
 
 Similarly, after using LastPass for a very long time, this year I got so fed up with it that I finally tested some alternatives and in the end of the day I settled on
 1Password.
 
-### Authy
+#### Authy
 
 So many tool changes this year! There are many authenticator apps out there (I've been using mostly Google Authenticator), but definitely Authy is my favorite one so far (mostly for the ability to use it on multiple devices).
 
 I'm still waiting for a better approach to 2FA in general, but for the time being Authy will do.
+
+#### Notion
+
+I've started using Notion for note taking. I'm a huge fan of [Bear](https://bear.app/), but sadly it's available only on iOS and macOS. I tried OneNote before Notion, but I found it too weird. Notion is a lot more than a note-taking tool, and I don't really like this. I prefer simple laser-focused tools (except Emacs!), so I might explore other options down the road.
+
+#### Microsoft ToDo
+
+The artist formerly known as Wunderlist. It was the first todo app I ever used and now I've come full circle. For me it's a partial replacement of the Reminders app in iOS and Trello (which I normally use for Personal Kanban).
+
+I like Microsoft ToDo a lot for a couple of reasons:
+
+* it's free
+* it's available on all Platforms
+* it's super clean and simple
+
+The total opposite of Notion.
 
 ### Books
 
@@ -211,7 +251,9 @@ I blame StarCraft II (and my general laziness) for that.
 
 ## Epilogue
 
-And that's a wrap. I wanted to write a better article, but I feel a bit lazy and uninspired at the end of the year. Perhaps I'll revisit and extend the article over the weekend.
+> Plans are worthless, but planning is everything.
+>
+> -- Dwight D. Eisenhower
 
 So, what's next? I don't have any ambitious plans for 2022. All I wish for is that:
 
