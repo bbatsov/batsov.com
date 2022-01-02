@@ -223,7 +223,20 @@ about savings, investments and generating some passive income.
 I ignored all the crypto hype for yet another year and I stuck to my guns and
 my simple value investing strategy.
 
-Finance is also a fun hobby for me and I dedicate a lot of my free time to it. I'm following a lot of news feeds, blogs, and YouTube channels dedicated to investing. I even subscribed to the Wall Street Journal last year! If I didn't like to analyze companies and industries so much, I'd certainly go for investment in some passive ETFs. That's the way to go for most people.
+Finance is also a fun hobby for me and I dedicate a lot of my free time to
+it. I'm following a lot of news feeds, blogs, and YouTube channels dedicated to
+investing. I even subscribed to the Wall Street Journal last year! If I didn't
+like to analyze companies and industries so much, I'd certainly go for
+investment in some passive ETFs. That's the way to go for most people.
+
+Let's just say I'm not particularly pragmatic when it comes to investing and I'm also
+quite picky when it comes to the businesses where I want a tiny ownership stake.
+Very simply put I invest only in companies:
+
+- That I understand (at least superficially)
+- That I like
+- That I think are fairly valued/undervalued
+- That have a long track record of growth and a strong market position (unless we're talking about promising startups)
 
 ## Lowlights
 
