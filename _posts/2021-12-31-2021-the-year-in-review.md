@@ -214,6 +214,8 @@ was around 2.5 years.
 
 As it stands today I'm employee #12 in a team of 1000+ people. I definitely didn't expect any of this in 2015! I'm very proud of everything we've achieved at Toptal and I still enjoy working there very much.
 
+In fact - over the years I wore so many hats and my responsibilities changed so much (as did the company itself), that it often feels I worked at several different companies. Looking forward to the next batch of challenges and learning opportunities that 2022 will bring!
+
 ### Personal Finance
 
 2021 was the 3rd year since I've started to invest my savings actively (mostly in individual stocks). I've had a good year overall and I've reached my primary objectives on that front.
