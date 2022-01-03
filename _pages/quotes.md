@@ -34,6 +34,10 @@ This page is simply a collection of random quotes that I find inspirational.
 >
 > —- Edsger W. Dijkstra
 
+> Simplicity does not precede complexity, but follows it.
+>
+> -- Alan Perlis
+
 > Lisp isn't a language, it's a building material.
 >
 > -- Ward Cunningham
