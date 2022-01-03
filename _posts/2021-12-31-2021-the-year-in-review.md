@@ -185,6 +185,21 @@ I like Microsoft ToDo a lot for a couple of reasons:
 
 The total opposite of Notion.
 
+### The Year in Hardware
+
+If there's one thing I love doing it's playing with computer hardware and all
+sorts of tech gadgets (e.g. phones, speakers, mics, ebook readers, etc). I'm
+always considering to buy something new, even if I don't really need it.
+I'm proud that in 2021 I showed some signs of growing up and suppressed my
+urges to buy things spontaneously.
+
+After considering to buy all sorts of crazy things in the end I limited myself to the two things I really needed:
+
+- [Audioengine A2+ speakers](https://audioengineusa.com/shop/wirelessspeakers/a2-wireless-computer-speakers/), as I wanted to enjoy better music now that I'm spending so much time at home. I totally love them and I can heartily recommend them to anyone looking for compact, yet good sounding/looking speakers.
+- As mentioned earlier in the article - a new laptop (Lenovo Yoga Slim 7). Totally love it!
+
+Right now I'm also in the market for true wireless earbuds and I'll likely go for the Sony WF-1000XM4. Sony, I know that naming is hard, but I'm pretty sure you can do better than this!
+
 ### Books
 
 I didn't read much this year, especially when it comes to fiction. I challenged
