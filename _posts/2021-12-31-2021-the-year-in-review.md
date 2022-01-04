@@ -193,7 +193,10 @@ always considering to buy something new, even if I don't really need it.
 I'm proud that in 2021 I showed some signs of growing up and suppressed my
 urges to buy things spontaneously.
 
-After considering to buy all sorts of crazy things in the end I limited myself to the two things I really needed:
+After considering to buy all sorts of crazy things in the end I limited myself to the three things I really needed:
+
+- [Google Chromecast with Google TV](https://www.whathifi.com/reviews/google-chromecast-with-google-tv) to replace the (broken) built-in apps on my aging LG smart TV (I think these days Netflix is the only app that still works natively on it). I tried
+the Amazon Fire TV stick before, but I wasn't happy with its performance and some features weren't available in Bulgaria. The Chromecast is a very solid device that checks all the boxes for me. Also - I can't believe it took Google so long to realize that people prefer to have apps on the actual streaming devices and not have to use their phone or computer to "cast" to it (which is how all older Chromecast devices were working).
 
 - [Audioengine A2+ speakers](https://audioengineusa.com/shop/wirelessspeakers/a2-wireless-computer-speakers/), as I wanted to enjoy better music now that I'm spending so much time at home. I totally love them and I can heartily recommend them to anyone looking for compact, yet good sounding/looking speakers.
 - As mentioned earlier in the article - a new laptop (Lenovo Yoga Slim 7). Totally love it!
