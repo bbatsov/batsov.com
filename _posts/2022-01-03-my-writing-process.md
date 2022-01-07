@@ -28,7 +28,7 @@ that we have to start with something that gets the job done and improve it from 
 I think that my iterative writing process is partially a reflection of my messy
 thoughts. One of the reasons why I love to write is that through writing I
 manage to apply some structure to my chaotic thoughts and eventually crystallize them. In many ways writing is
-like teaching - if you can't explain something in simple terms than you don't really understand it.
+like teaching - if you can't explain something in simple terms then you don't really understand it.
 
 Time for a short summary. Writing helps me reduce raw thoughts and ideas to something clear and useful. My writing process is somewhat messy and incremental and my articles are never truly done.
 I wonder if my writing process would have been different if I weren't a programmer. I guess I can never know that.
