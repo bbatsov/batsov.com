@@ -28,6 +28,10 @@ This page is simply a collection of random quotes that I find inspirational.
 >
 > -- Dwight D. Eisenhower
 
+> The best way to predict the future is to invent it.
+>
+> -- Alan Kay
+
 ## Programming
 
 > The tools we use have a profound (and devious) influence on our thinking habits, and, therefore, on our thinking abilities.
