@@ -44,6 +44,7 @@ You can learn way more about me from:
 
 - the articles I wrote here and elsewhere.
 - [the books I read](https://www.goodreads.com/bozhidar). Supposedly you can learn a lot about a person by their choice of books.
+- [the music I listen to](https://www.last.fm/user/bozhidar)
 - [my professional resume](https://github.com/bbatsov/cv). Hmm, seems I haven't updated it in 11 years. Better visit my [LinkedIn profile](https://linkedin.com/in/bbatsov) instead.
 - the [quotes](/quotes/) that I find inspirational.
 
