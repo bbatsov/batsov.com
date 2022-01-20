@@ -29,7 +29,7 @@ end
 login(password: "xxx") # => {:username=>"shugo", :password=>"xxx"}
 ```
 
-What it doesn't have, however, is any rationale behind the proposed change. Weird. I get that the idea is to emulate the syntax of ES6, but I find this to be quite misguided if the end result is reduced code readability.[^2] What's the point in copying features from other languages if they don't add value to Ruby itself? What's the point
+What it doesn't have, however, is any rationale behind the proposed change. Weird. I get that the idea is to emulate the syntax of JavaScript's object punning, but I find this to be quite misguided if the end result is reduced code readability.[^2] What's the point in copying features from other languages if they don't add value to Ruby itself? What's the point
 of shaving off a few characters/keystrokes if the reader of the code might struggle to understand it?
 
 I've noticed that everyone reacted negatively to the proposal initially, including [Matz](http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/86123):
