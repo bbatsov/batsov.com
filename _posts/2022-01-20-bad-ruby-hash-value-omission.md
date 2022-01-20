@@ -52,6 +52,24 @@ Oh, well... Sadly, no one bothered to share those convincing arguments in the ti
 >
 > -- Harold Abelson, Structure and Interpretation of Computer Programs
 
+So, why do I feel that the new syntax makes things harder to read?
+
+- at a glance `{x:, y:}` seems like a hash without values. Simple as that. Yeah, when I know about the new syntax I'll infer that there are some
+locals with the same names as the keys that are currently in scope, but why bother with all of this? Explicit is (almost always) better than implicit when it
+comes to code readability/maintainability!
+- modern editors and IDEs are already quite smart - if you want to type less, such a problem can be solved at this level (e.g. IDEs would infer that you probably want to put `x` after `x:`).
+- how can I jump the local variable at point (e.g. I want to inspect it) if there's no local variable at point?
+
+Not to mention that this complicated further Ruby's already complicated parsers
+and created a boatload of work for me and the other members of RuboCop's team.
+Observing some of the interactions of the new syntax with other Ruby code
+(e.g. method calls using the new syntax followed by conditional modifiers) left
+me believing that the full implications of this were not carefully thought out.
+Still, I've decided to give this syntax the benefit of the doubt and not discourage it
+in the default RuboCop configuration. As usual I'll leave it to the broader
+community to figure out if something will become a Ruby idiom in the long run or
+not.
+
 This episode is just a continuation of the all the language changes in Ruby in recent years that I've found detrimental and that eventually prompted me to write my short essay [Ruby's Creed](https://metaredux.com/posts/2019/04/02/ruby-s-creed.html) in 2019. It's clear to me at this point that Ruby's direction hasn't changed and is unlikely to change. That makes me sad. I thought Ruby was all about programmer happiness.[^3]
 
 [^1]: The feature is officially named "hash value omission". It's also known as "hash punning" after the similar "object punning" in JavaScript.
