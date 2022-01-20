@@ -29,7 +29,8 @@ end
 login(password: "xxx") # => {:username=>"shugo", :password=>"xxx"}
 ```
 
-What it doesn't have, however, is any rationale behind the proposed change. Weird. I get that the idea is to emulate the syntax of ES6, but I find this to be quite misguided if the end result is reduced code readability. What's the point in copying features from other languages if they don't add value to Ruby itself?
+What it doesn't have, however, is any rationale behind the proposed change. Weird. I get that the idea is to emulate the syntax of ES6, but I find this to be quite misguided if the end result is reduced code readability. What's the point in copying features from other languages if they don't add value to Ruby itself? What's the point
+of shaving off a few characters/keystrokes if the reader of the code might struggle to understand it?
 
 I've noticed that everyone reacted negatively to the proposal initially, including [Matz](http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/86123):
 
@@ -45,6 +46,10 @@ This was in 2018. 4 years later, however, he changed his mind:
 > Our mindset has been updated (mostly due to mandatory keyword arguments).
 > Accepted.
 
-Oh, well... Sadly, no one bothered to share those convincing arguments in the ticket itself. I'm disappointed that in the end of the day the result is more complexity in the core language that serves mostly to allow writing shorter, but harder to read code.
+Oh, well... Sadly, no one bothered to share those convincing arguments in the ticket itself. I'm disappointed that in the end of the day the result is more complexity in the core language that serves mostly to allow writing shorter, but harder to read code. We should never forget the following words of wisdom:
+
+> Programs must be written for people to read, and only incidentally for machines to execute.
+>
+> -- Harold Abelson, Structure and Interpretation of Computer Programs
 
 This episode is just a continuation of the all the language changes in Ruby in recent years that I've found detrimental and that eventually prompted me to write my short essay [Ruby's Creed](https://metaredux.com/posts/2019/04/02/ruby-s-creed.html) in 2019. It's clear to me at this point that Ruby's direction hasn't changed and is unlikely to change. That makes me sad. I thought Ruby was all about programmer happiness.
