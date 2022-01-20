@@ -52,4 +52,6 @@ Oh, well... Sadly, no one bothered to share those convincing arguments in the ti
 >
 > -- Harold Abelson, Structure and Interpretation of Computer Programs
 
-This episode is just a continuation of the all the language changes in Ruby in recent years that I've found detrimental and that eventually prompted me to write my short essay [Ruby's Creed](https://metaredux.com/posts/2019/04/02/ruby-s-creed.html) in 2019. It's clear to me at this point that Ruby's direction hasn't changed and is unlikely to change. That makes me sad. I thought Ruby was all about programmer happiness.
+This episode is just a continuation of the all the language changes in Ruby in recent years that I've found detrimental and that eventually prompted me to write my short essay [Ruby's Creed](https://metaredux.com/posts/2019/04/02/ruby-s-creed.html) in 2019. It's clear to me at this point that Ruby's direction hasn't changed and is unlikely to change. That makes me sad. I thought Ruby was all about programmer happiness.[^1]
+
+[^1]: I have no doubt this change made someone happy, but I also wonder how many people did it leave as frustrated as me.
