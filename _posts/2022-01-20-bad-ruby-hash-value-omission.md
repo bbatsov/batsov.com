@@ -12,7 +12,7 @@ Ruby 3.1 was recently released and it features one major syntax addition - you c
 - `{x:, y:}` is syntax sugar for `{x: x, y: y}`.
 - `foo(x:, y:)` is syntax sugar for `foo(x: x, y: y)`.
 
-Note that `x` and `y` are local variable that are in scope. My first reaction was "WTF???". My second was to check how this made it to the language.
+Note that `x` and `y` are local variables that are in scope. My first reaction was "WTF???". My second was to check how this made it to the language.
 
 The [feature request ticket](https://bugs.ruby-lang.org/issues/14579) has a few more usage examples:
 
