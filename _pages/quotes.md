@@ -53,6 +53,10 @@ This page is simply a collection of random quotes that I find inspirational.
 >
 > -- Eric S. Raymond, How to Become a Hacker
 
+> Programs must be written for people to read, and only incidentally for machines to execute.
+>
+> -- Harold Abelson, Structure and Interpretation of Computer Programs
+
 ## Emacs
 
 > Emacs is undoubtedly the most powerful programmer's editor in
