@@ -80,10 +80,13 @@ and created a boatload of work for me and the other members of RuboCop's team.
 Observing some of the interactions of the new syntax with other Ruby code
 (e.g. method calls using the new syntax followed by conditional modifiers) left
 me believing that the full implications of this were not carefully thought out.
-Still, I've decided to give this syntax the benefit of the doubt and not discourage it
-in the default RuboCop configuration. As usual I'll leave it to the broader
-community to figure out if something will become a Ruby idiom in the long run or
-not.
+
+I'm left pondering if I'd feel differently about the feature if it was
+implemented in terms of a different syntax, that's not so ambiguous. Probably
+yes.  Still, I've decided to give this syntax the benefit of the doubt and not
+discourage it in the default RuboCop configuration (RuboCop introduced support
+for Ruby 3.1 in version 1.24). As usual I'll leave it to the broader community
+to figure out if something will become a Ruby idiom in the long run or not.
 
 This episode is just a continuation of the all the language changes in Ruby in recent years that I've found detrimental and that eventually prompted me to write my short essay [Ruby's Creed](https://metaredux.com/posts/2019/04/02/ruby-s-creed.html) in 2019. It's clear to me at this point that Ruby's direction hasn't changed and is unlikely to change. That makes me sad. I thought Ruby was all about programmer happiness.[^3]
 
