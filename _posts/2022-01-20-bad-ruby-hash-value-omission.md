@@ -7,7 +7,7 @@ tags:
 - Code Style
 ---
 
-Ruby 3.1 was recently released and it features one major syntax addition - you can now omit values in hash literals and keyword arguments in certain cases. The [release notes](https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/) give the following examples:
+Ruby 3.1 was recently released and it features one major syntax addition - you can now omit values in hash literals and keyword arguments in certain cases.[^1] The [release notes](https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/) give the following examples:
 
 - `{x:, y:}` is syntax sugar for `{x: x, y: y}`.
 - `foo(x:, y:)` is syntax sugar for `foo(x: x, y: y)`.
@@ -29,7 +29,7 @@ end
 login(password: "xxx") # => {:username=>"shugo", :password=>"xxx"}
 ```
 
-What it doesn't have, however, is any rationale behind the proposed change. Weird. I get that the idea is to emulate the syntax of ES6, but I find this to be quite misguided if the end result is reduced code readability. What's the point in copying features from other languages if they don't add value to Ruby itself? What's the point
+What it doesn't have, however, is any rationale behind the proposed change. Weird. I get that the idea is to emulate the syntax of ES6, but I find this to be quite misguided if the end result is reduced code readability.[^2] What's the point in copying features from other languages if they don't add value to Ruby itself? What's the point
 of shaving off a few characters/keystrokes if the reader of the code might struggle to understand it?
 
 I've noticed that everyone reacted negatively to the proposal initially, including [Matz](http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/86123):
@@ -52,6 +52,8 @@ Oh, well... Sadly, no one bothered to share those convincing arguments in the ti
 >
 > -- Harold Abelson, Structure and Interpretation of Computer Programs
 
-This episode is just a continuation of the all the language changes in Ruby in recent years that I've found detrimental and that eventually prompted me to write my short essay [Ruby's Creed](https://metaredux.com/posts/2019/04/02/ruby-s-creed.html) in 2019. It's clear to me at this point that Ruby's direction hasn't changed and is unlikely to change. That makes me sad. I thought Ruby was all about programmer happiness.[^1]
+This episode is just a continuation of the all the language changes in Ruby in recent years that I've found detrimental and that eventually prompted me to write my short essay [Ruby's Creed](https://metaredux.com/posts/2019/04/02/ruby-s-creed.html) in 2019. It's clear to me at this point that Ruby's direction hasn't changed and is unlikely to change. That makes me sad. I thought Ruby was all about programmer happiness.[^3]
 
-[^1]: I have no doubt this change made someone happy, but I also wonder how many people did it leave as frustrated as me.
+[^1]: The feature is officially named "hash value omission". It's also known as "hash punning" after the similar "object punning" in JavaScript.
+[^2]: There is a bit more rationale in [another ticket](https://bugs.ruby-lang.org/issues/17292).
+[^3]: I have no doubt this change made someone happy, but I also wonder how many people did it leave as frustrated as me.
