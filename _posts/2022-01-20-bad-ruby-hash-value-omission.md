@@ -66,6 +66,13 @@ comes to code readability/maintainability!
 def destroy (); puts "surprise"; end
 
 {destroy:} # this will print "surprise"
+
+# do you think this code behaved the same way before Ruby 3.1 and in Ruby 3.1?
+# see - https://github.com/rubocop/rubocop/issues/10359
+def some_method(token)
+  user = double :user, id: 42, token:
+  described_class.build(user)
+end
 ```
 
 Not to mention that this complicated further Ruby's already complicated parsers
