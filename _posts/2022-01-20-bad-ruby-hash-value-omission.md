@@ -59,6 +59,14 @@ locals with the same names as the keys that are currently in scope, but why both
 comes to code readability/maintainability!
 - modern editors and IDEs are already quite smart - if you want to type less, such a problem can be solved at this level (e.g. IDEs would infer that you probably want to put `x` after `x:`).
 - how can I jump the local variable at point (e.g. I want to inspect it) if there's no local variable at point?
+- there are also some "fun" cases to consider:
+
+``` ruby
+# the shorthand somewhat surprisingly works with methods without params
+def destroy (); puts "surprise"; end
+
+{destroy:} # this will print "surprise"
+```
 
 Not to mention that this complicated further Ruby's already complicated parsers
 and created a boatload of work for me and the other members of RuboCop's team.
