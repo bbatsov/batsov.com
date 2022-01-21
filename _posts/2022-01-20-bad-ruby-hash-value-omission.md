@@ -96,6 +96,8 @@ to figure out if something will become a Ruby idiom in the long run or not.
 
 This episode is just a continuation of the all the language changes in Ruby in recent years that I've found detrimental and that eventually prompted me to write my short essay [Ruby's Creed](https://metaredux.com/posts/2019/04/02/ruby-s-creed.html) in 2019. It's clear to me at this point that Ruby's direction hasn't changed and is unlikely to change. That makes me sad. I thought Ruby was all about programmer happiness.[^3]
 
+I can only hope that I'm in the minority and the hash punning syntax makes the majority of the Ruby programmers happy. Be happy!
+
 [^1]: The feature is officially named "hash value omission". It's also known as "hash punning" after the similar "object punning" in JavaScript.
 [^2]: There is a bit more rationale in [another ticket](https://bugs.ruby-lang.org/issues/17292).
 [^3]: I have no doubt this change made someone happy, but I also wonder how many people did it leave as frustrated as me.
