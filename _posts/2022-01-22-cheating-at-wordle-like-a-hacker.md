@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Cheating at Wordle Like a Hacker
 date: 2022-01-22 10:28 +0200
 tags:
