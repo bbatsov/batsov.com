@@ -117,3 +117,7 @@ This page is simply a collection of random quotes that I find inspirational.
 > Price is what you pay. Value is what you get.
 >
 > -- Warren Buffett, Letter to shareholders for the year 2008
+
+> Price fluctuations have only one significant meaning for the true investor. They provide him with an opportunity to buy wisely when prices fall sharply and to sell wisely when they advance a great deal.
+>
+> -- Benjamin Graham, The Intelligent Investor
