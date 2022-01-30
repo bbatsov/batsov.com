@@ -21,7 +21,7 @@ He also makes some great points on the "value creation" myth:
 
 As usual people focus on the stories of the winners and totally forget about the countless people who lost money while trading crypto. There's also a counter-party to your trades, nothing exists in a vacuum.
 
-Cryptop "pump and dump" schemes explained:
+Crypto "pump and dump" schemes explained:
 
 > One popular way of making money through cryptocurrency is to start a new currency, while retaining a large chunk of it for yourself. As a result, there are now thousands of competing cryptocurrencies in operation, with relatively little technical difference between them. In order to succeed, currency founders must convince people that their currency is new and different, and crucially, that the buyer understands this while other less savvy investors do not. Wild claims, fanciful economic ideas and rampant technobabble are the order of the day. This is a field that thrives on mystique, and particularly preys on participants fear of missing out on the next big thing.
 
