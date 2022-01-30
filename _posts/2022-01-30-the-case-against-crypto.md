@@ -19,7 +19,7 @@ Martin also makes some great points on the "value creation" myth:
 
 > As speculative instruments, cryptocurrencies do not in themselves create value. Any money that one person makes from buying low and selling high must come from someone else who bought high and sold low -- there are as many losers as winners. While those that have bought into cryptocurrencies may believe themselves to be rich on paper, this is often a mirage. The lack of transparency and regulation means that many cryptocurrencies have artificially inflated valuations, and it would be impossible for most "investors" to cash out without triggering a crash, as happened in early 2018, when the price of cryptocurrencies dropped by ~80%.
 
-As usual people focus on the stories of the winners and totally forget about the countless people who lost money while trading crypto. There's also a counter-party to your trades, nothing exists in a vacuum.
+As usual people focus on the stories of the (few) winners and totally forget about the countless others who lost money while trading crypto. There's also a counter-party to your trades, nothing exists in a vacuum.
 
 Crypto "pump and dump" schemes explained:
 
@@ -27,7 +27,7 @@ Crypto "pump and dump" schemes explained:
 
 I honestly have no idea who are the type of people who buy into all the "shitcoins" that get released every other week. I'm pretty sure, though, that the people behind them are the only people who are guaranteed to make some money out of them.
 
-And what about the latest fad - the so called "non-fungible tokens" (NFTs)? The article has a very simple and accurate description of them:
+And what about the latest fad, the so called "non-fungible tokens" (NFTs)? The article has a very simple and accurate description of them:
 
 > The second kind of cryptocurrency application is the attempt to bring other fields into this world of speculative finance. Non-fungible tokens (NFTs) are an example of this approach. Instead of recording transactions which purely involve currency, the blockchain is used to record the ownership of a "token" -- effectively a cryptocurrency with one indivisible coin. The token is tagged with metadata, typically a link to a piece of media. This is presented as an ownership record for the media, often with no legal basis, and can be traded much like any other cryptocurrency.
 
