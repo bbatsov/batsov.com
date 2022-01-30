@@ -6,7 +6,7 @@ tags:
 - Crypto
 ---
 
-I've long been extremely skeptical of crypto, regardless of all the hype surrounding it, and me
+I've long been extremely skeptical of crypto[^1], regardless of all the hype surrounding it, and me
 being surrounded by many people who are very passionate about it. Seems there's no shortage of
 believers in crypto and blockchain in the tech circles, and no shortage of people who are drawn to
 "get rich quick" schemes. I've been meaning to write a bit of thoughts on the subject for a while now,
@@ -33,7 +33,7 @@ And what about the latest fad - the so called "non-fungible tokens" (NFTs)? The 
 
 Paying a shitload of money for something that you can't even legally claim to own is so absurd, that I can't believe so many people are falling for this. There's absolutely no way this is going to end up badly for the "savy NFT collectors/speculators", right?
 
-I can heartily recommend to everyone to read the entire article. It's pure gold, unlike Bitcoin and friends. I'm hoping that we're close to the peak of the crypto mania and that people will come back to their senses eventually.[^1] While we're still in the bubble, however, we're morally bound to educate and to warn people about the dangerous nature of crypto "investments". Not to mention the [massive carbon footprint](https://ccaf.io/cbeci/index/comparisons) of most crypto currencies. Crypto is bad news. Stay away from it!
+I can heartily recommend to everyone to read the entire article. It's pure gold, unlike Bitcoin and friends. I'm hoping that we're close to the peak of the crypto mania and that people will come back to their senses eventually.[^2] While we're still in the bubble, however, we're morally bound to educate and to warn people about the dangerous nature of crypto "investments". Not to mention the [massive carbon footprint](https://ccaf.io/cbeci/index/comparisons) of most crypto currencies. Crypto is bad news. Stay away from it!
 
 **P.S.** I highly recommend the following articles on the same topic as well:
 
@@ -41,4 +41,5 @@ I can heartily recommend to everyone to read the entire article. It's pure gold,
 - [Blockchain-based systems are not what they say they are](https://blog.mollywhite.net/blockchains-are-not-what-they-say/)
 - [Web3](https://www.profgalloway.com/web3/)
 
-[^1]: Then again - I had the same hope in 2018 and see where we ended up today. The blockchain works in mysterious ways. So does Elon Musk.
+[^1]: A broad term for cryptocurrencies and other blockchain-powered tech. I'm not skeptical of cryptography at all!
+[^2]: Then again - I had the same hope in 2018 and see where we ended up today. The blockchain works in mysterious ways. So does Elon Musk.
