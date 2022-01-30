@@ -34,3 +34,9 @@ The article also has a very simple and accurate description of NFTs:
 Paying a shitload of money for something that you can't even legally claim to own is so absurd, that I can't believe so many people are falling for this. There's absolutely no way this is going to end up badly for the "savy NFT collectors/speculators", right?
 
 I can heartily recommend to everyone to read the entire article. It's pure gold, unlike Bitcoin and friends. I'm hoping that we're close to the peak of the crypto mania and that people will come back to their senses eventually. While we're still in the bubble, however, we're morally bound to educate and to warn people about the dangerous nature of crypto "investments". Not to mention the [massive carbon footprint](https://ccaf.io/cbeci/index/comparisons) of most crypto currencies. Crypto is bad news. Stay away from it!
+
+**P.S.** I highly recommend the following articles on the same topic as well:
+
+- [The Internet's Casino Boats](https://www.stephendiehl.com/blog/casino-boats.html)
+- [Blockchain-based systems are not what they say they are](https://blog.mollywhite.net/blockchains-are-not-what-they-say/)
+- [Web3](https://www.profgalloway.com/web3/)
