@@ -6,6 +6,10 @@ tags:
 - Crypto
 ---
 
+> Bitcoin reminds me of what Oscar Wilde said about fox hunting. He said it was the pursuit of the uneatable by the unspeakable.
+>
+> -- Charlie Munger
+
 I've long been extremely skeptical of crypto[^1], regardless of all the hype surrounding it, and me
 being surrounded by many people who are very passionate about it. Seems there's no shortage of
 believers in crypto and blockchain in the tech circles, and no shortage of people who are drawn to
@@ -19,7 +23,7 @@ Martin also makes some great points on the "value creation" myth:
 
 > As speculative instruments, cryptocurrencies do not in themselves create value. Any money that one person makes from buying low and selling high must come from someone else who bought high and sold low -- there are as many losers as winners. While those that have bought into cryptocurrencies may believe themselves to be rich on paper, this is often a mirage. The lack of transparency and regulation means that many cryptocurrencies have artificially inflated valuations, and it would be impossible for most "investors" to cash out without triggering a crash, as happened in early 2018, when the price of cryptocurrencies dropped by ~80%.
 
-As usual people focus on the stories of the (few) winners and totally forget about the countless others who lost money while trading crypto. There's also a counter-party to your trades, nothing exists in a vacuum.
+As usual people focus on the stories of the (few) winners and totally forget about the countless others who lost money while trading crypto. There's always a counter-party to your trades, nothing exists in a vacuum.
 
 Crypto "pump and dump" schemes explained:
 
