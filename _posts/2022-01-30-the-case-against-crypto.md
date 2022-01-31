@@ -31,6 +31,8 @@ Crypto "pump and dump" schemes explained:
 
 I honestly have no idea who are the type of people who buy into all the "shitcoins" that get released every other week. I'm pretty sure, though, that the people behind them are the only people who are guaranteed to make some money out of them.
 
+I'll also add here that the non-stop creation of new cryptocurrencies really undermines the original promise of Bitcoin that the supply cannot be influenced by external parties (which in turn would make it a great store of value). Yeah, the supply of Bitcoin is stable, but the total supply of cryptocurrencies on the market keeps growing at a breakneck pace and massively undermines the "store of value" promise. To explain this in very simple terms - in the realm of crypto every person these days can act as a central bank printing new money, as long as there are enough fools to back it with their fiat money.
+
 And what about the latest fad, the so called "non-fungible tokens" (NFTs)? The article has a very simple and accurate description of them:
 
 > The second kind of cryptocurrency application is the attempt to bring other fields into this world of speculative finance. Non-fungible tokens (NFTs) are an example of this approach. Instead of recording transactions which purely involve currency, the blockchain is used to record the ownership of a "token" -- effectively a cryptocurrency with one indivisible coin. The token is tagged with metadata, typically a link to a piece of media. This is presented as an ownership record for the media, often with no legal basis, and can be traded much like any other cryptocurrency.
