@@ -27,7 +27,7 @@ Writing all of this makes me angrier and angrier. But I didn't start this articl
 
 - Raise awareness by spreading the truth about the Russian atrocities in your social circles. Fight the fake news coming from the Russian propaganda machine.
 - [Donate funds to proven charities](https://war.ukraine.ua/donate/).
-- Help the numerous Ukrainian refugees.
+- Help the numerous Ukrainian refugees. In Bulgaria we have [BG4UA](https://www.bg4ua.com/) which aims to help people fleeing Ukraine to Bulgaria. I'm pretty sure there's a similar organization in your country as well.
 - Put pressure on your politicians to do more for Ukraine.
 
 The Ukrainian government has put together a [great guide on helping
