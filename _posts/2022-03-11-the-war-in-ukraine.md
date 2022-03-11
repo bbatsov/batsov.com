@@ -41,7 +41,7 @@ That's all from me. I **know** that the brave Ukrainian people will prevail. I h
 I **know** that in Ukraine, Russia and Putin will face their Vietnam moment.
 I hope that Putin and all his cronies will burn in hell for what they've done.
 
-If my article managed to inspired even a single person to help in some way, then it was a great success. Pay the message forward. The time to act is today. Ukraine's war is not just a
+If my article managed to inspire even a single person to help in some way, then it was a great success. Pay the message forward. The time to act is today. Ukraine's war is not just a
 fight for Ukraine, but it's a fight for long-term freedom and democracy in all of Europe. Slava Ukraini!
 
 **P.S.** That's one of the final pictures I have from Kyiv. I keep revisiting it all the time these days. Me, my wife (next to me) and several wonderful colleagues from Kyiv.
