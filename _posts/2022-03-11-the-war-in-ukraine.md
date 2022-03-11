@@ -44,6 +44,6 @@ I hope that Putin and all his cronies will burn in hell for what they've done.
 If my article managed to inspired even a single person to help in some way, then it was a great success. Pay the message forward. The time to act is today. Ukraine's war is not just a
 fight for Ukraine, but it's a fight for long-term freedom and democracy in all of Europe. Slava Ukraini!
 
-P.S. That's one of the final pictures I have from Kyiv. I keep revisiting it all the time these days. Me, my wife (next to me) and several wonderful colleagues from Kyiv.
+**P.S.** That's one of the final pictures I have from Kyiv. I keep revisiting it all the time these days. Me, my wife (next to me) and several wonderful colleagues from Kyiv. The picture is from the 14th of January, but it seems it was taken a lifetime ago. Once the war is over the victory party will be in "Lyubimy dyadya"!
 
 ![emacs_with_pgtk.png](/assets/images/team_dinner_kyiv.jpg)
