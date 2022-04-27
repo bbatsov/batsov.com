@@ -14,6 +14,10 @@ This page is simply a collection of random quotes that I find inspirational.
 >
 > -- Steve Jobs
 
+> It is not that we have a short time to live, but that we waste a lot of it.
+>
+> -- Seneca
+
 > A work of art is never finished. It is merely abandoned.
 >
 > -- E. M. Forster
