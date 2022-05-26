@@ -36,6 +36,10 @@ This page is simply a collection of random quotes that I find inspirational.
 >
 > -- Alan Kay
 
+> If you're thinking without writing, you only think you're thinking.
+>
+> -- Leslie Lamport
+
 ## Programming
 
 > The tools we use have a profound (and devious) influence on our thinking habits, and, therefore, on our thinking abilities.
