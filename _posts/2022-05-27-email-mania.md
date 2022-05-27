@@ -36,6 +36,10 @@ Historically I've also had accounts with:
 
 Admittedly back then the only thing that I cared about was having a "cool" handle. Not to mention that circa 1998 very few people around me were using email at all. IRC and ICQ were all the rage back then. Back to the present.
 
+Of course, the majority of the time these days I'm using custom domains for my email addresses, with `batsov.com/net/dev` being the primary domains that I use for email purposes. For some reason `batsov.net` is my most favorite domain.[^2] As noted above `batsov.com` is still attached to a legacy Google Apps account, while all other domains that I own are attached to my primary Fastmail account.
+
+Custom domains essential to avoid email vendor lock-in, so I advise everyone to consider them! One of the biggest mistakes I ever did was to sign up for many services with my `@gmail.com` account. Now I know better!
+
 You know what's really crazy, though? I'm still looking for more (privacy-centric) email services to play with, even if I definitely don't need them and I have no idea what I'd do with them. On my "vendors to try" list I've currently have:
 
 - [Tutanota](https://tutanota.com/)
@@ -62,5 +66,6 @@ Eventually I gave up and switched to the policy to use each service's native cli
 I think it's safe to say I've got a pretty severe case of email mania, but that's OK. If you're passionate about something then I think it's perfectly fine to invest unreasonable amount of time in it. If it makes you happy, it can't be that bad, right?
 
 [^1]: I covered Fastmail in more detail [here](https://metaredux.com/posts/2021/07/31/hasta-la-vista-gmail.html).
+[^2]: See <https://batsov.com/articles/2021/11/15/net-forever/>.
 
 **P.S.** If someone's a ProtonMail user, please make my day and ping me there (my handle is easy to guess). I'm still waiting for my first end-to-end encrypted email exchange to take place there.
