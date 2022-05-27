@@ -40,6 +40,9 @@ using GitHub.
 I can heartily recommend Fastmail to everyone looking for a great email service
 that respects your privacy. Using my [affiliate link to sign up](https://ref.fm/u26676944) will give you a 10% discount for the first year.
 
+If you're obsessed with privacy - don't worry; I've a got ProtonMail as well! My handle there is `bbatsov` and I'm always happy to engage in a fully encrypted email
+conversation about Life, the Universe and everything else.
+
 ### GitHub
 
 The best place to collaborate on any of my OSS projects is GitHub. I welcome all
