@@ -68,6 +68,4 @@ I think it's safe to say I've got a pretty severe case of email mania, but that'
 [^1]: I covered Fastmail in more detail [here](https://metaredux.com/posts/2021/07/31/hasta-la-vista-gmail.html).
 [^2]: See <https://batsov.com/articles/2021/11/15/net-forever/>.
 
-**P.S.** If someone's a ProtonMail user, please make my day and ping me there (my handle is easy to guess).[^3] I'm still waiting for my first end-to-end encrypted email exchange to take place there.
-
-[^3]: My handle there is `bbatsov`.
+**P.S.** If someone's a ProtonMail user, please make my day and ping me there (my handle is `bbatsov`). I'm still waiting for my first end-to-end encrypted email exchange to take place there.
