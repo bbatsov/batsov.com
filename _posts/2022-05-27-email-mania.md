@@ -47,7 +47,7 @@ On the email clients front I think I've used pretty much every client that has b
 - Outlook
 - Emacs (I think I was using [Mew](https://www.mew.org/en/) back then)
 - [Evolution](https://help.gnome.org/users/evolution/stable/)
-- Thunderbird
+- [Thunderbird](https://www.thunderbird.net/en-US/)
 - Mailbox (the one that Dropbox killed)
 - Sparrow (the one that Google killed)
 - [Airmail](https://airmailapp.com/)
