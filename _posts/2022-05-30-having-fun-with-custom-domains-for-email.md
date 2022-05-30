@@ -44,7 +44,7 @@ All the custom domains that I use for email purposes are attached to my Fastmail
 
 Saves me a bit of typing and helps with my vanity issues as well!
 
-On Fastmail I don't use the `@fastmail.com` addresses for anything except [Masked Emails](https://www.fastmail.help/hc/en-us/articles/4406536368911-Masked-Email) for services I don't really care about (and I'm somewhat skeptical of who they'll sell my address to). I don't really need to do this, as I have access to unlimited aliases anyways, but I like the automated integration this feature has with 1Password (another tool that I use extensively). Pro tip - never give your real email to a sketchy service!
+On Fastmail I don't use the `@fastmail.com` addresses for anything except [Masked Emails](https://www.fastmail.help/hc/en-us/articles/4406536368911-Masked-Email) for services I don't really care about (and I'm somewhat skeptical of who they'll sell my address to). I don't really need to do this, as I have access to unlimited aliases anyways, but I like the automated integration this feature has with 1Password (another tool that I use extensively). Pro tip - never give your real email address to a sketchy service!
 
 I don't use custom domains for services like HEY and ProtonMail, as I think that their domain is half the value of the service (or rather what this domain stands for - e.g. security or a love for top-posting). People expect to see domains like `@hey.com` and `@proton.me` and I don't want to deny them seeing them.
 
