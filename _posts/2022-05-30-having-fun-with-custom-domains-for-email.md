@@ -23,6 +23,8 @@ stays the same. You just import your messages in the new vendor, update your DNS
 settings and magic happens.
 - Vanity. It just looks cool to have an email address like `firstname@lastname.net`. Or `somethingsmart@funnydomain.net`.
 - Better inbox management - if you're involved in many projects/activities you might want to be using different emails for all them and then have some routing/sorting based on this.
+- You get a fancy email logic page like `https://mail.yourdomain.com`.
+- You're running a business and you need to present yourself in a professional light. I guess this doesn't need any further explanation.
 
 All those points were important to me to some extent. Here's how I make use of custom domains in general:
 
