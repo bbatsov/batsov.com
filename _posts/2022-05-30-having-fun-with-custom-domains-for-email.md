@@ -36,7 +36,7 @@ Today I have several vanity domains for my name (e.g. `batsov.net` and `bozhidar
 All the custom domains that I use for email purposes are attached to my Fastmail account, that I share with some family members (e.g. my wife, my brother, etc) as I happen to be the admin of the "family domains". Fastmail also has a cool feature [for redirecting URLs associated with your custom domains](https://fastmail.blog/historical/custom-dns-and-url-redirection-for-your-domain/), that I use extensively. For instance:
 
 - https://batsov.dev redirects to https://github.com/bbatsov
-- https://batsov.net redirects to https://batsov.combine
+- https://batsov.net redirects to https://batsov.com
 - https://resume.batsov.net redirects to my LinkedIn profile and so on
 
 Saves me a bit of typing and helps with my vanity issues as well!
