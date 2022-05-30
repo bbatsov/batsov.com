@@ -48,7 +48,7 @@ On Fastmail I don't use the `@fastmail.com` addresses for anything except [Maske
 
 I don't use custom domains for services like HEY and ProtonMail, as I think that their domain is half the value of the service (or rather what this domain stands for - e.g. security or a love for top-posting). People expect to see domains like `@hey.com` and `@proton.me` and I don't want to deny them seeing them.
 
-And that's a wrap. I've promised a short article and a short article it is! As usual I'd love to hear you feedback and how you're using custom domains yourselves.
+And that's a wrap. I've promised a short article and a short article it is! As usual I'd love to hear your feedback and how you're using custom domains yourselves.
 My inbox and my Twitter are always open!
 
 [^1]: The fact that every year there are more and more top-level domains to choose from doesn't help either!
