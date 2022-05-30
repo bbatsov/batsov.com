@@ -37,6 +37,7 @@ All the custom domains that I use for email purposes are attached to my Fastmail
 
 - <https://batsov.dev> redirects to https://github.com/bbatsov
 - <https://batsov.net> redirects to https://batsov.com
+- <https://emacs.batsov.net> redirects to https://emacsredux.com
 - <https://resume.batsov.net> redirects to my LinkedIn profile and so on
 
 Saves me a bit of typing and helps with my vanity issues as well!
