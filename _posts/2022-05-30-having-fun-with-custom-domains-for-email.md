@@ -31,7 +31,7 @@ it's very painful/impossible to change my email. Yeah, obviously forwarding solv
 - I'm often filing incoming mail based on the domain it was addressed to (I love to sort my email diligently in thematic folders)- e.g. I use `batsov.dev` for all programming-related services that I use and the custom domains of my projects for communication around them (e.g. inquiries related to Meta Redux use an email with the domain `metaredux.com`). Obviously this can be emulated to some extent even with a single address and plus aliases (e.g. `nemo+dev@gmail.com`), but I've never been fond of such an approach. Those addresses are fine for auto-filing email from services, but are not something I'd be giving out to humans as they simply look weird. Which brings me to my next point.
 - For every custom domain I've got a bunch of aliases for even finer control over the filing of the emails that I receive - some of those are related to subscriptions to services, some are different purpose addresses for communication with humans (e.g. `feedback@project.net`, `bugs@project.net`, etc.).
 
-Today I have several vanity domains for my name (e.g. `batsov.net` and `bozhidar.net`), my blogs (e.g. `metaredux.com`) and my OSS projects (e.g. `cider.mx`) that I use for email purposes as well. Probably I went overboard on that front, as I usually do, but that's fine.
+Today I have several vanity domains for my name (e.g. `batsov.net` and `bozhidar.net`), my blogs (e.g. `metaredux.com`) and my OSS projects (e.g. `cider.mx`) that I use for email purposes as well. Probably I went overboard on that front, as I usually do, but that's fine.[^1]
 
 All the custom domains that I use for email purposes are attached to my Fastmail account, that I share with some family members (e.g. my wife, my brother, etc) as I happen to be the admin of the "family domains". Fastmail also has a cool feature [for redirecting URLs associated with your custom domains](https://fastmail.blog/historical/custom-dns-and-url-redirection-for-your-domain/), that I use extensively. For instance:
 
@@ -47,3 +47,5 @@ I don't use custom domains for services like HEY and ProtonMail, as I think that
 
 And that's a wrap. I've promised a short article and a short article it is! As usual I'd love to hear you feedback and how you're using custom domains yourselves.
 My inbox and my Twitter are always open!
+
+[^1]: The fact that every year there are more and more top-level domains to choose from doesn't help either!
