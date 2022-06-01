@@ -40,6 +40,10 @@ This page is simply a collection of random quotes that I find inspirational.
 >
 > -- Leslie Lamport
 
+> Victory belongs to the most tenacious.
+>
+> -- Roland Garros
+
 ## Programming
 
 > The tools we use have a profound (and devious) influence on our thinking habits, and, therefore, on our thinking abilities.
