@@ -16,7 +16,7 @@ the world will end if we don't copy something "crucial" from it.
 
 Looking at what people are typically complaining about it seems to make Emacs modern we need to:
 
-- ship by default "cool" themes like Solarized (it seems it's every important to have some dark mode these days)
+- ship by default "cool" themes like Solarized (it seems it's very important to have some dark mode these days)
 - show line numbers in the gutter (or its general vicinity) by default
 - use the keybindings that are common in most "modern" editors (think `cua-mode`)
 - make Emacs more mouse-friendly (e.g. right clicking would open some context menus, there would be more tooltips on mouse hover and so on)
