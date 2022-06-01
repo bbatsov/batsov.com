@@ -20,6 +20,8 @@ Looking at what people are typically complaining about it seems to make Emacs mo
 - show line numbers in the gutter (or its general vicinity) by default
 - use the keybindings that are common in most "modern" editors (think `cua-mode`)
 - make Emacs more mouse-friendly (e.g. right clicking would open some context menus, there would be more tooltips on mouse hover and so on)
+- display open buffers as tabs, so people can click through them (think `tab-bar-mode` and `centaur-tabs`)
+- make the modeline "sexy" (think Spacemacs)
 - replace Emacs Lisp with Scheme/Common Lisp/JavaScript
 - have a fancy configuration wizard to help with the initial setup of Emacs
 - bundle some popular third-party packages by default (e.g. `company-mode`, `lsp-mode`, etc) to fix some perceived deficiency of vanilla Emacs
