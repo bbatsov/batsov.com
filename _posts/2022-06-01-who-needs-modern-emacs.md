@@ -38,7 +38,7 @@ I grow tired of repeating myself, but I'll say this once again:
 
 A building material for you to create the best editor for _yourselves_. By definition the number of people who want/need to build their own editors is not that big, so I think we'd be on a wild goose chase trying to change this.[^2] Not to mention that Emacs being different from the pack is probably its biggest competitive advantage. Do we need one more editor that's essentially the same as every other editor?
 
-Don't get me wrong - there are always things that we can improve in Emacs. No editor is truly perfect, not even the One True Editor. There are many things I'd like to see improved myself, but none of them is something I can't live without. And none of them would make Emacs fit this mystical "modern" moniker.
+Don't get me wrong - there are always things that we can improve in Emacs. No editor is truly perfect, not even the One True Editor. There are many things I'd like to see improved myself, but none of them is something I can't live without. And none of them would make Emacs fit this mystical "modern" moniker.[^3]
 
 So, I'm asking you this simple question - who needs "modern" Emacs?
 
@@ -46,3 +46,4 @@ So, I'm asking you this simple question - who needs "modern" Emacs?
 
 [^1]: E.g. <https://lwn.net/ml/emacs-devel/20200906133719.cu6yaldvenxubcqq@Ergus/> and the response to the mail thread here <https://lwn.net/Articles/832311/>.
 [^2]: I wrote more on the topic here <https://batsov.com/articles/2021/11/16/why-emacs-redux/>.
+[^3]: I won't even go into what "modern" really means, as I have a feeling it means very different things for different people. Often "modern" simply means "familiar".
