@@ -11,7 +11,7 @@ tags:
 
 Every now and again I come across some discussion on making Emacs
 "modern".[^1] The argument always go more or less like this - Emacs
-doesn't look and behave like <insert here some trendy editor of the day> and
+doesn't look and behave like \<insert here some trendy editor of the day> and
 the world will end if we don't copy something "crucial" from it.
 
 Looking at what people are typically complaining about it seems to make Emacs modern we need to:
