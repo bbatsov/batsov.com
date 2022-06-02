@@ -25,4 +25,6 @@ While I couldn't care less about Gnus, everything else seems very interesting to
 
 I'll write more on Commercial Emacs once I get to play with it. Right now I just wanted to get the word out - perhaps more people would be interested in helping out with the maintenance of this promising project. And perhaps down the road some of those improvements will even make their way into GNU Emacs itself! Fingers crossed!
 
+**P.S.** I totally loved the project's README. It's quite concise and very witty!
+
 [^1]: Most Emacs major modes implement font-locking in terms of regular expressions. That's both slow and brittle.
