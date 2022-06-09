@@ -67,6 +67,21 @@ You'll notice that now Emacs has proper GTK "chrome" (e.g. the frame
 title/header and the menubar). While the screenshot above is from Windows,
 everyone using Wayland on Linux will experience the same benefits as well.
 
+You can tweak the chrome by with the handy `gnome-tweaks` utility:
+
+``` shellsession
+$ apt install gnome-tweaks
+```
+
+It's a simple GUI app where you can customize all sorts of [visual appearance
+attributes](https://itsfoss.com/gnome-tweak-tool/) of GNOME/GTK applications.
+For instance - I use it to select a GNOME theme and to add minimize and
+maximize buttons to the application windows.
+
+On a related note - you may encounter some warnings on Emacs startup that some files from the cursor theme cannot be loaded.
+Basically, the problem is that most likely no GNOME theme is currently selected (simply because you don't use GNOME directly).
+Just select some theme in `gnome-tweak` and the warnings will go away.
+
 Emacs 29 also ships with an improved global minor mode for scrolling with a
 mouse or a touchpad, that you might want to enable as well:
 
