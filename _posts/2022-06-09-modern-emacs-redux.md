@@ -18,10 +18,10 @@ Let's start with some comments that caught my attention:
 
 I totally loved this comment! To set the record straight - I'm not opposed to
 modernizing Emacs, but rather to a particular notion of what modernization is
-about. I'm concerned about is meddling with the essence of Emacs (e.g. its Elisp
+about. I'm concerned about meddling with the essence of Emacs (e.g. its Elisp
 core) to chase after potential users that might never materialize. I'm also
 tired of non-stop comparisons with editors like Sublime Text and VS Code and all
-the people urging Emacs to try to emulate them. There's a popular saying that
+the people urging Emacs to try to emulate them.[^1] There's a popular saying that
 always comes to my mind when I hear something like this:
 
 > If we all think alike then nobody's thinking at all.
@@ -108,3 +108,5 @@ I think Emacs has never been better and the recent pace of improvements and inno
 So are we living in the Dark Age of Emacs or the Golden Age of Emacs? I know the answer for myself. `M-x` forever!
 
 **P.S.** Btw, I'm never giving up [Meta, Super and Hyper](https://emacsredux.com/blog/2022/06/01/the-space-cadet-keyboard/)!
+
+[^1]: I'm never tired of comparisons with `vim`, though.
