@@ -86,7 +86,7 @@ Broadly speaking, all the feedback my original article received was in one of 3 
 I've noticed that the people in the second and the third group have a very
 different idea about what needs to be modernized. The second group cares mostly
 about improvements to Emacs's internals (make it faster, better handling of long
-lines, better garbage collector, fix some bugs, etc), while the third group
+lines, more robust syntax highlighting, better garbage collector, fix some bugs, etc)[^3], while the third group
 mostly wants Emacs to offer defaults and behaviors more aligned with what they
 consider to be "modern editors".
 
@@ -111,3 +111,4 @@ So are we living in the Dark Age of Emacs or the Golden Age of Emacs? I know the
 
 [^1]: I'm never tired of comparisons with `vim`, though.
 [^2]: That being said, I don't mind tastefully copying some really great features of other editors and adapting them to Emacs.
+[^3]: Supposedly some of those problems are addressed by [Commercial Emacs](https://github.com/commercial-emacs/commercial-emacs#how-has-the-code-diverged-thus-far).
