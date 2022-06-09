@@ -12,6 +12,8 @@ tags:
 
 My recent article [Who Needs Modern Emacs?]({% post_url 2022-06-01-who-needs-modern-emacs %}) generated a lot of controversy. I've received a lot of feedback over email, [Reddit](https://www.reddit.com/r/emacs/comments/v2fjcd/who_needs_modern_emacs/), and [Lobsters](https://lobste.rs/s/nkea9j/who_needs_modern_emacs) and I feel the need to address a bit of that feedback.
 
+Let's start with some comments that caught my attention:
+
 > The difficulty with posts like this and the responses is that it all comes from the same echo chamber of established, long time, respected Emacs users/devs who already have a vested interest in keeping the status quo and having others adapt rather than face adapting themselves. I'm not saying they're wrong necessarily, but I think it's worth seriously exploring the positive effects of modernizing aspects of Emacs. And I think to see how it can help all us grey beards, we need look no further than the effects that Doom had on the Emacs community.
 
 I totally loved this comment! To set the record straight - I'm not opposed to
