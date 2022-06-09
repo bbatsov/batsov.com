@@ -38,8 +38,8 @@ fortunes, but I never bought this and I'm still not buying it.
 Here's a bit more food for thought - how much resources have Microsoft, one of the biggest companies in the world, invested
 in making VS Code a success? Is it realistic to expect that any community of volunteers can match those?
 
-I'm also fairly certain that if our definition of innovation gets reduced to "copy features/behavior" from the popular editors of the day we would never
-see new ground-breaking tools like `org-mode`, `magit`, SLIME, CIDER, etc.
+I'm also fairly certain that if our definition of innovation gets reduced to "copy features/behavior from the popular editors of the day" we would never
+see new ground-breaking tools like `org-mode`, `magit`, SLIME, CIDER, etc.[^2]
 
 So, instead of chasing wild geese, I'd rather focus on improvement efforts that make Emacs better, while preserving its essence.
 
@@ -110,3 +110,4 @@ So are we living in the Dark Age of Emacs or the Golden Age of Emacs? I know the
 **P.S.** Btw, I'm never giving up [Meta, Super and Hyper](https://emacsredux.com/blog/2022/06/01/the-space-cadet-keyboard/)!
 
 [^1]: I'm never tired of comparisons with `vim`, though.
+[^2]: That being said, I don't mind tastefully copying some really great features of other editors and adapting them to Emacs.
