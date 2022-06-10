@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Zed Editor
 date: 2022-06-10 09:05 +0300
 tags:
