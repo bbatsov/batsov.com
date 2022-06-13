@@ -38,7 +38,7 @@ Admittedly back then the only thing that I cared about was having a "cool" handl
 
 Of course, the majority of the time these days I'm using custom domains for my email addresses, with `batsov.com/net/dev` being the primary domains that I use for email purposes. For some reason `batsov.net` is my most favorite domain.[^2] As noted above `batsov.com` is still attached to a legacy Google Apps account, while all other domains that I own are attached to my primary Fastmail account.
 
-Custom domains essential to avoid email vendor lock-in, so I advise everyone to consider them! One of the biggest mistakes I ever did was to sign up for many services with my `@gmail.com` account. Now I know better!
+Custom domains are essential to avoid email vendor lock-in, so I advise everyone to consider them! One of the biggest mistakes I ever did was to sign up for many services with my `@gmail.com` account. Now I know better!
 
 You know what's really crazy, though? I'm still looking for more (privacy-centric) email services to play with, even if I definitely don't need them and I have no idea what I'd do with them. On my "vendors to try" list I've currently have:
 
