@@ -39,6 +39,7 @@ I'm the author of a few projects:
 * [CIDER](https://cider.mx) (powerful Clojure interactive development environment for Emacs)
 * [cider-nrepl](https://github.com/clojure-emacs/cider-nrepl) (nREPL middleware for Clojure editors and IDEs)
 * [orchard](https://github.com/clojure-emacs/orchard) (essential functionality for Clojure development tools, used internally by `cider-nrepl`)
+* [incomplete](https://github.com/nrepl/incomplete) (a simple Clojure code completion library)
 * [inf-clojure](https://github.com/clojure-emacs/inf-clojure) (basic Clojure interactive development environment for Emacs)
 
 And the primary maintainer or a co-maintainer of a ton of commonly
@@ -52,6 +53,7 @@ experience:
 * [cljs-tooling](https://github.com/clojure-emacs/cljs-tooling)
 * [clj-refactor](https://github.com/clojure-emacs/clj-refactor)
 * [refactor-nrepl](https://github.com/clojure-emacs/refactor-nrepl)
+* [compliment](https://github.com/alexander-yakushev/compliment/) (the ultimate Clojure code completion library)
 * [sayid](https://github.com/clojure-emacs/sayid) (Clojure tracer/debugger)
 * [clojuredocs-edn-export](https://clojuredocs-edn.netlify.app/) (daily EDN exports of the data from <https://clojuredocs.org>)
 * [parseclj](https://github.com/clojure-emacs/parseclj) (Clojure parser written in Emacs Lisp)
@@ -70,6 +72,8 @@ me as an unreasonable (but powerful) Emacs wielding fanatic!
 * [rubocop-emacs](https://github.com/bbatsov/rubocop-emacs)
 * [Zenburn theme for Emacs](https://github.com/bbatsov/zenburn-emacs)
 * [Solarized theme for Emacs](https://github.com/bbatsov/solarized-emacs)
+
+You can find my personal Emacs configuration [here](https://github.com/bbatsov/emacs.d/).
 
 ## Meta Redux
 
