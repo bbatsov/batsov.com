@@ -20,6 +20,7 @@ So, what has happened/changed in the past year?
 - Fastmail improved their UI a bit, which addressed one of my original reservations about them. I like their beta program.
 - They also released amazing integration with 1Password (another important tool in my toolbox), that allows you to generate unique disposable email addresses for various services.
 - I'm now using a million Fastmail aliases for various purposes (e.g. I have one named `dev.null@whatever.net` for airport wi-fi registration).
+- I've replicated some of the features of HEY that I liked in Fastmail (e.g. the Paper Trail and the Feed). I'm still pondering if I want to do the Screener as well.[^1]
 
 I can also confirm that Fastmail's support is just as good as advertised. I rarely needed it, but I always got speedy and helpful responses.
 
@@ -35,3 +36,5 @@ In the end of the day the net result is that I'm effectively not using HEY and P
 
 Are you ready to take the red pill and take your email experience to the next level?
 If so - here's one [referral link](https://ref.fm/u26676944) that will net you a 10% discount for the first year.
+
+[^1]: More on the topic here - <https://www.nunodonato.com/2020/06/25/a-guide-on-re-creating-heys-features/>.
