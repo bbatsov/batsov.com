@@ -28,7 +28,7 @@ Of course, it's never just rainbows and unicorns. I've had a few small issues he
 
 - Occasional lockups of the web UI (but those haven't happened recently), that required reloading it.
 - Fastmail were targeted by quite a few DDoS attacks, which resulted in some downtime and delays (nothing major, though, and no email were lost).
-- I couldn't find any 3rd party clients that support JMAP, so if you want to special Fastmail features (e.g. undo send), you have to stick to their clients (which are pretty good).
+- I couldn't find any 3rd party clients that support [JMAP](https://fastmail.blog/open-technologies/jmap-new-email-open-standard/), so if you want to special Fastmail features (e.g. undo send), you have to stick to their clients (which are pretty good).
 
 Once again I am convinced that focus in business matters. If your focus is solely email you're likely to deliver a superb email experience to your end users.
 
