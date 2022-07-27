@@ -72,6 +72,7 @@ me as an unreasonable (but powerful) Emacs wielding fanatic!
 * [rubocop-emacs](https://github.com/bbatsov/rubocop-emacs)
 * [Zenburn theme for Emacs](https://github.com/bbatsov/zenburn-emacs)
 * [Solarized theme for Emacs](https://github.com/bbatsov/solarized-emacs)
+* [adoc-mode](https://github.com/emacsorphanage/adoc-mode)
 
 You can find my personal Emacs configuration [here](https://github.com/bbatsov/emacs.d/).
 
