@@ -31,6 +31,6 @@ If you've got more match groups in your regular expression you can use all of th
 "P-o-M K-o-N S-o-R"
 ```
 
-Note there the use of deconstructing to account that each match is essentially a vector of the full match and each group match (e.g. `["pom" "p" "m"]`).
+Note here the use of deconstructing to account that each match is essentially a vector of the full match and each group match (e.g. `["pom" "p" "m"]`).
 
 That's I have for you today! Feel free to share with me more fun usages of `replace`!
