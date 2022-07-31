@@ -9,7 +9,7 @@ tags:
 Today I saw a clever bit of Clojure code involving `clojure.string/replace`, that reminded me how powerful the Clojure standard library is. I guess pretty much everyone knows that `replace` is normally used to replace some part of a string using a regular expression to describe what exactly to replace:
 
 ``` clojure
-(str/replace "OCaml rocks!" #"([Hh]askell)|([Oo]caml)" "Clojure")
+(str/replace "OCaml rocks!" #"([Hh]askell)|([Oo][Cc]aml)" "Clojure")
 ;; => "Clojure rocks!"
 
 ;; we can refer to the match groups in the replacement string
