@@ -46,6 +46,13 @@ And they don't all have to be of the same length either:
 ;; => ([1 4 7 10] [2 5 8 11])
 ```
 
+One more thing... Clojure also has a function named `zipmap` that can zip a couple of seqs into a map:
+
+``` clojure
+(zipmap [:a :b :c :d :e] [1 2 3 4 5])
+;; => {:a 1, :b 2, :c 3, :d 4, :e 5}
+```
+
 That's all I have for you today. Zip long and prosper!
 
 [^1]: That's a big advantage over Haskell's `zip` mentioned earlier, as it can only combine two lists. There's a similar function called `zip3` that can combine three lists.
