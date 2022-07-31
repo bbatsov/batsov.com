@@ -13,7 +13,7 @@ Today I saw a clever bit of Clojure code involving `clojure.string/replace`, tha
 ;; => "Clojure rocks!"
 
 ;; we can refer to the match groups in the replacement string
-(str/replace "Haskell rocks!" #"([Hh]askell)|([Oo]caml)" "$1 is nice, but Clojure")
+(str/replace "Haskell rocks!" #"([Hh]askell)|([Oo][Cc]aml)" "$1 is nice, but Clojure")
 ;; => "Haskell is nice, but Clojure rocks!"
 ```
 
