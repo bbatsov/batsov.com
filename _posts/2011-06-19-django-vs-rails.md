@@ -505,14 +505,13 @@ suggestions. You can unroll any URL mapping scheme by simply
 associating regular expressions in urls.py with callback view
 functions:
 
-{% highlight python %}
+``` python
 from django.conf.urls.defaults import patterns, include, url
 
 urlpatterns = patterns('',
     url(r'^$', 'djangodemo.views.home', name='home')
     url(r'^users', 'djangodemo.view.users', name='list_users'))
-
-{% endhighlight %}
+```
 
 An url is mapped to the callback function, which in turn either renders a
 template or directly returns some Http response.
