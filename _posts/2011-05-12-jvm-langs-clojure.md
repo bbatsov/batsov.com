@@ -82,9 +82,9 @@ $ java -cp clojure.jar clojure.main
 
 This will bring up a simple read-eval-print loop (REPL) a.k.a. an
 interactive console. Much of
-Clojure is defined in Clojure itself (in the **core.clj** file included in
+Clojure is defined in Clojure itself (in the `core.clj` file included in
 the src directory of distribution), which is automatically loaded from
-the .jar file when Clojure starts. The file **user.clj**, if found in the
+the .jar file when Clojure starts. The file `user.clj`, if found in the
 classpath, will be auto-loaded as well. You can leverage this to cause
 code to run when Clojure starts. Reading the code in core.clj is a
 very good way to get started with language and see how real Clojure
@@ -102,7 +102,7 @@ nil
 user=> (javax.swing.JOptionPane/showMessageDialog nil "Hello World")
 ```
 
-The REPL has very rudimentary editing. For a better experience, try running it via the [JLine](http://jline.sourceforge.net/) ConsoleRunner:
+The REPL has very rudimentary editing. For a better experience, try running it via the [JLine](http://jline.sourceforge.net/) `ConsoleRunner`:
 
 ``` bash
 java -cp jline-0_9_5.jar:clojure.jar jline.ConsoleRunner clojure.main
@@ -233,7 +233,7 @@ I'll discuss in greater detail some of those features as I moving along.
 
 Consider this Java example from our Scala discussion:
 
-``` clojure
+``` java
 public boolean hasUpperCase(String word) {
     if (word == null) {
         return false;
@@ -251,7 +251,7 @@ public boolean hasUpperCase(String word) {
 As a reader pointed out using the third party Guava library the code
 can be reduced to:
 
-``` clojure
+``` java
 public boolean hasUpperCase(String word) {
     if (null != word)
         return any(charactersOf(word), new Predicate() {
@@ -276,7 +276,7 @@ The definition of the problems is "A string has an uppercase character if
 some of the characters in it is uppercase" (doesn't sound good, but
 will do). The Clojure code reads more or less like the definition of
 the problem. A finer point is that it will work correctly even if you
-pass **nil** to the has-uppercase? function.
+pass `nil` to the has-uppercase? function.
 
 #### Clojure is concise
 
@@ -379,7 +379,7 @@ So let's review the typical Lisp features that are present in Clojure:
       pass function names around without any special syntax. In Common
       Lisp you can have function and variables sharing the same name,
       but you have to mark functions explicitly when you're passing
-      them around (with the #' reader macro or the **function** function).
+      them around (with the `#'` reader macro or the `function` function).
 * Dynamic - both in term of dynamic typing and dynamic
   development. Lisp is the language that made popular the technique of
   incremental interactive development (we'll talk about it more in a bit)
@@ -410,7 +410,7 @@ So let's review the typical Lisp features that are present in Clojure:
       else. If you need a new operator in Java you'd have a hard time
       convincing the guys in Oracle to add it for you. With Lisp
       you're in charge and you can define any syntax abstractions that
-      you wish. As an appetiser consider the **and** boolean
+      you wish. As an appetiser consider the `and` boolean
       statement. In most languages it's built into the language
       itself. In Clojure it's just a short macro:
 
@@ -594,7 +594,7 @@ Clojure defines many algorithms in terms of sequences (seqs). A seq is
 a logical list, and unlike most Lisps where the list is represented by
 a concrete, 2-slot structure, Clojure uses the ISeq interface to allow
 many data structures to provide access to their elements as
-sequences. The **seq** function yields an implementation of ISeq
+sequences. The `seq` function yields an implementation of ISeq
 appropriate to the collection. Seqs differ from iterators in that they
 are persistent and immutable, not stateful cursors into a
 collection. As such, they are useful for much more than foreach -
@@ -604,17 +604,17 @@ share structure, etc.
 Most of the sequence library functions are lazy, i.e. functions that
 return seqs do so incrementally, as they are consumed, and thus
 consume any seq arguments incrementally as well. Functions returning
-lazy seqs can be implemented using the **lazy-seq** macro. The laziness
+lazy seqs can be implemented using the `lazy-seq` macro. The laziness
 allows us to deal with infinite data structures easily (as long as we
 don't try to act on all of their elements that is):
 
-{% highlight clojure %}
-user> (take 10 (filter even? (iterate inc 1)))
-(2 4 6 8 10 12 14 16 18 20)
-{% endhighlight %}
+``` clojure
+(take 10 (filter even? (iterate inc 1)))
+;; => (2 4 6 8 10 12 14 16 18 20)
+```
 
-**iterate** returns an infinite lazy sequence. **filter** returns a lazy
-sequence as well. With **take** we can take only the elements we need
+`iterate` returns an infinite lazy sequence. `filter` returns a lazy
+sequence as well. With `take` we can take only the elements we need
 without have to process the entire infinite collection.
 
 ## Functional programming with Clojure
@@ -628,12 +628,12 @@ programming techniques.
 * most functions in the core library are pure (they don't produce any
   side results and they don't interact with the outside world in any
   manner other than just receiving their parameters from it)
-* there are no iteration constructs like **for** and **while** in
+* there are no iteration constructs like `for` and `while` in
   other languages. In place of iteration list comprehensions and
   recursion are commonly used.
 * everything is an expression that yields some result - even things
-  that are traditionally statements in other languages such as **if** and
-  **print** (although the return value of print is not particularly useful)
+  that are traditionally statements in other languages such as `if` and
+  `print` (although the return value of print is not particularly useful)
 
 ## Parallel programming
 
@@ -679,14 +679,14 @@ distinct commute operation. Here's a short example:
 (def secret-num (.nextInt (java.util.Random.) 10))
 
 (defn guess-number [n]
-        (print "Enter a guess between 1 and 10: ")
-        (flush)
-        (let [guess (java.lang.Integer/parseInt (read-line)) ]
-             (cond
-               (= guess n) (println "You guessed correctly")
-               (contains? (deref picked-numbers) n) (println "Pick another number! You already tried that one.")
-               :else (dosync
-                      (alter picked-numbers conj guess)))))
+  (print "Enter a guess between 1 and 10: ")
+  (flush)
+  (let [guess (java.lang.Integer/parseInt (read-line)) ]
+       (cond
+         (= guess n) (println "You guessed correctly")
+         (contains? (deref picked-numbers) n) (println "Pick another number! You already tried that one.")
+         :else (dosync
+                (alter picked-numbers conj guess)))))
 
 user=> (guess-number secret-num)
 Enter a guess between 1 and 10: 1
@@ -718,17 +718,17 @@ optionally, additional arguments) that are asynchronously applied to
 an agent's state and whose return value becomes the agent's new
 state. Let's see an agent (Smith maybe?) in action:
 
-{% highlight clojure %}
+``` clojure
 user> (def some-agent (agent 0))
 #'user/some-agent
 user> (dotimes [i 100]
-               (send some-agent inc))
+        (send some-agent inc))
 nil
 user> some-agent
 #<Agent@15c024c: 100>
 user> @some-agent
 100
-{% endhighlight %}
+```
 
 #### Atoms
 
@@ -743,13 +743,13 @@ rework the refs example to use an atom:
 (def secret-num (.nextInt (java.util.Random.) 10))
 
 (defn guess-number [n]
-        (print "Enter a guess between 1 and 10: ")
-        (flush)
-        (let [guess (java.lang.Integer/parseInt (read-line)) ]
-             (cond
-               (= guess n) (println "You guessed correctly")
-               (contains? (deref picked-numbers) n) (println "Pick another number! You already tried that one.")
-               :else (swap! picked-numbers conj guess))))
+  (print "Enter a guess between 1 and 10: ")
+  (flush)
+  (let [guess (java.lang.Integer/parseInt (read-line)) ]
+       (cond
+         (= guess n) (println "You guessed correctly")
+         (contains? (deref picked-numbers) n) (println "Pick another number! You already tried that one.")
+         :else (swap! picked-numbers conj guess))))
 
 user=> (guess-number secret-num)
 Enter a guess between 1 and 10: 1
@@ -764,7 +764,7 @@ Enter a guess between 1 and 10: 5
 
 #### Vars
 
-Bindings created with the **binding** macro cannot be seen by any other
+Bindings created with the `binding` macro cannot be seen by any other
 thread. Bindings created with binding can be assigned to, which
 provides a means for a nested context to communicate with code before
 it on the call stack.
@@ -792,10 +792,10 @@ multimethods in Clojure:
 (defmulti my-add (fn [x y] (and (string? x) (string? y))))
 
 (defmethod my-add true [x y]
-    (str x y))
+  (str x y))
 
 (defmethod my-add false [x y]
-    (+ x y))
+  (+ x y))
 
 user=> (my-add 3 4) ; => 7
 user=> (my-add "3" "4") ; => "34"
