@@ -915,8 +915,6 @@ Luckily there's no lack of good build tools that one can use with Clojure.
    * [Official website](http://blog.fogus.me/)
    * [Disclojure](http://disclojure.org/) - a clojure news aggregator
 * Exercises
-   * [Lisp problems](/blog/2011/05/04/lisp-problems/) - a work in progress, I'll add Clojure
-     solutions next to the Common Lisp ones when I have some thime
    * [Labrepl](http://foognostic.net/labrepl-summary/)
    * [Project Euler](http://projecteuler.net/)
    * [Clojure Koans](https://github.com/functional-koans/clojure-koans)
