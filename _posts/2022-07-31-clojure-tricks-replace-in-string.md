@@ -27,7 +27,7 @@ Pretty useful and pretty straightforward. But wait, there's more! I had forgotte
 If you've got more match groups in your regular expression you can use all of them in the function that you're using to generate the replacements:
 
 ``` clojure
-(str/replace "pom kon sor" #"(.)o(.)" (fn [[_ a b]](str (str/upper-case a) "-o-" (str/upper-case b))))
+(str/replace "pom kon sor" #"(.)o(.)" (fn [[_ a b]] (str (str/upper-case a) "-o-" (str/upper-case b))))
 "P-o-M K-o-N S-o-R"
 ```
 
