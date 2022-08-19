@@ -5,6 +5,10 @@ tags:
 - OCaml
 ---
 
+> Live as if you were to die tomorrow. Learn as if you were to live forever.
+>
+> -- Mahatma Gandhi
+
 For as long as I've been into programming I've been learning some new
 programming languages on the side. The more "exotic" and "niche" they were - the
 better.[^1] While my professional career was mostly focused on C, C++, Java and
@@ -38,6 +42,10 @@ as long as it has existed, Clojure has been my favorite programming language and
 I don't think that's going to change any time soon. Still, I think it's always a
 good idea to occasionally go outside of your comfort zone and try something very
 different.
+
+``` ocaml
+print_endline "Hello, World!"
+```
 
 I've elected to start learning OCaml using the following resources:
 
