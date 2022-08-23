@@ -31,6 +31,13 @@ some dune commands straight from Emacs.
 have code completion, which is probably its main advantage over the default toplevel.
 
 [Merlin](https://ocaml.github.io/merlin/) is an editor service that provides advanced IDE features for OCaml. Think completion, type information, navigation to definition, find usages, refactoring, linting, code generation, etc. It's the backbone of any OCaml development tool and has great integration with Emacs via [merlin-mode](https://ocaml.github.io/merlin/editor/emacs/).[^2]
+
+`utop` and `merlin` are tools you need to install if you want to use them together with Emacs:
+
+``` shellsession
+$ opam install utop merlin
+```
+
 `merlin-eldoc` and `flycheck-ocaml` are actually implemented in terms of Merlin and basically fit some information coming from Merlin in the uniform interfances of ElDoc and Flycheck.
 
 I'd say that the only really essential packages for everyone are:
