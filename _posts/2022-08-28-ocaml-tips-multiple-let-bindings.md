@@ -57,6 +57,16 @@ let c = a + b in
 c
 ```
 
+There's one other option for compact `let` bindings - pattern matching! Most commonly you'd match against a tuple or some record:
+
+``` ocaml
+let (a, b, c) = (1, 2, 3) in
+a + b + c
+
+let {a; b; c; _} = t in
+a + b + c
+```
+
 That's all I have for you today. Keep hacking!
 
 [^1]: You can read more on the subject [here](https://v2.ocaml.org/manual/expr.html#sss:expr-localdef).
