@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "WikEmacs - The Other Emacs Wiki"
+title: "WikEmacs: The Other Emacs Wiki"
 date: 2012-03-26 11:23
 tags:
 - Emacs
