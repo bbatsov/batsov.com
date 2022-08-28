@@ -49,16 +49,9 @@ and c = a + b in
 c
 ```
 
-This will result in a compilation error, as you can't have any of the bindings refer to other bindings within the same `let` expression. Here you'll need either a recursive `let` or a `let ... in` to make the `c` binding work:
+This will result in a compilation error, as you can't have any of the bindings refer to other bindings within the same `let` expression. Here you'll need a `let ... in` to make the `c` binding work:
 
 ``` ocaml
-(* recursive let *)
-let rec a = 1
-and b = 2
-and c = a + b in
-c
-
-(* a couple of nested let expressions *)
 let a = 1 and b = 2 in
 let c = a + b in
 c
