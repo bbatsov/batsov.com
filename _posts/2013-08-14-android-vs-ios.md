@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Android is not better. Neither is iOS."
+title: "Android vs iOS: No Clear Winner"
 date: 2013-08-14 14:20
 redirect_from:
 - /articles/2013/08/14/android-is-not-better-neither-is-ios/
