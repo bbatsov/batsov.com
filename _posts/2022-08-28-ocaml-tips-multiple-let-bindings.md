@@ -38,7 +38,7 @@ a + b + c
 let a = 1 and b = 2 and c = 3 in a + b + c
 ```
 
-Still a bit too verbose for my taste, but I definitely like it a more over multiple `let ... in` expressions, as it reads better. As a bonus - this style of introducing bindings clearly shows that all the bindings we introduced are independent of each other, which reduces some of the mental overhead for readers of the code.[^1]
+Still a bit too verbose for my taste, but I definitely like it a more over multiple `let ... in` expressions, as it reads (subjectively) better. As a bonus - this style of introducing bindings clearly shows that all the bindings we introduced are independent of each other, which reduces some of the mental overhead for readers of the code.[^1]
 
 Note, however, that you can't do something like this:
 
@@ -49,9 +49,16 @@ and c = a + b in
 c
 ```
 
-This will result in a compilation error, as you can't have any of the bindings refer to other bindings within the same `let` expression. Here you'll need `let ... in` to make the `c` binding work:
+This will result in a compilation error, as you can't have any of the bindings refer to other bindings within the same `let` expression. Here you'll need either a recursive `let` or a `let ... in` to make the `c` binding work:
 
 ``` ocaml
+(* recursive let *)
+let rec a = 1
+and b = 2
+and c = a + b in
+c
+
+(* a couple of nested let expressions *)
 let a = 1 and b = 2 in
 let c = a + b in
 c
@@ -61,6 +68,10 @@ There's one other option for compact `let` bindings - pattern matching! Most com
 
 ``` ocaml
 let (a, b, c) = (1, 2, 3) in
+a + b + c
+
+(* the parens above are optional and can be omitted *)
+let a, b, c = 1, 2, 3 in
 a + b + c
 
 let {a; b; c; _} = t in
