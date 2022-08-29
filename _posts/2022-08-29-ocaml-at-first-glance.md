@@ -180,6 +180,7 @@ a + b + c
 ```
 
 - introducing [multiple `let` bindings]({% post_url 2022-08-28-ocaml-tips-multiple-let-bindings %}) is a bit too verbose for my taste
+- it took me a while to figure out [the difference between `fun` and `function`](https://stackoverflow.com/questions/1604270/what-is-the-difference-between-the-fun-and-function-keywords)
 - no syntax for list comprehensions (I often use those in Clojure, Haskell and Erlang, although I'm well aware they are not something essential)
 - the syntax for array literals is somewhat weird (`[|1; 2; 3|]`) - I don't like such usage of multiple symbols as literal boundaries, as this makes it harder for dev tools to figure out what you're doing. The indexing syntax `arr.(i)` is slightly weird as well, as it doesn't fit very well with the rest of the language.
 - no first-class syntax for maps and sets (Clojure spoiled on this front)
@@ -214,6 +215,25 @@ list concatenation, as you can't use `+` which is defined in terms of integers:
 
 [1; 2] @ [3; 4]
 ```
+
+### Surprising Bits of Syntax
+
+Here are some things that I like overall, but I found somewhat surprising early on:
+
+- The `=` operator is used both for assignment and for structural comparisons:
+
+``` ocaml
+let x = 5
+
+x = 5
+- : bool = true
+```
+
+- The operators `==` and `!=` are used for identity comparison (whether you're comparing something with itself), when in some other languages they are used for structural comparison. Not exactly wild, but not very common either.
+
+- The operator for structural inequality is `<>`. Although it's not like Haskell's `\=` is particularly common either.
+
+By the way, when it comes to learning OCaml's operators I can't recommend [this site](https://www.craigfe.io/operator-lookup/) highly enough!
 
 ### Syntax Summary
 
