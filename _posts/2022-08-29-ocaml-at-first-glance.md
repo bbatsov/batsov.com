@@ -157,11 +157,11 @@ Overall, there's not much to write home about when it comes to OCaml's syntax - 
 
 In brief:
 
-- the compiler is super fast, but that was expected given that OCaml is famous for it
+- the compiler is super fast, but that was expected given that OCaml is famous for it.
 - the compiler is also quite helpful, although its messages can definitely be more descriptive in some cases.
 - the standard library is quite basic and that's probably my main gripe with the language so far - e.g. the support for things like string manipulation (the standard library doesn't support Unicode strings) and regular expressions is abysmal given what you'd get with most other languages today.
 - the above has spurred the creation of all sorts of extensions and replacements to the standard library, which creates a lot of learning overhead and fragmentation. I was amused to see that the popular book [Real World OCaml](https://dev.realworldocaml.org/) directly recommends replacing the standard library with a third-party alternative.
-- the package manager Opam is relatively easy to use, although using switches (isolated OCaml environments) takes a while to get used to. I'm still not sure that should be part of the responsibilities of a package manager, but it gets the job done.
+- the package manager [Opam](https://opam.ocaml.org) is relatively easy to use, although using switches (isolated OCaml environments) takes a while to get used to. I'm still not sure that should be part of the responsibilities of a package manager, but it gets the job done. Opam could use some better [documentation](https://opam.ocaml.org/doc/Manual.html).
 
 There's also support to target JavaScript from OCaml sources, which looks interesting, but I haven't tried it yet. [ReasonML](https://reasonml.github.io/) (basically OCaml with a "more familiar" syntax) is also appealing in this space, but I hear that the project has lost traction and has been on the decline lately.
 
