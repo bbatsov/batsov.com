@@ -255,6 +255,10 @@ In brief:
 
 There's also support to target JavaScript from OCaml sources, which looks interesting, but I haven't tried it yet. [ReasonML](https://reasonml.github.io/) (basically OCaml with a "more familiar" syntax) is also appealing in this space, but I hear that the project has lost traction and has been on the decline lately.
 
+One common complaint about OCaml is its lack of support for parallel programming - OCaml currently doesn't natively support multiple OS-level OCaml threads running simultaneously. A global lock prevents multiple OCaml threads from running at once. The good news is that [OCaml 5.0](https://discuss.ocaml.org/t/ocaml-5-0-zeroth-alpha-release/10026) is right around the corner and its flagship feature is native support for multicore parallelism! This [article](https://github.com/ocaml-multicore/parallel-programming-in-multicore-ocaml) is a fantastic overview of Multicore OCaml. Exciting times ahead!
+
+Back to the present - today OCaml has pretty decent support for [concurrent programming](https://ocamlverse.github.io/content/parallelism.html#concurrency) (most notably via the library [Lwt](https://github.com/ocsigen/lwt)). Moreover, my experience with Ruby has taught me that one can get pretty far and build a lot of useful software despite the presence of a global lock. And don't even get me started on the performance difference between Ruby and OCaml...
+
 There are plenty of third-party OCaml libraries, although most of them seem somewhat under-maintained and under-documented. I've noticed that for many libraries all the documentation you'll find is just API signatures - e.g. [this](https://ocaml.org/p/re/1.10.4/doc/Re/Perl/index.html).
 
 The only framework I looked into was [Dream](https://aantron.github.io/dream/) (a web framework). It looked pretty nice, but it's still in alpha, has only one developer and it seems he has been not been very active lately. Oh, well - that's a common problem in smaller programming communities.
