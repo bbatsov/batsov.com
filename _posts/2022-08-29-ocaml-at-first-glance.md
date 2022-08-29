@@ -37,6 +37,43 @@ The language strikes a good balance between being functional and practical. In t
 
 Language syntax is a favorite bikeshedding topic for most programmers, so I'll do my best to stay constructive here. I think OCaml's syntax won't present much of a challenge for any seasoned programmer, especially for someone with a passing knowledge of a similar language like Haskell.
 
+To put the discussion that follows in context, here are a few trivial OCaml code snippets:
+
+``` ocaml
+let square x = x * x
+
+square 5
+
+(* a classic function definition *)
+let hello name = print_endline ("Hello, " ^ name ^ "!")
+
+hello "world"
+
+(* filter a list with some predicate *)
+let is_even x = x mod 2 = 0
+
+List.filter is_even [1; 2; 3; 4; 5; 6; 7; 8; 9]
+- : int list = [2; 4; 6; 8]
+
+(* compute factorial recursively *)
+let rec fact x =
+  if x <= 1 then 1 else x * fact (x - 1)
+
+fact 10
+
+(* reverse a list using pattern matching and tail recursion *)
+let rev lst =
+  let rec rev' res = function
+  | [] -> res
+  | h :: t -> rev' (h :: res) t
+  in
+  rev' [] lst
+```
+
+I hope those snippets will give you some notion of OCaml's syntax. I'll admit
+that I'm quite fond of it by now, although it definitely it takes a bit of time to
+get used to it.
+
 ### Things I Liked
 
 Some aspects of the OCaml syntax that I liked:
