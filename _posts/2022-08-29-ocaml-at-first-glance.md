@@ -54,10 +54,46 @@ let rec last = function
 - type signatures are optional
 - module types
 - the ability to restrict an open module to a very small scope
+
+``` ocaml
+let average x y =
+  let open Int64 in
+  (x + y) / of_int 2
+
+let average x y =
+  Int64.((x + y) / of_int 2)
+```
+
 - labeled arguments
+
+``` ocaml
+let div ~num ~denom = num / denom
+
+div ~num:3 ~denom:10
+```
+
 - the ability to place the signature of a module in a dedicated `.mli` file.
 - the ability to have user-defined types that look as something built-in (e.g. lists, `ref`s, etc)
+
+``` ocaml
+(* here's how you can define ref yourselves *)
+type 'a ref = { mutable contents : 'a }
+
+let ref x = { contents = x }
+
+let (!) r = r.contents
+
+let (:=) r x = r.contents <- x
+```
+
 - having handy functions like `|>` out-of-the-box (I'm quite used to this from Clojure)
+
+``` ocaml
+some_list |> List.filter is_even |> sum
+```
+
+By the way, there's nothing really special about `|>`, it's a function like any other. One of the nice aspects of OCaml's syntax in general.
+
 - the usages of `snake_case` instead of `camelCase` most of the time. I find `snake_case` identifiers to be more readable, although obviously that's super subjective.
 
 ### Things I Disliked
@@ -77,6 +113,15 @@ You get used to this, but it's a pretty big departure from the norm to use comma
 - no syntax for list comprehensions (I often use those in Clojure, Haskell and Erlang, although I'm well aware they are not something essential)
 - the syntax for array literals is somewhat weird (`[|1; 2; 3|]`) - I don't like such usage of multiple symbols as literal boundaries, as this makes it harder for dev tools to figure out what you're doing. The indexing syntax `arr.(i)` is slightly weird as well, as it doesn't fit very well with the rest of the language.
 - no first-class syntax for maps and sets (Clojure spoiled on this front)
+
+``` clojure
+;; Clojure map
+{:name "Bruce Wayne" :alias "Batman"}
+
+;; Clojure set
+#{1 2 3 4 5}
+```
+
 - nothing like Haskell's typeclasses, which means in some cases you get different operators for similar types (e.g. numeric types):
 
 ``` ocaml
@@ -90,6 +135,15 @@ let average a b =
 ```
 
 On the bright side - it's really easy to spot float operations.
+
+By the way, this also means you get different operators for things like string and
+list concatenation, as you can't use `+` which is defined in terms of integers:
+
+``` ocaml
+"Hello, " ^ "world!"
+
+[1; 2] @ [3; 4]
+```
 
 ### Syntax Summary
 
