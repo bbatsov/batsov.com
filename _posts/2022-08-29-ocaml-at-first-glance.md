@@ -191,6 +191,21 @@ I also learned a lot simply be handing on there and perusing the topics that we 
 
 One final community resource I'd like to recommend is the awesome wiki [OCamlverse](https://ocamlverse.github.io/). It complements really well the information on the official OCaml site.
 
+## Learning Resources
+
+You certainly won't find dozens of books, hundreds of tutorials and a few online courses for OCaml. It seems that the most popular resources to learn OCaml are:
+
+- [Real World OCaml](https://dev.realworldocaml.org/): A free book about OCaml, that's considered one of the best starting points in the community. On the flip side - it's somewhat controversial for its decision to advocate the use of an alternative standard library (`Base` from Jane Street).
+- [Cornell University's course on OCaml](https://cs3110.github.io/textbook/cover.html): It's taught at the university, but the textbook and the video lectures are freely available online. I enjoyed the course, although it's clearly geared towards students and not practicing programmers.
+- [OCamlverse](https://ocamlverse.github.io/): An OCaml community wiki. The articles there give you a lot of practical pointers about day-to-day OCaml programming and complement nice the tutorial/manual texts.
+
+There's also some [tutorial-like section](https://ocaml.org/docs/up-and-running) on the official site, but it could have been structured better in my opinion.
+
+I definitely think there's a lot of room for more resources for newcomers and
+that's one area that will need work if OCaml is grow its mindshare. When everyone in the community is discussing the merits of a single book (RWO), you immediately figure out the problem is not the contents of the book, but rather the lack of alternative books.
+
+While Clojure and Haskell are considered niche languages as well, there are a lot more learning resources of every flavor for them. I think that even Erlang has more resources than OCaml these days.
+
 ## A Closing Note About Libraries
 
 A while ago I made a comment about the standard library situation [on Discourse](https://discuss.ocaml.org/t/what-i-dislike-about-ocaml/10248/50?u=bbatsov) that triggered a a follow-up conversation about two things:
