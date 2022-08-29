@@ -259,6 +259,15 @@ There are plenty of third-party OCaml libraries, although most of them seem some
 
 The only framework I looked into was [Dream](https://aantron.github.io/dream/) (a web framework). It looked pretty nice, but it's still in alpha, has only one developer and it seems he has been not been very active lately. Oh, well - that's a common problem in smaller programming communities.
 
+### A Note About Standard Libraries
+
+OCaml's standard library has few fans and lots of competition.
+
+It seems that today the most popular complete alternative of OCaml's standard library is [Base](https://opensource.janestreet.com/base/) by Jane Street. There's also [Core](https://opensource.janestreet.com/core/) which is a superset of `Base` and features even more functionality. As I've started out by reading the RWO book initially I was
+using `Base` all the time, but I've stopped using it since. Not that the library is bad or anything - I just wanted to give myself some time to assess for myself the problems that `Base` supposedly solves, plus consider other alternatives.
+
+I've recently discovered [Containers](https://github.com/c-cube/ocaml-containers), which extends OCaml's standard library instead of replacing it completely. I plan to make heavier use of it going forward.
+
 ## Development Tooling
 
 I'd say the development tooling for OCaml is pretty decent, although I wouldn't go as far as saying it's great. I've documented my current Emacs setup [here]({% post_url 2022-08-23-setting-up-emacs-for-ocaml-development %}) and I've also played a bit with the "official" VS Code extension to get a feel for OCaml-LSP.
@@ -269,7 +278,34 @@ Without a doubt, [Merlin](https://ocaml.github.io/merlin/) is the primary workho
 
 [Dune](https://dune.build/) is a solid build tool and I definitely enjoyed working with it. It does need better documentation, though, as I learned more about it (and Opam) from third-party documentation instead of from their official documentation.
 
-I think for most people a combination of VS Code + a `utop` and `dune` running in dedicated terminals will provide the optimal development experience. Of course, if you can stomach Emacs - even better. ;-)
+For testing I can recommend the following libraries:
+
+- [ppx_inline_test](https://github.com/janestreet/ppx_inline_test) for simple tests that you can place alongside your code, while you're developing it:
+
+``` ocaml
+let is_prime = <magic>
+
+let%test _ = is_prime 5
+let%test _ = is_prime 7
+let%test _ = not (is_prime 1)
+let%test _ = not (is_prime 8)
+```
+
+- [ppx_expect](https://github.com/janestreet/ppx_expect) is a framework for writing tests in OCaml, similar to Cram. Expect-tests mimic the existing inline tests framework with the `let%expect_test` construct. The body of an expect-test can contain output-generating code, interleaved with `%expect` extension expressions to denote the expected output:
+
+``` ocaml
+open Core
+
+let%expect_test "addition" =
+  printf "%d" (1 + 2);
+  [%expect {| 4 |}]
+```
+
+- [alcotest](https://github.com/mirage/alcotest) is my favorite testing framework so far. It's really easy to work with and it has beautiful output.
+
+![alcotest.png](https://raw.githubusercontent.com/mirage/alcotest/main/.meta/error.png)
+
+I think for most people a combination of VS Code + a `utop` and `dune` (e.g. `dune runtest -w`) running in dedicated terminals will provide the optimal development experience. This way you'll be able to play with some small snippets of OCaml code in your toplevel and get instant feedback from your test suite on every change you make. Of course, if you can stomach Emacs - even better. ;-)
 
 ## Community
 
