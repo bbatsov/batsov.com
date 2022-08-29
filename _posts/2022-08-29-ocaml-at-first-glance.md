@@ -137,7 +137,10 @@ By the way, there's nothing really special about `|>`, it's a function like any 
 
 Some aspects of the syntax that I disliked or found confusing (at least initially):
 
-- using `(* *)` for comments and lack of line comments. Not the end of the world, but the comment syntax makes some things some things trickier (e.g. referring to the `*` operator) and is just too verbose.
+- using `(* *)` for comments and lack of line comments (e.g. `//` is some C-like
+  languages). Not the end of the world, but the comment syntax makes some things
+  trickier (e.g. referring to the multiplication operator `*`) and is just too
+  verbose.
 
 ``` ocaml
 (* this will work *)
