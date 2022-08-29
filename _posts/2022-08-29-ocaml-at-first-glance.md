@@ -253,7 +253,7 @@ In brief:
 - the above has spurred the creation of all sorts of extensions and replacements to the standard library, which creates a lot of learning overhead and fragmentation. I was amused to see that the popular book [Real World OCaml](https://dev.realworldocaml.org/) directly recommends replacing the standard library with a third-party alternative.
 - the package manager [Opam](https://opam.ocaml.org) is relatively easy to use, although using switches (isolated OCaml environments) takes a while to get used to. I'm still not sure that should be part of the responsibilities of a package manager, but it gets the job done. Opam could use some better [documentation](https://opam.ocaml.org/doc/Manual.html).
 
-There's also support to target JavaScript from OCaml sources, which looks interesting, but I haven't tried it yet. [ReasonML](https://reasonml.github.io/) (basically OCaml with a "more familiar" syntax) is also appealing in this space, but I hear that the project has lost traction and has been on the decline lately.
+There's also support to target JavaScript from OCaml sources, which looks interesting, but I haven't tried it yet. [ReasonML](https://reasonml.github.io/) (basically OCaml with a "more familiar" syntax) is also appealing in this space, but I hear that the project has lost traction and has been on the decline lately.[^1]
 
 One common complaint about OCaml is its lack of support for parallel programming - OCaml currently doesn't natively support multiple OS-level OCaml threads running simultaneously. A global lock prevents multiple OCaml threads from running at once. The good news is that [OCaml 5.0](https://discuss.ocaml.org/t/ocaml-5-0-zeroth-alpha-release/10026) is right around the corner and its flagship feature is native support for multicore parallelism! This [article](https://github.com/ocaml-multicore/parallel-programming-in-multicore-ocaml) is a fantastic overview of Multicore OCaml. Exciting times ahead!
 
@@ -315,7 +315,7 @@ I think for most people a combination of VS Code + a `utop` and `dune` (e.g. `du
 
 The OCaml community is tiny by the standards of more popular programming languages, but I really enjoyed all my interactions with its members. I've been mostly using the official [Discord](https://discord.gg/cCYQbqN) and [Discourse](https://discus.ocaml.org), but there are plenty of [other options](https://ocaml.org/community) for you to chose form.
 
-I've gotten plenty of answers to every question I asked and I really enjoyed learning more about [the workflows OCaml developers have](https://discuss.ocaml.org/t/whats-your-development-workflow/10358), as finding a productive workflow was one of the things I've struggled with early on.[^1]
+I've gotten plenty of answers to every question I asked and I really enjoyed learning more about [the workflows OCaml developers have](https://discuss.ocaml.org/t/whats-your-development-workflow/10358), as finding a productive workflow was one of the things I've struggled with early on.[^2]
 
 I also learned a lot simply be handing on there and perusing the topics that we being posted and channels like `#general`, `#beginners` and `#share`.
 
@@ -357,7 +357,7 @@ And then it got this response:
 >
 > Since then thousands of characters, dozen of scripts and few new characters properties have been added. This makes Camomile entirely impractical to deal with the Unicode of today.
 >
-> So I don't think there's any choice to be had here. You will be better served by `uucp`, `uunf` and `uuseg` (this one not provided by Camomile).[^2]
+> So I don't think there's any choice to be had here. You will be better served by `uucp`, `uunf` and `uuseg` (this one not provided by Camomile).[^3]
 
 And finally the acknowledgment:
 
@@ -371,5 +371,6 @@ I can't say that my initial experience with OCaml was mind-blowing, but it was d
 
 At this point I've seen enough to be convinced to continue with my exploration of OCaml and dig deeper. Keep hacking!
 
-[^1]: Pro tip - `dune runtest -w --no-buffer` is essential!
-[^2]: Don't even get me started on names like `uucp`, `uund` and `uuseg`. :-) Naming continues to be hard!
+[^1]: [This article](https://ersin-akinci.medium.com/confused-about-rescript-rescript-reason-reasonml-and-bucklescript-explained-ab4230555230) covers well the backstory for ReasonML's decline and the ReasonML/ReScript split.
+[^2]: Pro tip - `dune runtest -w --no-buffer` is essential!
+[^3]: Don't even get me started on names like `uucp`, `uund` and `uuseg`. :-) Naming continues to be hard!
