@@ -70,8 +70,8 @@ let rev lst =
   rev' [] lst
 ```
 
-I hope those snippets will give you some notion of OCaml's syntax. I'll admit
-that I'm quite fond of it by now, although it definitely it takes a bit of time to
+I hope those snippets gave you some notion of OCaml's syntax. I'll admit
+that I'm fairly fond of it by now, although it definitely takes a bit of time to
 get used to it.
 
 ### Things I Liked
