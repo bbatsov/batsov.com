@@ -101,13 +101,43 @@ By the way, there's nothing really special about `|>`, it's a function like any 
 Some aspects of the syntax that I disliked or found confusing (at least initially):
 
 - using `(* *)` for comments and lack of line comments. Not the end of the world, but the comment syntax makes some things some things trickier (e.g. referring to the `*` operator) and is just too verbose.
+
+``` ocaml
+(* this will work *)
+List.fold_left (+) 0 [1;2;3;4;5]
+
+(* this will work *)
+List.fold_left ( * ) 1 [1;2;3;4;5]
+
+(* this will not work *)
+List.fold_left (*) 1 [1;2;3;4;5]
+```
+
+Here's one more comment that won't work - `(* " *)`. I'll leave to the curious reader to figure out why that's the case.
+
 - using `;` heavily as element separator (e.g. in lists and records):
 
 ``` ocaml
 let some_list = [1; 2; 3; 4; 5]
 ```
 
-You get used to this, but it's a pretty big departure from the norm to use commas. I wonder what's the reasoning behind this.
+You get used to this, but it's a pretty big departure from the norm to use commas. I wonder what's the reasoning behind this. Most likely it has to do with being able to define tuples without parentheses around them:
+
+``` ocaml
+(1, 2, 3);;
+(* - : int * int * int = (1, 2, 3) *)
+
+1, 2, 3;;
+(* - : int * int * int = (1, 2, 3) *)
+
+(* a more realistic example of the usefulness of this *)
+let a, b, c = 1, 2, 3 in
+a + b + c
+
+(* but we pay a steep price for the above convenience *)
+[1, 2, 3];;
+(* - : (int * int * int) list = [(1, 2, 3)] *)
+```
 
 - introducing [multiple `let` bindings]({% post_url 2022-08-28-ocaml-tips-multiple-let-bindings %}) is a bit too verbose for my taste
 - no syntax for list comprehensions (I often use those in Clojure, Haskell and Erlang, although I'm well aware they are not something essential)
