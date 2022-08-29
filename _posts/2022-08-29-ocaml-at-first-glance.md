@@ -23,7 +23,7 @@ Also you should keep in mind my own background, experiences and preferences:
 - I've got a massive fondness for the simplicity of Lisps, I've written a ton of code in Emacs Lisp and Clojure, and I really love REPL-driven (interactive/incremental) programming.
 - I've never been a strong proponent of either dynamically or statically typed programming languages. I've yet to see a compelling argument in favor of one side or the other.
 
-Obviously, all of this tends to influence a lot my perception of (new) programming languages.
+Obviously, all of this tends to influence a lot my perception of (new) programming languages. That's why throughout the article I'll be drawing some comparisons to other (functional) programming languages that I'm familiar with.
 
 ## General Notes
 
