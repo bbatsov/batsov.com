@@ -195,7 +195,7 @@ In brief:
 
 There's also support to target JavaScript from OCaml sources, which looks interesting, but I haven't tried it yet. [ReasonML](https://reasonml.github.io/) (basically OCaml with a "more familiar" syntax) is also appealing in this space, but I hear that the project has lost traction and has been on the decline lately.
 
-There are plenty of third-party OCaml libraries, although most of them seem somewhat under-maintained and under-documented. I've noticed that for many libraries all the documentation you'll find is just API signatures.
+There are plenty of third-party OCaml libraries, although most of them seem somewhat under-maintained and under-documented. I've noticed that for many libraries all the documentation you'll find is just API signatures - e.g. [this](https://ocaml.org/p/re/1.10.4/doc/Re/Perl/index.html).
 
 The only framework I looked into was [Dream](https://aantron.github.io/dream/) (a web framework). It looked pretty nice, but it's still in alpha, has only one developer and it seems he has been not been very active lately. Oh, well - that's a common problem in smaller programming communities.
 
