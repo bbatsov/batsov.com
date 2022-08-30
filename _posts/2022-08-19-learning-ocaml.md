@@ -61,6 +61,17 @@ point, so I can compare the languages better. We'll see if this time I'll be
 more committed than in the past. I can tell you one thing, though - playing with
 OCaml is a lot of fun[^3]. Keep learning!
 
+## Learning OCaml Articles
+
+<ul>
+{% for post in site.posts reversed %}
+  {% if post.tags contains 'OCaml' %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endif %}  <!-- tags if -->
+{% endfor %} <!-- posts for -->
+</ul>
+
+
 [^1]: I've also noticed I had a strong draw to "ancient" languages with rich history.
 [^2]: TypeScript, Pharo, Rust and OCaml. Clearly TypeScript and Rust weren't nice enough for me, even if they are great langauges.
 [^3]: Pun intended!
