@@ -374,3 +374,7 @@ At this point I've seen enough to be convinced to continue with my exploration o
 [^1]: [This article](https://ersin-akinci.medium.com/confused-about-rescript-rescript-reason-reasonml-and-bucklescript-explained-ab4230555230) covers well the backstory for ReasonML's decline and the ReasonML/ReScript split.
 [^2]: Pro tip - `dune runtest -w --no-buffer` is essential!
 [^3]: Don't even get me started on names like `uucp`, `uund` and `uuseg`. :-) Naming continues to be hard!
+
+-------------------------
+
+You can discuss the article on [Hacker News](https://news.ycombinator.com/item?id=32636682) or [OCaml's Discourse](https://discuss.ocaml.org/t/ocaml-at-first-glance/10396).
