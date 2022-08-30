@@ -235,6 +235,37 @@ x = 5
 
 By the way, when it comes to learning OCaml's operators I can't recommend [this site](https://www.craigfe.io/operator-lookup/) highly enough!
 
+### Reason
+
+> Reason is a programming language powered by OCaml's strong type system, and has a syntax designed to feel familiar to people coming from JavaScript or C-family languages.
+>
+> -- https://reasonml.github.io
+
+In other words Reason allows you to leverage the OCaml ecosystem with a syntax that might be more familiar to some people. Think something like the relationship between Elixir and Erlang. Here's some code written in Reason:
+
+``` reason
+let launchMissile = () => {
+  someSideEffects();
+  print_endline("Missiles have been launched!");
+};
+
+launchMissile();
+
+type schoolPerson = Teacher | Director | Student(string);
+
+let greeting = person =>
+  switch (person) {
+  | Teacher => "Hey Professor!"
+  | Director => "Hello Director."
+  | Student("Richard") => "Still here Ricky?"
+  | Student(anyOtherName) => "Hey, " ++ anyOtherName ++ "."
+  };
+```
+
+Whether this is any better than OCaml's syntax is up to you to decide. Personally,
+I'm not a fan of Reason, but if it helps grow the OCaml community then it's a great
+idea in my book.
+
 ### Syntax Summary
 
 > This too shall pass.
@@ -253,7 +284,7 @@ In brief:
 - the above has spurred the creation of all sorts of extensions and replacements to the standard library, which creates a lot of learning overhead and fragmentation. I was amused to see that the popular book [Real World OCaml](https://dev.realworldocaml.org/) directly recommends replacing the standard library with a third-party alternative.
 - the package manager [Opam](https://opam.ocaml.org) is relatively easy to use, although using switches (isolated OCaml environments) takes a while to get used to. I'm still not sure that should be part of the responsibilities of a package manager, but it gets the job done. Opam could use some better [documentation](https://opam.ocaml.org/doc/Manual.html).
 
-There's also support to target JavaScript from OCaml sources, which looks interesting, but I haven't tried it yet. [ReasonML](https://reasonml.github.io/) (basically OCaml with a "more familiar" syntax) is also appealing in this space, but I hear that the project has lost traction and has been on the decline lately.[^1]
+There's also support to target [JavaScript from OCaml sources](https://github.com/ocsigen/js_of_ocaml), which looks interesting, but I haven't tried it yet. [ReScript](https://rescript-lang.org/) (basically Reason that targets JavaScript) is also appealing in this space, even if it's only tangentially connected to OCaml.[^1]
 
 One common complaint about OCaml is its lack of support for parallel programming - OCaml currently doesn't natively support multiple OS-level OCaml threads running simultaneously. A global lock prevents multiple OCaml threads from running at once. The good news is that [OCaml 5.0](https://discuss.ocaml.org/t/ocaml-5-0-zeroth-alpha-release/10026) is right around the corner and its flagship feature is native support for multicore parallelism! This [article](https://github.com/ocaml-multicore/parallel-programming-in-multicore-ocaml) is a fantastic overview of Multicore OCaml. Exciting times ahead!
 
@@ -371,7 +402,7 @@ I can't say that my initial experience with OCaml was mind-blowing, but it was d
 
 At this point I've seen enough to be convinced to continue with my exploration of OCaml and dig deeper. Keep hacking!
 
-[^1]: [This article](https://ersin-akinci.medium.com/confused-about-rescript-rescript-reason-reasonml-and-bucklescript-explained-ab4230555230) covers well the backstory for ReasonML's decline and the ReasonML/ReScript split.
+[^1]: [This article](https://ersin-akinci.medium.com/confused-about-rescript-rescript-reason-reasonml-and-bucklescript-explained-ab4230555230) covers well the confusing topic of how Reason, ReasonML and ReScript relate to one another.
 [^2]: Pro tip - `dune runtest -w --no-buffer` is essential!
 [^3]: Don't even get me started on names like `uucp`, `uund` and `uuseg`. :-) Naming continues to be hard!
 
