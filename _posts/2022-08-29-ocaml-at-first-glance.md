@@ -35,7 +35,7 @@ The language strikes a good balance between being functional and practical. In t
 
 ## Language Syntax
 
-Language syntax is a favorite bikeshedding topic for most programmers, so I'll do my best to stay constructive here. I think OCaml's syntax won't present much of a challenge for any seasoned programmer, especially for someone with a passing knowledge of a similar language like Haskell.
+Language syntax is a favorite bike-shedding topic for most programmers, so I'll do my best to stay constructive here. I think OCaml's syntax won't present much of a challenge for any seasoned programmer, especially for someone with a passing knowledge of a similar language like Haskell.
 
 To put the discussion that follows in context, here are a few trivial OCaml code snippets:
 
