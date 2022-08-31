@@ -235,6 +235,37 @@ x = 5
 
 By the way, when it comes to learning OCaml's operators I can't recommend [this site](https://www.craigfe.io/operator-lookup/) highly enough!
 
+- Several modules in the standard library have two versions - one where the functions are using positional arguments and one where the functions are taking labeled (named) arguments (e.g. `String` and `StringLabels`). Not exactly a syntax matter, but definitely a peculiarity.
+
+``` ocaml
+# List.map;;
+- : ('a -> 'b) -> 'a list -> 'b list = <fun>
+# ListLabels.map;;
+- : f:('a -> 'b) -> 'a list -> 'b list = <fun>
+
+# String.sub;;
+- : string -> int -> int -> string = <fun>
+# StringLabels.sub;;
+- : string -> pos:int -> len:int -> string = <fun>
+```
+
+- Having two ways to create anonymous functions - via `fun` and `function`.
+Basically `function` only allows for one argument, but allows for pattern matching, while `fun` is the more general way to define a function.
+
+``` ocaml
+let f = function x -> x * 5
+
+let rec last = function
+  | [] -> None
+  | [ x ] -> Some x
+  | _ :: t -> last t
+
+let f = fun x -> x * 5
+let g = fun x y -> x * y
+```
+
+You can learn more about the differences between `fun` and `function` [here](https://stackoverflow.com/questions/1604270/what-is-the-difference-between-the-fun-and-function-keywords).
+
 ### Reason
 
 > Reason is a programming language powered by OCaml's strong type system, and has a syntax designed to feel familiar to people coming from JavaScript or C-family languages.
