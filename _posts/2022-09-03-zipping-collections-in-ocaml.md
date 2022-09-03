@@ -36,7 +36,7 @@ CCList.combine_shortest [1;2;3] [4;5;6;7];;
 - : (int * int) list = [(1, 4); (2, 5); (3, 6)]
 ```
 
-There's also `CCList.combine`, which is basically a more efficient version of `List.cobime` from the standard library.
+There's also `CCList.combine`, which is basically a more efficient version of `List.combine` from the standard library.
 
 The popular [Base](https://opensource.janestreet.com/base/) library has similar functions to the those in the standard library, but there they are named `List.zip`, `List.zip_exn`, `Array.zip` and `Array.zip_exn`. Both of the require the lists/arrays to be of the same length, but the first returns an error type and the second raises an exception.
 
