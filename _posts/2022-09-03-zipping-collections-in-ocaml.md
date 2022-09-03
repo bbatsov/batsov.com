@@ -49,4 +49,13 @@ List.split [(1, 4); (2, 5); (3, 6)]
 
 In `Base` it's named `unzip`.
 
+You might be wondering at this point how does one discover the APIs they need in OCaml. I can recommend a few options:
+
+- [Sherlocode](https://sherlocode.com/) and [Sherlodoc](https://doc.sherlocode.com/) are great way to search for OCaml code usages and explore APIs. Typically I'd search for something in Sherlodoc first and then I'd look for example usages with Sherlocode.
+- Spend some quality time with the [Standard API's documentation](https://v2.ocaml.org/api/index.html)
+- Spend some time with the [API documentation for Containers](https://c-cube.github.io/ocaml-containers/3.9/containers/index.html)
+- Explore the [Base APIs](https://ocaml.org/p/base/v0.15.0/doc/Base/index.html)
+
+Googling also works, of course. Most of it, however, will just lead you to some StackOverflow/OCaml Discourse discussion, that will require you to do some follow-up API exploration anyways.
+
 As you can see - you've got plenty of options for zipping collections in OCaml, even if they require a bit of discovery time. That's all I have for you today! Keep hacking!
