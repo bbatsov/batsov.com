@@ -43,7 +43,7 @@ The popular [Base](https://opensource.janestreet.com/base/) library has similar 
 The reverse operation of zipping/combining is named `split` in the standard library:
 
 ``` ocaml
-List.split [(1, 4); (2, 5); (3, 6)]
+List.split [(1, 4); (2, 5); (3, 6)];;
 - : int list * int list = ([1; 2; 3], [4; 5; 6])
 ```
 
