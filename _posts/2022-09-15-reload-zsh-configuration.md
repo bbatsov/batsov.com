@@ -15,7 +15,7 @@ command for reloading the Zsh configuration:
 $ omz reload
 ```
 
-I assumed this was just an alias for `. .zshrc`, which I had been doing for
+I assumed this was just an alias for `. .zshrc` (a.k.a. `source .zshrc`), which I had been doing for
 ages, but it turns out it's actually an alias for:
 
 ``` shellsession
