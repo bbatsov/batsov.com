@@ -110,9 +110,6 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/bbatsov"
@@ -128,6 +125,12 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/bbatsov"
+    - label: "Emacs Redux"
+      icon: "fas fa-fw fa-link"
+      url: "https://emacsredux.com"
+    - label: "Meta Redux"
+      icon: "fas fa-fw fa-link"
+      url: "https://metaredux.com"
 
 # Site Footer
 footer:
