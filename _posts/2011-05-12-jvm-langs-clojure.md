@@ -272,11 +272,11 @@ Clojure version:
   (some #(Character/isUpperCase %) string))
 ```
 
-The definition of the problems is "A string has an uppercase character if
+The definition of the problem is "A string has an uppercase character if
 some of the characters in it is uppercase" (doesn't sound good, but
 will do). The Clojure code reads more or less like the definition of
 the problem. A finer point is that it will work correctly even if you
-pass `nil` to the has-uppercase? function.
+pass `nil` to the `has-uppercase?` function.
 
 #### Clojure is concise
 
@@ -326,9 +326,9 @@ user> (:age me)
 26
 ```
 
-Clojure's version of the type is a one liner and remain shorter even
-with a few examples of its usage. It's not equivalent to Java
-definition, however - the Clojure version of the structure is
+Clojure's version of the type is a one liner and remains shorter even
+with a few examples of its usage. It's not equivalent to the Java
+definition, however - the Clojure version of the data structure is
 immutable.
 
 #### Clojure is a Lisp
