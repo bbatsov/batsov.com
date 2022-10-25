@@ -38,9 +38,11 @@ implode_char_list (explode_string "hello");;
 Note that `List.init` was added in OCaml 4.06 and `String.of_seq` was added in OCaml 4.07.
 
 Keep in mind that lists of chars are quite memory inefficient, as each character
-takes 4 bytes (64 bits) on a modern 64 bit CPU. When you factor the pointers to
+takes 4 bytes (64 bits) on a modern 64 bit CPU.[^1] When you factor the pointers to
 the next element in the list, each character is effectively taking 8 bytes,
 which is pretty far from the memory efficiency of a string. The take away is that
 you should avoid using them if you're dealing with large data sets.
 
 That's all I have for you today. Keep hacking!
+
+[^1]: You can learn more about OCaml's runtime memory layout [here](https://dev.realworldocaml.org/runtime-memory-layout.html).
