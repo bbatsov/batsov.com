@@ -42,11 +42,11 @@ to no avail and I knew I needed some help to make progress. What do you do in
 situations like these? You turn to YouTube, of course![^1] I searched there for
 "detaching CPU from heatsink" and I got the brilliant advice to use a hairdryer
 to heat them up for a few minutes and try to pry them apart when the thermal
-paste had softened. Surprisingly, this actually worked!
+paste had softened.[^2] Surprisingly, this actually worked!
 
 Then I searched YouTube for "bent CPU pins" and there I watched a few people
 fixing the bent pins with toothpicks, credit cards, tiny screwdrivers, vises on
-workbenches, etc. Some ideas were definitely way more hardcore than others! I
+workbenches[^3], etc. Some ideas were definitely way more hardcore than others! I
 spent the next two hours carefully adjusting the bent pins with a toothpick and
 one of my wife's painting knifes (the same one that finally pried the CPU from
 the heatsink). I was extremely frustrated at the time, yet I needed to be as
@@ -134,3 +134,5 @@ opportunities it provided me with.
 That's all I have for you today. Always be upgrading!
 
 [^1]: You can also Google, of course, but most likely you'll end up back to YouTube as the hardware geeks are really into videos.
+[^2]: <https://www.youtube.com/watch?v=zOxzLlHsNZo>
+[^3]: Seriously! Check out [this video](https://www.youtube.com/watch?v=zOxzLlHsNZo).
