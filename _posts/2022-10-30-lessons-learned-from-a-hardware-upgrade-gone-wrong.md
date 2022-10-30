@@ -133,6 +133,8 @@ opportunities it provided me with.
 
 That's all I have for you today. Always be upgrading!
 
+**P.S.** Bonus lesson - don't be cheap and don't use crappy stock CPU coolers!
+
 [^1]: You can also Google, of course, but most likely you'll end up back to YouTube as the hardware geeks are really into videos.
 [^2]: <https://www.youtube.com/watch?v=zOxzLlHsNZo>
 [^3]: Seriously! Check out [this video](https://www.youtube.com/watch?v=zOxzLlHsNZo).
