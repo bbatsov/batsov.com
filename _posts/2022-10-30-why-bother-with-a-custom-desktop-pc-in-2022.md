@@ -73,18 +73,31 @@ By the way, I never mentioned what exactly is my rig, so here it is:
 | Case | Fractal Design Define 7 |
 | PSU | Fractal Design Ion+ 660W Platinum |
 
-Nothing fancy, but exactly what I needed for my use-cases. I got it in July 2020,
-while I had some extra time to kill during the COVID-19 lockdowns. I paid for it
-about 1600 EUR. While I had some issues along the way[^3], overall my experience
+Nothing fancy, but exactly what I needed for my use-cases. I got it in July
+2020, while I had some extra time to kill during the COVID-19 lockdowns. I paid
+for it about 1600 EUR.
+
+I really care about power efficiency and silent operation
+and that's reflected in my selection of parts - a 65W CPU, a semi-passively
+cooled PSU and GPU, and really silent CPU and case fans. I also really
+hate RGBs that lit your rig like a Christmas tree. The minimalist
+in me has always disliked everything that's not really needed.
+
+While I had some issues along the way[^3], overall my experience
 with the machine has been great and I don't regret any of the time I had to
 dedicate to it. If anything - I regret not having done this earlier!
+It's holding up remarkably well and I can imagine it going strong for at least
+2-3 years more without any significant upgrades. After all I can easily outfit
+it with a 16 core Ryzen 5950X and 32GB memory more, which would certainly add a
+lot of punch.[^4] That's the beauty of upgradable hardware - it can evolve to suit
+your current needs.
 
-It's holding up remarkably well and I can imagine it going strong for at least 2-3 years more without any significant upgrades. After all I can easily outfit it with a 16 core Ryzen 5950X and 32GB memory more, which would certainly add a lot of punch. That's the beauty of upgradable hardware - it can evolve to suit your current needs.
-
-Custom-built desktops are not very practical, but they are very cool. They are a reflection of yourself.
+Custom-built desktops are not very practical, but they are very cool. They are a reflection of yourself. And they are so much fun to play with!
 
 That's all I have for you today. Keep hacking!
 
 [^1]: And they mostly (only?) care about their GPUs.
 [^2]: I did use it docked and with an external display most of the time, though.
 [^3]: E.g. the GPU not playing well with Linux and the recent [CPU cooler upgrade drama]({% post_url 2022-10-30-lessons-learned-from-a-hardware-upgrade-gone-wrong %}).
+[^4]: Knowing me - by then I'd probably be really eager to try out Meteor Lake and
+some Intel Arc GPU. As I said before - I'm not very practical when it comes to computers!
