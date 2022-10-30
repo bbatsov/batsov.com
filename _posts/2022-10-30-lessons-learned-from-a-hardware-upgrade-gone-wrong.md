@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Lessons Learned from a Hardware Upgrade Gone Wrong
 date: 2022-10-30 09:31 +0200
 tags:
