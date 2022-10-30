@@ -45,15 +45,16 @@ to heat them up for a few minutes and try to pry them apart when the thermal
 paste had softened. Surprisingly, this actually worked!
 
 Then I searched YouTube for "bent CPU pins" and there I watched a few people
-fixing the bent pins with toothpicks, tiny screwdrivers, vises on workbenches,
-etc. Some ideas were definitely way more hardcore than others! I spent the next
-two hours carefully adjusting the bent pins with a toothpick and one of my
-wife's painting knifes (the same one that finally pried the CPU from the
-heatsink). I was extremely frustrated at the time, yet I needed to be as calm as
-possible to perform this relatively complex task. By the end I was sweating like
-a pig and my eyes couldn't focus properly on the individual pins. At last the
-pin grid looked more or less aligned and I carefully slided the CPU back into its
-socket. It clicked in place. I finally had some cause for optimism.
+fixing the bent pins with toothpicks, credit cards, tiny screwdrivers, vises on
+workbenches, etc. Some ideas were definitely way more hardcore than others! I
+spent the next two hours carefully adjusting the bent pins with a toothpick and
+one of my wife's painting knifes (the same one that finally pried the CPU from
+the heatsink). I was extremely frustrated at the time, yet I needed to be as
+calm as possible to perform this relatively complex task. By the end I was
+sweating like a pig and my eyes couldn't focus properly on the individual
+pins. At last the pin grid looked more or less aligned and I carefully slided
+the CPU back into its socket. It clicked in place. I finally had some cause for
+optimism.
 
 **Lesson 1:** Even the simplest change can go wrong, regardless of your knowledge or
 your preparation for the task at hand. Changes always carry some degree of risk.
