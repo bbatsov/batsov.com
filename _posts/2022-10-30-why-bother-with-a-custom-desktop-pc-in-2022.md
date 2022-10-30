@@ -34,16 +34,24 @@ around the so called "portable workstations" that are 16 inch and weight
 2.5-3kg.
 
 Of course, I could have just gotten some pre-built desktop like the Mac Studio
-or a custom pre-built PC. So, it's still not clear why I decided to go all the
-way with this.
+or a custom pre-built PC. Neither did I need to bother with the assembly. So,
+it's still not clear why I decided to go all the way with this.
 
-The answer is rather simple - I'm very quaint (boringly old-fashioned) person. I
-grew up in the day and age where it was extremely common to build your own PC
-and I've always had a lot of love for tinkering with my hardware and doing small
-tweaks/upgrades here and there. Despite all this, I fell victim to modern way of
-thinking and I spent something like 8 years (between 2012 and 2020) without a
-custom-built PC. For a few years a had a Mac Mini Server and afterwards I was
-using my MacBook Pro as my only computer.[^2]
+The answer is rather simple - I'm very quaint (boringly old-fashioned) person
+and I'm always curious to understand how everything works. I grew up in the day
+and age where it was extremely common to build your own PC and I've always had a
+lot of love for tinkering with my hardware and doing small tweaks/upgrades here
+and there. For over 15 years I was selecting the parts for the computers of many
+friends and family members and I was helping them assemble/upgrade them. Then
+suddenly this type of computers grew out of fashion and almost everyone embraced
+laptops in the past decade. Computers became disposable commodities that you can
+buy from pretty much every electronics store, not to mention numerous online
+outlets. People embraced the new way as better - after all it meant less upfront
+your for you and less maintenance work down the road. If you can't upgrade
+anything than you have nothing to think about, right? Even I fell victim to
+modern way of thinking and I spent something like 8 years (between 2012 and
+2020) without a custom-built PC. For a few years a had a Mac Mini Server and
+afterwards I was using my MacBook Pro as my only computer.[^2]
 
 While this definitely got the job done, I was always missing tending to a
 computer a considered truly my own. It felt almost like some romantic notion
@@ -57,16 +65,18 @@ tinkerer in me demands in. One thing is certain - that's something that brings
 me a lot of joy and that is what matters most in the end of the day. We can't be
 practical all the time - that'd be so boring!
 
-I can also draw a few parallels to Emacs - Emacs is all about building your
-own editor that's uniquely attuned to you. Obviously the way to get a
-computer that's attuned to you have to built it yourself. That's certainly not
-for everyone and that's perfectly fine.
+I can also draw a few parallels to Emacs - Emacs is all about building your own
+editor that's uniquely attuned to you. I usually think of Linux (especially
+distros like Gentoo and Arch) the same way - building material for your
+operating system. Obviously the way to get a computer that's attuned to you is
+to build it yourself. That's certainly not for everyone and that's perfectly
+fine. Emacs and Gentoo are not for everyone either.
 
 By the way, I never mentioned what exactly is my rig, so here it is:
 
-| CPU | AMD RYZEN 7 3700X |
-| CPU Cooler | Artic Freezer A35 |
-| GPU | ASUS DUAL Radeon RX 5500 XT EVO OC 8G |
+| CPU | AMD Ryzen 7 3700X |
+| CPU Cooler | Arctic Freezer A35 |
+| GPU | ASUS Dual Radeon RX 5500 XT EVO OC 8G |
 | Motherboard | AORUS X570 ULTRA |
 | SSD | 960GB M.2 2280 Corsair Force Series MP510 |
 | RAM | 32GB (2x16GB) DDR4 3200MHz Corsair Vengeance LPX |
@@ -75,7 +85,8 @@ By the way, I never mentioned what exactly is my rig, so here it is:
 
 Nothing fancy, but exactly what I needed for my use-cases. I got it in July
 2020, while I had some extra time to kill during the COVID-19 lockdowns. I paid
-for it about 1600 EUR.
+for it about 1600 EUR, which seemed like a great value to me given that a decently
+spec-ed high-end laptop (e.g. a MacBook Pro) costs closer to 3000 EUR.
 
 I really care about power efficiency and silent operation
 and that's reflected in my selection of parts - a 65W CPU, a semi-passively
