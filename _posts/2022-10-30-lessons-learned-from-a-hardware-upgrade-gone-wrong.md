@@ -13,12 +13,12 @@ experience and reminded me about a few valuable lessons, I've learned
 over the years.
 
 First, a bit of backstory. I bought my current desktop PC in July 2020 and I've
-been using the stock AMD Wraith Prism cooler that came bundled with my CPU ever
+been using the stock [AMD Wraith Prism](https://www.amd.com/en/technologies/cpu-cooler-solution) cooler that came bundled with my CPU ever
 since. The cooler had a cool AMD logo and RGBs - I totally loved it early on. But it was
 also a pretty noisy cooler and as time passed I grew progressively more and more
 frustrated with it. After a lot of procrastination I finally decided this
 weekend that enough is enough and I went forward with replacing it.  I opted to
-go for the Arctic Freezer A35 - a simple cooler with no bells and whistles
+go for the [Arctic Freezer A35](https://www.arctic.de/en/Freezer-A35/ACFRE00112A) - a simple cooler with no bells and whistles
 that's known for its great value, quiet operation and easy installation.
 
 10 am, Saturday morning. Upgrade o'clock! When I opened my PC's case I thought
