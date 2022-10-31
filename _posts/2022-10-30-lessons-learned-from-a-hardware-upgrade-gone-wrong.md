@@ -131,10 +131,11 @@ opportunities it provided me with.
 
 **Lesson 7:** We learn best by doing. Practice, practice, practice!
 
-That's all I have for you today. Always be upgrading!
+That's all I have for you today. Always be upgrading![^4]
 
 **P.S.** Bonus lesson - don't be cheap (and don't use crappy stock CPU coolers)! Remember that an ounce of prevention is a pound of cure.
 
 [^1]: You can also Google, of course, but most likely you'll end up back to YouTube as the hardware geeks are really into videos.
 [^2]: <https://www.youtube.com/watch?v=zOxzLlHsNZo>
 [^3]: Seriously! Check out [this video](https://www.youtube.com/watch?v=zOxzLlHsNZo).
+[^4]: To be clear - that's a joke.
