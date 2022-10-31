@@ -77,7 +77,7 @@ ranges), but they mostly get the job done. A more full-featured implementation
 would look something like this:
 
 ``` ocaml
-let range ?(from=1) until ?(step=1) =
+let range ?(from=1) ?(step=1) until =
   let cmp = match step with
     | i when i < 0 -> (>)
     | i when i > 0 -> (<)
@@ -91,16 +91,26 @@ let range ?(from=1) until ?(step=1) =
 
 This function has a few advantages over the implementations so far:
 
-- It uses labeled arguments
+- It uses optional labeled arguments (`from` and `step`)
 - It allows us to set the step explicitly
 - It handles descending ranges
 - It's implemented in terms of `Seq`, meaning it's lazy
+
+**Note:** The order of the arguments in the definition matters, as optional
+arguments are only filled in once a positional argument after them has been
+applied. If `?step` is the last argument that can never happen.
 
 And here's how using it in practice looks:
 
 ``` ocaml
 range 10 |> List.of_seq;;
 - : int list = [1; 2; 3; 4; 5; 6; 7; 8; 9]
+
+range ~from:10 20 |> List.of_seq;;
+- : int list = [10; 11; 12; 13; 14; 15; 16; 17; 18; 19]
+
+range 100 ~step:10 |> List.of_seq;;
+- : int list = [1; 11; 21; 31; 41; 51; 61; 71; 81; 91]
 
 range ~from:5 20 ~step:5 |> List.of_seq;;
 - : int list = [5; 10; 15]
