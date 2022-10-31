@@ -64,8 +64,7 @@ range 5 15
 - : int list = [5; 6; 7; 8; 9; 10; 11; 12; 13; 14]
 
 (* let's name this -- for good measure *)
-let (--) from until =
-  List.init (until - from) (fun i -> i + from)
+let (--) = range
 
 1 -- 10
 - : int list = [1; 2; 3; 4; 5; 6; 7; 8; 9]
