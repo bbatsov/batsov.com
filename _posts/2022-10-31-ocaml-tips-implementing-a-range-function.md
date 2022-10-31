@@ -18,6 +18,11 @@ a couple of examples from Ruby and Clojure:
 
 (1..10).filter(&:even?)
 # => [2, 4, 6, 8, 10]
+
+# And some related functionality, that doesn't use literal ranges
+5.downto(1).to_a # => [5, 4, 3, 2, 1]
+
+10.step(1, -2).to_a # => [10, 8, 6, 4, 2]
 ```
 
 ``` clojure
@@ -28,8 +33,13 @@ a couple of examples from Ruby and Clojure:
 
 (range 1 10 2)
 ;; => (1 3 5 7 9)
+
+(range 100 0 -10)
+;; (100 90 80 70 60 50 40 30 20 10)
 ```
 
+Ruby has a special syntax for ranges (`..` and `...`) and Clojure provides
+a `range` function to generate ranges (basically a sequences of integer numbers).
 I'm pretty sure you've seen something like this. Not the most useful function in
 the world for sure, but it's handy from time to time.
 
