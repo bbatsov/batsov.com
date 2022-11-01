@@ -10,13 +10,13 @@ beats my annual record of 34 articles from 2011. I definitely didn't see this
 coming, especially given how tough the year has been on me on multiple
 levels.
 
-A few years ago (think) was stagnant and when I launched [Meta
-Redux](https://metaredux.com) I thought this was probably the end of my original
-blog. It's funny that 4 years later I do most of my writing here again, and I
-even managed to reach the heights of my activity from the days when I was
-younger and had both more energy and more time to spare.[^1] Let's hope I'll keep
-this positive momentum going for a while, as there are definitely many topics
-that I'd like to explore here.
+A few years ago (think) was stagnant (I wrote 0 articles in both 2016 and 2017)
+and when I launched [Meta Redux](https://metaredux.com) in 2018 I thought this
+was probably the end of my original blog. It's funny that 4 years later I do
+most of my writing here again, and I even managed to reach the heights of my
+activity from the days when I was younger and had both more energy and more time
+to spare.[^1] Let's hope I'll keep this positive momentum going for a while, as
+there are definitely many topics that I'd like to explore here.
 
 This blog was quite the journey:
 
