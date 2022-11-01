@@ -110,5 +110,4 @@ That's all I have for you today. Keep hacking!
 [^1]: And they mostly (only?) care about their GPUs.
 [^2]: I did use it docked and with an external display most of the time, though.
 [^3]: E.g. the GPU not playing well with Linux and the recent [CPU cooler upgrade drama]({% post_url 2022-10-30-lessons-learned-from-a-hardware-upgrade-gone-wrong %}).
-[^4]: Knowing me - by then I'd probably be really eager to try out Meteor Lake and
-some Intel Arc GPU. As I said before - I'm not very practical when it comes to computers!
+[^4]: Knowing me - by then I'd probably be really eager to try out Meteor Lake and some Intel Arc GPU. As I said before - I'm not very practical when it comes to computers!
