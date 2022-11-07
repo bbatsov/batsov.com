@@ -68,6 +68,8 @@ let (--) = range
 
 1 -- 10
 - : int list = [1; 2; 3; 4; 5; 6; 7; 8; 9]
+
+(* you can also consider using the names --> and --< for inclusive and exclusive ranges *)
 ```
 
 The above implementations are super basic and have a few quirks (e.g. the second
