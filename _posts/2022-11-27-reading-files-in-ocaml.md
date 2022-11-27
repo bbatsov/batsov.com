@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Reading Files in OCaml
 date: 2022-11-27 09:52 +0200
 tags:
