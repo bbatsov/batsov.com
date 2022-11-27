@@ -5,10 +5,9 @@ tags:
 - Meta
 ---
 
-Today I've noticed that I've written 36 articles to date here, which
-beats my annual record of 34 articles from 2011. I definitely didn't see this
-coming, especially given how tough the year has been on me on multiple
-levels.
+Today I've noticed that I've written 36 articles to date here, which beats my
+previous annual record of 34 articles from 2011. I definitely didn't see this
+coming, especially given how tough the year has been for me on multiple levels.
 
 A few years ago (think) was stagnant (I wrote 0 articles in both 2016 and 2017)
 and when I launched [Meta Redux](https://metaredux.com) in 2018 I thought this
