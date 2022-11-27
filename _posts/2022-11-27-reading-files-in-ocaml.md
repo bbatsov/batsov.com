@@ -109,7 +109,7 @@ importantly, the code is now more reliable as noted by Daniel Bünzli:[^2]
 You can also use `In_channel.input_line` to read file contents line by line and
 avoid excessive memory allocation. I'm still missing something like Clojure's
 `line-seq` that create a lazy seq from which you can obtain the file lines, but
-I guess this should be doable in OCaml one way or another.
+I guess this should be doable in OCaml one way or another.[^3]
 
 I encourage everyone to peruse the [documentation of
 `In_channel`](https://v2.ocaml.org/api/In_channel.html) to learn more about the
@@ -126,3 +126,4 @@ That's all I have for you today. Keep hacking!
 
 [^1]: <https://discuss.ocaml.org/t/ocaml-compiler-development-newsletter-issue-3-june-september-2021/8598#channels-in-the-standard-library-2>
 [^2]: <https://discuss.ocaml.org/t/how-do-you-read-the-lines-of-a-text-file/8834/8>
+[^3]: After writing the article I've noticed that there's a `read_lines_seq` function in the [Containers](https://github.com/c-cube/ocaml-containers/blob/master/src/core/CCIO.mli) library.
