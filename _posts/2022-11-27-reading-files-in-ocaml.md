@@ -30,16 +30,22 @@ In my beloved Clojure the situation is similar:
 ;; process lines one at a time
 (use 'clojure.java.io)
 
-(with-open [rdr (reader "/tmp/test.txt")]
+(with-open [rdr (reader filename)]
   (doseq [line (line-seq rdr)]
     (println line)))
 ```
 
-I hope you get the idea.
+Basically there are three common operations when
+dealing with text files:
 
-When I had to play with files for the first time with OCaml I did some
-digging around and I noticed that many people were either rolling
-out their own `read_lines` function or using Jane Street's `Base` library.
+- reading the whole contents as a single string
+- reading the whole contents of a collection of lines (often that's just a slight variation of the previous operation)
+- reading and processing lines one by one (useful when dealing with large files)
+
+When I had to play with files in OCaml for the first time I did some digging
+around and I noticed that many people were either rolling out their own
+`read_lines` function based on the built-in `input_line` function or using Jane
+Street's `Base` library.
 
 ``` ocaml
 (* Using Base *)
@@ -102,10 +108,12 @@ importantly, the code is now more reliable as noted by Daniel Bünzli:[^2]
 You can also use `In_channel.input_line` to read file contents line by line and
 avoid excessive memory allocation. I'm still missing something like Clojure's
 `line-seq` that create a lazy seq from which you can obtain the file lines, but
-I guess this should be doable in OCaml one way or another.  I encourage everyone
-to peruse the [documentation of
+I guess this should be doable in OCaml one way or another.
+
+I encourage everyone to peruse the [documentation of
 `In_channel`](https://v2.ocaml.org/api/In_channel.html) to learn more about the
-functions it offers and the advantages of using it over the legacy `input_line` function.
+functions it offers and the advantages of using it over the legacy `input_line`
+function.
 
 I really wish that someone would update [OCaml's page on file
 manipulation](https://ocaml.org/docs/file-manipulation) to include coverage of
