@@ -50,7 +50,8 @@ Street's `Base` library.
 ``` ocaml
 (* Using Base *)
 open Core.Std
-let r file = In_channel.read_lines file
+let contents = In_channel.read_all file
+let lines = In_channel.read_lines file
 
 (* homemade read_lines that gathers all lines in a list *)
 let read_lines name : string list =
