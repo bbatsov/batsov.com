@@ -63,7 +63,7 @@ let read_lines name : string list =
     | None -> close_in ic; List.rev acc in
   loop []
 
-lines = read_lines filename
+let lines = read_lines filename
 
 (* homemade read_lines that processes each line *)
 let read_lines file process =
@@ -75,7 +75,7 @@ let read_lines file process =
        read_line ();
 in read_line ()
 
-read_lines some_file print_endline
+read_lines filename print_endline
 ```
 
 Obviously, this gets the job done, but I was quite surprised such basic
