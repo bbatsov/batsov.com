@@ -111,7 +111,25 @@ avoid excessive memory allocation. I'm still missing something like Clojure's
 `line-seq` that create a lazy seq from which you can obtain the file lines, but
 I guess this should be doable in OCaml one way or another.[^3]
 
-I encourage everyone to peruse the [documentation of
+One interesting library that I've discovered was [Iter](https://github.com/c-cube/iter/) and it particular its module [Iter.IO](https://c-cube.github.io/iter/dev/iter/Iter/IO/index.html). It provides a basic interface to manipulate files as iterator of chunks/lines. The iterators take care of opening and closing files properly; every time one iterates over an iterator, the file is opened/closed again. Here's are a few examples from the library's documentation:
+
+``` ocaml
+(* Example: copy a file "a" into file "b", removing blank lines: *)
+Iterator.(IO.lines_of "a" |> filter (fun l -> l <> "") |> IO.write_lines "b")
+
+(* By chunks of 4096 bytes: *)
+Iterator.IO.(chunks_of ~size:4096 "a" |> write_to "b")
+
+(* Read the lines of a file into a list: *)
+Iterator.IO.lines "a" |> Iterator.to_list
+```
+
+Cool stuff! I'll make sure to explore further at some point.
+
+Perhaps the takeaway for you today is to use libraries like `Base` and
+`Containers` instead of relying solely on the standard library, perhaps it's
+not. I'll leave that for you to decide. If you decide to stick with the standard
+library - I encourage you to peruse the [documentation of
 `In_channel`](https://v2.ocaml.org/api/In_channel.html) to learn more about the
 functions it offers and the advantages of using it over the legacy `input_line`
 function.
