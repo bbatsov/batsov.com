@@ -145,3 +145,5 @@ That's all I have for you today. Keep hacking!
 [^1]: <https://discuss.ocaml.org/t/ocaml-compiler-development-newsletter-issue-3-june-september-2021/8598#channels-in-the-standard-library-2>
 [^2]: <https://discuss.ocaml.org/t/how-do-you-read-the-lines-of-a-text-file/8834/8>
 [^3]: After writing the article I've noticed that there's a `read_lines_seq` function in the [Containers](https://github.com/c-cube/ocaml-containers/blob/master/src/core/CCIO.mli) library.
+
+**Update:** The article generated a nice [discussion on Reddit](https://www.reddit.com/r/ocaml/comments/z6ws71/reading_files_in_ocaml/) that you may want to peruse.
