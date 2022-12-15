@@ -1,6 +1,6 @@
 ---
 title: 'Back to Android: My Take on the Pixel 6A'
-date: 2022-12-15 10:42 +0200
+date: 2022-12-15 9:42 +0200
 tags:
 - Android
 - Hardware
