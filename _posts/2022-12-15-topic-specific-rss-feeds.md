@@ -12,7 +12,7 @@ Someone complained earlier today that my [Pixel 6A article]({% post_url 2022-12-
 - [Clojure](/feeds/Clojure.xml)
 - [Ruby](/feeds/Ruby.xml)
 - [OCaml](/feeds/OCaml.xml)
-- [Meta](/feels/Meta.xml) (much of my essays and random articles go under this tag)
+- [Meta](/feeds/Meta.xml) (much of my essays and random articles go under this tag)
 
 I even wrote an article a while ago about [how to setup multiple feeds with Jekyll]({% post_url 2021-11-13-atom-feeds-in-jekyll-redux %}).
 
