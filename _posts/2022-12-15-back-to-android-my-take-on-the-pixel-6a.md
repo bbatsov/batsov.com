@@ -120,4 +120,4 @@ In the end of the day, the grip that Apple has on me is weaker than it has been 
 
 **P.S.** Switching from expensive "flagships" to a cheap mid-range phone has one more "feature" - you no longer worry about breaking/scratching/losing your phone. We already have plenty of things to worry about in life, so reducing them by one is not a bad thing.
 
-[^1]: Even though I was mostly an iOS user in recent years, I kept sync all my photos with Google Photos and Dropbox to be on the safe side. When I got a Windows PC I also synced them with OneDrive for good measure. You can never have enough backups!
+[^1]: Even though I was mostly an iOS user in recent years, I kept syncing all my photos with Google Photos and Dropbox to be on the safe side. When I got a Windows PC I also synced them with OneDrive for good measure. You can never have enough backups!
