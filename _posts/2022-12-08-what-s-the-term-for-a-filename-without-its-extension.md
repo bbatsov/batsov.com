@@ -25,8 +25,16 @@ So what's the term we're looking for? Turns out it's `stem` and it's present in 
 - [Python](https://docs.python.org/3/library/pathlib.html#pathlib.PurePath.stem)
 - [Rust](https://docs.rs/pathmut/latest/pathmut/get/fn.stem.html)
 
-If I had to guess - probably it originated with C++. If someone knows the origin
-of the `stem` terminology, please do share! At any rate - I kind of like it and
-I'll probably use `stem` or the more descriptive `file_stem` going forward.
+Why `stem`? While I can't be sure I'd say it's either a nod to the `tree` terminology
+that's pretty pervasive when we're talking about directories, or a nod to [linguistics](https://en.wikipedia.org/wiki/Word_stem):
+
+> In linguistics, a word stem is a part of a word responsible for its lexical
+> meaning. The term is used with slightly different meanings depending on the
+> morphology of the language in question.
+
+If I had to guess - probably the term originated with C++, given it's the oldest
+language I could find that's using it. If someone knows the origin of the `stem`
+terminology, please do share! At any rate - I kind of like it and I'll probably
+use `stem` or the more descriptive `file_stem` going forward.
 
 That's all I have for you today. Keep hacking!
