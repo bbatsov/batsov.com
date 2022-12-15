@@ -62,7 +62,7 @@ definitely takes much better pictures than my ancient iPhone.
 
 I'm pretty happy with having a fingerprint sensor again. A lot of people say
 it's slow, but this wasn't my experience with it. COVID really taught me a thing
-or two about the shortcomings of Face ID. Still, I have to admit that Face ID is not without it's benefits, especially now that it's winter here and I have to wear gloves often.
+or two about the shortcomings of Face ID. Still, I have to admit that Face ID is not without its benefits, especially now that it's winter here and I have to wear gloves often.
 
 Did I mention that the phone uses USB-C instead of the damn lightning port? It's not
 like I don't have a dozen lightning chargers at this point, but I'm pretty glad to
