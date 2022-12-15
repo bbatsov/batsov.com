@@ -118,4 +118,6 @@ For something with such outstanding value and quality I'm really surprised that 
 
 In the end of the day, the grip that Apple has on me is weaker than it has been in the past decade. Now I'm down to one MacBook Air and that's it. Choices are hard and often involve making some compromises, but I prefer having choices. And as a constant learner I like breaking out of my comfort zone every now and then and doing something different/learning something new. Let's see where this Android adventure will take me!
 
+**P.S.** Switching from expensive "flagships" to a cheap mid-range phone has one more "feature" - you no longer worry about breaking/scratching/losing your phone. We already have plenty of things to worry about in life, so reducing them by one is not a bad thing.
+
 [^1]: Even though I was mostly an iOS user in recent years, I kept sync all my photos with Google Photos and Dropbox to be on the safe side. When I got a Windows PC I also synced them with OneDrive for good measure. You can never have enough backups!
