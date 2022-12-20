@@ -66,6 +66,15 @@ Twitter is the only social media that I like and use frequently. It's a great pl
 
 While my DMs there are open, I generally prefer emails over Twitter DMs. For me Twitter is all about public conversations.
 
+### Mastodon
+
+Lately a lot of people of people I know have quit Twitter and switched to
+[Mastodon](https://mastodon.social/). This finally forced me to check out
+Mastodon myself and after some initial period of discovery & confusion I've
+settled on [Hachyderm](https://hachyderm.io) as my (primary instance). In short -
+I love the name and the mission. My handle there is
+[bbatsov@hachyderm.io](https://hachyderm.io/@bbatsov).
+
 ### Blog Comments
 
 For reasons outlined [here]({% post_url 2021-11-02-blog-comments-are-dead %}) I've removed comments from this blog.
