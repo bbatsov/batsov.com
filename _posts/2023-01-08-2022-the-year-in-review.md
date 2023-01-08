@@ -50,7 +50,8 @@ I guess old habits are hard to change. Or perhaps that the perfect opportunity f
 COVID seems to be in the rear-view mirror these days and life has mostly
 returned to "normal". I had to opportunity to travel a lot in 2022, I've met
 some of my colleagues for the first time since 2019 and I've seen again movie
-theaters full of people. I also attended one in-person conference. That felt good.
+theaters full of people. I've spent a lot more time with my family and
+friends. I also attended one in-person conference. That felt good.
 
 I can only hope the pandemic is behind us for good.
 
