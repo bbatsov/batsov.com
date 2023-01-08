@@ -37,6 +37,12 @@ Classic me.
 
 I read a lot fewer books than usual. Perhaps starting to re-read "The Wheel of Time" was a horrible idea indeed.
 
+### Twitter
+
+My favorite social network has been in free fall after getting acquired by Elon Musk. A lot of people jumped ship already, but I'm still hoping that the situation there will improve with time. [I'm on Mastodon]({% post_url 2022-12-20-bozhidar-is-on-mastodon %}) these days as well, but I still enjoy using Twitter much more.
+
+I guess old habits are hard to change. Or perhaps that the perfect opportunity for me to stop using such social networks completely and remove a huge time sink from my life. Time will tell.
+
 ## The Good Stuff
 
 ### Return to (Mostly) Normal Life
