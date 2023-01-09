@@ -41,7 +41,7 @@ I read a lot fewer books than usual. Perhaps starting to re-read "The Wheel of T
 
 My favorite social network has been in free fall after getting acquired by Elon Musk. A lot of people jumped ship already, but I'm still hoping that the situation there will improve with time. [I'm on Mastodon]({% post_url 2022-12-20-bozhidar-is-on-mastodon %}) these days as well, but I still enjoy using Twitter much more.
 
-I guess old habits are hard to change. Or perhaps that the perfect opportunity for me to stop using such social networks completely and remove a huge time sink from my life. Time will tell.
+I guess old habits are hard to change. Or perhaps that's the perfect opportunity for me to stop using such social networks completely and remove a huge time sink from my life.[^1] Time will tell.
 
 ## The Good Stuff
 
@@ -65,7 +65,7 @@ general. Wine certainly grows on me more and more with each passing year.
 
 It was a relatively good year for all of my projects. A few highlights:
 
-- nREPL made it to 1.0
+- [nREPL made it to 1.0](https://metaredux.com/posts/2022/08/25/nrepl-1-0.html)
 - CIDER and RuboCop turned 10
 
 I can say a lot more on the topic, but I won't. I'm still here and I'm still very motivated
@@ -128,4 +128,8 @@ Watching "Ted Lasso" certainly wasn't cheap.
 And that's a wrap. Right now I'm not particularly inspired to write, but knowing me probably I'll revisit this post a few times
 over the new next couple of days and extend it a bit.
 
+It's funny how strong the ["recency bias"](https://en.wikipedia.org/wiki/Recency_bias) is  - many of the things I've mentioned here happened in the final months of 2022 and I can barely remember things from its first half.
+
 I hope you've had a great 2022 and that 2023 will be even better for you!
+
+[^1]: I've been spending a lot more time on social media first because of COVID and afterwards because of the war. I don't like this.
