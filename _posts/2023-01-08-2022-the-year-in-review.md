@@ -92,16 +92,16 @@ have more wallets than I'll likely need in my lifetime. And a long shopping list
 for watches. Fortunately their relatively high prices prevent me from making
 spontaneous purchases.
 
-Currently my primary wallet is the legendary Bellroy Slim Sleeve (which I
-totally love) and I'm sporting on my wrist a Tissot PRX Powermatic 80. While the
+Currently my primary wallet is the legendary [Bellroy Slim Sleeve](https://bellroy.com/products/slim-sleeve-wallet) (which I
+totally love) and I'm sporting on my wrist a [Tissot PRX Powermatic 80](https://www.tissotwatches.com/en-en/t1374071104100.html). While the
 Tissot PRX is nothing fancy, the brand has always had a special place in my
 heart for historical reasons. Apart from that - you'll be hard-pressed to find
 another watch of that quality for 650 EUR.
 
 I hope that in 2023 I'll add a couple of other watches to my modest collection. My favorites so far are:
 
-- Junghans Max Bill 34 mm (manual)
-- NOMOS Tangente 35 mm (manual)
+- [Junghans Max Bill 34 mm](https://www.junghans.de/en/collection/watches/junghans-max-bill/max-bill-handaufzug/27370002?c=26) (manual)
+- [NOMOS Tangente 35 mm](https://nomos-glashuette.com/en/tangente/tangente-139) (manual)
 
 I totally love the German Bauhaus-inspired designs! I also find it pretty charming to wind your watch
 manually every day. (plus manual calibers are cheaper and slimmer than automatic calibers most of the time)
