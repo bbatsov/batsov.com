@@ -15,7 +15,7 @@ nicknames are also a reflection of the spirit of a community or they are just a
 side-effect of how easy it's to derive something from the name a programming
 language.
 
-But what about OCaml programmers?
+But what about OCaml programmers? (O)Camlers? (O)Camlists? (O)Camlians? (O)Camlurians? Caml Riders?
 
 I've been wondering about this in the background of my mind ever
 since I got interested in OCaml last year. I finally decided to do
