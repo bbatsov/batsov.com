@@ -5,6 +5,7 @@ date: 2021-11-02 10:19 +0200
 tags:
 - Apple
 - MacBook
+- Hardware
 ---
 
 I wonder how many people remember the [12-inch MacBook](https://en.wikipedia.org/wiki/MacBook_(2015%E2%80%932019)) that Apple introduced to much
