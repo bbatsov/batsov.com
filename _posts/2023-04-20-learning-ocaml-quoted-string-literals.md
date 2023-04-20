@@ -88,6 +88,21 @@ And because the delimiters are so flexible you don't really have to worry about
 content that uses `{| |}` internally - after all you can easily change this to
 whatever you want.
 
+One more thing. Quoted strings `{|...|}` can be combined with [extension
+nodes](https://v2.ocaml.org/manual/extensionnodes.html#s:extension-nodes) to
+embed foreign syntax fragments. Those fragments can be interpreted by a
+preprocessor and turned into OCaml code without requiring escaping quotes. A
+syntax shortcut is available for them:
+
+``` ocaml
+{%%foo|...|}               === [%%foo{|...|}]
+let x = {%foo|...|}        === let x = [%foo{|...|}]
+let y = {%foo bar|...|bar} === let y = [%foo{bar|...|bar}]
+```
+
+For instance, you can use `{%sql|...|}` to represent arbitrary SQL statements –
+assuming you have a `ppx`-rewriter that recognizes the `%sql` extension.
+
 I have to say I think it's a bit funny that OCaml's quoted strings are called
 "quoted strings". It's not like double-quoted strings (think `"string"`) are
 unquoted, right? Pretty sure this name doesn't help with the discoverability of
