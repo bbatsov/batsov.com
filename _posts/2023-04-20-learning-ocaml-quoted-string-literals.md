@@ -19,7 +19,7 @@ val superscript_plus : string = "⁺"
 
 Nothing really surprising here, right? But then there are also what OCaml calls
 [quoted string
-literals](https://v2.ocaml.org/manual/lex.html#sss:stringliterals):
+literals](https://v2.ocaml.org/manual/lex.html#sss:stringliterals) (a.k.a. "quoted strings"):
 
 ``` ocaml
 let quoted_greeting = {|"Hello, World!"|}
