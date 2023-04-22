@@ -130,7 +130,7 @@ let y = {%foo bar|...|bar} === let y = [%foo{bar|...|bar}]
 {% endraw %}
 ```
 
-For instance, you can use `{%sql|...|}` to represent arbitrary SQL statements –
+For instance, you can use `{% raw %}{%sql|...|}{% endraw %}` to represent arbitrary SQL statements –
 assuming you have a `ppx`-rewriter that recognizes the `%sql` extension.
 
 I have to say I think it's a bit funny that OCaml's quoted strings are called
