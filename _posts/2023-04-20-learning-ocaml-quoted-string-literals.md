@@ -88,6 +88,34 @@ And because the delimiters are so flexible you don't really have to worry about
 content that uses `{| |}` internally - after all you can easily change this to
 whatever you want.
 
+``` ocaml
+let nested = {xoxo|hello {|world|}|xoxo};;
+val nested : string = "hello {|world|}"
+```
+
+Another good use-case for quoted strings are regular expressions.[^1] In regular
+expressions you will often use backslash characters; it's easier to use a quoted
+string literal `{|...|}` to avoid having to escape backslashes. For example, the
+following expression:
+
+``` ocaml
+let r = Str.regexp {|hello \([A-Za-z]+\)|} in
+     Str.replace_first r {|\1|} "hello world"
+```
+
+returns the string "world".
+
+If you want a regular expression that matches a literal backslash character, you need to double it: `Str.regexp {|\\|}`.
+
+If we use regular string literals ("..."), we will have to escape backslashes, which makes the regular expressions a bit harder the read:
+
+``` ocaml
+let r = Str.regexp "hello \\([A-Za-z]+\\)" in
+     Str.replace_first r "\\1" "hello world"
+```
+
+And the regular expression for matching a backslash becomes a quadruple backslash: `Str.regexp "\\\\"`. Pretty ugly, right?
+
 One more thing. Quoted strings `{|...|}` can be combined with [extension
 nodes](https://v2.ocaml.org/manual/extensionnodes.html#s:extension-nodes) to
 embed foreign syntax fragments. Those fragments can be interpreted by a
@@ -111,3 +139,5 @@ this useful feature. Oh, well - naming is hard!
 That's all I have for you today. Please, share in the comments whether you use
 quoted strings and what are some of your favorite use-cases for them. Keep
 hacking!
+
+[^1]: The examples here use the built-in [Str](https://v2.ocaml.org/api/Str.html) library.
