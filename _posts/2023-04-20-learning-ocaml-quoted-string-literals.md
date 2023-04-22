@@ -123,9 +123,11 @@ preprocessor and turned into OCaml code without requiring escaping quotes. A
 syntax shortcut is available for them:
 
 ``` ocaml
+{% raw %}
 {%%foo|...|}               === [%%foo{|...|}]
 let x = {%foo|...|}        === let x = [%foo{|...|}]
 let y = {%foo bar|...|bar} === let y = [%foo{bar|...|bar}]
+{% endraw %}
 ```
 
 For instance, you can use `{%sql|...|}` to represent arbitrary SQL statements –
