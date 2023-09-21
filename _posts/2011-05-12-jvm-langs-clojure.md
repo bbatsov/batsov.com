@@ -910,7 +910,7 @@ Luckily there's no lack of good build tools that one can use with Clojure.
    * ["Practical Clojure"](http://www.apress.com/9781430272311)
    * ["The Joy of Clojure"](http://joyofclojure.com/)
 * Screencasts & Video lectures
-   * ["Clojure's channel"](http://clojure.blip.tv/)
+   * ["Clojure's YouTube channel"](https://www.youtube.com/user/clojuretv)
 * Websites & Blogs
    * [Official website](http://blog.fogus.me/)
    * [Disclojure](http://disclojure.org/) - a clojure news aggregator
