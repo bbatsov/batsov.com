@@ -1,6 +1,7 @@
 ---
 title: 'Fastmail: Year Two'
 date: 2023-12-22 16:41 +0200
+tags:
 - Fastmail
 - Email
 ---
