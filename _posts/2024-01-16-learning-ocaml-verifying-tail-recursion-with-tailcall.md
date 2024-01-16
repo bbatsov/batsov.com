@@ -9,7 +9,7 @@ tags:
 How can you be sure that an OCaml function you wrote is actually tail-recursive?
 You can certainly compile the code and look at the generated assembly code, but that'd be quite the overkill, given there is a much simpler way to do this.
 
-OCaml 4.03 introduced the `@tailcall` annotation which will trigger a compiler warning if it's not placed at an actual tail-call.[^1] It should be used like this:
+OCaml 4.03 introduced the `@tailcall` [attribute](https://v2.ocaml.org/manual/attributes.html) which will trigger a compiler warning if it's not placed at an actual tail-call.[^1] It should be used like this:
 
 > (f [@tailcall]) x y warns if f x y is not a tail-call
 
