@@ -30,6 +30,8 @@ Not much to report here - again things have changed much since last year. Same o
 
 The highlight of the year for me were a couple of vacation trips to Spain and France and a couple of team trips. I finally made it to Burgundy, which is quite the achievement for any wine lover!
 
+The political situation in Bulgaria remains very unstable after the invasion of Ukraine, but it was a bit better in the second part of the year. Our new government re-affirmed the pro-EU orientation of the country, passed some long overdue reforms and provided a bit of military aid to Ukraine. And in 2023 we finally demolished the monument of Soviet Occupational Army in downtown Sofia. In the final days of 2023 Bulgaria was finally admitted in the Schengen space (albeit partially), effective 31st of March, 2024. There are still a lot of problems, but there's always some hope for the future.
+
 ## Everything Else
 
 - I've stopped buying wallets, after getting [The Finnigan](https://www.lostdutchmanleather.com/products/the-finnigan) by Lost Dutchman Leather. I like it so much, that I've decided my quest for the perfect slim wallet is finally over.
@@ -38,6 +40,16 @@ The highlight of the year for me were a couple of vacation trips to Spain and Fr
 - I didn't buy pretty much any new gadgets this year, so I'm pretty proud of myself in that regard.
 - One year later I can say I'm quite pleased with my Apple TV box, although the difference between it and Google TV is fairly slim.
 - The only truly memorable TV show for me this year was "The Bear". I'd say this was a pretty bad year for good TV and movies. That being sad I did waste a lot of time on "The Last Kingdom" and "Vikings". I love historical dramas and both started pretty strong, but sadly ran out of gas fairly quickly. I didn't even bother to watch "Vikings" until the end.
+
+## Lessons Learned
+
+> We are what we repeatedly do... therefore excellence is not an act, but a habit.[^1]
+>
+> -- Will Durant
+
+We are what we repeatedly do... Not exactly something new I learned in 2023, but definitely something I was often reminded about.
+
+Also - I have a very obsessive personally and once I set my mind on something I usually go all-in. That's why people like me should have fewer hobbies, as they often turn into some manias. Oh, well...
 
 ## Goals for 2024
 
@@ -51,3 +63,5 @@ Right now I'm not particularly inspired to write, but knowing me probably I'll r
 over the new next couple of days and extend it a bit. Or not.
 
 I hope you've had a great 2023 and that 2024 will be even better for you!
+
+[^1]: See <https://dailystoic.com/we-are-what-we-repeatedly-do/>.
