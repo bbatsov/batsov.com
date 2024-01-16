@@ -25,11 +25,10 @@ let rec fact2 x =
   if x <= 1 then 1 else x * (fact2 [@tailcall]) (x - 1)
 ```
 
-If you save the code above in a file named `tailcall.ml` you can now pass it
-to `ocaml`:
+Save the code above in a file named `tailcall.ml` and compile it with `ocamlc`:
 
 ``` shellsession
-ocaml tailcall.ml
+$ ocamlc tailcall.ml
 File "./tailcall.ml", line 5, characters 28-55:
 5 |   if x <= 1 then 1 else x * (fact2 [@tailcall]) (x - 1)
                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
