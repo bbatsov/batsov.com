@@ -8,6 +8,8 @@ tags:
 Another year is behind us and I guess it's time to write the
 obligatory year in review post about it.
 
+**Note:** Here I'll focus on the personal side of things and won't go into details about my OSS work. I plan to write a separate summary article about it on "Meta Redux".
+
 ## The Bad Stuff
 
 The bad stuff hasn't really changed much from [last year]({% post_url 2023-01-08-2022-the-year-in-review %}):
