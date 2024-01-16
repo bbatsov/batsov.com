@@ -1,5 +1,4 @@
 ---
-layout: post
 title: '2023: The Year in Review'
 date: 2024-01-16 10:43 +0200
 tags:
