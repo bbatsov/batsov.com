@@ -15,7 +15,7 @@ obligatory year in review post about it.
 The bad stuff hasn't really changed much from [last year]({% post_url 2023-01-08-2022-the-year-in-review %}):
 
 - The war in Ukraine still rages on and the end is nowhere in sight. It also seems that the resolve to support Ukraine is waivering across the world, which is quite disappointing. At least we finally managed to spend some time with my wife's family who came to visit us in Bulgaria during the summer.
-- The global economic downturn continues as well. The IT sectors has been heavily affected, including the company that I work for. It has been the hardest year on the job in a very long time.
+- The global economic downturn continues as well. The IT sector has been heavily affected, including the company that I work for. It has been the hardest year on the job in a very long time.
 - Once again I didn't do much (anything?) on the self-development front. Shocker, right?
 - "The Wheel of Time" ruined another year of reading for me. I got to the 10th book, so at least the end is in sight.
 - My attempts to replace Twitter/X have failed and for now I've resigned myself to the idea that it doesn't have a real alternative.
