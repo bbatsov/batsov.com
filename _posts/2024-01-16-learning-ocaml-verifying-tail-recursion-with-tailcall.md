@@ -38,4 +38,6 @@ Warning 51 [wrong-tailcall-expectation]: expected tailcall
 As you can see the compiler properly detected that `fact2` is not tail-recursive, as the tail-call is `*` instead of `fact2`.
 Small, but handy feature that helps you ensure your code works the way you intended it to work.
 
+That's all I have for you today. Keep hacking!
+
 [^1]: Basically the tail-call is the call that triggers the recursion in the function and for a function to be tail-recursive the last call has to be an invocation of the recursive function itself.
