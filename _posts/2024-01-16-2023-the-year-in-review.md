@@ -22,7 +22,12 @@ The bad stuff hasn't really changed much from [last year]({% post_url 2023-01-08
 
 On top of this I really lacked inspiration to write, so it was a pretty [bad year for blogging]({% post_url 2023-12-23-a-bad-year-for-blogging %}).
 
-I hoped that I'd do more conference appearances this year, but ended up doing just one.
+I hoped that I'd do more conference talks/trips this year, but ended up doing
+just one (RubyDay in Verona). I had a ticket for the final edition of "Strange
+Loop", but the time of the conference was quite inconvenient for me, so at the end of
+the day I've decided to skip it. The prospects for massive changes on this front
+in 2024 are modest, but I'll try to attend a few more conferences, starting with
+[Balkan Ruby](https://balkanruby.com/) in April.
 
 ## The Good Stuff
 
