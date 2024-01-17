@@ -85,10 +85,14 @@ Haven't figured them out yet.
 
 ## Epilogue
 
+> Not great, not terrible.
+
 And that's a wrap. One less item in my person to-do list!
 
-Right now I'm not particularly inspired to write, but knowing me probably I'll revisit this post a few times
-over the new next couple of days and extend it a bit. Or not.
+I think the words "not great, not terrible" perfectly describe 2023 for me. I
+haven't had a truly great year since 2019 and I often dreaming about the
+"boring" years without political turmoil, major wars, pandemics and recessions.
+Now I finally understand why "May you live in interesting times" is a curse.
 
 I hope you've had a great 2023 and that 2024 will be even better for you!
 
