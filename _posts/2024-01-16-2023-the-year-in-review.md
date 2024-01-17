@@ -3,6 +3,7 @@ title: '2023: The Year in Review'
 date: 2024-01-16 10:43 +0200
 tags:
 - Meta
+- Year in Review
 ---
 
 > Life can only be understood backwards; but it must be lived forwards.
@@ -35,11 +36,26 @@ in 2024 are modest, but I'll try to attend a few more conferences, starting with
 
 ## The Good Stuff
 
-Not much to report here - again things have changed much since last year. Same old on the OSS front, less wine (but still plenty) and more travel.
+Not much to report here - again things have changed much since last year. Same old on the OSS front, less wine (but still plenty) and more travel. And a bit of fun with old-school digital (think Casio) and mechanical watches.
 
-The highlight of the year for me were a couple of vacation trips to Spain and France and a couple of team trips. I finally made it to Burgundy, which is quite the achievement for any wine lover!
+The highlight of the year for me were a couple of vacation trips to Spain and
+France and a couple of team trips. I finally made it to Burgundy, which is quite
+the achievement for any wine lover!
 
-The political situation in Bulgaria remains very unstable after the invasion of Ukraine, but it was a bit better in the second part of the year. Our new government re-affirmed the pro-EU orientation of the country, passed some long overdue reforms and provided a bit of military aid to Ukraine. And in December we demolished the monument of Soviet Occupational Army in downtown Sofia, after debating what to do with it for over 30 years. In the final days of 2023 Bulgaria was finally admitted in the Schengen space (albeit partially), effective 31st of March, 2024. There are still a lot of problems, but there's always some hope for the future.
+The political situation in Bulgaria remains very unstable after the invasion of
+Ukraine by ruzzia, but it was a bit better in the second part of the year. Our
+new government is flawed in numerous ways, but it re-affirmed the pro-EU
+orientation of the country, passed some long overdue reforms and provided a bit
+of military aid to Ukraine. This certainly provided a bit of respite after what
+happened here in the second half of 2022 and early 2023.
+
+In December we demolished the infamous monument of soviet occupational army in
+downtown Sofia, after debating what to do with it for over 30 years. I hated
+this monument and what it stood for, so seeing it torn down felt pretty good. In
+the final days of 2023 Bulgaria was admitted in the Schengen space (albeit
+partially), effective 31st of March, 2024. That was another long-awaited event
+that I was quite happy about. There are still a lot of problems, but there's
+always some hope for the future.
 
 ## Everything Else
 
