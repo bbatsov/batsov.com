@@ -3,6 +3,7 @@ title: '2022: The Year in Review'
 date: 2023-01-08 16:21 +0200
 tags:
 - Meta
+- Year in Review
 ---
 
 Another year is behind us and it's time for the obligatory "year in review" blog post.

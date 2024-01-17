@@ -4,6 +4,7 @@ date: 2021-12-31 10:00 +0200
 toc: true
 tags:
 - Meta
+- Year in Review
 ---
 
 > Celebrate endings -- for they precede new beginnings.
