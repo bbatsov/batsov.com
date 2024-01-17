@@ -11,7 +11,7 @@ You can certainly compile the code and look at the generated assembly code, but 
 
 OCaml 4.03 introduced the `@tailcall` [attribute](https://v2.ocaml.org/manual/attributes.html) which will trigger a compiler warning if it's not placed at an actual tail-call.[^1] It should be used like this:
 
-> (f [@tailcall]) x y warns if f x y is not a tail-call
+> `(f [@tailcall]) x y` warns if f x y is not a tail-call
 
 Here are a couple of trivial examples to help illustrate this:
 
