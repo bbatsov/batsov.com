@@ -37,7 +37,10 @@ in 2024 are modest, but I'll try to attend a few more conferences, starting with
 
 ## The Good Stuff
 
-Not much to report here - again things have changed much since last year. Same old on the OSS front, less wine (but still plenty) and more travel. And a bit of fun with old-school digital (think Casio) and mechanical watches.
+Not much to report here - again things haven't changed much since last
+year. Same old on the OSS front, less wine (but still plenty) and more
+travel. And a bit of fun with old-school digital (think Casio) and mechanical
+watches.
 
 The highlight of the year for me were a couple of vacation trips to Spain and
 France and a couple of team trips. I finally made it to Burgundy, which is quite
