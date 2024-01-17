@@ -5,6 +5,10 @@ tags:
 - Meta
 ---
 
+> Life can only be understood backwards; but it must be lived forwards.
+>
+> -- Søren Kierkegaard
+
 Another year is behind us and I guess it's time to write the
 obligatory year in review post about it.
 
@@ -14,7 +18,7 @@ obligatory year in review post about it.
 
 The bad stuff hasn't really changed much from [last year]({% post_url 2023-01-08-2022-the-year-in-review %}):
 
-- The war in Ukraine still rages on and the end is nowhere in sight. It also seems that the resolve to support Ukraine is waivering across the world, which is quite disappointing. At least we finally managed to spend some time with my wife's family who came to visit us in Bulgaria during the summer.
+- The war in Ukraine still rages on and the end is nowhere in sight. It also seems that the resolve to support Ukraine is wavering across the world, which is quite disappointing. At least we finally managed to spend some time with my wife's family who came to visit us in Bulgaria during the summer.
 - The global economic downturn continues as well. The IT sector has been heavily affected, including the company that I work for. It has been the hardest year on the job in a very long time.
 - Once again I didn't do much (anything?) on the self-development front. Shocker, right?
 - "The Wheel of Time" ruined another year of reading for me. I got to the 10th book, so at least the end is in sight.
@@ -31,17 +35,17 @@ in 2024 are modest, but I'll try to attend a few more conferences, starting with
 
 ## The Good Stuff
 
-Not much to report here - again things have changed much since last year. Same old on the OSS front, less wine and more travel.
+Not much to report here - again things have changed much since last year. Same old on the OSS front, less wine (but still plenty) and more travel.
 
 The highlight of the year for me were a couple of vacation trips to Spain and France and a couple of team trips. I finally made it to Burgundy, which is quite the achievement for any wine lover!
 
-The political situation in Bulgaria remains very unstable after the invasion of Ukraine, but it was a bit better in the second part of the year. Our new government re-affirmed the pro-EU orientation of the country, passed some long overdue reforms and provided a bit of military aid to Ukraine. And in 2023 we finally demolished the monument of Soviet Occupational Army in downtown Sofia. In the final days of 2023 Bulgaria was finally admitted in the Schengen space (albeit partially), effective 31st of March, 2024. There are still a lot of problems, but there's always some hope for the future.
+The political situation in Bulgaria remains very unstable after the invasion of Ukraine, but it was a bit better in the second part of the year. Our new government re-affirmed the pro-EU orientation of the country, passed some long overdue reforms and provided a bit of military aid to Ukraine. And in December we demolished the monument of Soviet Occupational Army in downtown Sofia, after debating what to do with it for over 30 years. In the final days of 2023 Bulgaria was finally admitted in the Schengen space (albeit partially), effective 31st of March, 2024. There are still a lot of problems, but there's always some hope for the future.
 
 ## Everything Else
 
 - I've stopped buying wallets, after getting [The Finnigan](https://www.lostdutchmanleather.com/products/the-finnigan) by Lost Dutchman Leather. I like it so much, that I've decided my quest for the perfect slim wallet is finally over.
 - On the other hand - I did spent an unreasonable amount of time watching and reading mechanical watch reviews. And I added a couple more to my small watch collection. And several cheap vintage digital Casios, which are insanely cool! And plenty of straps! Watches are a very dangerous hobby, so I really hope I'll get bored with it quickly. At least it helped me leave the grip of smartwatches and brought a bit more calmness to my days.
-- I'm still using the Pixel 6A as my primary phone and I'm now pondering whether to stick to Android going forward or switch back to iPhone now that they have finally embraced USB-C. Overall both the Pixel and Android have exceeded my expectation.
+- I'm still using the Pixel 6A as my primary phone and I'm now pondering whether to stick to Android going forward or switch back to iPhone now that they have finally embraced USB-C. Overall both the Pixel and Android have exceeded my expectations.
 - I didn't buy pretty much any new gadgets this year, so I'm pretty proud of myself in that regard.
 - One year later I can say I'm quite pleased with my Apple TV box, although the difference between it and Google TV is fairly slim.
 - The only truly memorable TV show for me this year was "The Bear". I'd say this was a pretty bad year for good TV and movies. That being sad I did waste a lot of time on "The Last Kingdom" and "Vikings". I love historical dramas and both started pretty strong, but sadly ran out of gas fairly quickly. I didn't even bother to watch "Vikings" until the end.
@@ -55,6 +59,8 @@ The political situation in Bulgaria remains very unstable after the invasion of 
 We are what we repeatedly do... Not exactly something new I learned in 2023, but definitely something I was often reminded about.
 
 Also - I have a very obsessive personally and once I set my mind on something I usually go all-in. That's why people like me should have fewer hobbies, as they often turn into some manias. Oh, well...
+
+And finally - don't commit to reading long-winded mediocre fantasy series! Seriously!
 
 ## Goals for 2024
 
