@@ -23,7 +23,8 @@ The bad stuff hasn't really changed much from [last year]({% post_url 2023-01-08
 - The global economic downturn continues as well. The IT sector has been heavily affected, including the company that I work for. It has been the hardest year on the job in a very long time.
 - Once again I didn't do much (anything?) on the self-development front. Shocker, right?
 - "The Wheel of Time" ruined another year of reading for me. I got to the 10th book, so at least the end is in sight.
-- My attempts to replace Twitter/X have failed and for now I've resigned myself to the idea that it doesn't have a real alternative.
+- My attempts to replace Twitter/X have failed and for now I've resigned myself to the idea that it doesn't have a real alternative. That being said - I did have a lot of fun playing with Bluesky in 2023 and I hope that the platform will continue to grow and attract more users in the future.
+- I dropped the ball on learning OCaml, although I still plan to return to it at some point.
 
 On top of this I really lacked inspiration to write, so it was a pretty [bad year for blogging]({% post_url 2023-12-23-a-bad-year-for-blogging %}).
 
