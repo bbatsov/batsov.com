@@ -32,13 +32,10 @@ messages on LinkedIn (and social media in general). More details below.
 
 ### Email
 
-Feel free to contact me at `first name` at `batsov.net` or `hey.com` about anything.
+Feel free to contact me at `first name` at `batsov.com/net` about anything.
 Email is a great place for private constructive conversations. It's also a great
 option to discuss my open-source projects, if you're the type of person who avoids
 using GitHub.
-
-If you're obsessed with privacy - don't worry; I've a got ProtonMail as well! My handle there is `bbatsov` and I'm always happy to engage in a fully encrypted email
-conversation about Life, the Universe and everything else.
 
 **Note:** I can heartily recommend Fastmail to everyone looking for a great
 email service that respects your privacy and embraces email standards. Using my
@@ -60,20 +57,15 @@ My projects are spread over several GitHub accounts:
 
 Feel free to also send PRs addressing the many typos and the bad English grammar in [this blog](https://github.com/bbatsov/batsov.com). I guess it's obvious I don't really proofread my articles.
 
-### Twitter
+### X (Twitter)
 
 Twitter is the only social media that I like and use frequently. It's a great place for sharing quick feedback, shout-outs, etc.
 
 While my DMs there are open, I generally prefer emails over Twitter DMs. For me Twitter is all about public conversations.
 
-### Mastodon
+### Bluesky
 
-Lately a lot of people of people I know have quit Twitter and switched to
-[Mastodon](https://mastodon.social/). This finally forced me to check out
-Mastodon myself and after some initial period of discovery & confusion I've
-settled on [Hachyderm](https://hachyderm.io) as my (primary instance). In short -
-I love the name and the mission. My handle there is
-[bbatsov@hachyderm.io](https://hachyderm.io/@bbatsov).
+Bluesky reminds me of the early days of Twitter and I'm somewhat active there as well. You can find my Bluesky profile [here](https://bsky.app/profile/batsov.net).
 
 ### Blog Comments
 
