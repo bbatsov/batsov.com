@@ -143,7 +143,7 @@ Lisp adventure.
 #### On Twitter
 
 There are a few Twitter accounts dedicated on Emacs. I recommend you
-to follow [@emacs_knight](http://twitter.com/#!/emacs_knight)(operated
+to follow [@emacs_knight](http://twitter.com/#!/emacs_knight) (operated
 by yours truly), [@learnemacs](http://twitter.com/#!/learnemacs),
 [@EmacsRocks](http://twitter.com/#!/EmacsRocks),
 [@dotemacs](http://twitter.com/#!/dotemacs) and
@@ -186,12 +186,12 @@ moderated and in a state of total chaos and disarray. This makes it a
 bit hard to sift through all the crap there and extract only the
 really valuable bits of information. The amount of wisdom collected on
 the wiki is impressive never-the-less and every experienced Emacs
-user should browse it numerous categories for tips and tricks.
+user should browse its numerous categories for tips and tricks.
 
 Perhaps surprising for some - the Emacs Wiki is housing a huge
 collection of Emacs Lisp source files as well. I have a personal
 appeal to all the people using the wiki to house their Emacs Lisp
-projects - "For the love of God - use [GitHub](http://github.com)!".
+projects - "For the love of God, use [GitHub](http://github.com)!".
 
 #### The Emacs Manual
 
