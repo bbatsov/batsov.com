@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Revisiting Mastodon
 date: 2024-02-16 10:15 +0200
 tags:
@@ -10,7 +9,7 @@ tags:
 After my recent article on [Bluesky]({% post_url 2024-02-12-bluesky %}) something
 rather unexpected happened. I noticed a link to an interesting post on Mastodon
 and when I signed in to check it out, I was surprised to see that my feed there was pretty active.
-There were many familiar people (mostly from the Ruby and Clojure communities) and some
+There were many familiar people (mostly from the Emacs, Clojure and Ruby communities) and some
 pretty nice conversations going on. That got me thinking if I should revisit it.
 
 One of the shortcomings of Bluesky (for me, at least) is that relatively few people that I know are using it.
