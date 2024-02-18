@@ -129,10 +129,10 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "Emacs Redux"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-blog"
       url: "https://emacsredux.com"
     - label: "Meta Redux"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-blog"
       url: "https://metaredux.com"
 
 # Site Footer
