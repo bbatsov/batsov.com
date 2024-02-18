@@ -114,7 +114,7 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/bbatsov"
     - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon-square"
+      icon: "fab fa-fw fa-mastodon"
       url: "https://hachyderm.io/@bbatsov"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
@@ -141,6 +141,9 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/bbatsov"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://hachyderm.io/@bbatsov"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
