@@ -24,7 +24,7 @@ $ bundle update --bundler
 
 Pretty meta, right?
 
-I needed to do this out earlier today, when I noticed that Bundler 1.x is not
+I needed to do this earlier today, when I noticed that Bundler 1.x is not
 compatible with Ruby 3. It took me a few minutes to recall the right way to update
 the required version of Bundler, so I thought to write this short article for
 posterity's sake.
