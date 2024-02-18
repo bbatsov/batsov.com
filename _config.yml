@@ -127,7 +127,7 @@ author:
       url: "https://www.linkedin.com/in/bbatsov/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/bbatsov"
+      # url: "https://instagram.com/"
     - label: "Emacs Redux"
       icon: "fas fa-fw fa-link"
       url: "https://emacsredux.com"
