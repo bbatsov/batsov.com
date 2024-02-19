@@ -44,6 +44,10 @@ This page is simply a collection of random quotes that I find inspirational.
 >
 > -- Roland Garros
 
+> No man ever steps in the same river twice, for it's not the same river and he's not the same man.
+>
+> -- Heraclitus
+
 ## Programming
 
 > The tools we use have a profound (and devious) influence on our thinking habits, and, therefore, on our thinking abilities.
