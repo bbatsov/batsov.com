@@ -54,6 +54,7 @@ My projects are spread over several GitHub accounts:
 * [RuboCop HQ](https://github.com/rubocop)
 * [Clojure Emacs](https://github.com/clojure-emacs)
 * [nREPL](https://github.com/nrepl)
+* [Flycheck](https://github.com/flycheck)
 
 Feel free to also send PRs addressing the many typos and the bad English grammar in [this blog](https://github.com/bbatsov/batsov.com). I guess it's obvious I don't really proofread my articles.
 
