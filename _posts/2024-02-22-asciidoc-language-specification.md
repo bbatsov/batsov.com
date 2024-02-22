@@ -1,5 +1,4 @@
 ---
-layout: post
 title: AsciiDoc Language Specification
 date: 2024-02-22 14:14 +0100
 tags:
