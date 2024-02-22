@@ -12,7 +12,7 @@ quite notable ones:
 
 1. In 2019 work started towards an official specification for the AsciiDoc
    language.[^1] It's nice to see that this happened with the backing of Stuart
-   Rackham, the original author of AsciiDoc, and with the involvement of the author of AsciiDoctor Dan Allen.
+   Rackham, the original author of AsciiDoc, and under the leadership of the co-leads of AsciiDoctor Dan Allen and Sarah White.
 2. AsciiDoc is now an Eclispse Foundation project.
 3. The original AsciiDoc(.py) site <https://asciidoc.org> has been revamped to serve as the site for the language itself (instead of the original Python implentation)
 4. The original [GitHub org](https://github.com/asciidoc) has been abandoned in
