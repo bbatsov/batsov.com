@@ -22,8 +22,8 @@ Why are those developments notable? AsciiDoc started life in 2002 as
 AsciiDoc.py, but after the original project stagnated, the Ruby implementation
 [AsciiDoctor](https://asciidoctor.org) became the most popular processor and
 eventually it kind of became the AsciiDoc standard.[^2] For many years in my
-mind AsciiDoc and AsciiDoctor were essentially the same thing. Still, it was
-never "The Standard". As noted in the specification proposal:
+mind AsciiDoc and AsciiDoctor were essentially the same thing. Still,
+AsciiDoctor was never "The Standard", at least not officially. As noted in the specification proposal:
 
 > The specification for the AsciiDoc language will include an open source
 > specification document, which defines required and optional API definitions,
@@ -44,6 +44,9 @@ never "The Standard". As noted in the specification proposal:
 > AsciiDoc documents according to a versioned specification.
 
 That's pretty important, and it's something that Markdown has not achieved yet.
+The lack of a common Markdown language standard has resulted in the creation
+of many slightly incompatible implementations (e.g. GitHub-flavoured Markdown)
+and some semi-successful standardization efforts like CommonMark.
 
 You can find the AsciiDoc language specification
 [here](https://gitlab.eclipse.org/eclipse/asciidoc-lang/asciidoc-lang). One
