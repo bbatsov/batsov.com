@@ -57,24 +57,19 @@ My projects are spread over several GitHub accounts:
 
 Feel free to also send PRs addressing the many typos and the bad English grammar in [this blog](https://github.com/bbatsov/batsov.com). I guess it's obvious I don't really proofread my articles.
 
-### X (Twitter)
+### Mastodon
 
-Twitter is the only social media that I like[^1] and use frequently. It's a great place for sharing quick feedback, shout-outs, etc.
+Mastodon is the only "social media" that I like and use frequently these days (early 2024). It's a great place for sharing random thoughts and ideas, quick feedback, shout-outs, etc.
 
-While my DMs there are open, I generally prefer emails over Twitter DMs. For me Twitter is all about public conversations.
+My Mastodon handle is [bbatsov@hachyderm.io](https://hachyderm.io/@bbatsov).
 
 ### Bluesky
 
 Bluesky reminds me of the early days of Twitter and I'm somewhat active there as well. You can find my Bluesky profile [here](https://bsky.app/profile/batsov.net).
 
-### Mastodon
+### X (Twitter)
 
-After some initial period of discovery & confusion I've
-settled on [Hachyderm](https://hachyderm.io) as my instance. In short -
-I love the name and the mission. My handle there is
-[bbatsov@hachyderm.io](https://hachyderm.io/@bbatsov).
-
-Circa 2024 I don't use Mastodon as much as X and Bluesky, but this may change down the road.
+Twitter was the only social media that I liked, before it went to sh*t. I'm still use it to some extent, but I prefer Mastodon and Bluesky over it.
 
 ### Blog Comments
 
@@ -88,5 +83,3 @@ Reddit, HackerNews, etc, I'll likely notice this and join the conversation there
 I accept most invitations to connect, but I rarely respond to any messages there.
 If you want to get my attention on LinkedIn you'll have to try really hard. Emails
 work a lot better!
-
-[^1]: Or used to like. I definitely liked it a lot more before Elon Musk took control of it.
