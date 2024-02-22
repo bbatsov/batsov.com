@@ -15,6 +15,8 @@ quite notable ones:
    Rackham, the original author of AsciiDoc, and with the involvement of the author of AsciiDoctor Dan Allen.
 2. AsciiDoc is now an Eclispse Foundation project.
 3. The original AsciiDoc(.py) site <https://asciidoc.org> has been revamped to serve as the site for the language itself (instead of the original Python implentation)
+4. The original [GitHub org](https://github.com/asciidoc) has been abandoned in
+favour of the [new Eclipse Foundation project](https://gitlab.eclipse.org/eclipse/asciidoc)
 
 Why are those developments notable? AsciiDoc started life in 2002 as
 AsciiDoc.py, but after the original project stagnated, the Ruby implementation
