@@ -1,5 +1,4 @@
 ---
-layout: post
 title: OCaml Adds `List.take` and `List.drop`
 date: 2024-02-23 08:12 +0100
 tags:
