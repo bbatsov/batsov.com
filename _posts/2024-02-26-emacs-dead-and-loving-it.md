@@ -45,7 +45,7 @@ It amuses me how many people keep chasing after shiny and new things, even if th
 Emacs has covered all of my use-cases for so long that I don't even bother to upgrade to the new releases
 right way. I'm writing this article in Emacs 28, as I didn't really have much of an incentive to upgrade to Emacs 29,
 despite it packing a lot of improvements. Even if Emacs didn't add any few features for the next decade I'd be
-a pretty happy camper. Perhaps that's a reflection of my appreciation for minimalism, perhaps I've grown wiser with age,
+a pretty happy camper.[^3] Perhaps that's a reflection of my appreciation for minimalism, perhaps I've grown wiser with age,
 but I'm no longer equating "progress" with "more".
 
 I've written [at length about the merits of Emacs]({% post_url 2021-11-16-why-emacs-redux %}) in the past, so I'm not going to repeat myself here.
@@ -73,3 +73,4 @@ Emacs is no more dead than usual and it likes it that way. M-x forever!
 
 [^1]: See <https://www.emacswiki.org/emacs/EmacsSchism>
 [^2]: See <https://survey.stackoverflow.co/2023/#section-most-popular-technologies-integrated-development-environment>
+[^3]: I also need some time to catch up with everything new from the past few years. Emacs is so dead that its users can't catch up with all the progress it makes from the grave!
