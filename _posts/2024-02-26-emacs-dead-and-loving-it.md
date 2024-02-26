@@ -14,18 +14,19 @@ as my primary editor since 2005. Back then GNU Emacs was still reeling from the
 schism with XEmacs[^1] and a lot of people felt that the project might be near
 the end of its long and storied history. I recall the Emacs development wasn't
 moving particularly fast at the time, modern text editors and IDEs
-(e.g. TextMate and Eclipse) were on the rise, and there were quite a few article
+(e.g. TextMate and Eclipse) were on the rise, and there were quite a few articles
 proclaiming the death of Emacs. Yet Emacs is still here 19 years later and some
 of the editors and IDEs that were popular in 2005 are not. This year Emacs will turn 48 years,
 which is an amazing achievement for any piece of software!
 
-Last week another [thread on Emacs's
+Last week another [Reddit thread on Emacs's
 death](https://www.reddit.com/r/emacs/comments/1avn7ox/is_emacs_dying/) created
 some ripples in the Emacs community. I didn't even read it, because it's always
 more or less the same:
 
 - Emacs is too complicated (different) for people used to "modern" editors
 - Emacs is not as popular as X, Y and Z
+- Emacs is not as fast as X, Y and Z in some context
 - Emacs is old, so it's probably (technologically) outdated
 - Lisp sucks, let's just use JavaScript everywhere
 
@@ -40,6 +41,13 @@ third-party packages](https://melpa.org) feel to me more active than ever. At a 
 when some people are ready to write off Emacs as dead yet again, I'd be more inclined to
 pronounce a "Golden Age of Emacs".
 
+It amuses me how many people keep chasing after shiny and new things, even if they don't really need them.
+Emacs has covered all of my use-cases for so long that I don't even bother to upgrade to the new releases
+right way. I'm writing this article in Emacs 28, as I didn't really have much of an incentive to upgrade to Emacs 29,
+despite it packing a lot of improvements. Even if Emacs didn't add any few features for the next decade I'd be
+a pretty happy camper. Perhaps that's a reflection of my appreciation for minimalism, perhaps I've grown wiser with age,
+but I'm no longer equating "progress" with "more".
+
 I've written [at length about the merits of Emacs]({% post_url 2021-11-16-why-emacs-redux %}) in the past, so I'm not going to repeat myself here.
 I'll just remind you about the old saying "Don't judge a book by its cover". Or by it's popularity or marketing
 campaigns for that matter. Essence is what matters, not superficial appearances.
@@ -49,13 +57,14 @@ campaigns for that matter. Essence is what matters, not superficial appearances.
 > -- The Joker (The Dark Knight)
 
 Emacs is certainly a very strange editor by modern standards. I'm guessing
-that's the main reason so many people quickly dismiss it. But it's remarkable
-resilience is an indication that's it's probably made of stronger stuff than
+that's the main reason why so many people quickly dismiss it. But its remarkable
+resilience is an indication that it's probably made of stronger stuff than
 most editors. If you want to invest into a tool that has stood the test of time
 and will probably continue to be useful 50 years down the road - your options besides
-Emacs are quite limited.
+Emacs are quite limited...
 
-It's true that Emacs was at one point one of the two most popular text editors in the world.
+It's true that Emacs was at one point one of the two most popular text editors in the world,
+but those days are long gone and there's little point in dwelling on them.
 Still, today it probably has a lot more users in absolute terms than in the 80s and early 90s.
 World domination is not a big priority for Emacs, but it may still be in the cards, given
 the average lifespan of many of its competitors.
