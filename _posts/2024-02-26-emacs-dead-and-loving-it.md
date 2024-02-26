@@ -41,6 +41,20 @@ third-party packages](https://melpa.org) feel to me more active than ever. At a 
 when some people are ready to write off Emacs as dead yet again, I'd be more inclined to
 pronounce a "Golden Age of Emacs".[^3]
 
+Why so you might ask. Here are a couple of reasons that immediately come to mind:
+
+- There are around 6,000 Emacs packages available (on the MELPA repository alone)
+- Emacs 29 has built-in support for modern technologies like LSP and TreeSitter
+- Tools like magit and org-mode are widely admired even outside Emacs, but haven't been completely emulated by any other editor
+- The core Emacs Lisp API have been extended and refined a lot in recent years (think `seq.el`, `map.el`, `subr-x.el`, `project.el`, `xref.el`, etc)
+- Emacs distros like Spacemacs and Doom Emacs have made it easier for newcomers to experience the full power of Emacs (and have enticed quite a few people from the world of `vim`)
+- The popularity of Clojure drove a lot of curious developers to Emacs, as it was the first editor to provide solid support for Clojure
+- Emacs 28 brought massive performance gains with [native compilation](https://akrl.sdf.org/gccemacs.html).
+- Emacs 29 features a pure GTK front-end (a.k.a `pgtk`). This means that Emacs 29 works natively on Wayland (and Windows 11 + WSL by association).
+- Last, but not least - Emacs 29 has [proper support for emojis](https://lars.ingebrigtsen.no/2021/10/28/emacs-emojis-a-%e2%9d%a4%ef%b8%8f-story/)!
+
+Much of this happened in the last 5 years, which is pretty amazing for a dying editors that has been rendered irrelevant but its vastly superior competitors.
+
 It amuses me how many people keep chasing after shiny and new things, even if they don't really need them.
 Emacs has covered all of my use-cases for so long that I don't even bother to upgrade to the new releases
 right way. I'm writing this article in Emacs 28, as I didn't really have much of an incentive to upgrade to Emacs 29,
