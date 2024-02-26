@@ -44,9 +44,9 @@ pronounce a "Golden Age of Emacs".[^3]
 Why so you might ask. Here are a couple of reasons that immediately come to mind:
 
 - There are around 6,000 Emacs packages available (on the MELPA repository alone)
-- Emacs 29 has built-in support for modern technologies like LSP and TreeSitter
-- Tools like magit and org-mode are widely admired even outside Emacs, but haven't been completely emulated by any other editor
-- The core Emacs Lisp API have been extended and refined a lot in recent years (think `seq.el`, `map.el`, `subr-x.el`, `project.el`, `xref.el`, etc)
+- Emacs 29 has built-in support for modern technologies like [LSP](https://www.gnu.org/software/emacs/manual/html_node/eglot/index.html) and [TreeSitter](https://www.masteringemacs.org/article/how-to-get-started-tree-sitter)
+- Tools like [magit](https://magit.vc/) and [org-mode](https://orgmode.org/) are widely admired even outside Emacs, but haven't been completely emulated by any other editor
+- The core Emacs Lisp APIs have been extended and refined a lot in recent years (think `seq.el`, `map.el`, `subr-x.el`, `project.el`, `xref.el`, etc)
 - Emacs distros like Spacemacs and Doom Emacs have made it easier for newcomers to experience the full power of Emacs (and have enticed quite a few people from the world of `vim`)
 - The popularity of Clojure drove a lot of curious developers to Emacs, as it was the first editor to provide solid support for Clojure
 - Emacs 28 brought massive performance gains with [native compilation](https://akrl.sdf.org/gccemacs.html).
