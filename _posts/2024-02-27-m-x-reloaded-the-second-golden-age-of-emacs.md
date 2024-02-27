@@ -6,7 +6,7 @@ tags:
 ---
 
 Yesterday I wrote that I think Emacs is currently experiencing its (second)
-golden age.[^1] Today I'd like to expand on this and try to analyze the
+Golden Age.[^1] Today I'd like to expand on this and try to analyze the
 reasons that lead to this.
 
 ## The Road to Success
