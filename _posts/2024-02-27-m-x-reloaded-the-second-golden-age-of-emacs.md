@@ -63,7 +63,7 @@ Sadly many Emacs packages were a total mess a few years ago. Many maintainers wo
 This made the concept of a package repository that's distributing only "tagged" releases problematic. Not to mention that `package.el` was very new and wasn't popular enough
 to encourage people to change their ways. Do you remember that many Emacs packages weren't using VCS and were distributed only on EmacsWiki? Fun times!
 
-MELPA was a true revolution was it was released - a repo that was building snapshot release packages from a ton of sources (GitHub, person code repos, EmacsWiki). It was trivial
+[MELPA](https://melpa.org) was a true revolution was it was released - a repo that was building snapshot release packages from a ton of sources (GitHub, person code repos, EmacsWiki). It was trivial
 to add a package there and it was a "one and thing" (unlike its predecessor Marmalade, when you had to upload each new release manually). You'd just submit a package recipe and MELPA will rebuild your package when needed.
 
 Today MELPA hosts a whopping 6000 (!!!) Emacs packages and its' a true pillar of our community. For context - the official GNU ELPA and NonGNU ELPA repos are home to about 650 packages. I don't know about you, but I've discovered a lot of cool packages while browsing MELPA and I can't imagine the Emacs community without it.
@@ -72,12 +72,12 @@ Today MELPA hosts a whopping 6000 (!!!) Emacs packages and its' a true pillar of
 
 Without going into much details:
 
-- org-mode
-- Magit
-- Auctex (probably the best way to author LaTeX documents)
-- SLIME (amazing Common Lisp programming environment)
-- Geiser (amazing Scheme programming environment)
-- CIDER (Clojure development that rocks)
+- [org-mode](https://orgmode.org/)
+- [Magit](https://magit.vc)
+- [Auctex](https://www.gnu.org/software/auctex/) (probably the best way to author LaTeX documents)
+- [SLIME](https://slime.common-lisp.dev/) (amazing Common Lisp programming environment)
+- [Geiser](https://github.com/emacsmirror/geiser) (amazing Scheme programming environment)
+- [CIDER](https://cider.mx) (Clojure development that rocks)
 
 What would you add to this list?
 
