@@ -115,6 +115,14 @@ Here we can highlight a few major milestones:
 
 Probably there are other extremely important achievements resulting from the actions of the head maintainers that I've forgotten about. Feel free to mention those in the comments.
 
+### People Looking for Something Different
+
+> You can never be wrong by being yourself.
+
+Given how similar most editors are today, those who are not happy with the status quo don't really have that many options. If you want an editor that's different from the mainstream and has a strong community - it's essentially a choice between Emacs and Vim.
+
+And if you want to build an editor that's uniquely tailored to your preferences in every conceivable way - it's probably Emacs.
+
 ## Closing Thoughts
 
 > Success occurs when opportunity meets preparation.
