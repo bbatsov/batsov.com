@@ -109,7 +109,7 @@ Here we can highlight a few major milestones:
 
 - Switching from CVS to Bazaar in 2008
 - Switching to Git in 2014
-- The adoption of `package.el` as the standard package manager
+- The adoption of `package.el` as the standard package manager (bundled with Emacs 24 in 2012)
 - The creation of NonGNU ELPA (an official package repo with relaxed requirements for package inclusion)
 - Native JSON support, native compilation, built-in LSP support, TreeSitter, etc
 
