@@ -30,9 +30,10 @@ The creation of GitHub in 2008 was a revolution for OSS developers around the wo
 It was a massive step forward from the days of SourceForge and EmacsWiki,
 and a ton of Emacs projects were born on it.
 
-I rarely contributed to OSS projects before the birth of GitHub, but it was
-a big factor in my subsequent OSS work. Many of the most impactful Emacs packages
+I rarely contributed to OSS projects before the birth of GitHub, but drastically changed afterwards. GitHub was a big part of my OSS work and all of my projects are still hosted there. Its scale and reach allowed projects to connect with numerous potential contributors. Many of the most impactful Emacs packages
 in recent history were born and popularized on GitHub.[^2]
+
+I think it a bit ironic that a proprietary platform did so much for FOSS community, but I don't think anyone can argue with the results. I won't dwell much on this section, as I doubt that anything I can say about GitHub will be news to anyone.
 
 ### Clojure
 
@@ -103,6 +104,14 @@ to finish it. Still, the progress to date is nothing short of amazing.
 Richard Stallman stepped down as the head maintainer of Emacs in 2008, and was succeeded by a string of more progressive Emacs maintainers.
 I think that Stefan Monnier, John Wiegly and Eli Zaretskii have helped create an environment that's collaborative and welcoming
 to contributions.
+
+Here we can highlight a few major milestones:
+
+- Switching from CVS to Bazaar in 2008
+- Switching to Git in 2014
+- The adoption of `package.el` as the standard package manager
+- The creation of NonGNU ELPA (an official package repo with relaxed requirements for package inclusion)
+- Native JSON support, native compilation, built-in LSP support, TreeSitter, etc
 
 ## Closing Thoughts
 
