@@ -148,5 +148,5 @@ So, why should you try Emacs in 2024?
 
 You're now ready to begin your life-long journey to Emacs mastery. Meta-x forever! In parentheses we trust!
 
-[^1]: See <{% post_url 2024-02-26-emacs-dead-and-loving-it %}>
+[^1]: See <{{ site.url }}{% post_url 2024-02-26-emacs-dead-and-loving-it %}>
 [^2]: I can only guess what the impact to Emacs would be if it's main development happened on a similar platform.
