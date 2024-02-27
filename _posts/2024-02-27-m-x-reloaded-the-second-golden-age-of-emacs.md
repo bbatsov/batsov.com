@@ -117,6 +117,10 @@ Probably there are other extremely important achievements resulting from the act
 
 ## Closing Thoughts
 
+> Success occurs when opportunity meets preparation.
+>
+> -- Zig Ziglar
+
 As you can see - that was quite the journey, that spans over 15 years. If I had pick one year that was the most important for what followed next it would
 probably be 2008:
 
