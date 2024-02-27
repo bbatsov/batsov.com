@@ -119,6 +119,8 @@ Probably there are other extremely important achievements resulting from the act
 
 > You can never be wrong by being yourself.
 
+While the editors of the day (e.g. VS Code) get the job done they aren't necessary a great fit for everyone. There will always be those of us who are looking for something different for whatever reasons.
+
 Given how similar most editors are today, those who are not happy with the status quo don't really have that many options. If you want an editor that's different from the mainstream and has a strong community - it's essentially a choice between Emacs and Vim.
 
 And if you want to build an editor that's uniquely tailored to your preferences in every conceivable way - it's probably Emacs.
