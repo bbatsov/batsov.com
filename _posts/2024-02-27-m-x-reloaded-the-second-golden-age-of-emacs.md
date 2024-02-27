@@ -113,6 +113,8 @@ Here we can highlight a few major milestones:
 - The creation of NonGNU ELPA (an official package repo with relaxed requirements for package inclusion)
 - Native JSON support, native compilation, built-in LSP support, TreeSitter, etc
 
+Probably there are other extremely important achievements resulting from the actions of the head maintainers that I've forgotten about. Feel free to mention those in the comments.
+
 ## Closing Thoughts
 
 As you can see - that was quite the journey, that spans over 15 years. If I had pick one year that was the most important for what followed next it would
