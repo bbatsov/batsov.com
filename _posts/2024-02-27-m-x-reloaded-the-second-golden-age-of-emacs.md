@@ -5,9 +5,14 @@ tags:
 - Emacs
 ---
 
+> The people who live in a Golden Age usually go around complaining how yellow
+> everything looks.
+>
+> -- Randall Jarell
+
 Yesterday I wrote that I think Emacs is currently experiencing its (second)
-Golden Age.[^1] Today I'd like to expand on this and try to analyze the
-reasons that lead to this.
+Golden Age.[^1] Today I'll expand on this and I'll offer my perspective on
+the reasons and factors that lead to it.
 
 ## The Road to Success
 
@@ -114,6 +119,13 @@ So there you have it - my take on the factors and the events that lead to Emacs'
 Is there anything important that you think I've missed? Please, let me know in the comments!
 
 ## Epilogue
+
+> You're here because you know something. What you know you can't explain, but
+> you feel it. You've felt it your entire life, that there's something wrong
+> with the world. You don't know what it is, but it's there, like a splinter in
+> your mind, driving you mad. It is this feeling that has brought you to me.
+>
+> -- Morpheus ("The Matrix")
 
 So, why should you try Emacs in 2024?
 
