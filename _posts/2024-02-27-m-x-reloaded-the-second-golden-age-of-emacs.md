@@ -85,19 +85,21 @@ What would you add to this list?
 
 [Spacemacs](https://www.spacemacs.org/) showcased the full potential of Emacs to a lot of people and managed to convert many Vim users to Emacs. That's no small feat!
 It wasn't the first Emacs distro by any means, but it was the most ambitious one at the time for sure. Its decision to leverage heavily `evil-mode` and to target
-Vim users turned out to be a great choice!
+Vim users turned out to be a great choice![^3]
 
-Emacs "Distributions" in general were quite important to bridge the gap between the spartan default Emacs experience and what users of the other
-editors would often expect.
+Emacs "Distributions" (a.k.a. "starter kits") in general were quite important to bridge the gap between the spartan default Emacs experience and what users of the other
+editors would often expect. Today we have [many of them](https://github.com/emacs-tw/awesome-emacs?tab=readme-ov-file#starter-kit), but I still believe
+that Spacemacs had the biggest impact on the community overall.
 
 ### Shared Editor Infrastructure (LSP, TreeSitter)
 
 Emacs was getting a lot of criticism for lacking some of the advanced code analysis and refactoring capabilities of "modern" editors and IDEs.
 Its adoption of the industry standards LSP (Language Server Protocol) and TreeSitter changes this and makes sure Emacs developers don't have to
-invest time solving problems that are already solved elsewhere.
+invest time solving problems that are already solved elsewhere. I'm guessing that in the long run this will allow the Emacs maintainers to
+focus more on the features that make Emacs unique and that's a great thing in my book.
 
 The complete transition to LSP and TreeSitter won't happen overnight and we'll need years
-to finish it. Still, the progress to date is nothing short of amazing.
+to finish it. Still, the progress to date is nothing short of amazing. Exciting times ahead!
 
 ### Progressive Emacs maintainers
 
@@ -164,3 +166,4 @@ You're now ready to begin your life-long journey to Emacs mastery. Meta-x foreve
 
 [^1]: See <{{ site.url }}{% post_url 2024-02-26-emacs-dead-and-loving-it %}>
 [^2]: I can only guess what the impact to Emacs would be if it's main development happened on a similar platform.
+[^3]: Vim users should also check out [Doom Emacs](https://github.com/doomemacs/doomemacs).
