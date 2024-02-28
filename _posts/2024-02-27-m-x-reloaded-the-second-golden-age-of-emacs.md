@@ -64,7 +64,7 @@ This made the concept of a package repository that's distributing only "tagged" 
 to encourage people to change their ways. Do you remember that many Emacs packages weren't using VCS and were distributed only on EmacsWiki? Fun times!
 
 [MELPA](https://melpa.org) was a true revolution was it was released - a repo that was building snapshot release packages from a ton of sources (GitHub, person code repos, EmacsWiki). It was trivial
-to add a package there and it was a "one and thing" (unlike its predecessor Marmalade, when you had to upload each new release manually). You'd just submit a package recipe and MELPA will rebuild your package when needed.
+to add a package there and it was a "one and done" thing (unlike its predecessor Marmalade, when you had to upload each new release manually). You'd just submit a package recipe and MELPA will rebuild your package when needed.
 
 Today MELPA hosts a whopping 6000 (!!!) Emacs packages and its' a true pillar of our community. For context - the official GNU ELPA and NonGNU ELPA repos are home to about 650 packages. I don't know about you, but I've discovered a lot of cool packages while browsing MELPA and I can't imagine the Emacs community without it.
 
