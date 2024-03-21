@@ -36,7 +36,7 @@ name, and I didn't like being addressed by my last name either. I still hate
 this to this day. That's why for a while, when signing up for something, I was
 trying the following nicknames in this order:
 
-- bozhidar (my name is pretty rare, even in Bulgaria, plus there are several ways to spell it in English; this meant there was a good chance I'd land "bozhidar" with some services)
+- bozhidar (my name is pretty rare, even in Bulgaria, plus there are several ways to spell it in English;[^1] this meant there was a good chance I'd land "bozhidar" with some services)
 - bozhidarb
 - bbatsov
 - bozhidar.batsov (I rarely got to this one, as it's quite long and "bbatsov" was usually available)
@@ -44,7 +44,7 @@ trying the following nicknames in this order:
 Over the course of the years I realized this nickname selection process was a
 big mistake, as people were often struggling to figure out who I was on certain
 services. They'd expect me to be "bbatsov", but I'd "bozhidarb" or "bozhidar"
-there. Messy. That's why I eventually came to accept that "bbatsov" is the one
+there. Messy.[^2] That's why I eventually came to accept that "bbatsov" is the one
 true nickname for me - there are plenty of Bozhidars out there, but it seems I'm
 one of only a handful of Bozhidar Batsovs (I think there's only one, besides
 me). As an added benefit - this nickname is the easiest to type, and probably
@@ -70,5 +70,6 @@ because I came to value a lot consistency and simplicity in every aspect of
 life. Perhaps it's because I've always been fascinated by the power of
 names. I'm sure there's some reason, even if I'm not sure what this reason is.
 
-[^1]: I still regret rage-quitting Reddit with my original "bbatsov" handle,
+[^1]: My name is spelled Божидар Бацов in Bulgarian and a couple of the letters are tricky to transliterate in English. When I was little we were using different transliteration rules and back then my name was written as Bojidar Bacov if I remember correctly.
+[^2]: I still regret rage-quitting Reddit with my original "bbatsov" handle,
 which forced me to become "bozhidarb" when I decided to make a comeback there.
