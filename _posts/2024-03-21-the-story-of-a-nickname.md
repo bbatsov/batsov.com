@@ -11,7 +11,7 @@ I'm moving it to my main blog, as I've decided to close my HEY account._
 I envy everyone who picked up their nickname when they were 12 and just stuck
 with it. For me the journey to discovering my One True Nickname was long and
 somewhat messy, as at some point I was using several nicknames
-simultaneously. If it weren't for password managers like LastPass I would have
+simultaneously. If it weren't for password managers like 1Password and Bitwarden I would have
 probably struggled to remember which nickname did I use for some services.
 
 I think I got my first computer in 1998, when I was 14 years old. Back then one
