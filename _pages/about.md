@@ -82,12 +82,6 @@ I already mentioned above Meta Redux, but there are actually more!
 I run a separate blog focused on Emacs, that you might want to check
 out as well - [Emacs Redux](http://emacsredux.com).
 
-### HEY World
-
-I also have a blog at [HEY World](https://world.hey.com/bozhidar).
-I'm still not sure what I'll use it for (if anything), but most likely it
-will host short musings on random non-technical topics.
-
 ## Colophon
 
 This website is powered by [Jekyll](https://jekyllrb.com/) and uses
