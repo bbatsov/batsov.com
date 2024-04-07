@@ -59,9 +59,9 @@ Story"](https://www.imdb.com/title/tt15346636/). It made me appreciate Daniel's
 contribution to the evolution of James Bond even more. Now I know why "Quantum
 of Solace" was so bad!
 
-So, here we are - right at the very end. Daniel story arc as a Bond is
+So, here we are - right at the very end. Daniel's story arc as a Bond is
 complete. I think it was a truly wonderful idea to create a bunch of connected
-movies that built on one another and tell the story of 007 from his becoming a
+movies that build on one another and tell the story of 007 from him becoming a
 00 agent all the way to him leaving the service. I know that many people hated
 this and would prefer a bunch of standalone adventures, but certainly not me. I
 owe a huge "Thanks!" to Daniel Craig for re-imagining an iconic character and
