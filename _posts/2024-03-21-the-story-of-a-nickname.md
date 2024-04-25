@@ -71,5 +71,4 @@ life. Perhaps it's because I've always been fascinated by the power of
 names. I'm sure there's some reason, even if I'm not sure what this reason is.
 
 [^1]: My name is spelled Божидар Бацов in Bulgarian and a couple of the letters are tricky to transliterate in English. When I was little we were using different transliteration rules and back then my name was written as Bojidar Bacov if I remember correctly.
-[^2]: I still regret rage-quitting Reddit with my original "bbatsov" handle,
-which forced me to become "bozhidarb" when I decided to make a comeback there.
+[^2]: I still regret rage-quitting Reddit with my original "bbatsov" handle, which forced me to become "bozhidarb" when I decided to make a comeback there.
