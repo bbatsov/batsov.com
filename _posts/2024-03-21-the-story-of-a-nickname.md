@@ -36,10 +36,10 @@ name, and I didn't like being addressed by my last name either. I still hate
 this to this day. That's why for a while, when signing up for something, I was
 trying the following nicknames in this order:
 
-- bozhidar (my name is pretty rare, even in Bulgaria, plus there are several ways to spell it in English;[^1] this meant there was a good chance I'd land "bozhidar" with some services)
-- bozhidarb
-- bbatsov
-- bozhidar.batsov (I rarely got to this one, as it's quite long and "bbatsov" was usually available)
+- `bozhidar` (my name is pretty rare, even in Bulgaria, plus there are several ways to spell it in English;[^1] this meant there was a good chance I'd land "bozhidar" with some services)
+- `bozhidarb`
+- `bbatsov`
+- `bozhidar.batsov` (I rarely got to this one, as it's quite long and "bbatsov" was usually available)
 
 Over the course of the years I realized this nickname selection process was a
 big mistake, as people were often struggling to figure out who I was on certain
