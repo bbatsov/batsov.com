@@ -1,6 +1,7 @@
 ---
 title: 'M-x Reloaded: The Second Golden Age of Emacs'
 date: 2024-02-27 09:08 +0100
+toc: true
 tags:
 - Emacs
 ---
