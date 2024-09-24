@@ -32,7 +32,7 @@ The migration process was super simple and it basically consisted of the followi
 
 The documentation is so good, that I got everything working for the first try. I think then entire process took me about an hour.
 
-There's a lot of features of Minimal Mistakes that I haven't leveraged yet,
+There are a lot of features of Minimal Mistakes that I haven't leveraged yet,
 but I'm quite happy with the initial result and the simplicity of the migration process.
 I plan to gradually adopt more of the theme and I might write a follow-up article, if I feel that
 something deserves additional attention.
