@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How to Fix X11 Forwarding on WSL
 date: 2024-10-31 10:47 +0200
 tags:
