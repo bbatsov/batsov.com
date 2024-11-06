@@ -110,18 +110,6 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
-    - label: "Bluesky"
-      icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/profile/batsov.net"
-    - label: "X"
-      icon: "fab fa-fw fa-x-twitter"
-      url: "https://x.com/bbatsov"
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://hachyderm.io/@bbatsov"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bbatsov"
@@ -137,16 +125,31 @@ author:
     - label: "Meta Redux"
       icon: "fas fa-fw fa-blog"
       url: "https://metaredux.com"
-
-# Site Footer
-footer:
-  links:
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/batsov.net"
     - label: "X"
       icon: "fab fa-fw fa-x-twitter"
       url: "https://x.com/bbatsov"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://hachyderm.io/@bbatsov"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+
+# Site Footer
+footer:
+  links:
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/batsov.net"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://hachyderm.io/@bbatsov"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/bbatsov"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
