@@ -23,7 +23,7 @@ Still, I got curious about would things:
 
 The answer to the first question turned out to be Apple being opposed to using
 anything licensed under GPL v3, and so it happens that Emacs 22.1 was the last
-Emacs version licensed under GPL v2. A former Apple employee shared the
+Emacs version licensed under GPL v2.[^1] A former Apple employee shared the
 following in a comment on HackerNews:
 
 > When I was at Apple, they discontinued bundling the command line version of
@@ -46,3 +46,5 @@ export $EDITOR=mg
 ```
 
 That's all I have for you today. Keep hacking!
+
+[^1]: For the same reason macOS switched from Bash to Zsh in the very same macOS 10.15 ("Catalina"). And similarly to the situation with Emacs - for a very long time Apple were shipping an ancient version of Bash with macOS, the last one that was released under GPL v2. Obviously almost noone was willing to use it.
