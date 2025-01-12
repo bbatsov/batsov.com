@@ -24,7 +24,7 @@ At first I thought that updating to the latest version of Jekyll[^1] with
 `bundle update` would be enough to address this problem, but it turned out that
 wasn't the case.
 
-It wasn't hard to guess that the `cvs` library has been removed from Ruby's `stdlib` in Ruby 3.4, as the process to
+It wasn't hard to guess that the `csv` library has been removed from Ruby's `stdlib` in Ruby 3.4, as the process to
 move non-essential libraries out of the standard library has been ongoing for years now. So, I've added `csv` to
 my `Gemfile`, did a `bundle install` and... got an error that `base64` was missing as well... Oh, well...
 
