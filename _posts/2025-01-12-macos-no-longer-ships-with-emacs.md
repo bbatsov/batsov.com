@@ -42,7 +42,7 @@ the likes of `vi` and `nano` when you need to do simple edits from the
 command-line, so you might consider adding something like this to your shell setup:
 
 ```shell
-export $EDITOR=mg
+export EDITOR=mg
 ```
 
 That's all I have for you today. Keep hacking!
