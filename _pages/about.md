@@ -88,7 +88,7 @@ This website is powered by [Jekyll](https://jekyllrb.com/) and uses
 the [Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes).
 
 I write all of the articles in Emacs and publish them to GitHub
-pages. These days (circa 2021) I'm a Windows 10 (with WSL2) user most of the time.  When I'm at home
+pages. These days (circa 2025) I'm a macOS user most of the time.  When I'm at home
 I do all my writing on my beloved [Leopold
 FC660C](https://deskthority.net/wiki/Leopold_FC660C)[^4].  When I'm on
 the road I do (or don't do) my writing on a Apple Magic Keyboard or
