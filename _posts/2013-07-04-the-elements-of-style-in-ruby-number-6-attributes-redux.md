@@ -20,7 +20,7 @@ instead of writing them by hand. The methods from `Module` `attr`,
 `attr_reader`, `attr_writer` and `attr_accessor` do exactly that kind
 of magic. Here's an example using `attr_reader`:
 
-``` ruby
+```ruby
 # bad
 class Person
   def initialize(first_name, last_name)
@@ -50,7 +50,7 @@ end
 
 Here's `attr_writer` in action:
 
-``` ruby
+```ruby
 # bad
 class Person
   def initialize(name, name)
@@ -74,7 +74,7 @@ end
 
 `attr_accessor` combines the two:
 
-``` ruby
+```ruby
 # bad
 class Person
   def initialize(name, name)
@@ -111,7 +111,7 @@ see what the style guide says about it:
 created a single _reader_ method. With an optional second boolean argument it
 created both a _reader_ and a _writer_ method (a la `attr_accessor`).
 
-``` ruby
+```ruby
 # Ruby 1.8
 # same as attr_reader :something
 attr :something
@@ -128,7 +128,7 @@ Note that you cannot pass multiple attribute names to `attr` in Ruby 1.8.
 In Ruby 1.9 calling `attr` with an attribute name and a boolean is
 deprecated and it now behaves a lot more like `attr_reader`.
 
-``` ruby
+```ruby
 # Ruby 1.9
 attr :one, :two, :three # behaves as attr_reader
 ```
@@ -143,7 +143,7 @@ next item on our agenda for today.
 
 Is this something that should have been defined with `attr_reader`?
 
-``` ruby
+```ruby
 def something
   @something_else
 end
@@ -156,7 +156,7 @@ opposite case - it is! The name of the method does not change the
 semantics. In essence you're simply in need of an alias for the
 _default_ attribute reader method:
 
-``` ruby
+```ruby
 attr_reader :something_else
 alias_method :something, :something_else
 ```
@@ -166,7 +166,7 @@ have a `?` at the end of predicate method names, but this cannot be done with
 `attr_reader/attr_accessor`. Some people would simple hand-code such
 methods:
 
-``` ruby
+```ruby
 def something?
   @something
 end
@@ -186,7 +186,7 @@ they do not need any defensive copying or pre-update checks).
 
 Consider this:
 
-``` ruby
+```ruby
 # attr_reader generates code like this
 def something
   @something
@@ -197,7 +197,7 @@ This would expose `@something` to external modifications if it's a
 mutable object. To shield yourself from this you can use defensive
 copying (or freezing when applicable):
 
-``` ruby
+```ruby
 # defensive copying in action
 def something
   @something.dup # return a copy of @something
@@ -208,7 +208,7 @@ Same goes for attributes writers. If you have an `age` attribute and you
 want to enforce that it should be a positive number you'd generally roll your
 own writer:
 
-``` ruby
+```ruby
 def age=(age)
   fail 'Age should be a positive number!' unless age > 0
 

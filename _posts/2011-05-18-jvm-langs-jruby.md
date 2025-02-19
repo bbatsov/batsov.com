@@ -268,7 +268,7 @@ possible - for instance it gives you the ability to call methods using the
 snake_naming_convention, instead of the common in Java
 camelCaseNamingConvention. Let's see the Java integration in action:
 
-``` ruby
+```ruby
 require 'java'
 java_import 'java.lang.System'
 java_import 'java.util.ArrayList'

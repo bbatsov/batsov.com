@@ -11,7 +11,7 @@ Today we'll examine another somewhat unknown feature of the `gsub` method - the 
 
 If the replacement argument is a hash, and the matched text is one of its keys, the corresponding value is the replacement string. Here's a simple example:
 
-``` ruby
+```ruby
 def geekify(string)
   string.gsub(/[leto]/, 'l' => '1', 'e' => '3', 't' => '7', 'o' => '0')
 end
@@ -22,7 +22,7 @@ geekify('noob') # => 'n00b'
 
 Keep in mind you're not restricted to single character replacements:
 
-``` ruby
+```ruby
 def doctorize(string)
   string.gsub(/M(iste)?r/, 'Mister' => 'Doctor', 'Mr' => 'Dr')
 end

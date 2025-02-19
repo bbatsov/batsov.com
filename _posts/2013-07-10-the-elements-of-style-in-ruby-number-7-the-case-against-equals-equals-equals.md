@@ -16,7 +16,7 @@ Today we'll discuss the following section from the [Ruby Style Guide](https://gi
 For those of you who don't know of the case equality operator `===` -
 it's the magic behind `case` that allows us to write code like this:
 
-``` ruby
+```ruby
 case something
 when Array then ...
 when 1..100 then ...
@@ -26,7 +26,7 @@ end
 
 Ruby will convert the above code to something like:
 
-``` ruby
+```ruby
 case something
 when Array === something then ...
 when 1..100 === something then ...
@@ -40,7 +40,7 @@ define customized versions of the operator method `===`.  Knowing how
 these 3 classes have defined `===`, the case expression is also
 equivalent to this one:
 
-``` ruby
+```ruby
 case something
 when something.is_a? Array then ...
 when 1..100.include? something then ...
@@ -54,7 +54,7 @@ The problem with the `===` is that when some people see it they decide
 it's very _cool_ and start using it all over their code instead of
 its much clearer alternatives. I've seen `===` (ab)used quite often for **instance of** checks.
 
-``` ruby
+```ruby
 # wtf, why doesn't this work???
 # extremely common mistake I've seen numerous times
 return unless a === Array
@@ -71,7 +71,7 @@ It should be our utmost goal as programmers to produce clear and
 easily digestible code. This means we should abstain ourselves from
 doing clever tricks like:
 
-``` ruby
+```ruby
 Array === something
 (1..100) === 7
 /something/ === some_string
@@ -79,7 +79,7 @@ Array === something
 
 And bet on clarity instead:
 
-``` ruby
+```ruby
 something.is_a?(Array)
 (1..100).include?(7)
 some_string =~ /something/

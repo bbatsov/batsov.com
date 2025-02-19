@@ -16,7 +16,7 @@ Note that `x` and `y` are local variables that are in scope. My first reaction w
 
 The [feature request ticket](https://bugs.ruby-lang.org/issues/14579) has a few more usage examples:
 
-``` ruby
+```ruby
 x = 1
 y = 2
 h = {x:, y:}
@@ -61,7 +61,7 @@ comes to code readability/maintainability!
 - how can I jump the local variable at point (e.g. I want to inspect it) if there's no local variable at point?
 - there are also some "fun" cases to consider:
 
-``` ruby
+```ruby
 # the shorthand somewhat surprisingly works with methods without params
 def destroy (); puts "surprise"; end
 

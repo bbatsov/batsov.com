@@ -19,7 +19,7 @@ Obviously the best solution would be get a valid certificate for your hostname, 
 this is not possible or you simply don't want to bother with this stuff (on your development machine for instance).
 The solution to the problem commonly suggested is to turn off encryption completely like this:
 
-``` ruby
+```ruby
 ActionMailer::Base.smtp_settings = {
   :address              => 'mail.foo.com',
   :port                 => 587,
@@ -40,7 +40,7 @@ and password will traverse the Internet in plain text! A simple, but
 secure solution would be to just disable the certificate validation,
 without sacrificing the secure connection:
 
-``` ruby
+```ruby
 ActionMailer::Base.smtp_settings = {
   :address              => 'mail.foo.com',
   :port                 => 587,

@@ -17,7 +17,7 @@ implemented for `Enumerable` in the
 [Powerpack](https://github.com/bbatsov/powerpack) library. Let's start
 with `drop_last` and `take_last`:
 
-``` ruby
+```ruby
 (1..10).drop_last(7) #=> [1, 2, 3]
 (1..10).take_last(3) #=> [8, 9, 10]
 ```
@@ -27,14 +27,14 @@ Pretty neat! Concise and memory efficient (compared to using
 I use them quite often. There are also `drop_last_while` and
 `take_last_while`:
 
-``` ruby
+```ruby
 [1, 2, 3].drop_last_while(&:odd?) #=> [1, 2]
 [1, 2, 3, 5].take_last_while(&:odd?) #=> [3, 5]
 ```
 
 Summing a collection is also something that pops quite often in the wild:
 
-``` ruby
+```ruby
 (1..3).sum #=> 6
 [[1,2], [3]].sum #=> [1, 2, 3]
 [].sum #=> nil
@@ -49,7 +49,7 @@ pretty useful and I like having it around.
 you quickly check if only a single element matches a predicate or a
 collection has only one element that's not logically false:
 
-``` ruby
+```ruby
 [1, 2, 3].one?(&:even?) #=> true
 [1, 2, 4, 5].one?(&:even?) #=> false
 [nil, false, 5].one? #=> true
@@ -58,7 +58,7 @@ collection has only one element that's not logically false:
 
 Unfortunately there is no method `Enumerable#several?`, so I added one to Powerpack:
 
-``` ruby
+```ruby
 [1, 2, 3].several?(&:even?) #=> false
 [1, 2, 4, 5].several?(&:even?) #=> true
 [nil, false, 5].several? #=> false
@@ -67,7 +67,7 @@ Unfortunately there is no method `Enumerable#several?`, so I added one to Powerp
 
 Finally, counting the frequencies of elements in a collection is a common enough task to justify having it as method:
 
-``` ruby
+```ruby
 [1, :symbol, 'string', 3, :symbol, 1].frequencies
     #     #=> { 1 => 2, :symbol => 2, 'string' => 1, 3 => 1 }
 ```

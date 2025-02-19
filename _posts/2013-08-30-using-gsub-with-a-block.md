@@ -12,7 +12,7 @@ regularly.
 
 Here's a quick refresher of the typical `gsub` usage:
 
-``` ruby
+```ruby
 # using string match
 'John Wayne'.gsub('John', 'Bruce')
 => "Bruce Wayne"
@@ -30,7 +30,7 @@ data might be required. Consider this trivial example - we might want
 to increment a matched number by 1. Here `gsub`'s version that takes a
 block comes into action:
 
-``` ruby
+```ruby
 # num will be passed the string '12'
 'Apollo 12'.gsub(/\d+/) { |num| num.to_i.next }
 => "Apollo 13"
@@ -39,7 +39,7 @@ block comes into action:
 Basically we're replacing the matched portion of the string with the
 result of the block. While the param enhances the readability of the code it's not necessary:
 
-``` ruby
+```ruby
 # we're not making use of a block param
 'Apollo 12'.gsub(/(\d+)/) { Regexp.last_match[1].to_i.next }
 => "Apollo 13"
@@ -53,7 +53,7 @@ Note that some people expect that `gsub` would yield to the block all
 the matched groups as arguments - that is not the case, you'll always
 get a single argument denoting the entire regexp match.
 
-``` ruby
+```ruby
 # here name is 'Apollo 12' and number is blank
 'Apollo 12'.gsub(/(\w+) (\d+)/) { |name, number| puts name, number }
 ```

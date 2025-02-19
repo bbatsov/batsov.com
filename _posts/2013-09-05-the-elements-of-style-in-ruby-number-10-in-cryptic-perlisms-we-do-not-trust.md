@@ -20,7 +20,7 @@ OO languages don't even have the concept of a global variable). Don't
 introduce any of those in your Ruby programs! In most cases you can
 substitute them for module instance variables:
 
-``` ruby
+```ruby
 # bad
 $foo_bar = 1
 
@@ -48,7 +48,7 @@ Perl before I knew any Ruby). Luckily at some point the
 was added to Ruby, which simply adds sensible aliases for the cryptic
 Perl names. With it you can change this code:
 
-``` ruby
+```ruby
 $:.unshift File.dirname(__FILE__)
 
 files = `git ls-files`.split($\)
@@ -56,7 +56,7 @@ files = `git ls-files`.split($\)
 
 to:
 
-``` ruby
+```ruby
 require 'English'
 $LOAD_PATH.unshift File.dirname(__FILE__)
 
@@ -77,7 +77,7 @@ descriptive names `$1` (for the first group), `$2` (for the second
 group), etc. This idiom is unfortunately very popular with Ruby
 developers, likely because few of them know of `Regexp.last_match`.
 
-``` ruby
+```ruby
 /(regexp)/ =~ string
 ...
 
@@ -94,7 +94,7 @@ Yep, you'll have to type more, but when clarity is at stake a little bit of extr
 
 You can even go a step further and use the `Regexp#match` method:
 
-``` ruby
+```ruby
 md = /(Bat.+)\s/.match('Batman rules!')
 #=> #<MatchData "Batman " 1:"Batman">
 md[1]
@@ -111,7 +111,7 @@ Strictly speaking those came from `awk`, but I still consider them
 part of the Perl legacy. If you don't know what I'm talking about feel
 free to skip this section - your soul has already been saved.
 
-``` ruby
+```ruby
 END {
   puts "Exiting..."
 }
@@ -139,7 +139,7 @@ skip this section - your soul has already been saved.
 
 Flip-flops are an obscure conditional construct with just a single useful application - text processing:
 
-``` ruby
+```ruby
 DATA.each_line do |line|
   print line if (line =~ /begin/)..(line =~ /end/)
 end

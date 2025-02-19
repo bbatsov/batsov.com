@@ -16,7 +16,7 @@ the method was invoked) and parameter (the object we're comparing to) are
 the same object (Java developers should think of the `==` operator
 there).
 
-``` ruby
+```ruby
 some_word = "word"
 some_other_word = some_word
 
@@ -30,7 +30,7 @@ values. For instance "cat" and "cat" might very well be two completely
 different `String` objects, but they are quite obviously the same as
 far as their value is concerned.
 
-``` ruby
+```ruby
 "cat".equal? "cat"     # false
 "cat" == "cat"         # true
 "cat".eql? "cat"       # true
@@ -47,7 +47,7 @@ continue this tradition, but there are a few classes that provide a
 different implementation for `eql?`.  Numeric types, for example,
 perform type conversion across `==`, but not across `eql?`, so:
 
-``` ruby
+```ruby
 1 == 1       # true
 1.eql? 1     # true
 1 == 1.0     # true

@@ -29,7 +29,7 @@ handled for you behind the scenes.
 
 And this is how one should implement the Singleton pattern in Ruby:
 
-``` ruby
+```ruby
 require 'singleton'
 
 class Some

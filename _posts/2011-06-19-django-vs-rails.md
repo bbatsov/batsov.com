@@ -337,7 +337,7 @@ migrations as simple Ruby scripts and you can use rake to generate the
 appropriate SQL statements for any supported database. Here's a simple
 migration script, that creates the Users table:
 
-``` ruby
+```ruby
 class CreateUsers < ActiveRecord::Migration
   def self.up
     create_table :users do |t|

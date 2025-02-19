@@ -13,7 +13,7 @@ from an array.
 
 People coming from an imperative background will probably implement this in terms of `each` (or `for`):
 
-``` ruby
+```ruby
 nums = [1, 1, 2, 3, 3, 5]
 result = Hash.new(0)
 
@@ -30,7 +30,7 @@ This is a reasonable solution, but surely we can do better!
 
 Rubyists fond of functional programming techniques might use `reduce` to solve the problem at hand:
 
-``` ruby
+```ruby
 nums = [1, 1, 2, 3, 3, 5]
 nums.reduce(Hash.new(0)) { |a, e| a[e] += 1; a }
 # => {1=>2, 2=>1, 3=>2, 5=>1}
@@ -40,7 +40,7 @@ This code works well, but it's a bit more complex than it needs to be -
 mostly because of the need to return the hash explicitly in `reduce`'s block.
 Enter `Enumerable#each_with_object`:
 
-``` ruby
+```ruby
 nums = [1, 1, 2, 3, 3, 5]
 nums.each_with_object(Hash.new(0)) { |e, a| a[e] += 1 }
 # => {1=>2, 2=>1, 3=>2, 5=>1}

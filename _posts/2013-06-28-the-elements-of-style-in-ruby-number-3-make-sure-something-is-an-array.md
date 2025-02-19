@@ -16,7 +16,7 @@ The subject of today's post is the following rule from the
 
 Countless times I've seen code like this:
 
-``` ruby
+```ruby
 paths = [paths] unless paths.is_a? Array
 paths.each { |path| do_something(path) }
 ```
@@ -30,13 +30,13 @@ While the above code works it's not something an experienced Rubyist
 would write. The most popular alternative is the use of the mighty splat
 operator(`*`):
 
-``` ruby
+```ruby
 [*paths].each { |path| do_something(path) }
 ```
 
 It case you're puzzled by the preceding snippet consider the following example:
 
-``` ruby
+```ruby
 elems = 1
 [*elems]
 # => [1]
@@ -52,7 +52,7 @@ While I'm extremely fond of this particular usage of `*` I tend to
 avoid it, since there is another equally powerful, but more readable
 alternative to it - `Kernel#Array`. Here's it in action:
 
-``` ruby
+```ruby
 Array(paths).each { |path| do_something(path) }
 ```
 
@@ -66,7 +66,7 @@ post somewhere down the road.
 The `Array` method operates exactly like `*` - it takes a single argument and
 converts it to an `Array` object if necessary:
 
-``` ruby
+```ruby
 Array(1)
 # => [1]
 

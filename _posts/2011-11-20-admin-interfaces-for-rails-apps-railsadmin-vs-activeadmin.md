@@ -58,7 +58,7 @@ naturally aware of the asset pipeline introduced there. Installing
 RailsAdmin is a trivial exercise. Just add these deps to your
 `Gemfile`:
 
-``` ruby
+```ruby
 gem 'fastercsv' # Only required on Ruby 1.8 and below
 gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 ```
@@ -133,7 +133,7 @@ also a very nice [introductory screencast](http://railscasts.com/episodes/284-ac
 Getting started with Active Admin is just as easy as getting started
 with RailsAdmin. You just need to add a dependency to your `Gemfile`:
 
-``` ruby
+```ruby
 gem 'activeadmin'
 ```
 
@@ -168,7 +168,7 @@ update model records are simple Formtastic forms (the same Formtastic
 forms you're probably already using throughout the rest of your
 apps):
 
-``` ruby
+```ruby
 ActiveAdmin.register Post do
   form do |f|
     f.inputs "Details" do
@@ -190,7 +190,7 @@ Active Admin features an elegant DSL to express the index and the show
 views. Here's an example of index table for a fictional Course
 Management app:
 
-``` ruby
+```ruby
 ActiveAdmin.register Course do
   index do
     column :id
@@ -210,7 +210,7 @@ table.
 
 Here's an example of a show view:
 
-``` ruby
+```ruby
 ActiveAdmin.register Post do
   show do
     h3 post.title
@@ -223,7 +223,7 @@ end
 
 Alternatively you can forgo the Arbre HTML DSL and render a partial like this:
 
-``` ruby
+```ruby
 ActiveAdmin.register Post do
   show do
     # renders app/views/admin/posts/_some_partial.html.erb
@@ -240,7 +240,7 @@ happen to use Formtastic 2.0 in all of my apps. Luckily the master
 branch is already using Formtastic 2.0, so all you have to do if you
 have this problem is to use the gem from git:
 
-``` ruby
+```ruby
 'activeadmin', git: git://github.com/gregbell/active_admin.git
 ```
 

@@ -15,7 +15,7 @@ using the `Enumerable` mixin, which would often be collections like
 methods `length` and its alias `size` that such classes often
 provide.
 
-``` ruby
+```ruby
 arr = [1, 2, 3]
 
 arr.length # => 3
@@ -54,7 +54,7 @@ important.
 beast. It's usually meant to be used with a block or an argument and
 will return the number of matches in an `Enumerable`:
 
-``` ruby
+```ruby
 arr = [1, 1, 2, 3, 5, 6, 8]
 
 arr.count(&:even?) # => 3
@@ -63,7 +63,7 @@ arr.count(1) # => 2
 
 You can, however, invoke it without any arguments and it will return the size of the enumerable on which it was invoked:
 
-``` ruby
+```ruby
 arr.count # => 7
 ```
 

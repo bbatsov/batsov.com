@@ -13,7 +13,7 @@ easy to find out what's deprecated, but for several reasons that's not the case 
 transparent methods as Java's `@deprecated` annotation). To see the deprecation messages from those functions
 you'll have to run Ruby with `-w`. Consider this example code:
 
-``` ruby
+```ruby
 string.lines do |line|
   puts line
 end

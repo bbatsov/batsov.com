@@ -14,7 +14,7 @@ Today's topic is the following rule from the [Ruby Style Guide](https://github.c
 
 `Array#join` and `Array#*` (with a string argument) behave exactly the same:
 
-``` ruby
+```ruby
 %w(Bruce Wayne).join(' ')
 # => "Bruce Wayne"
 
@@ -27,7 +27,7 @@ So, considering they both do the same thing why should you opt to use
 
 * `*` behaves totally differently when passed an integer argument:
 
-``` ruby
+```ruby
 [1 2] * 3
 # => [1 2 1 2 1 2]
 ```
@@ -39,7 +39,7 @@ pretty much counter-intuitive.
 * It's not always clear what `*` means without additional
   context. Take a look at this short snippet:
 
-``` ruby
+```ruby
 # a and b are variables
 a * b
 ```

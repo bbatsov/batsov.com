@@ -9,7 +9,7 @@ tags:
 
 There are whopping 4 ways to invoke a lambda (or a proc) in Ruby:
 
-``` ruby
+```ruby
 lambda.call(arg1, arg2)
 
 lambda[arg1, arg2]

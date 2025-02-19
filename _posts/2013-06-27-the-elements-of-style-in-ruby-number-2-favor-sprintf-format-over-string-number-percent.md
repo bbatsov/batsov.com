@@ -17,7 +17,7 @@ difference is that `sprintf` is generally used as a command(it does
 not operate on its receiver) and `String#%` is obviously an instance
 method of the class `String`. Here's the two of them in action:
 
-``` ruby
+```ruby
 '%d %d' % [20, 10]
 # => '20 10'
 
@@ -32,7 +32,7 @@ So, considering they both do the same thing why should you opt to use
   sole argument; `sprintf` consistently takes a variable number of
   arguments.
 
-``` ruby
+```ruby
 '%d' % 20
 # => '20'
 
@@ -51,7 +51,7 @@ Personally, I dislike such inconsistencies a lot.
 * It's not always clear what `%` means without additional
   context. Take a look at this short snippet:
 
-``` ruby
+```ruby
 # a and b are variables
 a % b
 ```

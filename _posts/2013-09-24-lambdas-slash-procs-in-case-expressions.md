@@ -8,7 +8,7 @@ tags:
 
 Most Rubyists know they can use literals, classes, ranges and regular expressions in the `when` branches of a `case` expression:
 
-``` ruby
+```ruby
 case something
 when Array then ...
 when 1..100 then ...
@@ -20,7 +20,7 @@ As you probably know `case` relies on the `===` (a.k.a. the case equality operat
 the supplied conditions. Ruby will convert the above code to something
 like:
 
-``` ruby
+```ruby
 case something
 when Array === something then ...
 when 1..100 === something then ...
@@ -30,7 +30,7 @@ end
 
 Perhaps somewhat surprisingly `===` is also defined in the `Proc` class, used to create `procs` and `lambdas`. It's defined to simply issue a `Proc#call` with the right-hand side argument of `===` as an argument:
 
-``` ruby
+```ruby
 is_even = ->(n) { n.even? }
 
 is_even === 5 # => false
@@ -41,7 +41,7 @@ is_even.call(5)
 
 This gives us the possibility to leverage `procs` and `lambdas` as the conditions for `when` branches. Here's a trivial example:
 
-``` ruby
+```ruby
 def even?
   ->(n) { n.even? }
 end
@@ -59,7 +59,7 @@ end
 
 You can also save a few lines by defining the lambdas inline:
 
-``` ruby
+```ruby
 case x
 when ->(n) { n.even? } then puts 'even'
 when ->(n) { n.odd? } then puts 'odd'
@@ -69,7 +69,7 @@ end
 
 Things get even better if your lambdas capture some additional arguments. Consider this example checking HTTP response codes:
 
-``` ruby
+```ruby
 def response_code?(code)
   ->(response) { response.code == code }
 end

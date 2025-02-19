@@ -23,14 +23,14 @@ select and they all require small changes to the `application.rb` file.
 
 * fallback to the default locale
 
-``` ruby
+```ruby
 # fallback to what's specified in config.i18n.default_locale
 config.i18n.fallbacks = true
 ```
 
 * fallback to a specified locale
 
-``` ruby
+```ruby
 # fallback to en, regardless of what's in config.i18n.default_locale
 config.i18n.fallbacks = [:en]
 ```
@@ -38,7 +38,7 @@ config.i18n.fallbacks = [:en]
 * specify a fallback map (different fallback locales for different
   locales)
 
-``` ruby
+```ruby
 # missing translations of es and fr languages will fallback to english
 # missing translations in german will fallback to french
 config.i18n.fallbacks = {'es' => 'en', 'fr' => 'en', 'de' => 'fr'}

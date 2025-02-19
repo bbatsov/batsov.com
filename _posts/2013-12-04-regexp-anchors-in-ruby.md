@@ -13,7 +13,7 @@ but... these anchors don't actually match a string's beginning and
 end - they match a **line**'s beginning and end. Consider the
 following example:
 
-``` ruby
+```ruby
 string = 'username'
 string[/^username$/]   # matches (as expected)
 string = "some injection\nusername"
@@ -24,7 +24,7 @@ The anchors for beginning and end of a string are actually `\A` and
 `\z`(there's also a similar `\Z` anchor, but it's rarely used in
 practice):
 
-``` ruby
+```ruby
 string = "some injection\nusername"
 string[/\Ausername\z/] # don't match
 ```

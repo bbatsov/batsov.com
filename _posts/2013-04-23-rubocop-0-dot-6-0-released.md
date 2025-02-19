@@ -24,7 +24,7 @@ inline and to alter their behavior if they accept any parameters.
 One or more individual cops can be disabled locally in a section of a
 file by adding a comment such as:
 
-``` ruby
+```ruby
 # rubocop:disable LineLength, StringLiterals
 [...]
 # rubocop:enable LineLength, StringLiterals
@@ -32,7 +32,7 @@ file by adding a comment such as:
 
 You can also disable *all* cops with:
 
-``` ruby
+```ruby
 # rubocop:disable all
 [...]
 # rubocop:enable all
@@ -41,7 +41,7 @@ You can also disable *all* cops with:
 One or more cops can be disabled on a single line with an end-of-line
 comment:
 
-``` ruby
+```ruby
 for x in (0..19) # rubocop:disable AvoidFor
 ```
 

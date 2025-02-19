@@ -36,7 +36,7 @@ The addition of a few `_` improves the readability of those huge literals a ton!
 
 The underscores we add to numeric literals are ignored by `Ruby`:
 
-``` ruby
+```ruby
 100_000
 # => 100000
 ```
@@ -47,7 +47,7 @@ brains.
 
 Obviously we should not overdo `_`:
 
-``` ruby
+```ruby
 # short literals are pretty readable on their own
 # bad
 1_00

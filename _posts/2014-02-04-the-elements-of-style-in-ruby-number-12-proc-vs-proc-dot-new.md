@@ -10,7 +10,7 @@ tags:
 People are often confused about the fact that there are two ways to created `proc`s in Ruby -
 via `Kernel#proc` and `Proc.new`. Let's see them in action:
 
-``` ruby
+```ruby
 Proc.new { true }
 # => #<Proc:0x007fe35440a058>
 
@@ -36,7 +36,7 @@ Thankfully Ruby 1.8 is now dead and buried and there's no reason to prefer
 should probably be using only `Kernel#proc` as it's more concise and
 it's symmetrical to `Kernel#lambda`.
 
-``` ruby
+```ruby
 lambda { true }
 # => #<Proc:0x007fe35440a058 (lambda)>
 

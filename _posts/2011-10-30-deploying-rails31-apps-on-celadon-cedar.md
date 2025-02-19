@@ -71,7 +71,7 @@ db:pull` or `heroku db:push`.
 
 Here's a sample **carrierwave.rb**, that you can put in **config/initializers/** folder:
 
-``` ruby config/initializers/carrierwave.rb
+```ruby config/initializers/carrierwave.rb
 if Rails.env.test? # Store the files locally for test environment
   CarrierWave.configure do |config|
     config.storage = :file

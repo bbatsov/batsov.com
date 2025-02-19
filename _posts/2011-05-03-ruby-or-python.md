@@ -117,7 +117,7 @@ def fact(n):
 
 Same thing in Ruby:
 
-``` ruby
+```ruby
 def fact(n)
   (1..n).reduce(:*)
 end

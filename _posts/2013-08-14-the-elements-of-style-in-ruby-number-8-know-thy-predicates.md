@@ -9,13 +9,13 @@ tags:
 
 I often see people writing code like this:
 
-``` ruby
+```ruby
 if x % 2 == 0 ...
 ```
 
 Obviously `Fixnum#even?` would have been a better choice:
 
-``` ruby
+```ruby
 if x.even? ...
 ```
 
@@ -23,7 +23,7 @@ There is also `Fixnum#odd?` if you need to check for odd numbers.
 
 By the way, there is even a `Numeric#zero?` predicate:
 
-``` ruby
+```ruby
 if x == 0 ...
 
 # same as the above (provided x is a number)
@@ -41,20 +41,20 @@ are roughly the same as `> 0` and `< 0` comparisons.
 
 Another bit of code you'll often see is:
 
-``` ruby
+```ruby
 if x > 0 && x < 7 ...
 ```
 
 While there is nothing particularly bad about that code, I'd argue
 that `between?` makes for a nicer (and more OO) alternative:
 
-``` ruby
+```ruby
 if x.between?(1, 6) ...
 ```
 
 Using a range predicate you can also exclude the end value:
 
-``` ruby
+```ruby
 if x > 0 && x < 1000 ...
 
 # is the same as
@@ -65,20 +65,20 @@ When using predicate methods you should be mindful of `nil`
 receivers. That's generally not a serious issue in practice but still I'd ask
 you to consider this example:
 
-``` ruby
+```ruby
 if arr == [] ...
 ```
 
 It's not equivalent to
 
-``` ruby
+```ruby
 if arr.empty?
 ```
 
 Why so? Because `arr` might be `nil`. So the equivalent code would be:
 
 
-``` ruby
+```ruby
 if !arr.nil? && arr.empty?
 ```
 
@@ -90,7 +90,7 @@ over `something == nil`. If you're reasonably sure that `something`
 can't have the value `false` you can, of course, simplify things even
 further:
 
-``` ruby
+```ruby
 if something ...
 ```
 

@@ -394,7 +394,7 @@ very flexible code that works on unrelated types (in the inheritance
 hierarchy) that happen to share common methods. For instance in Ruby
 we could write this code:
 
-``` ruby
+```ruby
 class Duck
   def walk
     puts "The duck walks"

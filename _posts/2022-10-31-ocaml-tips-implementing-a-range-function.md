@@ -10,7 +10,7 @@ Lots of programming languages have some built-in range functionality, that's
 typically used to generate a list/array of integer numbers. Here are
 a couple of examples from Ruby and Clojure:
 
-``` ruby
+```ruby
 # This is Ruby
 
 (1..10).to_a

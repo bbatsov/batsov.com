@@ -10,7 +10,7 @@ One thing I've noticed on my [journey to learn OCaml]({% post_url
 straightforward as with many other programming languages. To give you some point
 of reference - here's how easy it is to do this in Ruby:
 
-``` ruby
+```ruby
 # read entire file to string
 content = File.read(filename)
 

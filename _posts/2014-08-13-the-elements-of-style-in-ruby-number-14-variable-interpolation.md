@@ -10,7 +10,7 @@ tags:
 Most experienced Rubyists probably know that there are two ways to interpolate instance, class and global variables into
 strings.
 
-``` ruby
+```ruby
 # compact notation (works only for instance/class/global vars)
 "this is #$some_var"
 
@@ -23,7 +23,7 @@ interpolation syntax concise and elegant, but I'll argue that it should be avoid
 
 * You can't use this notation in every possible scenario:
 
-``` ruby
+```ruby
 # this is fine
 puts "#{@variable}string_straight_after_without_space"
 
@@ -37,7 +37,7 @@ This is rarely good...
 * You're using different notations for the same basic operation (interpolation), without getting anything in return.
 That's not the same with semantic use of single and double quoted strings or `fail` and `raise`.
 
-``` ruby
+```ruby
 # using compact
 "this is #@x"
 "this is #{x}"

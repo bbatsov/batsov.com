@@ -11,7 +11,7 @@ From time to time you might want to take different actions depending
 on an object's class. One handy way to do so is with a `case`
 expression:
 
-``` ruby
+```ruby
 case object
 when Fixnum then puts 'Object is an integer number'
 when String then puts 'Object is a string'
@@ -21,7 +21,7 @@ end
 
 Behind the scenes this is transformed to:
 
-``` ruby
+```ruby
 if Fixnum === object
   puts 'Object is an integer number'
 elsif String === object
@@ -33,7 +33,7 @@ end
 
 A lot of people seem to make the following mistake, so beware:
 
-``` ruby
+```ruby
 # WRONG - Class === Class will return false
 case object.class
 when Fixnum then puts 'Object is an integer number'

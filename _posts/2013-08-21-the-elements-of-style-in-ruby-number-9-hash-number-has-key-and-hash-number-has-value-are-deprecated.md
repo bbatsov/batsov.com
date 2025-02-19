@@ -9,7 +9,7 @@ tags:
 
 One can often find similar code in the wild:
 
-``` ruby
+```ruby
 some_hash.has_key?(some_key)
 ```
 
@@ -21,7 +21,7 @@ in favor of `Hash#key?` and `Hash#value?`.
 
 The above snippet should look like:
 
-``` ruby
+```ruby
 some_hash.key?(some_key)
 ```
 
