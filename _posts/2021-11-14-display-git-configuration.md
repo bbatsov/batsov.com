@@ -9,7 +9,7 @@ tags:
 From time to time I tend to forget what's my effective Git configuration, so I have to
 check it somehow. Most of the time I'd simply do the following:[^1]
 
-``` shell
+```console
 $ git config --list
 user.name=Bozhidar Batsov
 user.email=bozhidar@example.org
@@ -28,7 +28,7 @@ branch.master.merge=refs/heads/master
 This works great, but there's one small problem with the output - it's hard to figure out if something is a global setting
 or a repo-specific setting. If only there was a way to show where each config value is coming from... Enter `--show-origin`:
 
-``` shell
+```console
 $ git config --list --show-origin
 file:/home/bozhidar/.gitconfig  user.name=Bozhidar Batsov
 file:/home/bozhidar/.gitconfig  user.email=bozhidar@example.org
@@ -48,7 +48,7 @@ Now, that's more like it! But wait, there's more!
 
 Since Git 2.26.0, you can use the `--show-scope` option to achieve a similar result:
 
-``` shell
+```console
 $ git config --list --show-scope
 
 system  rebase.autosquash=true
@@ -67,7 +67,7 @@ It can be combined with `--show-origin` or the following flags:
 Pretty much everything related to `git config` can be combined with those flags.
 Here's how to list only the settings defined within the current repository:
 
-``` shell
+```console
 $ git config --list --show-origin --local
 file:.git/config        core.repositoryformatversion=0
 file:.git/config        core.filemode=true
@@ -81,7 +81,7 @@ file:.git/config        branch.master.merge=refs/heads/master
 
 Of course, you can also consult specific settings if you remember their names:
 
-``` shell
+```console
 $ git config user.email
 bozhidar@example.org
 $ git config --show-origin user.email

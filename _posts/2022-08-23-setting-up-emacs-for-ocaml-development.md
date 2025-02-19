@@ -34,7 +34,7 @@ have code completion, which is probably its main advantage over the default topl
 
 `utop` and `merlin` are tools you need to install if you want to use them together with Emacs:
 
-``` shellsession
+```console
 $ opam install utop merlin
 ```
 
@@ -114,7 +114,7 @@ your Emacs. One thing to keep in mind is that Merlin works best with Dune
 projects and you'll need to run the following command occasionally to refresh
 the Merlin metadata:
 
-``` shellsession
+```console
 $ dune build
 ```
 

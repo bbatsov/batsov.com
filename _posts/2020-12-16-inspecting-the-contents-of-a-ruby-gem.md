@@ -17,7 +17,7 @@ in your local file system, so all you need to do is find out where
 a particular gem resides. There are several ways to do this.
 The first option is to use Ruby's `gem` command directly:
 
-``` shell
+```console
 $ gem info minima
 
 *** LOCAL GEMS ***
@@ -43,7 +43,7 @@ $ gem contents minima
 
 The `gem contents` command is extra useful as it effectively combines something like this in a single step:
 
-``` shell
+```console
 $ gem info gem-name
 $ cd gem-dir
 $ ls -l
@@ -53,7 +53,7 @@ You don't really have to visit the folder in which the installed gem
 resides to play with its contents. With `gem unpack` you can dump the
 contents of any gem in the current folder:
 
-``` shell
+```console
 $ gem unpack minima
 Unpacked gem: '/home/bozhidar/minima-2.5.1'
 # You can also specify the folder in which to unpack the gem like this
@@ -65,7 +65,7 @@ get an easier to remember directory path.
 
 An alternative option is to use `bundler` to procure the gem installation directory information (assuming you're using it):
 
-``` shell
+```console
 $ bundle info minima
 
  * minima (2.5.1)
@@ -88,7 +88,7 @@ Bundler and `gem` actually have one more
 extremely useful command that will directly open the gem's folder in
 your default editor:
 
-``` shell
+```console
 $ gem open minima
 # or alternatively
 $ bundle open minima
@@ -100,7 +100,7 @@ As you can imagine it's pretty straight-forward to change the behavior of a gem 
 edit some of its contents. That's an useful debugging technique, but it opens up one question - how to restore
 a gem to its original pristine state? Well, turns out there's a command for this as well:
 
-``` shell
+```console
 $ gem pristine gem-name
 # or alternatively
 $ bundle pristine

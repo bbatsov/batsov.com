@@ -14,7 +14,7 @@ you need to install the `mesa-dri-drivers-experimental` package. I,
 personally, do it like this (if you haven’t configured `sudo`, you’ll
 have to perform this as `root`):
 
-``` shell
+```console
 $ sudo yum install mesa-dri-drivers-experimental
 ```
 

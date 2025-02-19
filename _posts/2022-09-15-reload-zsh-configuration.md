@@ -11,14 +11,14 @@ occasionally learn something new about it.[^1] Yesterday I was setting up
 [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) on a new computer and I've noticed they had added a
 command for reloading the Zsh configuration:
 
-``` shellsession
+```console
 $ omz reload
 ```
 
 I assumed this was just an alias for `. .zshrc` (a.k.a. `source .zshrc`), which I had been doing for
 ages, but it turns out it's actually an alias for:
 
-``` shellsession
+```console
 $ exec zsh
 ```
 

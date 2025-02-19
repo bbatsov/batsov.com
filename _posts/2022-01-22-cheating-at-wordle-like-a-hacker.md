@@ -13,7 +13,7 @@ Most of the time the 5-letter words you have to guess are pretty easy, but occas
 
 While there are all sorts of ways to cheat at Wordle, I think the most hackerish approach is to simply use a tool like `grep` on your English dictionary. Imagine that we're looking for words that start with `r` and end with `t`. Now we can quickly find all such words to come up with our next guess:
 
-``` shellsession
+```console
 $ grep ^r...t$ /usr/share/dict/words
 react
 rebut

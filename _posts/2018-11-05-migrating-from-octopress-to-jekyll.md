@@ -21,13 +21,13 @@ tweaking it afterwards).
 I think it's best to just create a blank Jekyll blog and move there
 everything you need from your old blog.
 
-``` shell
+```console
 $ jekyll new jekyll-blog
 ```
 
 ## Copy posts and assets from the Octopress blog
 
-``` shell
+```console
 $ cd octopress-blog
 $ cp -r source/_posts path-to-jekyll-blog
 ```
@@ -108,7 +108,7 @@ found of. I noticed that out of the box Jekyll didn't have anything
 like this, which was a bit frustrating. I quickly discovered the plugin [jekyll-compose](https://github.com/jekyll/jekyll-compose)
 and it's even better than the old rake tasks. Here's how you can create a new post with it:
 
-``` shell
+```console
 $ bundle exec jekyll post "New Post"
 ```
 

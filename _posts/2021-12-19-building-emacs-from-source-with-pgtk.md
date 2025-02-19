@@ -15,7 +15,7 @@ Truth be told, I was under the impression the `pgtk` branch was already merged m
 When I learned we have to wait for Emacs 29, instead of Emacs 28, I immediately decided to build Emacs from the `master` branch. I'm using
 Ubuntu 20.04 (running on Windows 11) and the build process was super simple:
 
-``` shellsession
+```console
 $ git clone git://git.sv.gnu.org/emacs.git
 $ sudo apt install build-essential libgtk-3-dev libgnutls28-dev libtiff5-dev libgif-dev libjpeg-dev libpng-dev libxpm-dev libncurses-dev texinfo
 $ cd emacs
@@ -48,7 +48,7 @@ Out of the available optional features I think that the two most
 useful for the majority of people are probably native JSON support (`--with-json`) and
 native compilation support (`--with-native-compilation`). If you decide to go for them you'll need to install a few extra packages and tweak the `configure` command:
 
-``` shellsession
+```console
 # Native JSON
 $ sudo apt install libjansson4 libjansson-dev
 # Native Complilation
@@ -69,7 +69,7 @@ everyone using Wayland on Linux will experience the same benefits as well.
 
 You can tweak the chrome by with the handy `gnome-tweaks` utility:
 
-``` shellsession
+```console
 $ apt install gnome-tweaks
 ```
 

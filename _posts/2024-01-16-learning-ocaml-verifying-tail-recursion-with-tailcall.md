@@ -27,7 +27,7 @@ let rec fact2 x =
 
 Save the code above in a file named `tailcall.ml` and compile it with `ocamlc`:
 
-``` shellsession
+```console
 $ ocamlc tailcall.ml
 File "./tailcall.ml", line 5, characters 28-55:
 5 |   if x <= 1 then 1 else x * (fact2 [@tailcall]) (x - 1)

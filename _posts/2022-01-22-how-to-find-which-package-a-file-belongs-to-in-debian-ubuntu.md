@@ -10,7 +10,7 @@ tags:
 
 Occasionally I need to figure out which Debian package some file comes from (e.g. because I want to remove a redundant package or find related packages). There are a couple of ways to do this in Debian, with the simplest being the following:
 
-``` shellsession
+```console
 $ dpkg -S /usr/bin/ag
 silversearcher-ag: /usr/bin/ag
 $ dpkg -S /usr/bin/gcc
@@ -26,7 +26,7 @@ Search for a filename from installed packages.
 
 Note, that it's best to use absolute paths if you want to get a concrete package as the result. Observe the difference here:
 
-``` shellsession
+```console
 $ dpkg -S /bin/ls
 coreutils: /bin/ls
 $ dpkg -S bin/ls
@@ -53,14 +53,14 @@ lsb-release: /usr/bin/lsb_release
 
 Here you can stop reading, as 99% of the time that's probably the best option for you. Still, there's one more way to approach the problem, namely by using `apt-file`. You'll need to install `apt-file` and initialize its database first:
 
-``` shellsession
+```console
 $ sudo apt install apt-file
 $ sudo apt-file update
 ```
 
 Using `apt-file` is quite simple:
 
-``` shellsession
+```console
 $ apt-file search /usr/bin/gcc
 gcc: /usr/bin/gcc
 gcc: /usr/bin/gcc-ar

@@ -16,14 +16,14 @@ this better.[^1]
 
 You can install easily multiple version of Java on Ubuntu via `apt`:
 
-``` shellsession
+```console
 $ sudo apt install openjdk-8-jdk openjdk-8-source openjdk-8-doc
 $ sudo apt install openjdk-11-jdk openjdk-11-source openjdk-11-doc
 ```
 
 Typically the newest version of Java you install will become the default, but you can easily change this:
 
-``` shellsession
+```console
 $ sudo update-alternatives --config java
 There are 2 choices for the alternative java (providing /usr/bin/java).
 
@@ -39,7 +39,7 @@ Press <enter> to keep the current choice[*], or type selection number:
 Notice that pressing 0 mean "auto-select the newest Java available" (in our case Java 11).
 You can now select Java 8 by pressing 2 and verify the command worked properly like this:
 
-``` shellsession
+```console
 $ java -version
 openjdk version "1.8.0_292"
 OpenJDK Runtime Environment (build 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10)
@@ -48,7 +48,7 @@ OpenJDK 64-Bit Server VM (build 25.292-b10, mixed mode)
 
 You'll need to repeat the above steps for `javac` (the Java compiler binary) as well:
 
-``` shellsession
+```console
 $ sudo update-alternatives --config javac
 ```
 
@@ -57,7 +57,7 @@ This much I already knew, even if I keep forgetting the exact name of
 actually simplify the process a bit by using the specialized command
 `update-java-alternatives`:
 
-``` shellsession
+```console
 $ update-java-alternatives -l
 java-1.11.0-openjdk-amd64      1111       /usr/lib/jvm/java-1.11.0-openjdk-amd64
 java-1.8.0-openjdk-amd64       1081       /usr/lib/jvm/java-1.8.0-openjdk-amd64
@@ -67,7 +67,7 @@ $ sudo update-java-alternatives -s java-1.11.0-openjdk-amd64
 
 Quite handy! You can also go back to the latest Java version with a shorthand:
 
-``` shellsession
+```console
 $ sudo update-java-alternatives -a
 ```
 

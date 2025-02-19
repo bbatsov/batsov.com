@@ -11,7 +11,7 @@ I guess most of you are aware that I've been using Windows 11 + WSL as my main d
 
 All I needed to do was to install some X11 server for Windows (I chose X410) and setup the `DISPLAY` env variable (usually in your `.bashrc` or `.zshrc`). That's how I did this originally, following X410's user manual:
 
-``` shell
+```shell
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 ```
 
@@ -23,7 +23,7 @@ Error: Can't open display: 10.255.255.254:0.0
 
 When this happened the first time I was too busy/lazy to check what exactly had changed, so I just hardcoded the `DISPLAY` to the actual IP of my Windows box (e.g. `172.24.192.1:0`) and I mostly forgot about this, but recently I did a bit of digging and discovered that the proper way to extract it automatically is:
 
-``` shell
+```shell
 export DISPLAY=$(ip route list default | awk '{print $3}'):0
 ```
 

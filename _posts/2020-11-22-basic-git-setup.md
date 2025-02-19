@@ -13,7 +13,7 @@ basic Git settings that I always adjust.
 
 So, here's what I'd typically do:
 
-``` shell
+```console
 # user identity
 $ git config --global user.name "Bozhidar Batsov"
 $ git config --global user.email bozhidar@example.com
@@ -31,7 +31,7 @@ $ git config --global init.defaultBranch main
 
 I guess for many people it'd also be useful to specify their preferred merge tool:
 
-``` shell
+```console
 $ git config --global merge.tool some-tool
 ```
 
@@ -43,7 +43,7 @@ The global Git user settings are simply stored under `~/.gitconfig`, so
 you can easily review and update them there as well. You can check your
 current configuration by running this command:
 
-``` shell
+```console
 $ git config --list
 ```
 
@@ -53,7 +53,7 @@ user-wide config (e.g. `~/.gitconfig`) and the config of the Git repo that you'r
 When working on company projects, I would change for each company repository my email to
 whatever my work email is:
 
-``` shell
+```console
 $ cd company-project
 $ git config user.email bozhidar@company.com
 ```

@@ -16,7 +16,7 @@ render them. That being said, today I was reminded how easy it is to cover the b
 with the command-line. If we want a list of the top 10 contributors (in terms of
 commits) we can get it like this:[^1]
 
-``` shellsession
+```console
 $ cd cider
 $ git shortlog -s -n | head -10
   3358  Bozhidar Batsov
@@ -33,7 +33,7 @@ $ git shortlog -s -n | head -10
 
 By default the output is based on the commit author, but you can switch to using the committer identity:
 
-``` shellsession
+```console
 $ git shortlog -s -n -c | head -10
   4031  Bozhidar Batsov
    434  Artur Malabarba
@@ -51,7 +51,7 @@ The output here is quite different for me, as I've squashed and rebased many com
 
 We can also include the emails of the authors, which would result is some fun output for this particular project due to my [love for email addresses]({% post_url 2022-05-27-email-mania %}):
 
-``` shellsession
+```console
 $ git shortlog -s -n -e | head -10
   2210  Bozhidar Batsov <bozhidar@domain1.com>
    712  Bozhidar Batsov <bozhidar@domain2.com>

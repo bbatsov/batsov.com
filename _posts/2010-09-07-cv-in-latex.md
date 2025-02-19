@@ -14,7 +14,7 @@ I’ve uploaded the LaTeX code to [GitHub](http://github.com/bbatsov/cv). Feel f
 your CVs if you like it. You’ll have to compile the `master.tex` file
 with `pdflatex` to get a nicely formatted pdf version of the CV:
 
-``` shell
+```console
 $ pdflatex master.tex
 ```
 

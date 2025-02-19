@@ -24,7 +24,7 @@ packages from one PPA. A good example would be
 Once you no longer need the newest drivers (e.g. after a distro upgrade) you can
 remove all of them like this:
 
-``` shell
+```console
 $ sudo apt install ppa-purge
 $ sudo ppa-purge ppa:oibaf/graphics-drivers
 ```
