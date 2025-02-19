@@ -26,8 +26,15 @@ so I tweaked the command like this:
 $ find . -name "*.md" -type f -exec sed -i '' 's/` bash/`shell/g' {} +
 ```
 
+At this point I remembered that I can make use of the shell's extended globbing and just pass multiple arguments to
+`sed`. This simplifies the command quite a bit:
+
+```console
+$ sed -i '' 's/` bash/`shell/g' **/*.md
+```
+
 And that's pretty much it! This keep in mind I'm using BSD sed on macOS, and if you're
-using GNU sed (e.g. on Linux) you'd have do `-i''` (without a space between `-i` and the empty string).
+using GNU sed (e.g. on Linux) you can omit the emty string argument to `-i`.
 Got to love the random differences between BSD and GNU commands!
 
 That's all I have for you today. Keep hacking!
