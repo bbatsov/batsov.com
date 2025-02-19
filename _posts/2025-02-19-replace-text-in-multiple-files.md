@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Replace Text in Multiple Files
 date: 2025-02-19 13:31 +0200
 tags:
