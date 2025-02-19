@@ -34,7 +34,7 @@ $ sed -i '' 's/` bash/`shell/g' **/*.md
 ```
 
 And that's pretty much it! This keep in mind I'm using BSD sed on macOS, and if you're
-using GNU sed (e.g. on Linux) you can omit the emty string argument to `-i`.
+using GNU sed (e.g. on Linux) you can omit the empty string argument to `-i`.
 Got to love the random differences between BSD and GNU commands!
 
 That's all I have for you today. Keep hacking!
