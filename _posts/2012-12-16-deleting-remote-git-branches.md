@@ -11,14 +11,14 @@ delete remote Git branches.
 
 The classic way to do so (introduced in Git 1.5) would be:
 
-``` bash
+```console
 $ git push origin :branch-to-delete
 ```
 
 So, if I were migrating an application from MySQL to PostgreSQL I might want to delete
 the `postgres` branch when I'm done:
 
-``` bash
+```console
 $ git push origin :postgres
 ```
 
@@ -27,7 +27,7 @@ remember(and I'm extra certain nobody would have guessed it on their
 own). Fortunately in Git 1.7 a nicer alternative to the above command
 was introduced:
 
-``` bash
+```console
 $ git push origin --delete branch-to-delete
 ```
 

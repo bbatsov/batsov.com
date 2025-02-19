@@ -53,7 +53,7 @@ handy in testing. After you've installed RVM it's easy to install any
 Ruby interpreter and Rails. This example shows how to get RVM, MRI 1.9.2
 and Rails current (3.0.9):
 
-``` bash
+```console
 $ bash < <(curl -s https://rvm.beginrescueend.com/install/rvm)
 $ echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function' >> ~/.bash_profile
 $ source ~/.bash_profile
@@ -84,7 +84,7 @@ recent beta already features Ruby 1.9.2.
 
 #### Your first Rails app
 
-``` bash
+```console
 $ rails new railsdemo
       create
       create  README
@@ -178,7 +178,7 @@ At this point you should probably either start playing with
 scaffolding or read the rest of this article and start playing with
 scaffolding afterwards  For instance you can try:
 
-``` bash
+```console
 $ rails g scaffold User first_name:string last_name:string email:string password:string
 $ rake db:migrate
 $ rails s
@@ -202,13 +202,13 @@ web server, etc.
 I prefer to install django from the distribution's package manager. On
 a Red Hat distro like Fedora I would do:
 
-``` bash
+```console
 $ sudo yum install Django
 ```
 
 And on a Debian system:
 
-``` bash
+```console
 $ sudo apt-get install python-django
 ```
 
@@ -223,7 +223,7 @@ everything that it requires in a single step.
 
 #### Your first app
 
-``` bash
+```console
 $ django-admin startproject djangodemo
 $ ll djangodemo
 total 16
@@ -293,7 +293,7 @@ declare the structure of the objects, but rather extracts it
 automatically from your DB table definitions. A simple class, modeling
 an application user might look like this:
 
-``` bash
+```console
 class User < ActiveRecord::Base
   validates :first_name, :last_name, :email, :password, :presence => true
   validates :password, confirmation: true
@@ -360,7 +360,7 @@ The up method gets invoked when the migration is applied and the down
 method gets invoked when it's reverted. Rails 3.1 will offer even more
 elegant migrations. To execute all migrations:
 
-``` bash
+```console
 $ rake db:migrate
 ```
 

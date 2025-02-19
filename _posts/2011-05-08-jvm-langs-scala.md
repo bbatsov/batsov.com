@@ -65,7 +65,7 @@ the release candidate stages.
 Scala has an [universal installer](http://www.scala-lang.org/downloads/distrib/files/scala-2.8.1.final-installer.jar) that could be ran on every platform
 with Java installed. You can run it from the console like this:
 
-``` bash
+```console
 $ java -jar scala-2.8.1.final-installer.jar
 ```
 
@@ -82,7 +82,7 @@ the one for
 and extract it somewhere. I'm a GNU/Linux user and I tend to extract
 all third party apps in the /opt folder:
 
-``` bash
+```console
 $ sudo tar xf scala-2.8.1.final.tgz -C /opt
 ```
 
@@ -91,7 +91,7 @@ You'd also want to add the folder containing the Scala binaries
 might add something like this to their shell startup script (like
 .bashrc):
 
-``` bash
+```console
 export JAVA_HOME=/usr/java/latest
 export SCALA_HOME=/opt/scala-2.8.1
 export PATH=$SCALA_HOME/bin:$PATH
@@ -100,7 +100,7 @@ export PATH=$SCALA_HOME/bin:$PATH
 You should now have Scala installed properly. You can test this by
 typing the following in a command shell:
 
-``` bash
+```console
 $ scala
 ```
 
@@ -109,7 +109,7 @@ Scala expressions.
 
 To run a specific Scala script type:
 
-``` bash
+```console
 $ scala SomeScript.scala
 ```
 
@@ -119,13 +119,13 @@ Most Linux distributions provide Scala through their integrated
 package management system. On Debian(and derivatives like Ubuntu) you
 can install it like this:
 
-``` bash
+```console
 $ sudo apt-get install scala
 ```
 
 On Red Hat systems the magic incantation looks like this:
 
-``` bash
+```console
 $ sudo yum install scala
 ```
 

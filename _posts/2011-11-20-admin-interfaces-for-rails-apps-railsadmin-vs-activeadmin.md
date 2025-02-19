@@ -65,7 +65,7 @@ gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 
 Afterwards you should run:
 
-``` bash
+```console
 $ bundle install
 $ rails g rails_admin:install
 $ rake db:migrate
@@ -139,7 +139,7 @@ gem 'activeadmin'
 
 And to a few command line incantations afterwards to seal the deal:
 
-``` bash
+```console
 $ bundle install
 $ rails g active_admin:install
 $ rake db:migrate
@@ -155,7 +155,7 @@ approach compared to RailsAdmin. Here nothing happens automatically -
 you have to customize your dashboard yourself and you have to register
 the models you'd be administrating with the following command:
 
-``` bash
+```console
 $ rails g active_admin:resource ModelName
 ```
 

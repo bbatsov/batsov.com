@@ -76,7 +76,7 @@ common practice to move some of the best parts of contrib into core.
 
 In the directory in which you expanded clojure.zip, run:
 
-``` bash
+```console
 $ java -cp clojure.jar clojure.main
 ```
 
@@ -104,7 +104,7 @@ user=> (javax.swing.JOptionPane/showMessageDialog nil "Hello World")
 
 The REPL has very rudimentary editing. For a better experience, try running it via the [JLine](http://jline.sourceforge.net/) `ConsoleRunner`:
 
-``` bash
+```console
 java -cp jline-0_9_5.jar:clojure.jar jline.ConsoleRunner clojure.main
 ```
 

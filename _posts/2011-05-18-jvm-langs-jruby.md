@@ -99,13 +99,13 @@ machines. If you're on Linux, your distribution may package its own
 JRuby build. For example, on Ubuntu (or any other Debian derived
 distro) you can type this:
 
-``` bash
+```console
 $ sudo apt-get install jruby
 ```
 
 Red Had distribution users might try this incantation instead:
 
-``` bash
+```console
 $ sudo yum install jruby
 ```
 
@@ -123,7 +123,7 @@ and switch easily between them. Please refer to the official
 and usage instructions. After you've installed RVM getting JRuby
 installed is a child's play:
 
-``` bash
+```console
 $ rvm list known | grep jruby
 jruby-1.2.0
 jruby-1.3.1
@@ -150,7 +150,7 @@ as **C:\** or **/opt**. You can run JRuby straight from its own _bin_
 folder, but you'll probably find it more convenient to add it to
 your PATH. On UNIX (including Linux & Mac OS X), you can do the following:
 
-``` bash
+```console
 $ export PATH=$PATH:/opt/jruby/bin
 ```
 
@@ -158,7 +158,7 @@ $ export PATH=$PATH:/opt/jruby/bin
 
 Type the following commands:
 
-``` bash
+```console
 $ which jruby
 ~/.rvm/rubies/jruby-1.6.1/bin/jruby
 $ jruby -version
@@ -176,7 +176,7 @@ Now we can see some of the unique JRuby features in action.
 JRuby comes with an equivalent of the standard Ruby REPL irb, called
 jirb. To start it simply type:
 
-``` bash
+```console
 $ jirb
 ```
 
@@ -215,7 +215,7 @@ features like TAB completion. Use it often!
 
 Same as before (with MRI Ruby):
 
-``` bash
+```console
 $ jruby some_script.rb
 ```
 
@@ -227,7 +227,7 @@ You should prefix calls to common Ruby tools like gem and rake with
 **jruby -S** - otherwise they might get confused which Ruby version
 (if you have more than one Ruby installed, that is) to use:
 
-``` bash
+```console
 $ jruby -S gem install rails
 $ jruby -S rake install
 ```
@@ -237,7 +237,7 @@ $ jruby -S rake install
 You can compile Ruby scripts directly to Java bytecode and run the
 resulting class files using the JVM:
 
-``` bash
+```console
 $ jrubyc hello.rb
 Compiling hello.rb to class example
 ```
@@ -246,7 +246,7 @@ The compiler supplies a main method for you, so you can now run the
 program straight from the java command (adjust the path here to point
 to your JRuby installation):
 
-``` bash
+```console
 $ java -cp .:/opt/jruby/lib/hello.jar example
 ```
 

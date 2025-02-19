@@ -17,7 +17,7 @@ library. Sometime however this is not the case... Suppose for example
 that you're trying to install IBM JDK 5.0 on a Fedora 11 box. You'll
 most likely get the following error message:
 
-``` bash
+```console
 error: Failed dependencies:
 libstdc++.so.5 is needed by ibm-java2-i386-sdk-5.0-9.0.i386
 ```
@@ -27,7 +27,7 @@ can you find out which package do you need?
 
 The answer is simple:
 
-``` bash
+```console
 $ yum provides libstdc++.so.5
 
 Loaded plugins: fastestmirror, presto, refresh-packagekit

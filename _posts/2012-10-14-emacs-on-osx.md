@@ -24,7 +24,7 @@ Installation via Homebrew is also a decent option, although it more time consumi
 After the installation you might want to wipe out the ancient Emacs 22
 that ships with OS X by default(its presence will only cause headaches, trust me):
 
-``` bash
+```console
 $ sudo rm /usr/bin/emacs
 $ sudo rm -rf /usr/share/emacs
 ```
@@ -35,13 +35,13 @@ you might consider altering your `PATH` instead.
 Alternatively you can just create an alias in your shell and when you
 invoke `emacs` it will run the newly installed version:
 
-``` bash
+```console
 $ alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
 ```
 
 If you installed via Homebrew that path might look like this:
 
-``` bash
+```console
 $ alias emacs="/usr/local/Cellar/emacs/24.2/Emacs.app/Contents/MacOS/Emacs -nw"
 ```
 
@@ -121,7 +121,7 @@ by Steve Purcell.
 
 For flyspell to work correctly you'll need to install aspell plus a few dictionaries.
 
-``` bash
+```console
 $ brew install aspell --lang=en
 ```
 

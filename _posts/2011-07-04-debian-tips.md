@@ -33,7 +33,7 @@ can also do this with `su -c`, but you have to quote the commands there,
 which I don't like very much. To enable sudo for some account first
 run the command:
 
-``` bash
+```console
 $ su -c "visudo"
 ```
 
@@ -67,7 +67,7 @@ install everything you need afterwards.
 gedit is ok for causal text editing, but professionals like software
 engineers and system administrators will definitely need something more:
 
-``` bash
+```console
 $ sudo aptitude install emacs vim
 ```
 
@@ -82,7 +82,7 @@ It's no secret that I love the Z Shell - after all I
 quite often. It should come as no surprise that I happen to use it and
 probably you should start using it as well:
 
-``` bash
+```console
 $ sudo aptitude install zsh
 $ sudo vim /etc/passwd
 ```
@@ -91,7 +91,7 @@ Find the line about your account and change there `/bin/bash` to
 `/usr/bin/zsh`. Alternatively you can use the chsh program to
 achieve the same result:
 
-``` bash
+```console
 $ sudo chsh
 ```
 
@@ -106,7 +106,7 @@ I spend a lot of time at the terminal and like to have one at my
 fingertips always. Since I'm a GNOME user guake is the best option for
 me:
 
-``` bash
+```console
 $ sudo aptitude install guake
 ```
 
@@ -118,7 +118,7 @@ installed by default if you select the "Graphical Desktop" option in
 the installation wizard, but you can install the
 most common components at any time with the following command:
 
-``` bash
+```console
 $ sudo aptitude install libreoffice-calc libreoffice-impress libreoffice-draw libreoffice-writer
 ```
 
@@ -126,7 +126,7 @@ LibreOffice uses hunspell to do spellchecking. An English dictionary
 will be installed by default, but you'll need to install additional
 dictionaries manually:
 
-``` bash
+```console
 $ sudo aptitude install hunspell-bg
 ```
 
@@ -137,13 +137,13 @@ likely don't need it so install some more helpful dictionary instead.
 
 If you need to run Java programs/applets:
 
-``` bash
+```console
 $ sudo aptitude install openjdk-6-jre
 ```
 
 If you're planning to do some Java development:
 
-``` bash
+```console
 $ sudo aptitude install openjdk-6-jdk openjdk-6-doc openjdk-6-demo openjdk-6-source
 ```
 
@@ -152,7 +152,7 @@ $ sudo aptitude install openjdk-6-jdk openjdk-6-doc openjdk-6-demo openjdk-6-sou
 The default Transmission torrent client is pretty basic. I recommend
 you to replace it with the much more feature-rich deluge:
 
-``` bash
+```console
 $ sudo aptitude install deluge
 ```
 
@@ -162,7 +162,7 @@ I'm a software engineer and I obviously spend a lot of time reading
 and writing source code. I'm very picking about the monospace font
 that I use and currently Inconsolata happens to be my favorite:
 
-``` bash
+```console
 $ sudo aptitude install ttf-inconsolata
 ```
 
@@ -170,7 +170,7 @@ $ sudo aptitude install ttf-inconsolata
 A lot of you might need an image editor. GIMP is generally
 considered the best option so you might want to install it:
 
-``` bash
+```console
 $ sudo aptitude install gimp
 ```
 
@@ -181,13 +181,13 @@ $ sudo aptitude install gimp
 Just add contrib and non-free to the list of your enabled repos. Your
 first line in /etc/apt/sources.list should look like this:
 
-``` bash
+```console
 deb http://ftp.bg.debian.org/debian/ wheezy main contrib non-free
 ```
 
 Then do a:
 
-``` bash
+```console
 $ sudo aptitude update
 ```
 
@@ -197,7 +197,7 @@ $ sudo aptitude update
 No MP3 support in Debian by default? And almost no video codecs?
 Non-free to the rescue! Type this:
 
-``` bash
+```console
 $ sudo aptitude install gstreamer-plugins-ugly gstreamer-plugins-bad gstreamer-ffmpeg
 ```
 
@@ -206,7 +206,7 @@ $ sudo aptitude install gstreamer-plugins-ugly gstreamer-plugins-bad gstreamer-f
 With MPlayer's development in stagnation VLC has established itself as
 the best video player for Linux recently. Installing it is as easy as typing the following command:
 
-``` bash
+```console
 $ sudo aptitude install vlc
 ```
 
@@ -214,7 +214,7 @@ $ sudo aptitude install vlc
 
 Love it or hate it - you probably need it.
 
-``` bash
+```console
 $ sudo aptitude install flashplugin-nonfree
 ```
 
@@ -225,7 +225,7 @@ comes with Flash Player built-in.
 
 In a perfect world everyone would be using Google Talk... In the real one:
 
-``` bash
+```console
 $ sudo aptitude install skype
 ```
 
@@ -236,7 +236,7 @@ same as the Oracle JDK. If you start experiencing strange problems
 (mostly in Swing programs) you'd probably do well to try the Oracle
 JDK instead. The magic incantation goes like this:
 
-``` bash
+```console
 $ sudo aptitude install sun-java6-jdk sun-java6-demo sun-java6-source sun-java6-plugin
 ```
 
@@ -254,7 +254,7 @@ active binaries manually.
 Firefox is dying, Google Chrome is the new king of the
 browsers. Download it from the [official site](http://www.google.com/chrome) and install it:
 
-``` bash
+```console
 $ sudo dpk -i ~/Downloads/google-chrome-stable_current_i386.deb
 ```
 
@@ -263,7 +263,7 @@ updates as soon as they arrive.
 
 Alternatively you can use Chromium - Chrome's open source sibling:
 
-``` bash
+```console
 $ sudo aptitude install chromium-browser
 ```
 
@@ -275,7 +275,7 @@ mobile devices(Android, iPhone, iPad, etc). It has a great Linux
 client which I use all the time. It's available in the non-free repo
 so you can install it like this:
 
-``` bash
+```console
 $ sudo aptitude install nautilus-dropbox
 ```
 

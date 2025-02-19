@@ -150,7 +150,7 @@ the meaning of insanely great.
 OS X comes with Bash enabled by default, but Zsh is also preinstalled
 and you can easily enable it by typing:
 
-``` bash
+```console
 $ chsh -s /bin/zsh
 ```
 
@@ -209,7 +209,7 @@ specific commands:
 
 * `open` - opens a file or directory in the appropriate desktop application
 
-``` bash
+```console
 $ open doc.pdf
 ```
 

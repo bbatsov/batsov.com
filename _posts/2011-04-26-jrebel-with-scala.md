@@ -34,7 +34,7 @@ integrated with IDEs, but I want cover this here. I use mostly
 what to do for them. With Maven you have to add the following to the
 *$MAVEN_OPTS* environmental variable:
 
-``` bash
+```console
 export MAVEN_OPTS=-noverify -javaagent:/home/bozhidar/work/jrebel/jrebel.jar
 ```
 
@@ -43,7 +43,7 @@ restart their application containers and Scala's most prominent
 framework is [Lift](http://liftweb.net) you'd probably want to enable
 the JRebel Lift plug-in as well:
 
-``` bash
+```console
 export MAVEN_OPTS=-noverify -javaagent:/home/bozhidar/work/jrebel/jrebel.jar
  -Drebel.lift_plugin=true
 ```
@@ -53,13 +53,13 @@ available in the shell.
 
 Now when you start your web app with
 
-``` bash
+```console
 mvn jetty:run
 ```
 
 And the continuous Scala compilation with
 
-``` bash
+```console
 mvn scala:cc
 ```
 
@@ -72,7 +72,7 @@ If you're using SBT you should modify the sbt startup script to
 include the same options that I mentioned in the section about Maven
 configuration. Mine sbt script looks like this:
 
-``` bash
+```console
 #!/bin/bash
 
 java -noverify -javaagent:/home/bozhidar/work/jrebel/jrebel.jar
@@ -84,7 +84,7 @@ java -noverify -javaagent:/home/bozhidar/work/jrebel/jrebel.jar
 Another use for JRebel is the Scala REPL itself. When you start the
 REPL from inside SBT for instance with the command:
 
-``` bash
+```console
 sbt console
 ```
 

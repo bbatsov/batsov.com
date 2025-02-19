@@ -18,7 +18,7 @@ where **$JBOSS_HOME** refers to the directory in which you’ve unpacked the JBo
 
 Look for this section:
 
-``` bash
+```console
 if [ "x$JAVA_OPTS" = "x" ]; then
     JAVA_OPTS="..."
 fi

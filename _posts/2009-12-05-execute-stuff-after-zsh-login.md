@@ -17,7 +17,7 @@ create a `.zlogin` file in your home folder and put in it all the
 commands you want executed after you've logged into the shell. In my
 case I put:
 
-``` bash
+```console
 emacs --daemon
 ```
 

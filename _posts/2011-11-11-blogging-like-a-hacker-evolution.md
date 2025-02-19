@@ -153,7 +153,7 @@ documentation.
 Mostly trivial. I've just copied my old Markdown posts, adjusted the
 headings and the code blocks. And in the end all I had to do was:
 
-``` bash
+```console
 $ rake generate
 $ rake deploy
 ```

@@ -27,13 +27,13 @@ clients, but I find this distasteful. A much simpler solution is to
 forget about _set-default-font_ altogether and simply create a file
 named **.Xdefaults** in your home folder. Put the following in it:
 
-``` bash
+```console
 Emacs.font: Inconsolata-12
 ```
 
 Afterwards run the following command:
 
-``` bash
+```console
 $ xrdb -merge ~/.Xdefaults
 ```
 

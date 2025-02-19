@@ -36,7 +36,7 @@ instance on Debian Linux systems (Ubuntu is a popular Debian
 derivative) you can use `apt` to install them. Run the following
 commands as `root` or with `sudo`:
 
-``` bash
+```console
 $ apt-get install ruby
 $ apt-get install python
 ```
@@ -44,7 +44,7 @@ $ apt-get install python
 On Red Hat based distros like Fedora, CentOS, etc you can use `yum`
 instead:
 
-``` bash
+```console
 $ yum install ruby
 $ yum install python
 ```
@@ -58,14 +58,14 @@ the package `ruby` will actually be Ruby 1.8.x and the package `python`
 will be Python 2.7.x. If your distribution is one of those - look for
 packages named `ruby19` (or similar) and `python3`:
 
-``` bash
+```console
 $ apt-get install ruby19
 $ apt-get install python3
 ```
 
 or on a Red Hat system:
 
-``` bash
+```console
 $ yum install ruby19
 $ yum install python3
 ```

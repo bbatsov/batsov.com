@@ -41,7 +41,7 @@ The second easy way to obtain Emacs 24 is via
 [homebrew](http://mxcl.github.com/homebrew/). Just type the following
 incantation in your shell and you're done:
 
-``` bash
+```console
 $ brew install emacs --cocoa --use-git-head --HEAD
 $ cp -r /usr/local/Cellar/emacs/HEAD/Emacs.app /Applications/
 ```
@@ -106,7 +106,7 @@ properly work on OS X, Linux and Windows.
 
 Its installation is dead simple:
 
-``` bash
+```console
 $ git clone git://github.com/bbatsov/prelude.git path/to/local/repo
 $ ln -s path/to/local/repo ~/.emacs.d
 ```

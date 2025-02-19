@@ -25,7 +25,7 @@ Most distros come with bash by default so you'll probably need to
 install zsh first and configure it as your user's shell. On Fedora
 you'd do:
 
-``` bash
+```console
 $ sudo yum install zsh
 $ chsh -s /bin/zsh
 ```
@@ -38,7 +38,7 @@ folder.
 
 Alternatively you may just use a preconfigured `.zshrc`, like this one:
 
-``` bash
+```console
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
@@ -69,7 +69,7 @@ know about:
 
 Here's an example `.zshenv` file:
 
-``` bash
+```console
 export JAVA_HOME=/usr/java/latest
 
 export SCALA_HOME=/opt/scala-2.8.1.final
@@ -98,21 +98,21 @@ you have enabled many of the zsh core features.
 without the cd command. One of my favourite features. Now you can do
 things like:
 
-``` bash
+```console
 [bozhidar@bozhidar ~]$ Downloads
 [bozhidar@bozhidar ~/Downloads]$
 ```
 
 Instead of:
 
-``` bash
+```console
 [bozhidar@bozhidar ~]$ cd Downloads
 [bozhidar@bozhidar ~/Downloads]$
 ```
 
 By the way autocd was added in bash 4.0 as well. You can enable it there with:
 
-``` bash
+```console
 [bozhidar@bozhidar ~]$ shopt -s autocd
 ```
 
@@ -122,13 +122,13 @@ say Ctrl+R(reverse-history-search)
 
 **extendedglob** allows you to recursive look for files in folders:
 
-``` bash
+```console
 [bozhidar@bozhidar ~]$ ls somedir/**/Makefile
 ```
 
 is equivalent to:
 
-``` bash
+```console
 [bozhidar@bozhidar ~]$ find somedir -name Makefile
 ```
 
@@ -136,13 +136,13 @@ Most zsh users never use find for simple file look up. This feature
 was also added to bash 4.0 but it works in a slightly different
 manner.
 
-``` bash
+```console
 $ shopt -s extglob
 ```
 
 **correct** - autocorrects mistyped commands
 
-``` bash
+```console
 [bozhidar@bozhidar]$ cta ~/.zshrc
 zsh: correct 'cta' to 'cat' [nyae]?
 ```
@@ -155,7 +155,7 @@ line editing library called `zle`, which is much more powerful. vi users
 are not forgotten and can switch zsh to vi keybindings with the
 command:
 
-``` bash
+```console
 bindkey -v
 ```
 
@@ -164,7 +164,7 @@ to go into command mode.
 
 You can also create custom keybindings like this:
 
-``` bash
+```console
 bindkey '^[[H' beginning-of-line
 bindkey '^[[F' end-of-line
 ```
@@ -176,21 +176,21 @@ Zsh has three different kinds of shell aliases.
 
 **Regular** - same as in bash:
 
-``` bash
+```console
 alias ll='ls -l'
 ```
 
 **Suffix** - suffix aliases are supported in zsh since version
 4.2.0. Some examples:
 
-``` bash
+```console
 alias -s tex=emacs
 alias -s html=google-chrome
 ```
 
 Now when you type in the console
 
-``` bash
+```console
 $ somefile.tex
 ```
 
@@ -201,7 +201,7 @@ quite handy.
 **Global** - global aliases can be used anywhere in the command line(as
 opposed to regular aliases that can used only in the beginning). Example:
 
-``` bash
+```console
 alias -g ...='../..'
 cd ...
 ```
@@ -214,7 +214,7 @@ the things you've typed before the `Alt+q` will magically reappear.
 
 * Imagine you're in the folder **project/4.0/module**. Typing:
 
-``` bash
+```console
 cd 4.0 5.0
 ```
 

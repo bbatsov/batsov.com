@@ -146,7 +146,7 @@ These instructions describe how to install a binary distribution of Groovy.
 For instance here's the relevant information of my shell's
 configuration:
 
-``` bash
+```console
 export JAVA_HOME=/usr/java/latest
 export GROOVY_HOME=/opt/groovy-1.8.0
 export PATH=$GROOVY_HOME/bin:$PATH
@@ -155,20 +155,20 @@ export PATH=$GROOVY_HOME/bin:$PATH
 You should now have Groovy installed properly. You can test this by
 typing the following in a command shell:
 
-``` bash
+```console
 $ groovysh
 ```
 
 Which should create an interactive groovy shell where you can type
 Groovy statements. Or to run the Swing interactive console type:
 
-``` bash
+```console
 $ groovyConsole
 ```
 
 To run a specific Groovy script type:
 
-``` bash
+```console
 $ groovy SomeScript.groovy
 ```
 
@@ -178,13 +178,13 @@ Most Linux distributions provide Groovy through their integrated
 package management system. On Debian(and derivatives like Ubuntu) you
 can install it like this:
 
-``` bash
+```console
 $ sudo apt-get install groovy
 ```
 
 On Red Hat systems the magic incantation looks like this:
 
-``` bash
+```console
 $ sudo yum install groovy
 ```
 
