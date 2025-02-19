@@ -10,7 +10,7 @@ I always thought that the fact that JDialogs accepted a parent frame
 as a constructor argument was the thing, that would make the dialog’s
 position relative to that of the frame:
 
-``` java
+```java
 public JDialog(final java.awt.Frame parent, boolean modal)
 ```
 
@@ -19,7 +19,7 @@ upper left angle of my screen, not centered over the parent JFrame. I
 looked around and found out that I simply needed one more method call
 per dialog:
 
-``` java
+```java
 theDialog.setLocationRelativeTo(theFrame);
 ```
 

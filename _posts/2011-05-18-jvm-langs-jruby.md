@@ -315,7 +315,7 @@ generally not as elegant as some of their Ruby counterparts. This might
 make you want to run some Ruby code from a Java program. JRuby allows
 you do this:
 
-``` java
+```java
 import org.jruby.embed.InvokeFailedException;
 import org.jruby.embed.ScriptingContainer;
 

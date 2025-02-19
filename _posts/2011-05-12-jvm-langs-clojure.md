@@ -233,7 +233,7 @@ I'll discuss in greater detail some of those features as I moving along.
 
 Consider this Java example from our Scala discussion:
 
-``` java
+```java
 public boolean hasUpperCase(String word) {
     if (word == null) {
         return false;
@@ -251,7 +251,7 @@ public boolean hasUpperCase(String word) {
 As a reader pointed out using the third party Guava library the code
 can be reduced to:
 
-``` java
+```java
 public boolean hasUpperCase(String word) {
     if (null != word)
         return any(charactersOf(word), new Predicate() {
@@ -283,7 +283,7 @@ pass `nil` to the `has-uppercase?` function.
 We already saw in the previous example the conciseness of Clojure
 code, but here we'll add another example. This is Java:
 
-``` java
+```java
 class Person {
     private String name;
     private int age;

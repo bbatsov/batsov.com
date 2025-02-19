@@ -277,7 +277,7 @@ the problem. Imagine that you want to find whether or not a string
 contains uppercase characters. In Java you'd write something like
 this:
 
-``` java
+```java
 public boolean hasUpperCase(String word) {
     if (word == null) {
         return false;
@@ -317,7 +317,7 @@ expression yielding a return value, unlike in many other languages.
 Consider this simple JavaBean (well, not exactly JavaBean to be
 precise - it lacks a no param constructor) definition:
 
-``` java
+```java
 class Person {
     private String name;
     private int age;
