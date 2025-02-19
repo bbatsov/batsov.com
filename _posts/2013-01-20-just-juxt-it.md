@@ -16,7 +16,7 @@ functions. The returned function takes a variable number of
 arguments, and returns a vector containing the result of applying each
 function to the arguments (from left to right). Basically:
 
-``` clojure
+```clojure
 ((juxt a b c) x) => [(a x) (b x) (c x)]
 ```
 
@@ -26,7 +26,7 @@ a sequence into two sequences - one with the values that satisfy some
 predicate and one with the values that don't. While there are many
 ways to do so, `juxt` offers one particularly elegant:
 
-``` clojure
+```clojure
 ;; illustration of the general idea
 ((juxt filter remove) pred coll)
 
@@ -37,7 +37,7 @@ ways to do so, `juxt` offers one particularly elegant:
 
 `juxt` is also quite helpful when dealing with multiple map keys:
 
-``` clojure
+```clojure
 ;; extract the values of a couple of maps keys
 ((juxt :alias :name) {:alias "Batman" :name "Bruce Wayne"})
 ;; => ["Batman" "Bruce Wayne"]

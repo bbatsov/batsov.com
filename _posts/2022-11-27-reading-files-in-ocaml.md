@@ -23,7 +23,7 @@ File.foreach(filename) { |line| puts line }
 
 In my beloved Clojure the situation is similar:
 
-``` clojure
+```clojure
 ;; read entire file into string
 (slurp filename)
 

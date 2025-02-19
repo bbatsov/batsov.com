@@ -10,7 +10,7 @@ One thing that was a bit weird for me in OCaml early on was how to introduce
 multiple `let` bindings (e.g. in the body of a function definition). Think
 something like this in Clojure:
 
-``` clojure
+```clojure
 (let [a 1
       b 2
       c 3])

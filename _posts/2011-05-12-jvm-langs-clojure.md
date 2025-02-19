@@ -93,7 +93,7 @@ hackers work.
 When core.clj is loaded you will have the language as described herein fully available.
 Try:
 
-``` clojure
+```clojure
 user=> (+ 1 2 3)
 6
 user=> (println "Hello, Clojure!")
@@ -267,7 +267,7 @@ public boolean hasUpperCase(String word) {
 It still looks quite ugly to me. For the sake of comparison here's the
 Clojure version:
 
-``` clojure
+```clojure
 (defn has-uppercase? [string]
   (some #(Character/isUpperCase %) string))
 ```
@@ -313,7 +313,7 @@ class Person {
 
 In Clojure you'd probably model this class like this:
 
-``` clojure
+```clojure
 user> (defrecord person [name age])
 user.person
 user> (person. "Bozhidar" 26)
@@ -414,7 +414,7 @@ So let's review the typical Lisp features that are present in Clojure:
       statement. In most languages it's built into the language
       itself. In Clojure it's just a short macro:
 
-``` clojure
+```clojure
 (defmacro and
   "Evaluates exprs one at a time, from left to right. If a form
   returns logical false (nil or false), and returns that value and
@@ -463,7 +463,7 @@ The core data structures in Clojure are:
 
 Let's see them in action:
 
-``` clojure
+```clojure
 ;;; Lists
 ;; list creation
 user> (list 1 2 3)
@@ -608,7 +608,7 @@ lazy seqs can be implemented using the `lazy-seq` macro. The laziness
 allows us to deal with infinite data structures easily (as long as we
 don't try to act on all of their elements that is):
 
-``` clojure
+```clojure
 (take 10 (filter even? (iterate inc 1)))
 ;; => (2 4 6 8 10 12 14 16 18 20)
 ```
@@ -673,7 +673,7 @@ problem. The Clojure STM uses multiversion concurrency control with
 adaptive history queues for snapshot isolation, and provides a
 distinct commute operation. Here's a short example:
 
-``` clojure
+```clojure
 (def picked-numbers (ref #{})
 
 (def secret-num (.nextInt (java.util.Random.) 10))
@@ -718,7 +718,7 @@ optionally, additional arguments) that are asynchronously applied to
 an agent's state and whose return value becomes the agent's new
 state. Let's see an agent (Smith maybe?) in action:
 
-``` clojure
+```clojure
 user> (def some-agent (agent 0))
 #'user/some-agent
 user> (dotimes [i 100]
@@ -737,7 +737,7 @@ state. They are a reference type like refs and vars. You create an
 atom with atom, and can access its state with deref (or @). Let's
 rework the refs example to use an atom:
 
-``` clojure
+```clojure
 (def picked-numbers (atom #{})
 
 (def secret-num (.nextInt (java.util.Random.) 10))
@@ -788,7 +788,7 @@ traditional single dispatch is just a special case in which only the
 type of the first method argument matters. Here's a taste of
 multimethods in Clojure:
 
-``` clojure
+```clojure
 (defmulti my-add (fn [x y] (and (string? x) (string? y))))
 
 (defmethod my-add true [x y]

@@ -25,7 +25,7 @@ a couple of examples from Ruby and Clojure:
 10.step(1, -2).to_a # => [10, 8, 6, 4, 2]
 ```
 
-``` clojure
+```clojure
 ;; This is Clojure
 
 (range 1 10)

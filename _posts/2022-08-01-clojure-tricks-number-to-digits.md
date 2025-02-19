@@ -12,7 +12,7 @@ number. This means you need to break down a number into its digits first. I've
 always assumed that those problems exist just because decomposing a number to
 its digits is a classic example of recursion:
 
-``` clojure
+```clojure
 (defn digits [n]
   (if (< n 10)
     [n]
@@ -27,7 +27,7 @@ differently when faced with it (including me) - they typically convert the
 number to string and then convert back the digit characters into
 numbers. Probably the simplest way to do this is something like this:
 
-``` clojure
+```clojure
 (defn digits [n]
   (map #(read-string (str %)) (str n)))
 
@@ -38,14 +38,14 @@ numbers. Probably the simplest way to do this is something like this:
 Notably, this solution doesn't require using the Java interop or any clever tricks.
 If you know Java's API a bit better you might think of leveraging `Character/digit` instead:
 
-``` clojure
+```clojure
 (defn digits [n]
   (map #(Character/digit % 10) (str n)))
 ```
 
 Much simpler, right? Now it's time for the final approach to solving the problem that is relatively common - namely a simple but clever trick to convert digit characters into numbers:
 
-``` clojure
+```clojure
 (defn char->int [c]
   (- (int c) 48))
 

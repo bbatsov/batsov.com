@@ -185,7 +185,7 @@ a + b + c
 - the syntax for array literals is somewhat weird (`[|1; 2; 3|]`) - I don't like such usage of multiple symbols as literal boundaries, as this makes it harder for dev tools to figure out what you're doing. The indexing syntax `arr.(i)` is slightly weird as well, as it doesn't fit very well with the rest of the language.
 - no first-class syntax for maps and sets (Clojure spoiled on this front)
 
-``` clojure
+```clojure
 ;; Clojure map
 {:name "Bruce Wayne" :alias "Batman"}
 

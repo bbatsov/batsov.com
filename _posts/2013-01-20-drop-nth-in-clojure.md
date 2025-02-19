@@ -9,7 +9,7 @@ tags:
 For some reason the standard Clojure library doesn't have a `drop-nth`
 function (although it has `take-nth`). Luckily implementing it is trivial:
 
-``` clojure
+```clojure
 (defn drop-nth
   [n coll]
   (->> coll
@@ -20,7 +20,7 @@ function (although it has `take-nth`). Luckily implementing it is trivial:
 
 Let's try it out:
 
-``` clojure
+```clojure
 (drop-nth 3 (range 1 10))
 ;; => (1 2 4 5 7 8)
 (drop-nth 5 (range 1 10))
