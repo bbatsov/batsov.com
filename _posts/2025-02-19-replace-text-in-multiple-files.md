@@ -13,7 +13,7 @@ to get it right. Basically I wanted to replace the language in some fenced
 code blocks and my instinct was to go for `find` and `sed`:
 
 ```console
-$ find . -name "*.md" -type f -exec sed -i 's/\` bash/\`shell/g' {} +
+$ find . -name "*.md" -type f -exec sed -i 's/` bash/`shell/g' {} +
 ```
 
 This didn't work at first, because `sed -i` expects a backup file extension (e.g. `bak`),
@@ -21,7 +21,7 @@ for the files it'd be changing. I didn't want this, as I didn't want to deal wit
 so I tweaked the command like this:
 
 ```console
-$ find . -name "*.md" -type f -exec sed -i '' 's/\` bash/\`shell/g' {} +
+$ find . -name "*.md" -type f -exec sed -i '' 's/` bash/`shell/g' {} +
 ```
 
 And that's pretty much it! This keep in mind I'm using BSD sed on macOS, and if you're
