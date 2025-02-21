@@ -60,7 +60,7 @@ problem:
 
 > 2025-02-21T10:18:32.462 helix_lsp::transport [ERROR] typescript-language-server <- InternalError: Request initialize failed with message: Could not find a valid TypeScript installation. Please ensure that the "typescript" dependency is installed in the workspace or that a valid `tsserver.path` is specified. Exiting.
 
-So, it seems `typescript-language-server` didn't depend on `typescript`. Oh, well... let's install it as well:
+So, it seems `typescript-language-server` doesn't depend on `typescript`. Oh, well... let's install it as well:
 
 ```shell
 npm install typescript -g
