@@ -36,6 +36,21 @@ Hello, world!
 Of course, one can argue that it's just as simple to start `utop` and then
 do `#use "hello.ml"` from it. Feel free to do whatever works best for you.
 
+You can take things one step further like this:
+
+```ocaml
+#!/usr/bin/env ocaml
+let () = print_endline "Hello, world!"
+```
+
+Now you can make this file an executable script and run it directly:
+
+```console
+$ chmod +x hello.ml
+$ ./hello.ml
+Hello, world!
+```
+
 While this approach should be used mostly when dealing with code that doesn't
 use external libraries, there's nothing preventing you from doing so:
 
