@@ -69,6 +69,56 @@ Don't forget to install `ocamlfind` first:
 opam install ocamlfind
 ```
 
+One last thing before we wrap up - you might be wondering about the use
+of `let ()` in the simple examples I've provided. Technically that's not
+needed, but you have to keep in mind that when you have multiple expressions in
+the source files with boundaries that the compiler can't infer you'll need to
+separate those with `;;`. Using `let` for everything eliminates the need for this:
+
+```ocaml
+#!/usr/bin/env ocaml
+let () = print_endline "Hello, world!"
+
+let () = print_endline "Bye, world!"
+```
+
+The example above works. The one below, however, doesn't:
+
+```ocaml
+#!/usr/bin/env ocaml
+print_endline "Hello, world!"
+
+print_endline "Bye, world!"
+```
+
+It will result in a syntax error, because to OCaml this code is basically one expression.
+To fix this will need to add `;;` to help the compiler:
+
+```ocaml
+#!/usr/bin/env ocaml
+print_endline "Hello, world!";;
+
+print_endline "Bye, world!";;
+```
+
+If you know that you can also use `,` to separate expressions that are
+evaluation only for their side effects (like `print_endline`) you might be
+tempted to write instead the following:
+
+```ocaml
+#!/usr/bin/env ocaml
+print_endline "Hello, world!",
+print_endline "Bye, world!";;
+```
+
+The results, however, might surprise you:
+
+```console
+$ ./hello.ml
+Bye, world!
+Hello, world!
+```
+
 If you have any other tips on running simple OCaml programs, please
 share those in the comments.
 
