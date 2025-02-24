@@ -101,22 +101,25 @@ print_endline "Hello, world!";;
 print_endline "Bye, world!";;
 ```
 
-If you know that you can also use `,` to separate expressions that are
+If you know that you can also use `;` to separate expressions that are
 evaluation only for their side effects (like `print_endline`) you might be
 tempted to write instead the following:
 
 ```ocaml
 #!/usr/bin/env ocaml
-print_endline "Hello, world!",
+print_endline "Hello, world!";
 print_endline "Bye, world!";;
 ```
 
-The results, however, might surprise you:
+I'm not a big fan of this at the top-level, though, as it's intended to be
+used mostly in bindings:
 
-```console
-$ ./hello.ml
-Bye, world!
-Hello, world!
+```ocaml
+let a = 1 in
+let b = 2 in
+print_int a;
+print_int b;
+a + b
 ```
 
 If you have any other tips on running simple OCaml programs, please
