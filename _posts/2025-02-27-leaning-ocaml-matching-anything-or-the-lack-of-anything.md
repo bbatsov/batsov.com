@@ -19,7 +19,15 @@ than the other. In OCaml `()` is the single value of the `unit` type that
 indicates the absence of any meaningful value. You can think of it as something like `void` in
 other languages. What this means is that `let ()` would only match an
 expression that actually return `unit` (like the various `print_*` functions) and you'd get a compilation error
-otherwise.
+otherwise:
+
+```console
+$ ocaml foo.ml
+File "./foo.ml", line 1, characters 9-11:
+1 | let () = 10
+             ^^
+Error: The constant 10 has type int but an expression was expected of type unit
+```
 
 `_` on the other hand is a placeholder for "anything" and it will match... anything. It's useful
 in cases when you just need to discard something. A common example to illustrate it would be something
