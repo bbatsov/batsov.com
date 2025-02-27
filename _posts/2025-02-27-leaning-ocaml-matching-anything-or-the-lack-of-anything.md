@@ -31,7 +31,8 @@ Error: The constant 10 has type int but an expression was expected of type unit
 
 `_` on the other hand is a placeholder for "anything" and it will match... anything. It's useful
 in cases when you just need to discard something. A common example to illustrate it would be something
-like:
+like pattern matching on the elements of a list. Consider the following trivial function that returns
+the last item from a list:
 
 ```ocaml
 let rec last = function
