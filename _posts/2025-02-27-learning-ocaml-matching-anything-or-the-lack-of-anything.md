@@ -1,5 +1,5 @@
 ---
-title: 'Leaning OCaml: Matching Anything or the Lack of Anything'
+title: 'Learning OCaml: Matching Anything or the Lack of Anything'
 date: 2025-02-27 13:48 +0200
 tags:
 - OCaml
