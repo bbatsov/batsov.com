@@ -106,6 +106,9 @@ importantly, the code is now more reliable as noted by Daniel Bünzli:[^2]
 >
 > Also of course it doesn’t help with making sure you correctly close your channels and don’t leak them in case of exception. The new functions finally make that a no brainer.
 
+**Note:** Daniel is referring to functions in `Stdlib`. They should not be confused with similarly named
+functions in the new `In_channel` module.
+
 You can also use `In_channel.input_line` to read file contents line by line and
 avoid excessive memory allocation. I'm still missing something like Clojure's
 `line-seq` that create a lazy seq from which you can obtain the file lines, but
