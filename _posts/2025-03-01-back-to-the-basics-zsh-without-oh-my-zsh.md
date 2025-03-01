@@ -93,6 +93,16 @@ I told you it was small and simple and I hope you'll agree I didn't lie.
 Now I know everything in my Zsh setup and I frankly don't missing anything from OMZ.
 Not to mention that Starship is a much better and faster theme than anything bundled in OMZ.
 
+By the way, if you really miss some particular plugins from OMZ, you don't
+really the whole OMZ to be able to use it. [Antidote](https://antidote.sh/) is a
+Zsh plugin manager that allows to install OMZ plugins, if you really need
+them. I don't care much about things like syntax highlighting (the most common
+use case of a Zsh plugin IMO) or pressing `ESC` twice to prefix a command with
+`sudo` (people should really learning what `C-a` does in the shell), so as you can
+imagine it's unlikely I'm be installing any plugins soon. Still, it's good to know
+you have options. The vast Zsh plugin ecosystem is probably it's main advantage over
+its arch-nemesis Bash.
+
 So, what are you waiting for? Are you going to go back to the basics as well or you're going to
 stick with OMZ?
 
