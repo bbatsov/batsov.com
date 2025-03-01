@@ -97,3 +97,11 @@ So, what are you waiting for? Are you going to go back to the basics as well or 
 stick with OMZ?
 
 That's all I have for you today. Keep hacking!
+
+**P.S.** Truth be told I probably don't really need to be using Zsh at all, given that I'm not
+using many of its unique features. These days Bash has closed the gap with Zsh when it comes to
+core functionality (e.g. Bash has its own equivalent of `autocd` and programmable completion, although
+not as fancy as Zsh's) and it will probably be enough for me if I wanted to really go back to the basics.
+
+On the other end of the spectrum - knowing I'm not particularly tied to Zsh means I can easily switch
+to some fancier shell like Fish or Nushell. Decisions, decisions...
