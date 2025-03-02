@@ -37,13 +37,15 @@ of inertia. Oh, well...
 
 It became clear to me I don't really need OMZ and I quickly replaced it with a
 tiny custom `.zshrc`.  Before I show you its contents, I'll mention that I'm
-using [Starship](https://starship.rs/) as my prompt and `fzf` to navigate the
-shell history, so if you want to emulate my setup completely you'll have to
-install them first. On macOS that's as easy as:
+using [Starship](https://starship.rs/) as my prompt, `zoxide` to move
+efficiently between directories, and `fzf` to navigate the shell history, so if
+you want to emulate my setup completely you'll have to install them first. On
+macOS that's as easy as:
 
 ``` shell
 brew install starship
 brew install fzf
+brew install zoxide
 ```
 
 And here's my `.zshrc`:
@@ -68,13 +70,11 @@ bindkey -e
 bindkey "\e[A" history-beginning-search-backward
 bindkey "\e[B" history-beginning-search-forward
 
-# Move to diretories without cd
+# Move to directories without cd
 setopt autocd
 
 # Initialize completion
 autoload -U compinit; compinit
-
-. /opt/homebrew/etc/profile.d/z.sh
 
 # The most important aliases ever (the only thing I borrowed from OMZ)
 alias l='ls -lah'
@@ -86,6 +86,10 @@ alias lsa='ls -lah'
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
 
+# Set up zoxide to move between folders efficiently
+eval "$(zoxide init zsh)"
+
+# Set up the Starship prompt
 eval "$(starship init zsh)"
 ```
 
