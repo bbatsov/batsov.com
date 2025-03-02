@@ -37,10 +37,10 @@ of inertia. Oh, well...
 
 It became clear to me I don't really need OMZ and I quickly replaced it with a
 tiny custom `.zshrc`.  Before I show you its contents, I'll mention that I'm
-using [Starship](https://starship.rs/) as my prompt, `zoxide` to move
-efficiently between directories, and `fzf` to navigate the shell history, so if
-you want to emulate my setup completely you'll have to install them first. On
-macOS that's as easy as:
+using [Starship](https://starship.rs/) as my prompt, `zoxide` (a modern
+alternative to `z` and `autojump`) to move efficiently between directories, and
+`fzf` to navigate the shell history, so if you want to emulate my setup
+completely you'll have to install them first. On macOS that's as easy as:
 
 ``` shell
 brew install starship
