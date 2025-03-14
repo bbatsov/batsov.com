@@ -101,4 +101,4 @@ programming in Emacs. The dream is alive!
 Contributions, suggestions and feedback are most welcome. Keep hacking!
 
 [^1]: I didnt' name it `neocaml-mode` intentionally - many Emacs packages contain more things
-than just major modes, so I prefer a more generic naming.
+    than just major modes, so I prefer a more generic naming.
