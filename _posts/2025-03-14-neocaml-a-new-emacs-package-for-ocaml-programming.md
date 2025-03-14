@@ -102,6 +102,7 @@ Contributions, suggestions and feedback are most welcome. Keep hacking!
 
 [^1]: I didnt' name it `neocaml-mode` intentionally - many Emacs packages contain more things
     than just major modes, so I prefer a more generic naming.
+
 [^2]: On a more serious note - there was never an `ocaml-mode`, so naming something `ocaml-ts-mode` is not
     strictly needed. But I think an actual `ocaml-mode` should be blessed by the the maintainers of OCaml,
     hosted in the primary GitHub org, and endorsed as a recommended way to program in OCaml with Emacs.
