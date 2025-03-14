@@ -10,14 +10,18 @@ Every programming language comes with some "batteries" included -
 mostly in the form of its standard library. That's typically all
 of the functionality that's available out-of-the-box, without the need
 to install additional libraries. (although the definition varies from
-language to language)
+language to language) Usually standard libraries are pretty similar,
+but I think that OCaml's a bit "weird" and slightly confusing in some
+regards, so I decided to write down a few thoughts on it and how to
+make the best of it.
 
 OCaml's standard library is called `Stdlib` and it's the source of much
 "controversy" in the OCaml community. Historically `Stdlib` was focused only the
 needs of the OCaml compiler (many people called it "the compiler library" for
 that reason) and it was very basic when it comes to the functionality that it
 provided.  This is part of the reason why libraries like Jane Street's `Base`
-and `Core`, and `CCContainers` become so popular in the OCaml community.
+and `Core` (alternatives to `Stdlib`), and `CCContainers` (complementary
+extensions to `Stdlib`) become so popular in the OCaml community.
 
 From what I gathered, the compiler authors felt it was the responsibility of the
 users of the language to find (or create) the right libraries for their
