@@ -39,14 +39,18 @@ These days, however, I've noticed an increased focus on aligning the `Stdlib`
 functionality with the expectations of most programmers. That's obvious when you
 check the recent OCaml releases, that feature many additions to it:
 
-- [OCaml 5.0](https://ocaml.org/releases/5.0.0#standard-library)
-- [OCaml 5.1](https://ocaml.org/releases/5.1.0#standard-library)
-- [OCaml 5.2](https://ocaml.org/releases/5.2.0#standard-library)
+- [OCaml 5.1](https://ocaml.org/releases/5.1.0#standard-library): 57 new standard library functions.
+- [OCaml 5.2](https://ocaml.org/releases/5.2.0#standard-library): Around 20 new functions added to the standard library.
 - [OCaml 5.3](https://ocaml.org/releases/5.3.0#standard-library): Around 20 new functions in the standard library (in the `Domain`, `Dynarray`, `Format`, `List`, `Queue`, `Sys`, and `Uchar` modules).
 
-I think this trend started somewhere around OCaml 4.10 and has accelerated recently.
-I've written about some of those additions in the past - e.g. [`List.take` and `List.drop`]({% post_url 2024-02-23-ocaml-adds-list-take-and-list-drop %}) and I think they'll be
-quite helpful to newcomers in the language.
+I've written about some of those recent additions in the past - e.g. [`List.take` and
+`List.drop`]({% post_url 2024-02-23-ocaml-adds-list-take-and-list-drop %}) and I
+think they'll be quite helpful for newcomers to the language.
+
+I think the trend to extend `Stdlib` started somewhere around [OCaml
+4.07](https://ocaml.org/releases/4.07.0) and has accelerated recently.
+That probably won't surprise long-term users of OCaml, as the `Stdlib`
+module didn't even exist before. I'll come back to this topic later in the article.
 
 ## Exploring Stdlib
 
@@ -58,7 +62,7 @@ them by `Stdlib`.
 In particular, it provides the basic operations over the built-in types
 (numbers, booleans, byte sequences, strings, exceptions, references, lists,
 arrays, input-output channels, ...) and the standard library modules.
-In OCaml 5.3 `Stdlib` consists of the following sub-modules:
+In OCaml 5.3 `Stdlib` consists of the following modules:
 
 - `Arg`: parsing of command line arguments
 - `Array`: array operations
@@ -123,12 +127,20 @@ In OCaml 5.3 `Stdlib` consists of the following sub-modules:
 
 Lots of good stuff here! Sure, it's not anything like the standard libraries of
 languages like `Ruby`, `Python` or `Java`, but you have the basics covered, at
-least to some extent. One thing I found somewhat peculiar at first was the presence
-of two versions of some modules - e.g. `List` and `ListLabels`. Both of them
-have the same functions, but the `ListLabels` module makes heavy of use of
-labeled parameters. I'm not sure what's the reasoning behind this, but I'm
-guessing this was influenced by the `Base` library, that's using labels
-everywhere pervasively. Here'a few examples:
+least to some extent.
+
+Note that unlike the core `Stdlib` module, sub-modules are not automatically
+“opened” when compilation starts, or when the toplevel system (e.g. `ocaml` or
+`utop`) is launched. Hence it is necessary to use qualified identifiers
+(e.g. `List.map`) to refer to the functions provided by these modules, or to add
+`open` directives.
+
+One thing I found somewhat peculiar at first was the presence of two versions of
+some standard library modules - e.g. `List` and `ListLabels`. Both of them have
+the same functions, but the `ListLabels` module makes heavy use of labeled
+parameters. I'm not sure what's the reasoning behind this, but I'm guessing this
+was influenced by the `Base` library, that's using labels everywhere
+pervasively. Here are a few examples:
 
 ``` ocaml
 (* Using List module *)
@@ -184,7 +196,17 @@ You can learn more about the core library [here](https://ocaml.org/manual/5.3/co
 
 Early on in my OCaml journey I'd find references here and there to a library
 named `Pervasives`, that sounded more or less like a standard library.
-Turns out that `Pervasives` got renamed to `Stdlib` in OCaml 4.07.
+Turns out that `Pervasives` got renamed to `Stdlib` in OCaml 4.07. Here are a few highlights
+from the release notes of this quite important release:
+
+- The standard library is now packed into a module called `Stdlib`, which is
+  open by default. This makes it easier to add new modules to the standard
+  library without clashing with user-defined modules.
+- The `Bigarray` module is now part of the standard library.
+- The modules `Seq`, `Float` were added to the standard library.
+
+I know `Pervasives` was kept around for a while for backwards compatibility and it seems it's no
+longer present in OCaml 5.x.
 
 ## Epilogue
 
@@ -193,5 +215,7 @@ I think that's a valid argument. Still, it seems to me that lately `Stdlib` has
 been moving in the right direction, and the out-of-the-box OCaml experience got
 improved because of this. I can only hope that this trend will continue and that
 as a result OCaml will become more beginner-friendly and more useful out-of-the-box.
+
+What improvements would you like to see there going forward?
 
 That's all I have for you today. Keep hacking!
