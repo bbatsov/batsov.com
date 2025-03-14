@@ -11,7 +11,7 @@ mostly in the form of its standard library. That's typically all
 of the functionality that's available out-of-the-box, without the need
 to install additional libraries. (although the definition varies from
 language to language) Usually standard libraries are pretty similar,
-but I think that OCaml's a bit "weird" and slightly confusing in some
+but I think that OCaml's a bit "weird" and slightly surprising in some
 regards, so I decided to write down a few thoughts on it and how to
 make the best of it.
 
@@ -20,7 +20,7 @@ OCaml's standard library is called `Stdlib` and it's the source of much
 needs of the OCaml compiler (many people called it "the compiler library" for
 that reason) and it was very basic when it comes to the functionality that it
 provided.  This is part of the reason why libraries like Jane Street's `Base`
-and `Core` (alternatives to `Stdlib`), and `CCContainers` (complementary
+and `Core` (alternatives to `Stdlib`), and `OCaml Containers` (complementary
 extensions to `Stdlib`) become so popular in the OCaml community.
 
 From what I gathered, the compiler authors felt it was the responsibility of the
@@ -180,6 +180,22 @@ Not to mention that you probably want to use something different instead. (e.g. 
 **Note:** The [documentation of
 `Stdlib`](https://ocaml.org/manual/5.3/stdlib.html) is excellent and I highly
 recommend everyone to peruse it.
+
+## `Base` or `Stdlib`?
+
+A lot of people might be wondering whether to use Jane Street's standard library
+`Base` or `Stdlib`?  I'm guessing there was a time when `Base` offered bigger
+advantages over `Stdlib`, but today it's harder to recommend `Base` over
+`Stdlib`. Especially when you factor in the library [OCaml
+Containers](https://github.com/c-cube/ocaml-containers) which provides numerous
+extensions to `Stdlib`.
+
+My advice for most newcomers would be to start with `Stdlib` and mix in Containers if
+needed. If you deem they are not enough for you - feel free to explore `Base` at this point.
+
+I think `Base` (and `Core`) are excellent and battle-tested libraries, but I still think
+it's a good idea for everyone to be familiar with OCaml's "native" standard library. And for
+all of us to be pushing to make it better, of course.
 
 ## A note about the core library
 
