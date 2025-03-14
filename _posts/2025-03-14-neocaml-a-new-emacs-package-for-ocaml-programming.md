@@ -43,7 +43,7 @@ For me it's the other way around, and that's what makes this a fun and interesti
 - I really like OCaml and it's one of my favorite "hobby" languages
 
 One last thing - we really need more Emacs packages with fun names! :D Naming is hard, and I'm
-notorious "bad" at it!
+notorious "bad" at it![^2]
 
 They say that third time's the charm, and I hope that `neocaml` will get farther than
 the other `ocaml-ts-mode`s. Time will tell!
@@ -102,3 +102,7 @@ Contributions, suggestions and feedback are most welcome. Keep hacking!
 
 [^1]: I didnt' name it `neocaml-mode` intentionally - many Emacs packages contain more things
     than just major modes, so I prefer a more generic naming.
+[^2]: On a more serious note - there was never an `ocaml-mode`, so naming something `ocaml-ts-mode` is not
+    strictly needed. But I think an actual `ocaml-mode` should be blessed by the the maintainers of OCaml,
+    hosted in the primary GitHub org, and endorsed as a recommended way to program in OCaml with Emacs.
+    Pretty tall order!
