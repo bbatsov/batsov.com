@@ -53,6 +53,32 @@ font-family = Fira Code Mono
 I'm guessing it doesn't really need much explanation - a custom keybinding for the dropdown terminal window
 and some really simple settings.
 
+**Note:** I've been using `Control + ~` as my dropdown terminal hotkey for about
+20 years and I can't recommend this keybinding highly enough. It's also part of
+the reason why I really dislike keyboards that move `~` to a different
+location.[^1] On macOS I also use `Command + ~` global keybinding (via Alfred)
+to bring to focus my main terminal window.
+
+One other thing I like about the Ghostty is the CLI. I find really handy the following commands:
+
+``` shell
+ghostty +list-fonts
+ghostty +list-keybinds
+ghostty +list-themes
+ghostty +list-colors
+ghostty +list-actions
+ghostty +show-config
+```
+
+The `+command-name` admittedly looks a bit weird, but I didn't bother to investigate why they decided to
+go down this route.
+
+I've noticed a lot of people are complaining about the lack of a GUI to configure Ghostty, but as noted
+above - the config file is more than enough for me. I'm guessing some GUI will be introduced down the road,
+but I doubt I'll ever use it.
+
+**Tip:** You can always reload the config file without restarting Ghostty - just do `Shift + Command + ,` (on macOS).
+
 I did encounter a few weird bugs here and there (e.g. the dropdown terminal not
 appearing unless I focus one of the regular Ghostty windows), but overall I
 didn't have any serious issues with Ghostty and I'm quite happy with it for now.
@@ -63,7 +89,7 @@ good AI tooling in your terminal (e.g. Aider, Claude Code, etc).
 
 ## Fish
 
-Recently I wrote about my move away from "Oh My Zsh".[^1] After this was done I
+Recently I wrote about my move away from "Oh My Zsh".[^2] After this was done I
 realized I'm using so little of Zsh's functionality that switching to Fish would
 be trivial. There's also the big [Fish 4.0](https://fishshell.com/blog/rustport/) release, where Fish is rewritten in Rust!
 
@@ -124,4 +150,5 @@ and I don't require a life (or two) to truly master.
 
 Expect to read more about my Ghostty and Fish experience going forward. In the mean time - always be improving your own toolboxes! Keep hacking!
 
-[^1]: See {% post_url 2025-03-01-back-to-the-basics-zsh-without-oh-my-zsh %}
+[^1]: Recently I got a HHKB and was quickly forced to remap `Esc` there to `~`.
+[^2]: See {% post_url 2025-03-01-back-to-the-basics-zsh-without-oh-my-zsh %}
