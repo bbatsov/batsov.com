@@ -39,6 +39,7 @@ These days, however, I've noticed an increased focus on aligning the `Stdlib`
 functionality with the expectations of most programmers. That's obvious when you
 check the recent OCaml releases, that feature many additions to it:
 
+- [OCaml 4.14](https://ocaml.org/releases/4.14.0#standard-library): 40+ functions added to `Seq` alone.
 - [OCaml 5.1](https://ocaml.org/releases/5.1.0#standard-library): 57 new standard library functions.
 - [OCaml 5.2](https://ocaml.org/releases/5.2.0#standard-library): Around 20 new functions added to the standard library.
 - [OCaml 5.3](https://ocaml.org/releases/5.3.0#standard-library): Around 20 new functions in the standard library (in the `Domain`, `Dynarray`, `Format`, `List`, `Queue`, `Sys`, and `Uchar` modules).
@@ -46,6 +47,19 @@ check the recent OCaml releases, that feature many additions to it:
 I've written about some of those recent additions in the past - e.g. [`List.take` and
 `List.drop`]({% post_url 2024-02-23-ocaml-adds-list-take-and-list-drop %}) and I
 think they'll be quite helpful for newcomers to the language.
+
+Looking at many of the discussions extending the `Stdlib` APIs, the goal is
+often to emulate what other functional programming languages like Haskell and
+Clojure provide in their own standard libraries. Here's one [pull
+request](https://github.com/ocaml/ocaml/pull/10583) from OCaml 4.14 that extends
+the `Seq` module:
+
+> This PR (co-developed by @c-cube and myself) adds many new functions to the
+> module Seq. Our goal is to include most of the functions that one might
+> naturally expect to find in this module, and which have been missing until
+> now. Many of these functions are analogous to functions that exist in
+> Haskell's Prelude and Data.List. Some functions (such as memoize, once,
+> of_iterator and to_iterator) have no Haskell equivalent.
 
 I think the trend to extend `Stdlib` started somewhere around [OCaml
 4.07](https://ocaml.org/releases/4.07.0) and has accelerated recently.
