@@ -340,7 +340,7 @@ the languages started to diverge a bit, though.[^3]
 If you ask most people about the pros and cons of F# over OCaml you'll probably
 get the following answers.
 
-**Pros**
+**F# Pros**
 
 - Runs on .NET
   - Tons of libraries are at disposal
@@ -350,13 +350,14 @@ get the following answers.
   - It's easier to debug problems
 - Strong support for [async programming](https://learn.microsoft.com/en-us/dotnet/fsharp/tutorials/async)
 - Has some cool features, absent in OCaml, like:
+  - Anonymous Records
   - Active Patterns
   - Computational expressions
   - Sequence comprehensions
   - Type Providers
   - Units of measure
 
-**Cons**
+**F# Cons**
 
 - Runs on .NET
   - The interop with .NET influenced a lot of language design decisions (e.g. allowing `null`)
@@ -420,6 +421,11 @@ Let's not forget about [Fable][], which makes it possible for you leverage
 F# in JavaScript, Dart, Rust and Python runtimes!
 
 So, why F#? Become it's seriously **fun** and seriously practical!
+Also if your code compiles - it will probably work the way you expect it to.
+
+That's all I have for you today. Please, share in the comments what do you love about F#!
+
+In sane type systems we trust!
 
 [^1]: I had some C# courses in the university and I wrote my bachelor's thesis in C#. It was a rewrite of Arch Linux's `pacman`, running on Mono. This was way back in 2007.
 [^2]: See <https://fsharp.org/history/hopl-final/hopl-fsharp.pdf>
