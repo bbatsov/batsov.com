@@ -53,6 +53,21 @@ let greet name =
     printfn "Hello, %s!" name
 
 greet "World"
+
+type Shape =
+    | Circle of radius: float
+    | Rectangle of width: float * height: float
+
+let area shape =
+    match shape with
+    | Circle radius -> System.Math.PI * radius * radius
+    | Rectangle (width, height) -> width * height
+
+let circle = Circle 5.0
+let rectangle = Rectangle(4.0, 3.0)
+
+printfn "Circle area: %f" (area circle)
+printfn "Rectangle area: %f" (area rectangle)
 ```
 
 Nothing shocking here, right?
