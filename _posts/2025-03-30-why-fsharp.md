@@ -347,7 +347,8 @@ get the following answers.
 - Backed by Microsoft
 - Arguably it's a bit easier to learn by newcomers (especially those who have only experience with OO programming)
   - The syntax is slightly easier to pick up (I think)
-  - It's easier to debug problems
+  - The compiler errors and warnings are "friendlier" (easier to understand)
+  - It's easier to debug problems (partially related to the previous item)
 - Strong support for [async programming](https://learn.microsoft.com/en-us/dotnet/fsharp/tutorials/async)
 - Has some cool features, absent in OCaml, like:
   - Anonymous Records
