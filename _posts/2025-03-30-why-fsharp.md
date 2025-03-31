@@ -188,7 +188,7 @@ My initial impression of the community is that it's fairly small, perhaps even
 smaller than that of OCaml.  The F# Reddit and Discord (the one listed on
 Reddit) seem like the most active places for F# conversations. There's supposed
 to be some F# Slack as well, but I couldn't get an invite for it. (seems the
-automated process for issueing those invites has been broken for a while)
+automated process for issuing those invites has been broken for a while)
 
 I'm still not sure what's the role Microsoft plays in the community, as I
 haven't seen much from them overall.
