@@ -104,6 +104,8 @@ let name = "FOO".ToLower()
 
 // operators can be overloaded for different types
 let string1 = "Hello, " + "world"
+let num1 = 1 + 2
+let num2 = 1.0 + 2.5
 
 // universal printing
 printfn "%A" [1..2..100]
