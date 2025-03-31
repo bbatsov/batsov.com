@@ -24,9 +24,14 @@ Clojure. My work with OCaml drew my attention recently to F#, an ML targeting
 F# 1.0 was officially released in May 2005 by Microsoft Research. It was
 initially developed by Don Syme at Microsoft Research in Cambridge and evolved
 from an earlier research project called "Caml.NET," which aimed to bring OCaml
-to the .NET platform.[^2] F# has been steadily evolving since then and the most recent
-release [F# 9.0](https://learn.microsoft.com/en-us/dotnet/fsharp/whats-new/fsharp-9) was released in November 2024.
-It seems only appropriate that F# would come to my attention in the year of its 20th birthday!
+to the .NET platform.[^2] F# was officially moved from Microsoft Research to
+Microsoft (as part of their developer tooling division) in 2010 (timed
+with the release of F# 2.0).
+
+F# has been steadily evolving since those early days and the most recent release
+[F# 9.0](https://learn.microsoft.com/en-us/dotnet/fsharp/whats-new/fsharp-9) was
+released in November 2024.  It seems only appropriate that F# would come to my
+attention in the year of its 20th birthday!
 
 There were several reasons why I wanted to try out F#:
 
@@ -285,7 +290,7 @@ get the following answers.
 
 - Runs on .NET
   - Tons of libraries are at disposal
-- Backed by Microsoft (Research)
+- Backed by Microsoft
 - Arguably it's a bit easier to learn by newcomers (especially those who have only experience with OO programming)
   - The syntax is slightly easier to pick up (I think)
   - It's easier to debug problems
@@ -301,9 +306,9 @@ get the following answers.
 
 - Runs on .NET
   - The interop with .NET influenced a lot of language design decisions (e.g. allowing `null`)
-- Backed by Microsoft (Research)
+- Backed by Microsoft
   - Not everyone likes Microsoft
-  - Microsoft Research is not Microsoft, so the resources allocated to F# are modest
+  - Seems the resources allocated to F# by Microsoft are modest
   - It's unclear how committed Microsoft will be to F# in the long run
 - Naming conventions: I like `snake_case` way more than `camelCase` and `PascalCase`
 - Misses some cool OCaml features
@@ -312,13 +317,16 @@ get the following answers.
 - Doesn't have a friendly camel logo
 - The name F# sounds cool, but is a search and filename nightmare (and you'll see FSharp quite often in the wild)
 
-Both F# and OCaml can also target JavaScript runtimes as well - via [Fable][] on the F# side and Js_of_ocaml and Melange on the OCaml side. Fable seems like a more mature solution at a cursory glance, but I haven't
-used any of the three enough to be able to offer an informed opinion.
+Both F# and OCaml can also target JavaScript runtimes as well - via [Fable][] on
+the F# side and Js_of_ocaml and Melange on the OCaml side. Fable seems like a
+more mature solution at a cursory glance, but I haven't used any of the three
+enough to be able to offer an informed opinion.
 
-In the end of the day both remain two fairly similar robust, yet niche, languages, which are unlikely to become
-very popular in the future. I'm guessing working professionally with F# is more likely to happen for most
-people, as .NET is super popular and I can imagine it'd be fairly easy to sneak a bit of F# here in there
-in established C# codebases.
+In the end of the day both remain two fairly similar robust, yet niche,
+languages, which are unlikely to become very popular in the future. I'm guessing
+working professionally with F# is more likely to happen for most people, as .NET
+is super popular and I can imagine it'd be fairly easy to sneak a bit of F# here
+in there in established C# codebases.
 
 One weird thing I've noticed with F# projects is that they still use XML project
 manifests, where you have to list the source files manually in the order in
@@ -339,6 +347,11 @@ All in all I liked F# way more than I expected to! In a way it reminded me of my
 experience with Clojure back in the day in the sense that Clojure was the most
 practical Lisp out there when it was released, mostly because of its great
 interop with Java.
+
+I have a feeling that if .NET was portable since day 1 probably ClojureCLR would have become
+as popular as Clojure, and likely F# would have developed a bigger community and
+broader usage by now. I'm fairly certain I would have never dabbled in .NET again
+if it hadn't been for .NET Core, and I doubt I'm the only one.
 
 Learning OCaml is definitely not hard, but I think that people interested to learn some ML
 might have an easier time with F#. And, as mentioned earlier, you'll probably have an
