@@ -18,7 +18,7 @@ I guess everyone who reads my blog knows that in the past few years I've been
 playing on and off with OCaml and I think it's safe to say that it has become
 one of my favorite programming languages - alongside the likes of Ruby and
 Clojure. My work with OCaml drew my attention recently to F#, an ML targeting
-.NET, developed by Microsoft Research. The functional counterpart of the
+.NET, developed by Microsoft. The functional counterpart of the
 (mostly) object-oriented C#. The newest ML language created...
 
 F# 1.0 was officially released in May 2005 by Microsoft Research. It was
