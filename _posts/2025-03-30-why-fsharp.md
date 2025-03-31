@@ -256,6 +256,21 @@ another easy way to sneak F# into your day-to-day work.
 4, you can also target other languages such as TypeScript, Rust, Python, and
 more.
 
+Here's how easy it is to transpile an F# codebase into something else:
+
+``` shell
+# If you want to transpile to JavaScript
+dotnet fable
+
+# If you want to transpile to TypeScript
+dotnet fable --lang typescript
+
+# If you want to transpile to Python
+dotnet fable --lang python
+```
+
+Cool stuff!
+
 ## F# vs OCaml
 
 F# was derived from OCaml, so the two languages share a lot of DNA. Early on
