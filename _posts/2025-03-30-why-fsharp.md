@@ -134,6 +134,27 @@ That's a pretty common setup when it comes to hosted languages in general, so no
 If you've ever used another hosted language (e.g. Scala, Clojure, Groovy) then you probably know what
 to expect.
 
+[Awesome F#](https://github.com/fsprojects/awesome-fsharp) keeps track of popular F# libraries, tools and frameworks. I'll highlight here the web development and data science libraries:
+
+**Web Development**
+
+- **Giraffe**: A lightweight library for building web applications using ASP.NET Core. It provides a functional approach to web development.
+- **Suave**: A simple and lightweight web server library with combinators for routing and task composition. (Giraffe was inspired by Suave)
+- **Saturn**: Built on top of Giraffe and ASP.NET Core, it offers an MVC-style framework inspired by Ruby on Rails and Elixir's Phoenix.
+- **Bolero**: A framework for building client-side applications in F# using WebAssembly and Blazor.
+- **Fable**: A compiler that translates F# code into JavaScript, enabling integration with popular JavaScript ecosystems like React or Node.js.
+- **Elmish**: A model-view-update (MVU) architecture for building web UIs in F#, often used with Fable.
+- **SAFE Stack**: An end-to-end, functional-first stack for building cloud-ready web applications. It combines technologies like Saturn, Azure, Fable, and Elmish for a type-safe development experience.
+
+**Data Science**
+
+- **Deedle**: A library for data manipulation and exploratory analysis, similar to pandas in Python.
+- **DiffSharp**: A library for automatic differentiation and machine learning.
+- **FsLab**: A collection of libraries tailored for data science, including visualization and statistical tools.
+
+I haven't played much with any of them at this point yet, so I'll reserve any
+feedback and recommendations for some point in the future.
+
 ## Documentation
 
 The official documentation is pretty good, although I find it kind of weird that
