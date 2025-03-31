@@ -249,6 +249,13 @@ of features like [type providers](https://learn.microsoft.com/en-us/dotnet/fshar
 Probably a good fit for backend services and even full-stack apps, although I haven't really played
 with the F# first solutions in this space yet.
 
+Fable and Elmish make F# a viable option for client-side programming and might offer
+another easy way to sneak F# into your day-to-day work.
+
+**Note:** Historically, Fable has been used to target JavaScript but since Fable
+4, you can also target other languages such as TypeScript, Rust, Python, and
+more.
+
 ## F# vs OCaml
 
 F# was derived from OCaml, so the two languages share a lot of DNA. Early on
@@ -290,6 +297,9 @@ get the following answers.
 - Doesn't have a friendly camel logo
 - The name F# sounds cool, but is a search and filename nightmare (and you'll see FSharp quite often in the wild)
 
+Both F# and OCaml can also target JavaScript runtimes as well - via [Fable][] on the F# side and Js_of_ocaml and Melange on the OCaml side. Fable seems like a more mature solution at a cursory glance, but I haven't
+used any of the three enough to be able to offer an informed opinion.
+
 In the end of the day both remain two fairly similar robust, yet niche, languages, which are unlikely to become
 very popular in the future. I'm guessing working professionally with F# is more likely to happen for most
 people, as .NET is super popular and I can imagine it'd be fairly easy to sneak a bit of F# here in there
@@ -324,8 +334,13 @@ Perhaps more importantly - everyone looking to do more with an ML family languag
 should definitely consider F#, as it's a great language in its own right, that gives
 you access to one of the most powerful programming platforms out there.
 
-So, why F#? Become it's seriously fun and seriously practical!
+Let's not forget about [Fable][], which makes it possible for you leverage
+F# in JavaScript, Dart, Rust and Python runtimes!
+
+So, why F#? Become it's seriously **fun** and seriously practical!
 
 [^1]: I had some C# courses in the university and I wrote my bachelor's thesis in C#. It was a rewrite of Arch Linux's `pacman`, running on Mono. This was way back in 2007.
 [^2]: See <https://fsharp.org/history/hopl-final/hopl-fsharp.pdf>
 [^3]: <https://github.com/fsharp/fslang-suggestions/issues/985>
+
+[Fable]: https://fable.io/
