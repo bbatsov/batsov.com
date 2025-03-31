@@ -127,7 +127,7 @@ dotnet fsi Sales.fsx
 ```
 
 Now you know that F# is a great choice for ad-hoc scripts! Also, running `dotnet fsi` by itself
-will pop an F# REPL where you can explore the language at your leasure.
+will pop an F# REPL where you can explore the language at your leisure.
 
 I'm not going to go into great details here, as much of what I wrote about OCaml
 [here]({% post_url 2022-08-29-ocaml-at-first-glance %}) applies to F# as well.
