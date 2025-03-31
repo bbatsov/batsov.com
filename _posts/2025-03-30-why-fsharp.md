@@ -113,6 +113,17 @@ to learn that `async/await` (of C# and later JavaScript fame) originated in... F
 
 Time will tell what will happen, but I think it's unlikely that C# will ever be able to fully replace F#.
 
+I've also found this [encouraging comment from 2022](https://www.reddit.com/r/fsharp/comments/xlegmc/why_doesnt_microsoft_use_f/) that Microsoft might be willing to invest more in F#:
+
+> Some good news for you. After 10 years of F# being developed by 2.5 people
+> internally and some random community efforts, Microsoft has finally decided to
+> properly invest in F# and created a full-fledged team in Prague this
+> summer. I'm a dev in this team, just like you I was an F# fan for many years
+> so I am happy things got finally moving here.
+
+Looking at the changes in F# 8.0 and F 9.0, it seems the new full-fledged team
+has done some great work!
+
 ## Ecosystem
 
 It's hard to assess the ecosystem around F# after such a brief period, but overall it seems to
