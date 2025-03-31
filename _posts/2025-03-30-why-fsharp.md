@@ -59,6 +59,8 @@ Nothing shocking here, right?
 
 I'm not going to go into great details here, as much of what I wrote about OCaml
 [here]({% post_url 2022-08-29-ocaml-at-first-glance %}) applies to F# as well.
+I'd also suggest this quick [tour of F#](https://learn.microsoft.com/en-us/dotnet/fsharp/tour)
+to get a better feel for its syntax.
 
 One thing that made a good impression to me is the focus of the language designers on
 making F# approachable to newcomers, by providing a lot of small quality of life improvements
@@ -157,13 +159,15 @@ Still, I'll mention that I found the tooling lacking in some regards:
 I'm really struggling with VS Code's keybindings and editing model, so I'll likely stick with Emacs going forward. Or I'll finally spend more quality time with neovim!
 
 It seems that everyone is using the same code formatter (`Fantomas`), including the F# team, which is great!
-The linter story in F# is not as great (seems the only popular linter is abandonware these days), but when your
+The linter story in F# is not as great (seems the only popular linter [FSharpLint](https://fsprojects.github.io/FSharpLint/) is abandonware these days), but when your
 compiler is so good, you don't really need a linter as much.
 
-Oh, well... It seems that Microsoft are not really particularly invested in supporting the tooling for F#, as pretty much all the major projects in this space are
-community-driven.
+Oh, well... It seems that Microsoft are not really particularly invested in
+supporting the tooling for F#, as pretty much all the major projects in this
+space are community-driven.
 
-Using AI coding agents (e.g. Copilot) with F# worked pretty well, but I didn't spend much time on this front.
+Using AI coding agents (e.g. Copilot) with F# worked pretty well, but I didn't
+spend much time on this front.
 
 In the end of the day any editor will likely do, as long as you're using LSP.
 
@@ -216,6 +220,7 @@ get the following answers.
 - Arguably it's a bit easier to learn by newcomers (especially those who have only experience with OO programming)
   - The syntax is slightly easier to pick up (I think)
   - It's easier to debug problems
+- Strong support for [async programming](https://learn.microsoft.com/en-us/dotnet/fsharp/tutorials/async)
 - Has some cool features, absent in OCaml, like:
   - Active Patterns
   - Computational expressions
