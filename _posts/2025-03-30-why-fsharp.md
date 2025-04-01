@@ -350,6 +350,24 @@ I really liked the following parts of the documentation:
 
 ## Dev Tooling
 
+F# has a somewhat troubled dev tooling story, as historically
+support for F# was great only in Visual Studio, and somewhat subpar
+elsewhere. Fortunately, the tooling story has improved a lot in the past
+decade:
+
+> In 2014 a technical breakthrough was made with the creation of the
+> FSharp.Compiler.Service (FCS) package by Tomas Petricek, Ryan Riley, and Dave
+> Thomas with many later contributors. This contains the core implementation of
+> the F# compiler, editor tooling and scripting engine in the form of a single
+> library and can be used to make F# tooling for a wide range of
+> situations. This has allowed F# to be delivered into many more editors,
+> scripting and documentation tools and allowed the development of alternative
+> backends for F#. Key editor community-based tooling includes Ionide, by
+> Krzysztof Cieślak and contributors, used for rich editing support in the
+> cross-platform VSCode editor, with over 1M downloads at time of writing.
+>
+> -- Don Syme, The Early History of F#
+
 I've played with the F# plugins for several editors:
 
 - Emacs (`fsharp-mode`)
@@ -388,6 +406,11 @@ By the way, I had an interesting observation while programming in F# (and OCaml 
 that when you're working with a language with a really good type system you don't really need that much
 from your editor. Most the time I'm perfectly happy with just some inline type information (e.g. something like CodeLenses), auto-completion and the ability to easily send code to `fsi`. Simplicity continues
 to be the ultimate sophistication...
+
+Other tools that should be on your radar are:
+
+- [Paket](https://fsprojects.github.io/Paket/) - Paket is a dependency manager for .NET projects. Think of it as something like `bundler`, `npm` or `pip`, but for .NET's NuGet package ecosystem.
+- [FAKE](https://fake.build/) -  A DSL for build tasks and more, where you can use F# to specify the tasks. Somewhat similar to Ruby's `rake`. Some people claim that's the easiest way to sneak F# into an existing .NET project.
 
 ## Use Cases
 
