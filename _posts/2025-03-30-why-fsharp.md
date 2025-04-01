@@ -437,6 +437,18 @@ far as community engagement and sense of belonging go.
 I didn't find many books and community sites/blogs dedicated to F#, but I didn't
 really expect to in the first place.
 
+The most notable community initiatives I discovered were:
+
+- [Amplifying F#](https://amplifyingfsharp.io/) - an effort to promote F# and to get more businesses involved with it
+- [F# for Fun and Profit](https://fsharpforfunandprofit.com) - a collection of tutorials and essays on F#
+- [F# Lab](https://fslab.org/) - The community driven toolkit for datascience in F#
+- [F# Weekly](https://sergeytihon.com/category/f-weekly/) - a weekly newsletter about the latest developments in the world of F#
+
+Seems to me that more can be done to promote the language and engage new programmers and businesses
+with it, although that's never easy 20 years into the existence of some project. I continue to be
+somewhat puzzled as to why Microsoft doesn't market F# more, as I think it could be a great
+marketing vehicle for them.
+
 All in all - I don't feel qualified to comment much on the F# community at this point.
 
 ## The Popularity Contest
