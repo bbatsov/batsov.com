@@ -381,6 +381,11 @@ spend much time on this front.
 
 In the end of the day any editor will likely do, as long as you're using LSP.
 
+By the way, I had an interesting observation while programming in F# (and OCaml for that matter) -
+that when you're working with a language with a really good type system you don't really need that much
+from your editor. Most the time I'm perfectly happy with just some inline type information (e.g. something like CodeLenses), auto-completion and the ability to easily send code to `fsi`. Simplicity continues
+to be the ultimate sophistication...
+
 ## Use Cases
 
 Given the depth and breath of .NET - I guess that sky is the limit for you!
