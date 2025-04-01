@@ -21,27 +21,6 @@ Clojure. My work with OCaml drew my attention recently to F#, an ML targeting
 .NET, developed by Microsoft. The functional counterpart of the
 (mostly) object-oriented C#. The newest ML language created...
 
-F# 1.0 was officially released in May 2005 by Microsoft Research. It was
-initially developed by Don Syme at Microsoft Research in Cambridge and evolved
-from an earlier research project called "Caml.NET," which aimed to bring OCaml
-to the .NET platform.[^2] F# was officially moved from Microsoft Research to
-Microsoft (as part of their developer tooling division) in 2010 (timed
-with the release of F# 2.0).
-
-F# has been steadily evolving since those early days and the most recent release
-[F# 9.0](https://learn.microsoft.com/en-us/dotnet/fsharp/whats-new/fsharp-9) was
-released in November 2024.  It seems only appropriate that F# would come to my
-attention in the year of its 20th birthday!
-
-There were several reasons why I wanted to try out F#:
-
-- .NET became open-source and portable a few years ago and I wanted to check the progress on that front
-- I was curious if F# offers any advantages over OCaml
-- I've heard good things about the F# tooling (e.g. Rider and Ionide)
-- I like playing with new programming languages
-
-Below you'll find my initial impressions for several areas.
-
 ## What is F#?
 
 > Unfortunately, no one can be told what the Matrix is. You have to see it for yourself.
@@ -85,6 +64,27 @@ F# has numerous features, including:
 A full set of features are documented in the [F# language guide](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/).
 
 Looks pretty promising, right?
+
+F# 1.0 was officially released in May 2005 by Microsoft Research. It was
+initially developed by Don Syme at Microsoft Research in Cambridge and evolved
+from an earlier research project called "Caml.NET," which aimed to bring OCaml
+to the .NET platform.[^2] F# was officially moved from Microsoft Research to
+Microsoft (as part of their developer tooling division) in 2010 (timed
+with the release of F# 2.0).
+
+F# has been steadily evolving since those early days and the most recent release
+[F# 9.0](https://learn.microsoft.com/en-us/dotnet/fsharp/whats-new/fsharp-9) was
+released in November 2024.  It seems only appropriate that F# would come to my
+attention in the year of its 20th birthday!
+
+There were several reasons why I wanted to try out F#:
+
+- .NET became open-source and portable a few years ago and I wanted to check the progress on that front
+- I was curious if F# offers any advantages over OCaml
+- I've heard good things about the F# tooling (e.g. Rider and Ionide)
+- I like playing with new programming languages
+
+Below you'll find my initial impressions for several areas.
 
 ## The Language
 
