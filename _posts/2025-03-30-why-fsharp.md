@@ -339,12 +339,24 @@ Cool stuff!
 > OCaml language and a portion of its base library to target the .NET Common Language Runtime.
 > The implementation would be fresh, i.e. not using any of the OCaml codebase, for legal clarity.
 >
-> -- Don Syme, creator of F#
+> -- Don Syme, creator of F#, The Early History of F#
 
 F# was derived from OCaml, so the two languages share a lot of DNA. Early on
 F# made some efforts to support as much of OCaml's syntax as possible, and it
 even allowed the use of `.ml` and `.mli` file extensions for F# code. Over time
 the languages started to diverge a bit, though.[^3]
+
+Creating a language that's independent from OCaml, of course, was something
+intended from the very beginning. That's also reflected in the decision
+to chose the name F#, even if early versions of the language were called "Caml.NET":
+
+> Although the first version of F# was initially presented as “Caml-for-.NET”,
+> in reality it was always a new language, designed for .NET from day 1. F# was
+> never fully compatible with any version of OCaml, though it shared a compatible
+> subset, and it took Caml-Light and OCaml as its principal sources of design
+> guidance and inspiration.
+>
+> -- Don Syme, The Early History of F#
 
 If you ask most people about the pros and cons of F# over OCaml you'll probably
 get the following answers.
