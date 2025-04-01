@@ -332,6 +332,15 @@ Cool stuff!
 
 ## F# vs OCaml
 
+> The early conception of F# was simple: to bring the benefits of OCaml to .NET and .NET to OCaml: a
+> marriage between strongly typed functional programming and .NET. Here “OCaml” meant both the
+> core of the language itself, and the pragmatic approach to strongly-typed functional programming
+> it represented. The initial task was relatively well-defined: I would re-implement the core of the
+> OCaml language and a portion of its base library to target the .NET Common Language Runtime.
+> The implementation would be fresh, i.e. not using any of the OCaml codebase, for legal clarity.
+>
+> -- Don Syme, creator of F#
+
 F# was derived from OCaml, so the two languages share a lot of DNA. Early on
 F# made some efforts to support as much of OCaml's syntax as possible, and it
 even allowed the use of `.ml` and `.mli` file extensions for F# code. Over time
