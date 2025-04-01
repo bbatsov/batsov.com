@@ -595,6 +595,11 @@ on the language.
 
 ## Closing thoughts
 
+> Question: What can C# do that F# can't?
+> Answer: NullReferenceException!
+>
+> -- F# Community joke
+
 All in all I liked F# way more than I expected to! In a way it reminded me of my
 experience with Clojure back in the day in the sense that Clojure was the most
 practical Lisp out there when it was released, mostly because of its great
