@@ -324,27 +324,6 @@ spend much time on this front.
 
 In the end of the day any editor will likely do, as long as you're using LSP.
 
-## Community
-
-My initial impression of the community is that it's fairly small, perhaps even
-smaller than that of OCaml.  The F# Reddit and Discord (the one listed on
-Reddit) seem like the most active places for F# conversations. There's supposed
-to be some F# Slack as well, but I couldn't get an invite for it. (seems the
-automated process for issuing those invites has been broken for a while)
-
-I'm still not sure what's the role Microsoft plays in the community, as I
-haven't seen much from them overall.
-
-For a me a small community is not really a problem, as long as the community is
-vibrant and active. Also - I've noticed I always feel more connected to smaller
-communities. Moving from Java to Ruby back in the day felt like night and day as
-far as community engagement and sense of belonging go.
-
-I didn't find many books and community sites/blogs dedicated to F#, but I didn't
-really expect to in the first place.
-
-All in all - I don't feel qualified to comment much on the F# community at this point.
-
 ## Use Cases
 
 Given the depth and breath of .NET - I guess that sky is the limit for you!
@@ -376,6 +355,55 @@ dotnet fable --lang python
 ```
 
 Cool stuff!
+
+## Community
+
+My initial impression of the community is that it's fairly small, perhaps even
+smaller than that of OCaml.  The F# Reddit and Discord (the one listed on
+Reddit) seem like the most active places for F# conversations. There's supposed
+to be some F# Slack as well, but I couldn't get an invite for it. (seems the
+automated process for issuing those invites has been broken for a while)
+
+I'm still not sure what's the role Microsoft plays in the community, as I
+haven't seen much from them overall.
+
+For a me a small community is not really a problem, as long as the community is
+vibrant and active. Also - I've noticed I always feel more connected to smaller
+communities. Moving from Java to Ruby back in the day felt like night and day as
+far as community engagement and sense of belonging go.
+
+I didn't find many books and community sites/blogs dedicated to F#, but I didn't
+really expect to in the first place.
+
+All in all - I don't feel qualified to comment much on the F# community at this point.
+
+## The Popularity Contest
+
+Depending on the type of person you are you may or may not care about a a programming language's
+"popularity". People often ask my why I spent a lot of time with languages that are unlikely to
+ever result in job opportunities for me, e.g.:
+
+- Emacs Lisp
+- Clojure
+- OCaml
+- F#
+
+Professional opportunities are important, of course, but so are:
+
+- having fun (and the F in F# stands for "fun")
+- learning new paradigms and ideas
+- challenging yourself to think and work differently
+
+That being said, F# is not a popular language by most conventional metrics. It's not highly ranked
+on TIOBE, StackOverflow or most job boards. But it's also not less popular than most "mainstream"
+functional programming languages. The sad reality is that functional programming is still not
+mainstream and perhaps it will never be.
+
+A few more resources on the subject:
+
+- [About F#'s popularity](https://medium.com/@lanayx/about-f-popularity-c9b78ed89252)
+- [How Popular is F# in 2024](https://hamy.xyz/blog/2024-11_fsharp-popularity)
+  - Here's also a [video](https://www.youtube.com/watch?v=JioaHcy_QE0&t=1s) for the article above
 
 ## F# vs OCaml
 
