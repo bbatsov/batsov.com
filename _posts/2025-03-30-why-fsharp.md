@@ -98,12 +98,65 @@ home with the syntax. And Lispers.
 For everyone else - it'd be fairly easy to pick up the basics.
 
 ``` fsharp
+// function application
 printfn "Hello, World!"
 
+// function definition
 let greet name =
     printfn "Hello, %s!" name
 
 greet "World"
+
+// whitespace is significant, like in Python
+let foo =
+    let i, j, k = (1, 2, 3)
+
+    // Body expression:
+    i + 2 * j + 3 * k
+
+// conditional expressions
+let test x y =
+  if x = y then "equals"
+  elif x < y then "is less than"
+  else "is greater than"
+
+printfn "%d %s %d." 10 (test 10 20) 20
+
+// Looping over a list.
+let list1 = [ 1; 5; 100; 450; 788 ]
+for i in list1 do
+   printfn "%d" i
+
+// Looping over a sequence of tuples
+let seq1 = seq { for i in 1 .. 10 -> (i, i*i) }
+for (a, asqr) in seq1 do
+  printfn "%d squared is %d" a asqr
+
+// A simple for...to loop.
+let function1 () =
+  for i = 1 to 10 do
+    printf "%d " i
+  printfn ""
+
+// A for...to loop that counts in reverse.
+let function2 () =
+  for i = 10 downto 1 do
+    printf "%d " i
+  printfn ""
+
+// Records
+
+// Labels are separated by semicolons when defined on the same line.
+type Point = { X: float; Y: float; Z: float }
+
+// You can define labels on their own line with or without a semicolon.
+type Customer =
+    { First: string
+      Last: string
+      SSN: uint32
+      AccountNumber: uint32 }
+
+let mypoint = { X = 1.0; Y = 1.0; Z = -1.0 }
 
 // Discriminated Union
 type Shape =
