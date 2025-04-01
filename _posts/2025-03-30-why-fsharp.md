@@ -235,7 +235,7 @@ I'm not going to go into great details here, as much of what I wrote about OCaml
 I'd also suggest this quick [tour of F#](https://learn.microsoft.com/en-us/dotnet/fsharp/tour)
 to get a better feel for its syntax.
 
-**Tip:** Check out the [F# cheatsheet](https://fsprojects.github.io/fsharp-cheatsheet/fsharp-cheatsheet.pdf)
+**Tip:** Check out the [F# cheatsheet](https://fsprojects.github.io/fsharp-cheatsheet/)
 if you'd like to see a quick syntax reference.
 
 One thing that made a good impression to me is the focus of the language designers on
