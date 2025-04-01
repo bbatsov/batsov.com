@@ -42,6 +42,50 @@ There were several reasons why I wanted to try out F#:
 
 Below you'll find my initial impressions for several areas.
 
+## What is F#?
+
+> Unfortunately, no one can be told what the Matrix is. You have to see it for yourself.
+>
+> -- Morpheus, The Matrix
+
+Before we start discussing F#, I guess we should answer first the question
+"What is F#?". I'll borrow a bit from the [official page](https://learn.microsoft.com/en-us/dotnet/fsharp/what-is-fsharp) to answer it.
+
+F# is a universal programming language for writing succinct, robust and performant code.
+
+F# allows you to write uncluttered, self-documenting code, where your focus remains on your problem domain, rather than the details of programming.
+
+It does this without compromising on speed and compatibility - it is open-source, cross-platform and interoperable.
+
+``` fsharp
+open System // Gets access to functionality in System namespace.
+
+// Defines a list of names
+let names = [ "Peter"; "Julia"; "Xi" ]
+
+// Defines a function that takes a name and produces a greeting.
+let getGreeting name = $"Hello, {name}"
+
+// Prints a greeting for each name!
+names
+|> List.map getGreeting
+|> List.iter (fun greeting -> printfn $"{greeting}! Enjoy your F#")
+```
+
+F# has numerous features, including:
+
+- Lightweight syntax
+- Immutable by default
+- Type inference and automatic generalization
+- First-class functions
+- Powerful data types
+- Pattern matching
+- Async programming
+
+A full set of features are documented in the [F# language guide](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/).
+
+Looks pretty promising, right?
+
 ## The Language
 
 As a member of the ML family of languages, the syntax won't surprise
@@ -59,10 +103,12 @@ let greet name =
 
 greet "World"
 
+// Discriminated Union
 type Shape =
     | Circle of radius: float
     | Rectangle of width: float * height: float
 
+// Functing using pattern matching
 let area shape =
     match shape with
     | Circle radius -> System.Math.PI * radius * radius
@@ -163,8 +209,9 @@ let num2 = 1.0 + 2.5
 printfn "%A" [1..2..100]
 ```
 
-I guess some of those might be controversial, depending on whether you're a language purist or not,
-but in my book anything that makes MLs more popular is a good thing.
+I guess some of those might be controversial, depending on whether you're a ML
+language purist or not, but in my book anything that makes ML more popular is a
+good thing.
 
 Did I also mention it's easy to work with unicode strings and regular expressions?
 
