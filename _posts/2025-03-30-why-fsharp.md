@@ -51,6 +51,8 @@ names
 |> List.iter (fun greeting -> printfn $"{greeting}! Enjoy your F#")
 ```
 
+**Trivia:** F# is the language that made the pipeline operator (`|>`) popular.
+
 F# has numerous features, including:
 
 - Lightweight syntax
