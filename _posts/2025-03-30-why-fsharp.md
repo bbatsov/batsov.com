@@ -568,8 +568,8 @@ broader usage by now. I'm fairly certain I would have never dabbled in .NET agai
 if it hadn't been for .NET Core, and I doubt I'm the only one.
 
 Learning OCaml is definitely not hard, but I think that people interested to learn some ML
-might have an easier time with F#. And, as mentioned earlier, you'll probably have an
-easier path "production" with it.
+dialect might have an easier time with F#. And, as mentioned earlier, you'll probably have an
+easier path to "production" with it.
 
 I think that everyone who has experience with .NET will benefit from learning F#.
 Perhaps more importantly - everyone looking to do more with an ML family language
@@ -579,9 +579,13 @@ you access to one of the most powerful programming platforms out there.
 Let's not forget about [Fable][], which makes it possible for you leverage
 F# in JavaScript, Dart, Rust and Python runtimes!
 
-So, why F#? In the F# community there's the saying that the "F" in F# stands for "Fun". In my brief experience with F# I found this to be very true! I'll go a step further and make the claim that F# is both seriously **fun** and seriously practical!
+So, why F#? In the F# community there's the saying that the "F" in F# stands for
+"Fun". In my brief experience with F# I found this to be very true! I'll go a
+step further and make the claim that F# is both seriously **fun** and seriously
+practical!
 
-Also if your code compiles - it will probably work the way you expect it to.
+Also if your code compiles - it will probably work the way you expect it to. I
+hear that's generally considered a desirable thing in the world of programming!
 
 That's all I have for you today. Please, share in the comments what do you love about F#!
 
