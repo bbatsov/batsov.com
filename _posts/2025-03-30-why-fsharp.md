@@ -341,6 +341,7 @@ I really liked the following parts of the documentation:
 
 - [F# Style Guide](https://learn.microsoft.com/en-us/dotnet/fsharp/style-guide/)
 - [F# Design](https://github.com/fsharp/fslang-design) - a repository of RFCs (every language should have one of those!)
+- [F# Standard Library API](https://fsharp.github.io/fsharp-core-docs/)
 
 <https://fsharpforfunandprofit.com/> is another good learning resource. (even if it seems a bit dated)
 
@@ -350,6 +351,7 @@ I've played with the F# plugins for several editors:
 
 - Emacs (`fsharp-mode`)
 - Zed (third-party plugin)
+- Helix (built-in support for F#)
 - VS Code ([Ionide](https://ionide.io/))
 - Rider (JetBrains's .NET IDE)
 
@@ -364,7 +366,7 @@ Still, I'll mention that I found the tooling lacking in some regards:
 - Zed's support for F# is quite spartan
 - In VS Code shockingly the expanding and shrinking selection is broken, which is quite odd for what is supposed to be the flagship editor for F#
 
-I'm really struggling with VS Code's keybindings and editing model, so I'll likely stick with Emacs going forward. Or I'll finally spend more quality time with neovim!
+I'm really struggling with VS Code's keybindings (too many modifier keys and functions keys for my taste) and editing model, so I'll likely stick with Emacs going forward. Or I'll finally spend more quality time with neovim!
 
 It seems that everyone is using the same code formatter (`Fantomas`), including the F# team, which is great!
 The linter story in F# is not as great (seems the only popular linter [FSharpLint](https://fsprojects.github.io/FSharpLint/) is abandonware these days), but when your
@@ -572,7 +574,8 @@ you access to one of the most powerful programming platforms out there.
 Let's not forget about [Fable][], which makes it possible for you leverage
 F# in JavaScript, Dart, Rust and Python runtimes!
 
-So, why F#? Become it's seriously **fun** and seriously practical!
+So, why F#? In the F# community there's the saying that the "F" in F# stands for "Fun". In my brief experience with F# I found this to be very true! I'll go a step further and make the claim that F# is both seriously **fun** and seriously practical!
+
 Also if your code compiles - it will probably work the way you expect it to.
 
 That's all I have for you today. Please, share in the comments what do you love about F#!
