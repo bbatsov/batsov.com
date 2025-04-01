@@ -235,6 +235,9 @@ I'm not going to go into great details here, as much of what I wrote about OCaml
 I'd also suggest this quick [tour of F#](https://learn.microsoft.com/en-us/dotnet/fsharp/tour)
 to get a better feel for its syntax.
 
+**Tip:** Check out the [F# cheatsheet](https://fsprojects.github.io/fsharp-cheatsheet/fsharp-cheatsheet.pdf)
+if you'd like to see a quick syntax reference.
+
 One thing that made a good impression to me is the focus of the language designers on
 making F# approachable to newcomers, by providing a lot of small quality of life improvements
 for them. Below are few examples, that probably don't mean much to you, but would mean something
@@ -602,6 +605,11 @@ hear that's generally considered a desirable thing in the world of programming!
 That's all I have for you today. Please, share in the comments what do you love about F#!
 
 In sane type systems we trust!
+
+## Discussions
+
+- [Hacker News](https://news.ycombinator.com/item?id=43546004)
+- [Lobsters](https://lobste.rs/s/kubso9/why_f)
 
 [^1]: I had some C# courses in the university and I wrote my bachelor's thesis in C#. It was a rewrite of Arch Linux's `pacman`, running on Mono. This was way back in 2007.
 [^2]: See <https://fsharp.org/history/hopl-final/hopl-fsharp.pdf>
