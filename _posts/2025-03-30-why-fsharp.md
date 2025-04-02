@@ -465,7 +465,7 @@ and types of the data from a small data sample and then you get a parser for it.
 can save the code to a file named `TypeProvidersDemo.fsx` and afterwards you can
 run it like this:
 
-``` fsharp
+``` shell
 dotnet fsi TypeProvidersDemo.fsx
 ```
 
