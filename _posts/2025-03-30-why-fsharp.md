@@ -663,6 +663,9 @@ resources:
 
 "The Early History of F#", which I've quoted extensively, is pure gold as well!
 
+I also think it's a good idea to follow the [F# Reddit](https://www.reddit.com/r/fsharp/) and
+to join [F#'s Discord](https://discord.gg/R6n7c54).
+
 ## Discussions
 
 - [Hacker News](https://news.ycombinator.com/item?id=43546004)
