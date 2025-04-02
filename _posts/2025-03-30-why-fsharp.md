@@ -659,6 +659,7 @@ resources:
 - [F# Code I Love](https://www.youtube.com/watch?v=1AZA1zoP-II) (a talk by Don Syme)
 - [Why Use F# Sharp?](https://fsharpforfunandprofit.com/why-use-fsharp/)
 - [Domain Modeling Made Functional](https://pragprog.com/titles/swdddf/domain-modeling-made-functional/)
+- [F# in Action](https://www.manning.com/books/f-sharp-in-action)
 
 "The Early History of F#", which I've quoted extensively, is pure gold as well!
 
