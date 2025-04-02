@@ -469,7 +469,36 @@ run it like this:
 dotnet fsi TypeProvidersDemo.fsx
 ```
 
-Moving foward, I think F# would be a good fit for backend services and even
+It gets even better, though, as you can easily do things like extracting data straight
+from HTML tables and visualizing the data:
+
+``` fsharp
+#r "nuget:FSharp.Data"
+#r "nuget: Plotly.NET, 3.0.1"
+
+open FSharp.Data
+open Plotly.NET
+
+type LondonBoroughs = HtmlProvider<"https://en.wikipedia.org/wiki/List_of_London_boroughs">
+let boroughs = LondonBoroughs.GetSample().Tables.``List of boroughs and local authorities``
+
+let population =
+    boroughs.Rows
+    |> Array.map (fun row ->
+                  row.Borough,
+                  row.``Population (2022 est)``)
+    |> Array.sortBy snd
+    |> Chart.Column
+    |> Chart.show
+```
+
+If you run the script you'll get a nice diagram of the population of the various
+London boroughs in your browser. Good stuff!
+
+Here we must also appreciate how easy it is to use external libraries (e.g. Plotly.NET)
+in F# scripts!
+
+Moving forward, I think F# would be a good fit for backend services and even
 full-stack apps, although I haven't really played with the F# first solutions in
 this space yet.
 
