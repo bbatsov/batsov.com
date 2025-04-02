@@ -418,9 +418,60 @@ Given the depth and breath of .NET - I guess that sky is the limit for you!
 
 Seems to me that F# will be a particularly good fit for data analysis and manipulation, because
 of features like [type providers](https://learn.microsoft.com/en-us/dotnet/fsharp/tutorials/type-providers/).
+Here's a small demo of using a JSON type provider:
 
-Probably a good fit for backend services and even full-stack apps, although I haven't really played
-with the F# first solutions in this space yet.
+``` fsharp
+#r "nuget: FSharp.Data"
+
+open System
+open FSharp.Data
+
+// Define the type based on a sample JSON entry
+type PeopleJson = JsonProvider<"""
+[
+  { "name": "Alice", "age": 30, "skills": ["F#", "C#", "Haskell"] }
+]
+""">
+
+// Simulated JSON list (could be loaded from file or API)
+let jsonListString = """
+[
+  { "name": "Alice",  "age": 30, "skills": ["F#", "C#", "Haskell"] },
+  { "name": "Bob",    "age": 25, "skills": ["F#", "Rust"] },
+  { "name": "Carol",  "age": 28, "skills": ["OCaml", "Elixir"] },
+  { "name": "Dave",   "age": 35, "skills": ["Scala", "F#"] },
+  { "name": "Eve",    "age": 32, "skills": ["Python", "F#", "ML"] },
+  { "name": "Frank",  "age": 29, "skills": ["Clojure", "F#"] },
+  { "name": "Grace",  "age": 27, "skills": ["TypeScript", "Elm"] },
+  { "name": "Heidi",  "age": 33, "skills": ["Haskell", "PureScript"] },
+  { "name": "Ivan",   "age": 31, "skills": ["Racket", "F#"] },
+  { "name": "Judy",   "age": 26, "skills": ["ReasonML", "F#"] }
+]
+"""
+
+// Parse the JSON
+let people = PeopleJson.Parse(jsonListString)
+
+// Print it
+printfn "People in the list:\n"
+for p in people do
+    printfn "%s (age %d) knows:" p.Name p.Age
+    p.Skills |> Array.iter (printfn "  - %s")
+    printfn ""
+```
+
+The first time I saw this it felt almost like magic, as F# infers the structure
+and types of the data from a small data sample and then you get a parser for it. You
+can save the code to a file named `TypeProvidersDemo.fsx` and afterwards you can
+run it like this:
+
+``` fsharp
+dotnet fsi TypeProvidersDemo.fsx
+```
+
+Moving foward, I think F# would be a good fit for backend services and even
+full-stack apps, although I haven't really played with the F# first solutions in
+this space yet.
 
 Fable and Elmish make F# a viable option for client-side programming and might offer
 another easy way to sneak F# into your day-to-day work.
