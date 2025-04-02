@@ -651,6 +651,17 @@ That's all I have for you today. Please, share in the comments what do you love 
 
 In sane type systems we trust!
 
+## What's Next?
+
+If you need further arguments to learn F# I can highly recommend the following
+resources:
+
+- [F# Code I Love](https://www.youtube.com/watch?v=1AZA1zoP-II) (a talk by Don Syme)
+- [Why Use F# Sharp?](https://fsharpforfunandprofit.com/why-use-fsharp/)
+- [Domain Modeling Made Functional](https://pragprog.com/titles/swdddf/domain-modeling-made-functional/)
+
+"The Early History of F#", which I've quoted extensively, is pure gold as well!
+
 ## Discussions
 
 - [Hacker News](https://news.ycombinator.com/item?id=43546004)
