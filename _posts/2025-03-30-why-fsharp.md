@@ -1,6 +1,7 @@
 ---
 title: Why F#?
 date: 2025-03-30 17:54 +0300
+toc: true
 tags:
 - F#
 - OCaml
