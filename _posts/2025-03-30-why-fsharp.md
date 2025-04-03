@@ -653,7 +653,7 @@ get the following answers.
 - The name F# sounds cool, but is a search and filename nightmare (and you'll see FSharp quite often in the wild)
 
 Both F# and OCaml can also target JavaScript runtimes as well - via [Fable][] on
-the F# side and Js_of_ocaml and Melange on the OCaml side. Fable seems like a
+the F# side, and [Js_of_ocaml][] and [Melange][] on the OCaml side. Fable seems like a
 more mature solution at a cursory glance, but I haven't used any of the three
 enough to be able to offer an informed opinion.
 
@@ -664,7 +664,7 @@ is super popular and I can imagine it'd be fairly easy to sneak a bit of F# here
 in there in established C# codebases.
 
 One weird thing I've noticed with F# projects is that they still use XML project
-manifests, where you have to list the source files manually in the order in
+manifests (`.fsproj`), where you have to list the source files manually in the order in
 which they should be compiled (to account for the dependencies between them). I
 am a bit shocked that the compiler can't handle the dependencies automatically,
 but I guess that's because in F# there's not direct mapping between source files
@@ -759,3 +759,5 @@ to join [F#'s Discord](https://discord.gg/R6n7c54).
 [^3]: <https://github.com/fsharp/fslang-suggestions/issues/985>
 
 [Fable]: https://fable.io/
+[Js_of_ocaml]: https://ocsigen.org/js_of_ocaml/latest/manual/overview
+[Melange]: https://melange.re/
