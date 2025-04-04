@@ -11,7 +11,7 @@ One of the things that bothered me initially in OCaml was the poor support for
 working in regular expressions in the [standard library]({% post_url 2025-03-14-ocaml-s-standard-library %}).
 Technically speaking, there's no support for them at all!
 
-What do I mean by this? Well, there's the older [`Str` library](https://ocaml.org/manual/5.3/api/Str.html) that provides support for regular expressions, but it's:
+What do I mean by this? Well, there's the older [Str](https://ocaml.org/manual/5.3/api/Str.html) library that provides support for regular expressions, but it's:
 
 - not really a part of the standard library (it's bundled with OCaml, but not part of `Stdlib`)
 - it doesn't work with unicode characters, as it treats strings as sequences of bytes
