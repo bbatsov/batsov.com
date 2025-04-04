@@ -63,7 +63,7 @@ One interesting thing about `Re` is that it supports various flavors of regular 
 Okay, shell globbing is not exactly regular expressions, and I'm not sure who would want to use Emacs style regular expressions
 outside Emacs, but you sure have options! I'm a big fan of Perl's regular expressions, so I'll stick with them going forward.
 
-Now, let's see it in action:
+Now, let's see it in action (I encourage to try the examples below in `utop`):
 
 ``` ocaml
 #require "re";;
