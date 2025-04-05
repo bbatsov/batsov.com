@@ -44,6 +44,8 @@ I hope the examples are self-explanatory. `Str`'s API is quite similar to what y
 languages, which is part of the reason the library is frowned upon.
 
 **Tip:** If you find string literals like `{|foo bar|}` strange, please consult [this article]({% post_url 2023-04-20-learning-ocaml-quoted-string-literals %}).
+They are useful when dealing with regular expressions to avoid additional escaping of `\`. If we used a regular string instead of `{|hello \([A-Za-z]+\)|}`
+it would be `"hello \\([A-Za-z]+\\)"`.
 
 I won't dwell much on `Str` as few people use it these days, especially if they need to do more
 complex tasks with regular expressions. Enter the [Re](https://github.com/ocaml/ocaml-re) library.
@@ -62,6 +64,8 @@ One interesting thing about `Re` is that it supports various flavors of regular 
 
 Okay, shell globbing is not exactly regular expressions, and I'm not sure who would want to use Emacs style regular expressions
 outside Emacs, but you sure have options! I'm a big fan of Perl's regular expressions, so I'll stick with them going forward.
+
+**Note:** `Str` supports only Posix-style regular expressions, which usually involve using quite a lot of escaping.
 
 Now, let's see it in action (I encourage to try the examples below in `utop`):
 
@@ -86,7 +90,7 @@ let replace_digits str =
 print_endline (replace_digits "hello123world456");;
 
 (* use matching groups *)
-let re = Re.Perl.re "(\\w+)-(\\d+)" |> Re.compile in
+let re = Re.Perl.re {|(\w+)-(\d+)|} |> Re.compile in
 match Re.exec_opt re "item-42" with
 | Some group ->
     let name = Re.Group.get group 1 in
