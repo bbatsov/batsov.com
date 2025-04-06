@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Learning OCaml: Parsing Data with Scanf'
 date: 2025-04-06 11:40 +0300
 tags:
