@@ -25,7 +25,7 @@ let total = total_value portfolio in
 printf "Total portfolio value: $%.2f\n" total
 
 (* open module for an expression *)
-List.(map (fun x -> x * 2) [1; 2; 3; 4; 5] |> fold_left (+) 0);;
+List.([1; 2; 3; 4; 5] |> map (fun x -> x * 2) |> fold_left (+) 0);;
 ```
 
 All of them have their uses, but I'd like to also mention one less known
