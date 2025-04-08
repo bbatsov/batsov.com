@@ -13,7 +13,8 @@ scope:
 
 ```ocaml
 (* module alias *)
-module Printf = P
+module P = Printf
+P.printf "Hello, %s!" "world"
 
 (* open module for subsequent scope *)
 let open Printf in
