@@ -34,5 +34,4 @@ M-x forever!
 **Update:** This short article sparkled a lively discussion on [Reddit](https://www.reddit.com/r/emacs/comments/1jtja9s/emacs_startup_time_doesnt_matter/).
 
 [^1]: Unless it's insanely slow, that is.
-[^2]: I've noticed most Emacs users really struggle to understand the value of something like `tmux`, as
-Emacs is the ultimate window multiplexer for pretty much anything.
+[^2]: I've noticed most Emacs users really struggle to understand the value of something like `tmux`, as Emacs is the ultimate window multiplexer for pretty much anything.
