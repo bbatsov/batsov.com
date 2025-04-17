@@ -10,9 +10,11 @@ I recently wrote that [Emacs startup time doesn't matter]({% post_url 2025-04-07
 for it. I totally stand by everything I said there, but I acknowledge that different
 people have different use-cases and perspectives when it comes to this.
 
-That's why I've decided to share with you the #1 tip to speed up your Emacs - defer the load
-time of your packages. There are many ways to achieve this, but probably the easiest and most
-popular these days is to use `use-package` to organize your package configuration.
+That's why I've decided to share with you the **#1** tip to speed up your
+Emacs - **defer the load time of your packages** (in other words - load them as
+late as possible, ideally when you actually need them for the first time). There
+are many ways to achieve this, but probably the easiest and most popular these
+days is to use `use-package` to organize your package configuration.
 
 Unfortunately, using `use-package` the right way is not very obvious and there's plenty
 of incorrect information about it all over the Internet. Here's classic example of
