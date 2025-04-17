@@ -118,7 +118,15 @@ only after Emacs's initialization has finished:
   :hook (after-init . projectile-mode)
 ```
 
-But ideally we should get rid of `:defer`, `:init` and `:config`:
+Note that we're using the name `after-init` instead of `after-init-hook`, as the hook is actually
+named. That's done to spare you some typing, but I understand it might also be a bit confusing. You
+can enforce the usage of the full hook names like this:
+
+```emacs-lisp
+(setopt use-package-hook-name-suffix nil)
+```
+
+So, what can we improve next? Ideally we should get rid of `:defer`, `:init` and `:config`:
 
 ```emacs-lisp
 (use-package projectile
@@ -144,7 +152,66 @@ I'll add here that less is more, even in Emacs. It's usually a good idea to revi
 and trim it from time to time. I used to be the type of guy who loads 100+ packages in their config, but these days I limit myself only
 to packages really improve my workflows.
 
+If `use-package` still feels like black magic to you I can suggest the following:
+
+- Macroexpand various `use-package` blocks in your config to see what's the generated Emacs Lisp code. Here's an example you can try:
+
+```emacs-lisp
+(macroexpand-1
+'(use-package projectile
+  :custom (projectile-project-search-path '("~/projects/" "~/work/" "~/playground"))
+  :bind-keymap (("C-c C-p" . projectile-command-map)
+                ("C-c p" . projectile-command-map)
+                ("s-p" . projectile-command-map))
+  :hook (after-init . projectile-mode)))
+
+;; macroexpansion
+(progn
+  (use-package-ensure-elpa 'projectile '(t) 'nil)
+  (defvar use-package--warning78
+    #'(lambda (keyword err)
+        (let
+            ((msg
+              (format "%s/%s: %s" 'projectile keyword (error-message-string err))))
+          (display-warning 'use-package msg :error))))
+  (condition-case-unless-debug err
+      (progn
+        (let ((custom--inhibit-theme-enable nil))
+          (unless (memq 'use-package custom-known-themes)
+            (deftheme use-package) (enable-theme 'use-package)
+            (setq custom-enabled-themes
+                  (remq 'use-package custom-enabled-themes)))
+          (custom-theme-set-variables 'use-package
+                                      '(projectile-project-search-path
+                                        '("~/projects/" "~/work/" "~/playground")
+                                        nil nil
+                                        "Customized with use-package projectile")))
+        (unless (fboundp 'projectile-mode)
+          (autoload #'projectile-mode "projectile" nil t))
+        (add-hook 'after-init-hook #'projectile-mode)
+        (bind-key "C-c C-p"
+                  #'(lambda nil (interactive)
+                      (use-package-autoload-keymap 'projectile-command-map
+                                                   'projectile nil)))
+        (bind-key "C-c p"
+                  #'(lambda nil (interactive)
+                      (use-package-autoload-keymap 'projectile-command-map
+                                                   'projectile nil)))
+        (bind-key "s-p"
+                  #'(lambda nil (interactive)
+                      (use-package-autoload-keymap 'projectile-command-map
+                                                   'projectile nil))))
+    (error (funcall use-package--warning78 :catch err))))
+```
+
+I know this looks a bit intimidating at first, but if you spent a bit of time reading the code you'll
+see there's nothing scary about it.[^3]
+
+- `use-package` also comes with profiler, you can set `use-package-compute-statistics` to t, restart Emacs and call `use-package-report` to see which packages are taking too much time to set up and what stage they’re at.[^4]
+
 That's all I have for you today. Feel free to share other `use-package` tips in the comments!
 
 [^1]: From my own `init.el` - after I all I told you I don't really care about the startup time. :D
 [^2]: I'll have to admit I don't even remember what `:preface` does.
+[^3]: You might also want to get wild with something like <https://github.com/emacsorphanage/macrostep>
+[^4]: Thanks to Andrey Listopadov for reminding me about this!
