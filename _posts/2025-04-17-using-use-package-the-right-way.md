@@ -45,7 +45,7 @@ Where possible, it is better to avoid `:preface`, `:config` and `:init`.
 Instead, prefer autoloading keywords such as `:bind`, `:hook`, and `:mode`, as
 they will take care of setting up autoloads for you without any need for
 boilerplate code. While the usage of `preface` in the wild is fairly rare, you'll
-see a ton of usage of `:init` and `:config` for whatever reasons.
+see a ton of usage of `:init` and `:config` for whatever reasons.[^2]
 
 For example, consider the following declaration:
 
@@ -147,3 +147,4 @@ to packages really improve my workflows.
 That's all I have for you today. Feel free to share other `use-package` tips in the comments!
 
 [^1]: From my own `init.el` - after I all I told you I don't really care about the startup time. :D
+[^2]: I'll have to admit I don't even remember what `:preface` does.
