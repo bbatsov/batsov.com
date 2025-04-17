@@ -36,7 +36,7 @@ a problematic `use-package` usage:[^1]
 While this is technically speaking correct, the use of `:init` and `:config` means that the
 package will be loaded immediately.
 
-You might be wondering at this point when to use `:preface`, `:config` and
+You might be wondering at this point when to use things like `:preface`, `:config` and
 `:init` and you would be right to. As usual, the best answer is in the [Emacs
 manual](https://www.gnu.org/software/emacs/manual/html_node/use-package/Best-practices.html),
 and I'll try to expand on it below.
@@ -44,7 +44,10 @@ and I'll try to expand on it below.
 Where possible, it is better to avoid `:preface`, `:config` and `:init`.
 Instead, prefer autoloading keywords such as `:bind`, `:hook`, and `:mode`, as
 they will take care of setting up autoloads for you without any need for
-boilerplate code.  For example, consider the following declaration:
+boilerplate code. While the usage of `preface` in the wild is fairly rare, you'll
+see a ton of usage of `:init` and `:config` for whatever reasons.
+
+For example, consider the following declaration:
 
 ```emacs-lisp
 (use-package foo
@@ -133,7 +136,7 @@ Of course, you can't always achieve this clean setup, but if you try you'll get 
 
 So, to recap:
 
-- Avoid the use of `:init`, `:config` and `:mode` whenever possible
+- Avoid the use of `:init`, `:config` and `:preface` whenever possible
 - Most of the time you don't need to use `:defer`
 - Usually you should aim to activate minor modes only after Emacs's main initialization has finished (otherwse `:defer` is pointless)
 
