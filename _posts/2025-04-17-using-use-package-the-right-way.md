@@ -118,7 +118,9 @@ But ideally we should get rid of `:defer`, `:init` and `:config`:
 ```emacs-lisp
 (use-package projectile
   :custom (projectile-project-search-path '("~/projects/" "~/work/" "~/playground"))
-  :bind-keymap (("C-c C-p" . projectile-command-map))
+  :bind-keymap (("C-c C-p" . projectile-command-map)
+                ("C-c p" . projectile-command-map)
+                ("s-p" . projectile-command-map))
   :hook (after-init . projectile-mode)
 ```
 
