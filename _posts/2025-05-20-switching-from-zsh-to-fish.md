@@ -96,7 +96,7 @@ fisher install reitzig/sdkman-for-fish@v2.1.0
 OPAM is a package manager and SDK manager for OCaml. Fortunately, it plays
 with Fish pretty well out-of-the-box:
 
-```fish
+```shell
 eval (opam env)
 ```
 
@@ -106,7 +106,7 @@ One of the Fish features that I really like are the abbreviations - snippets
 of code that can be expanded in various places when typing a shell command.
 Below are a few examples from my personal configuration:
 
-```fish
+```shell
 abbr -a -- be 'bundle exec'
 abbr -a -- gst 'git status'
 abbr -a -- lg lazygit
@@ -151,7 +151,7 @@ If you want to tweak `PATH` I'd suggest using `fish_add_path` (e.g. `fish_add_pa
 Those get persisted to a file and are available
 between restarts. You can create/update universal variables like this:
 
-```fish
+```shell
 set -ux SOME_VAR=value
 ```
 
@@ -179,7 +179,7 @@ I'm still using Starship and zoxide with Fish, as I was doing with Zsh.
 My entire `config.fish` is listed below and I hope you'll agree it's
 pretty simple:
 
-```fish
+```shell
 /opt/homebrew/bin/brew shellenv | source
 
 fish_add_path $HOME/bin
