@@ -91,6 +91,16 @@ use a version of SDKMAN! designed for Fish:
 fisher install reitzig/sdkman-for-fish@v2.1.0
 ```
 
+## mise
+
+These days you can replace `rbenv`, NVM and SDKMAN! with [mise](https://github.com/jdx/mise).
+I haven't made the switch yet, but I'm glad to report that mise plays well with Fish.
+All you need to do is:
+
+```shell
+echo '~/.local/bin/mise activate fish | source' >> ~/.config/fish/config.fish
+```
+
 ## OPAM
 
 OPAM is a package manager and SDK manager for OCaml. Fortunately, it plays
@@ -244,6 +254,18 @@ command = /opt/homebrew/bin/fish
 Alternatively you can just trigger Fish from your `.bashrc` and `.zshrc`, and this
 might save you a bit of hassle as that way Fish will inherit the environment from your
 existing shell setup.
+
+**Note:** You can find more on the subject [here](https://wiki.archlinux.org/title/Fish#System_integration).
+
+## Why Fish?
+
+You might be wondering what prompted me to move to Fish, so let me address this here real quick:
+
+- I didn't have any particular issues with Zsh, but I did notice that out-of-the-box Fish behaves more
+or less exactly as I want my shell to behave. In practice this means less configuration, which is not a
+bad thing.
+- I like playing with new tools and Fish has been on my radar for a while now.
+- Recently Fish 4.0 was released - a full rewrite of the project in Rust, and that caught my attention.
 
 ## Epilogue
 
