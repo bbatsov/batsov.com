@@ -36,7 +36,7 @@ In the following sections we'll see examples of installing plugins with fisher.
 
 If you install Fish from Homebrew, it won't work properly without a bit
 of additional setup. Basically, you need to add the following to your
-`config.fish`:
+`config.fish` (at the very beginning):
 
 ```shell
 /opt/homebrew/bin/brew shellenv | source
@@ -91,7 +91,7 @@ use a version of SDKMAN! designed for Fish:
 fisher install reitzig/sdkman-for-fish@v2.1.0
 ```
 
-## opam
+## OPAM
 
 OPAM is a package manager and SDK manager for OCaml. Fortunately, it plays
 with Fish pretty well out-of-the-box:
@@ -144,7 +144,18 @@ point.
 
 ### Tweaking the PATH
 
-If you want to tweak `PATH` I'd suggest using `fish_add_path` (e.g. `fish_add_path $HOME/bin`).
+If you want to tweak `PATH` I'd suggest using `fish_add_path`
+(e.g. `fish_add_path $HOME/bin`).  This works both one-off interactively, and in
+`config.fish` — it won't produce duplicates in the `config.fish` case.
+
+There are other ways to do this, though. E.g.:
+
+```shell
+set -gx PATH "$HOME/bin" $PATH
+set -gx PATH /path/to/dir1 /path/to/dir2 $PATH
+```
+
+You can also append entries with `set -a`.
 
 ### Universal variables
 
@@ -211,6 +222,9 @@ abbr -a --position anywhere --command hx --command nvim --command emacs -- fish 
 abbr -a -- jpost 'bundle exec jekyll post'
 abbr -a -- jserve 'bundle exec jekyll serve'
 ```
+
+One tool I use less with Fish is `fzf`, as the default history search is much better than
+the one in Zsh.
 
 ## Make Fish your default shell
 
