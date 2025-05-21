@@ -52,7 +52,7 @@ Frankly, I'm a bit shocked how those things never made their way to Vim proper, 
 reason for this. Emacs is often considered to be a super-conservative and slow-moving editor, but it
 almost feels progressive compared to Vim.[^2]
 
-I was also a bit confused by the native Vim 8 package system, as it's little
+I was also a bit confused by the native Vim 8 package system[^3], as it's little
 more then some predefined locations and structure for the Vim packages.  I had
 expected something closer to Emacs's `package.el`. Anyways `vim-plug` is pretty
 good and there are a ton of other package managers out there.
@@ -78,6 +78,17 @@ desired end result with as little keystrokes as possible. I also like the
 concept of TextObjects (e.g. something between parentheses or a tag) and having
 an uniform language for interacting with them. neovim really takes this to the next
 level by adding Tree-sitter objects to the mix. (e.g. blocks, functions, classes, etc) 
+
+I'm already at the point where I feel pretty comfortable with the basics
+and I probably know about Vim than I ever did. Still, I definitely not as
+productive as I want to be and I often have to pause and think how to adjust
+my work habits to match the Vim way. One of the areas that I struggle the most
+with is that it's very hard to work on multiple projects with the same Vim instance.
+I know that's not how most people use Vim, but it's something I'm quite used to and
+it's taking some time to adjust. I'm also struggling with the weird (and very central)
+`file` plugin and figuring out how to tweak various settings for different file types.
+I know that's subjective, but right now Emacs's notion of major and minor modes seems
+pretty fantastic to me in comparison. Oh, well... perhaps I'll see the light one day!
 
 What's the endgame with Vim for me? I don't see myself switching to Vim (or
 neovim) as my primary editor, but I can imagine adopting `evil-mode` in Emacs
@@ -106,3 +117,4 @@ and exit Vim. Wish me luck!
 
 [^1]: I have to admit that I can tolerate vim9 script.
 [^2]: There was a push in Emacs in recent years to modernize the out-of-the-box experience.
+[^3]: See `:h packages` for more details. In a nutshell it's a built-in alternative of Pathogen.
