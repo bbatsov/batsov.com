@@ -11,20 +11,22 @@ that I'm writing an article about Vim. After all, I've been a devout member of t
 of Emacs for 20 years now, and I've spent a lot of time preaching the gospel of Emacs and
 building extensions for Emacs.
 
-I think a lot fewer people know that I was using vim briefly, before switching to Emacs in 2005.
-In the beginning of this year I felt it was a good time to revisit Vim and (neovim) and see
-how they've evolved compared to my beloved Emacs. After all, it's never a bad idea to keep an eye on
-the competition - they are always a great source of "inspiration".
+I think a lot fewer people know that early on in my career I was using Vim
+briefly, before switching to Emacs in 2005.  In the beginning of this year I
+felt it was a good time to revisit Vim and (neovim) and see how they've evolved
+compared to my beloved Emacs. It's never a bad idea to keep an eye
+on the competition - they are always a great source of "inspiration".
 
-The main reason why I abandoned vim back in the day is quite simple - I really dislike vimscript.
+The main reason why I abandoned Vim back in the day is quite simple - I really dislike Vim script.
 It was a horrible language back then and I think it's still a horrible language today.[^1]
 I'll admit that the rise of neovim (and it's switch to Lua) was probably the main reason
 why the thought of revisiting Vim after so many years even crossed my mind.
 There's also the fact that it remains the only other editor (besides Emacs),
 that's essentially building material for those of us crazy enough to want to build their own editor.
+Most people don't care about that, but for me that's very precious.
 
 Starting with Vim is always intimidating, even if you kind of know the basics. The configuration options
-are countless and so is the Vim plugin ecosystem. `:help` is your friend!
+are countless and the Vim plugin ecosystem is huge. `:help` is your friend!
 
 Initially, I focused on neovim for a couple of reasons:
 
@@ -68,17 +70,24 @@ The "real" Vim seems to be in a pretty weird place right now:
 - As neovim has much better LSP support, and Tree-sitter support the majority of the developers using Vim have switched to neovim already
 - Vim's future seems quite uncertain after the passing of its author and primary maintainer
 
-Still, for me it's always fun to learn something new and to challenge myself to work in a different manner.
-I've never really bought the claims that Vim's modal editing model is better than the competition, but I can't
-deny it has a certain charm to it and it often forces you to think about achieving the desired end result
-with as little keystrokes as possible. 
+Still, for me it's always fun to learn something new and to challenge myself to
+work in a different manner.  I've never really bought the claims that Vim's
+modal editing model is better than the competition, but I can't deny it has a
+certain charm to it and it often forces you to think about achieving the
+desired end result with as little keystrokes as possible. I also like the
+concept of TextObjects (e.g. something between parentheses or a tag) and having
+an uniform language for interacting with them. neovim really takes this to the next
+level by adding Tree-sitter objects to the mix. (e.g. blocks, functions, classes, etc) 
 
-I don't see myself switching to Vim (or neovim) as my primary editor, but I can imagine adopting `evil-mode`
-in Emacs if I start seeing some tangible benefits from Vim's way. Even before I began my experiments with Vim,
-I'd occasionally use `evil-mode` in Emacs when I primarily had to read something as opposed to edit it - pressing
-fewer modifier keys is always nice. The other potential benefit from my foray in the Vim that I envision is that
-editors like VS Code and Zed typically have a lot better Vim emulation than Emacs, as there are so much more
-Vim users out there. Recently my F# exploits forced me to spend a bit of time in VS Code and dealing with its
+What's the endgame with Vim for me? I don't see myself switching to Vim (or
+neovim) as my primary editor, but I can imagine adopting `evil-mode` in Emacs
+if I start seeing some tangible benefits from Vim's way. Even before I began my
+experiments with Vim, I'd occasionally use `evil-mode` in Emacs when I
+primarily had to read something as opposed to write it - pressing fewer modifier
+keys is always nice. The other potential benefit from my foray in the Vim that
+I envision is that editors like VS Code and Zed typically have a lot better Vim
+emulation than Emacs, as there are so much more Vim users out there. Recently
+my F# exploits forced me to spend a bit of time in VS Code and dealing with its
 native keybindings was a lot of pain for me.
 
 Down the road I plan to write a couple of follow-up articles on things like:
@@ -88,6 +97,9 @@ Down the road I plan to write a couple of follow-up articles on things like:
 - some tips and tricks
 
 Perhaps I'll even write a guide to Vim for Emacs users, as I really needed one when I was starting out.
+
+If you have any tips for aspiring Vim users - please share those in the comments. I'm also happy to
+get some advice from seasoned experts and to peruse their `.vimrc` or `init.lua`. 
 
 That's all I have for you today. Now I have to figure out how to commit this article with Fugitive
 and exit Vim. Wish me luck!
