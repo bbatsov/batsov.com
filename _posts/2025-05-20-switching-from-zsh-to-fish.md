@@ -109,6 +109,7 @@ with Fish pretty well out-of-the-box:
 ```shell
 eval (opam env)
 ```
+
 ## Docker
 
 Docker provides completions for the Fish's native completion system, that you'll have
