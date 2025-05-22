@@ -1,5 +1,5 @@
 ---
-title: The origin of the pipeline operator (|>)
+title: "The origin of the pipeline operator (`|>`)"
 date: 2025-05-22 13:49 +0300
 tags:
 - F#
