@@ -77,7 +77,7 @@ certain charm to it and it often forces you to think about achieving the
 desired end result with as little keystrokes as possible. I also like the
 concept of TextObjects (e.g. something between parentheses or a tag) and having
 an uniform language for interacting with them. neovim really takes this to the next
-level by adding Tree-sitter objects to the mix. (e.g. blocks, functions, classes, etc) 
+level by adding Tree-sitter objects to the mix. (e.g. blocks, functions, classes, etc)
 
 I'm already at the point where I feel pretty comfortable with the basics
 and I probably know about Vim than I ever did. Still, I definitely not as
@@ -110,7 +110,7 @@ Down the road I plan to write a couple of follow-up articles on things like:
 Perhaps I'll even write a guide to Vim for Emacs users, as I really needed one when I was starting out.
 
 If you have any tips for aspiring Vim users - please share those in the comments. I'm also happy to
-get some advice from seasoned experts and to peruse their `.vimrc` or `init.lua`. 
+get some advice from seasoned experts and to peruse their `.vimrc` or `init.lua`.
 
 That's all I have for you today. Now I have to figure out how to commit this article with Fugitive
 and exit Vim. Wish me luck!
