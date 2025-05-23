@@ -267,6 +267,25 @@ existing shell setup.
 
 **Note:** You can find more on the subject [here](https://wiki.archlinux.org/title/Fish#System_integration).
 
+## Additional plugins
+
+I didn't feel the need to install many Fish plugins, but there are a few that quite cool:
+
+- [autopair.fish](https://github.com/jorgebucaran/autopair.fish) - it does what the name implies
+- [hydro](https://github.com/jorgebucaran/hydro) - a fast native Fish prompt
+
+Both are created by the author of Fisher Jorge Bucaran.
+
+## Fish resources
+
+There's no shortage of great resources for Fish, but I'd like to highlight a few:
+
+- [Awsm Fish](https://github.com/jorgebucaran/awsm.fish)
+- [Fish Cookbook](https://github.com/jorgebucaran/cookbook.fish)
+
+In some areas the cookbook was more helpful to me than the official docs (e.g. it had better explanations
+of the types of variables in Fish).
+
 ## Why Fish?
 
 You might be wondering what prompted me to move to Fish, so let me address this here real quick:
