@@ -57,6 +57,14 @@ more then some predefined locations and structure for the Vim packages.  I had
 expected something closer to Emacs's `package.el`. Anyways `vim-plug` is pretty
 good and there are a ton of other package managers out there.
 
+Some other pet peeves I have with Vim are:
+
+- seems there's no way to configure which types of split commands like `:help`
+  will use (on widescreen displays I always prefer vertical splits)
+- lots of commands that shell out essentially take you out of the editor and you have to press some
+key (e.g. `Enter`) to proceed back
+- configuration options with weird names like "wildmenu" - good luck figuring out what this is without consulting the help!
+
 So, what am I doing with Vim these days? I'm working my way through the classic book
 "Practical Vim" and gradually building up my modest `.vimrc`. I'm trying to use Vim
 for as many tasks as I can (e.g. writing this blog article), but admittedly every time
