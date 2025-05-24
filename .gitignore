@@ -3,4 +3,4 @@ _site
 .jekyll-metadata
 .jekyll-cache
 .DS_store
-.swp
+*.swp
