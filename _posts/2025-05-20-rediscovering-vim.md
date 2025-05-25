@@ -123,6 +123,16 @@ get some advice from seasoned experts and to peruse their `.vimrc` or `init.lua`
 That's all I have for you today. Now I have to figure out how to commit this article with Fugitive
 and exit Vim. Wish me luck!
 
+## Articles in the Series
+
+<ul>
+{% for post in site.posts reversed %}
+  {% if post.tags contains 'vim' or post.tags contains 'Vim' %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endif %}  <!-- tags if -->
+{% endfor %} <!-- posts for -->
+</ul>
+
 [^1]: I have to admit that I can tolerate vim9 script.
 [^2]: There was a push in Emacs in recent years to modernize the out-of-the-box experience.
 [^3]: See `:h packages` for more details. In a nutshell it's a built-in alternative of Pathogen.
