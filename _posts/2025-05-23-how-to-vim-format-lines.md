@@ -23,7 +23,14 @@ I find myself using commands like `gww` and `gwip` a lot more often than their
 command in Emacs works in exactly the same manner.
 
 From what I gathered in older versions of Vim, there was also a `Q` operator that was
-a synonym for `gq`. People who got used to it tend to add it to their `.vimrc`s.
+a synonym for `gq`. People who got used to it tend to add it to their `.vimrc`s:
+
+```viml
+nnoremap Q gq
+```
+
+This overrides the default behavior of Q, which enters `Ex mode` (`:Ex`) — a relic from
+older versions of Vim that almost no one uses today.
 
 That's all I have for you today. As usual it's not a bad idea to do `:h gq` and `:h gw`
 to learn more on the subject. 
