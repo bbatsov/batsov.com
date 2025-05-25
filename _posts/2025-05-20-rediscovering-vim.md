@@ -103,7 +103,7 @@ neovim) as my primary editor, but I can imagine adopting `evil-mode` in Emacs
 if I start seeing some tangible benefits from Vim's way. Even before I began my
 experiments with Vim, I'd occasionally use `evil-mode` in Emacs when I
 primarily had to read something as opposed to write it - pressing fewer modifier
-keys is always nice. The other potential benefit from my foray in the Vim that
+keys is always nice. The other potential benefit from my foray into Vim that
 I envision is that editors like VS Code and Zed typically have a lot better Vim
 emulation than Emacs, as there are so much more Vim users out there. Recently
 my F# exploits forced me to spend a bit of time in VS Code and dealing with its
@@ -111,6 +111,7 @@ native keybindings was a lot of pain for me.
 
 Down the road I plan to write a couple of follow-up articles on things like:
 
+- getting started with Vim
 - my Vim configuration
 - comparisons between Vim and Emacs today
 - some tips and tricks
