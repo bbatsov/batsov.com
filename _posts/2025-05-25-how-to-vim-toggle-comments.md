@@ -1,6 +1,6 @@
 ---
 title: 'How to Vim: Toggle Comments'
-date: 2025-05-25 00:13 +0300
+date: 2025-05-25 10:13 +0300
 tags:
 - vim
 ---
@@ -8,7 +8,7 @@ tags:
 One if the things that had initially frustrated me about Vim is
 that out-of-the-box there's no way to toggle comments on and off
 in programming languages. This definitely struck me as something odd,
-given that almost all of Vim's users are programmers and we have to 
+given that almost all of Vim's users are programmers and we have to
 deal with comments quite often.
 
 I quickly discovered a couple of things on the subject:
