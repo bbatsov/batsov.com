@@ -97,7 +97,7 @@ As you can imagine, if you're reading this, I did make the switch and I'm super
 happy with Fish. Lots of small quality of life improvements and very good
 out-of-the-box experience. Below is my entire `config.fish`:
 
-``` fish
+``` shell
 /opt/homebrew/bin/brew shellenv | source
 
 if status is-interactive
