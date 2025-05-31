@@ -47,7 +47,7 @@ this text is completely useless; but this text isn't
 
 Here we can either repeat the previous action `d/;` 3 times (`.` is our friend)
 or use `C-g` (next match) and `C-t` (previous match) to rotate the possible
-matches before pressing <RET> to confirm our target. Try typing
+matches before pressing `<RET>` to confirm our target. Try typing
 `d/;<C-t><C-t><C-t><RET>`.
 
 **Note:** The above will work only if you've enabled `incsearch`, which pretty much everyone should
