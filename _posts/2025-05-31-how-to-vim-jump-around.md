@@ -54,12 +54,14 @@ matches before pressing `<RET>` to confirm our target. Try typing
 do anyways.
 
 Of course, here I'm just scratching the surface of the many ways to jump around a buffer in Vim.
-I think those built-ins can get you pretty far if you master them, but on tops of this there
+I think those built-ins can get you pretty far if you master them, but on tops of this there are
 plenty of plugins that:
 
-- Extend commands like `f` to work across multiple lines
-- Allow you to jump to any place in the window by pressing a couple of characters (e.g. EasyMotion and its million clones)
+- Extend commands like `f`/`t` to work across multiple lines
+- Allow you to jump to any place in the window by pressing a couple of characters (e.g. EasyMotion and its million clones)[^1]
 
 What are your favorite ways to quickly jump around in Vim? Please share those in the comments!
 
 That's all I have for you today! Vim long and prosper!
+
+[^1]: I'm partial for [flash](https://github.com/folke/flash.nvim) in Neovim and [vim-sneak](https://github.com/justinmk/vim-sneak) in "classic" Vim.
