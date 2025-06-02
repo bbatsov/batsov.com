@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'How to Vim: Reloading File Buffers'
 date: 2025-06-02 11:11 +0300
 tags:
