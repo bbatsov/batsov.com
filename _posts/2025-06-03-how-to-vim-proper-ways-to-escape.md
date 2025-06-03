@@ -30,6 +30,33 @@ that's a lot easier to press than reaching for ESC at the top-left
 corner of my keyboard. This becomes even more convenient if you
 remap your mostly useless Caps Lock key to Control.
 
+There's also `Control + c` that you can consider using. When
+invoked in insert mode it behaves almost like ESC, with a couple
+of caveats that you need to be aware of:
+
+> Quit insert mode, go back to Normal mode.  Do not check for
+> abbreviations.  Does not trigger the `InsertLeave` autocommand
+> event.
+
+## Add an extra keybinding to insert mode
+
+In many languages certain sequences of characters are quite
+uncommon (e.g. `xx`), so those are something you can bind
+in insert mode to serve as exit. `jj` is a classic, with other
+popular options being `ii` and `jk`.
+
+```viml
+inoremap jj <ESC>
+
+" or alternatively
+inoremap jk <ESC>
+inoremap kj <ESC>
+```
+
+Those certainly work well in English, but with other languages your mileage will vary.
+On top of this - in other contexts you'll still need to press ESC, Control+[ or Control+c.
+I kind of like an uniform approach to the Escape problem.
+
 ## Use a dual-function `Control` key
 
 Continuing the line of reasoning from above, we can go a bit
