@@ -69,7 +69,7 @@ snippet below to your `karabiner.json` configuration file:
 }
 ```
 
-For optional results - make Caps Lock your left Control. 
+For optimal results - make Caps Lock your left Control. 
 
 ## Use the right keyboard
 
