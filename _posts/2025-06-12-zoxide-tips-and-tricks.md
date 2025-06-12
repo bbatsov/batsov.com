@@ -69,6 +69,9 @@ Now try the following:
 
 You can read more about the plugin [here](https://github.com/icezyclon/zoxide.fish).
 
+Note that `zoxide` uses `cd` internally, so switching fully to it won't
+mess with any of Fish's internally directory stack. (e.g. `dirh` and `cdh`)
+
 And that's a wrap! Even though I do all of the above, I think the first two
 items are the most important. `j` and `jj` are very easy to type and cover all
 of my use-cases beautifully. If you have any other tips or tricks for zoxide,
