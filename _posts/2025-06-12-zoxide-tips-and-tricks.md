@@ -61,6 +61,12 @@ select one to jump to it.
   fisher install icezyclon/zoxide.fish
   ```
 
+Now try the following:
+
+  ```sh
+  z mydir<TAB>
+  ```
+
 You can read more about the plugin [here](https://github.com/icezyclon/zoxide.fish).
 
 And that's a wrap! Even though I do all of the above, I think the first two
