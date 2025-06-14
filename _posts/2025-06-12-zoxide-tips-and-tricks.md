@@ -28,9 +28,12 @@ adding the following to your shell configuration file (e.g., `.bashrc`,
   alias j='z'
   ```
 
+It took me a while to figure that `z` wasn't the optimal keybinding for
+`zoxide` and I'm really happy with `j`.
+
 - If you have `fzf` installed, the `zi` command can be used to interactively
-  select a directory to jump to. You can also use `jj` with `fzf` by adding the
-following alias:
+  select a directory to jump to. `zi` is another thing that's not super easy to
+  type, so I suggest using the `jj` alias instead:
 
   ```sh
   alias jj='zi'
@@ -43,6 +46,9 @@ following alias:
   ```sh
   alias cd='z'
   ```
+
+Note that `zoxide` uses `cd` internally, so switching fully to it won't
+mess with any of Fish's internally directory stack. (e.g. `dirh` and `cdh`)
 
 - If you have multiple directories with similar names you can use SPACE to
   trigger smart completion for your options:
@@ -68,9 +74,6 @@ Now try the following:
   ```
 
 You can read more about the plugin [here](https://github.com/icezyclon/zoxide.fish).
-
-Note that `zoxide` uses `cd` internally, so switching fully to it won't
-mess with any of Fish's internally directory stack. (e.g. `dirh` and `cdh`)
 
 And that's a wrap! Even though I do all of the above, I think the first two
 items are the most important. `j` and `jj` are very easy to type and cover all
