@@ -2,14 +2,14 @@
 title: "zoxide: tips and tricks"
 date: 2025-06-12 08:18 +0300
 tags:
-  - zoxide
-  - tips-and-tricks
-  - shell
-  - terminal
-  - productivity
-  - linux
-  - macos
-  - command-line
+- zoxide
+- tips-and-tricks
+- shell
+- terminal
+- productivity
+- linux
+- macos
+- command-line
 ---
 
 [zoxide](https://github.com/ajeetdsouza/zoxide) is a smart and fast alternative
