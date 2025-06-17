@@ -301,7 +301,7 @@ I've also found this [encouraging comment from 2022](https://www.reddit.com/r/fs
 > summer. I'm a dev in this team, just like you I was an F# fan for many years
 > so I am happy things got finally moving here.
 
-Looking at the changes in F# 8.0 and F 9.0, it seems the new full-fledged team
+Looking at the changes in F# 8 and F# 9, it seems the new full-fledged team
 has done some great work!
 
 ## Ecosystem
