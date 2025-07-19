@@ -28,7 +28,7 @@ Here it gets a bit more interesting. For whatever reasons there's
 also a `float` function, that's a synonym to `float_of_int`. There's
 no `int` function, however. Go figure why...
 
-Here's a bit of trivia for you - `float_of_int` does truncation to
+Here's a bit of trivia for you - `int_of_float` does truncation to
 produce an integer. And there's also a `truncate` function that's
 another alias for `int_of_float`. Again, for whatever reasons it seems
 there are no functions that allow you to produce an integer by rounding
