@@ -58,5 +58,4 @@ Which type conversion functions do you prefer? Why?
 
 That's all I have for you today. Keep hacking!
 
-[^1]: Technically speaking, `Float` existed before 4.08, but it was extended then.
-4.08 also introduced the modules `Bool`, `Fun`, `Option` and `Result`. Good stuff!
+[^1]: Technically speaking, `Float` existed before 4.08, but it was extended then. 4.08 also introduced the modules `Bool`, `Fun`, `Option` and `Result`. Good stuff!
