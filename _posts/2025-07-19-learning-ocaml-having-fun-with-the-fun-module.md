@@ -80,7 +80,7 @@ flipped_subtract 2 10
 
 (* Fun.negate *)
 let is_odd = negate is_even
-my_odd 5
+is_odd 5
 (* true *)
 
 (* Fun.compose *)
