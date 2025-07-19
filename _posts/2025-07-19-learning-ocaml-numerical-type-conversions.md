@@ -35,6 +35,13 @@ there are no functions that allow you to produce an integer by rounding
 up or down. (although such functions exist for floats - e.g. `Float.round`, `Float.floor`
 and `Float.ceil`)
 
+```ocaml
+Int.of_float 5.5;;
+- : int = 5
+5.5 |> Float.round |> Int.of_float;;
+- : int = 6
+```
+
 More interestingly, OCaml 4.08 introduced the modules `Int` and `Float`
 that bring together common functions for operating on integers and floats.[^1]
 And there are plenty of type conversion functions in those modules as well:
