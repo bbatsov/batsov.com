@@ -23,7 +23,7 @@ Let's go over them briefly:
   Fun.id : 'a -> 'a
   ```
 
-  The identity function: returns its input unchanged.
+  The identity function: returns its single argument unchanged.
 
 - **`Fun.const`**
 
@@ -33,6 +33,18 @@ Let's go over them briefly:
 
   Returns a function that always returns the first argument, ignoring its second argument.
 
+- **`Fun.compose`**
+
+  ```ocaml
+  Fun.compose : ('b -> 'c) -> ('a -> 'b) -> 'a -> 'c
+  ```
+
+  Composes two functions, applying the second function to the result of the
+  first. Haskell and F# have special syntax for function composition, but that's
+  not the case in OCaml. (although you can easily map this to some operator if
+  you wish to do so) Also, `compose` introduced a bit later than the other
+  functions in the module - namely in OCaml 5.2.
+
 - **`Fun.flip`**
 
   ```ocaml
@@ -40,16 +52,6 @@ Let's go over them briefly:
   ```
 
   Reverses the order of arguments to a two-argument function.
-
-- **`Fun.compose`**
-
-  ```ocaml
-  Fun.compose : ('b -> 'c) -> ('a -> 'b) -> 'a -> 'c
-  ```
-
-  Composes two functions, applying the second function to the result of the first. Haskell and F# have
-  special syntax for function composition, but that's not the case in OCaml. (although you can easily
-  map this to some operator if you wish to do so)
 
 - **`Fun.negate`**
 
@@ -60,8 +62,8 @@ Let's go over them briefly:
   Negates a boolean-returning function, returning the opposite boolean value. Useful when you want to provide
   a pair of inverse predicates (e.g. `is_positive` and `is_negative`)
 
-I believe that those functions are pretty self-explanatory, but still in the next section
-I'll provide some examples of how to use them in practice:
+I believe that those functions are pretty self-explanatory, but still below we'll go over
+a few examples of using them:
 
 ```ocaml
 (* Fun.id *)
@@ -95,19 +97,23 @@ the various combinators.
 
 Those are definitely not the type of functions that you would use every day, but they can
 be useful in certain situations. Obviously I needed `id` at some point to discover the
-`Fun` module in the first place, and all of the functions there can be considered as
+`Fun` module in the first place, and all of the functions there can be considered
 "classic" combinators in functional programming.
 
-Most often I need `id` and `negate`, and infrequently `comp` and `const`.
+In practice most often I need `id` and `negate`, and infrequently `comp` and `const`.
 Right now I'm struggling to come up with good use-cases for `flip`, but
 I'm sure those exist. Perhaps you'll share some examples in the comments?
 
 How often do you use the various combinators? Which ones do you find most useful?
 
 I find myself wondering if such fundamental functions shouldn't have been part of
-`Stdlib` directly, but overall I really like the modular standard library approach
-that OCaml's team has been working towards in the past several years.
+`Stdlib` module directly, but overall I really like the modular standard library approach
+that OCaml's team has been working towards in the past several years.[^2] The important
+thing in the end of the day is to know that these functions exist and you can
+make use of them. Writing this short article will definitely help me to remember
+this.
 
 That's all I have for you today. Keep hacking!
 
 [^1]: It was part of some broader efforts to slim down `Stdlib` and move in the direction of a more modular standard library.
+[^2]: And obviously you can open the `Fun` module if you wish to at whatever level you desire.
