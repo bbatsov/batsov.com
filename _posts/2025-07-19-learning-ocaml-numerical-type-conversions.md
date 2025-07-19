@@ -29,7 +29,7 @@ also a `float` function, that's a synonym to `float_of_int`. There's
 no `int` function, however. Go figure why...
 
 More interestingly, OCaml 4.08 introduced the modules `Int` and `Float`
-that bring together common functions for operating on integers and floats.
+that bring together common functions for operating on integers and floats.[^1]
 And there are plenty of type conversion functions in those modules as well:
 
 - `Int.to_float` and `Int.of_float`
@@ -50,3 +50,6 @@ it also employs similar structure when it comes to integer and float functionali
 Which type conversion functions do you prefer? Why?
 
 That's all I have for you today. Keep hacking!
+
+[^1]: Technically speaking, `Float` existed before 4.08, but it was extended then.
+4.08 also introduced the modules `Bool`, `Fun`, `Option` and `Result`. Good stuff!
