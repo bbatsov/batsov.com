@@ -28,6 +28,13 @@ Here it gets a bit more interesting. For whatever reasons there's
 also a `float` function, that's a synonym to `float_of_int`. There's
 no `int` function, however. Go figure why...
 
+Here's a bit of trivia for you - `float_of_int` does truncation to
+produce an integer. And there's also a `truncate` function that's
+another alias for `int_of_float`. Again, for whatever reasons it seems
+there are no functions that allow you to produce an integer by rounding
+up or down. (although such functions exists for floats - e.g. `Float.round`, `Float.floor`
+and `Float.ceil`)
+
 More interestingly, OCaml 4.08 introduced the modules `Int` and `Float`
 that bring together common functions for operating on integers and floats.[^1]
 And there are plenty of type conversion functions in those modules as well:
