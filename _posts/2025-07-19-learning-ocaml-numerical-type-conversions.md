@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Learning OCaml: Numerical Type Conversions'
 date: 2025-07-19 11:12 +0300
 tags:
