@@ -36,9 +36,11 @@ up or down. (although such functions exist for floats - e.g. `Float.round`, `Flo
 and `Float.ceil`)
 
 ```ocaml
-Int.of_float 5.5;;
+int_of_float 5.5;;
 - : int = 5
-5.5 |> Float.round |> Int.of_float;;
+truncate 5.5;;
+- : int = 5
+5.5 |> Float.round |> int_of_float;;
 - : int = 6
 ```
 
