@@ -31,7 +31,7 @@ Let's go over them briefly:
   Fun.const : 'a -> 'b -> 'a
   ```
 
-  Returns a function that always returns the given value, ignoring its argument.
+  Returns a function that always returns the first argument, ignoring its second argument.
 
 - **`Fun.flip`**
 
@@ -57,7 +57,8 @@ Let's go over them briefly:
   Fun.negate : ('a -> bool) -> 'a -> bool
   ```
 
-  Negates a boolean-returning function, returning the opposite boolean value.
+  Negates a boolean-returning function, returning the opposite boolean value. Useful when you want to provide
+  a pair of inverse predicates (e.g. `is_positive` and `is_negative`)
 
 I believe that those functions are pretty self-explanatory, but still in the next section
 I'll provide some examples of how to use them in practice:
