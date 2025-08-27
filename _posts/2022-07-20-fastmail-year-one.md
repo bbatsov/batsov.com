@@ -35,6 +35,6 @@ Once again I am convinced that focus in business matters. If your focus is solel
 In the end of the day the net result is that I'm effectively not using HEY and Proton Mail at all these days and I've pretty much forgotten about the Gmail at this point. If only I had discovered Fastmail sooner! Still, better late than never, right?
 
 Are you ready to take the red pill and take your email experience to the next level?
-If so - here's one [referral link](https://ref.fm/u26676944) that will net you a 10% discount for the first year.
+If so - here's one [referral link](https://join.fastmail.com/f03bc1c8) that will net you a 10% discount for the first year.
 
 [^1]: More on the topic here - <https://www.nunodonato.com/2020/06/25/a-guide-on-re-creating-heys-features/>.

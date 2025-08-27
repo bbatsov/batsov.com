@@ -36,3 +36,5 @@ only Fastmail and Gmail. Less is more, right?
 To wrap up this short article - Fastmail was awesome when I started to use it
 and it got better over time. I still recommend it highly and I'm still not
 affiliated with Fastmail in any way.
+
+**P.S.** If you'd like to try Fastmail yourself here's one [referral link](https://join.fastmail.com/f03bc1c8) that will net you a 10% discount for the first year.
