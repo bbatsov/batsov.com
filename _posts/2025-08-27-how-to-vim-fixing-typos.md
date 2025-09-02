@@ -12,9 +12,9 @@ Generally, most people do something along those lines:
 - use `[s` and `]s` to move between the previous/next misspelled word
 - correct the typo with `z=` or `1z=`
 
-It's a pretty sound approach overall and there's nothing wrong with it.
-Still, as I mostly see the typos I make as I'm typing, I think there are
-two other reasonable ways to approach the problem at hand:
+It's a pretty sound approach overall and there's nothing wrong with it.  Still,
+because I see the typos I make as I'm typing when the spell-checker is enabled,
+I think there are two other reasonable ways to approach the problem at hand:
 
 1. If you're a fast touch typist you can just `C-w` to delete the preceding word
 and retype it from scratch. Using `C-h` for single-letter corrections is fine as well,
@@ -36,6 +36,6 @@ that's easily achieved with `flyspell-prog-mode`), so I limit the use of `:spell
 text types I'm working often with (e.g. Markdown).
 
 Funny enough, I had to use the advice I shared in this post several times while writing it.
-I hope that not typos made it in the final version!
+I hope that no typos made it in the final version!
 
 That's all I have for you today! Keep hacking!
