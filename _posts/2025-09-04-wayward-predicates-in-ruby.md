@@ -35,10 +35,10 @@ topics and it makes it easier for people to refer to things within the domains.
 That's why I'm writing this short article - perhaps it will be a first step to
 establishing a common name for a pretty common thing.
 
-Also, I've always been a believer that naming should be both informative and fun,
+I've always been a believer that naming should be both informative and fun,
 and that's certainly one fun name. Wayward predicates can surprise us unpleasantly
 every now and then, but they are also a classic example of the flexibility of Ruby
-and it's continued resistance to sticking to narrowly defined rules and guidelines.
+and its continued resistance to sticking to narrowly defined rules and guidelines.
 
 That's all I have for you today. Keep hacking!
 
