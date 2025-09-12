@@ -29,9 +29,9 @@ Probably the thing about Python that bothered me the most what stuff that would
 normally be methods are global functions (that often call some object methods internally).
 I'm referring to the likes of:
 
-- len
-- sum
-- pow
+- `len`
+- `sum`
+- `pow`
 
 You can find the full list [here](https://docs.python.org/3/library/functions.html).
 
@@ -155,3 +155,5 @@ and enjoy using it occasionally. It just doesn't make me as happy as Ruby does.
 
 I've long written about my frustrations with Ruby, so it feels pretty good to write for once about the aspects
 of Ruby that I really enjoy. Keep hacking!
+
+**P.S.** After writing this I realized I had already written a [similar article]({% post_url 2011-05-03-ruby-or-python %}) 14 years ago, but I had totally forgotten about it! Oh, well...
