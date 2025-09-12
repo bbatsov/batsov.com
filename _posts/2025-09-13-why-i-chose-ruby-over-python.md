@@ -21,13 +21,13 @@ so here we go.
 - the things I prefer in Ruby over Python are super subjective
 - for every thing that Ruby does "better" there's something else that Python does better
 
-So, treat this as an amusing personal account and nothing more than that. 
+So, treat this as an amusing personal account and nothing more than that.
 
 ## Built-in functions
 
 Probably the thing about Python that bothered me the most what stuff that would
 normally be methods are global functions (that often call some object methods internally).
-I'm referring to the likes of:  
+I'm referring to the likes of:
 
 - len
 - sum
@@ -36,7 +36,7 @@ I'm referring to the likes of:
 You can find the full list [here](https://docs.python.org/3/library/functions.html).
 
 I'm guessing the reason for this (as usual) is historical, but I much prefer the way Ruby does things.
-E.g. `str.length` instead of `len(str)` or `arr.sum` vs `sum(arr)`. 
+E.g. `str.length` instead of `len(str)` or `arr.sum` vs `sum(arr)`.
 
 ## Semantic indentation
 
@@ -105,7 +105,7 @@ read great in my opinion.
 
 More importantly, in Ruby and Python it's common to have destructive and
 non-destructive versions of some methods. E.g. - `arr.sort!` vs `arr.sort` in
-Ruby, and `list.sort` vs `sorted(list)` in Python. 
+Ruby, and `list.sort` vs `sorted(list)` in Python.
 
 I don't know about you, but to me it seems that:
 
@@ -147,7 +147,7 @@ Now it seems that `uv` might replace them all. Until something replaces `uv` I g
 And that's a wrap. I'm guessing at this point most Rubyists reading this would probably agree with
 my perspective (shocking, right?) and most Pythonistas won't. And that's fine.
 I'm not trying to convince anyone that Ruby's a better language than Python, I'm just
-sharing the story of how I ended up in team Ruby almost 20 years ago.     
+sharing the story of how I ended up in team Ruby almost 20 years ago.
 
 Back in the day I felt that Ruby's syntax was more elegant and more consistent than Python's, and
 today my sentiment is more or less the same. Don't get me wrong, though - I like Python overall
