@@ -183,7 +183,7 @@ Those get persisted to a file and are available
 between restarts. You can create/update universal variables like this:
 
 ```shell
-set -ux SOME_VAR=value
+set -Ux SOME_VAR value
 ```
 
 The notion of persistent shell variables was definitely novel and confusing
