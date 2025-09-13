@@ -1,5 +1,5 @@
 ---
-title: Why I Chose Ruby over Python
+title: Why I Chose Ruby over Python: Redux
 date: 2025-09-12 9:50 +0300
 tags:
 - Ruby
