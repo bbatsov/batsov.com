@@ -110,7 +110,7 @@ will probably prefer using homebrew, however.
 Ruby makes heavy use of braces and keywords (like `do/then/end`) to
 delimit blocks of code. Python relies simply on indentation.
 
-``` python
+```python
 def fact(n):
     return reduce(lambda x, y: x * y, range(1, n + 1))
 ```
@@ -159,7 +159,7 @@ mutate the object on which they were invoked generally have the `!`
 suffix - `sort!`, `map!`, etc. I find this a nice decision. In Ruby you
 generally have many ways to achieve the same result:
 
-``` irb
+```irb
 ruby-1.9.2-p0 > 1.even?
  => false
 ruby-1.9.2-p0 > arr = [1, 2, 3]
@@ -195,7 +195,7 @@ to do TAB smart completion (amongst other things) by default. To get
 TAB completion in the Python REPL you'd have to execute this bit of
 code first:
 
-``` pycon
+```pycon
 >>> import readline, rlcompleter
 >>> readline.parse_and_bind("tab: complete")
 ```
@@ -213,14 +213,14 @@ In Python there are some statements such as assignment and _if_. One
 thing I dislike about the Python REPL is that it doesn't print `None`
 values. Compare this bit of Python code:
 
-``` pycon
+```pycon
 >>> print("this is a test")
 this is a test
 ```
 
 to this Ruby snippet:
 
-``` irb
+```irb
 ruby-1.9.2-p0 > puts "this is a test"
 this is a test
  => nil
@@ -264,7 +264,7 @@ between primitive types(such as numbers, characters and booleans) and
 reference types(classes). Everything in them is an object and in that
 sense it's an instance of some class:
 
-``` pycon
+```pycon
 >>> type(1)
 <type 'int'>
 >>> type("string")
@@ -279,7 +279,7 @@ sense it's an instance of some class:
 
 And in Ruby:
 
-``` irb
+```irb
 ruby-1.9.2-p0 > 10.class
  => Fixnum
 ruby-1.9.2-p0 > "string".class
@@ -329,7 +329,7 @@ the immutable data structures that generally are the code of most
 functional programming languages. Here's a few example related to
 filtering a sequence based on some predicate:
 
-``` pycon
+```pycon
 >>> filter(lambda x: x % 2 == 0, range(1, 11))
 [2, 4, 6, 8, 10]
 >>> [x for x in range(1, 11) if x % 2 == 0]
@@ -338,7 +338,7 @@ filtering a sequence based on some predicate:
 
 Ruby:
 
-``` irb
+```irb
 ruby-1.9.2-p0 > (1..10).select { |x| x.even? }
  => [2, 4, 6, 8, 10]
 ruby-1.9.2-p0 > (1..10).select &:even?
@@ -515,7 +515,7 @@ place to start your journey to Python is
 beginners I'd recommend a copy of
 ["The Ruby Programming Language"](http://www.amazon.com/Ruby-Programming-Language-David-Flanagan/dp/0596516177).
 
-_P.S. If you like exploring different programming languages and you're
+**P.S.** _If you like exploring different programming languages and you're
 currently shopping for ideas on the subject of which language to learn
 next you might find my recent article
 ["Programming languages worth learning"]({% post_url 2011-04-27-programming-languages-worth-learning %})
