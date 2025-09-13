@@ -38,6 +38,55 @@ You can find the full list [here](https://docs.python.org/3/library/functions.ht
 I'm guessing the reason for this (as usual) is historical, but I much prefer the way Ruby does things.
 E.g. `str.length` instead of `len(str)` or `arr.sum` vs `sum(arr)`.
 
+## The `del` keyword
+
+`del` is a pretty weird beast as it can:
+
+- delete variables
+- list items
+- dictionary items
+
+``` python
+numbers = [1, 2, 3, 4, 5]
+del numbers[2]
+numbers
+# => [1, 2, 4, 5]
+
+del numbers
+numbers
+# => NameError: name 'numbers' is not defined
+```
+
+Why would someone want a keyword for removing items from lists and dictionaries instead of some method is beyond me. Ruby's arrays have methods like:
+
+- `delete` (to remove some values)
+- `delete_at` (to remove some index)
+
+## Too many statements (and functions returning `None`)
+
+In Ruby almost everything is an expression (meaning that evaluating it would
+result in a value). In Python a lot of things are consider "statements" -
+something executed for their side effects only. If you haven't used
+languages like Ruby or Lisp this might sound a bit strange, but if we go back
+to the previous section about `del`, we can observe that:
+
+- There's no obvious way to determine if `del` actually removed something
+- In Ruby, however, most deletions result in informative results
+
+``` ruby
+arr = (1..10).to_a
+# => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+arr.delete(1)
+# => 1
+arr.delete(1)
+# => nil
+arr.delete_at(0)
+# => 2
+```
+
+That's something that I really value and I consider it one of the bigger
+practical advantages of Ruby over Python.
+
 ## Semantic indentation
 
 At first I thought the semantic indentation used by Python is super cool,
