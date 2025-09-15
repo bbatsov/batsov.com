@@ -144,6 +144,53 @@ it doesn't have the option to mark something as inclusive range.
 
 Definitely not a big deal, but one of the many small touches of Ruby's syntax that I came to appreciate over time.
 
+### Passing `self` explicitly everywhere
+
+In Python one has to pass `self` to instance methods explicitly, which always seemed to me
+like an excessive level of verbosity. Also, that's quite uncommon in other object-oriented
+programming languages.
+
+```python
+class MyClass:
+    """A simple example class"""
+    i = 12345
+
+    def f(self):
+        return 'hello world'
+```
+
+### Too many underscores (e.g. `__init__`)
+
+Many special methods have names surrounded with `__`, which I find both odd and not very easy to type.
+I get why this was chosen (to avoid naming conflicts), but I don't like it regardless.
+
+### Explicit `return`
+
+I really like that in Ruby the return value of a method is the value of the last expression
+that got evaluated in the method. There's a `return` expression in Ruby, but it's rarely
+needed in practice.
+
+In Python, by comparison, you always have to use `return`, otherwise your method will
+return `None`. Not a big deal in general, but as I spend a lot of time with Ruby and
+various functional programming languages, it's definitely something that bothers me.
+
+### `lambda` verbosity
+
+Admittedly that's a very small one, but I would have preferred if anonymous functions were
+created with a keyword like `fn` or `fun` instead of `lambda`. In Ruby historically they
+were created with `lambda` as well, but afterwards the `->` shorthand was introduced as well.
+
+```ruby
+# classic Ruby lambda
+a_lambda = lambda { puts "Hello world!" }
+
+# shorthand
+s_lambda = -> { puts "I rock!" }
+```
+
+There's nothing wrong with the Python syntax per se, but I think that in general for
+lambdas it's better to have a more compact syntax.
+
 ### Naming conventions
 
 Ruby predicates typically have names ending in `?` - e.g. `even?`, `odd?`, `digit?`. This makes them
