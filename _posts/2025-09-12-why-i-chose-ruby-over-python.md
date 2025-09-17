@@ -170,8 +170,32 @@ I really like that in Ruby the return value of a method is the value of the last
 that got evaluated in the method. There's a `return` expression in Ruby, but it's rarely
 needed in practice.
 
+``` ruby
+def fact(n)
+  (1..n).reduce(:*)
+end
+
+fact 5
+# => 120
+```
+
 In Python, by comparison, you always have to use `return`, otherwise your method will
-return `None`. Not a big deal in general, but as I spend a lot of time with Ruby and
+return `None`.
+
+``` python
+def fact(n):
+    res = 1
+
+    for n in range(1, n + 1):
+        res *= n
+
+    res # notice the forgotten return
+
+fact(5)
+# => None
+```
+
+Not a big deal in general, but as I spend a lot of time with Ruby and
 various functional programming languages, it's definitely something that bothers me.
 
 ### `lambda` verbosity
@@ -184,7 +208,7 @@ were created with `lambda` as well, but afterwards the `->` shorthand was introd
 # classic Ruby lambda
 a_lambda = lambda { puts "Hello world!" }
 
-# shorthand
+# lambda shorthand
 s_lambda = -> { puts "I rock!" }
 ```
 
