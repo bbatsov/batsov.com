@@ -39,7 +39,7 @@ through a chain of functions, e.g.
 
 ```fsharp
 [ 1 .. 10 ]
-    |> List.map (fun x -> x *x)
+    |> List.map (fun x -> x * x)
     |> List.filter (fun x -> x % 2 = 0)
 ```
 
@@ -47,7 +47,7 @@ instead of
 
 ```fsharp
 List.filter (fun x -> x % 2 = 0)
-    (List.map (fun x -> x *x) [ 1 .. 10 ])
+    (List.map (fun x -> x * x) [ 1 .. 10 ])
 ```
 
 Despite being heavily associated with F#, the use of the pipeline symbol in ML dialects actually
