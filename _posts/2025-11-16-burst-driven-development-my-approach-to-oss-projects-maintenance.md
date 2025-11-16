@@ -4,6 +4,7 @@ date: 2025-11-16 14:16 +0200
 tags:
 - OSS
 - Maintenance
+- Emacs
 ---
 
 I've been working on OSS projects for almost 15 years now. Things are simple
@@ -36,7 +37,7 @@ The time I've spent develop OSS projects has taught me that:
 - "hammock time" is important
 
 To illustrate all of the above with some example, let me tell you a bit about
-[copilot.el 0.3](https://github.com/copilot-emacs/copilot.el/releases/tag/v0.3.0).  
+[copilot.el 0.3](https://github.com/copilot-emacs/copilot.el/releases/tag/v0.3.0).
 I became the primary maintainer of `copilot.el` about 9 months ago.
 Initially there were many things about the project that were frustrating to me
 that I wanted to fix and improve. After a month of relatively focused work I had
