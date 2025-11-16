@@ -61,7 +61,7 @@ it works only for variable names, as opposed to arbitrary Rust expressions:
 ```rust
 # this won't work
 let x = 42;
-println!("{x + }");
+println!("{x + 1}");
 ```
 
 Perhaps future versions of Rust will address this limitation. Time will tell.
