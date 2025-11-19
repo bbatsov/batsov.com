@@ -49,6 +49,20 @@ have been in the back of my mind for ages and finally implement them. Or not.
 I don't have any planned order in which I revisit my projects - I just go
 wherever my inspiration (or current problems related the projects) take me.
 
+Back in the day (before the pandemic) I was also practicing a variant of burst-driven
+development that I was calling "conference-driven development". I was speaking
+often at conferences back then and I usually do a lot of focused development
+on some project leading to a conference where I'd present something about it. E.g.:
+
+- Before Clojure conferences I'd usually focus on improvements in CIDER and nREPL
+- Before Ruby conferences I'd focus on RuboCop
+
+I hope you get the idea. Even if my topics were not directly related to my OSS
+projects I liked to announce new releases and exciting new developments at
+conference talks. Sadly, I've barely spoken at any conferences since 2020, so
+conference-driven development doesn't happen these days. Perhaps it will make a
+comeback in the future, but I have my doubts about this...
+
 And that's a wrap. Nothing novel here, but I hope some of you will find it useful
 to know how do I approach the topic of multi-project maintenance overall.
 The "job" of the maintainers is sometimes fun, sometimes tiresome and boring,
