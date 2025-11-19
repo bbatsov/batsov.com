@@ -9,9 +9,10 @@ tags:
 
 I've been working on OSS projects for almost 15 years now. Things are simple
 in the beginning - you've got a single project, no users to worry about and
-all the time and the focus in world. Things changed quite a bit for me over
+all the time and the focus in the world. Things changed quite a bit for me over
 the years and today I'm the maintainer of a [couple of dozen OSS projects](https://batsov.com/projects)
-in the realms of Emacs, Clojure and Ruby mostly.
+in the realms of Emacs, Clojure and Ruby mostly. Some of them even happen to
+have many users!
 
 People often ask me how I manage to work on so many projects, besides having
 a day job, that obviously takes up most of my time. My recipe is quite simple
@@ -57,11 +58,11 @@ on some project leading to a conference where I'd present something about it. E.
 - Before Clojure conferences I'd usually focus on improvements in CIDER and nREPL
 - Before Ruby conferences I'd focus on RuboCop
 
-I hope you get the idea. Even if my topics were not directly related to my OSS
+I hope you get the idea. Even if my talks were not directly related to my OSS
 projects I liked to announce new releases and exciting new developments at
 conference talks. Sadly, I've barely spoken at any conferences since 2020, so
 conference-driven development doesn't happen these days. Perhaps it will make a
-comeback in the future, but I have my doubts about this...
+comeback in the future...
 
 And that's a wrap. Nothing novel here, but I hope some of you will find it useful
 to know how do I approach the topic of multi-project maintenance overall.
