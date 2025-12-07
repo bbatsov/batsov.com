@@ -53,9 +53,10 @@ reason for this. Emacs is often considered to be a super-conservative and slow-m
 almost feels progressive compared to Vim.[^2]
 
 I was also a bit confused by the native Vim 8 package system[^3], as it's little
-more then some predefined locations and structure for the Vim packages.  I had
-expected something closer to Emacs's `package.el`. Anyways `vim-plug` is pretty
-good and there are a ton of other package managers out there.
+more than some predefined filesystem locations and structure for the Vim
+packages.  I had expected something closer to Emacs's `package.el`. Anyways
+`vim-plug` is pretty good and there are a ton of other package managers out
+there.
 
 Some other pet peeves I have with Vim are:
 
