@@ -30,4 +30,7 @@ addition to any Vimmer's tool belt.
 
 That's all I have for you today. Keep hacking!
 
-**P.S.** If only Vim's insert mode supported `readline`'s keybindings or something similar...
+**P.S.** If only Vim's insert mode supported `readline`'s keybindings or
+something similar...  You can, however, get something similar using plugins
+like [rsi.vim](https://github.com/tpope/vim-rsi) and
+[readline.vim](https://github.com/ryvnf/readline.vim).
