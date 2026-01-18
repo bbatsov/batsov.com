@@ -2,7 +2,7 @@
 title: 'How to Vim: Toggle Comments'
 date: 2025-05-25 10:13 +0300
 tags:
-- vim
+- Vim
 ---
 
 One if the things that had initially frustrated me about Vim is

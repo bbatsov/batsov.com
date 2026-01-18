@@ -1,0 +1,37 @@
+# Sidebar contact/social links
+# See https://github.com/cotes2020/jekyll-theme-chirpy for supported types
+
+- type: github
+  icon: "fab fa-github"
+  url: "https://github.com/bbatsov"
+
+- type: mastodon
+  icon: "fab fa-mastodon"
+  url: "https://hachyderm.io/@bbatsov"
+
+- type: twitter
+  icon: "fab fa-x-twitter"
+  url: "https://x.com/bbatsov"
+
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/bbatsov/"
+
+- type: email
+  icon: "fas fa-envelope"
+  url: "mailto:bozhidar@batsov.net"
+
+- type: rss
+  icon: "fas fa-rss"
+  url: "/atom.xml"
+
+# Other blogs
+- type: emacsredux
+  icon: "fas fa-blog"
+  url: "https://emacsredux.com"
+  noblank: false
+
+- type: metaredux
+  icon: "fas fa-blog"
+  url: "https://metaredux.com"
+  noblank: false

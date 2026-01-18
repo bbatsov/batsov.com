@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Announcing the Powerpack library"
 date: 2013-08-21 16:17
 tags:

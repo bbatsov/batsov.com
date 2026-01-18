@@ -2,7 +2,7 @@
 title: 'How to Vim: Take Control of Split Positioning'
 date: 2025-08-27 10:56 +0300
 tags:
-- vim
+- Vim
 ---
 
 One of my pet peeves with Vim is that by default the buffer splitting

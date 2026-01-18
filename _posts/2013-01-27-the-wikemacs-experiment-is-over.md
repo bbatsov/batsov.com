@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "The WikEmacs Experiment is Over!"
 date: 2013-01-27 09:23
 redirect_from:

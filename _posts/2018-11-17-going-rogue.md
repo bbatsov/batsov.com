@@ -1,5 +1,4 @@
 ---
-layout: single
 title: Going Rogue
 date: 2018-11-17 11:45 +0100
 tags:

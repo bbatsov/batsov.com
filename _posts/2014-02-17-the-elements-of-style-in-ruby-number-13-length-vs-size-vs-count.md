@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "The Elements of Style in Ruby #13: length vs size vs count"
 date: 2014-02-17 18:55
 tags:

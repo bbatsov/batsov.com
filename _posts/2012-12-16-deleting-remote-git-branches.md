@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Deleting Remote Git Branches"
 date: 2012-12-16 10:10
 tags:

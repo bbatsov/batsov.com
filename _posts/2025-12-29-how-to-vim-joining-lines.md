@@ -2,7 +2,7 @@
 title: 'How to Vim: Joining Lines'
 date: 2025-12-29 09:36 +0200
 tags:
-- vim
+- Vim
 ---
 
 Joining adjacent lines is something that comes up

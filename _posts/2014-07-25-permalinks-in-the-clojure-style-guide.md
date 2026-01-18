@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Permalinks in the Clojure style guide"
 date: 2014-07-25 16:42
 tags:

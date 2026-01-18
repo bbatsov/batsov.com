@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "All Hands on Deck! (or the Action Plan for a new Emacs community wiki)"
 date: 2012-03-21 11:11
 tags:

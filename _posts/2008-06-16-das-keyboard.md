@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Das Keyboard"
 tags:
 - Hardware

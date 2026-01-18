@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Using Ruby's gsub with a hash"
 date: 2013-10-03 16:12
 tags:

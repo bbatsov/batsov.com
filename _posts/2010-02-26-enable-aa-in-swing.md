@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "How to enable font anti-aliasing in a Java Swing app"
 tags:
 - Java

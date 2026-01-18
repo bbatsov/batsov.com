@@ -2,7 +2,7 @@
 title: 'How to Vim: Proper Ways to Escape'
 date: 2025-06-03 08:26 +0300
 tags:
-- vim
+- Vim
 ---
 
 `ESC` (Escape) is one of the most central key in the world of

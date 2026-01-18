@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Blogging Like a Hacker: Evolution"
 date: 2011-11-11 08:52
 tags:

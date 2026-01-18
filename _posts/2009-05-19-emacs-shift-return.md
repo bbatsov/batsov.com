@@ -1,5 +1,4 @@
 ---
-layout: single
 title: Emulate the behaviour of Return+Shift(insert new line) from popular IDEs(IDEA, Eclipse) in Emacs
 tags:
 - Emacs

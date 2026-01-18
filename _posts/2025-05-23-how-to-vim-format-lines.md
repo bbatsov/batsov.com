@@ -2,7 +2,7 @@
 title: 'How to Vim: Format Lines & Paragraphs'
 date: 2025-05-23 23:00 +0300
 tags:
-- vim
+- Vim
 ---
 
 When writing long code comments or prose (e.g. in Markdown) I like to have

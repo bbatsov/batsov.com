@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Emacs Redux"
 date: 2013-04-15 17:10
 tags:

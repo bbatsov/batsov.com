@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Deploying Rails 3.1 applications on Heroku's Celadon Cedar
 stack"
 tags:

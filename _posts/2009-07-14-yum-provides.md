@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Find out quickly which package provides a certain library with
 YUM"
 tags:

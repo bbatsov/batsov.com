@@ -2,7 +2,7 @@
 title: 'How to Vim: Reloading File Buffers'
 date: 2025-06-02 11:11 +0300
 tags:
-- vim
+- Vim
 ---
 
 In Vim (and many other editors) we interact with the contents of files via the "file buffer"

@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Thoughts on the Amazon Kindle"
 toc: true
 tags:

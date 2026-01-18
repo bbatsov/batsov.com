@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Ruby or Python?"
 toc: true
 tags:

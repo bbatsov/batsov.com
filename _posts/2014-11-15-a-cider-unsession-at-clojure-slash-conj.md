@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "A CIDER Unsession at Clojure/conj"
 date: 2014-11-15 20:17
 tags:

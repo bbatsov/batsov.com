@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "The Elements of Style in Ruby #5: Readability of long numeric literals"
 date: 2013-07-02 15:01
 tags:

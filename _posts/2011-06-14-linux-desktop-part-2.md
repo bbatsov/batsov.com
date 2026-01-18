@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "The Linux desktop experience is killing Linux on the desktop,
 Part II"
 tags:

@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "A list of deprecated stuff in Ruby"
 date: 2014-02-05 18:37
 tags:

@@ -2,7 +2,7 @@
 title: 'How to Vim: Jump Around'
 date: 2025-05-31 10:09 +0300
 tags:
-- vim
+- Vim
 ---
 
 One of the most important aspects of effective editing is to be able to quickly

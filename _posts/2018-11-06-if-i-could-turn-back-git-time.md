@@ -1,5 +1,4 @@
 ---
-layout: single
 title: If I Could Turn Back (Git) Time
 date: 2018-11-06 18:54 +0100
 tags:

@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Add an Atom feed to a Jekyll blog"
 tags:
 - Jekyll

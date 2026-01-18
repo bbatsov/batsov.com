@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "The Elements of Style in Ruby #3: Make sure something is an array"
 date: 2013-06-28 15:39
 tags:

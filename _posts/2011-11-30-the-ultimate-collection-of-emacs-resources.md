@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "The Ultimate Collection of Emacs Resources"
 date: 2011-11-30 20:56
 tags:

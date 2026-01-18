@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "One shell to rule them all..."
 toc: true
 tags:

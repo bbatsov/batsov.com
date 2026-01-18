@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Moving from WordPress to Jekyll"
 tags:
 - Jekyll

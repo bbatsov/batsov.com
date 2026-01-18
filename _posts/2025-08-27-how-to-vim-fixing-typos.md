@@ -2,7 +2,7 @@
 title: 'How to Vim: Fixing Typos'
 date: 2025-08-27 13:38 +0300
 tags:
-- vim
+- Vim
 ---
 
 Here's another small Vim tip - how to deal with typos quickly.

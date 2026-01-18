@@ -1,8 +1,9 @@
 ---
-layout: single
+layout: page
 title: Quotes
 permalink: /quotes/
-author_profile: true
+icon: fas fa-quote-left
+order: 7
 toc: true
 ---
 
@@ -10,7 +11,7 @@ This page is simply a collection of random quotes that I find inspirational.
 
 ## Meta
 
-> Your time is limited, so don’t waste it living someone else’s life.
+> Your time is limited, so don't waste it living someone else's life.
 >
 > -- Steve Jobs
 
@@ -26,7 +27,7 @@ This page is simply a collection of random quotes that I find inspirational.
 > If you are anxious, you are living in the future.  <br>
 > If you are at peace, you are living in the present. <br>
 >
-> –- Lao Tzu
+> -- Lao Tzu
 
 > Plans are worthless, but planning is everything.
 >
@@ -52,7 +53,7 @@ This page is simply a collection of random quotes that I find inspirational.
 
 > The tools we use have a profound (and devious) influence on our thinking habits, and, therefore, on our thinking abilities.
 >
-> —- Edsger W. Dijkstra
+> -- Edsger W. Dijkstra
 
 > Simplicity does not precede complexity, but follows it.
 >
@@ -83,8 +84,8 @@ This page is simply a collection of random quotes that I find inspirational.
 >
 > -- Eric S. Raymond, The Art of UNIX Programming
 
-> If you are a professional writer – i.e., if someone else is getting
-> paid to worry about how your words are formatted and printed – Emacs
+> If you are a professional writer - i.e., if someone else is getting
+> paid to worry about how your words are formatted and printed - Emacs
 > outshines all other editing software in approximately the same way
 > that the noonday sun does the stars. It is not just bigger and
 > brighter; it simply makes everything else vanish.
@@ -118,13 +119,13 @@ This page is simply a collection of random quotes that I find inspirational.
 
 > The things you own end up owning you. It's only after you lose everything that you're free to do anything.
 >
-> -― Tyler Durden (Chuck Palahniuk), Fight Club
+> -- Tyler Durden (Chuck Palahniuk), Fight Club
 
 ## Finance & Business
 
-> I can’t tell you how to get rich quickly. I can only tell you how to get poor quickly: by trying to get rich quickly.
+> I can't tell you how to get rich quickly. I can only tell you how to get poor quickly: by trying to get rich quickly.
 >
-> -- André Kostolany
+> -- Andre Kostolany
 
 > It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price.
 >

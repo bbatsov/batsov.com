@@ -1,5 +1,4 @@
 ---
-layout: single
 title: Basic Git Setup
 date: 2020-11-22 11:32 +0200
 tags:

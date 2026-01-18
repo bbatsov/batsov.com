@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Emacs Tip #5: Save Buffers Automatically on Buffer or Window Switch"
 date: 2012-03-08 15:58
 tags:

@@ -1,8 +1,9 @@
 ---
-layout: single
-title: "Presentations"
+layout: page
+title: Presentations
 permalink: /presentations/
-author_profile: true
+icon: fas fa-chalkboard-teacher
+order: 5
 ---
 
 I'm not some ninja pro rock-star conference speaker, but I do the occasional

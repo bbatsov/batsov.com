@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Octopress 3.0"
 date: 2015-02-15 13:24
 tags:

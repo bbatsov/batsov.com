@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Solarized for Emacs"
 date: 2011-12-03 14:44
 tags:

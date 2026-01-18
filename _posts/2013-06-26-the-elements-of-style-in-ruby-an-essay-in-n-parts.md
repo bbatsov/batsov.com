@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "The Elements of Style in Ruby: An Essay in N parts"
 date: 2013-06-26 16:30
 tags:

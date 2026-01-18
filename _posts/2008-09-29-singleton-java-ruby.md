@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "The best way to implement the Singleton pattern in Java and
 Ruby"
 tags:

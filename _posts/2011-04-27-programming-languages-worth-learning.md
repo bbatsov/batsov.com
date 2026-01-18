@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Programming languages worth learning"
 toc: true
 tags:

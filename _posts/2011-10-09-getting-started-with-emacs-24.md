@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Getting started with Emacs 24"
 tags:
 - Emacs

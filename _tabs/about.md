@@ -1,8 +1,9 @@
 ---
-layout: single
+layout: page
 title: About
 permalink: /about/
-author_profile: true
+icon: fas fa-info-circle
+order: 1
 toc: true
 ---
 
@@ -85,7 +86,7 @@ out as well - [Emacs Redux](http://emacsredux.com).
 ## Colophon
 
 This website is powered by [Jekyll](https://jekyllrb.com/) and uses
-the [Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes).
+the [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy).
 
 I write all of the articles in Emacs and publish them to GitHub
 pages. These days (circa 2025) I'm a macOS user most of the time.  When I'm at home
@@ -105,7 +106,7 @@ All original content here is licensed under the [Creative Commons Attribution-No
 This is my personal site and it expresses my own personal opinions and nothing else.
 Shocker, right?
 
-[^1]: Божидар in Bulgarian. I know, I know - that's both pretty hard to read and to pronounce. My friends call me Bug and so can you.
+[^1]: Bozhidar in Bulgarian. I know, I know - that's both pretty hard to read and to pronounce. My friends call me Bug and so can you.
 [^2]: Especially Lisps! And Unix-like operating systems! And Emacs! And video games!
 [^3]: But at least I'm honest with myself.
 [^4]: Also known as the "best keyboard ever". Seriously!

@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Debian post installation setup & tips"
 tags:
 - Linux

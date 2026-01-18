@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Parsing numbers from string in Common Lisp"
 tags:
 - Common Lisp

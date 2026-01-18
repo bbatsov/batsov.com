@@ -1,5 +1,4 @@
 ---
-layout: single
 title: Farewell Disqus
 date: 2020-12-08 10:50 +0200
 tags:

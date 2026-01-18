@@ -7,8 +7,8 @@ tags:
 - shell
 - terminal
 - productivity
-- linux
-- macos
+- Linux
+- macOS
 - command-line
 ---
 

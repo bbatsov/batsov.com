@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "A couple of useful extensions to Ruby's Enumerable module"
 date: 2013-09-03 15:20
 tags:

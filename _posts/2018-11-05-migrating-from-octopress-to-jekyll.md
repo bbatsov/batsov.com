@@ -1,5 +1,4 @@
 ---
-layout: single
 title: Migrating from Octopress to Jekyll
 date: 2018-11-05 22:46 +0100
 tags:

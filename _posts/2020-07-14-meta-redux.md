@@ -1,5 +1,4 @@
 ---
-layout: single
 title: Meta Redux
 date: 2020-07-14 11:16 +0300
 tags:

@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "A nice zsh prompt"
 tags:
 - Z Shell

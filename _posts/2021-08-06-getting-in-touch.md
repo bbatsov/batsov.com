@@ -1,5 +1,4 @@
 ---
-layout: single
 title: Getting in Touch
 date: 2021-08-06 14:16 +0300
 tags:

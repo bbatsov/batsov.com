@@ -1,5 +1,4 @@
 ---
-layout: single
 title: How to center a JDialog over a JFrame in Swing
 tags:
 - Java

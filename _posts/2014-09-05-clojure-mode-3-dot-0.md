@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "clojure-mode 3.0"
 date: 2014-09-05 15:15
 tags:

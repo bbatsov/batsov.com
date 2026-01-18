@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "RuboCop 0.9 is now patrolling the streets!"
 date: 2013-07-01 17:06
 tags:

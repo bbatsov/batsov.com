@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Find out where a rake task is defined"
 date: 2014-05-30 17:23
 tags:

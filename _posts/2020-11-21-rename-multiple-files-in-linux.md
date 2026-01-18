@@ -1,5 +1,4 @@
 ---
-layout: single
 title: Rename Multiple Files in Linux
 date: 2020-11-21 19:16 +0200
 tags:

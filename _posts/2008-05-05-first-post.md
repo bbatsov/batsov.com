@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Every blog has its first post..."
 tags:
 - Meta

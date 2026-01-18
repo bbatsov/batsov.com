@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Regexp anchors in Ruby"
 date: 2013-12-04 15:46
 tags:

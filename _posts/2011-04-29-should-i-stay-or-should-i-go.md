@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Should I stay or should I go?"
 redirect_from:
 - /articles/2011/04/29/career-development/

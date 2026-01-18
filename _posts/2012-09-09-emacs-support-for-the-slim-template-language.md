@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Emacs Support for the Slim Template Language"
 date: 2012-09-09 20:16
 tags:

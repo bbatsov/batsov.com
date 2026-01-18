@@ -1,5 +1,4 @@
 ---
-layout: single
 title: Inspecting the Contents of a Ruby Gem
 date: 2020-12-16 10:17 +0200
 tags:

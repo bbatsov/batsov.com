@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Introducing inf-clojure - a Better Basic Clojure REPL for Emacs"
 date: 2014-12-04 12:45
 tags:

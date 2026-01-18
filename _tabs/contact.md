@@ -1,8 +1,9 @@
 ---
-layout: single
+layout: page
 title: Contact
 permalink: /contact/
-author_profile: true
+icon: fas fa-envelope
+order: 6
 toc: true
 ---
 

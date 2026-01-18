@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Emacs on OS X"
 date: 2012-10-14 22:03
 tags:

@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Using Emacs for Rails development: The perfect setup"
 last_modified_at: 2011-04-29
 tags:

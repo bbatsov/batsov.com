@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Emacs Tip #3: Whitespace Cleanup"
 date: 2011-11-25 14:26
 tags:

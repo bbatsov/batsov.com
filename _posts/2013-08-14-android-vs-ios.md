@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Android vs iOS: No Clear Winner"
 date: 2013-08-14 14:20
 redirect_from:

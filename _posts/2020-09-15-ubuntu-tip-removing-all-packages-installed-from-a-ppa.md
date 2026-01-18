@@ -1,5 +1,4 @@
 ---
-layout: single
 title: 'Ubuntu Tip: Removing All Packages Installed from a PPA'
 date: 2020-09-15 16:14 +0300
 tags:

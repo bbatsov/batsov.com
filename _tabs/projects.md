@@ -1,8 +1,9 @@
 ---
-layout: single
+layout: page
 title: Projects
 permalink: /projects/
-author_profile: true
+icon: fas fa-code
+order: 4
 toc: true
 ---
 
