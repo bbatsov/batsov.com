@@ -1,5 +1,10 @@
-<hyvor-talk-comments
-    website-id="{{ site.comments.hyvor_talk.website_id }}"
-    page-id="{{ page.url | absolute_url }}">
-</hyvor-talk-comments>
-<script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
+<script type="module">
+  import 'https://talk.hyvor.com/embed/embed.js';
+
+  const comments = document.createElement('hyvor-talk-comments');
+  comments.setAttribute('website-id', '{{ site.comments.hyvor_talk.website_id }}');
+  comments.setAttribute('page-id', '{{ page.url | absolute_url }}');
+
+  const footer = document.querySelector('footer');
+  footer.insertAdjacentElement('beforebegin', comments);
+</script>

@@ -1,9 +1,10 @@
-<div id="hyvor-talk-view"></div>
-<script type="text/javascript">
- var HYVOR_TALK_WEBSITE = 2584; // DO NOT CHANGE THIS
- var HYVOR_TALK_CONFIG = {
-   url: '{{ page.url | absolute_url }}',
-   id: '{{ page.url | absolute_url }}'
- };
+<script type="module">
+  import 'https://talk.hyvor.com/embed/embed.js';
+
+  const comments = document.createElement('hyvor-talk-comments');
+  comments.setAttribute('website-id', '2584');
+  comments.setAttribute('page-id', '{{ page.url | absolute_url }}');
+
+  const footer = document.querySelector('footer');
+  footer.insertAdjacentElement('beforebegin', comments);
 </script>
-<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
