@@ -25,8 +25,9 @@ gem "jekyll-theme-chirpy", "~> 7.0"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-compose"
-  gem 'jekyll-redirect-from'
-  gem 'jekyll-archives'
+  gem "jekyll-redirect-from"
+  gem "jekyll-archives"
+  gem "jekyll-remote-theme"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
