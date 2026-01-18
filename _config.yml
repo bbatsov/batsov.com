@@ -1,6 +1,6 @@
 # The Site Configuration
-# Import the theme (use remote_theme for GitHub Pages compatibility)
-remote_theme: cotes2020/jekyll-theme-chirpy@v7.4.1
+# Import the theme
+theme: jekyll-theme-chirpy
 
 # The language of the webpage
 lang: en
@@ -138,7 +138,6 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-archives
-  - jekyll-remote-theme
 
 # Archives
 jekyll-archives:
