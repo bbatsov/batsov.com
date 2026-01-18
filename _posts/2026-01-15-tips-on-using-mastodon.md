@@ -18,6 +18,8 @@ I found frustrating:
   different clients. That was improved in recent versions of Mastodon, but it
   was definitely surprising to me coming from Twitter.
 
+## Picking an instance
+
 Eventually I realized the simplest things you can do to have a nice Mastodon
 experience is to pick some reasonably popular instance (so you known it's
 stable and won't disappear after a while) and some decent third-party client. I
@@ -26,6 +28,8 @@ which instance you're end up using. If you don't want to waste time researching
 instances just go with the "default" [mastodon.social](https://mastodon.social)
 instance.  You can certainly do a lot worse, and of course, you can always move
 your account to another Mastodon instance down the road.
+
+## Picking a client
 
 When it comes to clients, I've played with quite a few and enjoyed the most the following:
 
@@ -41,6 +45,8 @@ subscription to have access to all their features, but these are money well
 spent IMO. I really like desktop apps, so Mona and Ivory made my interactions
 with Mastodon way more pleasant (and frequent). Not that the webapps are bad, I
 just don't like having a ton of pinned windows in my browser.
+
+## Hashtags
 
 One more thing - embrace hashtags in Mastodon! Twitter had made those popular in its early days,
 but eventually moved away from them. They are quite alive in Mastodon and I use
