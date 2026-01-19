@@ -40,7 +40,7 @@ Have a look at the [changelog](https://github.com/bbatsov/projectile/blob/master
 
 And here's the new **Commander** in action:
 
-![Projectile Commander](/assets/images/projectile-commander.gif)
+![Projectile Commander](/assets/img/projectile-commander.gif)
 
 Basically it gives you a way to invoke many of the Projectile commands
 with a single key - `f` for `find-file`, `s` for `switch-project`,

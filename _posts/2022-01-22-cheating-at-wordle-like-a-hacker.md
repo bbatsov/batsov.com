@@ -7,7 +7,7 @@ tags:
 
 These day almost everyone on Twitter seems to be playing the word game [Wordle](https://www.powerlanguage.co.uk/wordle/), including me. You've probably seen many people around you sharing images like this one:
 
-![wordle.png](/assets/images/wordle.png)
+![wordle.png](/assets/img/wordle.png)
 
 Most of the time the 5-letter words you have to guess are pretty easy, but occasionally there are words that are quite uncommon (at least for non-native speakers like me), that encourage to cheat in order to figure them out.
 

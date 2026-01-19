@@ -46,6 +46,6 @@ fight for Ukraine, but it's a fight for long-term freedom and democracy in all o
 
 **P.S.** That's one of the final pictures I have from Kyiv. I keep revisiting it all the time these days. Me, my wife (next to me) and several wonderful colleagues from Kyiv.
 
-![Team dinner in Kyiv](/assets/images/team_dinner_kyiv.jpg)
+![Team dinner in Kyiv](/assets/img/team_dinner_kyiv.jpg)
 
 The picture is from the 14th of January, but it seems it was taken a lifetime ago. Once the war is over the victory party will be in "Lyubimy dyadya"!

@@ -42,7 +42,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # The avatar on sidebar, support local or CORS resources
-avatar: /assets/images/bozhidar_avatar.jpg
+avatar: /assets/img/bozhidar_avatar.jpg
 
 # The URL of the site-hierarchical RSS Feed, used by link tag
 rss: /atom.xml

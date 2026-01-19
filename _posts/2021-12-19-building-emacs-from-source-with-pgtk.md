@@ -61,7 +61,7 @@ In the end Emacs will get installed in `/usr/local/` and you'll have the `emacs`
 Emacs 29 running on WSL and it's gorgeous - gone are the blurry fonts and the need to use a 3rd party X server as a stop-gap measure. It also seems that Emacs is a bit snappier, but this might
 be just my wishful thinking. My favorite improvement - Emacs doesn't die when my computer goes to sleep (this was a nasty limitation of the X server I was using with Windows 10).
 
-![emacs_with_pgtk.png](/assets/images/emacs_with_pgtk.png)
+![emacs_with_pgtk.png](/assets/img/emacs_with_pgtk.png)
 
 You'll notice that now Emacs has proper GTK "chrome" (e.g. the frame
 title/header and the menubar). While the screenshot above is from Windows,
@@ -102,7 +102,7 @@ In my experience this resulted in much smoother scrolling. It's not very clear t
 `make install` will also create an `emacs.desktop` file under `/usr/local/share/applications/emacs.desktop`, so you'd get a menu entry for Emacs (and `Emacs Client`) in your Windows start menu or Linux distribution application launcher. For some reason with this launcher Emacs's icon got replaced with a generic Linux icon in Windows,
 but I have been unable to figure out what exactly went wrong. I'll update the article when I figure this out.
 
-![emacs_windows_launcher.png](/assets/images/emacs_windows_launcher.png)
+![emacs_windows_launcher.png](/assets/img/emacs_windows_launcher.png)
 
 If you decide to uninstall the version of Emacs you've installed from source you can just run `sudo make uninstall` from the Emacs source folder.
 

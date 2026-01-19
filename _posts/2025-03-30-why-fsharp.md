@@ -496,7 +496,7 @@ let population =
 If you run the script you'll get a nice diagram of the population of the various
 London boroughs in your browser. Good stuff!
 
-![London Boroughs](/assets/images/london_plot.png)
+![London Boroughs](/assets/img/london_plot.png)
 
 Here we must also appreciate how easy it is to use external libraries (e.g. Plotly.NET)
 in F# scripts!

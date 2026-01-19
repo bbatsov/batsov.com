@@ -34,7 +34,7 @@ Highly subjective personal preferences aside, people often conflate how popular
 something is with how good or lively it actually is. If you look at the market
 share of Emacs, things definitely don't look great:[^2]
 
-![editor_usage.jpg](/assets/images/editor_usage.jpg)
+![editor_usage.jpg](/assets/img/editor_usage.jpg)
 
 On the other hand, both the [upstream Emacs development](https://git.savannah.gnu.org/cgit/emacs.git) and [the ecosystem of
 third-party packages](https://melpa.org) feel to me more active than ever. At a time

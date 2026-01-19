@@ -8,7 +8,7 @@ tags:
 Here's one true Emacs Knight (courtesy of my friend Gergana
 Stancheva).
 
-![Emacs Knight](/assets/images/emacs_knight.jpg)
+![Emacs Knight](/assets/img/emacs_knight.jpg)
 
 It was originally created to serve as the avatar of my
 [@emacs_knight](https://twitter.com/emacs_knight) Twitter account, but it's way

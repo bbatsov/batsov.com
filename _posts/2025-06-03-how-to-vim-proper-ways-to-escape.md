@@ -15,7 +15,7 @@ where the keyboard layouts were quite different as well. Below
 is a picture of the legendary ADM-3A, which Bill Joy famously used
 when he created vi:
 
-![adm3a-keyboard.jpg](/assets/images/adm3a-keyboard.jpg) 
+![adm3a-keyboard.jpg](/assets/img/adm3a-keyboard.jpg) 
 
 The problem with ESC, however, is that on many modern keyboards
 it's not the easiest key to reach. Fortunately, you have plenty of

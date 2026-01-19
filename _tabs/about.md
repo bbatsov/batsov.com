@@ -9,7 +9,7 @@ toc: true
 
 ## About Me
 
-![Bozhidar](/assets/images/bozhidar_presenting1.jpg)
+![Bozhidar](/assets/img/bozhidar_presenting1.jpg)
 
 Hello, world!
 

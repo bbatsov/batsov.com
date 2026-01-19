@@ -61,7 +61,7 @@ automatically (which is really neat).
 The magic starts with the command `M-x package-list-packages`. At this
 point you should see something in the lines of this.
 
-![packages list](/assets/images/packages-list.png)
+![packages list](/assets/img/packages-list.png)
 
 You can navigate the list of packages, mark the ones you want to
 install with the "i" key or the ones you want removed with the "d" key

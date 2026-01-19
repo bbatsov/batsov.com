@@ -32,7 +32,7 @@ $ cp -r source/_posts path-to-jekyll-blog
 ```
 
 You should also copy whatever assets (e.g. images) you had in your
-old blog to the new one. I like to keep the images under `assets/images`.
+old blog to the new one. I like to keep the images under `assets/img`.
 
 ## Remove Octopress Plugins
 

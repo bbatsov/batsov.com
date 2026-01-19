@@ -100,7 +100,7 @@ addition to css-mode, but I find it very helpful with color theme
 development as well. It's also included (and enabled) in Prelude by
 default. Here you can see it in action.
 
-![rainbow-mode](/assets/images/rainbow-mode.png)
+![rainbow-mode](/assets/img/rainbow-mode.png)
 
 The Emacs package manager `package.el` (formerly known as ELPA) is
 gaining a lot of popularity lately and the community
