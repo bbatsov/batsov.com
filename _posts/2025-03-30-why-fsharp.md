@@ -695,7 +695,7 @@ would have never dabbled in .NET again if it hadn't been for .NET Core, and I
 doubt I'm the only one. The fact that F# wasn't open-sourced until 2010 didn't help
 with the early adoption either.
 
-Seems I'm only the only one who thinks this way:
+Seems I'm not the only one who thinks this way:
 
 > Mistakes are hard to admit, and best seen in their historical context. From the early history, the
 > greatest mistake related to F# was that neither .NET nor the language were open source or using

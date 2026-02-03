@@ -5,7 +5,7 @@ tags:
 - Emacs
 ---
 
-Every now and then I see people discussion one of the following:
+Every now and then I see people discussing one of the following:
 
 - How editor X has faster startup time than Emacs (in a classic apples to oranges comparison style) and Emacs sucks because it doesn't start "fast enough"
 - How certain config changes or Elisp hacks optimized by 0.5 seconds someone's Emacs startup time
@@ -31,7 +31,7 @@ that we need to use.[^2]
 Emacs is different. Emacs is special. Emacs startup time doesn't matter most of the time. Remember this.
 M-x forever!
 
-**Update:** This short article sparkled a lively discussion on [Reddit](https://www.reddit.com/r/emacs/comments/1jtja9s/emacs_startup_time_doesnt_matter/).
+**Update:** This short article sparked a lively discussion on [Reddit](https://www.reddit.com/r/emacs/comments/1jtja9s/emacs_startup_time_doesnt_matter/).
 
 [^1]: Unless it's insanely slow, that is.
 [^2]: I've noticed most Emacs users really struggle to understand the value of something like `tmux`, as Emacs is the ultimate window multiplexer for pretty much anything.

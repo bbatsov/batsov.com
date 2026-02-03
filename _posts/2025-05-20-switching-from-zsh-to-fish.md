@@ -255,7 +255,7 @@ POSIX compatible and this might cause some issues.
 
 After some deliberation I've decided that it's probably best to just make it
 the default shell for my terminal emulator and this has worked pretty well in practice.
-I'm using Ghostty and I had to add the following to you config:
+I'm using Ghostty and I had to add the following to your config:
 
 ```ini
 command = /opt/homebrew/bin/fish
@@ -269,7 +269,7 @@ existing shell setup.
 
 ## Additional plugins
 
-I didn't feel the need to install many Fish plugins, but there are a few that quite cool:
+I didn't feel the need to install many Fish plugins, but there are a few that are quite cool:
 
 - [autopair.fish](https://github.com/jorgebucaran/autopair.fish) - it does what the name implies
 - [hydro](https://github.com/jorgebucaran/hydro) - a fast native Fish prompt
@@ -298,7 +298,7 @@ bad thing.
 
 ## Epilogue
 
-And that's a wrap. The switch to Fish was extremly fast and easy
+And that's a wrap. The switch to Fish was extremely fast and easy
 and I really regret not doing this earlier. Better late than never!
 
 This post barely scratches the surface of what you can do with Fish, but I hope

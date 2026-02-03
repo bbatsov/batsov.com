@@ -146,11 +146,11 @@ So, to recap:
 
 - Avoid the use of `:init`, `:config` and `:preface` whenever possible
 - Most of the time you don't need to use `:defer`
-- Usually you should aim to activate minor modes only after Emacs's main initialization has finished (otherwse `:defer` is pointless)
+- Usually you should aim to activate minor modes only after Emacs's main initialization has finished (otherwise `:defer` is pointless)
 
 I'll add here that less is more, even in Emacs. It's usually a good idea to review the list of packages in your `.init.el` every few months
 and trim it from time to time. I used to be the type of guy who loads 100+ packages in their config, but these days I limit myself only
-to packages really improve my workflows.
+to packages that really improve my workflows.
 
 If `use-package` still feels like black magic to you I can suggest the following:
 

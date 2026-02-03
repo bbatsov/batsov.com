@@ -5,7 +5,7 @@ tags:
 - Vim
 ---
 
-`ESC` (Escape) is one of the most central key in the world of
+`ESC` (Escape) is one of the most central keys in the world of
 Vim. It takes you from Insert mode to Normal mode and it
 also serves to interrupt operations in progress in Vim.
 You'll be using it a lot!

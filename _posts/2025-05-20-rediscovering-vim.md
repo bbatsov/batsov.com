@@ -19,7 +19,7 @@ on the competition - they are always a great source of "inspiration".
 
 The main reason why I abandoned Vim back in the day is quite simple - I really dislike Vim script.
 It was a horrible language back then and I think it's still a horrible language today.[^1]
-I'll admit that the rise of neovim (and it's switch to Lua) was probably the main reason
+I'll admit that the rise of neovim (and its switch to Lua) was probably the main reason
 why the thought of revisiting Vim after so many years even crossed my mind.
 There's also the fact that it remains the only other editor (besides Emacs),
 that's essentially building material for those of us crazy enough to want to build their own editor.
@@ -83,13 +83,13 @@ Still, for me it's always fun to learn something new and to challenge myself to
 work in a different manner.  I've never really bought the claims that Vim's
 modal editing model is better than the competition, but I can't deny it has a
 certain charm to it and it often forces you to think about achieving the
-desired end result with as little keystrokes as possible. I also like the
+desired end result with as few keystrokes as possible. I also like the
 concept of TextObjects (e.g. something between parentheses or a tag) and having
 an uniform language for interacting with them. neovim really takes this to the next
 level by adding Tree-sitter objects to the mix. (e.g. blocks, functions, classes, etc)
 
 I'm already at the point where I feel pretty comfortable with the basics
-and I probably know about Vim than I ever did. Still, I definitely not as
+and I probably know more about Vim than I ever did. Still, I definitely not as
 productive as I want to be and I often have to pause and think how to adjust
 my work habits to match the Vim way. One of the areas that I struggle the most
 with is that it's very hard to work on multiple projects with the same Vim instance.

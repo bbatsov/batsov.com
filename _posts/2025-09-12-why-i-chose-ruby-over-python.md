@@ -7,7 +7,7 @@ tags:
 ---
 
 This year I spent a bit of time playing with Python, after
-having mostly ignored it since 2005 when was learning it
+having mostly ignored it since 2005 when I was learning it
 originally. I did like Python back then, but a few years afterwards
 I discovered Ruby and quickly focused my entire attention on it.
 
@@ -25,7 +25,7 @@ So, treat this as an amusing personal account and nothing more than that.
 
 ## Built-in functions
 
-Probably the thing about Python that bothered me the most what stuff that would
+Probably the thing about Python that bothered me the most was stuff that would
 normally be methods are global functions (that often call some object methods internally).
 I'm referring to the likes of:
 
@@ -220,7 +220,7 @@ lambdas it's better to have a more compact syntax.
 Ruby predicates typically have names ending in `?` - e.g. `even?`, `odd?`, `digit?`. This makes them
 really easy to spot while reading some code. Python sticks to the more common convention of prefixing
 such methods with `is_`, `has_`, etc and that's fine. One thing that bothers me a bit is that often
-there's not spaces between the prefix and the rest of the name (e.g. `str.isdigit?`), which doesn't
+there's no space between the prefix and the rest of the name (e.g. `str.isdigit()`), which doesn't
 read great in my opinion.
 
 More importantly, in Ruby and Python it's common to have destructive and

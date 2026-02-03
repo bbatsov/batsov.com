@@ -11,11 +11,11 @@ character, word, etc.
 
 When it comes to navigating within the current line in Vim, motion commands like
 `f`/`F` and `t`/`T` are very widely used. They basically allow you to navigate
-the occurances of a character backwards/forward. (you can cycle through multiple
+the occurrences of a character backwards/forward. (you can cycle through multiple
 matches with `;` and `,`)
 
 Like many things in Vim, those are composable with operators like `d`, `c`, etc, which makes
-them quite powerful. Consider the example below (where `|` denotes the curson position):
+them quite powerful. Consider the example below (where `|` denotes the cursor position):
 
 ```
 |this text is completely useless; but this text isn't
@@ -54,7 +54,7 @@ matches before pressing `<RET>` to confirm our target. Try typing
 do anyways.
 
 Of course, here I'm just scratching the surface of the many ways to jump around a buffer in Vim.
-I think those built-ins can get you pretty far if you master them, but on tops of this there are
+I think those built-ins can get you pretty far if you master them, but on top of this there are
 plenty of plugins that:
 
 - Extend commands like `f`/`t` to work across multiple lines

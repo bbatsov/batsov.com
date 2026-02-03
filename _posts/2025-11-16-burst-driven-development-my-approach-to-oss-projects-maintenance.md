@@ -29,7 +29,7 @@ not ideal for the end users, as some of them might feel that I "undermaintain"
 some (smaller) projects much of the time, but this approach has worked for me very well
 for quite a while.
 
-The time I've spent develop OSS projects has taught me that:
+The time I've spent developing OSS projects has taught me that:
 
 - few problems require some immediate action
 - you can't always have good ideas for how to improve a project

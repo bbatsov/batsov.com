@@ -84,7 +84,7 @@ appearing unless I focus one of the regular Ghostty windows), but overall I
 didn't have any serious issues with Ghostty and I'm quite happy with it for now.
 
 At some point I also entertained the idea of using Warp, but I don't like much the idea of a terminal that
-requires a paid subscription to be fully useful. There are some other less invasive ways to get to get
+requires a paid subscription to be fully useful. There are some other less invasive ways to get
 good AI tooling in your terminal (e.g. Aider, Claude Code, etc).
 
 ## Fish
@@ -123,7 +123,7 @@ abbr -a --position anywhere --command hx --command nvim --command emacs -- fish 
 ```
 
 It's more or less the same as my Zsh setup from the article I've mentioned above, sans the `fzf` integration.
-I'm still wondering whether I need in Fish, as the default history search is not bad at all.
+I'm still wondering whether I need it in Fish, as the default history search is not bad at all.
 
 I love the following Fish features:
 
@@ -141,12 +141,12 @@ Better late than never, right?
 
 Lately I've been drawn by tools that embrace the philosophy "no configuration needed" and provide great
 experience out-of-the-box. Ghostty and Fish certainly fit the bill and they delivered small productivity
-improvements for me without any efforts on my end. When I was playing with neovim an helix I really realized
+improvements for me without any efforts on my end. When I was playing with neovim and helix I really realized
 how powerful this approach can be.
 
 Sure, I'm the guy who spent 20 years writing Emacs plugins and tinkering with his Emacs config, but I have to
 admit that the older I get the more appreciative I become of simpler solutions that just get the job done
-and I don't require a life (or two) to truly master.
+and that don't require a life (or two) to truly master.
 
 Expect to read more about my Ghostty and Fish experience going forward. In the mean time - always be improving your own toolboxes! Keep hacking!
 

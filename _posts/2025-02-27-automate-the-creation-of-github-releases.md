@@ -99,6 +99,6 @@ This can be further customized to include only certain commits, but that's beyon
 The `release-action` is quite configurable and I'd encourage everyone interested in using it to peruse
 its [documentation](https://github.com/ncipollo/release-action?tab=readme-ov-file#action-inputs).
 
-That's all I have you today. Automate all the boring tasks!
+That's all I have for you today. Automate all the boring tasks!
 
 [^1]: That's the main weakness of any manual process.
