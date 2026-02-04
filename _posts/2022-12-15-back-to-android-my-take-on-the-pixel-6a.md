@@ -15,7 +15,7 @@ There are several reasons for this, which I'll list very briefly:
 
 - I wasn't happy with the updates Android hardware vendors were providing (back then most phones would get 1-2 major OS upgrades for their entire lifespan)
 - I hated the custom skins all Android vendors had developed, as most of them were inferior to the stock Android experience
-- It seemed that often apps were more polished on iOS than on Android (despite Android have more users in total)
+- It seemed that often apps were more polished on iOS than on Android (despite Android having more users in total)
 - Privacy concerns with Google
 - I had bought a few Apple devices (laptop & tablet) and I was curious how would the phone experience be
 
@@ -23,7 +23,7 @@ My last iPhone was the [XS](https://www.gsmarena.com/apple_iphone_xs-9318.php),
 which I got exactly 4 years ago. I can say without a doubt that was the best
 phone I ever had and I'm still pissed with Apple for killing this amazing form
 factor (5.8 inches). The XS has been showing its age lately - the A12 struggles
-with some modern apps, the phone gets (pretyy) warm under load, the battery life
+with some modern apps, the phone gets (pretty) warm under load, the battery life
 is poor and the camera is not getting any better either (it's good for day
 shots, but it's pretty bad in low-light conditions). I was planning to
 get an iPhone 14 (Pro) this year, but the iPhone 14 was super underwhelming and
@@ -90,7 +90,7 @@ Most apps felt essentially the same on Android and iOS, so there's no much to re
 
 One small feature that I grew to like quickly is "Now Playing" - when enabled your phone will auto-shazam whatever songs are playing around you. While it certainly raises a couple of privacy alarms that's extremely useful!
 
-Google Pay is essentially the same as Apple Pay, but I like the Google Wallet a bit more, especially when it comes to dealing with boarding passes, as it automatically track the flight of my flights and so on.
+Google Pay is essentially the same as Apple Pay, but I like the Google Wallet a bit more, especially when it comes to dealing with boarding passes, as it automatically track my flights and so on.
 
 I also love some of the clever tricks the phone has up its sleeve:
 

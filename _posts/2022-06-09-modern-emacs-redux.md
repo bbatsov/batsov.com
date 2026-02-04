@@ -53,7 +53,7 @@ It seems that many people have missed that particular point of mine - given how 
 > For my $.02, I'd love to see a bit more movement from the devs in this arena, but more importantly a ton more movement from the Emacs distro community in this arena, to create something that feels a bit more out-of-the-box like Sublime Text or VSCode. We have some good starts with NANO, but that's not quite enough. I think a lot more people would be willing to try and stick with Emacs with a stater kit geared toward those users that simply had a file browser and file tabs, more familiar keybindings, modern terminology, more sane behaviors (stop unselecting regions all the time!!!), and some better default options. Learning to configure from there with elisp isn't the issue to adoption - the issue is how much elisp you have to start with to get to something that feels familiar.
 
 No argument from me on this point as well, although I do think that unless you know Elisp you're unlikely to ever unlock the full potential of Emacs. Learning Elisp was
-definitely game-changing for me as an Emacs user and I allowed me push Emacs much further than I ever thought was possible. If I can't truly bend Emacs to my will and I'm just an user of some configuration than a lot of it appeals just disappears for me.
+definitely game-changing for me as an Emacs user and I allowed me push Emacs much further than I ever thought was possible. If I can't truly bend Emacs to my will and I'm just an user of some configuration than a lot of its appeal just disappears for me.
 
 > Emacs needs to be as easy to use out of the box as atom. Then, you can configure it endlessly. Just because it's building material doesn't mean it needs to arrive in shambles.
 

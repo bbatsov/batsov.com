@@ -63,7 +63,7 @@ nxhtml. Both have pretty decent Emacs modes available.
 
 `rinari` is a mode for Rails development – it contains rich
 functionality such as the ability to easily navigate between models,
-views and controllers in a Rails apfplication amongst other
+views and controllers in a Rails application amongst other
 features. Instructions how to set up rinari together with nxhtml-mode
 can be found on rinari’s home page.
 

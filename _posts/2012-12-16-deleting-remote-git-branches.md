@@ -22,7 +22,7 @@ $ git push origin :postgres
 ```
 
 You have to agree this syntax is hardly something one can easily
-remember(and I'm extra certain nobody would have guessed it on their
+remember (and I'm extra certain nobody would have guessed it on their
 own). Fortunately in Git 1.7 a nicer alternative to the above command
 was introduced:
 

@@ -18,16 +18,16 @@ least without a bit of external help. This help comes in the form of an
 application called [JRebel](http://www.zeroturnaround.com/jrebel/), which basically reloads the classes in your
 program as you make changes to them and recompile them. JRebel is a commercial
 application and generally you have to pay to use it... unless you want
-to you use it for Scala development, that is. ZeroTurnaround(the
+to you use it for Scala development, that is. ZeroTurnaround (the
 company that makes JRebel) offers
 [free licences to Scala developers](http://sales.zeroturnaround.com/wp-content/themes/zeroturnaround4.0/modals/applyForLicense.php)
 and if you're one of them you should definitely get one.
 
 Installing JRebel is trivial - generally you have to only extract a
 zip file(or use an installer) somewhere and drop in the JRebel folder
-the licence file that they have e-mail you. Afterwards you simply have
+the licence file that they have e-mailed you. Afterwards you simply have
 to integrate JRebel with your build system. JRebel can also be
-integrated with IDEs, but I want cover this here. I use mostly
+integrated with IDEs, but I won't cover this here. I use mostly
 [Maven 3](http://maven.apache.org) and
 [SBT](http://code.google.com/p/simple-build-tool/) so I'll show you
 what to do for them. With Maven you have to add the following to the
@@ -62,14 +62,14 @@ And the continuous Scala compilation with
 mvn scala:cc
 ```
 
-The compiler with pickup the changes you made and JRebel will reload
+The compiler will pickup the changes you made and JRebel will reload
 the changed classes behind the scenes. The development process this
 way starts to feel a bit like using a scripting language such as Ruby
 or PHP.
 
 If you're using SBT you should modify the sbt startup script to
 include the same options that I mentioned in the section about Maven
-configuration. Mine sbt script looks like this:
+configuration. My sbt script looks like this:
 
 ```console
 #!/bin/bash

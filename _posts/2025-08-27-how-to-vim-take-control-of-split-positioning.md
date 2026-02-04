@@ -14,7 +14,7 @@ behaves a bit weird:
 That's exactly the opposite of how things happen by default in Emacs (and a few other editors),
 so it really didn't sit well with me. Obviously you can use dedicated commands
 to control the split behavior (e.g. `:rightbelow split` and `:botright vsplit`[^1]), but if you want to permanently
-"improve" the defaults just add the following your `.vimrc`:
+"improve" the defaults just add the following to your `.vimrc`:
 
 ```vim
 set splitbelow splitright

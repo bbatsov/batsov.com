@@ -10,7 +10,7 @@ tags:
 If there is something that people love as much as tweaking their
 editing configurations it's probably the selection of color themes. A
 good color theme can make your work much more pleasant and a bad one
-that literally impair your vision. It's a fact of life that I'm a firm
+can literally impair your vision. It's a fact of life that I'm a firm
 supporter of low-contrast color themes with dark backgrounds - I find
 them easy on the eyes and I feel that they don't strain the eyes as
 much as most themes. I've even ported a couple of popular themes to
@@ -94,7 +94,7 @@ drop there the themes you'd want to try out.
 
 You may find the
 [rainbow-mode](http://julien.danjou.info/software/rainbow-mode) useful
-when developing color themes. If fontifies strings that represent
+when developing color themes. It fontifies strings that represent
 color codes according to those colors. The mode is known to be a great
 addition to css-mode, but I find it very helpful with color theme
 development as well. It's also included (and enabled) in Prelude by
@@ -109,7 +109,7 @@ Emacs 24 themes that you can install from there. If you're developing
 a theme that you'd like to submit to Marmalade it's imperative that
 the theme modifies the `custom-theme-load-path` in an `autoload` -
 otherwise it won't be of much use. Add the following snippet (or
-something similar) before the `provide-theme` line if your custom
+something similar) before the `provide-theme` line in your custom
 theme:
 
 ``` elisp

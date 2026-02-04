@@ -73,5 +73,5 @@ OCaml is a lot of fun[^3]. Keep learning!
 
 
 [^1]: I've also noticed I had a strong draw to "ancient" languages with rich history.
-[^2]: TypeScript, Pharo, Rust and OCaml. Clearly TypeScript and Rust weren't nice enough for me, even if they are great langauges.
+[^2]: TypeScript, Pharo, Rust and OCaml. Clearly TypeScript and Rust weren't nice enough for me, even if they are great languages.
 [^3]: Pun intended!

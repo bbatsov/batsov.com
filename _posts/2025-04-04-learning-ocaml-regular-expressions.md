@@ -164,6 +164,6 @@ That article sat in my backlog for quite a while, as regular expressions were
 one of the most frustrating aspects for me when I started to play with OCaml
 (Perl and Ruby had really spoiled me on that front), but eventually I kind of
 got used to them, so I no longer felt much need to write the article. Still,
-I hope some newcomers to OCaml will find it userful!
+I hope some newcomers to OCaml will find it useful!
 
 That's all I have for you today. Keep hacking!

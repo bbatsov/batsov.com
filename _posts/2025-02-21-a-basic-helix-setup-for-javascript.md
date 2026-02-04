@@ -52,7 +52,7 @@ Indent queries: ✓```
 ```
 
 Seems we're in business! But when I tried editing JavaScript code in Helix for some reason
-the LSP integration was not working. Fortunately for us, Helix has a great debugging falicity
+the LSP integration was not working. Fortunately for us, Helix has a great debugging facility
 in the form of `helix -v` which writes a log file to `~/.cache/helix/helix.log`. All the
 communication with the LSP servers gets logged there. You can
 quickly access it from Helix with the `:log-open` command. There I quickly discovered the
@@ -71,7 +71,7 @@ At this point things should start working properly for you and you'd getting the
 
 I don't know about you, but for me it's really impressive you can setup an editor so
 quickly, without touching the configuration at all. Perhaps most modern editors work this
-way, but this has definitely not been my experience with my beloved Emacs or its arch nemesic (Neo)vim.
+way, but this has definitely not been my experience with my beloved Emacs or its arch nemesis (Neo)vim.
 
 That's all I have for you today! I can heartily recommend playing a bit with Helix if you're
 looking for a modern, fast and simple text editor that gets stuff done. Keep hacking!

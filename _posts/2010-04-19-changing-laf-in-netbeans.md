@@ -8,7 +8,7 @@ tags:
 Recently I’ve been trying to switch my work environment theme to
 something with lower contrast (namely the excellent [Zenburn
 theme](https://github.com/jnurmine/Zenburn)). Swing applications,
-however,have difficulties with GTK themes when they are using the GTK+
+however, have difficulties with GTK themes when they are using the GTK+
 look & feel, so I’ve decided to go to Nimbus – the new default look &
 feel for Java apps since Java 6 Update 10.
 

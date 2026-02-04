@@ -148,7 +148,7 @@ Sure, I'm the guy who spent 20 years writing Emacs plugins and tinkering with hi
 admit that the older I get the more appreciative I become of simpler solutions that just get the job done
 and that don't require a life (or two) to truly master.
 
-Expect to read more about my Ghostty and Fish experience going forward. In the mean time - always be improving your own toolboxes! Keep hacking!
+Expect to read more about my Ghostty and Fish experience going forward. In the meantime - always be improving your own toolboxes! Keep hacking!
 
 [^1]: Recently I got a HHKB and was quickly forced to remap `Esc` there to `~`.
 [^2]: See {% post_url 2025-03-01-back-to-the-basics-zsh-without-oh-my-zsh %}

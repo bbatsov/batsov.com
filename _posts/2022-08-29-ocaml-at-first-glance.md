@@ -375,11 +375,11 @@ I think for most people a combination of VS Code + a `utop` and `dune` (e.g. `du
 
 ## Community
 
-The OCaml community is tiny by the standards of more popular programming languages, but I really enjoyed all my interactions with its members. I've been mostly using the official [Discord](https://discord.gg/cCYQbqN) and [Discourse](https://discus.ocaml.org), but there are plenty of [other options](https://ocaml.org/community) for you to chose form.
+The OCaml community is tiny by the standards of more popular programming languages, but I really enjoyed all my interactions with its members. I've been mostly using the official [Discord](https://discord.gg/cCYQbqN) and [Discourse](https://discus.ocaml.org), but there are plenty of [other options](https://ocaml.org/community) for you to choose from.
 
 I've gotten plenty of answers to every question I asked and I really enjoyed learning more about [the workflows OCaml developers have](https://discuss.ocaml.org/t/whats-your-development-workflow/10358), as finding a productive workflow was one of the things I've struggled with early on.[^2]
 
-I also learned a lot simply be handing on there and perusing the topics that we being posted and channels like `#general`, `#beginners` and `#share`.
+I also learned a lot simply by hanging out there and perusing the topics that were being posted and channels like `#general`, `#beginners` and `#share`.
 
 One final community resource I'd like to recommend is the awesome wiki [OCamlverse](https://ocamlverse.github.io/). It complements really well the information on the official OCaml site.
 
@@ -389,7 +389,7 @@ You certainly won't find dozens of books, hundreds of tutorials and a few online
 
 - [Real World OCaml](https://dev.realworldocaml.org/): A free book about OCaml, that's considered one of the best starting points in the community. On the flip side - it's somewhat controversial for its decision to advocate the use of an alternative standard library (`Base` from Jane Street).
 - [Cornell University's course on OCaml](https://cs3110.github.io/textbook/cover.html): It's taught at the university, but the textbook and the video lectures are freely available online. I enjoyed the course, although it's clearly geared towards students and not practicing programmers.
-- [OCamlverse](https://ocamlverse.github.io/): An OCaml community wiki. The articles there give you a lot of practical pointers about day-to-day OCaml programming and complement nice the tutorial/manual texts.
+- [OCamlverse](https://ocamlverse.github.io/): An OCaml community wiki. The articles there give you a lot of practical pointers about day-to-day OCaml programming and complement nicely the tutorial/manual texts.
 
 There's also some [tutorial-like section](https://ocaml.org/docs/up-and-running) on the official site, but it could have been structured better in my opinion.
 

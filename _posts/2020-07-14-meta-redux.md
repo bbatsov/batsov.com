@@ -33,7 +33,7 @@ idea of Meta Redux (where my primary focus is my OSS work and essay-like article
 
 I guess I'll still be writing here on programming-related topics, but who knows...
 Knowing me there's a high chance I won't actually write anything at all! There's
-a good chance this will be final `(think)` article.
+a good chance this will be the final `(think)` article.
 
 At any rate - it's still a lot of fun to be re-reading my old articles (especially the rants)
 and comparing the person I used to be with the person I am today.

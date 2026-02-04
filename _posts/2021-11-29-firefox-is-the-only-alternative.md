@@ -21,7 +21,7 @@ the browser overall, I was often frustrated that some sites were broken with it,
 Now when Opera is based on Chromium that's a problem that solves itself and Opera's team can focus solely on their browser's UI/UX. Let Google do all the
 heavy lifting for them...
 
-In the mean time every competitor that Google converts to Chromium strengthens
+In the meantime every competitor that Google converts to Chromium strengthens
 their position and increases the influence they have over the future of web
 standards. Even today they can do pretty much everything they want to, but things
 can get even worse if they get to 95%+ of Chromium market share. At the height of

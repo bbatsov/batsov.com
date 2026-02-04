@@ -176,7 +176,7 @@ I guess it's quite obvious, but still - master the guide and level-up your game.
 
 That's it. Short and simple.
 
-I know that technical recruiters are universally despised and frequently derived in the IT circles, but sadly the quality of their work is not helping the situation. Obviously not all technical recruiters are bad, I've had the good fortune to work with some truly amazing people in the field. But I've also experienced so many unpleasant interactions with crappy recruiters, that I totally understand the current sentiment towards people in this role. If I helped a single technical recruiter to do a better job, writing this guide was a fantastic investment on my part.
+I know that technical recruiters are universally despised and frequently derided in the IT circles, but sadly the quality of their work is not helping the situation. Obviously not all technical recruiters are bad, I've had the good fortune to work with some truly amazing people in the field. But I've also experienced so many unpleasant interactions with crappy recruiters, that I totally understand the current sentiment towards people in this role. If I helped a single technical recruiter to do a better job, writing this guide was a fantastic investment on my part.
 
 [^1]: I built the technical recruitment operations in the last 3 start-ups I worked for, so I feel I'm somewhat qualified in the subject matter.
 [^2]: We were all involved in http://railsgirls.com/sofia, which I guess for the recruiter is pretty much the same as http://railsgirls.com/ being our website.

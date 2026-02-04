@@ -9,7 +9,7 @@ tags:
 > The people who live in a Golden Age usually go around complaining how yellow
 > everything looks.
 >
-> -- Randall Jarell
+> -- Randall Jarrell
 
 Yesterday I wrote that I think Emacs is currently experiencing its (second)
 Golden Age.[^1] Today I'll expand on this and I'll offer my perspective on

@@ -81,7 +81,7 @@ $ bundle show minima
 ```
 
 Unfortunately, there's no `bundler` equivalent of the `gem contents` command, but that's not
-that big of deal.
+that big of a deal.
 
 Bundler and `gem` actually have one more
 extremely useful command that will directly open the gem's folder in
@@ -96,7 +96,7 @@ $ bundle open minima
 Probably that's my favorite way to navigate to an installed gem's contents.
 
 As you can imagine it's pretty straight-forward to change the behavior of a gem - just go to its directory and
-edit some of its contents. That's an useful debugging technique, but it opens up one question - how to restore
+edit some of its contents. That's a useful debugging technique, but it opens up one question - how to restore
 a gem to its original pristine state? Well, turns out there's a command for this as well:
 
 ```console

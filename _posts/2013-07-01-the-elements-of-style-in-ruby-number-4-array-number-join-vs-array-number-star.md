@@ -63,12 +63,12 @@ existence. On the other hand the behavior of `Array#*` with an integer
 argument is pretty reasonable. Here we see a classic example of the
 notion that too much operator overloading can be a bad thing, leading
 to some pretty unreadable code. An operator should be employed only
-when it's use would add clarity to the code, not take clarity away.
+when its use would add clarity to the code, not take clarity away.
 
 `Array#*` has one thing going for it, however - the fact that few
 people know about its use as a substitute for `Array#join`. I hope
 they realize that some unknown features are unknown for a reason -
-because it's bad idea to make use of them.
+because it's a bad idea to make use of them.
 
 As usual I'm looking forward to hearing your thoughts here and on
 [Twitter](http://twitter.com/bbatsov)!

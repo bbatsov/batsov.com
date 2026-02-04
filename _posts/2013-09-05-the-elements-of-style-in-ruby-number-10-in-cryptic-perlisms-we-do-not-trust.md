@@ -68,7 +68,7 @@ default is beyond me. Personally I use it always and I think you should do the s
 
 ### Last regexp captures
 
-When you do a regexp match (like `/regexp/ ~= string`) a few special
+When you do a regexp match (like `/regexp/ =~ string`) a few special
 global variables with funky names get populated with the prematch,
 match, postmatch, etc. If the regexp has any groups in it, the stuff
 they matched gets assigned to other special variables with the

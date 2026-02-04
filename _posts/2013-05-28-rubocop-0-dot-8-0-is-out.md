@@ -15,7 +15,7 @@ fantastic [Parser](https://github.com/whitequark/parser).
 
 What does this mean for users of RuboCop? It means that now both
 Rubinius and JRuby are supported (in 1.9 and 2.0 modes). I'd say this
-is kind of a big deal! The support for the them should be considered
+is kind of a big deal! The support for them should be considered
 beta at this point, since they have not yet received extensive field
 testing.
 

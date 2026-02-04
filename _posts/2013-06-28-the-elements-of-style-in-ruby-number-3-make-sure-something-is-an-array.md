@@ -33,7 +33,7 @@ operator(`*`):
 [*paths].each { |path| do_something(path) }
 ```
 
-It case you're puzzled by the preceding snippet consider the following example:
+In case you're puzzled by the preceding snippet consider the following example:
 
 ```ruby
 elems = 1
@@ -59,7 +59,7 @@ Array(paths).each { |path| do_something(path) }
 normal method defined in the `Kernel` module. There is a whole family
 of conversion methods similar to `Array` there - `Array`, `Complex`,
 `Float`, `Hash`, `Integer`, `Rational` and `String`. They are all used
-for often in practice and we'll probably revisit them in a separate
+often in practice and we'll probably revisit them in a separate
 post somewhere down the road.
 
 The `Array` method operates exactly like `*` - it takes a single argument and
@@ -73,8 +73,7 @@ Array([1, 2, 3])
 # => [1, 2, 3]
 ```
 
-You can also use `*` and `Array` to convert to array other data
-composite data structures (like hashes and sets), but that's
+You can also use `*` and `Array` to convert other composite data structures to arrays (like hashes and sets), but that's
 irrelevant to today's discussion.
 
 That's all I have for you today, mates. As usual I'm looking forward

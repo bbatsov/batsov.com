@@ -22,7 +22,7 @@ of course.
 2. Use `C-x C-s` to immediately trigger smart completion for the last misspelled word,
 using suggestions from your spelling dictionary. 
 
-I use both of those approaches as type, but most often I lean towards 2), as for longer
+I use both of those approaches as I type, but most often I lean towards 2), as for longer
 words it's a bit more efficient.
 
 By the way, here's my spell-checking configuration:

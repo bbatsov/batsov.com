@@ -13,7 +13,7 @@ tech talk here and there, and from time to time they don't even suck!
 
 ## The Greatest Hits
 
-Here's a list of talks where I feel a did a bit better than average:
+Here's a list of talks where I feel I did a bit better than average:
 
 * [Ruby 4: To Infinity and Beyond](https://www.youtube.com/watch?v=aFSuXUXRySc) (EuRuKo 2018)
 * [The Evolution of the Clojure Tooling for Emacs](https://www.youtube.com/watch?v=4X-1fJm25Ww&) (Clojure/conj 2014)

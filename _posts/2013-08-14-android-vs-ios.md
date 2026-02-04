@@ -77,7 +77,7 @@ away. Android 4 never came for me (at least not from Sony) - 6 months
 after Sony announced that have started rolling out the update for the
 Arc I hadn't got it. Back to CyanogenMod again...
 
-Do you seen a pattern emerging? This bring me to...
+Do you see a pattern emerging? This brings me to...
 
 ### The Big Problem
 
@@ -101,8 +101,8 @@ updates, otherwise I cannot imagine how the vendors could be getting
 away with that level of customer support...
 
 Somewhat ironically the biggest problem of the business model is
-closely related to it's biggest strength - the ability buy a device
-with size and specs you want. Apple's choice it the hardware
+closely related to its biggest strength - the ability to buy a device
+with size and specs you want. Apple's choice in the hardware
 department is rather limited.
 
 ### The Good Stuff
@@ -131,7 +131,7 @@ All of the bad stuff I can think of is not actually in the Android OS itself, bu
 
 Even after my huge disappointment with the Arc I was still planning to
 buy a new Android smartphone - this time I had learned my lesson and
-were going for the Nexus 4. Unfortunately Google and LG had serious
+was going for the Nexus 4. Unfortunately Google and LG had serious
 inventory problems and after a few months of trying to buy one I
 reluctantly bought myself an iPhone 5 instead. At first I was kind of disappointed by the OS.
 
@@ -159,7 +159,7 @@ I often experience Android lock-ups that required a reboot on both my
 Android phones (although there were fewer of those with
 Cyanogen). With iOS I have mostly forgotten what a lock-up is - I
 think I've never restarted by iPhone since I bought it (my iPad,
-however, did freeze on me about 5 times for about 2 two years). I Also
+however, did freeze on me about 5 times for about two years). I also
 experience much less app crashes than I used to, but I guess Nexus
 users don't get a lot of those either. With no multitasking for
 everyone I've also forgotten the scenario when an app misbehaving in

@@ -35,7 +35,7 @@ au FocusGained,BufEnter * :silent! checktime
 
 One final thing to keep in mind - you can go back to your version of the file
 with `u` (undo). So, you don't have to worry that any local edits will get
-permanently lost of you enable `autoread`.
+permanently lost if you enable `autoread`.
 
 So, that's crux of reloading files in Vim - not exactly trivial, but perhaps a
 bit more complicated than it needs to be.  Down the road I'll have to check if

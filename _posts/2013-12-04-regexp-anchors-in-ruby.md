@@ -39,7 +39,7 @@ There's something peculiar in Ruby, though - it automatically uses
 **multiline mode** (which enables the aforementioned behaviour of
 having `^` and `$` match per line) for regular expressions. Other
 languages support it as well, but usually you need to enable it
-yourself, since it's not consider a particularly intuitive
+yourself, since it's not considered a particularly intuitive
 default. For example - by default Perl, Java and C# treat `^` and `$` as
 beginning/end of string until you **explicitly** enable **multiline match mode**
 (`/m`). In Ruby `/m` simply allows `.` to match newlines.

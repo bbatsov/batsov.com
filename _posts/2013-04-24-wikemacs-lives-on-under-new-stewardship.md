@@ -14,7 +14,7 @@ people who were sad to see WikEmacs go. One person in particular,
 seeing the project move forward and offered to take over its stewardship.
 
 In the end I've decided that in spirit of the FOSS ideals I don't have
-the right to take away something people like and want to use(especially
+the right to take away something people like and want to use (especially
 given the fact that they contributed most of the content there) and
 handed over the domain and the data to Jesse.
 

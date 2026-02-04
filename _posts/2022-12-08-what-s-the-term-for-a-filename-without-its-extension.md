@@ -8,7 +8,7 @@ tags:
 Today someone asked in OCaml's Discord "How do you call a variable that refers
 to a filename without its extension?". I always thought there was no specific
 term for this and I always named such variables `filename-sans-extension` (or
-similar), but it turns out I was wrong. It's never too late to learning
+similar), but it turns out I was wrong. It's never too late to learn
 something new! But first a bit of (subjective) terminology:
 
 - `/path/to/some_file.foo` - filepath

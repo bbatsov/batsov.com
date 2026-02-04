@@ -60,7 +60,7 @@ that one might face when working with it. To summarize my experience so far:
 Fundamentally, the main problem is that we still don't have
 easy ways to try out TreeSitter queries in Emacs, so there's a lot of trial and error involved. (especially when it
 comes to indentation logic) My other big problem is that most TreeSitter grammars
-have pretty much no documentation, you one has to learn about their AST format
+have pretty much no documentation, so one has to learn about their AST format
 via experimentation (e.g. `treesit-explore-mode` and `treesit-inspect-mode`) and
 reading their bundled queries for font-locking and indentation. As someone who's
 used to work with Ruby parser I really miss the docs and tools that come with
@@ -100,7 +100,7 @@ programming in Emacs. The dream is alive!
 
 Contributions, suggestions and feedback are most welcome. Keep hacking!
 
-[^1]: I didnt' name it `neocaml-mode` intentionally - many Emacs packages contain more things
+[^1]: I didn't name it `neocaml-mode` intentionally - many Emacs packages contain more things
     than just major modes, so I prefer a more generic naming.
 
 [^2]: On a more serious note - there was never an `ocaml-mode`, so naming something `ocaml-ts-mode` is not

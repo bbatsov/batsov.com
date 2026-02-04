@@ -48,7 +48,7 @@ It took me a while to figure that `z` wasn't the optimal keybinding for
   ```
 
 Note that `zoxide` uses `cd` internally, so switching fully to it won't
-mess with any of Fish's internally directory stack. (e.g. `dirh` and `cdh`)
+mess with any of Fish's internal directory stack. (e.g. `dirh` and `cdh`)
 
 - If you have multiple directories with similar names you can use SPACE to
   trigger smart completion for your options:

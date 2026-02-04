@@ -9,7 +9,7 @@ tags:
 I'm mostly a Ruby on Rails developer these days and as such I'm pretty
 fond of the [Slim template language](http://slim-lang.com). I've
 always hated HTML + ERB, since that evil duo encourages all sorts of
-ever practices and recently I've adopted Slim as a replacement for
+evil practices and recently I've adopted Slim as a replacement for
 my long time favourite ERB alternative - [Haml](http://haml-lang.com).
 
 I won't discuss here the shortcomings of Haml vs Slim, but I'll share

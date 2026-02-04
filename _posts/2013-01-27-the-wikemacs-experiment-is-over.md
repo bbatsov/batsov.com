@@ -7,7 +7,7 @@ tags:
 - Emacs
 ---
 
-Less than an year ago
+Less than a year ago
 [amid a lot of turmoil]({% post_url 2012-03-20-die-emacswiki %})
 I've started
 [an alternative to EmacsWiki]({% post_url 2012-03-26-wikemacs-the-other-emacs-wiki %}). The

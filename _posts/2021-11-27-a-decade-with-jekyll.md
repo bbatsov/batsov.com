@@ -13,7 +13,7 @@ tags:
 - 10 years of using [Zenburn]({% post_url 2011-05-11-zenburn-emacs %}) as my Emacs color theme.
 - 10 years since I've [stopped using Linux]({% post_url 2011-06-11-linux-desktop-experience-killing-linux-on-the-desktop %}) as my primary desktop operating system
 - 10 years since I [bought my first Kindle]({% post_url 2011-04-26-thoughts-on-the-kindle %})
-- 10 years since I've started [blogging like with a hacker]({% post_url 2011-04-23-moving-to-jekyll %}) with Jekyll
+- 10 years since I've started [blogging like a hacker]({% post_url 2011-04-23-moving-to-jekyll %}) with Jekyll
 
 Probably I'm forgetting some other important anniversaries, especially those that were not related to technology. 2011 was a really big year for me!
 
@@ -52,7 +52,7 @@ this. Frankly, I almost never run Jekyll locally - I simply write and push to Gi
 I feel I've written something that's already in a readable form. Production is
 my preview - unlike with software I think for blogs that's fine.  The fact that
 Jekyll is written in Ruby is a problem for most people, but for me it's a
-feature. After all, I was a Ruby programmer back in 2011 and I still involved with Ruby to this day.
+feature. After all, I was a Ruby programmer back in 2011 and I'm still involved with Ruby to this day.
 
 Most importantly, however, Jekyll is as simple as it gets. I guess pretty much everyone can setup a Jekyll blog in 5 minutes if they don't need to do customize
 some theme. When it comes to writing the thing that truly matters is the content and not its appearance. The more time you spend on customizing your blogging

@@ -21,11 +21,11 @@ lambda === arg
 
 The last option `Proc#===` is a special case, that's quite useful
 in [case expressions]({% post_url 2013-09-24-lambdas-slash-procs-in-case-expressions %}),
-but should never the used directly.
+but should never be used directly.
 
 Of the three general purpose `Proc` methods that are available (it's
 actually just one method with two aliases) I'd strongly encourage you
-to stick with`Proc#call`. The reasons are quite simple:
+to stick with `Proc#call`. The reasons are quite simple:
 
 * `lambda[arg]` looks like an index access on some data structure and you'd certainly
 have to analyze the code context to understand what's going on (especially since the `lambda` is unlikely to actually be named

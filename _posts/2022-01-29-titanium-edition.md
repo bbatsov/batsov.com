@@ -55,4 +55,4 @@ D.C.'s Titans. Another bad show with great soundtrack.
 [^2]: Don't ask.
 [^3]: We've had enough of gold and platinum in music.
 [^4]: I haven't seen physical CDs in a very long time.
-[^5]: The main being that my days were a constant string of back-to-back meetings, which severely limitted my time for music.
+[^5]: The main being that my days were a constant string of back-to-back meetings, which severely limited my time for music.

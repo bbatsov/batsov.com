@@ -59,12 +59,12 @@ in the final position of a recursive function.[^2]
 
 It seems the new `List` functions will be shipped with OCaml 5.3. OCaml 5.2 is
 not out at the time I'm writing this, but I'm guessing the PR missed the merge
-window for 5.2.  In the mean time - we can continue to rely on the excellent
+window for 5.2.  In the meantime - we can continue to rely on the excellent
 [Containers
 library](http://c-cube.github.io/ocaml-containers/last/containers/CCList/index.html)
 for that functionality.
 
 That's all I have for you today. Keep hacking!
 
-[^1]: I believe it was Haskell that populirized them.
+[^1]: I believe it was Haskell that popularized them.
 [^2]: See <https://v2.ocaml.org/manual/tail_mod_cons.html> for more details.

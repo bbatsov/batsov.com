@@ -55,7 +55,7 @@ of the global variable `$?` (a.k.a. `$CHILD_STATUS`) and this regexp doesn't wor
 
 This scenario shows that the syntax was ill-conceived.
 
-* Non-experience Rubyists probably don't know about the compact interpolation notation.
+* Inexperienced Rubyists probably don't know about the compact interpolation notation.
 Few books and tutorials mention it these days, so using it your code will confuse at least
 some of the people reading it.
 

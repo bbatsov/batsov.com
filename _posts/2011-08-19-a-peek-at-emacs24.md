@@ -34,7 +34,7 @@ All in all - nothing major has changed with the installation process.
 
 There has been a lot of work done in the completion department. For
 instance **shell-mode** now uses pcomplete rules and the standard
-completion UI, which is pretty cool IMHO. Some other insteresting
+completion UI, which is pretty cool IMHO. Some other interesting
 improvements (mostly copied directly from Emacs' NEWS files):
 
 * Many packages have been changed to use _completion-at-point_ rather than

@@ -14,8 +14,8 @@ was covered by the following built-in commands:
 
 - `prevd` (`Alt+left arrow`) - takes you to the previous directory
 - `nextd` (`Alt+right arrow`) - takes you to the next directory
-- `dirh` (`Ald+d`) - shows a list of the recently visited directories
-- `cdh` - allows you to quickly jump to any recently visited directly using letter or number shortcuts
+- `dirh` (`Alt+d`) - shows a list of the recently visited directories
+- `cdh` - allows you to quickly jump to any recently visited directory using letter or number shortcuts
 
 Basically, things that require some manual setup/operations in
 other shells are handled automatically in Fish, as it maintains

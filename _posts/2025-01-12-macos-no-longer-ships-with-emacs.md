@@ -16,7 +16,7 @@ For me that's a very welcome change, as the ancient version of Emacs that Apple
 was shipping in the past was only causing issues for Emacs users. (occasionally
 people would accidentally run it, instead of whatever Emacs they installed by
 themselves and they'd wonder what went wrong)
-Still, I got curious about would things:
+Still, I got curious about two things:
 
 1. Why didn't Apple just update Emacs?
 2. What prompted them to finally drop the ancient Emacs?

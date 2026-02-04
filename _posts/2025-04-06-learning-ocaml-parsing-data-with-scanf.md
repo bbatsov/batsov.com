@@ -7,7 +7,7 @@ tags:
 ---
 
 In my [previous article]({% post_url 2025-04-04-learning-ocaml-regular-expressions %}) I mentioned that OCaml's
-`Stdlib` leaves a lot to be desire when it comes to regular
+`Stdlib` leaves a lot to be desired when it comes to regular
 expressions. One thing I didn't discuss back then was that
 the problem is somewhat mitigated by the excellent module
 [Scanf](https://ocaml.org/manual/5.3/api/Scanf.html), which makes it easy to parse structured data.

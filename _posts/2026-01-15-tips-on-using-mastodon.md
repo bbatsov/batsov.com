@@ -21,10 +21,10 @@ I found frustrating:
 ## Picking an instance
 
 Eventually I realized the simplest things you can do to have a nice Mastodon
-experience is to pick some reasonably popular instance (so you known it's
+experience is to pick some reasonably popular instance (so you know it's
 stable and won't disappear after a while) and some decent third-party client. I
 never read the local timeline, so in the end I don't think it matters much
-which instance you're end up using. If you don't want to waste time researching
+which instance you end up using. If you don't want to waste time researching
 instances just go with the "default" [mastodon.social](https://mastodon.social)
 instance.  You can certainly do a lot worse, and of course, you can always move
 your account to another Mastodon instance down the road.

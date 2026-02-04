@@ -35,7 +35,7 @@ than horizontally. Try to read the source code of something with
 hand the problem with aggressive line length limits is that they often
 come at the expense of code readability - programmers start using less
 descriptive variable and method names, span long expressions over
-multiple lines, etc. A balance has to struck somewhere.
+multiple lines, etc. A balance has to be struck somewhere.
 
 Ruby has generally favored succinctness (not to be confused with
 terseness) and 80 columns are generally not some attainable goal as

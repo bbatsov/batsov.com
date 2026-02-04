@@ -7,14 +7,14 @@ tags:
 
 I'm an avid fan of AsciiDoc and I've been using it for years to write
 documentation for some of my OSS projects (e.g. CIDER and Projectile). I try to
-keep tracking of developments around AsciiDoc, but it seems I've missed a few
+keep track of developments around AsciiDoc, but it seems I've missed a few
 quite notable ones:
 
 1. In 2019 work started towards an official specification for the AsciiDoc
    language.[^1] It's nice to see that this happened with the backing of Stuart
    Rackham, the original author of AsciiDoc, and under the leadership of the co-leads of AsciiDoctor Dan Allen and Sarah White.
-2. AsciiDoc is now an Eclispse Foundation project.
-3. The original AsciiDoc(.py) site <https://asciidoc.org> has been revamped to serve as the site for the language itself (instead of the original Python implentation)
+2. AsciiDoc is now an Eclipse Foundation project.
+3. The original AsciiDoc(.py) site <https://asciidoc.org> has been revamped to serve as the site for the language itself (instead of the original Python implementation)
 4. The original [GitHub org](https://github.com/asciidoc) has been abandoned in
 favour of the [new Eclipse Foundation project](https://gitlab.eclipse.org/eclipse/asciidoc)
 

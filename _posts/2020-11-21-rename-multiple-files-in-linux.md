@@ -11,7 +11,7 @@ From time to time we need to rename a bunch of files according to some
 pattern.  One simple example that comes to mind is that recently I
 noticed that some articles in my blog had a `.md` extension and some
 had a `.markdown` extension. I don't like inconsistencies, so I wanted
-them all to have a `.md` extension. Bellow I'll cover several ways to
+them all to have a `.md` extension. Below I'll cover several ways to
 do this on Linux[^1]. All the examples will assume you're renaming
 files in the same folder, but it's typically trivial to extend them to
 a directory tree by combining a command with `find -exec` or extended
@@ -74,12 +74,12 @@ Note that `zmv` is usually not enabled by default and you might have to load it 
 $ autoload -Uz zmv
 ```
 
-Notice also that in the first argument of `zmv` you've specifying both the search pattern for files and substitution groups
+Notice also that in the first argument of `zmv` you're specifying both the search pattern for files and substitution groups
 you can use in the second argument. You can do way more complex renamings with `zmv`:
 
 ```console
 # rename dir1/file.txt, dir2/file.txt, etc to file-1.txt, file-2.txt, etc
-$ zmv zmv 'dir(*)/file.txt' 'file-${1}.txt'
+$ zmv 'dir(*)/file.txt' 'file-${1}.txt'
 ```
 
 Obviously sky is the limit here, although this applies to the Perl version of the `rename` command as well.

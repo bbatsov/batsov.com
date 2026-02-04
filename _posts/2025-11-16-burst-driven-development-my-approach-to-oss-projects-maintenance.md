@@ -48,7 +48,7 @@ Today I remembered I hadn't done a release there in quite a while and `copilot.e
 was born. Tomorrow I might remember about some features in Projectile that
 have been in the back of my mind for ages and finally implement them. Or not.
 I don't have any planned order in which I revisit my projects - I just go
-wherever my inspiration (or current problems related the projects) take me.
+wherever my inspiration (or current problems related to the projects) take me.
 
 Back in the day (before the pandemic) I was also practicing a variant of burst-driven
 development that I was calling "conference-driven development". I was speaking

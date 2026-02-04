@@ -90,7 +90,7 @@ lot of time and energy. I'd love to be able to turn my free software
 hobby work into my job, but I'll need a lot of help from you to get
 there!
 
-If you like my work, consider supporting it via one of following funding platforms:
+If you like my work, consider supporting it via one of the following funding platforms:
 
 * [GitHub Sponsors](https://github.com/users/bbatsov/sponsorship)
 * [Patreon](https://www.patreon.com/bbatsov)

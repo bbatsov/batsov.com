@@ -26,7 +26,7 @@ this to make `Command` behave like `Meta` in Emacs:
 This works, but it's hardly ideal since you're remapping `Option` at
 fairly low level and you won't be able to use it anywhere as `Option`.
 
-A much better idea would be to leverage a little know capability of
+A much better idea would be to leverage a little known capability of
 KeyRemap4MacBook (a great program which despite its name works with
 desktop Macs as well) and map the `Return` key to `Control` only
 when it's held down (it will behave like a normal Return key in all

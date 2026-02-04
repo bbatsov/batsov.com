@@ -10,7 +10,7 @@ tags:
 After dreading the migration of this site from Octopress 2 to Jekyll
 for years, I finally found the will to do it today. The process was
 actually very straight-forward and took me just a couple of hours
-(most of which I spent trying to find new a theme for the site and
+(most of which I spent trying to find a new theme for the site and
 tweaking it afterwards).
 
 <!--more-->
@@ -105,7 +105,7 @@ permalink: "articles/:year/:month/:day/:title/"
 Octopress had some nice rake tasks like `rake new_post` that I was
 found of. I noticed that out of the box Jekyll didn't have anything
 like this, which was a bit frustrating. I quickly discovered the plugin [jekyll-compose](https://github.com/jekyll/jekyll-compose)
-and it's even better than the old rake tasks. Here's how you can create a new post with it:
+and it's even better than the old rake tasks I was fond of. Here's how you can create a new post with it:
 
 ```console
 $ bundle exec jekyll post "New Post"

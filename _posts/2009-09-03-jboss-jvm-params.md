@@ -1,5 +1,5 @@
 ---
-title: Mofidy JVM parameters for JBoss AS
+title: Modify JVM parameters for JBoss AS
 tags:
 - Java
 - JBoss

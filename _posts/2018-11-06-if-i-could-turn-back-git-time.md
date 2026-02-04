@@ -35,7 +35,7 @@ effectively. Here's the shell alias approach:
 alias git-first="git show `git rev-list --max-parents=0 HEAD`"
 ```
 
-At this point it's time for the twist it our story.
+At this point it's time for the twist in our story.
 Turns out there's a much simpler way to get to the beginning of your history:
 
 ```console

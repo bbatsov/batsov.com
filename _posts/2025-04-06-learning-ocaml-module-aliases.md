@@ -6,7 +6,7 @@ tags:
 - Learning OCaml
 ---
 
-OCaml is famous for allow you to do a lot of things like modules. Like really a lot!
+OCaml is famous for allowing you to do a lot of things with modules. Like really a lot!
 Advanced features like functors, aside, it's really common to either alias
 module names to something shorter or localize `open Module_name` to a smaller
 scope:

@@ -35,6 +35,6 @@ be regenerated and added to GitHub.
 2. Alternatively you can go to your project settings in CircleCI's console, delete the read checkout SSH key there and re-add it. That's under "Project settings -> SSH keys" and should be the first key you see there.
 
 I think that option 2) is the better one, simply because it takes a bit less time, but both get the job done. Still, it remains a mystery to me what caused this and more
-of my repos get affected by it. Maybe the SSH keys that disappeared were revoked in relation to [this security aleart](https://discuss.circleci.com/t/circleci-security-alert-warning-phishing-attempt-for-login-credentials/45408)?
+of my repos get affected by it. Maybe the SSH keys that disappeared were revoked in relation to [this security alert](https://discuss.circleci.com/t/circleci-security-alert-warning-phishing-attempt-for-login-credentials/45408)?
 
 That's all I have for you today. Hopefully this article will save you some time if you encounter the same problem.

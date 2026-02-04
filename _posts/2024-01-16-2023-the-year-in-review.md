@@ -90,7 +90,7 @@ Haven't figured them out yet.
 
 > Not great, not terrible.
 
-And that's a wrap. One less item in my person to-do list!
+And that's a wrap. One less item in my personal to-do list!
 
 I think the words "not great, not terrible" perfectly describe 2023 for me. I
 haven't had a truly great year since 2019 and I often dreaming about the

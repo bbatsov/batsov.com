@@ -19,7 +19,7 @@ sed: 1: "./_posts/2022-01-20-bad ...": invalid command code .
 ```
 
 This didn't work at first, because `sed -i` expects a backup file extension (e.g. `bak`),
-for the files it'd be changing. I didn't want this, as I didn't want to deal with dealing those files afterwards,
+for the files it'd be changing. I didn't want this, as I didn't want to deal with deleting those files afterwards,
 so I tweaked the command like this:
 
 ```console
@@ -33,7 +33,7 @@ At this point I remembered that I can make use of the shell's extended globbing 
 $ sed -i '' 's/` bash/`shell/g' **/*.md
 ```
 
-And that's pretty much it! This keep in mind I'm using BSD sed on macOS, and if you're
+And that's pretty much it! Just keep in mind I'm using BSD sed on macOS, and if you're
 using GNU sed (e.g. on Linux) you can omit the empty string argument to `-i`.
 Got to love the random differences between BSD and GNU commands!
 

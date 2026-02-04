@@ -53,7 +53,7 @@ initialized *before* you start tweaking them.
 What `package.el` basically does is that it connects to a list of
 package repositories, retrieves the list of the packages there,
 presents it to you in a interactive fashion and lets you install the
-packages you like (of course you can also remove the once you don't
+packages you like (of course you can also remove the ones you don't
 like). `package.el` understands the dependencies between packages and
 if one package requires others to run they will be installed
 automatically (which is really neat).
@@ -74,11 +74,11 @@ but that should be fixed in recent Emacs builds. According to this
 you can even update all of the installed packages by using the "U" key
 in the packages list view (I guess that a small "u" would update only
 one package). Unfortunately my build is lacking those capabilities so
-I cannot comment of their usability.
+I cannot comment on their usability.
 
 You'd probably notice that your list of available packages is not
 particularly long. That's because the official Emacs 24 package
-repository has a strict licensing (and source code) requirements to
+repository has strict licensing (and source code) requirements to
 include a package there. Luckily there are a number of
 community-maintained `package.el` repos around with much more relaxed
 requirements. Probably the most popular of them is
@@ -134,13 +134,13 @@ startup (if necessary):
 ;;; prelude-packages.el ends here
 ```
 
-This code check if all of the packages in the list are installed and
-if any of them are not installed if refreshes the local package
-database (in the case a required package for recently added to the remote
+This code checks if all of the packages in the list are installed and
+if any of them are not installed it refreshes the local package
+database (in case a required package was recently added to the remote
 repo) and installs them.
 
 To be able to publish a package to Marmalade (or another repo) it
-should comform a standardized structure. A single-file package might look like this:
+should conform to a standardized structure. A single-file package might look like this:
 
 ``` elisp
 ;;; sass-mode.el --- Sass major mode

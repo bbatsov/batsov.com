@@ -53,7 +53,7 @@ Why so you might ask. Here are a couple of reasons that immediately come to mind
 - Emacs 29 features a pure GTK front-end (a.k.a `pgtk`). This means that Emacs 29 works natively on Wayland (and Windows 11 + WSL by association).
 - Last, but not least - Emacs 29 has [proper support for emojis](https://lars.ingebrigtsen.no/2021/10/28/emacs-emojis-a-%e2%9d%a4%ef%b8%8f-story/)!
 
-Much of this happened in the last 5 years, which is pretty amazing for a dying editors that has been rendered irrelevant but its vastly superior competitors.
+Much of this happened in the last 5 years, which is pretty amazing for a dying editor that has been rendered irrelevant but its vastly superior competitors.
 
 It amuses me how many people keep chasing after shiny and new things, even if they don't really need them.
 Emacs has covered all of my use-cases for so long that I don't even bother to upgrade to the new releases
@@ -63,7 +63,7 @@ a pretty happy camper.[^4] Perhaps that's a reflection of my appreciation for mi
 but I'm no longer equating "progress" with "more".
 
 I've written [at length about the merits of Emacs]({% post_url 2021-11-16-why-emacs-redux %}) in the past, so I'm not going to repeat myself here.
-I'll just remind you about the old saying "Don't judge a book by its cover". Or by it's popularity or marketing
+I'll just remind you about the old saying "Don't judge a book by its cover". Or by its popularity or marketing
 campaigns for that matter. Essence is what matters, not superficial appearances.
 
 > Whatever doesn't kill you simply makes you stranger.

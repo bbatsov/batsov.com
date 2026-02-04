@@ -15,7 +15,7 @@ taken to do so *properly*. For one - Powerpack would not include its extension
 methods if the target class already has method named the same way.
 
 Additionally - you're able to selectively use the extension methods
-that Powerpack provides.You can load the entire `powerpack` library:
+that Powerpack provides. You can load the entire `powerpack` library:
 
 ```
 require 'powerpack'

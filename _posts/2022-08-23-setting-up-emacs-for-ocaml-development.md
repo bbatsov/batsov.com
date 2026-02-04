@@ -8,7 +8,7 @@ tags:
 
 I've [promised you articles about OCaml]({% post_url 2022-08-19-learning-ocaml %}) and here they come! The first order of business when learning a new programming language is to setup Emacs for effective programming in it.
 
-Emacs has a long history with OCaml[^1] and there are many Emacs packages for you to chose from:
+Emacs has a long history with OCaml[^1] and there are many Emacs packages for you to choose from:
 
 * [tuareg](https://github.com/ocaml/tuareg):
 OCaml major mode for Emacs that can also run the toplevel and the debugger within Emacs.
@@ -38,7 +38,7 @@ have code completion, which is probably its main advantage over the default topl
 $ opam install utop merlin
 ```
 
-`merlin-eldoc` and `flycheck-ocaml` are actually implemented in terms of Merlin and basically fit some information coming from Merlin in the uniform interfances of ElDoc and Flycheck.
+`merlin-eldoc` and `flycheck-ocaml` are actually implemented in terms of Merlin and basically fit some information coming from Merlin in the uniform interfaces of ElDoc and Flycheck.
 
 I'd say that the only really essential packages for everyone are:
 
@@ -128,7 +128,7 @@ write a bit of code, send it to the toplevel to play with it and keep tweaking
 it until I'm happy with the result. Sadly, the OCaml toplevel is quite primitive
 and limited by Lisp standards, but it still gets the job done. It will be hard
 for me to adapt to any workflow that's not extremely REPL-centric. Perhaps there's
-a much better workflow that's eliding me at this point.
+a much better workflow that's eluding me at this point.
 
 Note that Emacs also has LSP support[^3], but I've opted to for a more
 traditional setup mostly because I don't use LSP with any of the programming

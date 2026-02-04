@@ -89,7 +89,7 @@ an uniform language for interacting with them. neovim really takes this to the n
 level by adding Tree-sitter objects to the mix. (e.g. blocks, functions, classes, etc)
 
 I'm already at the point where I feel pretty comfortable with the basics
-and I probably know more about Vim than I ever did. Still, I definitely not as
+and I probably know more about Vim than I ever did. Still, I'm definitely not as
 productive as I want to be and I often have to pause and think how to adjust
 my work habits to match the Vim way. One of the areas that I struggle the most
 with is that it's very hard to work on multiple projects with the same Vim instance.

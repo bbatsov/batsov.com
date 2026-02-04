@@ -28,7 +28,7 @@ random trivia that might give you some idea about the type of person I am:
 - I got my first computer in 1998. It cost $1011 and it had a Pentium II Klamath @ 300 Mhz CPU, 32 MB of RAM, a Quantum Fireball 5.1 GB HDD and a Diamond Viper V330 GPU (with 4MB of memory and 3D acceleration). I didn't plan to do much (any) programming on it.
 - I studied CS in high-school, but I didn't really think I'd end up as a programmer. Programming felt like something quite boring when I was a kid.
 - Cinema's one of my biggest obsessions. I've been a devoted movie-goer since 1995, when I went to see "Toy Story".
-- When I was little I thought that all you need in life in an unlimited supply of chocolate and bananas. Turned out I was wrong.
+- When I was little I thought that all you need in life is an unlimited supply of chocolate and bananas. Turned out I was wrong.
 - My first trip abroad was to Budapest, Hungary. I did it for my 24th birthday. Since then I've become quite passionate about exploring the world and I visited 60 countries.
 - I'm a big comic book fan. Batman is my favorite superhero. I went to see "The Dark Knight" 7 times.
 - I once watched "Gladiator" around 20 times in one week. I used to know every line in the movie.
@@ -92,7 +92,7 @@ I write all of the articles in Emacs and publish them to GitHub
 pages. These days (circa 2025) I'm a macOS user most of the time.  When I'm at home
 I do all my writing on my beloved [Leopold
 FC660C](https://deskthority.net/wiki/Leopold_FC660C)[^4].  When I'm on
-the road I do (or don't do) my writing on a Apple Magic Keyboard or
+the road I do (or don't do) my writing on an Apple Magic Keyboard or
 the built-in MacBook keyboard[^5].
 
 The source code of the site is freely available at [GitHub](https://github.com/bbatsov/batsov.com).

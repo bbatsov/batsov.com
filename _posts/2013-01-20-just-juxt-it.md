@@ -19,7 +19,7 @@ function to the arguments (from left to right). Basically:
 ((juxt a b c) x) => [(a x) (b x) (c x)]
 ```
 
-At first glace that probably doesn't seem particularly useful. Let's
+At first glance that probably doesn't seem particularly useful. Let's
 see some practical applications of `juxt`. What if we wanted to split
 a sequence into two sequences - one with the values that satisfy some
 predicate and one with the values that don't. While there are many

@@ -71,7 +71,7 @@ Bluesky reminds me of the early days of Twitter and I'm somewhat active there as
 
 ### X (Twitter)
 
-Twitter was the only social media that I liked, before it went to sh*t. I'm still use it to some extent, but I prefer Mastodon and Bluesky over it.
+Twitter was the only social media that I liked, before it went to sh*t. I still use it to some extent, but I prefer Mastodon and Bluesky over it.
 
 ### Blog Comments
 

@@ -148,7 +148,7 @@ def something
 end
 ```
 
-Basically it call comes down to whether this is a trivial reader method or not.
+Basically it all comes down to whether this is a trivial reader method or not.
 Some people would argue that because the name of the instance variable
 and the name of the method are not the same - it's not. I'd argue the
 opposite case - it is! The name of the method does not change the
@@ -162,7 +162,7 @@ alias_method :something, :something_else
 
 Boolean attributes are a bit special, since generally we'd like to
 have a `?` at the end of predicate method names, but this cannot be done with
-`attr_reader/attr_accessor`. Some people would simple hand-code such
+`attr_reader/attr_accessor`. Some people would simply hand-code such
 methods:
 
 ```ruby
@@ -178,7 +178,7 @@ attr_reader :something
 alias_method :something?, :something
 ```
 
-I wouldn't call one style necessary good or bad - it's more of a personal preference.
+I wouldn't call one style necessarily good or bad - it's more of a personal preference.
 
 One final note - you should use `attr_` only for trivial reader and writer methods (trivial means that
 they do not need any defensive copying or pre-update checks).

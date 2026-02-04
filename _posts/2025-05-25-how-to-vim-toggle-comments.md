@@ -5,7 +5,7 @@ tags:
 - Vim
 ---
 
-One if the things that had initially frustrated me about Vim is
+One of the things that had initially frustrated me about Vim is
 that out-of-the-box there's no way to toggle comments on and off
 in programming languages. This definitely struck me as something odd,
 given that almost all of Vim's users are programmers and we have to
@@ -44,7 +44,7 @@ Before we wrap up:
 - I find the most useful commenting commands to be `gcc` and combining `gc`
   with visual mode selection.  Neovim has richer text objects, so there it's
   also easy to operate on methods, classes, etc.
-- Don't forget to remove whatever comments plugin you're current using if you
+- Don't forget to remove whatever comments plugin you're currently using if you
   decide to switch to the built-in functionality
 
 That's all I have for you today. Time to get wild with `gc`!

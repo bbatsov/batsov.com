@@ -64,7 +64,7 @@ reasonably sure that my first email address was `alexei.stukov@yahoo.com`
 stories, but for obvious reasons I can't discuss them here.
 
 So, that's the story of my nickname. It's a bit boring, just like the nickname
-itself (if only I were as cool as "Neo", "ZeroCool" and "Morheus"...), but it's
+itself (if only I were as cool as "Neo", "ZeroCool" and "Morpheus"...), but it's
 my story. Frankly, I don't even know I why I decided to write it. Perhaps it's
 because I came to value a lot consistency and simplicity in every aspect of
 life. Perhaps it's because I've always been fascinated by the power of

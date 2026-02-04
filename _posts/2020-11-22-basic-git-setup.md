@@ -59,7 +59,7 @@ $ git config user.email bozhidar@company.com
 
 If you're working on multiple company repositories the above solution will quickly become annoying. In such
 cases you may want to use [Git conditional includes](https://git-scm.com/docs/git-config#_conditional_includes),
-which basically allow you to include a different configuration file in your main Git config, based so on some
+which basically allow you to include a different configuration file in your main Git config, based on some
 rules.[^2] In our case we can have a different configuration for the e-mail based on the repository directory path. Here's an example
 `.gitconfig` to illustrate this:
 

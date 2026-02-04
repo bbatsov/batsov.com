@@ -55,4 +55,4 @@ Much simpler, right? Now it's time for the final approach to solving the problem
 
 This relies on the fact that the integer value for `\0` is 48, for `\1` is 49 and so on. For some reason that's my favorite solution - probably because I love programming puzzles and I like (occasionally) writing unreadable code.
 
-So, who has a different approach for converting a number to its digits? I've to hear about it!
+So, who has a different approach for converting a number to its digits? I'd love to hear about it!

@@ -6,7 +6,7 @@ tags:
 - Email
 ---
 
-A reader ask me recently how do I use custom domains for my email needs
+A reader asked me recently how do I use custom domains for my email needs
 and I promised to write a short blog post about this. Promised fulfilled!
 
 So, why do you need a custom domain for email in general? There a few reasons:

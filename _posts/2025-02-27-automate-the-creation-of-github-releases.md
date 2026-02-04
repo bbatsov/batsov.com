@@ -16,7 +16,7 @@ from my RuboCop project.
 So, here is what I'd normally do when the time comes to prepare a new release:
 
 - Tag the new release
-- Generate some release note (or just copy the relevant section of a project's changelog)
+- Generate some release notes (or just copy the relevant section of a project's changelog)
 - Copy the release notes manually to GitHub
 
 While, it's not a particularly complicated process, when doing it often for many projects

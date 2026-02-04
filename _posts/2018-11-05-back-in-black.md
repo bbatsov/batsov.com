@@ -27,7 +27,7 @@ back on all of this - I was reading some of my old articles, in the
 process of migrating the blog to Jekyll, and I couldn't believe some of
 the things I wrote. I hope this means I'm getting wiser with age...
 
-In the mean time I've started another blog, called [Meta
+In the meantime I've started another blog, called [Meta
 Redux](https://metaredux.com). I plan to do most of my (serious)
 writing there, but I might write an occasional short article or two
 here as well. My rough idea is to use Meta Redux as a platform for my

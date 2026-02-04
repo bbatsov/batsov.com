@@ -7,7 +7,7 @@ tags:
 ---
 
 While playing with OCaml I was surprised to learn there's no built-in
-function the convert a string to a list of its characters. Admittedly, that's
+function to convert a string to a list of its characters. Admittedly, that's
 not something you need very often, but it does come handy from time to time.
 There are many ways to implement such a function ourselves and the one I like
 the most makes use of `List.init`:
