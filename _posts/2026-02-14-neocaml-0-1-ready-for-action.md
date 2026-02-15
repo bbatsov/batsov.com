@@ -18,6 +18,7 @@ as:
     M-x package-install <RET> neocaml <RET>
 
 That's quite the journey from "a fun experimental project" to a proper Emacs
+package!
 
 ## Why neocaml?
 
@@ -37,7 +38,7 @@ nothing is _wrong_ per se, but `neocaml` offers a different set of trade-offs:
 Of course, `neocaml` is the youngest of the bunch and it doesn't yet match
 Tuareg's feature completeness. But for many OCaml workflows it's already more
 than sufficient, especially when combined with LSP support.
-package! Let me now walk you through the highlights of version 0.1.
+Let me now walk you through the highlights of version 0.1.
 
 ## Features
 
@@ -104,7 +105,7 @@ The creation of LSP really simplified the lives of a major mode authors like me,
 many of the features that were historically major mode specific are provided by
 LSP clients out-of-the-box.
 
-That's also another reason why you probably want to leaner major mode like `neocaml-mode`. 
+That's also another reason why you probably want to leaner major mode like `neocaml-mode`.
 
 ### Other Goodies
 
@@ -131,7 +132,7 @@ OCaml community.
 I'm not sure how quickly things will move, but I'm committed to making `neocaml`
 the best OCaml editing experience on Emacs. Time will tell how far I'll get!
 
-## Give it a Try!
+## Give it a Try
 
 If you're an OCaml programmer using Emacs, I'd love for you to take `neocaml` for
 a spin. Install it from MELPA, kick the tires, and let me know what you think.
