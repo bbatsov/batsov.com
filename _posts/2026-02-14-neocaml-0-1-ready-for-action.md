@@ -38,6 +38,12 @@ nothing is _wrong_ per se, but `neocaml` offers a different set of trade-offs:
 Of course, `neocaml` is the youngest of the bunch and it doesn't yet match
 Tuareg's feature completeness. But for many OCaml workflows it's already more
 than sufficient, especially when combined with LSP support.
+
+I've started the project mostly because I thought that the existing
+Emacs tooling for OCaml was somewhat behind the times - e.g. both
+`caml-mode` and `tuareg-mode` have features that are no longer needed
+in the era of `ocamllsp`.
+
 Let me now walk you through the highlights of version 0.1.
 
 ## Features
@@ -68,12 +74,15 @@ If you prefer, you can still delegate indentation to external tools like
 `ocp-indent` or even Tuareg's indentation functions. Still, I think most people
 will be quite satisfied with the built-in indentation logic.
 
-### Navigation and Imenu
+### Code Navigation and Imenu
 
 `neocaml` provides proper structural navigation commands (`beginning-of-defun`,
 `end-of-defun`, `forward-sexp`) powered by TreeSitter, plus `imenu` integration
-with language-specific categories for both `.ml` and `.mli` files. Jumping to
 definitions in a buffer has never been easier.
+
+The older modes provide very similar functionality as well, of course,
+but the use of TreeSitter in `neocaml` makes such commands more reliable and
+robust.
 
 ### REPL Integration
 
@@ -122,7 +131,8 @@ There's still plenty of work to do:
 
 - Support for additional OCaml file types (e.g. `.mld`)
 - Improvements to structured navigation using newer Emacs TreeSitter APIs
-- More testing and addressing feedback from real-world OCaml users
+- Improvements to the test suite
+- Addressing feedback from real-world OCaml users
 - Actually writing some fun OCaml code with `neocaml`
 
 If you're following me, you probably know that I'm passionate about both Emacs
@@ -137,6 +147,6 @@ the best OCaml editing experience on Emacs. Time will tell how far I'll get!
 If you're an OCaml programmer using Emacs, I'd love for you to take `neocaml` for
 a spin. Install it from MELPA, kick the tires, and let me know what you think.
 Bug reports, feature requests, and pull requests are all most welcome on
-[GitHub](https://github.com/bbatsov/neocaml).
+[GitHub](https://github.com/bbatsov/neocaml)!
 
 That's all from me, folks! Keep hacking!
