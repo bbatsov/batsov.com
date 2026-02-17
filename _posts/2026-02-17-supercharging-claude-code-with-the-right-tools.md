@@ -183,7 +183,7 @@ brew install ast-grep difftastic shellcheck sd scc yq comby hyperfine watchexec 
 ```
 
 I'm not ashamed to admit that I had never heard of some of the tools (e.g. `sd`, `yq` and `comby`),
-and I had only one of them installed (`scc`). It's never too late to learn something new!
+and I had only one of them installed (`scc`).[^2] It's never too late to learn something new!
 
 By the way, keep in mind that depending on the programming languages that you're using there
 are other language specific tools that you can benefit from, so make sure to ask your
@@ -192,3 +192,4 @@ favorite AI coding tool about those.
 That's all I have for you today. Keep hacking!
 
 [^1]: I asked Claude about this as well and it told me that it prefers `scc` because it's written in Go (as opposed to Perl) and therefore it's much faster than `cloc`.
+[^2]: Of course, I didn't really have it installed - I only thought I did, otherwise Claude wouldn't have suggested it. (I switch between computers and my setup on all of them is not exactly the same)
