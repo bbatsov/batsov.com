@@ -101,8 +101,9 @@ complexity estimates. Understanding the shape of a project before diving in is
 genuinely useful context for an AI assistant, and this is hard to replicate by
 manually scanning files.
 
-**Note:** I was under the impression that [cloc](https://github.com/AlDanial/cloc) is a better tool, but perhaps
-I was mistaken.
+**Note:** I was under the impression that
+[cloc](https://github.com/AlDanial/cloc) is a better tool, but perhaps I was
+mistaken.[^1]
 
 ### 6. yq
 
@@ -189,3 +190,5 @@ are other language specific tools that you can benefit from, so make sure to ask
 favorite AI coding tool about those.
 
 That's all I have for you today. Keep hacking!
+
+[^1]: I asked Claude about this as well and it told me that it prefers `scc` because it's written in Go (as opposed to Perl) and therefore it's much faster than `cloc`.
