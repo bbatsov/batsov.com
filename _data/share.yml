@@ -20,6 +20,10 @@ platforms:
     icon: "fa-brands fa-bluesky"
     link: "https://bsky.app/intent/compose?text=TITLE%20URL"
 
+  - type: Reddit
+    icon: "fa-brands fa-square-reddit"
+    link: "https://www.reddit.com/submit?url=URL&title=TITLE"
+
   - type: Linkedin
     icon: "fab fa-linkedin"
     link: "https://www.linkedin.com/feed/?shareActive=true&shareUrl=URL"
