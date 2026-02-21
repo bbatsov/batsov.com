@@ -5,6 +5,7 @@ date: 2026-02-14 18:34 +0200
 tags:
 - OCaml
 - Emacs
+pin: true
 ---
 
 [neocaml](https://github.com/bbatsov/neocaml) 0.1 is finally out! Almost a year
