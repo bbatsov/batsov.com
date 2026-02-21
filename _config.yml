@@ -170,6 +170,7 @@ defaults:
       type: posts
     values:
       layout: post
+      author: bbatsov
       comments: true
       toc: true
       permalink: "articles/:year/:month/:day/:title/"
