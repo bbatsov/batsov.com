@@ -44,6 +44,9 @@ cdn:
 # The avatar on sidebar, support local or CORS resources
 avatar: /assets/img/bozhidar_avatar.jpg
 
+# Default image for OpenGraph/Twitter Card when a post has no image
+social_preview_image: /assets/img/bozhidar_avatar.jpg
+
 # The URL of the site-hierarchical RSS Feed, used by link tag
 rss: /atom.xml
 
