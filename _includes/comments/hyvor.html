@@ -1,10 +1,13 @@
 <script type="module">
   import 'https://talk.hyvor.com/embed/embed.js';
 
+  const wrapper = document.createElement('div');
+
   const comments = document.createElement('hyvor-talk-comments');
   comments.setAttribute('website-id', '{{ site.comments.hyvor_talk.website_id }}');
   comments.setAttribute('page-id', '{{ page.url | absolute_url }}');
+  wrapper.appendChild(comments);
 
   const footer = document.querySelector('footer');
-  footer.insertAdjacentElement('beforebegin', comments);
+  footer.insertAdjacentElement('beforebegin', wrapper);
 </script>
