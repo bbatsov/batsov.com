@@ -109,10 +109,13 @@ kramdown:
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
+  footnote_backlink: "&#8617;&#xfe0e;"
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
+  syntax_highlighter: rouge
   syntax_highlighter_opts:
+    css_class: highlight
     default_lang: plaintext
     span:
       line_numbers: false
