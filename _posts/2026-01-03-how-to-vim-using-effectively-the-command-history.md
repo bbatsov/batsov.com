@@ -3,6 +3,7 @@ title: 'How to Vim: Using Effectively the Command History'
 date: 2026-01-03 18:48 +0200
 tags:
 - Vim
+description: How to use Vim's command history window to edit, reuse, and fix commands with full Normal mode editing power.
 ---
 
 One of the frustrating aspects of Vim for me is that in insert mode you're quite
@@ -21,8 +22,9 @@ When the command history window opens you can edit its contents like any other b
 normally you'd find some command that's of interest to you, perhaps edit it, and
 afterwards press RET to run it. You can also close the window with either `:q` or `Ctrl-C`.
 
-Note, that the command history window is special and while you're in it you can't really
-move around (e.g. switch to another window with `Ctrl-W W`)
+> The command history window is special and while you're in it you can't really
+> move around (e.g. switch to another window with `Ctrl-W W`).
+{: .prompt-info }
 
 For me the main use of the command history window is to reuse and tweak longer `:s` and
 `:g` commands, but I can imagine it having other uses as well. It's certainly a good
@@ -45,7 +47,8 @@ fire the fixed command.
 
 That's all I have for you today. Keep hacking!
 
-**P.S.** If only Vim's insert mode supported `readline`'s keybindings or
-something similar...  You can, however, get something similar using plugins
-like [rsi.vim](https://github.com/tpope/vim-rsi) and
-[readline.vim](https://github.com/ryvnf/readline.vim).
+> If only Vim's insert mode supported `readline`'s keybindings or
+> something similar...  You can, however, get something similar using plugins
+> like [rsi.vim](https://github.com/tpope/vim-rsi) and
+> [readline.vim](https://github.com/ryvnf/readline.vim).
+{: .prompt-tip }
