@@ -3,6 +3,7 @@ title: 'How to Vim: Many Ways to Paste'
 date: 2026-02-15 11:03 +0200
 tags:
 - Vim
+description: A tour of all Vim paste commands in Normal and Insert mode, including lesser-known variants for indentation, cursor position, and raw pasting.
 ---
 
 Most Vim users know `p` and `P` -- paste after and before the cursor. Simple
@@ -84,9 +85,10 @@ Let me unpack this a bit:
 - `Ctrl-R Ctrl-P {reg}` is like `Ctrl-R Ctrl-O`, but it adjusts the indentation
   to match the current context. Think of it as the Insert mode equivalent of `]p`.
 
-**Note:** Plain `Ctrl-R {reg}` can be a minor security concern when pasting from
-the system clipboard (`+` or `*` registers), since control characters in the
-clipboard will be interpreted. When in doubt, use `Ctrl-R Ctrl-O +` instead.
+> Plain `Ctrl-R {reg}` can be a minor security concern when pasting from
+> the system clipboard (`+` or `*` registers), since control characters in the
+> clipboard will be interpreted. When in doubt, use `Ctrl-R Ctrl-O +` instead.
+{: .prompt-warning }
 
 ## Epilogue
 
