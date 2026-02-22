@@ -1,6 +1,7 @@
 ---
 title: '2021: The Year in Review'
 date: 2021-12-31 10:00 +0200
+last_modified_at: 2022-01-04
 toc: true
 tags:
 - Meta

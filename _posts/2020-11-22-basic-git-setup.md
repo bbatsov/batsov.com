@@ -1,6 +1,7 @@
 ---
 title: Basic Git Setup
 date: 2020-11-22 11:32 +0200
+last_modified_at: 2020-12-03
 tags:
 - Git
 - Tutorials

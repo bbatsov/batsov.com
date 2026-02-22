@@ -1,6 +1,7 @@
 ---
 title: 'Learning OCaml: Quoted String Literals'
 date: 2023-04-20 16:23 +0300
+last_modified_at: 2023-04-22
 tags:
 - OCaml
 - Learning OCaml

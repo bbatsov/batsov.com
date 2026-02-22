@@ -1,6 +1,7 @@
 ---
 title: 'Burst-driven Development: My Approach to OSS Projects Maintenance'
 date: 2025-11-16 14:16 +0200
+last_modified_at: 2025-11-19
 tags:
 - OSS
 - Maintenance

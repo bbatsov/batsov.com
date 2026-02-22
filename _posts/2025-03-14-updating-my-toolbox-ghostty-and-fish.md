@@ -1,6 +1,7 @@
 ---
 title: 'Updating my toolbox: Ghostty and Fish'
 date: 2025-03-14 16:53 +0200
+last_modified_at: 2025-03-15
 tags:
 - Tools
 - Ghostty

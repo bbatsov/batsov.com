@@ -1,6 +1,7 @@
 ---
 title: What's the Term for a Filename Without Its Extension?
 date: 2022-12-08 16:40 +0200
+last_modified_at: 2022-12-15
 tags:
 - Programming
 ---

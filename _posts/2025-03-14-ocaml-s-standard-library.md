@@ -1,6 +1,7 @@
 ---
 title: OCaml's Standard Library (`Stdlib`)
 date: 2025-03-14 11:18 +0200
+last_modified_at: 2025-03-15
 tags:
 - OCaml
 - Learning OCaml

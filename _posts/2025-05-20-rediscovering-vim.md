@@ -1,6 +1,7 @@
 ---
 title: Rediscovering Vim
 date: 2025-05-20 18:09 +0300
+last_modified_at: 2025-05-25
 tags:
 - Vim
 - Emacs

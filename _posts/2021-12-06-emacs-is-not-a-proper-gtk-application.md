@@ -1,6 +1,7 @@
 ---
 title: Emacs is not a Proper GTK Application
 date: 2021-12-06 19:34 +0200
+last_modified_at: 2021-12-19
 link: https://emacshorrors.com/posts/psa-emacs-is-not-a-proper-gtk-application.html
 tags:
 - Emacs

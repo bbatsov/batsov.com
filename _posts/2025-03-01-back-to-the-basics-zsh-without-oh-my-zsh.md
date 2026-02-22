@@ -1,6 +1,7 @@
 ---
 title: 'Back to the Basics: Zsh without Oh My Zsh'
 date: 2025-03-01 18:20 +0200
+last_modified_at: 2025-03-02
 tags:
 - Zsh
 ---
