@@ -29,8 +29,9 @@ social:
     - https://www.linkedin.com/in/bbatsov/
 
 # Web Analytics Settings
-google_analytics:
-  id: UA-22917580-1
+analytics:
+  google:
+    id: G-NBW69J6Z4F
 
 # Prefer color scheme setting
 # light - Light mode
