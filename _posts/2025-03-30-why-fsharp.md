@@ -1,6 +1,7 @@
 ---
 title: Why F#?
 date: 2025-03-30 17:54 +0300
+last_modified_at: 2025-04-03
 toc: true
 tags:
 - F#

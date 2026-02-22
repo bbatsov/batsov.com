@@ -1,6 +1,7 @@
 ---
 title: Switching from Zsh to Fish
 date: 2025-05-20 9:55 +0300
+last_modified_at: 2025-05-23
 tags:
 - Zsh
 - Z Shell

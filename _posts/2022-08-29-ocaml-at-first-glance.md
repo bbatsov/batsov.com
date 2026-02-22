@@ -1,6 +1,7 @@
 ---
 title: OCaml at First Glance
 date: 2022-08-29 07:31 +0300
+last_modified_at: 2022-08-31
 toc: true
 tags:
 - OCaml

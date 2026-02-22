@@ -1,6 +1,7 @@
 ---
 title: 'Bad Ruby: Hash Value Omission'
 date: 2022-01-20 14:09 +0200
+last_modified_at: 2022-01-21
 tags:
 - Ruby
 - Language Design

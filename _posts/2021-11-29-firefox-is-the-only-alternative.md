@@ -1,6 +1,7 @@
 ---
 title: Firefox is the Only Alternative
 date: 2021-11-28 10:54 +0200
+last_modified_at: 2021-11-30
 tags:
 - Firefox
 - Browsers

@@ -1,6 +1,7 @@
 ---
 title: Simple Ways to Run OCaml Code
 date: 2025-02-23 20:49 +0200
+last_modified_at: 2025-02-24
 tags:
 - OCaml
 ---
