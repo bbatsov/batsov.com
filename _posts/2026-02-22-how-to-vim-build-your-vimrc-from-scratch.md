@@ -1,9 +1,9 @@
 ---
 title: 'How to Vim: Build your .vimrc from Scratch'
-date: 2026-02-22 20:29 +0200
+date: 2026-02-22 19:50 +0200
 tags:
 - Vim
-description: You don't need a massive .vimrc to be productive in Vim. Here's how far you can get with defaults and a handful of settings.
+description: You don't need a massive .vimrc to be productive in Vim.
 ---
 
 People often think that getting started with Vim means spending hours crafting an
@@ -139,6 +139,15 @@ defaults, add only what you actually need, and resist the urge to copy someone
 else's 500-line configuration. A small, well-understood configuration beats a
 large, cargo-culted one every time.
 
+That's part of the reason why when I started to re-learn Vim I've opted to
+slowly build a Vim 9 configuration from scratch, instead of jumping to
+something like Neovim + [Kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) or [LazyVim](https://www.lazyvim.org/) right away. Less is more. Understanding
+the foundations of your editor matters.[^1]
+
+> Right now my `.vimrc` is just 100 lines and I don't foresee it becoming much
+> bigger in the long run.
+{: .prompt-info }
+
 If you want to see just how far you can go without plugins, I highly recommend
 the Thoughtbot talk [How to Do 90% of What Plugins Do (With Just
 Vim)](https://www.youtube.com/watch?v=XA2WjJbmmoM). It's a great demonstration
@@ -146,3 +155,5 @@ of Vim's built-in capabilities for file finding, auto-completion, tag
 navigation, and more.
 
 That's all I have for you today. Keep hacking!
+
+[^1]: I guess this sounds strange coming from the author of Emacs Prelude, right?
