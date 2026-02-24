@@ -3,7 +3,7 @@ title: Learning Vim in 3 Steps
 date: 2026-02-24 11:00 +0200
 tags:
 - Vim
-description: A simple 3-step plan for learning Vim -- read, configure, practice. And maybe a fallback plan involving Emacs.
+- Emacs
 ---
 
 Every now and then someone asks me how to learn Vim.[^1] My answer is always the
