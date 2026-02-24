@@ -6,6 +6,8 @@ tags:
 - OCaml
 ---
 
+**Update (2026):** I've written an [updated version of this article]({% post_url 2026-02-24-setting-up-emacs-for-ocaml-development-neocaml-edition %}) that covers the modern OCaml tooling stack -- `neocaml` + `ocaml-eglot` instead of `tuareg` + `merlin-mode`.
+
 I've [promised you articles about OCaml]({% post_url 2022-08-19-learning-ocaml %}) and here they come! The first order of business when learning a new programming language is to setup Emacs for effective programming in it.
 
 Emacs has a long history with OCaml[^1] and there are many Emacs packages for you to choose from:
