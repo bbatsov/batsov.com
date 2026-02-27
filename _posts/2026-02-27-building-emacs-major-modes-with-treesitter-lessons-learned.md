@@ -5,6 +5,7 @@ tags:
 - Emacs
 - OCaml
 - Clojure
+- AsciiDoc
 ---
 
 Over the past year I've been spending a lot of time building TreeSitter-powered
