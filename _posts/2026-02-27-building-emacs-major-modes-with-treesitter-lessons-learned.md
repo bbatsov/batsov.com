@@ -36,8 +36,23 @@ pure regex heuristics). This works, but it has well-known problems:
 
 TreeSitter changes the game because you get a **full, incremental, error-tolerant
 syntax tree** for free. Font-locking becomes "match this AST pattern, apply this
-face" and indentation becomes "if the parent node is X, indent by Y". The rules
-are declarative, composable, and much easier to reason about than regex chains.
+face":
+
+```emacs-lisp
+;; Highlight let-bound functions: match a let_binding with parameters
+(let_binding pattern: (value_name) @font-lock-function-name-face
+             (parameter)+)
+```
+
+And indentation becomes "if the parent node is X, indent by Y":
+
+```emacs-lisp
+;; Children of a let_binding are indented by neocaml-indent-offset
+((parent-is "let_binding") parent-bol neocaml-indent-offset)
+```
+
+The rules are declarative, composable, and much easier to reason about than
+regex chains.
 
 In practice, `neocaml`'s entire font-lock and indentation logic fits in about 350
 lines of Elisp. The equivalent in tuareg is spread across thousands of lines.
@@ -59,6 +74,25 @@ semantics, because Clojure's macro system makes static semantic analysis
 unreliable.[^1] This means font-locking `def` forms in Clojure requires
 predicate matching on symbol text, while in OCaml you can directly match
 `let_binding` nodes with named fields.
+
+To illustrate: here's how you'd fontify a function definition in OCaml, where
+the grammar gives you rich named fields:
+
+```emacs-lisp
+;; OCaml: grammar provides named fields -- direct structural match
+(let_binding pattern: (value_name) @font-lock-function-name-face
+             (parameter)+)
+```
+
+And here's the equivalent in Clojure, where the grammar only gives you lists of
+symbols and you need predicate matching:
+
+```emacs-lisp
+;; Clojure: grammar is syntax-only -- match by symbol text
+((list_lit :anchor (sym_lit !namespace
+                            name: (sym_name) @font-lock-keyword-face))
+ (:match ,clojure-ts--definition-keyword-regexp @font-lock-keyword-face))
+```
 
 You can't learn "how to write TreeSitter queries" generically -- you need to
 learn each grammar individually. The best tool for this is `treesit-explore-mode`
@@ -204,8 +238,28 @@ Helix use these directly. Emacs doesn't -- you have to manually translate the
 `.scm` patterns into `treesit-font-lock-rules` and `treesit-simple-indent-rules`
 calls in Elisp.
 
-This is tedious and error-prone. You end up maintaining a parallel set of
-queries that can drift from upstream. Emacs 31 will introduce
+This is tedious and error-prone. For example, here's a rule from the OCaml
+grammar's `highlights.scm`:
+
+```scheme
+;; upstream .scm (used by Neovim, Helix, etc.)
+(constructor_name) @type
+```
+
+And here's the Elisp equivalent you'd write for Emacs:
+
+```emacs-lisp
+;; Emacs equivalent -- wrapped in treesit-font-lock-rules
+:language 'ocaml
+:feature 'type
+'((constructor_name) @font-lock-type-face)
+```
+
+The query syntax is nearly identical, but you have to wrap everything in
+`treesit-font-lock-rules` calls, map upstream capture names (`@type`) to Emacs
+face names (`@font-lock-type-face`), assign features, and manage `:override`
+behavior. You end up maintaining a parallel set of queries that can drift from
+upstream. Emacs 31 will introduce
 [`define-treesit-generic-mode`](https://github.com/emacs-mirror/emacs/blob/master/lisp/treesit-x.el#L47)
 which will make it possible to use `.scm` files for font-locking, which should
 help significantly. But for now, you're hand-coding everything.
@@ -282,7 +336,25 @@ rule ordering, and anchor resolution:
    line, what anchor was computed, and the final column.
 2. Use `treesit-explore-mode` to understand the parent chain. The key question
    is always: "what is the parent node, and which rule matches it?"
-3. Watch out for the **empty-line problem**: when the cursor is on a blank line,
+3. Remember that **rule order matters** for indentation too -- the first matching
+   rule wins. A typical set of rules reads top to bottom from most specific to
+   most general:
+
+   ```emacs-lisp
+   ;; Closing delimiters align with the opening construct
+   ((node-is ")") parent-bol 0)
+   ((node-is "end") parent-bol 0)
+
+   ;; then/else clauses align with their enclosing if
+   ((node-is "then_clause") parent-bol 0)
+   ((node-is "else_clause") parent-bol 0)
+
+   ;; Bodies inside then/else are indented
+   ((parent-is "then_clause") parent-bol neocaml-indent-offset)
+   ((parent-is "else_clause") parent-bol neocaml-indent-offset)
+   ```
+
+4. Watch out for the **empty-line problem**: when the cursor is on a blank line,
    TreeSitter has no node at point. The indentation engine falls back to the root
    `compilation_unit` node as the parent, which typically matches the top-level
    rule and gives column 0. In neocaml I solved this with a `no-node` rule that
