@@ -227,6 +227,52 @@ When a face isn't being applied where you expect:
    intentional (e.g. builtin types at level 3 take precedence over generic types)
    or a source of bugs.
 
+### Use the font-lock levels wisely
+
+TreeSitter modes define four levels of font-locking via
+`treesit-font-lock-feature-list`, and the default level in Emacs is 3. It's
+tempting to pile everything into levels 1--3 so users see maximum highlighting
+out of the box, but resist the urge. When every token on the screen has a
+different color, code starts looking like a Christmas tree and the important
+things -- keywords, definitions, types -- stop standing out.
+
+Less is more here. Here's how `neocaml` distributes features across levels:
+
+```emacs-lisp
+(setq-local treesit-font-lock-feature-list
+            '((comment definition)
+              (keyword string number)
+              (attribute builtin constant type)
+              (operator bracket delimiter variable function)))
+```
+
+And `clojure-ts-mode` follows the same philosophy:
+
+```emacs-lisp
+(setq-local treesit-font-lock-feature-list
+            '((comment definition)
+              (keyword string char symbol builtin type)
+              (constant number quote metadata doc regex)
+              (bracket deref function tagged-literals)))
+```
+
+The pattern is the same: essentials first, progressively more detail at higher
+levels. This way the default experience (level 3) is clean and readable, and
+users who want the full rainbow can bump `treesit-font-lock-level` to 4. Better
+yet, they can use `treesit-font-lock-recompute-features` to cherry-pick
+individual features regardless of level:
+
+```emacs-lisp
+;; Enable 'function' (level 4) without enabling all of level 4
+(treesit-font-lock-recompute-features '(function) nil)
+
+;; Disable 'bracket' even if the user's level would include it
+(treesit-font-lock-recompute-features nil '(bracket))
+```
+
+This gives users fine-grained control without requiring mode authors to
+anticipate every preference.
+
 ### Debugging indentation
 
 Indentation issues are harder to diagnose because they depend on tree structure,
