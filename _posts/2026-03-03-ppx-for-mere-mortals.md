@@ -35,7 +35,10 @@ is my attempt to demystify PPX for people like me -- developers who want to
 OCaml is a statically typed language with no runtime reflection. That means you
 can't do things like "iterate over all fields of a record at runtime" or
 "automatically serialize any type to JSON." The type information simply isn't
-available at runtime -- it's erased during compilation.
+available at runtime -- it's erased during compilation. One of my biggest
+frustrations as a newcomer was not being able to just print arbitrary data for
+debugging -- there's no generic `print` or `inspect` that works on any type.
+That frustration was probably my first real interaction with PPX.
 
 PPX solves this by generating code at **compile time**. When the OCaml compiler
 parses your source code, it builds an Abstract Syntax Tree (AST) -- a tree data
@@ -221,7 +224,9 @@ type point = { x : float; y : float }
    val compare_point : point -> point -> int *)
 ```
 
-The most commonly used plugins:
+`show` is the one you'll reach for first -- it's essentially the answer to
+"how do I just print this thing?" that every OCaml newcomer asks sooner or
+later. The most commonly used plugins:
 
 | Plugin | What it generates |
 |--------|-------------------|
