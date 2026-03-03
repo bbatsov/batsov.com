@@ -85,8 +85,14 @@ let status name age score =
 ```
 
 The `#Int` suffix tells the PPX to call `Int.to_string` on `age`, and
-`#Float` calls `Float.to_string` on `score`. Any module that exposes a
-`to_string` function works here -- including your own:
+`#Float` calls `Float.to_string` on `score`. Note that `Int.to_string`,
+`Float.to_string`, etc. are conventions from Jane Street's `Base`/`Core`
+libraries -- OCaml's `Stdlib` uses `string_of_int`, `string_of_float` and
+so on, which won't work with the `#Module` syntax. This is another reason
+`ppx_string` really only makes sense within the Jane Street ecosystem.
+
+Any module that exposes a `to_string` function works here -- including your
+own:
 
 ```ocaml
 module Player = struct
@@ -112,31 +118,26 @@ Though at that point you might be better off with a `let` binding or
 
 A few practical things worth knowing:
 
-**You need the `pps` stanza in your dune file:**
-
-```dune
-(library
- (name mylib)
- (preprocess (pps ppx_string)))
-```
-
-**String values interpolate directly, everything else needs a conversion
-suffix.** Unlike Ruby where `.to_s` is called implicitly, `ppx_string`
-requires you to be explicit about non-string types. This is annoying at
-first, but it's consistent with OCaml's philosophy of being explicit about
-types.
-
-**It's a Jane Street library.** If you're already in the Jane Street
-ecosystem (`Core`, `Base`, etc.), adding `ppx_string` is trivial. If you're
-not, pulling in a Jane Street dependency just for string interpolation might
-feel heavy. In that case, `Printf.sprintf` is honestly fine.
-
-**It doesn't work with the `Format` module.** If you're building strings for
-pretty-printing, you'll still want `Format.fprintf` or `Format.asprintf`.
-`ppx_string` is for building plain strings, not format strings.
-
-**Nested interpolation doesn't work** -- you can't nest `%{...}` inside
-another `%{...}`. Keep it simple.
+- You need the `pps` stanza in your dune file:
+  ```dune
+  (library
+   (name mylib)
+   (preprocess (pps ppx_string)))
+  ```
+- String values interpolate directly, everything else needs a conversion
+  suffix. Unlike Ruby where `.to_s` is called implicitly, `ppx_string`
+  requires you to be explicit about non-string types. This is annoying at
+  first, but it's consistent with OCaml's philosophy of being explicit about
+  types.
+- It's a Jane Street library. If you're already in the Jane Street
+  ecosystem (`Core`, `Base`, etc.), adding `ppx_string` is trivial. If you're
+  not, pulling in a Jane Street dependency just for string interpolation might
+  feel heavy. In that case, `Printf.sprintf` is honestly fine.
+- It doesn't work with the `Format` module. If you're building strings for
+  pretty-printing, you'll still want `Format.fprintf` or `Format.asprintf`.
+  `ppx_string` is for building plain strings, not format strings.
+- Nested interpolation doesn't work -- you can't nest `%{...}` inside
+  another `%{...}`. Keep it simple.
 
 ## Do You Actually Need String Interpolation?
 
