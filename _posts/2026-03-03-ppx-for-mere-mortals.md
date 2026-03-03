@@ -18,7 +18,7 @@ type person = {
 
 My first reaction was "what the hell is `[@@deriving show, eq]`?" Coming from
 languages like Ruby and Clojure, where metaprogramming is either built into the
-runtime (reflection, `method_missing`) or baked into the language itself (macros),
+runtime (reflection) or baked into the language itself (macros),
 OCaml's approach felt alien. There's no runtime reflection, no macro system in the
 Lisp sense -- just this mysterious `@@` syntax that somehow generates code at
 compile time.
@@ -268,7 +268,7 @@ type person = {
 
 (* Generates:
    val person_to_yojson : person -> Yojson.Safe.t
-   val person_of_yojson : Yojson.Safe.t -> person Ppx_deriving_yojson_runtime.error_or *)
+   val person_of_yojson : Yojson.Safe.t -> (person, string) result *)
 ```
 
 ```ocaml
@@ -355,7 +355,7 @@ let result =
 ```
 
 **Note:** Since OCaml 4.08, the language has built-in
-[binding operators](https://v2.ocaml.org/api/compilerlibref/Ast_helper.Exp.html)
+[binding operators](https://v2.ocaml.org/manual/bindingops.html)
 (`let*`, `and*`, `let+`, `and+`) that cover the basic use cases of `ppx_let`
 without needing a preprocessor. If you're not using Jane Street's ecosystem,
 binding operators are probably the simpler choice. `ppx_let` still offers extra
@@ -401,10 +401,6 @@ uppercase at compile time. Here's the complete implementation using
 ```ocaml
 (* ppx_upcase.ml *)
 open Ppxlib
-
-let expand ~ctxt:_ ~loc ~path:_ (s : string) =
-  let uppercased = String.uppercase_ascii s in
-  Ast_builder.Default.estring ~loc uppercased
 
 let extension =
   Extension.V3.declare
@@ -473,10 +469,10 @@ staring at a confusing type error, you can inspect what the PPX actually
 generated:
 
 ```shell
-# Show the preprocessed output for a file
-ocamlfind ppx_deriving/ppx_deriving src/myfile.ml
+# Show the preprocessed output for a file (dune 3.x+)
+dune describe pp src/myfile.ml
 
-# With dune, use the .pp.ml target
+# Alternatively, build the .pp.ml target and inspect it directly
 dune build src/.mylib.pp/myfile.pp.ml
 cat _build/default/src/.mylib.pp/myfile.pp.ml
 
