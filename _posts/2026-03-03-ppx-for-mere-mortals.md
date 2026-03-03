@@ -307,6 +307,28 @@ The attributes here are quite handy -- `[@default 8080]` provides a default
 value during deserialization, and `[@sexp.bool]` means the field is represented
 as a present/absent atom rather than `(debug true)`.
 
+### ppx_fields_conv and ppx_variants_conv -- Accessor Generation
+
+Two more Jane Street PPXs that you'll see a lot in Core-based codebases.
+[ppx_fields_conv](https://github.com/janestreet/ppx_fields_conv) generates
+first-class accessors and iterators for record fields:
+
+```ocaml
+type person = {
+  name : string;
+  age  : int;
+} [@@deriving fields]
+
+(* Generates field accessors, a fold over all fields, iter, map, etc. *)
+let () = Fields.iter
+  ~name:(fun name -> Printf.printf "name: %s\n" name)
+  ~age:(fun age -> Printf.printf "age: %d\n" age)
+```
+
+[ppx_variants_conv](https://github.com/janestreet/ppx_variants_conv) does
+something similar for variant types -- generating constructors as functions,
+fold/iter over all variants, and more.
+
 ### ppx_inline_test and ppx_expect -- Testing
 
 These Jane Street PPXs let you write tests directly in your source files:
@@ -352,6 +374,15 @@ let result =
   let%bind user = fetch_user id in
   let%bind posts = fetch_posts user in
   return (user, posts)
+```
+
+How does `ppx_let` know which `bind` to call? It looks for a `Let_syntax`
+module in scope that provides the underlying `bind` and `map` functions. In
+practice, you'll typically open a module that defines `Let_syntax` before
+using `let%bind`:
+
+```ocaml
+open Lwt.Syntax  (* or Deferred.Let_syntax, etc. *)
 ```
 
 **Note:** Since OCaml 4.08, the language has built-in
