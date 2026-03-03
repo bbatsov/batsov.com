@@ -73,9 +73,11 @@ me as an unreasonable (but powerful) Emacs wielding fanatic!
 * [rubocop-emacs](https://github.com/bbatsov/rubocop-emacs)
 * [Zenburn theme for Emacs](https://github.com/bbatsov/zenburn-emacs)
 * [Solarized theme for Emacs](https://github.com/bbatsov/solarized-emacs)
-* [adoc-mode](https://github.com/emacsorphanage/adoc-mode)
+* [adoc-mode](https://github.com/bbatsov/adoc-mode)
+* [asciidoc-mode](https://github.com/bbatsov/asciidoc-mode) (an alternative to `adoc-mode`, powered by TreeSitter)
 * [Flycheck](https://github.com/flycheck/flycheck)
 * [Flycheck OCaml](https://github.com/flycheck/flycheck-ocaml)
+* [Neocaml](https://github.com/bbatsov/neocaml) (OCaml support for Emacs, powered by TreeSitter)
 
 You can find my personal Emacs configuration [here](https://github.com/bbatsov/emacs.d/).
 
