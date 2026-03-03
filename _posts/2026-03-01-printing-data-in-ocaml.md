@@ -1,6 +1,6 @@
 ---
 title: 'Learning OCaml: Printing Data Structures'
-date: 2025-07-19 18:00:00 +0300
+date: 2026-03-01 18:00:00 +0200
 tags:
 - OCaml
 - Learning OCaml
