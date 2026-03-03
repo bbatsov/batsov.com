@@ -38,7 +38,8 @@ can't do things like "iterate over all fields of a record at runtime" or
 available at runtime -- it's erased during compilation.
 
 PPX solves this by generating code at **compile time**. When the OCaml compiler
-parses your source code, it builds an Abstract Syntax Tree (AST). PPX rewriters
+parses your source code, it builds an Abstract Syntax Tree (AST) -- a tree data
+structure that represents the syntactic structure of your program. PPX rewriters
 are programs that receive this AST, transform it, and return a modified AST back
 to the compiler. The compiler then continues as if you had written the generated
 code by hand.
@@ -55,12 +56,12 @@ The PPX rewriter generates something like this behind the scenes:
 ```ocaml
 type color = Red | Green | Blue
 
-let pp_color fmt = function
+let pp_color fmt = function    (* uses OCaml's Format module for pretty-printing *)
   | Red -> Format.fprintf fmt "Red"
   | Green -> Format.fprintf fmt "Green"
   | Blue -> Format.fprintf fmt "Blue"
 
-let show_color x = Format.asprintf "%a" pp_color x
+let show_color x = Format.asprintf "%a" pp_color x  (* returns the formatted string *)
 ```
 
 You get a pretty-printer for free, derived from the type definition. No
@@ -288,6 +289,9 @@ serializers by hand for complex types is tedious and error-prone.
 
 If you're using Jane Street's [Core](https://github.com/janestreet/core)
 library, you'll encounter S-expression serialization everywhere.
+(**Tip:** Jane Street bundles most of their PPXs into a single
+[ppx_jane](https://github.com/janestreet/ppx_jane) package, so you can add
+just `ppx_jane` to your `pps` instead of listing each one individually.)
 [ppx_sexp_conv](https://github.com/janestreet/ppx_sexp_conv) generates
 converters between OCaml types and S-expressions:
 
