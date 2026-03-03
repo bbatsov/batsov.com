@@ -589,6 +589,10 @@ Rubyists in pretty much every language community.
 
 ## Epilogue
 
+This article turned out to be a beast! I've wanted to write something on the subject
+for quite a while now, but I've kept postponing it because I was too lazy to do
+all the necessary research. I'll feel quite relieved to put it behind me!
+
 PPX might look intimidating at first -- all those brackets and `@` symbols can
 feel like line noise. But the core idea is simple: PPX generates boilerplate
 code from your type definitions at compile time. You annotate your types with
