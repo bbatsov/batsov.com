@@ -579,11 +579,13 @@ Here are some of the best resources I've found on PPX:
 - [A Guide to Extension Points in
   OCaml](https://whitequark.org/blog/2014/04/16/a-guide-to-extension-points-in-ocaml/)
   -- Whitequark's original 2014 guide that introduced many developers to PPX.
-  Historically interesting as a snapshot of the early PPX days. I was amused
-  to see whitequark's name pop up here -- we collaborated quite a bit back in
-  the day on her Ruby [parser](https://github.com/whitequark/parser) project,
-  which was instrumental to [RuboCop](https://github.com/rubocop/rubocop).
-  Seems you can find (former) Rubyists in pretty much every language community.
+  Historically interesting as a snapshot of the early PPX days.
+
+I was amused to see whitequark's name pop up while I was doing research for
+this article -- we collaborated quite a bit back in the day on her Ruby
+[parser](https://github.com/whitequark/parser) project, which was instrumental
+to [RuboCop](https://github.com/rubocop/rubocop). Seems you can find (former)
+Rubyists in pretty much every language community.
 
 ## Epilogue
 
