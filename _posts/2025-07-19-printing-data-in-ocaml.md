@@ -1,135 +1,160 @@
 ---
-title: "Printing Data Structures in OCaml"
+title: 'Learning OCaml: Printing Data Structures'
 date: 2025-07-19 18:00:00 +0300
 tags:
 - OCaml
 - Learning OCaml
 ---
 
-One of the first things developers want to do in any language is print out the value of a variable. In languages with dynamic typing or extensive reflection, this is often a trivial, built-in operation. In OCaml, the story is a bit different. Its strong, static type system requires you to be explicit about how to turn a data structure into a string representation. There is no universal `print` or `console.log` that works on any type.
+If there's one thing that frustrated me early on in my OCaml journey, it was
+printing stuff. In Ruby I can `p` anything and get a useful representation.
+In Clojure, `prn` just works on every data structure. In OCaml? There's no
+generic `print` that works on any type -- the type information is erased at
+runtime, so the language simply doesn't know how to stringify an arbitrary
+value.
 
-While this might seem like a limitation, it's a direct consequence of OCaml's design philosophy: be explicit and type-safe. The good news is that the community has developed powerful tools to make this process painless. Let's explore the common approaches.
+This means you need to be explicit about how to print every type you define.
+That sounds tedious (and it can be), but the community has developed tools
+that make it mostly painless. Let me walk you through the common approaches.
 
-For our examples, we'll use the `person` record from my previous post and a simple list of integers.
+<!--more-->
+
+## Printing Built-in Types
+
+For basic types, OCaml provides dedicated print functions in `Stdlib`:
+
+```ocaml
+print_int 42;;
+print_float 3.14;;
+print_string "hello";;
+print_endline "hello with newline";;
+print_char 'x';;
+print_newline ();;
+```
+
+And of course there's `Printf.printf` for formatted output:
+
+```ocaml
+Printf.printf "Name: %s, Age: %d, Score: %.2f\n" "Alice" 30 95.5;;
+```
+
+This is all straightforward. The trouble starts when you want to print your own types.
+
+## Writing Manual Printers
+
+The most basic approach is to write a dedicated print function for each type.
+Let's say we have a `person` record:
 
 ```ocaml
 type person = {
-  name: string;
-  age: int;
-  is_developer: bool;
+  name : string;
+  age : int;
+  is_developer : bool;
 }
-
-let people = [
-  { name = "Bozhidar Batsov"; age = 42; is_developer = true };
-  { name = "Jane Doe"; age = 34; is_developer = false };
-]
 ```
 
-### Approach 1: Manual Printer Functions
-
-The most fundamental approach is to write a dedicated function to print your data structure. This gives you complete control over the output format.
-
-For our `person` record, the function would look like this:
+We'd write something like:
 
 ```ocaml
 let print_person p =
-  Printf.printf
-    "{ name = \"%s\"; age = %d; is_developer = %b }"
+  Printf.printf "{ name = %S; age = %d; is_developer = %b }"
+    p.name p.age p.is_developer
+
+let show_person p =
+  Printf.sprintf "{ name = %S; age = %d; is_developer = %b }"
     p.name p.age p.is_developer
 ```
 
-Here, we use the `Printf` module to create a formatted string. For a list, you typically combine a printer for the element type with `List.iter`.
+For lists, you'd typically combine an element printer with `List.iter`:
 
 ```ocaml
 let print_int_list lst =
   print_string "[";
-  List.iter (fun i -> Printf.printf "%d; " i) lst;
-  print_string "]"
-
-print_int_list [1; 2; 3]; (* [1; 2; 3; ] *)
-```
-
-To print our list of people, we can compose these two ideas:
-
-```ocaml
-let print_people lst =
-  print_string "[\n";
-  List.iter (fun p ->
-    print_string "  ";
-    print_person p;
-    print_string ";\n"
+  List.iteri (fun i x ->
+    if i > 0 then print_string "; ";
+    print_int x
   ) lst;
   print_string "]"
-
-print_people people;
 ```
 
-**Trade-offs:**
+This works, but it's tedious. Every time you add a field to a record, you
+have to remember to update the printer. And for nested types (say, a list of
+records containing other records) the boilerplate multiplies fast. Coming
+from languages where printing just works out of the box, this feels like
+a lot of ceremony for something that should be trivial.
 
-*   **Pros:** No external dependencies. You have full control over the formatting, which is great for producing user-facing output. It forces you to think about the structure of your data.
-*   **Cons:** It's incredibly verbose. Writing these printers for every new type is tedious and error-prone. If you add a field to your record, you must remember to update the printer, or it will be silently ignored.
+## Automatic Printing with ppx_deriving
 
-### Approach 2: Automatic Derivation with PPX
-
-To eliminate the boilerplate of manual printers, the OCaml community relies on PPX (Preprocessor eXtensions). A PPX is a tool that rewrites the abstract syntax tree (AST) of your code at compile time. We can use this to automatically generate printer functions from our type definitions.
-
-The most popular choice for this is `ppx_deriving_show`.
-
-First, you need to have it installed (`opam install ppx_deriving_show`) and configured in your build system (e.g., Dune).
-
-Once set up, you simply annotate your type definition with `[@@deriving show]`.
+This is where [ppx_deriving](https://github.com/ocaml-ppx/ppx_deriving)
+saves the day. Its `show` plugin generates printer functions automatically
+from your type definitions:
 
 ```ocaml
 type person = {
-  name: string;
-  age: int;
-  is_developer: bool;
+  name : string;
+  age : int;
+  is_developer : bool;
 } [@@deriving show]
 ```
 
-This single line of code does two things:
+That single annotation generates two functions:
 
-1.  It generates a "pretty-printer" function named `pp_person`. This function takes a formatter and a value (e.g., `pp_person Format.std_formatter bbatsov`).
-2.  It generates a `show_person` function that returns the string representation directly (e.g., `show_person bbatsov`).
+- `pp_person : Format.formatter -> person -> unit` -- a pretty-printer for use
+  with OCaml's `Format` module
+- `show_person : person -> string` -- returns the string representation directly
 
-Now, printing is trivial:
+Now printing is trivial:
 
 ```ocaml
-let bbatsov = { name = "Bozhidar Batsov"; age = 42; is_developer = true };;
+let bbatsov = { name = "Bozhidar Batsov"; age = 42; is_developer = true }
 
-print_endline (show_person bbatsov);
-(* Output: { name = "Bozhidar Batsov"; age = 42; is_developer = true } *)
+let () = print_endline (show_person bbatsov)
+(* { name = "Bozhidar Batsov"; age = 42; is_developer = true } *)
 ```
 
-The real power of `ppx_deriving_show` is that it's compositional. It automatically knows how to print lists, options, and other standard types if the element type has a `show` function.
+The generated printers are compositional -- if you have a list of persons
+and the element type derives `show`, everything just works:
 
 ```ocaml
-(* We need to tell the PPX how to show a list of people *)
-(* The generated function will be `show_list` *)
-[@@@deriving show { with_path = false }]
+type person = {
+  name : string;
+  age : int;
+} [@@deriving show]
 
 let people = [
-  { name = "Bozhidar Batsov"; age = 42; is_developer = true };
-  { name = "Jane Doe"; age = 34; is_developer = false };
+  { name = "Bozhidar"; age = 42 };
+  { name = "Jane"; age = 34 };
 ]
 
-print_endline (show_list show_person people);
-(* Output:
-[({ name = "Bozhidar Batsov"; age = 42; is_developer = true });
-  ({ name = "Jane Doe"; age = 34; is_developer = false })]
-*)
+let () = print_endline ([%show: person list] people)
 ```
 
-**Trade-offs:**
+The `[%show: person list]` syntax is really handy -- it lets you derive a
+printer for any type expression inline, without needing a separate type
+declaration.
 
-*   **Pros:** Drastically reduces boilerplate. It's the standard, idiomatic way to make types printable for debugging. It's less error-prone because the printer is always in sync with the type definition.
-*   **Cons:** Adds a dependency on a PPX. It can feel a bit like "magic" if you're not familiar with how PPXs work. The default output format is generic and may not be what you want for user-facing text.
+To use `ppx_deriving` in your project, add it to your `dune` file:
 
-### Conclusion
+```dune
+(library
+ (name mylib)
+ (preprocess (pps ppx_deriving.show)))
+```
 
-So, which approach should you use?
+I slap `[@@deriving show]` on pretty much every type I define these days.
+The small compile-time cost is well worth the debugging convenience. If you
+want to learn more about PPX in general, I wrote a [longer
+article]({% post_url 2026-03-03-ppx-for-mere-mortals %}) about it.
 
-*   For **debugging and development**, `ppx_deriving_show` is the undisputed winner. The time and effort it saves are immense, and it has become a standard part of any modern OCaml workflow.
-*   For **final, user-facing output**, a manual printer is often the better choice. It gives you the precise control needed to format the output exactly as you want it, without the syntactic noise of the derived printers.
+## Which Approach to Use?
 
-OCaml's explicitness is a feature, not a bug. By forcing you to define how to print your types, it maintains type safety and clarity. And with tools like PPX, you get the best of both worlds: safety and convenience.
+For debugging and development, `[@@deriving show]` is the obvious winner.
+It's become such a standard part of my OCaml workflow that I barely think
+about it anymore.
+
+For user-facing output (error messages, CLI formatting, log lines), you'll
+still want manual formatting with `Printf.sprintf` or `Format.asprintf`.
+The derived printers produce a generic representation that's great for
+debugging but not something you'd want to show end users.
+
+That's all I have for you today. Keep hacking!
