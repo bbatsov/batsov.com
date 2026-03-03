@@ -1,27 +1,32 @@
 ---
-layout: post
-title: "Working with OCaml Records"
-date: 2025-07-19 11:30:00 +0300
-categories: ocaml programming fsharp rust
+title: 'Learning OCaml: Working with Records'
+date: 2026-03-01 11:30:00 +0200
+tags:
+- OCaml
+- Learning OCaml
 ---
 
-Records are one of the most common and useful composite types in programming. They are equivalent to `struct`s in many C-family languages and provide a way to group named fields together into a single unit. In OCaml, records are simple, efficient, and immutable by default, which fits perfectly with the functional paradigm.
+Records are one of those things that look almost identical across ML-family
+languages, so I didn't expect many surprises when I started using them in
+OCaml. For the most part I was right -- but there were a few things worth
+noting, especially if you're coming from a language where records/structs
+are mutable by default.
 
-Let's explore how to define and work with them, and then compare OCaml's approach to what you might find in F# and Rust.
+<!--more-->
 
-### Defining and Creating Records
+## Defining and Creating Records
 
-Defining a record in OCaml requires a `type` definition. The fields are listed with their names and types.
+Record definitions in OCaml look pretty much like what you'd expect:
 
 ```ocaml
 type person = {
-  name: string;
-  age: int;
-  is_developer: bool;
+  name : string;
+  age : int;
+  is_developer : bool;
 }
 ```
 
-Once the type is defined, you can create an instance of the record with a simple literal syntax.
+Creating a record is straightforward:
 
 ```ocaml
 let bbatsov = {
@@ -31,114 +36,133 @@ let bbatsov = {
 }
 ```
 
-The type inference in OCaml is excellent, but the compiler must know the type definition of the record you're creating. The field names and types must match the definition exactly.
-
-### Accessing and Updating Records
-
-Accessing a field is done using the familiar dot notation, which is efficient and requires no special syntax.
-
-```ocaml
-print_endline bbatsov.name; (* "Bozhidar Batsov" *)
-```
-
-The more interesting part is updating a record. Since OCaml records are immutable, you cannot change a field in place. Instead, you create a *new* record with one or more fields updated. OCaml provides a clean syntax for this using the `with` keyword.
+Note that you don't specify the type anywhere -- the compiler infers it from
+the field names. This is nice most of the time, but can cause ambiguity if two
+record types in scope share a field name. In that case the compiler picks the
+most recently defined type, which might not be what you want. You can
+disambiguate by annotating the type explicitly:
 
 ```ocaml
-let bbatsov_older = { bbatsov with age = 43 }
-```
-
-This expression creates a new `person` record that is a copy of `bbatsov`, but with the `age` field set to `43`. The original `bbatsov` record remains unchanged. This is a powerful feature for maintaining immutability without excessive boilerplate.
-
-### Comparison with F#
-
-F#, another language from the ML family, has a record implementation that is remarkably similar to OCaml's. The syntax for definition and creation is almost identical.
-
-```fsharp
-type Person = {
-  Name: string
-  Age: int
-  IsDeveloper: bool
-}
-
-let bbatsov = {
-  Name = "Bozhidar Batsov"
-  Age = 42
-  IsDeveloper = true
-}
-
-// F# also uses the 'with' keyword for copy-and-update
-let bbatsovOlder = { bbatsov with Age = 43 }
-
-printfn "%s" bbatsovOlder.Name // "Bozhidar Batsov"
-printfn "%d" bbatsovOlder.Age   // 43
-```
-
-The core concepts are the same: immutable by default, with a dedicated syntax for non-destructive updates. This shared heritage makes it easy to switch between the two languages for this particular feature.
-
-### Comparison with Rust
-
-Rust also has `struct`s, which serve the same purpose. However, Rust's philosophy on mutability is different and more explicit.
-
-In Rust, a `struct` is defined similarly:
-
-```rust
-struct Person {
-    name: String,
-    age: u32,
-    is_developer: bool,
+let bbatsov : person = {
+  name = "Bozhidar Batsov";
+  age = 42;
+  is_developer = true;
 }
 ```
 
-Mutability in Rust is a property of the *binding*, not the type. If you want to mutate a struct, you must declare its binding with `mut`.
+## Accessing Fields
 
-```rust
-let mut bbatsov = Person {
-    name: String::from("Bozhidar Batsov"),
-    age: 42,
-    is_developer: true,
-};
-
-// Direct mutation is allowed if the binding is mutable
-bbatsov.age = 43;
-```
-
-However, Rust also provides a way to perform functional-style updates, similar to OCaml's `with`. This is done with the `..` struct update syntax.
-
-```rust
-let bbatsov = Person {
-    name: String::from("Bozhidar Batsov"),
-    age: 42,
-    is_developer: true,
-};
-
-// Create a new struct based on the old one
-let bbatsov_older = Person {
-    age: 43,
-    ..bbatsov
-};
-```
-
-This creates a new `Person` instance, moving the values from `bbatsov` for the fields that were not explicitly specified (`name` and `is_developer` in this case). This is a powerful feature that gives Rust developers the flexibility to choose between direct mutation and a more functional, immutable style.
-
-### Pattern Matching
-
-Like other data types in OCaml, records have first-class support for pattern matching, which is useful for deconstructing them.
+Field access uses the usual dot notation:
 
 ```ocaml
-let describe_person person =
-  match person with
-  | { name; age; is_developer = true } ->
-    Printf.printf "%s is a %d-year-old developer.
-" name age
-  | { name; age; is_developer = false } ->
-    Printf.printf "%s is a %d-year-old non-developer.
-" name age
-
-describe_person bbatsov_older;
+let name = bbatsov.name       (* "Bozhidar Batsov" *)
+let age = bbatsov.age         (* 42 *)
 ```
 
-This allows you to bind record fields to local variables directly in the pattern, leading to concise and readable code.
+Nothing surprising here.
 
-### Final Thoughts
+## Functional Updates
 
-OCaml records are a simple and effective tool. Their immutability-by-default nature, combined with the convenient `with` syntax for updates, makes them a great fit for writing safe, predictable functional code. The parallels with F# and the interesting contrasts with Rust's approach highlight the different ways languages can tackle the same fundamental problem of data aggregation.
+Records are immutable by default in OCaml. You can't modify a field in
+place -- instead, you create a new record with some fields changed using the
+`with` keyword:
+
+```ocaml
+let older_bbatsov = { bbatsov with age = 43 }
+```
+
+This creates a new `person` record that's a copy of `bbatsov` with only
+`age` changed. The original is untouched. If you've used Haskell's record
+update syntax or Erlang's map update syntax, this will feel familiar.
+
+You can update multiple fields at once:
+
+```ocaml
+let retired_bbatsov = { bbatsov with age = 65; is_developer = false }
+```
+
+## Mutable Fields
+
+While records are immutable by default, OCaml does let you mark individual
+fields as `mutable`:
+
+```ocaml
+type counter = {
+  name : string;
+  mutable count : int;
+}
+
+let c = { name = "hits"; count = 0 }
+let () = c.count <- c.count + 1   (* count is now 1 *)
+```
+
+I'd use this sparingly -- it's there when you need it for performance or
+interop reasons, but immutable records with functional updates are generally
+the way to go in OCaml.
+
+## Pattern Matching on Records
+
+Like everything in OCaml, records work with pattern matching. You can
+destructure them directly in `match` expressions and function arguments:
+
+```ocaml
+let greet { name; is_developer; _ } =
+  if is_developer then
+    Printf.printf "Hey %s, fellow hacker!\n" name
+  else
+    Printf.printf "Hello %s!\n" name
+```
+
+The `_` in `{ name; is_developer; _ }` tells the compiler you're
+intentionally ignoring the other fields. Without it, you'd get a warning
+about inexhaustive field patterns.
+
+You can also pattern match in `let` bindings:
+
+```ocaml
+let { name; age; _ } = bbatsov in
+Printf.printf "%s is %d years old\n" name age
+```
+
+## A Note on Field Punning
+
+You might have noticed the shorthand in the pattern matching examples above --
+`{ name; is_developer; _ }` instead of `{ name = name; is_developer = is_developer; _ }`.
+This is called "field punning" and it works both in patterns and when constructing
+records:
+
+```ocaml
+let name = "Bozhidar Batsov"
+let age = 42
+let is_developer = true
+
+(* these are equivalent *)
+let p1 = { name = name; age = age; is_developer = is_developer }
+let p2 = { name; age; is_developer }
+```
+
+If you're coming from JavaScript, this is the same idea as ES6's shorthand
+property names in object literals.
+
+## Printing Records
+
+One thing that will probably frustrate you early on is that you can't just
+print a record. There's no generic `print` in OCaml that works on any type.
+The easiest solution is to derive a printer automatically using
+`ppx_deriving`:
+
+```ocaml
+type person = {
+  name : string;
+  age : int;
+  is_developer : bool;
+} [@@deriving show]
+
+let () = print_endline (show_person bbatsov)
+(* { name = "Bozhidar Batsov"; age = 42; is_developer = true } *)
+```
+
+I wrote more about this in my article on
+[printing data structures]({% post_url 2026-03-01-printing-data-in-ocaml %}).
+
+That's all I have for you today. Keep hacking!
