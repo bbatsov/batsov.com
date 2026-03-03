@@ -552,11 +552,13 @@ release. If you're writing a new PPX today, use `Ast_builder` exclusively.
 Meanwhile, OCaml 4.08's built-in binding operators (`let*`, `let+`, etc.) have
 reduced the need for `ppx_let` in projects that don't use Jane Street's
 ecosystem. It's a nice example of the language absorbing a pattern that PPX
-pioneered.
+pioneered. Perhaps one day we'll see more of this (e.g. native string interpolation).
 
 ## Further Reading
 
-The best resources I've found on PPX:
+This article covers a lot of ground, but the PPX topic is pretty deep and complex,
+so depending on how far you want to go you might want to read more on it.
+Here are some of the best resources I've found on PPX:
 
 - [Preprocessors and PPXs](https://ocaml.org/docs/metaprogramming) -- the
   official OCaml documentation on metaprogramming. A solid reference, though
@@ -577,7 +579,11 @@ The best resources I've found on PPX:
 - [A Guide to Extension Points in
   OCaml](https://whitequark.org/blog/2014/04/16/a-guide-to-extension-points-in-ocaml/)
   -- Whitequark's original 2014 guide that introduced many developers to PPX.
-  Historically interesting as a snapshot of the early PPX days.
+  Historically interesting as a snapshot of the early PPX days. I was amused
+  to see whitequark's name pop up here -- we collaborated quite a bit back in
+  the day on her Ruby [parser](https://github.com/whitequark/parser) project,
+  which was instrumental to [RuboCop](https://github.com/rubocop/rubocop).
+  Seems you can find (former) Rubyists in pretty much every language community.
 
 ## Epilogue
 
