@@ -1,5 +1,5 @@
 ---
-title: 'Building Emacs Major Modes with TreeSitter: Lessons Learned'
+title: 'Building Emacs Major Modes with Tree-sitter: Lessons Learned'
 date: 2026-02-27 10:00 +0200
 tags:
 - Emacs
@@ -8,19 +8,19 @@ tags:
 - AsciiDoc
 ---
 
-Over the past year I've been spending a lot of time building TreeSitter-powered
+Over the past year I've been spending a lot of time building [Tree-sitter](https://tree-sitter.github.io/tree-sitter/)-powered
 major modes for Emacs -- [clojure-ts-mode](https://github.com/clojure-emacs/clojure-ts-mode)
 (as co-maintainer), [neocaml](https://github.com/bbatsov/neocaml) (from scratch),
 and [asciidoc-mode](https://github.com/bbatsov/asciidoc-mode) (also from scratch).
 Between the three projects I've accumulated enough battle scars to write about the
 experience. This post distills the key lessons for anyone thinking about writing
-a TreeSitter-based major mode, or curious about what it's actually like.
+a Tree-sitter-based major mode, or curious about what it's actually like.
 
 <!--more-->
 
-## Why TreeSitter?
+## Why Tree-sitter?
 
-Before TreeSitter, Emacs font-locking was done with regular expressions and
+Before Tree-sitter, Emacs font-locking was done with regular expressions and
 indentation was handled by ad-hoc engines (SMIE, custom indent functions, or
 pure regex heuristics). This works, but it has well-known problems:
 
@@ -29,12 +29,12 @@ pure regex heuristics). This works, but it has well-known problems:
   inside strings and comments). Every edge case is another regex, and the patterns
   become increasingly unreadable over time.
 
-- **Indentation engines are complex.** SMIE (the generic indentation engine for non-TreeSitter modes) requires defining operator
+- **Indentation engines are complex.** SMIE (the generic indentation engine for non-Tree-sitter modes) requires defining operator
   precedence grammars for the language, which is hard to get right. Custom
   indentation functions tend to grow into large, brittle state machines. Tuareg's
   indentation code, for example, is thousands of lines long.
 
-TreeSitter changes the game because you get a **full, incremental, error-tolerant
+Tree-sitter changes the game because you get a **full, incremental, error-tolerant
 syntax tree** for free. Font-locking becomes "match this AST pattern, apply this
 face":
 
@@ -61,11 +61,11 @@ edge cases correctly**.
 
 ## Challenges
 
-That said, TreeSitter in Emacs is not a silver bullet. Here's what I ran into.
+That said, Tree-sitter in Emacs is not a silver bullet. Here's what I ran into.
 
 ### Every grammar is different
 
-TreeSitter grammars are written by different authors with different philosophies.
+Tree-sitter grammars are written by different authors with different philosophies.
 The [tree-sitter-ocaml](https://github.com/tree-sitter/tree-sitter-ocaml)
 grammar provides a rich, detailed AST with named fields. The
 [tree-sitter-clojure](https://github.com/sogaiu/tree-sitter-clojure) grammar,
@@ -94,7 +94,7 @@ symbols and you need predicate matching:
  (:match ,clojure-ts--definition-keyword-regexp @font-lock-keyword-face))
 ```
 
-You can't learn "how to write TreeSitter queries" generically -- you need to
+You can't learn "how to write Tree-sitter queries" generically -- you need to
 learn each grammar individually. The best tool for this is `treesit-explore-mode`
 (to visualize the full parse tree) and `treesit-inspect-mode` (to see the node
 at point). Use them constantly.
@@ -195,12 +195,12 @@ On first use, the mode checks `treesit-language-available-p` and offers to insta
 missing grammars via `treesit-install-language-grammar`. This works, but requires
 a C compiler and Git on the user's machine, which is not ideal.[^2]
 
-### The Emacs TreeSitter APIs are a moving target
+### The Emacs Tree-sitter APIs are a moving target
 
-The TreeSitter support in Emacs has been improving steadily, but each version
+The Tree-sitter support in Emacs has been improving steadily, but each version
 has its quirks:
 
-**Emacs 29** introduced TreeSitter support but lacked several APIs. For instance,
+**Emacs 29** introduced Tree-sitter support but lacked several APIs. For instance,
 `treesit-thing-settings` (used for structured navigation) doesn't exist -- you
 need a fallback:
 
@@ -214,7 +214,7 @@ need a fallback:
 indentation support. But it also had a bug in `treesit-range-settings` offsets
 ([#77848](https://debbugs.gnu.org/cgi/bugreport.cgi?bug=77848)) that broke
 embedded parsers, and another in `treesit-transpose-sexps` that required
-`clojure-ts-mode` to disable its TreeSitter-aware version.
+`clojure-ts-mode` to disable its Tree-sitter-aware version.
 
 **Emacs 31** has a bug in `treesit-forward-comment` where an off-by-one error
 causes `uncomment-region` to leave ` *)` behind on multi-line OCaml comments. I
@@ -232,7 +232,7 @@ snapshot is essential.
 
 ### No .scm file support (yet)
 
-Most TreeSitter grammars ship with `.scm` query files for syntax highlighting
+Most Tree-sitter grammars ship with `.scm` query files for syntax highlighting
 (`highlights.scm`) and indentation (`indents.scm`). Editors like Neovim and
 Helix use these directly. Emacs doesn't -- you have to manually translate the
 `.scm` patterns into `treesit-font-lock-rules` and `treesit-simple-indent-rules`
@@ -283,7 +283,7 @@ When a face isn't being applied where you expect:
 
 ### Use the font-lock levels wisely
 
-TreeSitter modes define four levels of font-locking via
+Tree-sitter modes define four levels of font-locking via
 `treesit-font-lock-feature-list`, and the default level in Emacs is 3. It's
 tempting to pile everything into levels 1--3 so users see maximum highlighting
 out of the box, but resist the urge. When every token on the screen has a
@@ -355,7 +355,7 @@ rule ordering, and anchor resolution:
    ```
 
 4. Watch out for the **empty-line problem**: when the cursor is on a blank line,
-   TreeSitter has no node at point. The indentation engine falls back to the root
+   Tree-sitter has no node at point. The indentation engine falls back to the root
    `compilation_unit` node as the parent, which typically matches the top-level
    rule and gives column 0. In neocaml I solved this with a `no-node` rule that
    looks at the previous line's last token to decide indentation:
@@ -410,7 +410,7 @@ on a testing approach I was happy with, alongside many great contributors, and
 the return on investment was massive.
 
 The same approach -- almost the same test macros -- carried over directly to
-`clojure-ts-mode` when we built the TreeSitter version. And later I reused the
+`clojure-ts-mode` when we built the Tree-sitter version. And later I reused the
 pattern again in `neocaml` and `asciidoc-mode`. One investment in testing
 infrastructure, four projects benefiting from it.
 
@@ -423,7 +423,7 @@ after.
 ### Pre-compile queries
 
 This one is specific to `clojure-ts-mode` but applies broadly: compiling
-TreeSitter queries at runtime is expensive. If you're building queries
+Tree-sitter queries at runtime is expensive. If you're building queries
 dynamically (e.g. with `treesit-font-lock-rules` called at mode init time),
 consider pre-compiling them as `defconst` values. This made a noticeable
 difference in `clojure-ts-mode`'s startup time.
@@ -431,8 +431,8 @@ difference in `clojure-ts-mode`'s startup time.
 ## A note on naming
 
 The Emacs community has settled on a `-ts-mode` suffix convention for
-TreeSitter-based modes: `python-ts-mode`, `c-ts-mode`, `ruby-ts-mode`, and so
-on. This makes sense when both a legacy mode and a TreeSitter mode coexist in
+Tree-sitter-based modes: `python-ts-mode`, `c-ts-mode`, `ruby-ts-mode`, and so
+on. This makes sense when both a legacy mode and a Tree-sitter mode coexist in
 Emacs core -- users need to choose between them. But I think the convention is
 being applied too broadly, and I'm afraid the resulting name fragmentation will
 haunt the community for years.
@@ -442,7 +442,7 @@ unnecessary. I named my packages `neocaml` (not `ocaml-ts-mode`) and
 `asciidoc-mode` (not `adoc-ts-mode`) because there was no prior `neocaml-mode`
 or `asciidoc-mode` to disambiguate from. The `-ts-` infix is an implementation
 detail that shouldn't leak into the user-facing name. Will we rename everything
-again when TreeSitter becomes the default and the non-TS variants are removed?
+again when Tree-sitter becomes the default and the non-TS variants are removed?
 
 Be bolder with naming. If you're building something new, give it a name that
 makes sense on its own merits, not one that encodes the parsing technology in the
@@ -450,15 +450,15 @@ package name.
 
 ## The road ahead
 
-I think the full transition to TreeSitter in the Emacs community will take
+I think the full transition to Tree-sitter in the Emacs community will take
 3--5 years, optimistically. There are hundreds of major modes out there, many
 maintained by a single person in their spare time. Converting a mode from regex
-to TreeSitter isn't just a mechanical translation -- you need to understand the
+to Tree-sitter isn't just a mechanical translation -- you need to understand the
 grammar, rewrite font-lock and indentation rules, handle version compatibility,
 and build a new test suite. That's a lot of work.
 
 Interestingly, this might be one area where agentic coding tools can genuinely
-help. The structure of TreeSitter-based major modes is fairly uniform: grammar
+help. The structure of Tree-sitter-based major modes is fairly uniform: grammar
 recipes, font-lock rules, indentation rules, navigation settings, imenu. If you
 give an AI agent a grammar and a reference to a high-quality mode like
 `clojure-ts-mode`, it could probably scaffold a reasonable new mode fairly
@@ -468,13 +468,13 @@ could be automated.
 
 Still, knowing the Emacs community, I wouldn't be surprised if a full migration
 never actually completes. Many old-school modes work perfectly fine, their
-maintainers have no interest in TreeSitter, and "if it ain't broke, don't fix
+maintainers have no interest in Tree-sitter, and "if it ain't broke, don't fix
 it" is a powerful force. And that's okay -- diversity of approaches is part of
 what makes Emacs Emacs.
 
 ## Closing thoughts
 
-TreeSitter is genuinely great for building Emacs major modes. The code is
+Tree-sitter is genuinely great for building Emacs major modes. The code is
 simpler, the results are more accurate, and incremental parsing means everything
 stays fast even on large files. I wouldn't go back to regex-based font-locking
 willingly.
@@ -485,7 +485,7 @@ version-specific bugs that require tedious workarounds. The testing story is
 better than with regex modes -- tree structures are more predictable than regex
 matches -- but you still need a solid test suite to avoid regressions.
 
-If you're thinking about writing a TreeSitter-based major mode, do it. The
+If you're thinking about writing a Tree-sitter-based major mode, do it. The
 ecosystem needs more of them, and the experience of working with syntax trees
 instead of regexes is genuinely enjoyable. Just go in with realistic
 expectations, pin your grammar versions, test against multiple Emacs releases,
@@ -494,7 +494,7 @@ and build your test suite early.
 Anyways, I wish there was an article like this one when I was starting out
 with `clojure-ts-mode` and `neocaml`, so there you have it. I hope that
 the lessons I've learned along the way will help build better modes
-with TreeSitter down the road.
+with Tree-sitter down the road.
 
 That's all I have for you today. Keep hacking!
 
