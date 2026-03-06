@@ -12,7 +12,7 @@ Over the past year I've been spending a lot of time building [Tree-sitter](https
 major modes for Emacs -- [clojure-ts-mode](https://github.com/clojure-emacs/clojure-ts-mode)
 (as co-maintainer), [neocaml](https://github.com/bbatsov/neocaml) (from scratch),
 and [asciidoc-mode](https://github.com/bbatsov/asciidoc-mode) (also from scratch).
-Between the three projects I've accumulated enough battle scars to write about the
+Between the three projects I've accumulated enough knowledge (and battle scars) to write about the
 experience. This post distills the key lessons for anyone thinking about writing
 a Tree-sitter-based major mode, or curious about what it's actually like.
 
@@ -217,7 +217,7 @@ embedded parsers, and another in `treesit-transpose-sexps` that required
 `clojure-ts-mode` to disable its Tree-sitter-aware version.
 
 **Emacs 31** has a bug in `treesit-forward-comment` where an off-by-one error
-causes `uncomment-region` to leave ` *)` behind on multi-line OCaml comments. I
+causes `uncomment-region` to leave `*)` behind on multi-line OCaml comments. I
 had to skip the affected test with a version check:
 
 ```emacs-lisp
