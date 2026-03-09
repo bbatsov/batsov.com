@@ -176,7 +176,7 @@ impressive AI integrations:
   assistant with inline diff application
 - [agent-shell](https://github.com/xenodium/agent-shell) -- a native Emacs
   buffer for interacting with LLM agents (Claude Code, Gemini CLI, etc.)
-  via the Agent Client Protocol
+  via the [Agent Client Protocol](https://agentclientprotocol.org/)
 
 **Neovim:**
 
