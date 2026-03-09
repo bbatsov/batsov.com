@@ -325,12 +325,12 @@ concerns that are going to be debated for a long time:
   programming community, and it's especially pointed for editors whose identity
   is built around empowering *human* programmers.
 
-These concerns are already producing concrete action. The Vim community
-recently saw the creation of [EVi](https://codeberg.org/NerdNextDoor/evi), a
-fork of Vim whose entire raison d'etre is to provide a text editor free from
-AI integration. Whether you agree with the premise or not, the fact that
-people are forking established editors over this tells you how strongly some
-community members feel.
+These concerns are already producing concrete action. The Vim community recently
+saw the creation of [EVi](https://codeberg.org/NerdNextDoor/evi), a fork of Vim
+whose entire raison d'etre is to provide a text editor free from AI-assisted
+(generated?) code contributions.[^5] Whether you agree with the premise or not, the
+fact that people are forking established editors over this tells you how
+strongly some community members feel.
 
 I don't think these concerns should stop anyone from exploring AI tools, but
 they're real and worth taking seriously. I expect to see plenty of spirited
@@ -375,3 +375,4 @@ That's all I have for you today. Keep hacking!
 [^2]: Not to mention you'll probably have to put in several years in Emacs before you're actually more productive than you were with your old editor/IDE of choice.
 [^3]: At least some of the time. Admittedly I usually use Emacs in GUI mode, but I always use (Neo)vim in the terminal.
 [^4]: Even Claude Code has vim mode.
+[^5]: See <https://codeberg.org/NerdNextDoor/evi/issues/1>.
