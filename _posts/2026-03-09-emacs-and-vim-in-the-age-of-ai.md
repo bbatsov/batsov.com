@@ -5,6 +5,7 @@ tags:
 - Emacs
 - Vim
 - AI
+pin: true
 ---
 
 > It's tough to make predictions, especially about the future.
