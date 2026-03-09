@@ -7,6 +7,10 @@ tags:
 - AI
 ---
 
+> It's tough to make predictions, especially about the future.
+>
+> -- Yogi Berra
+
 I've been an Emacs fanatic for over 20 years. I've built and maintained some of
 the most popular Emacs packages, contributed to Emacs itself, and spent
 countless hours tweaking my configuration. Emacs isn't just my editor -- it's
@@ -325,6 +329,10 @@ ahead.
 
 ## Closing Thoughts
 
+> The future ain't what it used to be.
+>
+> -- Yogi Berra
+
 I won't pretend I'm not worried. The AI wave is moving fast, the incumbents
 have massive advantages in funding and mindshare, and the very nature of
 programming is shifting under our feet. It's entirely possible that Emacs and
@@ -347,6 +355,9 @@ either. Learn the new AI tools (if you're not fundamentally opposed to them,
 that is). Pimp your setup and make it awesome. Write about your
 workflows. Help newcomers. The best way to ensure your editor survives the AI
 age is to make it thrive in it.
+
+Maybe the future ain't what it used to be -- but that's not necessarily a bad
+thing.
 
 That's all I have for you today. Keep hacking!
 
