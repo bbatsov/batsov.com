@@ -247,6 +247,15 @@ I don't really need any AI assistance to troubleshoot anything in my Emacs setup
 but it's been handy occasionally in Neovim-land, where my knowledge is
 relatively modest by comparison.
 
+> There's at least one documented case of someone
+> [returning to Emacs after years away](https://www.reddit.com/r/emacs/comments/1ri5g5e/back_home_at_last_thanks_to_claude_code/),
+> specifically because Claude Code made it painless to fix configuration issues.
+> They'd left for IntelliJ because the configuration burden got too annoying --
+> and came back once AI removed that barrier. "Happy f\*cking days I'm home
+> again," as they put it. If AI can bring back lapsed Emacs users, that's a
+> good thing in my book.
+{: .prompt-tip }
+
 ### Even in the post-coding apocalypse, Emacs and Vim survive
 
 Let's revisit the doomsday scenario. Say programming is fully automated and
