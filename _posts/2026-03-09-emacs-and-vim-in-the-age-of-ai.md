@@ -17,7 +17,7 @@ the most popular Emacs packages, contributed to Emacs itself, and spent
 countless hours tweaking my configuration. Emacs isn't just my editor -- it's
 my passion, and my happy place.
 
-Over the past year I've also been spending a lot of time with Vim and Neovim,
+Over the past year, I've also been spending a lot of time with Vim and Neovim,
 relearning them from scratch and having a blast contrasting how the two
 communities approach similar problems. It's been a fun and refreshing
 experience.[^1]
@@ -126,8 +126,8 @@ make it past copying snippets from blog posts and READMEs.
 I felt incredibly overwhelmed by Elisp and VimScript when I was learning Emacs and
 Vim for the first time, and I imagine I wasn't the only one. I started to feel
 very productive in Emacs only after putting in quite a lot of time to actually
-learn Elisp properly. (never bothered to do the same for VimScript, though,
-and admittedly I'm not too eager to master Lua either)
+learn Elisp properly. (Never bothered to do the same for VimScript, though,
+and admittedly I'm not too eager to master Lua either.)
 
 AI changes this overnight. You can now describe what you want in plain English
 and get working Elisp, VimScript, or Lua. "Write me an Emacs function that
@@ -227,7 +227,7 @@ makes this kind of deep, cross-domain integration as natural as Emacs does.
 
 Admittedly, I've stopped using Emacs as my OS a long time ago, and these days
 I use it mostly for programming and blogging. (I'm writing this article in Emacs with
-the help of `markdown-mode`) Still, I'm only one Emacs user and many are probably
+the help of `markdown-mode`.) Still, I'm only one Emacs user and many are probably
 using it in a more holistic manner.
 
 ### AI helps you help yourself
