@@ -38,7 +38,7 @@ can't customize them. Think of them as CLI commands that happen to start with
 set of instructions (a markdown file) into Claude's context, and Claude
 executes them. Skills can spawn subagents, accept arguments, use specific
 tools, and generally orchestrate complex multi-step workflows. The built-in
-skills (`/simplify`, `/batch`, `/loop`, `/debug`, `/claude-api`) are shipped
+skills (`/simplify`, `/review`, `/batch`, `/loop`, `/debug`, `/claude-api`) are shipped
 with Claude Code, but the system is designed for you to create your own as
 well.[^1]
 
@@ -105,11 +105,15 @@ a thorough pull request review.
 
 ```
 /review
+/review 123
+/review https://github.com/org/repo/pull/123
 ```
 
-It examines your recent changes for bugs, logic errors, edge cases, style
-issues, and potential problems that `/simplify` wouldn't catch (because
-`/simplify` is about making code *simpler*, not about finding *bugs*).
+Without arguments, it reviews your recent local changes. Pass a PR number or
+URL and it reviews that pull request instead. It examines the changes for bugs,
+logic errors, edge cases, style issues, and potential problems that `/simplify`
+wouldn't catch (because `/simplify` is about making code *simpler*, not about
+finding *bugs*).
 
 My typical workflow is: make changes, run `/review` to catch issues, fix
 anything it flags, then run `/simplify` to clean things up. The two skills
@@ -311,6 +315,7 @@ variants like `$0`, `$1` for specific arguments). For the built-in skills:
 | Skill | Arguments | Example |
 |-------|-----------|---------|
 | `/simplify` | Optional focus area | `/simplify error handling` |
+| `/review` | Optional: PR number or URL | `/review 123` |
 | `/batch` | Required: change description | `/batch add logging to all API handlers` |
 | `/loop` | Optional interval + required prompt | `/loop 5m check build status` |
 | `/debug` | Optional issue description | `/debug why did the edit fail` |
