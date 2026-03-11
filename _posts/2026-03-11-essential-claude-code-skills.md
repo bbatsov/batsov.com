@@ -192,6 +192,18 @@ new phase of work within the same session.[^2]
 `/diff` opens an interactive diff viewer showing all changes Claude has made.
 This is much better than mentally tracking what changed across multiple files.
 
+A few practical tips:
+
+- **Use it as a checkpoint.** After Claude makes a series of edits, run `/diff`
+  before moving on. It's your chance to catch mistakes before they compound.
+  Much easier to ask Claude to fix something now than three steps later.
+- **Use it before committing.** I always run `/diff` right before asking Claude
+  to commit. It's the equivalent of `git diff --staged` but more convenient --
+  you see exactly what Claude changed, not what you manually staged.
+- **Combine with /rewind.** If `/diff` reveals something you don't like, you
+  can `/rewind` to undo the changes and try a different approach. The two
+  commands pair naturally: review, then decide whether to keep or discard.
+
 ### /btw -- Side Questions
 
 `/btw` lets you ask a side question without affecting the main conversation
@@ -204,10 +216,30 @@ context:
 The answer comes back without polluting your working context -- handy when you
 need a quick lookup mid-task.
 
-### /cost -- Token Usage
+### /rewind -- Undo Changes
 
-`/cost` shows token usage statistics for the current session. Useful for
-keeping an eye on consumption during longer sessions.
+`/rewind` is your safety net. It reverts both the conversation and any file
+changes back to a previous point, effectively letting you say "let's pretend
+that never happened." Claude creates implicit checkpoints as you work, so you
+can step back through them.
+
+This is especially useful when Claude goes down the wrong path -- maybe it
+misunderstood your intent, or the approach it chose isn't working out. Instead
+of manually reverting files and trying to explain what went wrong, just
+`/rewind` and start that part of the conversation fresh with a clearer prompt.
+
+### /cost and /usage -- Keeping Track of Consumption
+
+These two commands are easy to confuse, but they serve different purposes:
+
+- **`/cost`** shows token usage and estimated cost for the **current session**.
+  Use it to gauge how expensive a particular task is turning out to be.
+- **`/usage`** shows your **plan-level** limits and current rate limit status.
+  Use it to check how much of your daily/monthly quota you've consumed and
+  whether you're approaching a rate limit.
+
+In short: `/cost` is "how much did this session cost me?" while `/usage` is
+"how much runway do I have left today?"
 
 ### /context -- Context Visualization
 
