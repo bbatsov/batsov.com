@@ -240,6 +240,13 @@ context:
 The answer comes back without polluting your working context -- handy when you
 need a quick lookup mid-task.
 
+### /copy -- Copy Response Content
+
+`/copy` copies Claude's last response to your clipboard. If the response
+contains multiple code blocks, it opens an interactive picker so you can
+choose which block to copy. Much faster than manually selecting text in the
+terminal.
+
 ### /rewind -- Undo Changes
 
 `/rewind` is your safety net. It reverts both the conversation and any file
@@ -272,6 +279,38 @@ on how you access Claude Code:
 In short: `/usage` is "how much runway do I have left?", `/cost` is "how much
 did this session cost in dollars?" (API only), and `/stats` is "what do my
 usage patterns look like?"
+
+### /model and /fast -- Switching Models
+
+`/model` lets you switch the AI model mid-session. This is handy when you want
+to use a cheaper/faster model for routine tasks and switch to a more capable
+one for complex reasoning:
+
+```
+/model sonnet
+/model opus
+```
+
+`/fast` toggles fast mode, which uses the same model but optimizes for faster
+output. It's a quick way to speed things up when you don't need maximum
+quality:
+
+```
+/fast on
+/fast off
+```
+
+### /memory -- Auto-Memory Management
+
+`/memory` lets you view and edit Claude's persistent memory for the current
+project. Claude automatically saves useful context (project conventions,
+architectural decisions, your preferences) to a `MEMORY.md` file that persists
+across sessions.
+
+Use `/memory` to review what Claude has remembered, correct anything wrong, or
+manually add things you want it to always know about your project. You can also
+explicitly ask Claude to remember something during a conversation, and it'll
+write it to the memory file.
 
 ### /context -- Context Visualization
 
