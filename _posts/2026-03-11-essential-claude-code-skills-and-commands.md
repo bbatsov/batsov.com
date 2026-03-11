@@ -1,5 +1,5 @@
 ---
-title: Essential Claude Code Skills
+title: Essential Claude Code Skills and Commands
 date: 2026-03-11 10:30 +0200
 tags:
 - AI
