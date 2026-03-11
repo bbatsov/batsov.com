@@ -96,6 +96,26 @@ imports, redundant variables, opportunities to extract shared logic, and
 overly complex conditionals. Think of it as a second pass that keeps your
 code from accumulating cruft.
 
+### /review -- Code Review
+
+`/review` is `/simplify`'s sibling, but with a different focus. While
+`/simplify` optimizes code you've already written, `/review` gives you a
+proper code review of your changes -- the kind of feedback you'd expect from
+a thorough pull request review.
+
+```
+/review
+```
+
+It examines your recent changes for bugs, logic errors, edge cases, style
+issues, and potential problems that `/simplify` wouldn't catch (because
+`/simplify` is about making code *simpler*, not about finding *bugs*).
+
+My typical workflow is: make changes, run `/review` to catch issues, fix
+anything it flags, then run `/simplify` to clean things up. The two skills
+complement each other nicely -- `/review` for correctness, `/simplify` for
+cleanliness.
+
 ### /batch -- Large-Scale Parallel Changes
 
 `/batch` is the heavy hitter. It orchestrates large-scale changes across a
