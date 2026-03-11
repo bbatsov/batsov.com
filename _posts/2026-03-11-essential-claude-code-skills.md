@@ -228,18 +228,26 @@ misunderstood your intent, or the approach it chose isn't working out. Instead
 of manually reverting files and trying to explain what went wrong, just
 `/rewind` and start that part of the conversation fresh with a clearer prompt.
 
-### /cost and /usage -- Keeping Track of Consumption
+### /usage, /cost, and /stats -- Keeping Track of Consumption
 
-These two commands are easy to confuse, but they serve different purposes:
+There are three commands for tracking usage, and which ones you'll see depends
+on how you access Claude Code:
 
-- **`/cost`** shows token usage and estimated cost for the **current session**.
-  Use it to gauge how expensive a particular task is turning out to be.
 - **`/usage`** shows your **plan-level** limits and current rate limit status.
   Use it to check how much of your daily/monthly quota you've consumed and
-  whether you're approaching a rate limit.
+  whether you're approaching a rate limit. Available to everyone.
+- **`/cost`** shows token usage and estimated dollar cost for the **current
+  session**. This is only relevant (and visible) if you're using Claude Code
+  via the **API** -- subscription users (Pro/Max) won't see it since tokens
+  are included in the plan.
+- **`/stats`** visualizes daily usage patterns, session history, and model
+  preferences. This is the subscription-friendly alternative to `/cost` --
+  it shows you *how* you're using Claude Code over time rather than what
+  it's costing per session.
 
-In short: `/cost` is "how much did this session cost me?" while `/usage` is
-"how much runway do I have left today?"
+In short: `/usage` is "how much runway do I have left?", `/cost` is "how much
+did this session cost in dollars?" (API only), and `/stats` is "what do my
+usage patterns look like?"
 
 ### /context -- Context Visualization
 
