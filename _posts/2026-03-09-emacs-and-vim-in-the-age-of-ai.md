@@ -30,12 +30,7 @@ coming back to the same question: what happens to my beloved Emacs and its
 "arch nemesis" Vim in this brave new world?
 
 I think the answer is more nuanced than either "they're doomed" or "nothing
-changes". Predicting the future is obviously hard work, but it's so fun
-to speculate on it.
-
-My reasoning is that every major industry shift presents plenty of risks
-and opportunities for those involved in it, so I want to spend a bit of time
-ruminating over the risks and opportunities for Emacs and Vim.
+changes". Predicting the future is hard, but speculating is irresistible.
 
 <!--more-->
 
@@ -72,7 +67,7 @@ learning Emacs or Vim keybindings, isn't writing Elisp, and isn't contributing
 to our ecosystems. The gravity well is real.
 
 > I never tried Cursor and Windsurf simply because they are essentially
-> forks of VS Code and I can't stand VS Code. I tried it several times over
+> forks of VS Code and I can't stand VS Code. I've tried it several times over
 > the years and I never felt productive in it for a variety of reasons.
 {: .prompt-info }
 
@@ -93,6 +88,8 @@ inherent advantage there.
 The learning curve argument gets harder to justify too. "Spend six months
 learning Emacs and you'll be 10x faster" is a tough sell when a junior
 developer with Cursor can scaffold an entire application in an afternoon.[^2]
+Then again, the question of what exactly you're editing may have a more
+interesting answer than it first appears.
 
 ### The corporate backing asymmetry
 
@@ -131,9 +128,36 @@ underestimate.
 
 So let's look at the other side of the coin.
 
+### AI helps you help yourself
+
+One of the most underappreciated benefits of AI for Emacs and Vim users is
+mundane: troubleshooting. Both editors have notoriously steep learning curves
+and opaque error messages. "Wrong type argument: stringp, nil" has driven more
+people away from Emacs than any competitor ever did.
+
+AI tools are remarkably good at explaining cryptic error messages, diagnosing
+configuration issues, and suggesting fixes. They can read your init file and
+spot the problem. They can explain what a piece of Elisp does. They can help
+you understand why your keybinding isn't working. This dramatically flattens
+the learning curve -- not by making the editor simpler, but by giving every
+user access to a patient, knowledgeable guide.
+
+I don't really need any AI assistance to troubleshoot anything in my Emacs setup,
+but it's been handy occasionally in Neovim-land, where my knowledge is
+relatively modest by comparison.
+
+> There's at least one documented case of someone
+> [returning to Emacs after years away](https://www.reddit.com/r/emacs/comments/1ri5g5e/back_home_at_last_thanks_to_claude_code/),
+> specifically because Claude Code made it painless to fix configuration issues.
+> They'd left for IntelliJ because the configuration burden got too annoying --
+> and came back once AI removed that barrier. "Happy f\*cking days I'm home
+> again," as they put it. If AI can bring back lapsed Emacs users, that's a
+> good thing in my book.
+{: .prompt-tip }
+
 ### AI makes configuration and extension trivial
 
-Here's the thing almost nobody is talking about: Emacs and Vim have always
+Here's what almost nobody is talking about: Emacs and Vim have always
 suffered from the obscurity of their extension languages. Emacs Lisp is a
 1980s Lisp dialect that most programmers have never seen before. VimScript is...
 VimScript. Even Lua, which Neovim adopted specifically because it's more
@@ -148,7 +172,7 @@ I felt incredibly overwhelmed by Elisp and VimScript when I was learning Emacs a
 Vim for the first time, and I imagine I wasn't the only one. I started to feel
 very productive in Emacs only after putting in quite a lot of time to actually
 learn Elisp properly. (Never bothered to do the same for VimScript, though,
-and admittedly I'm not too eager to master Lua either.)
+and I'm not too eager to master Lua either.)
 
 AI changes this overnight. You can now describe what you want in plain English
 and get working Elisp, VimScript, or Lua. "Write me an Emacs function that
@@ -264,37 +288,10 @@ commit messages in Magit, and refactor code in your source buffers -- all
 within the same environment, sharing context. No other editor architecture
 makes this kind of deep, cross-domain integration as natural as Emacs does.
 
-Admittedly, I've stopped using Emacs as my OS a long time ago, and these days
+I stopped using Emacs as my OS a long time ago, and these days
 I use it mostly for programming and blogging. (I'm writing this article in Emacs with
 the help of `markdown-mode`.) Still, I'm only one Emacs user and many are probably
 using it in a more holistic manner.
-
-### AI helps you help yourself
-
-One of the most underappreciated benefits of AI for Emacs and Vim users is
-mundane: troubleshooting. Both editors have notoriously steep learning curves
-and opaque error messages. "Wrong type argument: stringp, nil" has driven more
-people away from Emacs than any competitor ever did.
-
-AI tools are remarkably good at explaining cryptic error messages, diagnosing
-configuration issues, and suggesting fixes. They can read your init file and
-spot the problem. They can explain what a piece of Elisp does. They can help
-you understand why your keybinding isn't working. This dramatically flattens
-the learning curve -- not by making the editor simpler, but by giving every
-user access to a patient, knowledgeable guide.
-
-I don't really need any AI assistance to troubleshoot anything in my Emacs setup,
-but it's been handy occasionally in Neovim-land, where my knowledge is
-relatively modest by comparison.
-
-> There's at least one documented case of someone
-> [returning to Emacs after years away](https://www.reddit.com/r/emacs/comments/1ri5g5e/back_home_at_last_thanks_to_claude_code/),
-> specifically because Claude Code made it painless to fix configuration issues.
-> They'd left for IntelliJ because the configuration burden got too annoying --
-> and came back once AI removed that barrier. "Happy f\*cking days I'm home
-> again," as they put it. If AI can bring back lapsed Emacs users, that's a
-> good thing in my book.
-{: .prompt-tip }
 
 ### Even in the post-coding apocalypse, Emacs and Vim survive
 
@@ -342,7 +339,7 @@ people -- more contributors, more plugin authors, more documentation writers,
 more voices in the conversation. AI can help bridge the gap, but it can't
 replace genuine community engagement.
 
-### The ethical elephant in the room
+## The Ethical Elephant in the Room
 
 Not everyone in the Emacs and Vim communities is enthusiastic about AI, and
 the objections go beyond mere technophobia. There are legitimate ethical
@@ -389,11 +386,12 @@ programming is shifting under our feet. It's entirely possible that Emacs and
 Vim will gradually fade into niche obscurity, used only by a handful of
 diehards who refuse to move on.
 
-But I've been hearing that Emacs is dying for 20 years, and it's still here.
-The community is small but passionate, the editor is more capable than ever,
-and the architecture is genuinely well-suited to the AI era. Vim's situation
-is similar -- the core idea is so powerful that it keeps finding new expression
-(Neovim being the latest and most vigorous incarnation).
+What keeps these editors alive isn't stubbornness -- it's adaptability. The
+communities are small but passionate, the editors are more capable than ever,
+and the architecture is genuinely well-suited to the AI era. Vim's core idea
+is so powerful that it keeps finding new expression (Neovim being the latest
+and most vigorous incarnation). Emacs keeps absorbing whatever the computing
+world throws at it, as it always has.
 
 The editors that survive won't be the ones with the flashiest AI features. They'll
 be the ones whose users care enough to keep building, adapting, and sharing.
@@ -409,11 +407,10 @@ age is to make it thrive in it.
 Maybe the future ain't what it used to be -- but that's not necessarily a bad
 thing.
 
-I'll admit this essay turned out longer and more disjointed than I'd hoped.
-I've had all these thoughts rattling around in my head for a while now and I
-wanted to cover them all, but I definitely struggled to weave them into a
-cohesive narrative. Programming may be hard, but writing prose remains harder.
-Thanks for bearing with me.
+This essay covered more ground than I originally intended -- lots of thoughts
+have been rattling around in my head for a while now, and I wanted to get them
+all out. Programming may be hard, but writing prose remains harder. Still, I
+hope some of these ideas resonated with you.
 
 That's all I have for you today. Keep hacking!
 
