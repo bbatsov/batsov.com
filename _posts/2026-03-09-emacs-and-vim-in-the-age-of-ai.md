@@ -290,9 +290,10 @@ IntelliJ, browsers, shells, even Emacs (via Evil mode). Even if the Vim
 *program* fades, the Vim *idea* is immortal.[^4]
 
 And who knows -- maybe there'll be a market for artisanal, hand-crafted
-software one day. "Locally sourced, free-range code, written by a human in
-Emacs." I'd buy that t-shirt. And I'm fairly certain those artisan programmers
-won't be using VS Code.
+software one day, the way there's a market for vinyl records and mechanical
+watches.[^6] "Organic, small-batch code, lovingly typed by a human in Emacs --
+one character at a time." I'd buy that t-shirt. And I'm fairly certain those
+artisan programmers won't be using VS Code.
 
 So even in the most extreme scenario, both editors have a life beyond code.
 A diminished one, perhaps, but a life nonetheless.
@@ -393,3 +394,4 @@ That's all I have for you today. Keep hacking!
 [^3]: At least some of the time. Admittedly I usually use Emacs in GUI mode, but I always use (Neo)vim in the terminal.
 [^4]: Even Claude Code has vim mode.
 [^5]: See <https://codeberg.org/NerdNextDoor/evi/issues/1>.
+[^6]: I'm a big fan of mechanical watches myself, so I might be biased here. There's something deeply satisfying about a beautifully crafted mechanism that doesn't need a battery or an internet connection to work.
