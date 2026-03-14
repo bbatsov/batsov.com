@@ -199,6 +199,9 @@ impressive AI integrations:
 - [agent-shell](https://github.com/xenodium/agent-shell) -- a native Emacs
   buffer for interacting with LLM agents (Claude Code, Gemini CLI, etc.)
   via the [Agent Client Protocol](https://agentclientprotocol.org/)
+- [ECA](https://eca.dev/) -- an editor-agnostic AI coding assistant (built in
+  Clojure!) that works via a protocol similar to LSP, supporting multiple LLM
+  providers (and Neovim too)
 
 **Neovim:**
 
