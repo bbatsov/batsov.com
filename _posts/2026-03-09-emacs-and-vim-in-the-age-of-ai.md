@@ -371,6 +371,8 @@ thing.
 
 That's all I have for you today. Keep hacking!
 
+**P.S.** There's an interesting [Hacker News discussion](https://news.ycombinator.com/item?id=47319071) about this article. Check it out if you want to see what the broader community thinks!
+
 [^1]: If you're curious about my Vim adventures, I wrote about them in [Learning Vim in 3 Steps]({% post_url 2026-02-24-learning-vim-in-3-steps %}).
 [^2]: Not to mention you'll probably have to put in several years in Emacs before you're actually more productive than you were with your old editor/IDE of choice.
 [^3]: At least some of the time. Admittedly I usually use Emacs in GUI mode, but I always use (Neo)vim in the terminal.
