@@ -41,6 +41,17 @@ ruminating over the risks and opportunities for Emacs and Vim.
 
 ## The Risks
 
+> The only thing that is constant is change.
+>
+> -- Heraclitus
+
+Every major technological disruption presents both challenges and
+opportunities. Things are never simply black and white -- just some shade of
+gray. The AI revolution is no different, and I think it's worth examining both
+sides honestly before drawing any conclusions.
+
+Let's start with the challenges.
+
 ### The IDE gravity well
 
 VS Code is already the dominant editor by a wide margin, and it's going to get
@@ -109,6 +120,16 @@ optimists (and I was initially an AI skeptic, but the rapid advancements last
 year eventually changed my mind).
 
 ## The Opportunities
+
+That paints a grim picture, but here's the thing -- Emacs and Vim have been
+written off more times than I can count. Eclipse was going to kill them.
+IntelliJ was going to kill them. VS Code was going to kill them. Sublime Text,
+Atom, TextMate -- all were supposedly the final nail in the coffin. Most of
+those "killers" are themselves dead or declining, while Emacs and Vim keep
+chugging along. There's a resilience to these editors that's easy to
+underestimate.
+
+So let's look at the other side of the coin.
 
 ### AI makes configuration and extension trivial
 
@@ -384,6 +405,12 @@ age is to make it thrive in it.
 
 Maybe the future ain't what it used to be -- but that's not necessarily a bad
 thing.
+
+I'll admit this essay turned out longer and more disjointed than I'd hoped.
+I've had all these thoughts rattling around in my head for a while now and I
+wanted to cover them all, but I definitely struggled to weave them into a
+cohesive narrative. Programming may be hard, but writing prose remains harder.
+Thanks for bearing with me.
 
 That's all I have for you today. Keep hacking!
 
