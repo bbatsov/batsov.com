@@ -212,6 +212,21 @@ integration is tightly coupled to the editor's own interface. With
 terminal-native tools, you get to choose your own editor *and* your own AI
 tool, and they compose naturally.
 
+> There's another angle worth considering: if programming is increasingly about
+> writing prompts rather than code, you still benefit from a great text editor
+> for *that*. Prompts are text, and crafting them well matters. I find it ironic
+> that Claude Code -- a tool I otherwise love -- doesn't use readline, so my
+> Emacs keybindings don't work properly in it, and its vim emulation is fairly
+> poor. I still think using React for CLI apps is a mistake, and I suspect many
+> people would enjoy running Claude Code inside their Emacs or Vim instead.
+> That's exactly what the [Agent Client Protocol](https://agentclientprotocol.org/)
+> (ACP) enables -- it lets editors like Emacs (via
+> [agent-shell](https://github.com/xenodium/agent-shell)) act as first-class
+> clients for AI agents, giving you proper editing, keybindings, and all the
+> power of your editor while interacting with tools like Claude Code. The
+> best prompt editor might just be the one you've been using for decades.
+{: .prompt-info }
+
 ### Emacs as an AI integration platform
 
 Emacs's "editor as operating system" philosophy is uniquely well-suited to AI
