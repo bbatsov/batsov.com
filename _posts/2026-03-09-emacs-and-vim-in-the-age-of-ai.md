@@ -40,10 +40,9 @@ changes". Predicting the future is hard, but speculating is irresistible.
 >
 > -- Heraclitus
 
-Every major technological disruption presents both challenges and
-opportunities. Things are never simply black and white -- just some shade of
-gray. The AI revolution is no different, and I think it's worth examining both
-sides honestly before drawing any conclusions.
+Things are rarely black and white -- usually just some shade of gray. AI is
+obviously no exception, and I think it's worth examining both sides honestly
+before drawing any conclusions.
 
 Let's start with the challenges.
 
@@ -88,8 +87,8 @@ inherent advantage there.
 The learning curve argument gets harder to justify too. "Spend six months
 learning Emacs and you'll be 10x faster" is a tough sell when a junior
 developer with Cursor can scaffold an entire application in an afternoon.[^2]
-Then again, the question of what exactly you're editing may have a more
-interesting answer than it first appears.
+Then again, maybe the question of *what* exactly you're editing deserves a
+closer look.
 
 ### The corporate backing asymmetry
 
@@ -118,7 +117,7 @@ year eventually changed my mind).
 
 ## The Opportunities
 
-That paints a grim picture, but here's the thing -- Emacs and Vim have been
+That paints a grim picture, but Emacs and Vim have been
 written off more times than I can count. Eclipse was going to kill them.
 IntelliJ was going to kill them. VS Code was going to kill them. Sublime Text,
 Atom, TextMate -- all were supposedly the final nail in the coffin. Most of
@@ -157,7 +156,7 @@ relatively modest by comparison.
 
 ### AI makes configuration and extension trivial
 
-Here's what almost nobody is talking about: Emacs and Vim have always
+Something that doesn't get nearly enough attention: Emacs and Vim have always
 suffered from the obscurity of their extension languages. Emacs Lisp is a
 1980s Lisp dialect that most programmers have never seen before. VimScript is...
 VimScript. Even Lua, which Neovim adopted specifically because it's more
@@ -246,7 +245,7 @@ surprised if the pace of plugin development accelerates significantly.
 
 ### Terminal-native AI tools are a natural fit
 
-Here's an irony that deserves more attention: many of the most powerful AI
+Funny enough, many of the most powerful AI
 coding tools are terminal-native. Claude Code, Aider, and various Copilot CLI
 tools all run in the terminal. And what lives in the terminal? Emacs and Vim.[^3]
 
@@ -389,9 +388,9 @@ diehards who refuse to move on.
 What keeps these editors alive isn't stubbornness -- it's adaptability. The
 communities are small but passionate, the editors are more capable than ever,
 and the architecture is genuinely well-suited to the AI era. Vim's core idea
-is so powerful that it keeps finding new expression (Neovim being the latest
-and most vigorous incarnation). Emacs keeps absorbing whatever the computing
-world throws at it, as it always has.
+is so powerful that it keeps finding new expression (Neovim being the most
+vigorous one). And Emacs? Emacs just keeps absorbing whatever the world throws
+at it. It always has.
 
 The editors that survive won't be the ones with the flashiest AI features. They'll
 be the ones whose users care enough to keep building, adapting, and sharing.
