@@ -54,3 +54,5 @@ Personally I find it much more useful that the standard auto-save
 mechanism in Emacs. And one more thing -
 [Emacs Prelude](https://github.com/bbatsov/prelude) naturally
 enables this functionality by default.
+
+**Update:** Eventually this functionality was extracted from Emacs Prelude into a standalone package called [super-save](https://github.com/bbatsov/super-save).
