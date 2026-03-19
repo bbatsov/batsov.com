@@ -40,6 +40,14 @@ switches your options are... well, pretty much just the [HHKB (Happy Hacking
 Keyboard) Hybrid Type
 S](https://happyhackingkb.com/products/hybrid-types/).
 
+There was another reason, too. I have two desktop computers -- a [Mac Mini
+M4]({% post_url 2025-03-14-updating-my-toolbox-ghostty-and-fish %}) and a
+[custom-built desktop PC]({% post_url 2022-10-30-why-bother-with-a-custom-desktop-pc-in-2022 %})
+-- and I wanted to use one keyboard seamlessly with both of them via Bluetooth.
+In practice, though, I liked the Mac Mini so much that I haven't turned on the
+other desktop a single time since I got it. So I never actually got to test how
+practical it is to switch the HHKB between multiple computers.
+
 ![HHKB Hybrid Type S](/assets/img/hhkb-hybrid-type-s.jpg)
 _The HHKB Hybrid Type S -- the object of today's review._
 
@@ -79,6 +87,10 @@ is on a standard keyboard -- exactly where it belongs. On every other keyboard
 I've ever owned, the first thing I'd do is remap Caps Lock to Control anyway, so
 it's nice to have a keyboard that gets this right out of the box.
 
+**Multi-OS support.** The HHKB natively supports Windows/Linux and macOS via DIP
+switches, so you can flip between operating systems without any software
+remapping. A small but welcome touch.
+
 **Wireless.** Being able to pair with multiple devices via Bluetooth and switch
 between them is genuinely nice. No more cable clutter on the desk. That said,
 the wireless implementation comes with some significant caveats -- more on that
@@ -117,6 +129,12 @@ want.
 batteries rather than a built-in rechargeable battery. In 2025. For a premium
 wireless keyboard. I'll let that sink in.
 
+**The USB-C behavior.** You'd think that plugging in a USB-C cable would
+automatically switch the keyboard to wired mode. Nope -- you have to explicitly
+select the USB interface with Fn + Control + 0. It's a minor annoyance, but it
+feels like an obvious UX miss. Oh, and for the price they're charging, you'd
+expect them to include a USB-C cable in the box. They don't.
+
 **The sleep/wake behavior.** This is my single biggest complaint and the thing
 that still drives me up the wall a year later. To save battery, the keyboard
 goes to sleep after 30 minutes of inactivity -- that's perfectly reasonable.
@@ -127,6 +145,35 @@ keyboard on the market. You come back from a coffee break, start typing, and...
 nothing. Then you remember, reach for the power button, wait a second for it to
 reconnect, and *then* you can start typing. It's a small thing, but it's
 also extremely annoying.
+
+**Bluetooth reliability.** A couple of times the HHKB simply stopped connecting
+to my computer and I had to re-pair it from scratch. In those moments wireless
+didn't feel like a feature at all -- you really can't beat the simplicity and
+reliability of a wired connection.
+
+## HHKB vs. Leopold FC660C
+
+Since I spent nearly a decade with the Leopold before switching, a direct
+comparison seems only fair.
+
+The **Leopold wins** on layout, sturdiness, and typing feel. The 65% layout with
+dedicated arrow keys is simply more practical than the HHKB's 60% layout for
+everyday use. The build quality feels more solid -- you can tell the Leopold is
+heavier and more rigid. The typing feel is slightly better too -- the keys have a
+bit more weight and a more satisfying thock. The Leopold also has a handy DIP
+switch that lets you make Escape output tilde/backtick by default (and you can
+always toggle between the two with Fn). On the HHKB, the secondary function of
+Escape is the rarely used Power key -- a baffling choice.
+
+The **HHKB wins** on overall aesthetics (nicer legends, cleaner color scheme),
+connectivity (USB-C and Bluetooth vs. the Leopold's micro-USB and wired-only),
+noise level (the Type S is noticeably quieter), and the handy multimedia keys
+accessible via Fn. The HHKB also has a massive online community, which means
+plenty of custom keycaps, accessories, and fellow enthusiasts to geek out with.
+
+I guess there are no wrong choices here -- both are excellent Topre keyboards. But
+if Leopold ever releases an FC660C with USB-C and wireless, I'll strongly
+consider getting one again.
 
 ## The Verdict
 
