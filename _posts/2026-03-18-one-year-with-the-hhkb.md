@@ -38,7 +38,7 @@ So why change something that was working so well? Two words: **wireless Topre**.
 I wanted to cut the cord, and if you want a wireless keyboard with Topre
 switches your options are... well, pretty much just the [HHKB (Happy Hacking
 Keyboard) Hybrid Type
-S](https://happyhackingkb.com/products/hybrid-types/).
+S](https://happyhackingkb.com/products/hybrid-types/).[^1]
 
 There was another reason, too. I have two desktop computers -- a [Mac Mini
 M4]({% post_url 2025-03-14-updating-my-toolbox-ghostty-and-fish %}) and a
@@ -73,7 +73,7 @@ the back is a bit of an eyesore. A minor quibble, though.
 
 **Weight.** It's impressively light and portable. Some people complain this makes
 it feel "cheap" since the body is essentially all plastic, but I appreciate being
-able to toss it in a bag without thinking twice.[^1]
+able to toss it in a bag without thinking twice.[^2]
 
 **Keycaps and switches.** The Topre experience is excellent, as expected. The
 keycaps are high quality PBT and the switches feel more or less identical to what
@@ -194,7 +194,7 @@ The fundamental problem is that there are so few Topre keyboards on the market
 that our options are extremely limited. For me it came down to either the HHKB
 or the [Realforce R3 TKL](https://www.realforce.co.jp/en/products/R3HH21/). The Realforce has a
 better, more conventional layout for sure, but I didn't love the aesthetics --
-it felt too big for what it offered, and visually it didn't do much for me.[^2]
+it felt too big for what it offered, and visually it didn't do much for me.[^3]
 
 Despite its shortcomings, the HHKB has grown on me. I don't think my typing
 experience has actually improved compared to the Leopold, but my desk certainly
@@ -210,5 +210,6 @@ Blues... well, your co-workers would like a word with you.
 
 That's all I have for you today. Keep typing!
 
-[^1]: Not that I carry it around much.
-[^2]: If they tweak it a bit in the future I'll definitely get one, though.
+[^1]: Realforce does have wireless models, but even their tenkeyless keyboards are much bigger than the Leopold FC660C and the HHKB -- I wanted something compact.
+[^2]: Not that I carry it around much.
+[^3]: If they tweak it a bit in the future I'll definitely get one, though.
