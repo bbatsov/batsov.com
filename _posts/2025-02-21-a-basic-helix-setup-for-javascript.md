@@ -12,7 +12,7 @@ the [Helix](https://helix-editor.com/) editor. It's inspired by vim and you can 
 vim relative. I'll probably write more about Helix in the future, but today I simply want to
 share how easy it is to set up Helix for JavaScript programming.
 
-Helix has built-in support for all the modern goodies like LSP and TreeSitter, so all you need to do
+Helix has built-in support for all the modern goodies like LSP and Tree-sitter, so all you need to do
 is install the right tools and you're ready for action. I'd suggest starting with checking
 the output of the `hx --health` command:
 

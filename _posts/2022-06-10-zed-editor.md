@@ -11,7 +11,7 @@ I assume the name alludes to something like "Zed is going to be the last editor 
 
 - It's written in Rust and supposedly it's very fast
 - It has some built-in collaboration features for software engineers
-- It uses TreeSitter for syntax highlighting and code navigation
+- It uses Tree-sitter for syntax highlighting and code navigation
 - It's in a private alpha right now.
 
 You can learn more about Zed from this [intro presentation](https://youtu.be/wXT73bBr83s).

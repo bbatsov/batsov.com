@@ -93,14 +93,14 @@ Emacs "Distributions" (a.k.a. "starter kits") in general were quite important to
 editors would often expect. Today we have [many of them](https://github.com/emacs-tw/awesome-emacs?tab=readme-ov-file#starter-kit), but I still believe
 that Spacemacs had the biggest impact on the community overall.
 
-### Shared Editor Infrastructure (LSP, TreeSitter)
+### Shared Editor Infrastructure (LSP, Tree-sitter)
 
 Emacs was getting a lot of criticism for lacking some of the advanced code analysis and refactoring capabilities of "modern" editors and IDEs.
-Its adoption of the industry standards LSP (Language Server Protocol) and TreeSitter changes this and makes sure Emacs developers don't have to
+Its adoption of the industry standards LSP (Language Server Protocol) and Tree-sitter changes this and makes sure Emacs developers don't have to
 invest time solving problems that are already solved elsewhere. I'm guessing that in the long run this will allow the Emacs maintainers to
 focus more on the features that make Emacs unique and that's a great thing in my book.
 
-The complete transition to LSP and TreeSitter won't happen overnight and we'll need years
+The complete transition to LSP and Tree-sitter won't happen overnight and we'll need years
 to finish it. Still, the progress to date is nothing short of amazing. Exciting times ahead!
 
 ### Progressive Emacs maintainers
@@ -115,7 +115,7 @@ Here we can highlight a few major milestones:
 - Switching to Git in 2014
 - The adoption of `package.el` as the standard package manager (bundled with Emacs 24 in 2012)
 - The creation of NonGNU ELPA (an official package repo with relaxed requirements for package inclusion)
-- Native JSON support, native compilation, built-in LSP support, TreeSitter, etc
+- Native JSON support, native compilation, built-in LSP support, Tree-sitter, etc
 
 Probably there are other extremely important achievements resulting from the actions of the head maintainers that I've forgotten about. Feel free to mention those in the comments.
 

@@ -385,7 +385,7 @@ any editor with good LSP support gets a lot of functionality for free.
 
 Still, I'll mention that I found the tooling lacking in some regards:
 
-- `fsharp-mode` doesn't use TreeSitter (yet) and doesn't seem to be very actively developed (looking at the code - it seems it was derived from `caml-mode`)
+- `fsharp-mode` doesn't use Tree-sitter (yet) and doesn't seem to be very actively developed (looking at the code - it seems it was derived from `caml-mode`)
 - Zed's support for F# is quite spartan
 - In VS Code shockingly the expanding and shrinking selection is broken, which is quite odd for what is supposed to be the flagship editor for F#
 

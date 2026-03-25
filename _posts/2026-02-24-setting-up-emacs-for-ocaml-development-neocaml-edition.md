@@ -31,7 +31,7 @@ typed holes. `ocaml-eglot` is a lightweight Emacs package by
 LSP extensions, giving you the full Merlin feature set through a standardized
 protocol.
 
-And `neocaml` is my own TreeSitter-powered OCaml major mode -- modern, lean,
+And `neocaml` is my own Tree-sitter-powered OCaml major mode -- modern, lean,
 and built for the LSP era. You can read more about it in the [0.1 release
 announcement]({% post_url 2026-02-14-neocaml-0-1-ready-for-action %}).
 
@@ -50,7 +50,7 @@ $ opam install ocaml-lsp-server
 Then set up Emacs:
 
 ```emacs-lisp
-;; Modern TreeSitter-powered OCaml major mode
+;; Modern Tree-sitter-powered OCaml major mode
 (use-package neocaml
   :ensure t)
 

@@ -31,8 +31,8 @@ nothing is _wrong_ per se, but `neocaml` offers a different set of trade-offs:
   legacy code and its regex-based font-locking and custom indentation engine show
   their age. It's a beast - in both the good and the bad sense of the word.
 - `neocaml` aims to be a modern, lean alternative that fully embraces
-  TreeSitter. The codebase is small, well-documented, and easy to hack on. If
-  you're running Emacs 29+ (and especially Emacs 30), TreeSitter is the future
+  Tree-sitter. The codebase is small, well-documented, and easy to hack on. If
+  you're running Emacs 29+ (and especially Emacs 30), Tree-sitter is the future
   and `neocaml` is built entirely around it.
 
 Of course, `neocaml` is the youngest of the bunch and it doesn't yet match
@@ -51,9 +51,9 @@ Let me now walk you through the highlights of version 0.1.
 The current feature-set is relatively modest, but all the essential functionality
 one would expect from an Emacs major mode is there.
 
-### TreeSitter-powered Syntax Highlighting
+### Tree-sitter-powered Syntax Highlighting
 
-`neocaml` leverages TreeSitter for syntax highlighting, which is both more
+`neocaml` leverages Tree-sitter for syntax highlighting, which is both more
 accurate and more performant than the traditional regex-based approaches used by
 `caml-mode` and `tuareg-mode`. The font-locking supports 4 customizable
 intensity levels (controlled via `treesit-font-lock-level`, default 3), so you
@@ -62,10 +62,10 @@ can pick the amount of color that suits your taste.
 Both `.ml` (source) and `.mli` (interface) files get their own major modes with
 dedicated highlighting rules.
 
-### TreeSitter-powered Indentation
+### Tree-sitter-powered Indentation
 
 Indentation has always been tricky for OCaml modes, and I won't pretend it's
-perfect yet, but `neocaml`'s TreeSitter-based indentation engine is already quite
+perfect yet, but `neocaml`'s Tree-sitter-based indentation engine is already quite
 usable. It also supports cycle-indent functionality, so hitting `TAB` repeatedly
 will cycle through plausible indentation levels - a nice quality-of-life feature
 when the indentation rules can't fully determine the "right" indent.
@@ -77,11 +77,11 @@ will be quite satisfied with the built-in indentation logic.
 ### Code Navigation and Imenu
 
 `neocaml` provides proper structural navigation commands (`beginning-of-defun`,
-`end-of-defun`, `forward-sexp`) powered by TreeSitter, plus `imenu` integration
+`end-of-defun`, `forward-sexp`) powered by Tree-sitter, plus `imenu` integration
 definitions in a buffer has never been easier.
 
 The older modes provide very similar functionality as well, of course,
-but the use of TreeSitter in `neocaml` makes such commands more reliable and
+but the use of Tree-sitter in `neocaml` makes such commands more reliable and
 robust.
 
 ### REPL Integration
@@ -122,7 +122,7 @@ But, wait, there's more!
 
 - `C-c C-a` to quickly switch between `.ml` and `.mli` files
 - Prettify-symbols support for common OCaml operators
-- Automatic installation of the required TreeSitter grammars via `M-x neocaml-install-grammars`
+- Automatic installation of the required Tree-sitter grammars via `M-x neocaml-install-grammars`
 - Compatibility with [Merlin](https://github.com/ocaml/merlin) for those who prefer it over LSP
 
 ## The Road Ahead
@@ -130,7 +130,7 @@ But, wait, there's more!
 There's still plenty of work to do:
 
 - Support for additional OCaml file types (e.g. `.mld`)
-- Improvements to structured navigation using newer Emacs TreeSitter APIs
+- Improvements to structured navigation using newer Emacs Tree-sitter APIs
 - Improvements to the test suite
 - Addressing feedback from real-world OCaml users
 - Actually writing some fun OCaml code with `neocaml`
