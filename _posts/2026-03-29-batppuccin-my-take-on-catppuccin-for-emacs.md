@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Batppuccin: My Take on Catppuccin for Emacs'
-date: 2026-03-29 10:00 +0200
+date: 2026-03-29 10:00 +0300
 tags:
 - Emacs
 - Themes
