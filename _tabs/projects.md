@@ -73,6 +73,8 @@ me as an unreasonable (but powerful) Emacs wielding fanatic!
 * [rubocop-emacs](https://github.com/bbatsov/rubocop-emacs)
 * [Zenburn theme for Emacs](https://github.com/bbatsov/zenburn-emacs)
 * [Solarized theme for Emacs](https://github.com/bbatsov/solarized-emacs)
+* [Batppuccin theme for Emacs](https://github.com/bbatsov/batppuccin-emacs) (an opinionated port of the Catppuccin color scheme)
+* [Tokyo Night themes for Emacs](https://github.com/bbatsov/emacs-tokyo-themes) (a port of folke's Tokyo Night color theme)
 * [adoc-mode](https://github.com/bbatsov/adoc-mode)
 * [asciidoc-mode](https://github.com/bbatsov/asciidoc-mode) (an alternative to `adoc-mode`, powered by Tree-sitter)
 * [Flycheck](https://github.com/flycheck/flycheck)
