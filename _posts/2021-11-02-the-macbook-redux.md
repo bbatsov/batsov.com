@@ -43,7 +43,7 @@ lasts even an hour and when it dies it often screws the laptop clock.
   the bright side - I'm very focused on the call, as it's hard (impossible) to
   multi-task. During hot days I often get overheating warnings, which were
   definitely new for me. In hindsight it seems that Apple's engineers were too optimistic that the MacBook will do fine with passive cooling.
-- the keyboard got stuck more times than I could count. In end I figured out that simply slamming the side of the laptop on a desk/table is the best way to fix it.
+- the keyboard got stuck more times than I could count. In the end I figured out that simply slamming the side of the laptop on a desk/table is the best way to fix it.
 And I certainly wasn't very gentle when doing this. I will remember this keyboard as the worst laptop keyboard I've ever used.
 
 I guess I wasn't the only person unhappy with the MacBook, as it was

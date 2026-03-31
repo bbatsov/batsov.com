@@ -5,7 +5,7 @@ tags:
 ---
 
 One task that often recurs in programming is the need to parse a
-string representation a number(or several numbers) and convert it to
+string representation of a number(or several numbers) and convert it to
 its numeric value. Parsing integer value in Common Lisp is fairly
 straightforward process - we have the built-in function **PARSE-INTEGER**:
 
@@ -27,11 +27,11 @@ The problem that most Lisper face soon after is that there is no
 matching function PARSE-FLOAT or PARSE-DOUBLE. I'm not sure what
 technical reason is hidden beneath this design decision, but I know of
 simple way to parse floating point numbers non-the-less. It's built
-around the **READ**(The R in REPL) function that allows you read any
+around the **READ**(The R in REPL) function that allows you to read any
 S-expression from a string form. The READ function then returns a Lisp
 object corresponding to the S-expression read. With that knowledge and
 the fact that READ accepts as an optional argument an input stream
-from which to read that S-expression(the default is the the standard
+from which to read that S-expression(the default is the standard
 input) we can write the following bit of parsing code:
 
 ``` cl

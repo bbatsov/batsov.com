@@ -458,7 +458,7 @@ class User(models.Model):
     password = models.CharField(max_length=30)
 ```
 
-Both approaches have their strengths and weaknesses an usual. In
+Both approaches have their strengths and weaknesses as usual. In
 Django's case we have increased verbosity, but on the other had we
 don't have to inquire the database to figure out the exact definition
 of model records.
@@ -566,7 +566,7 @@ Engine (the other one is, of course, Java) makes it very easy to deploy
 Django apps on the App Engine (though you'll need the Django support
 for non-relational databases to be able to use it).
 
-The also the possibility to deploy Django apps on Java or .Net
+There's also the possibility to deploy Django apps on Java or .Net
 infrastructure using Jython or IronPython.
 
 ## Community
@@ -659,7 +659,7 @@ go wrong. There are too many similarities between the frameworks and
 the differences are not something paramount.
 
 Rails places a heavy emphasis on convention over configuration,
-provides you with more defaults and does a can do a lot of heavy
+provides you with more defaults and can do a lot of heavy
 lifting for you automagically.
 
 Django on the other hand let's you specify most configuration details

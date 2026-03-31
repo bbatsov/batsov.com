@@ -10,11 +10,11 @@ tags:
 
 Today I encountered a bug that was specific to JDK 16 on a project I was working
 on, and I needed to switch back my Java version to something older.  I realized
-I had forgotten (once again) how to switch between multiple Java version on Ubuntu
+I had forgotten (once again) how to switch between multiple Java versions on Ubuntu
 (Debian), so I've decided to write a short article that would help me remember
 this better.[^1]
 
-You can install easily multiple version of Java on Ubuntu via `apt`:
+You can easily install multiple versions of Java on Ubuntu via `apt`:
 
 ```console
 $ sudo apt install openjdk-8-jdk openjdk-8-source openjdk-8-doc
@@ -36,7 +36,7 @@ There are 2 choices for the alternative java (providing /usr/bin/java).
 Press <enter> to keep the current choice[*], or type selection number:
 ```
 
-Notice that pressing 0 mean "auto-select the newest Java available" (in our case Java 11).
+Notice that pressing 0 means "auto-select the newest Java available" (in our case Java 11).
 You can now select Java 8 by pressing 2 and verify the command worked properly like this:
 
 ```console

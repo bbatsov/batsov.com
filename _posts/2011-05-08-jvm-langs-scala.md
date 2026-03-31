@@ -12,13 +12,13 @@ languages for the Java platform. Last time we've discussed the
 [Groovy programming language](/Java/Groovy/2011/05/06/jvm-langs-groovy.html), which
 is a member of the ever expanding family of dynamic programming
 languages. The Scala programming language, that is the object of
-today's discussion, is different beast entirely - not only it uses static
+today's discussion, is a different beast entirely - not only it uses static
 typing(like Java & C# amongst others), but it also puts a heavy emphasis on the type
 system, functional and parallel programming.
 
 In theory Scala runs both on the JVM and on the CLR(the .NET VM). The
 Java port, however, receives a lot more attention by Scala's developers
-and it probably accounts for close of to all of Scala's
+and it probably accounts for close to all of Scala's
 deployments(especially in production).
 
 This article is extremely hard to write for me. Unlike Groovy, I'm
@@ -530,7 +530,7 @@ scala> currentDate toString
 res12: java.lang.String = Wed May 11 15:03:20 EEST 2011
 ```
 
-The REPL has an excellent TAB completion - I used it ofter. You'll
+The REPL has an excellent TAB completion - I used it often. You'll
 note from these examples the flexibility and the brevity of Scala's
 syntax - no **;** to terminate statements (though you'll have to use ; to
 separate more than one expression on a single line). The types of the
@@ -809,7 +809,7 @@ while preserving the clarity of the recursive approach.
 Some languages (like Scheme) will always optimize tail calls. Because
 of limitations in the JVM not all tail calls can be optimized in Scala
 (for now), but
-some tails recursion is better than none.
+some tail recursion is better than none.
 
 ## Parallel programming
 
@@ -882,8 +882,8 @@ some form of Scala support and most Java build tools as well.
 * IDE
     * [IntelliJ IDEA](http://www.jetbrains.com/idea/) - the ultimate
       Scala IDE at the moment. It works quite well, but it's a bit
-      buggy that the moment (which is to be expected of something with
-      some many beta features).
+      buggy at the moment (which is to be expected of something with
+      so many beta features).
 
     * [Eclipse](http://www.scala-ide.org/) - the most
       popular Java IDE has a Scala plug-in that
@@ -918,7 +918,7 @@ some form of Scala support and most Java build tools as well.
       scala:cc and sbt's ~compile continuous compilation task use fsc internally.
 
     * sbaz - The Scala Bazaar System, sbaz for short, is a packaging
-      system developed to automate the task of mainaining a Scala
+      system developed to automate the task of maintaining a Scala
       installation. The program allows you to easily upgrade your
       installation as soon as a new version is available. You can also
       contribute your own packages, and make them easily available to
@@ -1005,7 +1005,7 @@ stacks up to Java:
     * The core API is still subject to constant changes and most new
       Scala version are not backward compatible with the old ones
       (unlike in Java).
-    * Scala's community (albeit very friendly and helpful) is current
+    * Scala's community (albeit very friendly and helpful) is currently
       tiny compared to Java's. You might not get an assistance from
       the community as quickly as you'd get it for Java related
       problems.

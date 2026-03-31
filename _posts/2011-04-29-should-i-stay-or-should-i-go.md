@@ -122,14 +122,14 @@ Cons of moving:
 
 * you have to prove your worth again(you've already did this in your
   old job)
-* the is the factor of uncertainty every time you start something new
+* there is the factor of uncertainty every time you start something new
 * you'll have to learn how to work and deal with your new colleagues
 * you might get more of the same work that made you leave in the first
   place in case you have not chosen carefully your new employer.
 
 ## Epilogue
 
-Topics such a career development are highly subjective and depend on a
+Topics such as career development are highly subjective and depend on a
 myriad of factors. My musings here are inspired by my 7 year long
 career as a software engineer that spanned over four employers and
 will probably soon include a fifth. This is not a lot of data to

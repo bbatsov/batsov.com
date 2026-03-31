@@ -78,7 +78,7 @@ I should also mention that there's a similar laptop named [Lenovo Yoga Slim 7 Pr
 * It has an USB-A port
 * It has a 14-inch screen with even higher resolution (2880x1800), higher brightness (400 nits) and 90Hz refresh rate
 * It has a bigger battery and longer battery life
-* It weight 1.3kg (just 100 grams more)
+* It weighs 1.3kg (just 100 grams more)
 
 Actually, this was the Lenovo laptop that caught my attention originally, but unfortunately in Bulgaria they were selling only the Intel version of it.
 
@@ -156,7 +156,7 @@ As usual, I'm writing this article from my
 Emacs 29 running on WSL + Wayland and it's gorgeous! My Emacs experience today is much better than what I used to have
 on macOS and it's pretty much the same as I what I had on Linux itself. I never saw this coming! (I doubt anyone saw this coming)
 
-I also realized my dream of owning an AMD-powered laptop! As irrational as it gets, but that's the kind of person who am I. I'm definitely
+I also realized my dream of owning an AMD-powered laptop! As irrational as it gets, but that's the kind of person I am. I'm definitely
 pleased the with performance and thermal profile of the Ryzen 5800U and I cannot wait to see what AMD have in store for us with the upcoming
 Zen 4 and the new 5nm fabrication process. Perhaps they'll be able to give Apple a run for their money? I missed a good old CPU war! They are so much fun!
 

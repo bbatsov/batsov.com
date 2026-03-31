@@ -26,7 +26,7 @@ such a domain for a personal site
 Of course, today we have a lot more top-level domain options to choose from:
 
 - `.info`, the first additional domain, that never took off
-- a ton of country domains that can result is some cool looking domain names (e.g. `sever.us`)
+- a ton of country domains that can result in some cool looking domain names (e.g. `sever.us`)
 - all the [recent additions](https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains#ICANN-era_generic_top-level_domains) like `.blog`, `.site`, `.name`, etc
 
 Still, I like the appeal of the original domains as they are all:

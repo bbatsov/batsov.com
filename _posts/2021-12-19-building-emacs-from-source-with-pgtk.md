@@ -26,7 +26,7 @@ $ make -j8
 $ sudo make install
 ```
 
-I guess those commands are self-explanatory, but let's go over them in some details:
+I guess those commands are self-explanatory, but let's go over them in some detail:
 
 * We clone Emacs's Git repo locally (this will take a while!)
 * We install the packages needed to build Emacs with `pgtk` support.
@@ -52,7 +52,7 @@ native compilation support (`--with-native-compilation`). If you decide to go fo
 ```console
 # Native JSON
 $ sudo apt install libjansson4 libjansson-dev
-# Native Complilation
+# Native Compilation
 $ sudo apt install libgccjit0 libgccjit-10-dev gcc-10 g++-10
 $ export CC=/usr/bin/gcc-10 CXX=/usr/bin/gcc-10
 $ ./configure --with-native-compilation --with-json --with-pgtk
@@ -68,7 +68,7 @@ You'll notice that now Emacs has proper GTK "chrome" (e.g. the frame
 title/header and the menubar). While the screenshot above is from Windows,
 everyone using Wayland on Linux will experience the same benefits as well.
 
-You can tweak the chrome by with the handy `gnome-tweaks` utility:
+You can tweak the chrome with the handy `gnome-tweaks` utility:
 
 ```console
 $ apt install gnome-tweaks
@@ -111,7 +111,7 @@ It took me a while to get everything working, but it was also a lot of fun. In r
 so I've forgotten how easy and educational this was.[^2] I was even a bit afraid of the whole process! I hope this article will encourage
 more of you to play with new features or customize their Emacs installation.
 
-The rumors about the my transition to the Dark Side (VS Code) were premature! Emacs forever!
+The rumors about my transition to the Dark Side (VS Code) were premature! Emacs forever!
 
 [^1]: I've updated my other pgtk article to reflect this.
 [^2]: When I was a Gentoo user I had spent countless hours tweaking the build flags for all the packages I used frequently. Good times!

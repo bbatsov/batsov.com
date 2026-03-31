@@ -8,7 +8,7 @@ tags:
 
 ## Prelude
 
-I've started my personal blog some three years ago. Back then in was
+I've started my personal blog some three years ago. Back then it was
 hosted on [wordpress.com](http://wordpress.com) and was called
 Devcraft (<https://devcraft.wordpress.com>). I had a lot of interesting (at least to me)
 topics to write about on my mind, but I was immediately faced with a
@@ -26,7 +26,7 @@ actively involve them in the process. So here my story begins...
 ## In Emacs We Trust
 
 My editor happens to be Emacs and I've started to look for ways to
-blog without leaving its beloved frame. They were several options:
+blog without leaving its beloved frame. There were several options:
 
 * Use some browser extension that fires up Emacs when editing text
   areas. For instance in Google Chrome there is the extension

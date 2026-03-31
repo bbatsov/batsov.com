@@ -96,7 +96,7 @@ $ sudo chsh
 
 Afterwards start a new login shell and a simple wizard will
 fire up asking you some questions to create a default .zshrc file for
-you. Alternatively you can use the excellent [O My Zsh](https://github.com/robbyrussell/oh-my-zsh) config - I'm
+you. Alternatively you can use the excellent [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) config - I'm
 very fond of it.
 
 #### Install guake(a drop down terminal)
@@ -158,7 +158,7 @@ $ sudo aptitude install deluge
 #### Install Inconsolata font
 
 I'm a software engineer and I obviously spend a lot of time reading
-and writing source code. I'm very picking about the monospace font
+and writing source code. I'm very picky about the monospace font
 that I use and currently Inconsolata happens to be my favorite:
 
 ```console

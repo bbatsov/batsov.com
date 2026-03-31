@@ -18,7 +18,7 @@ technical recruiter:
 You're wrong and your "research" sucks big time!
 
 I'm sick and tired of these poorly written canned messages. Clearly this person
-didn't bother to check neither my resume nor my GitHub profile, as otherwise they would have known that I **never** did any React programming!
+didn't bother to check either my resume or my GitHub profile, as otherwise they would have known that I **never** did any React programming!
 
 This article has been a long time coming, but yesterday's message was the tipping point that actually made me write it. It's a simple guide for technical recruiters by programmers, and will help them actually do something meaningful with their time.[^1]
 
@@ -97,7 +97,7 @@ Here's another bad pitch (and it's real):
 >     -  0 Scrum, 0 standups, we only do 1 meeting per week,
 >     -  You'll get a lot of feedback about your creations (that's what programming really is -- it's not just writing black and white code!) from customers.
 
-What's do we see here?
+What do we see here?
 
 - Bad grammar.
 - 100% flex hours, 100% remote - hmm, I thought almost every company offered this right now.

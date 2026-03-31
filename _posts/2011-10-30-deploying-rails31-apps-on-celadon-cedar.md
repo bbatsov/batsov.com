@@ -24,8 +24,8 @@ All of our company's applications are using
 targeting the [MRI 1.9.2](http://ruby-lang.org). Those two facts are
 the reason that we're using Heroku's
 [Celadon Cedar](http://devcenter.heroku.com/articles/cedar) deployment
-stack. Celadon Cedar is currently in beta, but it offer a lot of
-benefit over the old (stable) Bamboo stack (which also support Rails
+stack. Celadon Cedar is currently in beta, but it offers a lot of
+benefits over the old (stable) Bamboo stack (which also supports Rails
 3.1 apps and Ruby 1.9.2). For instance - Celadon is aware of the Rails
 3.1 asset pipeline and can compile the assets automatically when you
 deploy your apps to Heroku. With Bamboo you have to precompile the

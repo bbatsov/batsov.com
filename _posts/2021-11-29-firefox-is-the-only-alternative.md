@@ -46,8 +46,8 @@ I don't know about you, but I find the list above quite depressing. We're
 essentially left with only two major open-source browsers (Chromium and
 Firefox), and knowing that one of them is controlled by Google makes it clear
 that it's not the typical bazaar-like OSS project. We've gotten to the point
-that Chromium-based browsers are so common that developers just stopped to bother
-supporting other browsers. Last week I saw one site that directly didn't support
+that Chromium-based browsers are so common that developers just stopped bothering to support
+other browsers. Last week I saw one site that simply didn't support
 Firefox (it displayed a message I should switch to Chrome) and another where the
 sign in was broken on Firefox, but worked on Chrome-like browsers. Soon Google
 are going to be in complete control of web standards, unless something

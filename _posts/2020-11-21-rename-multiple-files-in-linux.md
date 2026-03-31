@@ -82,8 +82,8 @@ you can use in the second argument. You can do way more complex renamings with `
 $ zmv 'dir(*)/file.txt' 'file-${1}.txt'
 ```
 
-Obviously sky is the limit here, although this applies to the Perl version of the `rename` command as well.
-One cool thing about `zmv` is that you just like with `rename` you can preview the changes it's going to do with the `-n` option.
+Obviously the sky is the limit here, although this applies to the Perl version of the `rename` command as well.
+One cool thing about `zmv` is that just like with `rename` you can preview the changes it's going to do with the `-n` option.
 
 ```console
 $ zmv -n '(*).markdown' '$1.md'

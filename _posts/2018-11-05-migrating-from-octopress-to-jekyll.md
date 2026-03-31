@@ -57,13 +57,13 @@ To preserve the old links I had to add this to `_config.yml`:
 permalink: ":categories/:year/:month/:day/:title/"
 ```
 
-## Update posts's front-matter
+## Update posts' front-matter
 
 Seems through the years something has changed in the semantics of
 categories.  Back in the day I think this was just a synonym for tags,
 but now categories are made part of the URLs (at least by
 default). For some reason with Octopress I had used only categories in
-my posts's front matter, so I had to rename those keys to tags.  I
+my posts' front matter, so I had to rename those keys to tags.  I
 also had to add `categories: articles` to all my posts to preserve their
 old URL. Basically this:
 
@@ -103,7 +103,7 @@ permalink: "articles/:year/:month/:day/:title/"
 ## Add jekyll-compose
 
 Octopress had some nice rake tasks like `rake new_post` that I was
-found of. I noticed that out of the box Jekyll didn't have anything
+fond of. I noticed that out of the box Jekyll didn't have anything
 like this, which was a bit frustrating. I quickly discovered the plugin [jekyll-compose](https://github.com/jekyll/jekyll-compose)
 and it's even better than the old rake tasks I was fond of. Here's how you can create a new post with it:
 

@@ -10,7 +10,7 @@ of Emacs it’s always a good idea to store that configuration under
 version control so you can easily share it between multiple
 computers. You can always set up some version control system yourself,
 but it’s a lot more convenient (and much more reliable) to use an
-already existing code hosting solution such a GitHub.
+already existing code hosting solution such as GitHub.
 
 I have created a [small repo](https://github.com/bbatsov/emacs.d)
 there housing my humble Emacs configuration (`.emacs`, some custom stuff)

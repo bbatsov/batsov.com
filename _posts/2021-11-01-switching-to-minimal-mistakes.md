@@ -27,10 +27,10 @@ which I ran a few days ago. I guess I just needed a little push.
 The migration process was super simple and it basically consisted of the following steps:
 
 * Read the [Quick Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) and copy and edit a few config files that it refers to.
-* Replace the uses of the `post` and `page` layouts with the `single` layout (for me this simply meant editing the metadata of a bunch of posts of pages).
+* Replace the uses of the `post` and `page` layouts with the `single` layout (for me this simply meant editing the metadata of a bunch of posts or pages).
 * Push to GitHub Pages.
 
-The documentation is so good, that I got everything working for the first try. I think then entire process took me about an hour.
+The documentation is so good, that I got everything working on the first try. I think the entire process took me about an hour.
 
 There are a lot of features of Minimal Mistakes that I haven't leveraged yet,
 but I'm quite happy with the initial result and the simplicity of the migration process.

@@ -126,7 +126,7 @@ I personally prefer the Python approach since it enforces the code
 semantics based on the code structure alone without imposing special
 syntax.
 
-As a side node you might take under consideration that the Ruby method
+As a side note you might take under consideration that the Ruby method
 definition doesn't have an explicit return value. The value of the
 last expression in the method's body becomes automatically the
 method's return value. Lisp developers will find this familiar. Java
@@ -199,7 +199,7 @@ code first:
 >>> readline.parse_and_bind("tab: complete")
 ```
 
-Alternative you can just stick this code snippet in the
+Alternatively you can just stick this code snippet in the
 `~/.pythonrc.py` file (create it if it doesn't exist). If you are using
 Windows adjust accordingly (you will have to figure out where
 `pythonrc.py` is located there).
@@ -230,7 +230,7 @@ not the return value.
 
 Python also ships with a minimalistic IDE called IDLE. If you don't
 have it by default after a python installation on Linux probably
-you're vendor decided to package IDLE as a separate package. IDLE
+your vendor decided to package IDLE as a separate package. IDLE
 offers basic features like syntax highlighting, code completion and
 integration with a debugger. It's a good tool for exploratory
 programming, but I advise you to pick another tool for serious development.

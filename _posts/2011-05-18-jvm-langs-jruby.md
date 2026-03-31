@@ -38,7 +38,7 @@ even now you might run into some missing dll error from time to
 time). MRI's performance is not stellar either and it even used to be
 quite terrible before the advent of Ruby 1.9 which incorporated YARV
 (Yet Another Ruby VM), which significantly improved its performance
-(but still left a what to be desired). There is also the problem with
+(but still left a lot to be desired). There is also the problem with
 the missing standard portable GUI development library and the somewhat
 limited deployment options because of MRI's limited
 portability.
@@ -102,7 +102,7 @@ distro) you can type this:
 $ sudo apt-get install jruby
 ```
 
-Red Had distribution users might try this incantation instead:
+Red Hat distribution users might try this incantation instead:
 
 ```console
 $ sudo yum install jruby

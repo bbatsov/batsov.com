@@ -29,7 +29,7 @@ So, let's start with the highlights of 2021.
 
 This is definitely the most important thing that happened in 2021 from my perspective - now we have an effective way to fight the pandemic, and a path towards our old lives.
 
-I got vaccinated as quickly as possible, which allowed me to lead a semi-normal life afterwards. Now I could spent some time with my friends again and even do a bit of traveling. Sadly, it turned out I live in the [land of the free and the dumb](https://world.hey.com/bozhidar/the-land-of-the-free-and-the-dumb-324c7554)... During the pandemic I learned a lot of things about the people around me, most of them quit disappointing.
+I got vaccinated as quickly as possible, which allowed me to lead a semi-normal life afterwards. Now I could spent some time with my friends again and even do a bit of traveling. Sadly, it turned out I live in the [land of the free and the dumb](https://world.hey.com/bozhidar/the-land-of-the-free-and-the-dumb-324c7554)... During the pandemic I learned a lot of things about the people around me, most of them quite disappointing.
 
 Just a couple of days ago I got my booster shot as well. 5G signal operating at max output!
 
@@ -82,7 +82,7 @@ Here's mine:
 | PSU | Fractal Design Ion+ 660W Platinum |
 
 It's cheap, powerful, quiet, never overheats, never runs out of juice and it has all the ports in the world. You can even swap parts yourself! As a bonus - it glows in the dark and it looks bad-ass!
-I got it in July 2020 and it has been my primary computer ever since. Get this desktop had a few interesting
+I got it in July 2020 and it has been my primary computer ever since. Getting this desktop had a few interesting
 ramifications:
 
 - It showed me that drivers are still a major problem with Linux
@@ -289,7 +289,7 @@ of Italian and French as well.
 
 ### Learning
 
-In general I learned very little new things this year. I didn't explore any
+In general I learned very few new things this year. I didn't explore any
 new programming languages, libraries, etc.
 
 I blame StarCraft II (and my general laziness) for that.

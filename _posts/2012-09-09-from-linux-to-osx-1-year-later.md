@@ -9,7 +9,7 @@ tags:
 
 ## Prelude
 
-A little more than an year ago I wrote my rant post
+A little more than a year ago I wrote my rant post
 [The Linux Desktop Experience is Killing Linux on the Desktop]({% post_url 2011-06-11-linux-desktop-experience-killing-linux-on-the-desktop %})
 and for the first time in 8 years I wasn't a desktop Linux user
 anymore. I spent about a month wrestling with Windows 7, but let's
@@ -42,7 +42,7 @@ the lack of right control key - how is one supposed to hit `Control +
 a` I dare ask?). One app in particular - `spotlight`, blew me off the
 water, especially after having dealt on Linux with crappy clones like
 `beagle` in the past. Spotlight can truly find just about anything,
-was it's own SQL-like query language and is **blazingly** fast.
+has its own SQL-like query language and is **blazingly** fast.
 
 I quickly found a good terminal emulator (that would be
 [iterm2](http://www.iterm2.com/#/section/home) - it's actually the
@@ -109,7 +109,7 @@ One year, three Macs - only two or three system crashes. For a
 developer that likes to tinker a little bit more than he should -
 that's impressive.
 
-That having said I had some Linux desktops that used run for more than
+That having said I had some Linux desktops that used to run for more than
 half an year without reboots (and the reboots were often caused by
 power outages or distro/kernel updates). Linux stability on a (fairly
 new) laptop? Well, that's a whole different story...
@@ -142,14 +142,14 @@ The Cocoa port of Emacs is a bit immature and there are some visual
 glitches here and there (try out `M-x linum-mode` for instance), but
 they are forgivable. I'm also missing the deep integration Emacs had with Linux.
 And who the fuck designed all the official Mac keyboards without a
-right control key? I finally understood why so many Mac users where on
+right control key? I finally understood why so many Mac users were on
 vim
 
 Btw, remapping the `Caps` to `Control` is not the answer. I do it now,
-I did it on Linux as well. You simply not supposed to hit Control +
+I did it on Linux as well. You're simply not supposed to hit Control +
 any other key with the same hand. It's disruptive to your
 typing... But then again - you should probably do most of your typing
-will a full sized keyboard
+with a full sized keyboard
 
 ### Software Development
 
@@ -190,7 +190,7 @@ control (which I guess only Emacs users are missing anyways).
 On Linux I had `aptitude`, `yum`, `portage` and `pacman` - all amazing at what
 they do. On OS X - `homebrew` is a decent option, but it's a far cry from
 the might and magic of the Linux package managers. Still, `homebrew`
-is better than it's alternative, so beware!
+is better than its alternative, so beware!
 
 ### Ugly XML config files
 
@@ -207,7 +207,7 @@ encountered up-to-date in OS X.
 Yep, I know about the tools being available
 [separately](http://kennethreitz.com/xcode-gcc-and-homebrew.html) for
 couple of months now, but requesting an Apple developer registration
-just to get them seems a bit to much to me.
+just to get them seems a bit too much to me.
 
 ## Epilogue
 

@@ -14,7 +14,7 @@ easy on the eyes. Btw, I love Zenburn so much that I've even created a
 The project was originally
 [ported to Emacs](https://github.com/dbrock/zenburn-el) by Daniel
 Brockman, but it seems that he has lost interest in it recently - very
-few updates has been published by him in the past few years. This is
+few updates have been published by him in the past few years. This is
 the reason why I gathered all improvements that I could find laying
 around the Internet and applied them to the last official Zenburn
 version, effectively starting

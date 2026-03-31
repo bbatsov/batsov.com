@@ -9,7 +9,7 @@ tags:
 ## Prelude
 
 I've been using [Z Shell](https://zsh.sourceforge.io/) (a.k.a. `zsh`) for about three years now and continue to be
-impressed the its immense power and flexibility. Switching from bash
+impressed by its immense power and flexibility. Switching from bash
 to zsh was a decision as good as switching from Windows to GNU/Linux,
 from vim to Emacs, from Eclipse to IntelliJ IDEA. In other words - it
 was an extremely good decision.
@@ -29,7 +29,7 @@ $ sudo yum install zsh
 $ chsh -s /bin/zsh
 ```
 
-The next time you login a terminal wizard with start up asking you
+The next time you login a terminal wizard will start up asking you
 about some basic zsh options that you might want to enable. I suggest
 you to enable them all except the beep option. In the end the wizard
 will save the new configuration to the file .zshrc in your user's home

@@ -48,7 +48,7 @@ $ git config --list
 ```
 
 Note that this effective configuration would be a combination of OS-wide config (e.g. `/etc/gitconfig`), your
-user-wide config (e.g. `~/.gitconfig`) and the config of the Git repo that you're currently in (e.g. `repo/.git/config).
+user-wide config (e.g. `~/.gitconfig`) and the config of the Git repo that you're currently in (e.g. `repo/.git/config`).
 
 When working on company projects, I would change for each company repository my email to
 whatever my work email is:

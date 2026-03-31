@@ -66,10 +66,10 @@ They all, however, lack(with their default implementations at least)
 an execution environment that can match the JVM. They also lack Java's
 immense amount of libraries currently available. When enthusiasts
 started porting existing languages to the JVM this came as no surprise
-- it was only logical. A good language get a good execution
+- it was only logical. A good language gets a good execution
 environment. For instance some folks ported Ruby to Java which
 resulted in JRuby, Python also got a Java port called Jython. Though a
-lot of good has come from such ports they was also a price to pay. In
+lot of good has come from such ports there was also a price to pay. In
 the case of Ruby and Python some libraries are not written in
 Ruby/Python, but in C for performance reasons, which naturally leads
 to problems when you factor in a Java implementation of the
@@ -90,7 +90,7 @@ programming languages that were implemented from scratch with the JVM
 as their execution environment. While there are many of those three
 stand out and have gathered a significant momentum in recent
 years. They will be the subject of this post and the following
-two. Without further adieu I'd like you to meet Groovy, Scala and
+two. Without further ado I'd like you to meet Groovy, Scala and
 Clojure.
 
 We'll begin our discussion with Groovy...
@@ -653,7 +653,7 @@ this will be improved upon in Java 7.
 
 With its easy to grasp Java-like syntax Groovy is a solid contender
 for the attention of Java developers. A growing number of Groovy
-related job offerings is a sign of Groovy's acceptance as a industrial
+related job offerings is a sign of Groovy's acceptance as an industrial
 strength tool.
 
 Some people criticize Groovy for the lack of innovation and claim that

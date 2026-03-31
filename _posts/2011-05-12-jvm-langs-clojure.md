@@ -10,7 +10,7 @@ tags:
 This is the third part of the series of **Java.next()**. Last time
 we've discussed the merits of [Scala](/Java/Scala/2011/05/08/jvm-langs-scala.html) - an OO language with a strong
 emphasis on functional and parallel programming. Today we'll be
-discussing Clojure - a language that pushes the envelop a lot further
+discussing Clojure - a language that pushes the envelope a lot further
 than Scala as far as functional and parallel programming are
 concerned. You'll see that Clojure is radically different from Scala
 and Groovy in many aspects - it's not an OO language, it doesn't have
@@ -128,9 +128,9 @@ You know, I wasn't born coding in Lisp myself. I was initially
 exposed to Lisp when I tried to learn the Emacs text editor and I was
 baffled by many things - the strange syntax, the talk about atoms and
 lists, code as data, macros, continuation, tail-call optimizations,
-what to quote and that to evaluate, what is a s-expression and what
+what to quote and what to evaluate, what is a s-expression and what
 isa form. To put it shortly - I was like
-Alice down the rabbit whole or like Neo when he found out what the
+Alice down the rabbit hole or like Neo when he found out what the
 Matrix is... The world of programming that I was familiar with was
 turned upside down.
 
@@ -212,7 +212,7 @@ of it:
       can rival that of a statically type language. You can browse a
       long list of
       [benchmark comparisons](http://stackoverflow.com/questions/2186709/are-there-any-good-clojure-benchmarks)
-      to verify this statement. Given the fact that performance if
+      to verify this statement. Given the fact that performance is
       often cited as a big drawback of dynamic languages, this is
       quite the win for Clojure.
 * Capable of easily leveraging existing Java code
@@ -458,7 +458,7 @@ The core data structures in Clojure are:
 * List
 * Set - all the items in it are unique
 * Map - also known as associative array and dictionary in other languages
-* Vector - also know as one dimensional array
+* Vector - also known as one dimensional array
 
 Let's see them in action:
 

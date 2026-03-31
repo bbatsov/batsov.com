@@ -9,7 +9,7 @@ I've created a new port of the
 [Solarized color theme](http://ethanschoonover.com/solarized) for
 Emacs 24. While there is
 [another existing port of the theme](https://github.com/sellout/emacs-color-theme-solarized)
-I've decided to into a separate direction since I've wanted to keep
+I've decided to go in a separate direction since I've wanted to keep
 the development of Solarized and
 [Zenburn](https://github.com/bbatsov/zenburn-emacs) for Emacs in sync.
 
@@ -26,7 +26,7 @@ The theme is already bundled in
 [Emacs Prelude](https://github.com/bbatsov/prelude) and I'll
 submit it to Marmalade soon. Note that I've dropped some things like
 the degraded palette and the 16 color palette (at least for now),
-since I doubt many people need them. On the other hand - you'll proper
+since I doubt many people need them. On the other hand - you'll get proper
 coloring in most prominent modes out of the box.
 
 Feedback, suggestions and patches are always welcome.

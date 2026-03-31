@@ -15,7 +15,7 @@ feel and smell of paper, I love the ability to feel the pages. So it
 took me quite some time to convince myself to buy one of the fabled
 Amazon Kindle e-book reading devices. People often ask me what I think
 about it and would I recommend them to buy one so I decided to write
-down my thoughts on subject here.
+down my thoughts on the subject here.
 
 ## The things I love about the Kindle
 
@@ -37,7 +37,7 @@ the Kindle (unless they are very big and have to be scaled down).
 The navigation is outstanding - I think the idea to place the buttons for
 forward/backward page on both sides of the display was a brilliant one. The
 ability to skip chapters and to easily navigate the table of contents is fairly
-handy as well. Unfortunately not all mobi books are created with an useful table
+handy as well. Unfortunately not all mobi books are created with a useful table
 of contents, but this is not a problem of the Kindle itself.
 
 ### Built-in dictionary
@@ -51,7 +51,7 @@ inline. This is so very cool!
 ### Size & weight
 
 The Kindle is smaller and lighter than most paperbacks. And you can
-carry literary hundreds of books on your Kindle.
+carry literally hundreds of books on your Kindle.
 
 ### Battery life
 
@@ -104,7 +104,7 @@ like that. The Kindle is social...
 ### PDF support
 
 It's so horrible I can barely describe it. Basically PDF are
-unreadable and everyone that tell you otherwise is lying to you. The
+unreadable and everyone that tells you otherwise is lying to you. The
 Kindle DX is large enough to accommodate PDF I guess, but not the
 normal Kindle.
 
@@ -118,7 +118,7 @@ buy an iPad 2 for reading PDFs and technical books.
 ### The web browser is mostly useless
 
 The Kindle has an experimental web browser, which is mostly useless
-mainly due to the inherent limitation of the e-ink screen (such a
+mainly due to the inherent limitation of the e-ink screen (such an
 enormous refresh rate).
 
 ### Real page numbers

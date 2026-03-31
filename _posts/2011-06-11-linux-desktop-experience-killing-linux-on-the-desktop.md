@@ -153,7 +153,7 @@ for the entire time I've been using Linux only one major problem got
 resolved - USB devices support. I still remember the days when I had
 to write auto-mounting policies myself or to use `mount` manually all
 the time. I won't even mention the quality of most proprietary apps on
-Linux, the huge amount of missing essential application and the
+Linux, the huge amount of missing essential applications and the
 unavailability of mainstream video games.
 
 So this is it! Hasta la vista, Linux! You still remain the best server
@@ -210,7 +210,7 @@ like to clarify something for them:
   beer), doesn't make it wrong for people to criticize it and complain
   about it. Ranting is what drives evolution. Same thing happens in
   life every day - the media and the people around us proclaim
-  mediocrecy, they tell us that mediocrecy is OK, that we should be
+  mediocrity, they tell us that mediocrity is OK, that we should be
   satisfied by what we have and that aspiring for greatness is a
   foolhardy mission. The Linux desktop community should put real
   pressure on hardware and software vendors to be taken seriously,

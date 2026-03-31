@@ -66,8 +66,8 @@ book was the depth in which all the topics were discussed - given the
 superficial coverage of some topics (such as encodings) in other books,
 this book really stands out. The book is full of examples and
 artwork by _why the lucky stiff_, and covers both Ruby 1.8 and 1.9. The
-chapters on proc & clojures and metaprogramming were particularly
-strong. The books is geared mostly towards experienced programmers who
+chapters on proc & closures and metaprogramming were particularly
+strong. The book is geared mostly towards experienced programmers who
 are new to Ruby. If you're one of them - it's unlikely you'll find a
 better starting point in your journey to Ruby mastery.
 
@@ -114,7 +114,7 @@ functional programming ideas and techniques that can simplify your
 code and make you more productive. You'll learn how to write code
 that's readable and expressive.
 
-The whole book is currently available from free
+The whole book is currently available for free
 [on-line](http://blog.rubybestpractices.com/posts/gregory/022-rbp-now-open.html)
 and has a very nice companion [blog](http://blog.rubybestpractices.com/).
 

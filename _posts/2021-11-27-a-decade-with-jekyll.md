@@ -31,7 +31,7 @@ every subsequent tool in it was compared to Jekyll. A lot has happened since
 use as you don't have to deal with `gems`, `Gemfile`s, etc.
 
 I definitely had a troubled relationship with Jekyll myself. Early on I was quite annoyed that you had to setup everything in Jekyll manually, even basic things like
-an Atom feed or archive/tags pages. I was also frustrated that I had to fiddle with the themes a lot, as HTML and CSS were never my strong suites. If I recall correctly the early versions of Jekyll used some horrible Markdown parser that caused all sorts of problems for me. Still, for all its
+an Atom feed or archive/tags pages. I was also frustrated that I had to fiddle with the themes a lot, as HTML and CSS were never my strong suits. If I recall correctly the early versions of Jekyll used some horrible Markdown parser that caused all sorts of problems for me. Still, for all its
 shortcomings Jekyll was a huge win for me as it allowed me to do exactly what I wanted to do:
 
 - Write my articles in Emacs using my beloved Markdown format.
@@ -76,7 +76,7 @@ some Linux distro will be massively better than all the others. A classic exampl
 no SSG is significantly better than the alternatives and the only practical differences for me are their communities and how much do I have to learn to use one
 of them.
 
-And that's a wrap. This happens to be the 132th article I publish here since adopting Jekyll. I've also published exactly 280 articles on "Emacs Redux" and "Meta Redux". Here's to the next 10 years of blogging with Jekyll and Emacs! I hope I'll do better this time around.[^2]
+And that's a wrap. This happens to be the 132nd article I publish here since adopting Jekyll. I've also published exactly 280 articles on "Emacs Redux" and "Meta Redux". Here's to the next 10 years of blogging with Jekyll and Emacs! I hope I'll do better this time around.[^2]
 
 [^1]: I guess that's why I always opted to use relatively simple Jekyll themes. Often I think that `minima` is the greatest theme ever invented.
 [^2]: In terms of quality, not quantity.

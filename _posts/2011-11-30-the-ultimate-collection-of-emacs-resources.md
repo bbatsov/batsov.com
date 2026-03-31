@@ -37,7 +37,7 @@ pressing `C-h t`.
 #### The Emacs Refcard
 
 [The Emacs Refcard](http://www.damtp.cam.ac.uk/user/sje30/ess11/resources/emacs-refcard.pdf)
-is a very useful resource to keep tugged under your keyboard (in
+is a very useful resource to keep tucked under your keyboard (in
 printed form). It's generally bundled with your Emacs installation in
 both pdf and tex formats, but I've included a hyperlink to spare you
 the search for it.

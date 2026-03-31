@@ -30,7 +30,7 @@ creator) himself. I can only assume that Matz is an Emacs user
 himself. You can get it from the ruby svn repository if you're using a
 version of Emacs older than Emacs 23 (it's built-in there).
 
-`inf-ruby` is a mode that spawns and inferior ruby process (e.g. an `irb` shell)
+`inf-ruby` is a mode that spawns an inferior ruby process (e.g. an `irb` shell)
 to which you can directly send code from the ruby buffer you're
 currently editing. For instance - you can define a function and while
 your cursor is inside it you can press `C-M-x` - the function definition

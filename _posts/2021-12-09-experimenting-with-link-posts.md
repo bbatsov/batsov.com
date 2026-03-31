@@ -25,4 +25,4 @@ going forward.  Don't worry, though! I don't plan to write 5-10 of them each day
 won't be introducing a separate feed for those. Until next (link) post!
 
 [^1]: I've always thought of those as "link posts".
-[^2]: It's not hard to implement this in a any Jekyll theme, though. Here's [an example](https://danromero.org/jekyll-linklog.html). Seems I was just too lazy to ever bother doing it.
+[^2]: It's not hard to implement this in any Jekyll theme, though. Here's [an example](https://danromero.org/jekyll-linklog.html). Seems I was just too lazy to ever bother doing it.

@@ -16,7 +16,7 @@ created is the greatest thing after hot water, this is rarely the
 case. Most of the "unique" features are not quite unique, and the truly
 unique stuff is often just useless. I don't believe that there is a
 single greatest and unparallelled language, but I do believe that some
-languages are more valuable them others in term of both theory(the
+languages are more valuable than others in term of both theory(the
 concepts around which they revolve) and practice(the chances of you
 landing a job with them or simply getting a task done).
 
@@ -33,7 +33,7 @@ level assembly language today in the era of Java, .Net and Python, C
 remains the sole choice for doing serious system programming - writing
 drivers, all kinds of servers and virtual machines.
 
-Learning C also give you an insight to the inner working of the
+Learning C also gives you an insight to the inner working of the
 computer, like memory management and native data types (based on a CPU's
 registries).
 
@@ -116,7 +116,7 @@ languages like PHP, Ruby and Python. While I wouldn't advise anyone to
 start writing Web or Enterprise apps with Perl it's still the best language for
 writing administration and helper scripts with minimum fuss and maximum
 developer throughput. It features the greatest support for text
-processing ever and an extremely flexible (albeit a bit of confusing)
+processing ever and an extremely flexible (albeit a bit confusing)
 syntax.
 
 Perl [CPAN](http://www.cpan.org/) is probably the largest collection of third party
@@ -127,7 +127,7 @@ Pick up a copy of ["Learning Perl"](http://oreilly.com/catalog/9780596520113) or
 
 ## Clojure
 
-Clojure is a Lisp dialect with an unique support for parallel and
+Clojure is a Lisp dialect with a unique support for parallel and
 concurrent programming and runs on top of the venerable JVM. If you're
 looking to do some serious parallel programming look no further. Other
 than that you'll find in Clojure a superb collection of functional
@@ -145,7 +145,7 @@ on [YouTube](https://www.youtube.com/user/clojuretv).
 The most famous language from the logic programming family. Solving a
 problem like a sudoku puzzle in Prolog will be an eye opening
 experience for any developer. While it's unlikely that you'll ever use
-it practice the ideas found in it, Prolog will truly expand your thinking
+in practice the ideas found in it, Prolog will truly expand your thinking
 horizons.
 
 A good starting point in your journey to Prolog will be
@@ -178,7 +178,7 @@ A nice free on-line book about Python is ["Dive into Python 3"](http://diveintop
 ## C\#
 
 The flagship language of the .NET platform. Similar in many aspects to
-Java C# is never-the-less ahead then Java in the innovations
+Java C# is never-the-less ahead than Java in the innovations
 department - first to introduce concepts like Generics and Attributes
 to the mainstream programmers. It features some nice improvements over
 Java like properties, flexible namespaces and limited type inference.

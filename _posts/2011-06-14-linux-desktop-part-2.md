@@ -23,7 +23,7 @@ reading this one. It's basically more of the same - in greater detail
 and with less profanities.
 
 In this article I'll have a look at the state of the Linux desktop,
-it's usability, strengths and weaknesses.
+its usability, strengths and weaknesses.
 
 ## Let's get some facts straight
 
@@ -100,7 +100,7 @@ distros. You cannot seriously expect that the same drivers in a
 different distro will yield wildly different results... Sure, bugs do
 tend to occur, and sometimes they are truly distribution
 specific. Sure, some distros happen to patch the stuff they ship
-heavily, while others favor shipping vanilla versions of both software ant
+heavily, while others favor shipping vanilla versions of both software and
 the kernel.
 
 ## The process of driver development
@@ -241,7 +241,7 @@ The list could go on and on... Microsoft and Apple have certainly had
 their fair share of mistakes (Windows ME, Windows Vista, OS X Leopard), but
 nothing on a scale as epic as KDE 4.0 or GNOME 3.0...
 
-**Some users are more important then others it seems...**
+**Some users are more important than others it seems...**
 
 All those programs run on all major OS, but they perform worst on Linux:
 
@@ -289,7 +289,7 @@ everyone is pulling their own weight in it (which sounds a bit absurd indeed).
 
 Something similar is happening on the Linux desktop ship - everybody
 says he's on board, but very few people are actually rowing and
-bringing the Linux desktop to it's designated port.
+bringing the Linux desktop to its designated port.
 
 I've written only two desktop projects for Linux from scratch (a
 simple English-Bulgarian dictionary utility and a GUI front-end for pacman on
@@ -357,7 +357,7 @@ While I was writing the last paragraph I got another GNOME 3 shell corruption (t
 for `killall gnome-shell` to take the stage) on my totally supported
 hardware... A skype sound notification interrupted the song I was
 listening to (thanks a lot, PulseAudio)... And yet I'm still here. I
-did switch to Windows 7 on my laptop and I do intend to use Window 7
+did switch to Windows 7 on my laptop and I do intend to use Windows 7
 at least for a while there. It's not perfect either, trust me about
 that. Poor terminal emulator (though great PowerShell), a few random
 application crashes (but these happen in Linux as well in recent
