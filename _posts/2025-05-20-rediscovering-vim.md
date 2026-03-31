@@ -14,7 +14,7 @@ building extensions for Emacs.
 
 I think a lot fewer people know that early on in my career I was using Vim
 briefly, before switching to Emacs in 2005.  In the beginning of this year I
-felt it was a good time to revisit Vim and (neovim) and see how they've evolved
+felt it was a good time to revisit Vim (and neovim) and see how they've evolved
 compared to my beloved Emacs. It's never a bad idea to keep an eye
 on the competition - they are always a great source of "inspiration".
 

@@ -18,7 +18,7 @@ Both of those are forms of pattern matching, but one of them is a lot stricter
 than the other. In OCaml `()` is the single value of the `unit` type that
 indicates the absence of any meaningful value. You can think of it as something like `void` in
 other languages. What this means is that `let ()` would only match an
-expression that actually return `unit` (like the various `print_*` functions) and you'd get a compilation error
+expression that actually returns `unit` (like the various `print_*` functions) and you'd get a compilation error
 otherwise:
 
 ```console

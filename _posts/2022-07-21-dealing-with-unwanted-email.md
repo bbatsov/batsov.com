@@ -22,7 +22,7 @@ The next most annoying categories of unwanted email are:
 - reach-outs from sales people trying to peddle me something
   - lots of people are actually trying to sell services to the company I work for and attack me on both personal and professional addresses - that's pretty lame
   - a bunch of people want to place ads or paid "guest" articles on my **personal** sites - that's never going to happen
-  - a bunch of "SEO experts" promise me quick path the top of the Google results - I don't care about this at all
+  - a bunch of "SEO experts" promise me a quick path to the top of the Google results - I don't care about this at all
 - reach-outs from recruiters
   - I've already said a lot on this topic [in the past]({% post_url 2021-11-03-a-note-about-recruiters %})
 
@@ -42,7 +42,7 @@ Fastmail](https://www.joshuawood.net/make-fastmail-work-like-hey).
 
 So, what's the gist of it? It's not an issue to have public email addresses as
 long as you consistently tackle unwanted email right away. I know the
-alternative all too well and I'm not falling in trap ever again.[^1] And nor
+alternative all too well and I'm not falling into that trap ever again.[^1] And nor
 should you!
 
 [^1]: A depressing inbox with hundreds of unread email where it's hard to spot the few important messages that really deserve your attention.

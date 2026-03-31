@@ -32,14 +32,14 @@ The creation of GitHub in 2008 was a revolution for OSS developers around the wo
 It was a massive step forward from the days of SourceForge and EmacsWiki,
 and a ton of Emacs projects were born on it.
 
-I rarely contributed to OSS projects before the birth of GitHub, but drastically changed afterwards. GitHub was a big part of my OSS work and all of my projects are still hosted there. Its scale and reach allowed projects to connect with numerous potential contributors. Many of the most impactful Emacs packages
+I rarely contributed to OSS projects before the birth of GitHub, but that drastically changed afterwards. GitHub was a big part of my OSS work and all of my projects are still hosted there. Its scale and reach allowed projects to connect with numerous potential contributors. Many of the most impactful Emacs packages
 in recent history were born and popularized on GitHub.[^2]
 
-I think it a bit ironic that a proprietary platform did so much for FOSS community, but I don't think anyone can argue with the results. I won't dwell much on this section, as I doubt that anything I can say about GitHub will be news to anyone.
+I think it's a bit ironic that a proprietary platform did so much for FOSS community, but I don't think anyone can argue with the results. I won't dwell much on this section, as I doubt that anything I can say about GitHub will be news to anyone.
 
 ### Clojure
 
-Around the same time (in 2007) Clojure was created. The language generated a ton of interest in excitement in the programming
+Around the same time (in 2007) Clojure was created. The language generated a ton of interest and excitement in the programming
 community when it was released and this translated into increased interest in Emacs. Why so?
 
 Well, Emacs was the first editor to provide some decent support for Clojure programming - `clojure-mode` (a slightly modified version of `lisp-mode`)
@@ -65,10 +65,10 @@ Sadly many Emacs packages were a total mess a few years ago. Many maintainers wo
 This made the concept of a package repository that's distributing only "tagged" releases problematic. Not to mention that `package.el` was very new and wasn't popular enough
 to encourage people to change their ways. Do you remember that many Emacs packages weren't using VCS and were distributed only on EmacsWiki? Fun times!
 
-[MELPA](https://melpa.org) was a true revolution was it was released - a repo that was building snapshot release packages from a ton of sources (GitHub, person code repos, EmacsWiki). It was trivial
+[MELPA](https://melpa.org) was a true revolution when it was released - a repo that was building snapshot release packages from a ton of sources (GitHub, person code repos, EmacsWiki). It was trivial
 to add a package there and it was a "one and done" thing (unlike its predecessor Marmalade, when you had to upload each new release manually). You'd just submit a package recipe and MELPA will rebuild your package when needed.
 
-Today MELPA hosts a whopping 6000 (!!!) Emacs packages and its' a true pillar of our community. For context - the official GNU ELPA and NonGNU ELPA repos are home to about 650 packages. I don't know about you, but I've discovered a lot of cool packages while browsing MELPA and I can't imagine the Emacs community without it.
+Today MELPA hosts a whopping 6000 (!!!) Emacs packages and it's a true pillar of our community. For context - the official GNU ELPA and NonGNU ELPA repos are home to about 650 packages. I don't know about you, but I've discovered a lot of cool packages while browsing MELPA and I can't imagine the Emacs community without it.
 
 ### Killer "Apps"
 
@@ -167,5 +167,5 @@ So, why should you try Emacs in 2024?
 You're now ready to begin your life-long journey to Emacs mastery. Meta-x forever! In parentheses we trust!
 
 [^1]: See <{{ site.url }}{% post_url 2024-02-26-emacs-dead-and-loving-it %}>
-[^2]: I can only guess what the impact to Emacs would be if it's main development happened on a similar platform.
+[^2]: I can only guess what the impact to Emacs would be if its main development happened on a similar platform.
 [^3]: Vim users should also check out [Doom Emacs](https://github.com/doomemacs/doomemacs).

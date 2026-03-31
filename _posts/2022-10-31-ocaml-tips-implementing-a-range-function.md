@@ -124,7 +124,7 @@ range ~from:20 5 ~step:(-5) |> List.of_seq;;
 Now we're talking!
 
 One funny thing to note is that originally I wanted to use `from` and `to` as
-the parameter names, but I couldn't use `to` as it's a keyword is OCaml:
+the parameter names, but I couldn't use `to` as it's a keyword in OCaml:
 
 ``` ocaml
 for variable = start_value to end_value do
@@ -135,7 +135,7 @@ done
 I keep forgetting about this, as I never use those `for` loops and Clojure has
 spoiled me with its extremely small set of keywords.
 
-Another funny bit worth sharing, as that one of the test cases for `Seq.unfold` is
+Another funny bit worth sharing is that one of the test cases for `Seq.unfold` is
 exactly a trivial implementation of `range`:
 
 ``` ocaml

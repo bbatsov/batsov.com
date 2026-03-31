@@ -17,7 +17,7 @@ regards, so I decided to write down a few thoughts on it and how to
 make the best of it.
 
 OCaml's standard library is called `Stdlib` and it's the source of much
-"controversy" in the OCaml community. Historically `Stdlib` was focused only the
+"controversy" in the OCaml community. Historically `Stdlib` was focused only on the
 needs of the OCaml compiler (many people called it "the compiler library" for
 that reason) and it was very basic when it comes to the functionality that it
 provided.  This is part of the reason why libraries like Jane Street's `Base`
@@ -33,7 +33,7 @@ was definitely a point of surprise and disappointment for me when playing with
 OCaml for the first time. I still remember how surprised I was that the book
 [Real World OCaml](https://dev.realworldocaml.org/) began with the instructions
 to replace the built-in standard library with the more full-featured `Base` and
-`Core` libraries. I was used to fairly minimal standard library from my time
+`Core` libraries. I was used to a fairly minimal standard library from my time
 with Clojure, but OCaml really outdid Clojure in this regard!
 
 These days, however, I've noticed an increased focus on aligning the `Stdlib`

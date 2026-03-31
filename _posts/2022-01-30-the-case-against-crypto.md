@@ -37,7 +37,7 @@ And what about the latest fad, the so called "non-fungible tokens" (NFTs)? The a
 
 > The second kind of cryptocurrency application is the attempt to bring other fields into this world of speculative finance. Non-fungible tokens (NFTs) are an example of this approach. Instead of recording transactions which purely involve currency, the blockchain is used to record the ownership of a "token" -- effectively a cryptocurrency with one indivisible coin. The token is tagged with metadata, typically a link to a piece of media. This is presented as an ownership record for the media, often with no legal basis, and can be traded much like any other cryptocurrency.
 
-Paying a shitload of money for something that you can't even legally claim to own is so absurd, that I can't believe so many people are falling for this. There's absolutely no way this is going to end up badly for the "savy NFT collectors/speculators", right?
+Paying a shitload of money for something that you can't even legally claim to own is so absurd, that I can't believe so many people are falling for this. There's absolutely no way this is going to end up badly for the "savvy NFT collectors/speculators", right?
 
 I can heartily recommend to everyone to read the entire article. It's pure gold, unlike Bitcoin and friends. I'm hoping that we're close to the peak of the crypto mania and that people will come back to their senses eventually.[^2] While we're still in the bubble, however, we're morally bound to educate and to warn people about the dangerous nature of crypto "investments". Not to mention the [massive carbon footprint](https://ccaf.io/cbeci/index/comparisons) of most crypto currencies. Crypto is bad news. Stay away from it!
 

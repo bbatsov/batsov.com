@@ -20,7 +20,7 @@ I found frustrating:
 
 ## Picking an instance
 
-Eventually I realized the simplest things you can do to have a nice Mastodon
+Eventually I realized the simplest thing you can do to have a nice Mastodon
 experience is to pick some reasonably popular instance (so you know it's
 stable and won't disappear after a while) and some decent third-party client. I
 never read the local timeline, so in the end I don't think it matters much
@@ -51,7 +51,7 @@ just don't like having a ton of pinned windows in my browser.
 One more thing - embrace hashtags in Mastodon! Twitter had made those popular in its early days,
 but eventually moved away from them. They are quite alive in Mastodon and I use
 them extensively to follow topics that are important to me. (e.g. posts about
-various programming languages) So, it's a good to use them in your posts, so
+various programming languages) So, it's good to use them in your posts, so
 other people can discover your post via the hashtags.
 
 That's all from me on the topic for now. I hope you've learned something useful.

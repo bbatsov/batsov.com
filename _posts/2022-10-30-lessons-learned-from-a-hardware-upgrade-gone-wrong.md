@@ -52,7 +52,7 @@ one of my wife's painting knifes (the same one that finally pried the CPU from
 the heatsink). I was extremely frustrated at the time, yet I needed to be as
 calm as possible to perform this relatively complex task. By the end I was
 sweating like a pig and my eyes couldn't focus properly on the individual
-pins. At last the pin grid looked more or less aligned and I carefully slided
+pins. At last the pin grid looked more or less aligned and I carefully slid
 the CPU back into its socket. It clicked in place. I finally had some cause for
 optimism.
 
@@ -65,7 +65,7 @@ time and a bit of patience you can probably learn to fix anything.
 So, the CPU is (maybe) fixed. Time to install the new cooler! That should be
 easy, right? I took a look at the instruction manual and I noticed something
 weird - I have to screw 4 screws into the motherboard for the cooler's base, but
-there's nothing to put the screws in... Just 4 empty wholes. I thought, hmm
+there's nothing to put the screws in... Just 4 empty holes. I thought, hmm
 that's weird - why do all the pictures and installation videos look differently
 from my setup? At this point I thought that probably there was something on the
 back of the motherboard that fell when I detached the original cooler and I
@@ -133,7 +133,7 @@ opportunities it provided me with.
 
 That's all I have for you today. Always be upgrading![^4]
 
-**P.S.** Bonus lesson - don't be cheap (and don't use crappy stock CPU coolers)! Remember that an ounce of prevention is a pound of cure.
+**P.S.** Bonus lesson - don't be cheap (and don't use crappy stock CPU coolers)! Remember that an ounce of prevention is worth a pound of cure.
 
 [^1]: You can also Google, of course, but most likely you'll end up back to YouTube as the hardware geeks are really into videos.
 [^2]: <https://www.youtube.com/watch?v=zOxzLlHsNZo>

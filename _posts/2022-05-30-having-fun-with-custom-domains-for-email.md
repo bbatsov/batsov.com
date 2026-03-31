@@ -7,9 +7,9 @@ tags:
 ---
 
 A reader asked me recently how do I use custom domains for my email needs
-and I promised to write a short blog post about this. Promised fulfilled!
+and I promised to write a short blog post about this. Promise fulfilled!
 
-So, why do you need a custom domain for email in general? There a few reasons:
+So, why do you need a custom domain for email in general? There are a few reasons:
 
 - Most importantly a custom domain keeps you independent from any particular
 email vendor (e.g. Gmail, Yahoo, etc). If you decide to change Gmail with

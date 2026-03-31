@@ -104,7 +104,7 @@ Zsh plugin manager that allows you to install OMZ plugins, if you really need
 them. I don't care much about things like syntax highlighting (the most common
 use case of a Zsh plugin IMO) or pressing `ESC` twice to prefix a command with
 `sudo` (people should really learn what `C-a` does in the shell), so as you can
-imagine it's unlikely I'm be installing any plugins soon. Still, it's good to know
+imagine it's unlikely I'll be installing any plugins soon. Still, it's good to know
 you have options. The vast Zsh plugin ecosystem is probably its main advantage over
 its arch-nemesis Bash.
 

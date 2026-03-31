@@ -7,7 +7,7 @@ tags:
 ---
 
 Another year is behind us and it's time for the obligatory "year in review" blog post.
-I've been feeling a bit lazy, that's why I'm getting to writing it a bit of a delay, but
+I've been feeling a bit lazy, that's why I'm getting to writing it with a bit of a delay, but
 you'll forgive me.
 
 2022 was another pretty crazy year.
@@ -26,12 +26,12 @@ Putin and his warmongers in 2023 - I'd consider this a nice bonus.
 ### Global Economic Downturn
 
 I guess this doesn't need much explanation, as so many people have been
-affecting by it. I have a feeling that the worst of the recession is still ahead
+affected by it. I have a feeling that the worst of the recession is still ahead
 of us, but I doubt it will be as bad as the one in 2008-2009. Time will tell.
 
 ### Self-development
 
-I didn't do much of that front. Wanted to learn and do a lot of new things, but ended up doing pretty much nothing.
+I didn't do much on that front. Wanted to learn and do a lot of new things, but ended up doing pretty much nothing.
 Classic me.
 
 ### Reading
@@ -49,7 +49,7 @@ I guess old habits are hard to change. Or perhaps that's the perfect opportunity
 ### Return to (Mostly) Normal Life
 
 COVID seems to be in the rear-view mirror these days and life has mostly
-returned to "normal". I had to opportunity to travel a lot in 2022, I've met
+returned to "normal". I had the opportunity to travel a lot in 2022, I've met
 some of my colleagues for the first time since 2019 and I've seen again movie
 theaters full of people. I've spent a lot more time with my family and
 friends. I also attended one in-person conference. That felt good.
@@ -127,7 +127,7 @@ Watching "Ted Lasso" certainly wasn't cheap.
 ## Epilogue
 
 And that's a wrap. Right now I'm not particularly inspired to write, but knowing me probably I'll revisit this post a few times
-over the new next couple of days and extend it a bit.
+over the next couple of days and extend it a bit.
 
 It's funny how strong the ["recency bias"](https://en.wikipedia.org/wiki/Recency_bias) is  - many of the things I've mentioned here happened in the final months of 2022 and I can barely remember things from its first half.
 

@@ -55,7 +55,7 @@ And there are plenty of type conversion functions in those modules as well:
 The introduction of the `Int` and `Float` modules was part of (ongoing)
 effort to make OCaml's library more modular and more useful. I think
 that's great and I hope you'll agree that most of the time it's a
-better idea to use the new modules instead of reaching to the
+better idea to use the new modules instead of reaching for the
 "historical" functions in the `Stdlib` module. Sadly, most OCaml
 tutorials out there make no mention of the new modules, so I'm hoping that
 my article (and tools like ChatGPT) will steer more people in the right direction.

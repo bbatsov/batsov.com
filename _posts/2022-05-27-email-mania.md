@@ -6,7 +6,7 @@ tags:
 - Email
 ---
 
-I love email! Shocker, right? Especially in this day and age, that are
+I love email! Shocker, right? Especially in this day and age, that is
 dominated by social media and instant messengers. I've got my reasons
 for this and [I've covered them to some extent in the past](https://batsov.com/articles/2021/08/06/getting-in-touch/).
 
@@ -40,7 +40,7 @@ Of course, the majority of the time these days I'm using custom domains for my e
 
 Custom domains are essential to avoid email vendor lock-in, so I advise everyone to consider them! One of the biggest mistakes I ever did was to sign up for many services with my `@gmail.com` account. Now I know better!
 
-You know what's really crazy, though? I'm still looking for more (privacy-centric) email services to play with, even if I definitely don't need them and I have no idea what I'd do with them. On my "vendors to try" list I've currently have:
+You know what's really crazy, though? I'm still looking for more (privacy-centric) email services to play with, even if I definitely don't need them and I have no idea what I'd do with them. On my "vendors to try" list I currently have:
 
 - [Tutanota](https://tutanota.com/)
 - [Migadu](https://www.migadu.com/)
@@ -60,7 +60,7 @@ On the email clients front I think I've used pretty much every client that has b
 
 Finding the right client for a service like Gmail was an exercise in frustration,
 as some of its features are proprietary and work properly only with its own clients.
-Same with any vendor who tries to differentiate itself by the pack and introduces non-standard functionality (e.g. undo send). Services like HEY take this to the extreme and can't be used with standard email clients at all.
+Same with any vendor who tries to differentiate itself from the pack and introduces non-standard functionality (e.g. undo send). Services like HEY take this to the extreme and can't be used with standard email clients at all.
 Eventually I gave up and switched to the policy to use each service's native clients. On the bright side - this killed my interest in playing with generic clients, so I have more time to waste on vendors!
 
 I think it's safe to say I've got a pretty severe case of email mania, but that's OK. If you're passionate about something then I think it's perfectly fine to invest unreasonable amount of time in it. If it makes you happy, it can't be that bad, right?

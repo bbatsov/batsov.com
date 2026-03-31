@@ -30,7 +30,7 @@ half the money I paid for my M2 MacBook Air.
 Obviously the desktop computers are not particularly portable, but I've always
 favored the combination of a thin and light laptop, that's great for travel, and
 a powerful desktop computer for when I'm at the office/home. I despise carrying
-around the so called "portable workstations" that are 16 inch and weight
+around the so called "portable workstations" that are 16 inch and weigh
 2.5-3kg.
 
 Of course, I could have just gotten some pre-built desktop like the Mac Studio
@@ -47,7 +47,7 @@ suddenly this type of computers grew out of fashion and almost everyone embraced
 laptops in the past decade. Computers became disposable commodities that you can
 buy from pretty much every electronics store, not to mention numerous online
 outlets. People embraced the new way as better - after all it meant less upfront
-your for you and less maintenance work down the road. If you can't upgrade
+work for you and less maintenance work down the road. If you can't upgrade
 anything than you have nothing to think about, right? Even I fell victim to
 modern way of thinking and I spent something like 8 years (between 2012 and
 2020) without a custom-built PC. For a few years a had a Mac Mini Server and
@@ -61,7 +61,7 @@ the hardware world. Not a bad thing in my book, but probably something that's
 not important at all to most people.
 
 So, perhaps I bother with custom desktops just because of nostalgia. Perhaps the
-tinkerer in me demands in. One thing is certain - that's something that brings
+tinkerer in me demands it. One thing is certain - that's something that brings
 me a lot of joy and that is what matters most in the end of the day. We can't be
 practical all the time - that'd be so boring!
 

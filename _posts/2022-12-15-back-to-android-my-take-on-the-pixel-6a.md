@@ -86,11 +86,11 @@ Other than a few different gestures and the new keyboard (gboard) that I had to 
 
 Google's web apps (e.g. Google Photos) also make it very simple to fetch data from your phone on your computer.[^1] Turns out you can even check your text messages [online](https://messages.google.com/) after pairing your device with the Google Messages service. Also, if you happen to use Windows, the "Link to Windows" app is pretty cool and provides pretty deep integration of your phone with your computer (you can even do phone calls through it).
 
-Most apps felt essentially the same on Android and iOS, so there's no much to report on this front. Given that more and more mobile apps are just some thin wrapper around a web app, I guess that's not exactly shocking.
+Most apps felt essentially the same on Android and iOS, so there's not much to report on this front. Given that more and more mobile apps are just some thin wrapper around a web app, I guess that's not exactly shocking.
 
 One small feature that I grew to like quickly is "Now Playing" - when enabled your phone will auto-shazam whatever songs are playing around you. While it certainly raises a couple of privacy alarms that's extremely useful!
 
-Google Pay is essentially the same as Apple Pay, but I like the Google Wallet a bit more, especially when it comes to dealing with boarding passes, as it automatically track my flights and so on.
+Google Pay is essentially the same as Apple Pay, but I like the Google Wallet a bit more, especially when it comes to dealing with boarding passes, as it automatically tracks my flights and so on.
 
 I also love some of the clever tricks the phone has up its sleeve:
 

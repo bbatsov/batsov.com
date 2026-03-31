@@ -94,7 +94,7 @@ Let me unpack this a bit:
 
 And that's a wrap! Admittedly, even I didn't know some of those ways to paste
 before doing the research for this article. I've been using Vim quite a bit
-in the past year and I'm still amazed how many ways to paste are there!
+in the past year and I'm still amazed how many ways to paste there are!
 
 If you want to learn more, check out `:help p`, `:help gp`, `:help ]p`, and
 `:help i_CTRL-R` in Vim's built-in help. There's always more to discover!

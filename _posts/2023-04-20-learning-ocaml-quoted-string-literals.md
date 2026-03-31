@@ -108,7 +108,7 @@ returns the string "world".
 
 If you want a regular expression that matches a literal backslash character, you need to double it: `Str.regexp {|\\|}`.
 
-If we use regular string literals ("..."), we will have to escape backslashes, which makes the regular expressions a bit harder the read:
+If we use regular string literals ("..."), we will have to escape backslashes, which makes the regular expressions a bit harder to read:
 
 ``` ocaml
 let r = Str.regexp "hello \\([A-Za-z]+\\)" in

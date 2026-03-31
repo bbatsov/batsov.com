@@ -184,7 +184,7 @@ a + b + c
 - it took me a while to figure out [the difference between `fun` and `function`](https://stackoverflow.com/questions/1604270/what-is-the-difference-between-the-fun-and-function-keywords)
 - no syntax for list comprehensions (I often use those in Clojure, Haskell and Erlang, although I'm well aware they are not something essential)
 - the syntax for array literals is somewhat weird (`[|1; 2; 3|]`) - I don't like such usage of multiple symbols as literal boundaries, as this makes it harder for dev tools to figure out what you're doing. The indexing syntax `arr.(i)` is slightly weird as well, as it doesn't fit very well with the rest of the language.
-- no first-class syntax for maps and sets (Clojure spoiled on this front)
+- no first-class syntax for maps and sets (Clojure spoiled me on this front)
 
 ```clojure
 ;; Clojure map
@@ -324,7 +324,7 @@ Back to the present - today OCaml has pretty decent support for [concurrent prog
 
 There are plenty of third-party OCaml libraries, although most of them seem somewhat under-maintained and under-documented. I've noticed that for many libraries all the documentation you'll find is just API signatures - e.g. [this](https://ocaml.org/p/re/1.10.4/doc/Re/Perl/index.html).
 
-The only framework I looked into was [Dream](https://aantron.github.io/dream/) (a web framework). It looked pretty nice, but it's still in alpha, has only one developer and it seems he has been not been very active lately. Oh, well - that's a common problem in smaller programming communities.
+The only framework I looked into was [Dream](https://aantron.github.io/dream/) (a web framework). It looked pretty nice, but it's still in alpha, has only one developer and it seems he has not been very active lately. Oh, well - that's a common problem in smaller programming communities.
 
 ### A Note About Standard Libraries
 
@@ -401,7 +401,7 @@ While Clojure and Haskell are considered niche languages as well, there are a lo
 
 ## A Closing Note About Libraries
 
-A while ago I made a comment about the standard library situation [on Discourse](https://discuss.ocaml.org/t/what-i-dislike-about-ocaml/10248/50?u=bbatsov) that triggered a a follow-up conversation about two things:
+A while ago I made a comment about the standard library situation [on Discourse](https://discuss.ocaml.org/t/what-i-dislike-about-ocaml/10248/50?u=bbatsov) that triggered a follow-up conversation about two things:
 
 - that the standard library wasn't a major focus for OCaml's team and they prefer for libraries to be developed independently by experts in a particular area (fair enough)
 - that it's actually easy to find the right libraries for each problem (it was mostly focused on strings)

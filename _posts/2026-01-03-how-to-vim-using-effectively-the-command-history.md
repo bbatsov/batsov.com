@@ -10,7 +10,7 @@ One of the frustrating aspects of Vim for me is that in insert mode you're quite
 limited in what you can do. That's fine most of the time, except when you're in
 command-line mode (meaning you're typing something like `:s`). In command-line
 mode there's no way to switch to normal mode, so if you make a typo or want to
-edit a command you've previous invoked that's a bit painful.
+edit a command you've previously invoked that's a bit painful.
 
 Recently I've discovered a way to mitigate the problem - namely the command history
 window. (see `:h cmdwin` for details) You can trigger in a couple of ways:
@@ -30,7 +30,7 @@ For me the main use of the command history window is to reuse and tweak longer `
 `:g` commands, but I can imagine it having other uses as well. It's certainly a good
 addition to any Vimmer's tool belt.
 
-Going to back to the original problem I posted - how do you fix a typo while entering
+Going back to the original problem I posted - how do you fix a typo while entering
 some command? Imagine you wrote the following:
 
 ```

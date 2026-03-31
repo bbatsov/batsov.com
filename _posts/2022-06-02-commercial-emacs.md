@@ -9,9 +9,9 @@ tags:
 >
 > 2021 Maintainer of GNU Emacs, who then proceeded to keep talking.
 
-My previous article [Who Needs Modern Emacs?]({% post_url 2022-06-01-who-needs-modern-emacs %}) generated a lot of feedback, that I'll definitely address in a follow-up article. One comment caught my eye, though - a mention of a recent fork of Emacs that's amusing named [Commercial Emacs](https://github.com/commercial-emacs/commercial-emacs).
+My previous article [Who Needs Modern Emacs?]({% post_url 2022-06-01-who-needs-modern-emacs %}) generated a lot of feedback, that I'll definitely address in a follow-up article. One comment caught my eye, though - a mention of a recent fork of Emacs that's amusingly named [Commercial Emacs](https://github.com/commercial-emacs/commercial-emacs).
 
-While the project doesn't have a manifesto, it feels to me that it's mission is pretty clear - try to address some long-standing issues in GNU Emacs, in the way Lucid Emacs/XEmacs did this in the past.
+While the project doesn't have a manifesto, it feels to me that its mission is pretty clear - try to address some long-standing issues in GNU Emacs, in the way Lucid Emacs/XEmacs did this in the past.
 I haven't played with Commercial Emacs yet, but it seems it has already incorporated some improvements that feel major to me:
 
 - Performant long lines.

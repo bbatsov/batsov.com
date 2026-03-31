@@ -8,7 +8,7 @@ tags:
 
 Lately I've been a bit bored with my tried and true development tools and I've been
 playing with some alternatives. One of the most interesting tools I came across is
-the [Helix](https://helix-editor.com/) editor. It's inspired by vim and you can think of it a simpler (and less configurable)
+the [Helix](https://helix-editor.com/) editor. It's inspired by vim and you can think of it as a simpler (and less configurable)
 vim relative. I'll probably write more about Helix in the future, but today I simply want to
 share how easy it is to set up Helix for JavaScript programming.
 
@@ -29,7 +29,7 @@ Textobject queries: ✓
 Indent queries: ✓
 ```
 
-Okay, it seems I need to install `typescript-language-server`. That as easy as running
+Okay, it seems I need to install `typescript-language-server`. That's as easy as running
 the following command:
 
 ```shell
@@ -66,8 +66,8 @@ So, it seems `typescript-language-server` doesn't depend on `typescript`. Oh, we
 npm install typescript -g
 ```
 
-At this point things should start working properly for you and you'd getting the full power of
-`typescript-language-lsp` in Helix.
+At this point things should start working properly for you and you'd be getting the full power of
+`typescript-language-server` in Helix.
 
 I don't know about you, but for me it's really impressive you can setup an editor so
 quickly, without touching the configuration at all. Perhaps most modern editors work this

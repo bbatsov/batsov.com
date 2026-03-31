@@ -12,7 +12,7 @@ The classic way to do "find and replace" in Vim is pretty well known:
 ```
 
 This will replace all instances of `target` in the current buffer (that's what the `%` is about)
-with `target`. The `c` flag means you'll get prompted for confirmation for every replacement.
+with `replacement`. The `c` flag means you'll get prompted for confirmation for every replacement.
 Not bad, right?
 
 Still, often you need to replace just a few instances of something, so the above might be a bit too much

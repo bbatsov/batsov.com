@@ -77,8 +77,8 @@ will be quite satisfied with the built-in indentation logic.
 ### Code Navigation and Imenu
 
 `neocaml` provides proper structural navigation commands (`beginning-of-defun`,
-`end-of-defun`, `forward-sexp`) powered by Tree-sitter, plus `imenu` integration
-definitions in a buffer has never been easier.
+`end-of-defun`, `forward-sexp`) powered by Tree-sitter, plus `imenu` integration --
+navigating definitions in a buffer has never been easier.
 
 The older modes provide very similar functionality as well, of course,
 but the use of Tree-sitter in `neocaml` makes such commands more reliable and
@@ -110,11 +110,11 @@ priority for me, but I want to match what the other older OCaml modes offered in
 [ocaml-eglot](https://github.com/tarides/ocaml-eglot) and you get a pretty
 solid OCaml development experience.
 
-The creation of LSP really simplified the lives of a major mode authors like me, as now
+The creation of LSP really simplified the lives of major mode authors like me, as now
 many of the features that were historically major mode specific are provided by
 LSP clients out-of-the-box.
 
-That's also another reason why you probably want to leaner major mode like `neocaml-mode`.
+That's also another reason why you probably want a leaner major mode like `neocaml-mode`.
 
 ### Other Goodies
 

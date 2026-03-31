@@ -24,7 +24,7 @@ of lines or text objects:
 In general I think that when it comes to joining multiple lines visual mode makes
 a lot of sense, as you're pretty clear up front what you're about to join.
 
-There a few more nuances to joining lines, especially if you're using `:join` instead
+There are a few more nuances to joining lines, especially if you're using `:join` instead
 of `J`, but I think that few people need to know of those. For the curious
 readers there's always `:help J` to learn more on the topic.
 

@@ -11,7 +11,7 @@ project.  Admittedly most of the time I want to check who are the top
 contributors to some Git repository I'd use a web interface for this
 (e.g. GitHub).  Probably because I never bothered to remember the magic
 incantations to do this with the `git` command-line interface and probably
-because statistics often look better when you have a have richer UI toolkit to
+because statistics often look better when you have a richer UI toolkit to
 render them. That being said, today I was reminded how easy it is to cover the basics
 with the command-line. If we want a list of the top 10 contributors (in terms of
 commits) we can get it like this:[^1]
@@ -49,7 +49,7 @@ $ git shortlog -s -n -c | head -10
 
 The output here is quite different for me, as I've squashed and rebased many commits.
 
-We can also include the emails of the authors, which would result is some fun output for this particular project due to my [love for email addresses]({% post_url 2022-05-27-email-mania %}):
+We can also include the emails of the authors, which would result in some fun output for this particular project due to my [love for email addresses]({% post_url 2022-05-27-email-mania %}):
 
 ```console
 $ git shortlog -s -n -e | head -10
@@ -66,7 +66,7 @@ $ git shortlog -s -n -e | head -10
 ```
 
 Seems I really went overboard here, as I've committed code with at least 4 different email addresses!
-I'd recommend spending some quality time with `man git-shortlog` if I'd like to know what all the flags mean exactly.
+I'd recommend spending some quality time with `man git-shortlog` if you'd like to know what all the flags mean exactly.
 
 That's all I have for you today. Keep hacking!
 

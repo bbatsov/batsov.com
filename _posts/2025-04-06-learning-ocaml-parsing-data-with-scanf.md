@@ -12,7 +12,7 @@ expressions. One thing I didn't discuss back then was that
 the problem is somewhat mitigated by the excellent module
 [Scanf](https://ocaml.org/manual/5.3/api/Scanf.html), which makes it easy to parse structured data.
 
-Image that we're dealing with a simple investment portfolio,
+Imagine that we're dealing with a simple investment portfolio,
 where we have multiple records containing:
 
 - Ticker symbol (e.g. `AAPL`)

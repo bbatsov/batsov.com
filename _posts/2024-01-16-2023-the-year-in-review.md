@@ -78,7 +78,7 @@ always some hope for the future.
 
 We are what we repeatedly do... Not exactly something new I learned in 2023, but definitely something I was often reminded about.
 
-Also - I have a very obsessive personally and once I set my mind on something I usually go all-in. That's why people like me should have fewer hobbies, as they often turn into some manias. Oh, well...
+Also - I have a very obsessive personality and once I set my mind on something I usually go all-in. That's why people like me should have fewer hobbies, as they often turn into some manias. Oh, well...
 
 And finally - don't commit to reading long-winded mediocre fantasy series! Seriously!
 
@@ -93,7 +93,7 @@ Haven't figured them out yet.
 And that's a wrap. One less item in my personal to-do list!
 
 I think the words "not great, not terrible" perfectly describe 2023 for me. I
-haven't had a truly great year since 2019 and I often dreaming about the
+haven't had a truly great year since 2019 and I'm often dreaming about the
 "boring" years without political turmoil, major wars, pandemics and recessions.
 Now I finally understand why "May you live in interesting times" is a curse.
 

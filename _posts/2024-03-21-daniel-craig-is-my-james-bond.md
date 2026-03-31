@@ -22,7 +22,7 @@ James Bond movie with a title character that you can actually relate to. It's
 that movie and Daniel Craig's portrayal of Bond, that finally made a fan. His
 troubled past, serious businesslike demeanor, issues of trust and attachment,
 and subtle sense of humor made this version of 007 the most realistic to date by
-a large margin. Of course, that's that also factors in my subjective preference
+a large margin. Of course, that also factors in my subjective preference
 for such complex and multi-dimensional characters. There's also no denying that
 the supporting cast was very solid and that the creative vision was to my
 liking. I recall back then this reminded me somewhat of the recent "Batman

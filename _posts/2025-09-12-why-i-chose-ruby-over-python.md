@@ -66,7 +66,7 @@ Why would someone want a keyword for removing items from lists and dictionaries 
 ## Too many statements (and functions returning `None`)
 
 In Ruby almost everything is an expression (meaning that evaluating it would
-result in a value). In Python a lot of things are consider "statements" -
+result in a value). In Python a lot of things are considered "statements" -
 something executed for their side effects only. If you haven't used
 languages like Ruby or Lisp this might sound a bit strange, but if we go back
 to the previous section about `del`, we can observe that:

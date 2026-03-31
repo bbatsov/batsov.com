@@ -103,7 +103,7 @@ it should be). It's explicit, predictable, and takes almost no effort.
 
 As always, I've learned quite a bit about Vim by looking into this simple topic.
 That's probably the main reason I still bother to write such tutorial articles -- 
-they make me reinforce the knowledge I've just obtained and make ponder more than
+they make me reinforce the knowledge I've just obtained and make me ponder more than
 usual about the trade-offs between different ways to approach certain problems.
 
 I still use the autocommand approach myself -- old habits die hard -- but I

@@ -34,7 +34,7 @@ major modes for Emacs, but they didn't get very far:
 - [ocaml-ts-mode](https://github.com/dmitrig/ocaml-ts-mode) (first one, available in MELPA)
 - [ocaml-ts-mode](https://github.com/terrateamio/ocaml-ts-mode) (second one)
 
-Looking at the code of both modes, I inferred that the authors were probably knowledgable in
+Looking at the code of both modes, I inferred that the authors were probably knowledgeable in
 OCaml, but not very familiar with Emacs Lisp and Emacs major modes in general.
 For me it's the other way around, and that's what makes this a fun and interesting project for me:
 
@@ -78,7 +78,7 @@ If you're feeling adventurous you can easily install the package like this:
 
     M-x package-vc-install <RET> https://github.com/bbatsov/neocaml <RET>
 
-In Emacs 30 you can you `use-package` to both install the package from GitHub
+In Emacs 30 you can use `use-package` to both install the package from GitHub
 and configure it:
 
 ```emacs-lisp
@@ -104,6 +104,6 @@ Contributions, suggestions and feedback are most welcome. Keep hacking!
     than just major modes, so I prefer a more generic naming.
 
 [^2]: On a more serious note - there was never an `ocaml-mode`, so naming something `ocaml-ts-mode` is not
-    strictly needed. But I think an actual `ocaml-mode` should be blessed by the the maintainers of OCaml,
+    strictly needed. But I think an actual `ocaml-mode` should be blessed by the maintainers of OCaml,
     hosted in the primary GitHub org, and endorsed as a recommended way to program in OCaml with Emacs.
     Pretty tall order!

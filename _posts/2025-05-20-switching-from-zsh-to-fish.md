@@ -256,7 +256,7 @@ POSIX compatible and this might cause some issues.
 
 After some deliberation I've decided that it's probably best to just make it
 the default shell for my terminal emulator and this has worked pretty well in practice.
-I'm using Ghostty and I had to add the following to your config:
+I'm using Ghostty and I had to add the following to my config:
 
 ```ini
 command = /opt/homebrew/bin/fish

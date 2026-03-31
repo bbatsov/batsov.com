@@ -165,7 +165,7 @@ type Shape =
     | Circle of radius: float
     | Rectangle of width: float * height: float
 
-// Functing using pattern matching
+// Function using pattern matching
 let area shape =
     match shape with
     | Circle radius -> System.Math.PI * radius * radius
@@ -242,7 +242,7 @@ if you'd like to see a quick syntax reference.
 
 One thing that made a good impression to me is the focus of the language designers on
 making F# approachable to newcomers, by providing a lot of small quality of life improvements
-for them. Below are few examples, that probably don't mean much to you, but would mean something
+for them. Below are a few examples, that probably don't mean much to you, but would mean something
 to people familiar with OCaml:
 
 ``` fsharp
@@ -416,7 +416,7 @@ Other tools that should be on your radar are:
 
 ## Use Cases
 
-Given the depth and breath of .NET - I guess that sky is the limit for you!
+Given the depth and breadth of .NET - I guess that sky is the limit for you!
 
 Seems to me that F# will be a particularly good fit for data analysis and manipulation, because
 of features like [type providers](https://learn.microsoft.com/en-us/dotnet/fsharp/tutorials/type-providers/).
@@ -563,8 +563,8 @@ All in all - I don't feel qualified to comment much on the F# community at this 
 
 ## The Popularity Contest
 
-Depending on the type of person you are you may or may not care about a a programming language's
-"popularity". People often ask my why I spent a lot of time with languages that are unlikely to
+Depending on the type of person you are you may or may not care about a programming language's
+"popularity". People often ask me why I spent a lot of time with languages that are unlikely to
 ever result in job opportunities for me, e.g.:
 
 - Emacs Lisp
@@ -607,7 +607,7 @@ the languages started to diverge a bit, though.[^3]
 
 Creating a language that's independent from OCaml, of course, was something
 intended from the very beginning. That's also reflected in the decision
-to chose the name F#, even if early versions of the language were called "Caml.NET":
+to choose the name F#, even if early versions of the language were called "Caml.NET":
 
 > Although the first version of F# was initially presented as “Caml-for-.NET”,
 > in reality it was always a new language, designed for .NET from day 1. F# was
@@ -668,7 +668,7 @@ One weird thing I've noticed with F# projects is that they still use XML project
 manifests (`.fsproj`), where you have to list the source files manually in the order in
 which they should be compiled (to account for the dependencies between them). I
 am a bit shocked that the compiler can't handle the dependencies automatically,
-but I guess that's because in F# there's not direct mapping between source files
+but I guess that's because in F# there's no direct mapping between source files
 and modules. At any rate - I prefer the OCaml compilation process (and Dune) way
 more.
 

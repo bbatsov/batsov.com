@@ -25,9 +25,9 @@ let c = 3 in
 a + b + c
 ```
 
-This works, but seemed a bit too verbose to, especially given that in this case
+This works, but seemed a bit too verbose to me, especially given that in this case
 the bindings don't depend on one another (e.g. we don't compute `c` from `a`
-and `b`). Turned there's a slight variation of the `let` syntax for cases like
+and `b`). Turns out there's a slight variation of the `let` syntax for cases like
 this one:
 
 ``` ocaml
@@ -40,7 +40,7 @@ a + b + c
 let a = 1 and b = 2 and c = 3 in a + b + c
 ```
 
-Still a bit too verbose for my taste, but I definitely like it a more over
+Still a bit too verbose for my taste, but I definitely like it more over
 multiple `let ... in` expressions, as it reads (subjectively) better. As a
 bonus - this style of introducing bindings clearly shows that all the bindings
 we introduced are independent of each other, which reduces some of the mental

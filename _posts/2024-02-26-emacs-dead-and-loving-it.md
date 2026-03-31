@@ -58,7 +58,7 @@ Much of this happened in the last 5 years, which is pretty amazing for a dying e
 It amuses me how many people keep chasing after shiny and new things, even if they don't really need them.
 Emacs has covered all of my use-cases for so long that I don't even bother to upgrade to the new releases
 right away. I'm writing this article in Emacs 28, as I didn't really have much of an incentive to upgrade to Emacs 29,
-despite it packing a lot of improvements. Even if Emacs didn't add any few features for the next decade I'd be
+despite it packing a lot of improvements. Even if Emacs didn't add any new features for the next decade I'd be
 a pretty happy camper.[^4] Perhaps that's a reflection of my appreciation for minimalism, perhaps I've grown wiser with age,
 but I'm no longer equating "progress" with "more".
 

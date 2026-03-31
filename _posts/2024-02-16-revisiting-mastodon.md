@@ -19,9 +19,9 @@ founded by Jack Dorsey, even if it claims that this time things will be differen
 Anyways, I decided to give Mastodon another go. To make sure things go differently (better) this time around:
 
 - I read <https://mastodon.help/> (great resource for first-time Mastodon users)
-- I forwarded by accounts at `fosstodon.org` and `ruby.social` to [bbatsov@hachyderm.io](https://hachyderm.io/@bbatsov).[^1]
+- I forwarded my accounts at `fosstodon.org` and `ruby.social` to [bbatsov@hachyderm.io](https://hachyderm.io/@bbatsov).[^1]
 - I verified my identity
-- I followed a few interesting hastags (e.g. `#Clojure`, `#Ruby`, `#OCaml` and `#Emacs`)
+- I followed a few interesting hashtags (e.g. `#Clojure`, `#Ruby`, `#OCaml` and `#Emacs`)
 - I played with some alternative Mastodon clients (e.g. `Mona`)
 - I pinned Mastodon in my browser, so I wouldn't forget to check it from time to time
 

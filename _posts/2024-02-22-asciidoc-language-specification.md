@@ -59,7 +59,7 @@ AsciiDoctor had:
 * Markdown compatibility syntax with the exception of email-style quote blocks and thematic break variants
 * ;; as dlist marker (infinite depth of colons is permitted instead)
 * Half open callout list marker (e.g., `1>`)
-* $$ for inline passtrhough (will likely be repurposed as an inline stem shorthand instead)
+* $$ for inline passthrough (will likely be repurposed as an inline stem shorthand instead)
 * boxed attrlist on inline passthrough spans
 * indexterm2 inline macro (functionality will be folded into indexterm macro)
 * dsv table format

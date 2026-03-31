@@ -211,7 +211,7 @@ see there's nothing scary about it.[^3]
 
 That's all I have for you today. Feel free to share other `use-package` tips in the comments!
 
-[^1]: From my own `init.el` - after I all I told you I don't really care about the startup time. :D
+[^1]: From my own `init.el` - after all I told you I don't really care about the startup time. :D
 [^2]: I'll have to admit I don't even remember what `:preface` does.
 [^3]: You might also want to get wild with something like <https://github.com/emacsorphanage/macrostep>
 [^4]: Thanks to Andrey Listopadov for reminding me about this!

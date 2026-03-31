@@ -9,7 +9,7 @@ tags:
 
 It's been over 4 years since I last updated the look of my blog - in
 late 2021 I [switched to the popular at the time "Minimal Mistakes" theme]({% post_url 2021-11-01-switching-to-minimal-mistakes %}).
-It served we well, but like so many [Jekyll](https://jekyllrb.com/) themes it got abandoned in recent
+It served me well, but like so many [Jekyll](https://jekyllrb.com/) themes it got abandoned in recent
 years, so I've been shopping recently for a good actively-maintained alternative.
 
 After some research I've decided on [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) as the best option for my
@@ -29,11 +29,11 @@ blog was up and running. As a bonus Claude also:
 
 Good stuff!
 
-Obviously I could have the done the migration manually, as I've always done in the past,
+Obviously I could have done the migration manually, as I've always done in the past,
 but these days I'm quite bored doing mechanical work that doesn't require much thinking.
 This was the main reason why I procrastinated on this subject for so long and I think
 that such boring tasks for me are the most appealing use-cases for AI agents like Claude.
-If we spent less time on the things that we don't enjoying doing, this obviously
+If we spent less time on the things that we don't enjoy doing, this obviously
 leaves us with more time to spend on the things that we're actually passionate about.
 
 I'll never use AI to write blog posts, but I'm perfectly fine with delegating the maintenance

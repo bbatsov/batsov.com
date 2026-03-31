@@ -11,7 +11,7 @@ Many programming languages have a function for combining the elements of multipl
 zip [1, 2] ['a', 'b'] -- => [(1, 'a'), (2, 'b')]
 ```
 
-When I've started to [learn OCaml]({% post_url 2022-08-19-learning-ocaml %}) it took a me a while to find the matching function, as it was named differently - namely `combine`. Here's how it works for lists:
+When I've started to [learn OCaml]({% post_url 2022-08-19-learning-ocaml %}) it took me a while to find the matching function, as it was named differently - namely `combine`. Here's how it works for lists:
 
 ``` ocaml
 List.combine [1;2;3] [4;5;6];;
@@ -22,7 +22,7 @@ List.combine [1;2;3] [4;5;6;7];;
 Exception: Invalid_argument "List.combine".
 ```
 
-There's also `Array.combine`, which work identically for arrays:
+There's also `Array.combine`, which works identically for arrays:
 
 ``` ocaml
 Array.combine [|1;2;3|] [|4;5;6|];;
@@ -38,7 +38,7 @@ CCList.combine_shortest [1;2;3] [4;5;6;7];;
 
 There's also `CCList.combine`, which is basically a more efficient version of `List.combine` from the standard library.
 
-The popular [Base](https://opensource.janestreet.com/base/) library has similar functions to the those in the standard library, but there they are named `List.zip`, `List.zip_exn`, `Array.zip` and `Array.zip_exn`. Both of the require the lists/arrays to be of the same length, but the first returns an error type and the second raises an exception.
+The popular [Base](https://opensource.janestreet.com/base/) library has similar functions to the those in the standard library, but there they are named `List.zip`, `List.zip_exn`, `Array.zip` and `Array.zip_exn`. Both of them require the lists/arrays to be of the same length, but the first returns an error type and the second raises an exception.
 
 The reverse operation of zipping/combining is named `split` in the standard library:
 

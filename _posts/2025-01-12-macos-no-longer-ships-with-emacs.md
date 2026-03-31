@@ -47,4 +47,4 @@ export EDITOR=mg
 
 That's all I have for you today. Keep hacking!
 
-[^1]: For the same reason macOS switched from Bash to Zsh in the very same macOS 10.15 ("Catalina"). And similarly to the situation with Emacs - for a very long time Apple were shipping an ancient version of Bash with macOS, the last one that was released under GPL v2. Obviously almost noone was willing to use it.
+[^1]: For the same reason macOS switched from Bash to Zsh in the very same macOS 10.15 ("Catalina"). And similarly to the situation with Emacs - for a very long time Apple were shipping an ancient version of Bash with macOS, the last one that was released under GPL v2. Obviously almost no one was willing to use it.

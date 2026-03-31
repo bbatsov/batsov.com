@@ -10,7 +10,7 @@ Vim. It takes you from Insert mode to Normal mode and it
 also serves to interrupt operations in progress in Vim.
 You'll be using it a lot!
 
-Vim has a very long [history](). It's a product of a different era
+Vim has a very long [history](https://pikuma.com/blog/origins-of-vim-text-editor). It's a product of a different era
 where the keyboard layouts were quite different as well. Below
 is a picture of the legendary ADM-3A, which Bill Joy famously used
 when he created vi:
@@ -55,7 +55,7 @@ inoremap kj <ESC>
 
 Those certainly work well in English, but with other languages your mileage will vary.
 On top of this - in other contexts you'll still need to press ESC, Control+[ or Control+c.
-I kind of like an uniform approach to the Escape problem.
+I kind of like a uniform approach to the Escape problem.
 
 ## Use a dual-function `Control` key
 
@@ -131,4 +131,4 @@ is the way to go.
 That's all I have for you today. Keep hacking!  
 
 [^1]: My recent purchase of the HHKB was part of my inspiration to play again with Vim. I think it's clear that the keyboard was designed with Vim users in mind.
-[^2]: My main issue with non-standard layouts is that I still have to use laptop keyboards and they keyboards of some colleagues/friends from time to time.
+[^2]: My main issue with non-standard layouts is that I still have to use laptop keyboards and the keyboards of some colleagues/friends from time to time.

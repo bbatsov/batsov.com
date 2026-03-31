@@ -11,7 +11,7 @@ tags:
 
 I came across the quote above a few days ago [on Twitter](https://twitter.com/paulg/status/1528288106734141440?s=20&t=Po9eE7B_TFkAXKs0s9OekQ) and it resonated extremely strongly with me. I've always felt that writing helped me crystallize my thoughts and ideas. Often while working on some article and re-reading it I'd change my perspective on something, do additional research, discover some new path that I'd like to explore.
 
-Paul Graham clearly feels the same way, as he added the following on subject:
+Paul Graham clearly feels the same way, as he added the following on the subject:
 
 > Writing about your ideas both exposes flaws in them and develops them further. Which means thinking without writing = having incorrect and incomplete ideas.
 >

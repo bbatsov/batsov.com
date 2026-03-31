@@ -8,7 +8,7 @@ tags:
 
 When I started to play with OCaml I was kind of surprised that there was no
 `id` (identity) function that was available out-of-box (in `Stdlib` module,
-that's auto-opened). A quick search lead me to the
+that's auto-opened). A quick search led me to the
 [Fun](https://ocaml.org/manual/5.3/api/Fun.html) module, which is part of the
 standard library and is nested under
 `Stdlib`. It was introduced in OCaml 4.08, alongside other
@@ -42,7 +42,7 @@ Let's go over them briefly:
   Composes two functions, applying the second function to the result of the
   first. Haskell and F# have special syntax for function composition, but that's
   not the case in OCaml. (although you can easily map this to some operator if
-  you wish to do so) Also, `compose` introduced a bit later than the other
+  you wish to do so) Also, `compose` was introduced a bit later than the other
   functions in the module - namely in OCaml 5.2.
 
 - **`Fun.flip`**
