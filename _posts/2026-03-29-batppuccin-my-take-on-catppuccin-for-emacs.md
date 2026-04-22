@@ -29,7 +29,7 @@ editors (Helix, Zed, VS Code) introduced me to
 drivers since then.
 
 Eventually, I ended up creating my own Emacs ports of both. I've already published
-[emacs-tokyo-themes](https://github.com/bbatsov/emacs-tokyo-themes),
+[Tokyo Night for Emacs](https://github.com/bbatsov/tokyo-night-emacs),
 and I'll write more about that one down the road. Today is all about Catppuccin.
 (and by this I totally mean Batppuccin!)
 
@@ -84,8 +84,8 @@ doom-modeline, treemacs, web-mode, and more. No placeholder colors.
 **Clean architecture.** Shared infrastructure in `batppuccin-themes.el`, thin
 wrapper files for each flavor, color override mechanism, configurable heading
 scaling. The same pattern I use in
-[zenburn-emacs](https://github.com/bbatsov/zenburn-emacs) and
-[emacs-tokyo-night-theme](https://github.com/bbatsov/emacs-tokyo-night-theme).
+[Zenburn](https://github.com/bbatsov/zenburn-emacs) and
+[Tokyo Night](https://github.com/bbatsov/tokyo-night-emacs).
 
 I didn't really re-invent anything here - I just created a theme in a way I'm
 comfortable with.
@@ -101,7 +101,7 @@ comfortable with.
 The easiest way to install it right now:
 
 ```emacs-lisp
-(use-package batppuccin-mocha-theme
+(use-package batppuccin
   :vc (:url "https://github.com/bbatsov/batppuccin-emacs" :rev :newest)
   :config
   (load-theme 'batppuccin-mocha t))
