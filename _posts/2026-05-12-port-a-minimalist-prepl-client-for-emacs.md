@@ -1,6 +1,6 @@
 ---
 title: 'Port: a minimalist prepl client for Emacs'
-date: 2026-05-12 10:00 +0300
+date: 2026-05-12 09:00 +0300
 tags:
 - Clojure
 - Emacs
