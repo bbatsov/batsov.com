@@ -9,8 +9,8 @@ tags:
 - Clojure
 ---
 
-> I think I'll take my REPL neat
-> My parens black and bed at three
+> I think I'll take my REPL neat <br>
+> My parens black and bed at three <br>
 > CIDER's too sweet for me...
 >
 > -- Bozier
