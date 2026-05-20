@@ -10,7 +10,7 @@ tags:
 ---
 
 > I think I'll take my REPL neat <br>
-> My parens black and bed at three <br>
+> My parens black and my bed at three <br>
 > CIDER's too sweet for me...
 >
 > -- Bozier
