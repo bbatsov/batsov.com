@@ -23,9 +23,9 @@ language-agnostic nREPL client.
 ## Why?
 
 For years I've been hearing some version of the same request: "could CIDER work
-with my non-Clojure nREPL server?". Babashka, Basilisp, NREPL.NET, even some
+with my non-Clojure nREPL server?". Babashka, Basilisp, nREPL-CLR, even some
 homegrown servers people built on top of nREPL for languages I'd never heard
-of. The answer was always the same kind of squishy "sort of, in theory, with
+of.[^1] The answer was always the same kind of squishy "sort of, in theory, with
 caveats", because while bare nREPL is genuinely language-agnostic, CIDER is
 not. CIDER was built for Clojure and assumes Clojure pretty much everywhere.
 
@@ -33,18 +33,17 @@ I always thought the right answer was "let's gradually make CIDER more
 language-agnostic." That's the kind of plan that sounds reasonable until
 you actually try it.
 
-The thing that pushed me over the edge was, oddly enough, building Port.
-Port is small, focused, and doesn't try to be CIDER. Working on it for a
-couple of weeks reminded me how productive it is to start from a clean
-slate when the new requirements don't match the assumptions baked into a
-mature codebase. Trying to retrofit CIDER into a language-agnostic shape
-would have meant fighting with every helper that ever assumed `clojure.repl`
-exists, every middleware contract `cider-nrepl` defines, every project-type
-heuristic that knows about `deps.edn` and `project.clj` and nothing else.
-A whole lot of "is the server Clojure, or is it the other thing?"
-branches. The Port experience reaffirmed that the right move for a
-genuinely different client is a *new project*, not a thousand cuts to an
-existing one.
+The thing that pushed me over the edge was, oddly enough, building Port.  Port
+is small, focused, and doesn't try to be CIDER. Working on it for a couple of
+weeks reminded me how (deceptively) productive it is to start from a clean slate
+when the new requirements don't match the assumptions baked into a mature
+codebase. Trying to retrofit CIDER into a language-agnostic shape would have
+meant fighting with every helper that ever assumed `clojure.repl` exists, every
+middleware contract `cider-nrepl` defines, every project-type heuristic that
+knows about `deps.edn` and `project.clj` and nothing else.  A whole lot of "is
+the server Clojure, or is it the other thing?"  branches. The Port experience
+reaffirmed that the right move for a genuinely different client is a *new
+project*, not a thousand cuts to an existing one.
 
 So `neat` was born. The name is short, says what it does (it's neat, both in
 the small-and-tidy sense and in the "no deps, no special assumptions, just the
@@ -164,7 +163,7 @@ But if you find yourself in one of these situations:
 - you write Clojure but you value minimalism and don't need the full
   CIDER feature set,
 - you're building an Emacs package that needs to talk nREPL and you
-  want a small, dependency-free library to build on,
+  want a small, dependency-free library to build on,[^2]
 
 then neat might be a better fit. It's small enough that you can read the
 whole thing in an afternoon, and the library/UI split (`neat-bencode` and
@@ -177,7 +176,7 @@ neat is part of a broader push I've been chewing on for a while now: making
 nREPL a healthy multi-language ecosystem rather than a Clojure-only protocol. That push has three legs:
 
 1. **An actual nREPL specification.** The [spec.nrepl.org](https://github.com/nrepl/spec.nrepl.org)
-   draft is the formal version of what today is "whatever nREPL the
+   draft is (will be) the formal version of what today is "whatever nREPL the
    project does".
 2. **Reference clients.** neat is one. The point of building a
    deliberately Clojure-free client is that it stress-tests the spec.
@@ -199,13 +198,17 @@ wanted to get the Emacs side moving.
 
 ## Thanks
 
-As always, big thanks to [Clojurists Together](https://www.clojuriststogether.org/)
-and everyone supporting my open source work. You make it possible for me to
-keep tweaking and improving CIDER, clj-refactor, and friends, and occasionally try something
-"neat". `neat` isn't replacing any of the existing Clojure tooling for Emacs. It's just
-another tool in the box for the people who want it.
+As always, big thanks to [Clojurists
+Together](https://www.clojuriststogether.org/) and everyone supporting my open
+source work. You make it possible for me to keep tweaking and improving CIDER,
+nREPL, clj-refactor, and friends, and occasionally try something "neat" on the
+side. `neat` isn't replacing any of the existing Clojure tooling for Emacs. It's
+just another tool in the box for the people who want it.
 
 Feedback, ideas, and contributions are most welcome over at the
 [issue tracker](https://github.com/nrepl/neat/issues).
 
 Keep hacking!
+
+[^1]: <https://github.com/clojure-emacs/cider/issues/3905>
+[^2]: For a long time I planned to extract CIDER's nREPL client code into a reusable package, but now that we have `neat` I probably will finally abandon this idea.
