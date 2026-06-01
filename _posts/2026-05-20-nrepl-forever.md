@@ -22,7 +22,7 @@ behind that idea, and some of them went and built tools to prove it.
 
 Now it's 2026 and we can take stock.
 
-## What the "hopeful" era looked like
+## Sky is the limit
 
 The pitch was good. Socket REPL is just *the* Clojure REPL exposed on a TCP
 port. prepl wraps it with a structured printer so the bytes coming back are
@@ -64,7 +64,7 @@ combination of socket REPL plus a thin self-installing protocol on top of it.
 You can find a fair number of "RIP nREPL" hot takes from that period if you go
 looking.
 
-## What actually happened
+## Reality Check
 
 I went and surveyed each of those projects recently while working on Port.
 The pattern is depressingly consistent:
@@ -179,7 +179,7 @@ Looking at where things ended up:
 Meanwhile prepl is, as best as I can tell, mostly a curiosity. It got me a
 side project I had fun with. It did not displace nREPL.
 
-## What I take from this
+## Epilogue
 
 The history of tooling protocols is full of cases where "purer", "simpler",
 or "more elegant" lost to "shipped, documented, and battle-tested." LSP
