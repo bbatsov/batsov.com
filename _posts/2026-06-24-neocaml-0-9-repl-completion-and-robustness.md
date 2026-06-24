@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Neocaml 0.9: A Better REPL, Completion, and More Robustness'
+title: 'Neocaml 0.9: A Better REPL, Dune/Opam Completion, and More Robustness'
 date: 2026-06-24 10:00 +0300
 tags:
 - OCaml
@@ -42,7 +42,7 @@ So, what's new:
 - **Send a phrase and step.** `C-c C-n` (`neocaml-repl-send-phrase-and-step`) sends
   the phrase at point to the REPL and moves on to the next one — perfect for walking
   through a file top to bottom while you experiment.
-- **`#require` from Emacs.** `neocaml-repl-require` loads a findlib package into the
+- **`#require` from Emacs.** `neocaml-repl-require` loads a `findlib` package into the
   running toplevel without you having to type the directive by hand.
 - **Restart on demand.** `neocaml-repl-restart` kills and restarts the toplevel when
   things get into a weird state.
@@ -99,7 +99,7 @@ just behave correctly:
   are ignored, and `compile-command` defaults to `dune build` in dune projects.
 
 There's more in there too — `ocamlformat` integration (`C-c C-f`), clickable URLs and
-bug references in comments, a font-lock level selector, and fleshed-out menus across
+bug references in comments, a font-lock level selector, and richer menus across
 the modes.
 
 ## OCaml 5.5 support, and the ABI 14 balancing act
@@ -134,7 +134,7 @@ core OCaml grammars.
 The catch with v0.25.0 is precisely that it generates an ABI 15 parser. Happily, the
 5.5 grammar didn't actually need any ABI 15 features — the bump rode along with the CLI
 upgrade — so an ABI 14 regeneration of the very same grammar is a drop-in. Big thanks
-to [314eter](https://github.com/314eter), the tree-sitter-ocaml maintainer, for cutting
+to [314eter](https://github.com/314eter), the `tree-sitter-ocaml` maintainer, for cutting
 a `v0.25.0-abi14` tag for exactly this purpose
 ([#141](https://github.com/tree-sitter/tree-sitter-ocaml/issues/141)). The one snag was
 that tagging normally triggers releases to NPM, crates.io, and PyPI, so I sent a small
@@ -149,12 +149,12 @@ If you're curious where neocaml is headed, I've started keeping a
 guiding principles (short version: tree-sitter first, lean on the LSP stack for
 `.ml`/`.mli`, and own the auxiliary modes that have no language server). The project
 also has a proper documentation site now at
-[bbatsov.github.io/neocaml](https://bbatsov.github.io/neocaml/), so there's a real
+[neocaml.org](https://neocaml.org), so there's a real
 home for the details beyond the README.
 
 ## Give it a Try
 
-As always — update from [MELPA](https://melpa.org/#/neocaml), kick the tires, and let
+As always — update from [MELPA](https://melpa.org/#/neocaml), play with it, and let
 me know how it goes. The full list of changes is in the
 [0.9.0 release notes](https://github.com/bbatsov/neocaml/releases/tag/v0.9.0). Bug
 reports, feature requests, and pull requests are all welcome on
