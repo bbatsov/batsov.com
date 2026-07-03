@@ -90,11 +90,14 @@ scaling. The same pattern I use in
 I didn't really re-invent anything here - I just created a theme in a way I'm
 comfortable with.
 
-> I'm not going to bother with screenshots here -- it looks like Catppuccin,
-> because it *is* Catppuccin. There are small visual differences if you know where
-> to look (headings, variables, a few face tweaks), but most people wouldn't
-> notice them side by side. If you've seen Catppuccin, you know what to expect.
-{: .prompt-info }
+Here's what the four flavors look like, all showing the same Clojure snippet:
+
+![The four Batppuccin flavors](/assets/img/batppuccin-flavors.png)
+
+It looks like Catppuccin, because it *is* Catppuccin. There are small visual
+differences if you know where to look (headings, variables, a few face tweaks),
+but most people wouldn't notice them side by side. If you've seen Catppuccin, you
+know what to expect.
 
 ## Installation
 
