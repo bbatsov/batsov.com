@@ -32,17 +32,9 @@ Emacs. (see the [0.9 post]({% post_url 2026-06-24-neocaml-0-9-repl-completion-an
 for the whole ABI saga) Huge thanks to both of them!
 
 A grammar that parses the code is only half of the job, though. Here's a bit of
-OxCaml:
+OxCaml, the way neocaml shows it:
 
-```ocaml
-type point : immutable_data = { x : float; y : float }
-
-type vec = #{ dx : float#; dy : float# }
-
-let length (xs @ local) = List.length xs
-
-let make () : int list @ local = exclave_ [ 1; 2; 3 ]
-```
+![OxCaml code with kinds, unboxed types and literals, modes, stack allocation, an immutable array and a comprehension, highlighted by neocaml](/assets/img/neocaml-oxcaml.png)
 
 neocaml now highlights and indents all of this. The new keywords (`stack_`,
 `exclave_`, `local_`, `global_`, `borrow_` and `kind_`), modes and modalities,
@@ -119,22 +111,27 @@ you save.
 
 ## odoc and doc comments
 
-The third big theme is documentation. A few months ago [mlemerre][mlemerre]
+The third big theme is documentation. A few months ago [Matthieu Lemerre][mlemerre]
 suggested ([#60][issue-60]) that neocaml should render the `ocamldoc` markup in
 comments, instead of showing it as a soup of braces. I loved the idea, and in
 0.11 doc comments finally look like documentation - `{b bold}` is bold, `{i
 italic}` is italic, `[code]`, `{[ ... ]}` and `{@ocaml[ ... ]}` are shown as
 code, and `{!references}` and tags like `@param` get faces of their own. This
 is the new `doc-markup` font-lock feature, and it's enabled at the default
-font-lock level.
+font-lock level. Here's how the doc comments in an interface file look now:
+
+![Doc comments in an OCaml interface file, with bold and italic text, inline code, a code block, references and @param tags rendered by neocaml](/assets/img/neocaml-doc-comments.png)
 
 Tim also contributed `neocaml-odoc-mode` ([#46][pr-46]) for [`odoc`][odoc]'s
 standalone `.mld` documentation pages, built on Tim's own [Tree-sitter grammar
 for `odoc`][odoc-grammar]. You get font-lock for headings, inline markup,
 references, links, tags, lists and tables, plus indentation and imenu. On
 Emacs 30+ the code in `{@ocaml[...]}`, `{@dune[...]}` and `{@opam[...]}` blocks
-is highlighted as well, using the grammars for those languages. Run `M-x
-neocaml-odoc-install-grammar` to get started, and check out the
+is highlighted as well, using the grammars for those languages:
+
+![An odoc .mld page in neocaml-odoc-mode, with headings, inline markup, references and highlighted dune and OCaml code blocks](/assets/img/neocaml-odoc-mode.png)
+
+Run `M-x neocaml-odoc-install-grammar` to get started, and check out the
 [docs][odoc-docs] for more.
 
 While I was at it, I also fixed `M-q` and `M-j` in comments. Embarrassingly,
@@ -157,6 +154,10 @@ think you'll like:
 - each `dune` project in a monorepo gets its own REPL
 - `neocaml-format-buffer` replaces only the text that changed, so point and
   the window positions stay put
+
+Here's the REPL highlighting in action:
+
+![An OCaml file and neocaml's REPL below it, with the toplevel's responses highlighted like regular OCaml code](/assets/img/neocaml-repl-output.png)
 
 ## Upgrading
 
